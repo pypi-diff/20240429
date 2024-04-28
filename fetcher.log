@@ -1,0 +1,33 @@
+[2024-04-29 00:01:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971153]
+[2024-04-29 00:02:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 00:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbmaster
+[2024-04-29 00:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oresat-configs
+[2024-04-29 00:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eventeditor-GPT
+[2024-04-29 00:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: orford
+[2024-04-29 00:02:00] INFO root fetch - processPackages [oresat-configs]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-29 00:02:00] INFO root fetch - processPackages [eventeditor-GPT]: New version: [1.3.8] Old Version: [1.0.1]
+[2024-04-29 00:02:01] INFO root fetch - processPackages [oresat-configs]: Downloading https://files.pythonhosted.org/packages/13/ee/13497f0a138df46bd3e640a0a4f2c1e07d88ca652a0ac259bab04e2e000d/oresat_configs-0.5.0.tar.gz
+[2024-04-29 00:02:01] INFO root fetch - processPackages [dbmaster]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-29 00:02:01] WARNING root fetch - processPackages [orford]: Skipping, unable to determine old version
+[2024-04-29 00:02:01] INFO root fetch - main [MainThread]: End processing [orford] error
+[2024-04-29 00:02:01] INFO root fetch - processPackages [eventeditor-GPT]: Downloading https://files.pythonhosted.org/packages/7e/c3/e388fe37f7f37f652c983ade83a7af7547230fe1c8c547d6f5a6796e2473/eventeditor-GPT-1.0.1.tar.gz
+[2024-04-29 00:02:01] INFO root fetch - processPackages [dbmaster]: Downloading https://files.pythonhosted.org/packages/c3/6e/a13f8ca272d3954ef103faae81a62c99889d4cfafe9eac833a205c7f227a/dbmaster-0.1.1-py3-none-any.whl
+[2024-04-29 00:02:01] INFO root fetch - processPackages [oresat-configs]: Downloading https://files.pythonhosted.org/packages/d2/12/d1e8837444157bff13a6cf49bf77845a6a2a0356bf069e51932c52f1d947/oresat_configs-0.6.0.tar.gz
+[2024-04-29 00:02:01] INFO root fetch - processPackages [eventeditor-GPT]: Downloading https://files.pythonhosted.org/packages/da/48/f5588b121857313b9b6b086dcd9cdc867db0d4d6684f630b3c8ea12682cb/eventeditor_GPT-1.3.8-py3-none-any.whl
+[2024-04-29 00:02:01] INFO root fetch - processPackages [oresat-configs]: executing diffoscope
+[2024-04-29 00:02:01] INFO root fetch - processPackages [oresat-configs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oresat_configs-0.5.0.tar.gz tmp/oresat_configs-0.6.0.tar.gz --markdown 20240429/o/oresat-configs/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-29 00:02:01] INFO root fetch - processPackages [eventeditor-GPT]: executing diffoscope
+[2024-04-29 00:02:01] INFO root fetch - processPackages [eventeditor-GPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventeditor-GPT-1.0.1.tar.gz tmp/eventeditor_GPT-1.3.8-py3-none-any.whl.zip --markdown 20240429/e/eventeditor-GPT/1.0.1-1.3.8/README.md --exclude *.pyd
+[2024-04-29 00:02:01] INFO root fetch - processPackages [dbmaster]: Downloading https://files.pythonhosted.org/packages/f7/cf/ca811432a08e7951e5dc4197ad61229694b367e897ce918e4db64ab78e25/dbmaster-0.2.0-py3-none-any.whl
+[2024-04-29 00:02:01] INFO root fetch - processPackages [dbmaster]: executing diffoscope
+[2024-04-29 00:02:01] INFO root fetch - processPackages [dbmaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbmaster-0.1.1-py3-none-any.whl.zip tmp/dbmaster-0.2.0-py3-none-any.whl.zip --markdown 20240429/d/dbmaster/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-04-29 00:02:02] INFO root fetch - processPackages [eventeditor-GPT]: Remove: archive file [/home/abi/fetcher/tmp/eventeditor-GPT-1.0.1.tar.gz]
+[2024-04-29 00:02:02] INFO root fetch - processPackages [eventeditor-GPT]: Remove: archive file [/home/abi/fetcher/tmp/eventeditor_GPT-1.3.8-py3-none-any.whl.zip]
+[2024-04-29 00:02:02] INFO root fetch - main [MainThread]: End processing [eventeditor-GPT]: success
+[2024-04-29 00:02:02] INFO root fetch - processPackages [dbmaster]: Remove: archive file [/home/abi/fetcher/tmp/dbmaster-0.1.1-py3-none-any.whl.zip]
+[2024-04-29 00:02:02] INFO root fetch - processPackages [dbmaster]: Remove: archive file [/home/abi/fetcher/tmp/dbmaster-0.2.0-py3-none-any.whl.zip]
+[2024-04-29 00:02:02] INFO root fetch - main [MainThread]: End processing [dbmaster]: success
+[2024-04-29 00:02:02] INFO root fetch - processPackages [oresat-configs]: Remove: archive file [/home/abi/fetcher/tmp/oresat_configs-0.5.0.tar.gz]
+[2024-04-29 00:02:02] INFO root fetch - processPackages [oresat-configs]: Remove: archive file [/home/abi/fetcher/tmp/oresat_configs-0.6.0.tar.gz]
+[2024-04-29 00:02:02] INFO root fetch - main [MainThread]: End processing [oresat-configs]: success
+[2024-04-29 00:02:02] INFO root fetch - main [MainThread]: Store serial: [22971166]
