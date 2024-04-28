@@ -177,3 +177,15 @@
 [2024-04-29 00:17:12] INFO root fetch - processPackages [sayd]: Remove: archive file [/home/abi/fetcher/tmp/sayd-1.2.9.tar.gz]
 [2024-04-29 00:17:12] INFO root fetch - main [MainThread]: End processing [sayd]: success
 [2024-04-29 00:17:12] INFO root fetch - main [MainThread]: Store serial: [22971258]
+[2024-04-29 00:19:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971258]
+[2024-04-29 00:19:21] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-29 00:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netsome
+[2024-04-29 00:19:21] INFO root fetch - processPackages [netsome]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-29 00:19:21] INFO root fetch - processPackages [netsome]: Downloading https://files.pythonhosted.org/packages/b6/68/34b1910e814a591d91823868460c838b3db8b5feddc0ca7777d4763054a1/netsome-0.3.5.tar.gz
+[2024-04-29 00:19:21] INFO root fetch - processPackages [netsome]: Downloading https://files.pythonhosted.org/packages/7d/d1/0894ff8534619d0fe2513e92b5c2395e140d070d943cc3ece44897de1914/netsome-0.3.6.tar.gz
+[2024-04-29 00:19:21] INFO root fetch - processPackages [netsome]: executing diffoscope
+[2024-04-29 00:19:21] INFO root fetch - processPackages [netsome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netsome-0.3.5.tar.gz tmp/netsome-0.3.6.tar.gz --markdown 20240429/n/netsome/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-04-29 00:19:22] INFO root fetch - processPackages [netsome]: Remove: archive file [/home/abi/fetcher/tmp/netsome-0.3.5.tar.gz]
+[2024-04-29 00:19:22] INFO root fetch - processPackages [netsome]: Remove: archive file [/home/abi/fetcher/tmp/netsome-0.3.6.tar.gz]
+[2024-04-29 00:19:22] INFO root fetch - main [MainThread]: End processing [netsome]: success
+[2024-04-29 00:19:22] INFO root fetch - main [MainThread]: Store serial: [22971261]
