@@ -934,3 +934,15 @@
 [2024-04-29 01:42:11] INFO root fetch - processPackages [cardex]: Remove: archive file [/home/abi/fetcher/tmp/cardex-0.2.0.dev9.tar.gz]
 [2024-04-29 01:42:11] INFO root fetch - main [MainThread]: End processing [cardex]: success
 [2024-04-29 01:42:11] INFO root fetch - main [MainThread]: Store serial: [22971584]
+[2024-04-29 01:44:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971584]
+[2024-04-29 01:44:20] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-29 01:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: notolog
+[2024-04-29 01:44:21] INFO root fetch - processPackages [notolog]: New version: [0.9.0b1] Old Version: [0.9.0b0]
+[2024-04-29 01:44:21] INFO root fetch - processPackages [notolog]: Downloading https://files.pythonhosted.org/packages/67/d1/bc3cd41276939ae694974abd3b973b3da4e66a39317c8134439332bb2f69/notolog-0.9.0b0.tar.gz
+[2024-04-29 01:44:21] INFO root fetch - processPackages [notolog]: Downloading https://files.pythonhosted.org/packages/51/26/e950f32988c906d548c482ea0a68ed648cd998b79a105ceb4957ebc84e45/notolog-0.9.0b1.tar.gz
+[2024-04-29 01:44:21] INFO root fetch - processPackages [notolog]: executing diffoscope
+[2024-04-29 01:44:21] INFO root fetch - processPackages [notolog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notolog-0.9.0b0.tar.gz tmp/notolog-0.9.0b1.tar.gz --markdown 20240429/n/notolog/0.9.0b0-0.9.0b1/README.md --exclude *.pyd
+[2024-04-29 01:44:22] INFO root fetch - processPackages [notolog]: Remove: archive file [/home/abi/fetcher/tmp/notolog-0.9.0b0.tar.gz]
+[2024-04-29 01:44:22] INFO root fetch - processPackages [notolog]: Remove: archive file [/home/abi/fetcher/tmp/notolog-0.9.0b1.tar.gz]
+[2024-04-29 01:44:22] INFO root fetch - main [MainThread]: End processing [notolog]: success
+[2024-04-29 01:44:22] INFO root fetch - main [MainThread]: Store serial: [22971587]
