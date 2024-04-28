@@ -946,3 +946,27 @@
 [2024-04-29 01:44:22] INFO root fetch - processPackages [notolog]: Remove: archive file [/home/abi/fetcher/tmp/notolog-0.9.0b1.tar.gz]
 [2024-04-29 01:44:22] INFO root fetch - main [MainThread]: End processing [notolog]: success
 [2024-04-29 01:44:22] INFO root fetch - main [MainThread]: Store serial: [22971587]
+[2024-04-29 01:46:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971587]
+[2024-04-29 01:46:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 01:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyontoenv
+[2024-04-29 01:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tracr-pypi
+[2024-04-29 01:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: authexchange
+[2024-04-29 01:46:32] INFO root fetch - processPackages [authexchange]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-04-29 01:46:32] INFO root fetch - processPackages [authexchange]: Downloading https://files.pythonhosted.org/packages/2a/43/13b362bcfbd9d626f124c37cb1acc88fe2f59ea03b56dae22ab2a9f4c4c6/authexchange-0.7.4.tar.gz
+[2024-04-29 01:46:32] WARNING root fetch - processPackages [tracr-pypi]: Skipping, unable to determine old version
+[2024-04-29 01:46:32] INFO root fetch - processPackages [pyontoenv]: New version: [0.1.5] Old Version: [0.1.4a6]
+[2024-04-29 01:46:32] INFO root fetch - main [MainThread]: End processing [tracr-pypi] error
+[2024-04-29 01:46:32] INFO root fetch - processPackages [pyontoenv]: Downloading https://files.pythonhosted.org/packages/25/3e/65001b44b9a4d2a47a34ae2c8dd5d883cab2d81053fa2fe4050b70cf4af9/pyontoenv-0.1.4a6.tar.gz
+[2024-04-29 01:46:32] INFO root fetch - processPackages [authexchange]: Downloading https://files.pythonhosted.org/packages/e8/76/15243c0448dff7d53654b2dda40c5cb014769a46f9c379744f7834526ae0/authexchange-0.7.5.tar.gz
+[2024-04-29 01:46:32] INFO root fetch - processPackages [authexchange]: executing diffoscope
+[2024-04-29 01:46:32] INFO root fetch - processPackages [authexchange]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authexchange-0.7.4.tar.gz tmp/authexchange-0.7.5.tar.gz --markdown 20240429/a/authexchange/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-04-29 01:46:32] INFO root fetch - processPackages [pyontoenv]: Downloading https://files.pythonhosted.org/packages/28/f8/2ef516f9a1e1c7b97597c1136f0187ce5c80ca64911ccba259e6035bb051/pyontoenv-0.1.5.tar.gz
+[2024-04-29 01:46:33] INFO root fetch - processPackages [pyontoenv]: executing diffoscope
+[2024-04-29 01:46:33] INFO root fetch - processPackages [pyontoenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyontoenv-0.1.4a6.tar.gz tmp/pyontoenv-0.1.5.tar.gz --markdown 20240429/p/pyontoenv/0.1.4a6-0.1.5/README.md --exclude *.pyd
+[2024-04-29 01:46:33] INFO root fetch - processPackages [authexchange]: Remove: archive file [/home/abi/fetcher/tmp/authexchange-0.7.4.tar.gz]
+[2024-04-29 01:46:33] INFO root fetch - processPackages [authexchange]: Remove: archive file [/home/abi/fetcher/tmp/authexchange-0.7.5.tar.gz]
+[2024-04-29 01:46:33] INFO root fetch - main [MainThread]: End processing [authexchange]: success
+[2024-04-29 01:46:34] INFO root fetch - processPackages [pyontoenv]: Remove: archive file [/home/abi/fetcher/tmp/pyontoenv-0.1.4a6.tar.gz]
+[2024-04-29 01:46:34] INFO root fetch - processPackages [pyontoenv]: Remove: archive file [/home/abi/fetcher/tmp/pyontoenv-0.1.5.tar.gz]
+[2024-04-29 01:46:34] INFO root fetch - main [MainThread]: End processing [pyontoenv]: success
+[2024-04-29 01:46:34] INFO root fetch - main [MainThread]: Store serial: [22971599]
