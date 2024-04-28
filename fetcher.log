@@ -1102,3 +1102,15 @@
 [2024-04-29 01:57:25] INFO root fetch - processPackages [mecha]: Remove: archive file [/home/abi/fetcher/tmp/mecha-0.94.0.tar.gz]
 [2024-04-29 01:57:25] INFO root fetch - main [MainThread]: End processing [mecha]: success
 [2024-04-29 01:57:25] INFO root fetch - main [MainThread]: Store serial: [22971655]
+[2024-04-29 01:59:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971655]
+[2024-04-29 01:59:33] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-29 01:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bambot
+[2024-04-29 01:59:33] INFO root fetch - processPackages [bambot]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-04-29 01:59:33] INFO root fetch - processPackages [bambot]: Downloading https://files.pythonhosted.org/packages/2a/95/67f467f3cd52343c021703e26f081a8951a72c379e6af82240de0d9cc520/bambot-0.2.1.tar.gz
+[2024-04-29 01:59:34] INFO root fetch - processPackages [bambot]: Downloading https://files.pythonhosted.org/packages/ae/8d/2b007ae5bc3602869e13650b779cd3af63eebc65282218beb6e0145563fe/bambot-0.3.0.tar.gz
+[2024-04-29 01:59:34] INFO root fetch - processPackages [bambot]: executing diffoscope
+[2024-04-29 01:59:34] INFO root fetch - processPackages [bambot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambot-0.2.1.tar.gz tmp/bambot-0.3.0.tar.gz --markdown 20240429/b/bambot/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-04-29 01:59:34] INFO root fetch - processPackages [bambot]: Remove: archive file [/home/abi/fetcher/tmp/bambot-0.2.1.tar.gz]
+[2024-04-29 01:59:34] INFO root fetch - processPackages [bambot]: Remove: archive file [/home/abi/fetcher/tmp/bambot-0.3.0.tar.gz]
+[2024-04-29 01:59:34] INFO root fetch - main [MainThread]: End processing [bambot]: success
+[2024-04-29 01:59:34] INFO root fetch - main [MainThread]: Store serial: [22971659]
