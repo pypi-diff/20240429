@@ -381,3 +381,33 @@
 [2024-04-29 00:38:58] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
 [2024-04-29 00:38:58] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
 [2024-04-29 00:38:58] INFO root fetch - main [MainThread]: Store serial: [22971344]
+[2024-04-29 00:41:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971344]
+[2024-04-29 00:41:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 00:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blastpipe
+[2024-04-29 00:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-structured-output
+[2024-04-29 00:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spleenseg
+[2024-04-29 00:41:07] INFO root fetch - processPackages [spleenseg]: New version: [1.2.4] Old Version: [1.2.2]
+[2024-04-29 00:41:07] INFO root fetch - processPackages [blastpipe]: New version: [2024.2.8] Old Version: [2024.2.7]
+[2024-04-29 00:41:07] INFO root fetch - processPackages [llm-structured-output]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 00:41:07] INFO root fetch - processPackages [blastpipe]: Downloading https://files.pythonhosted.org/packages/2c/a0/c1c7bbcd428a9f075a328fa38a4559b19bd63abc1068903204ba195363ab/blastpipe-2024.2.7.tar.gz
+[2024-04-29 00:41:07] INFO root fetch - processPackages [spleenseg]: Downloading https://files.pythonhosted.org/packages/32/4a/7e3c1055d139e970249b7739172a95675eca0b0396ad5a518afe8a0e048d/spleenseg-1.2.2.tar.gz
+[2024-04-29 00:41:07] INFO root fetch - processPackages [llm-structured-output]: Downloading https://files.pythonhosted.org/packages/23/58/a6fe6fd07d1ec5c2791f5a5db0ed3b196c60d87bd8e17cc0afa3bc420f68/llm_structured_output-0.0.8.tar.gz
+[2024-04-29 00:41:07] INFO root fetch - processPackages [spleenseg]: Downloading https://files.pythonhosted.org/packages/79/0b/9db236873e673eb503ed1ba14cb184cd4517c10956c612ba3657409cf04f/spleenseg-1.2.4.tar.gz
+[2024-04-29 00:41:08] INFO root fetch - processPackages [spleenseg]: executing diffoscope
+[2024-04-29 00:41:08] INFO root fetch - processPackages [spleenseg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spleenseg-1.2.2.tar.gz tmp/spleenseg-1.2.4.tar.gz --markdown 20240429/s/spleenseg/1.2.2-1.2.4/README.md --exclude *.pyd
+[2024-04-29 00:41:08] INFO root fetch - processPackages [blastpipe]: Downloading https://files.pythonhosted.org/packages/64/ea/1827560cfc89e7f57e99cef53d48dfe686e7704030475388f79f731334b5/blastpipe-2024.2.8.tar.gz
+[2024-04-29 00:41:08] INFO root fetch - processPackages [blastpipe]: executing diffoscope
+[2024-04-29 00:41:08] INFO root fetch - processPackages [blastpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blastpipe-2024.2.7.tar.gz tmp/blastpipe-2024.2.8.tar.gz --markdown 20240429/b/blastpipe/2024.2.7-2024.2.8/README.md --exclude *.pyd
+[2024-04-29 00:41:08] INFO root fetch - processPackages [llm-structured-output]: Downloading https://files.pythonhosted.org/packages/77/03/dc0e6c04dafdfdb4b262825150f7096497f03fe68be63f79635f7f47383a/llm_structured_output-0.0.9.tar.gz
+[2024-04-29 00:41:08] INFO root fetch - processPackages [llm-structured-output]: executing diffoscope
+[2024-04-29 00:41:08] INFO root fetch - processPackages [llm-structured-output]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_structured_output-0.0.8.tar.gz tmp/llm_structured_output-0.0.9.tar.gz --markdown 20240429/l/llm-structured-output/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 00:41:08] INFO root fetch - processPackages [spleenseg]: Remove: archive file [/home/abi/fetcher/tmp/spleenseg-1.2.2.tar.gz]
+[2024-04-29 00:41:08] INFO root fetch - processPackages [spleenseg]: Remove: archive file [/home/abi/fetcher/tmp/spleenseg-1.2.4.tar.gz]
+[2024-04-29 00:41:08] INFO root fetch - main [MainThread]: End processing [spleenseg]: success
+[2024-04-29 00:41:08] INFO root fetch - processPackages [llm-structured-output]: Remove: archive file [/home/abi/fetcher/tmp/llm_structured_output-0.0.8.tar.gz]
+[2024-04-29 00:41:08] INFO root fetch - processPackages [llm-structured-output]: Remove: archive file [/home/abi/fetcher/tmp/llm_structured_output-0.0.9.tar.gz]
+[2024-04-29 00:41:08] INFO root fetch - main [MainThread]: End processing [llm-structured-output]: success
+[2024-04-29 00:41:09] INFO root fetch - processPackages [blastpipe]: Remove: archive file [/home/abi/fetcher/tmp/blastpipe-2024.2.7.tar.gz]
+[2024-04-29 00:41:09] INFO root fetch - processPackages [blastpipe]: Remove: archive file [/home/abi/fetcher/tmp/blastpipe-2024.2.8.tar.gz]
+[2024-04-29 00:41:09] INFO root fetch - main [MainThread]: End processing [blastpipe]: success
+[2024-04-29 00:41:09] INFO root fetch - main [MainThread]: Store serial: [22971354]
