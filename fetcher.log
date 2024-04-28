@@ -1015,3 +1015,33 @@
 [2024-04-29 01:50:55] INFO root fetch - processPackages [vht]: Remove: archive file [/home/abi/fetcher/tmp/vht-0.3.69.tar.gz]
 [2024-04-29 01:50:55] INFO root fetch - main [MainThread]: End processing [vht]: success
 [2024-04-29 01:50:55] INFO root fetch - main [MainThread]: Store serial: [22971615]
+[2024-04-29 01:52:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971615]
+[2024-04-29 01:53:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 01:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qs-codec
+[2024-04-29 01:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cy-serial-bridge
+[2024-04-29 01:53:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: transformer-lens
+[2024-04-29 01:53:03] INFO root fetch - processPackages [transformer-lens]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-29 01:53:03] INFO root fetch - processPackages [cy-serial-bridge]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-29 01:53:03] INFO root fetch - processPackages [qs-codec]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-29 01:53:03] INFO root fetch - processPackages [transformer-lens]: Downloading https://files.pythonhosted.org/packages/ee/98/34a95a3d709102fbda95729813af98a34c1d5b24d1814d3fb0c005dff8a8/transformer_lens-1.9.0.tar.gz
+[2024-04-29 01:53:03] INFO root fetch - processPackages [qs-codec]: Downloading https://files.pythonhosted.org/packages/70/78/030f7dc0292bc8aa3b0269c605e11a2043f30a2885091174ef3a1c1bf123/qs_codec-0.1.4.tar.gz
+[2024-04-29 01:53:03] INFO root fetch - processPackages [cy-serial-bridge]: Downloading https://files.pythonhosted.org/packages/da/c6/7ba96c79b870563515c751f8f655fdcb5a76a01d4ab41313f37bc6cc648b/cy_serial_bridge-0.3.1.tar.gz
+[2024-04-29 01:53:04] INFO root fetch - processPackages [qs-codec]: Downloading https://files.pythonhosted.org/packages/42/6e/dffa0eb152289ef25b22334e16d2fa52d263f7053d558a0de8e9e26dde8e/qs_codec-0.1.5.tar.gz
+[2024-04-29 01:53:04] INFO root fetch - processPackages [cy-serial-bridge]: Downloading https://files.pythonhosted.org/packages/8f/0e/f3784fcbb641365d31a314fb4c19cbaed9aa6fbec3aa26bd123593f28121/cy_serial_bridge-0.3.2.tar.gz
+[2024-04-29 01:53:04] INFO root fetch - processPackages [qs-codec]: executing diffoscope
+[2024-04-29 01:53:04] INFO root fetch - processPackages [qs-codec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qs_codec-0.1.4.tar.gz tmp/qs_codec-0.1.5.tar.gz --markdown 20240429/q/qs-codec/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-29 01:53:04] INFO root fetch - processPackages [transformer-lens]: Downloading https://files.pythonhosted.org/packages/27/61/104cad9713b2865aedacc4171be2e94e7c1401485e3874ea135094d6916d/transformer_lens-1.9.1.tar.gz
+[2024-04-29 01:53:04] INFO root fetch - processPackages [cy-serial-bridge]: executing diffoscope
+[2024-04-29 01:53:04] INFO root fetch - processPackages [cy-serial-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cy_serial_bridge-0.3.1.tar.gz tmp/cy_serial_bridge-0.3.2.tar.gz --markdown 20240429/c/cy-serial-bridge/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-29 01:53:04] INFO root fetch - processPackages [transformer-lens]: executing diffoscope
+[2024-04-29 01:53:04] INFO root fetch - processPackages [transformer-lens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformer_lens-1.9.0.tar.gz tmp/transformer_lens-1.9.1.tar.gz --markdown 20240429/t/transformer-lens/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-29 01:53:05] INFO root fetch - processPackages [transformer-lens]: Remove: archive file [/home/abi/fetcher/tmp/transformer_lens-1.9.0.tar.gz]
+[2024-04-29 01:53:05] INFO root fetch - processPackages [transformer-lens]: Remove: archive file [/home/abi/fetcher/tmp/transformer_lens-1.9.1.tar.gz]
+[2024-04-29 01:53:05] INFO root fetch - main [MainThread]: End processing [transformer-lens]: success
+[2024-04-29 01:53:05] INFO root fetch - processPackages [cy-serial-bridge]: Remove: archive file [/home/abi/fetcher/tmp/cy_serial_bridge-0.3.1.tar.gz]
+[2024-04-29 01:53:05] INFO root fetch - processPackages [cy-serial-bridge]: Remove: archive file [/home/abi/fetcher/tmp/cy_serial_bridge-0.3.2.tar.gz]
+[2024-04-29 01:53:05] INFO root fetch - main [MainThread]: End processing [cy-serial-bridge]: success
+[2024-04-29 01:53:05] INFO root fetch - processPackages [qs-codec]: Remove: archive file [/home/abi/fetcher/tmp/qs_codec-0.1.4.tar.gz]
+[2024-04-29 01:53:05] INFO root fetch - processPackages [qs-codec]: Remove: archive file [/home/abi/fetcher/tmp/qs_codec-0.1.5.tar.gz]
+[2024-04-29 01:53:05] INFO root fetch - main [MainThread]: End processing [qs-codec]: success
+[2024-04-29 01:53:05] INFO root fetch - main [MainThread]: Store serial: [22971625]
