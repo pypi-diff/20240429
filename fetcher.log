@@ -564,3 +564,15 @@
 [2024-04-29 00:52:01] INFO root fetch - processPackages [IslandSheds]: Remove: archive file [/home/abi/fetcher/tmp/IslandSheds-0.0.15.tar.gz]
 [2024-04-29 00:52:01] INFO root fetch - main [MainThread]: End processing [IslandSheds]: success
 [2024-04-29 00:52:01] INFO root fetch - main [MainThread]: Store serial: [22971420]
+[2024-04-29 00:54:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971420]
+[2024-04-29 00:54:10] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-29 00:54:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zoltraak
+[2024-04-29 00:54:10] INFO root fetch - processPackages [zoltraak]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 00:54:10] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/06/9c/d65d421bf6b430d7ac28d3088f268c0039d2b66b6d35800b7531b8f54fbb/zoltraak-0.1.8.tar.gz
+[2024-04-29 00:54:10] INFO root fetch - processPackages [zoltraak]: Downloading https://files.pythonhosted.org/packages/1f/93/85a56a179b7ebc679c5ad02b221b5954c726a55fc3b490b8ce90a6919ccb/zoltraak-0.1.9.tar.gz
+[2024-04-29 00:54:10] INFO root fetch - processPackages [zoltraak]: executing diffoscope
+[2024-04-29 00:54:10] INFO root fetch - processPackages [zoltraak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoltraak-0.1.8.tar.gz tmp/zoltraak-0.1.9.tar.gz --markdown 20240429/z/zoltraak/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 00:54:11] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.8.tar.gz]
+[2024-04-29 00:54:11] INFO root fetch - processPackages [zoltraak]: Remove: archive file [/home/abi/fetcher/tmp/zoltraak-0.1.9.tar.gz]
+[2024-04-29 00:54:11] INFO root fetch - main [MainThread]: End processing [zoltraak]: success
+[2024-04-29 00:54:11] INFO root fetch - main [MainThread]: Store serial: [22971423]
