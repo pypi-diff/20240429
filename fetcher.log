@@ -707,3 +707,18 @@
 [2024-04-29 01:11:52] WARNING root fetch - processPackages [haulsrv]: Skipping, unable to determine old version
 [2024-04-29 01:11:52] INFO root fetch - main [MainThread]: End processing [haulsrv] error
 [2024-04-29 01:11:52] INFO root fetch - main [MainThread]: Store serial: [22971477]
+[2024-04-29 01:13:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971477]
+[2024-04-29 01:14:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-29 01:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coguard-cli
+[2024-04-29 01:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyke-build
+[2024-04-29 01:14:00] INFO root fetch - processPackages [coguard-cli]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-29 01:14:00] WARNING root fetch - processPackages [pyke-build]: Skipping, unable to determine old version
+[2024-04-29 01:14:00] INFO root fetch - main [MainThread]: End processing [pyke-build] error
+[2024-04-29 01:14:01] INFO root fetch - processPackages [coguard-cli]: Downloading https://files.pythonhosted.org/packages/b8/73/d9cba4d8c7d0f8c97547575fe2a6b760566e5cc0331c1e7ca04b0f494d8a/coguard-cli-0.2.8.tar.gz
+[2024-04-29 01:14:01] INFO root fetch - processPackages [coguard-cli]: Downloading https://files.pythonhosted.org/packages/f1/d5/774d6c77526935394608b2fcb80ea9eabb52f7db94ff28edebe5ba23721e/coguard-cli-0.2.9.tar.gz
+[2024-04-29 01:14:01] INFO root fetch - processPackages [coguard-cli]: executing diffoscope
+[2024-04-29 01:14:01] INFO root fetch - processPackages [coguard-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coguard-cli-0.2.8.tar.gz tmp/coguard-cli-0.2.9.tar.gz --markdown 20240429/c/coguard-cli/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-29 01:14:02] INFO root fetch - processPackages [coguard-cli]: Remove: archive file [/home/abi/fetcher/tmp/coguard-cli-0.2.8.tar.gz]
+[2024-04-29 01:14:02] INFO root fetch - processPackages [coguard-cli]: Remove: archive file [/home/abi/fetcher/tmp/coguard-cli-0.2.9.tar.gz]
+[2024-04-29 01:14:02] INFO root fetch - main [MainThread]: End processing [coguard-cli]: success
+[2024-04-29 01:14:02] INFO root fetch - main [MainThread]: Store serial: [22971486]
