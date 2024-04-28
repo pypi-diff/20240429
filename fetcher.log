@@ -31,3 +31,9 @@
 [2024-04-29 00:02:02] INFO root fetch - processPackages [oresat-configs]: Remove: archive file [/home/abi/fetcher/tmp/oresat_configs-0.6.0.tar.gz]
 [2024-04-29 00:02:02] INFO root fetch - main [MainThread]: End processing [oresat-configs]: success
 [2024-04-29 00:02:02] INFO root fetch - main [MainThread]: Store serial: [22971166]
+[2024-04-29 00:04:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971166]
+[2024-04-29 00:04:10] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-29 00:04:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prophetverse
+[2024-04-29 00:04:11] WARNING root fetch - processPackages [prophetverse]: Skipping, unable to determine old version
+[2024-04-29 00:04:11] INFO root fetch - main [MainThread]: End processing [prophetverse] error
+[2024-04-29 00:04:11] INFO root fetch - main [MainThread]: Store serial: [22971171]
