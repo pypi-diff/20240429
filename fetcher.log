@@ -722,3 +722,32 @@
 [2024-04-29 01:14:02] INFO root fetch - processPackages [coguard-cli]: Remove: archive file [/home/abi/fetcher/tmp/coguard-cli-0.2.9.tar.gz]
 [2024-04-29 01:14:02] INFO root fetch - main [MainThread]: End processing [coguard-cli]: success
 [2024-04-29 01:14:02] INFO root fetch - main [MainThread]: Store serial: [22971486]
+[2024-04-29 01:16:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971486]
+[2024-04-29 01:16:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 01:16:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: columnq-cli
+[2024-04-29 01:16:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: total-connect-client
+[2024-04-29 01:16:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: historicaldates
+[2024-04-29 01:16:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dsws-client
+[2024-04-29 01:16:11] INFO root fetch - processPackages [columnq-cli]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-29 01:16:11] INFO root fetch - processPackages [dsws-client]: New version: [1.0.0] Old Version: [0.2.3]
+[2024-04-29 01:16:11] WARNING root fetch - processPackages [historicaldates]: Skipping, unable to determine old version
+[2024-04-29 01:16:11] INFO root fetch - main [MainThread]: End processing [historicaldates] error
+[2024-04-29 01:16:11] INFO root fetch - processPackages [total-connect-client]: New version: [2024.4] Old Version: [2023.7]
+[2024-04-29 01:16:11] INFO root fetch - processPackages [columnq-cli]: Downloading https://files.pythonhosted.org/packages/f3/de/1b3f07dce4ff390f9cee077d2d93bfb809d8e077792c9f4afa4d314409d7/columnq_cli-0.4.0-py3-none-win_amd64.whl
+[2024-04-29 01:16:11] INFO root fetch - processPackages [dsws-client]: Downloading https://files.pythonhosted.org/packages/cd/81/8b2156328a490aca8914d603b527cfda05cd0800d2be16eda7d576984d67/dsws_client-0.2.3.tar.gz
+[2024-04-29 01:16:11] INFO root fetch - processPackages [total-connect-client]: Downloading https://files.pythonhosted.org/packages/26/53/f5666774843ab539ebae860eb63b168b822700da03e0702a4f76283aa30f/total_connect_client-2023.7.tar.gz
+[2024-04-29 01:16:11] WARNING root fetch - processPackages [columnq-cli]: Skipping package: exceeds size limit 16239499>=10485760
+[2024-04-29 01:16:11] INFO root fetch - main [MainThread]: End processing [columnq-cli] error
+[2024-04-29 01:16:11] INFO root fetch - processPackages [dsws-client]: Downloading https://files.pythonhosted.org/packages/73/ec/d4d13f74da03d8087e3cb167e72782dda118dddf68346e603ab60b8bb05d/dsws_client-1.0.0.tar.gz
+[2024-04-29 01:16:11] INFO root fetch - processPackages [dsws-client]: executing diffoscope
+[2024-04-29 01:16:11] INFO root fetch - processPackages [dsws-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsws_client-0.2.3.tar.gz tmp/dsws_client-1.0.0.tar.gz --markdown 20240429/d/dsws-client/0.2.3-1.0.0/README.md --exclude *.pyd
+[2024-04-29 01:16:12] INFO root fetch - processPackages [total-connect-client]: Downloading https://files.pythonhosted.org/packages/be/f3/edafcf7d60fdfca62be6764ad3c01a79d5cad228c477959ad7597a34e76e/total_connect_client-2024.4.tar.gz
+[2024-04-29 01:16:12] INFO root fetch - processPackages [total-connect-client]: executing diffoscope
+[2024-04-29 01:16:12] INFO root fetch - processPackages [total-connect-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/total_connect_client-2023.7.tar.gz tmp/total_connect_client-2024.4.tar.gz --markdown 20240429/t/total-connect-client/2023.7-2024.4/README.md --exclude *.pyd
+[2024-04-29 01:16:12] INFO root fetch - processPackages [dsws-client]: Remove: archive file [/home/abi/fetcher/tmp/dsws_client-0.2.3.tar.gz]
+[2024-04-29 01:16:12] INFO root fetch - processPackages [dsws-client]: Remove: archive file [/home/abi/fetcher/tmp/dsws_client-1.0.0.tar.gz]
+[2024-04-29 01:16:12] INFO root fetch - main [MainThread]: End processing [dsws-client]: success
+[2024-04-29 01:16:12] INFO root fetch - processPackages [total-connect-client]: Remove: archive file [/home/abi/fetcher/tmp/total_connect_client-2023.7.tar.gz]
+[2024-04-29 01:16:12] INFO root fetch - processPackages [total-connect-client]: Remove: archive file [/home/abi/fetcher/tmp/total_connect_client-2024.4.tar.gz]
+[2024-04-29 01:16:12] INFO root fetch - main [MainThread]: End processing [total-connect-client]: success
+[2024-04-29 01:16:12] INFO root fetch - main [MainThread]: Store serial: [22971501]
