@@ -213,3 +213,27 @@
 [2024-04-29 00:23:42] INFO root fetch - processPackages [pssr]: Remove: archive file [/home/abi/fetcher/tmp/pssr-1.1.1.tar.gz]
 [2024-04-29 00:23:42] INFO root fetch - main [MainThread]: End processing [pssr]: success
 [2024-04-29 00:23:42] INFO root fetch - main [MainThread]: Store serial: [22971267]
+[2024-04-29 00:25:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971267]
+[2024-04-29 00:25:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 00:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: greyhorse-renders
+[2024-04-29 00:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fasttemplate
+[2024-04-29 00:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autopipeline
+[2024-04-29 00:25:51] WARNING root fetch - processPackages [greyhorse-renders]: Skipping, unable to determine old version
+[2024-04-29 00:25:51] INFO root fetch - main [MainThread]: End processing [greyhorse-renders] error
+[2024-04-29 00:25:51] INFO root fetch - processPackages [fasttemplate]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-29 00:25:51] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-29 00:25:51] INFO root fetch - processPackages [fasttemplate]: Downloading https://files.pythonhosted.org/packages/37/f8/b3f0ab50019fa50c1893bc999cc9c1ab5ac9efdc209c8d220e5fc0d044fd/fasttemplate-0.0.1.tar.gz
+[2024-04-29 00:25:51] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-04-29 00:25:51] INFO root fetch - processPackages [fasttemplate]: Downloading https://files.pythonhosted.org/packages/f6/07/d51eabbd12b471ee387a8d5047e28cee1c3b549de65fc149c54b483d61de/fasttemplate-0.0.2.tar.gz
+[2024-04-29 00:25:51] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-04-29 00:25:51] INFO root fetch - processPackages [fasttemplate]: executing diffoscope
+[2024-04-29 00:25:51] INFO root fetch - processPackages [fasttemplate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fasttemplate-0.0.1.tar.gz tmp/fasttemplate-0.0.2.tar.gz --markdown 20240429/f/fasttemplate/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-29 00:25:51] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-04-29 00:25:51] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240429/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-29 00:25:52] INFO root fetch - processPackages [fasttemplate]: Remove: archive file [/home/abi/fetcher/tmp/fasttemplate-0.0.1.tar.gz]
+[2024-04-29 00:25:52] INFO root fetch - processPackages [fasttemplate]: Remove: archive file [/home/abi/fetcher/tmp/fasttemplate-0.0.2.tar.gz]
+[2024-04-29 00:25:52] INFO root fetch - main [MainThread]: End processing [fasttemplate]: success
+[2024-04-29 00:25:52] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-04-29 00:25:52] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-04-29 00:25:52] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-04-29 00:25:52] INFO root fetch - main [MainThread]: Store serial: [22971281]
