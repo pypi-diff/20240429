@@ -543,3 +543,24 @@
 [2024-04-29 00:49:50] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
 [2024-04-29 00:49:50] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
 [2024-04-29 00:49:50] INFO root fetch - main [MainThread]: Store serial: [22971415]
+[2024-04-29 00:51:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971415]
+[2024-04-29 00:52:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-29 00:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ex-cd
+[2024-04-29 00:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: IslandSheds
+[2024-04-29 00:52:00] INFO root fetch - processPackages [ex-cd]: New version: [1.9.4] Old Version: [1.9.3]
+[2024-04-29 00:52:00] INFO root fetch - processPackages [IslandSheds]: New version: [0.0.15] Old Version: [0.0.14]
+[2024-04-29 00:52:00] INFO root fetch - processPackages [ex-cd]: Downloading https://files.pythonhosted.org/packages/7a/ae/343cb345397b334a6d65c7ada5e706a763683d89aa5e9f7424bc8e9be9b4/ex_cd-1.9.3.tar.gz
+[2024-04-29 00:52:00] INFO root fetch - processPackages [IslandSheds]: Downloading https://files.pythonhosted.org/packages/c7/da/e2ed85a62befa7991e8d9d89e4c05c8517c90eb72d8b299300ceb8a29dcd/IslandSheds-0.0.14.tar.gz
+[2024-04-29 00:52:00] INFO root fetch - processPackages [ex-cd]: Downloading https://files.pythonhosted.org/packages/fe/a7/907e1f4930a5e56cb16271b81480a86740c2521ac86bde937b3000441ac1/ex_cd-1.9.4.tar.gz
+[2024-04-29 00:52:00] INFO root fetch - processPackages [ex-cd]: executing diffoscope
+[2024-04-29 00:52:00] INFO root fetch - processPackages [ex-cd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ex_cd-1.9.3.tar.gz tmp/ex_cd-1.9.4.tar.gz --markdown 20240429/e/ex-cd/1.9.3-1.9.4/README.md --exclude *.pyd
+[2024-04-29 00:52:00] INFO root fetch - processPackages [IslandSheds]: Downloading https://files.pythonhosted.org/packages/53/aa/c55b766b7fa3bdff389ec24b820b2e013092900a65c63848729d55e3bf80/IslandSheds-0.0.15.tar.gz
+[2024-04-29 00:52:01] INFO root fetch - processPackages [IslandSheds]: executing diffoscope
+[2024-04-29 00:52:01] INFO root fetch - processPackages [IslandSheds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IslandSheds-0.0.14.tar.gz tmp/IslandSheds-0.0.15.tar.gz --markdown 20240429/I/IslandSheds/0.0.14-0.0.15/README.md --exclude *.pyd
+[2024-04-29 00:52:01] INFO root fetch - processPackages [ex-cd]: Remove: archive file [/home/abi/fetcher/tmp/ex_cd-1.9.3.tar.gz]
+[2024-04-29 00:52:01] INFO root fetch - processPackages [ex-cd]: Remove: archive file [/home/abi/fetcher/tmp/ex_cd-1.9.4.tar.gz]
+[2024-04-29 00:52:01] INFO root fetch - main [MainThread]: End processing [ex-cd]: success
+[2024-04-29 00:52:01] INFO root fetch - processPackages [IslandSheds]: Remove: archive file [/home/abi/fetcher/tmp/IslandSheds-0.0.14.tar.gz]
+[2024-04-29 00:52:01] INFO root fetch - processPackages [IslandSheds]: Remove: archive file [/home/abi/fetcher/tmp/IslandSheds-0.0.15.tar.gz]
+[2024-04-29 00:52:01] INFO root fetch - main [MainThread]: End processing [IslandSheds]: success
+[2024-04-29 00:52:01] INFO root fetch - main [MainThread]: Store serial: [22971420]
