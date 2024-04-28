@@ -201,3 +201,15 @@
 [2024-04-29 00:21:32] INFO root fetch - processPackages [oresat-c3]: Remove: archive file [/home/abi/fetcher/tmp/oresat_c3-0.3.0.tar.gz]
 [2024-04-29 00:21:32] INFO root fetch - main [MainThread]: End processing [oresat-c3]: success
 [2024-04-29 00:21:32] INFO root fetch - main [MainThread]: Store serial: [22971264]
+[2024-04-29 00:23:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971264]
+[2024-04-29 00:23:40] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-29 00:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pssr
+[2024-04-29 00:23:41] INFO root fetch - processPackages [pssr]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-29 00:23:41] INFO root fetch - processPackages [pssr]: Downloading https://files.pythonhosted.org/packages/e4/d6/13b29ee38c0cf750ee17252c3fe038f52ae1485974343d6125b7a952829a/pssr-1.1.0.tar.gz
+[2024-04-29 00:23:41] INFO root fetch - processPackages [pssr]: Downloading https://files.pythonhosted.org/packages/72/c9/89cb28b528d2d1e7f8657c6ad42d8deb997ab0aef08680a52396e9811ad6/pssr-1.1.1.tar.gz
+[2024-04-29 00:23:41] INFO root fetch - processPackages [pssr]: executing diffoscope
+[2024-04-29 00:23:41] INFO root fetch - processPackages [pssr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pssr-1.1.0.tar.gz tmp/pssr-1.1.1.tar.gz --markdown 20240429/p/pssr/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-29 00:23:42] INFO root fetch - processPackages [pssr]: Remove: archive file [/home/abi/fetcher/tmp/pssr-1.1.0.tar.gz]
+[2024-04-29 00:23:42] INFO root fetch - processPackages [pssr]: Remove: archive file [/home/abi/fetcher/tmp/pssr-1.1.1.tar.gz]
+[2024-04-29 00:23:42] INFO root fetch - main [MainThread]: End processing [pssr]: success
+[2024-04-29 00:23:42] INFO root fetch - main [MainThread]: Store serial: [22971267]
