@@ -683,3 +683,21 @@
 [2024-04-29 01:07:33] WARNING root fetch - processPackages [AI-envs]: Skipping, unable to determine old version
 [2024-04-29 01:07:33] INFO root fetch - main [MainThread]: End processing [AI-envs] error
 [2024-04-29 01:07:33] INFO root fetch - main [MainThread]: Store serial: [22971460]
+[2024-04-29 01:09:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971460]
+[2024-04-29 01:09:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 01:09:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vscode-tqdm
+[2024-04-29 01:09:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: notolog
+[2024-04-29 01:09:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odk-tools
+[2024-04-29 01:09:43] INFO root fetch - processPackages [odk-tools]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-29 01:09:43] INFO root fetch - processPackages [odk-tools]: Downloading https://files.pythonhosted.org/packages/b3/9f/b18896f99889fbb236c43d6c958526730711accfe3b1fc5e02354b202222/odk_tools-0.1.3.tar.gz
+[2024-04-29 01:09:43] WARNING root fetch - processPackages [notolog]: Skipping, unable to determine old version
+[2024-04-29 01:09:43] INFO root fetch - main [MainThread]: End processing [notolog] error
+[2024-04-29 01:09:43] WARNING root fetch - processPackages [vscode-tqdm]: Skipping, unable to determine old version
+[2024-04-29 01:09:43] INFO root fetch - main [MainThread]: End processing [vscode-tqdm] error
+[2024-04-29 01:09:43] INFO root fetch - processPackages [odk-tools]: Downloading https://files.pythonhosted.org/packages/2e/f4/14bfff81f0f46d94e3d4bbdf3cf11f88bbc878a40602776f7b0cedd38c15/odk_tools-0.1.4.tar.gz
+[2024-04-29 01:09:43] INFO root fetch - processPackages [odk-tools]: executing diffoscope
+[2024-04-29 01:09:43] INFO root fetch - processPackages [odk-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odk_tools-0.1.3.tar.gz tmp/odk_tools-0.1.4.tar.gz --markdown 20240429/o/odk-tools/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-29 01:09:43] INFO root fetch - processPackages [odk-tools]: Remove: archive file [/home/abi/fetcher/tmp/odk_tools-0.1.3.tar.gz]
+[2024-04-29 01:09:43] INFO root fetch - processPackages [odk-tools]: Remove: archive file [/home/abi/fetcher/tmp/odk_tools-0.1.4.tar.gz]
+[2024-04-29 01:09:43] INFO root fetch - main [MainThread]: End processing [odk-tools]: success
+[2024-04-29 01:09:43] INFO root fetch - main [MainThread]: Store serial: [22971473]
