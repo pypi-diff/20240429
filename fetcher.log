@@ -820,3 +820,15 @@
 [2024-04-29 01:29:05] INFO root fetch - processPackages [spanking]: Remove: archive file [/home/abi/fetcher/tmp/spanking-0.1.2.tar.gz]
 [2024-04-29 01:29:05] INFO root fetch - main [MainThread]: End processing [spanking]: success
 [2024-04-29 01:29:05] INFO root fetch - main [MainThread]: Store serial: [22971544]
+[2024-04-29 01:31:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971544]
+[2024-04-29 01:31:13] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-29 01:31:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypomes-logging
+[2024-04-29 01:31:13] INFO root fetch - processPackages [pypomes-logging]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-29 01:31:13] INFO root fetch - processPackages [pypomes-logging]: Downloading https://files.pythonhosted.org/packages/35/ad/0da1c4452aa831ca65b91e0e8a8ee0c057252122d8f7a64acbfe0595e81e/pypomes_logging-0.0.2.tar.gz
+[2024-04-29 01:31:14] INFO root fetch - processPackages [pypomes-logging]: Downloading https://files.pythonhosted.org/packages/33/d2/c4a18b19feaf87260fe0949b97f1ea438d520d9dfad7657884bf780a33aa/pypomes_logging-0.0.3.tar.gz
+[2024-04-29 01:31:14] INFO root fetch - processPackages [pypomes-logging]: executing diffoscope
+[2024-04-29 01:31:14] INFO root fetch - processPackages [pypomes-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_logging-0.0.2.tar.gz tmp/pypomes_logging-0.0.3.tar.gz --markdown 20240429/p/pypomes-logging/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-29 01:31:14] INFO root fetch - processPackages [pypomes-logging]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_logging-0.0.2.tar.gz]
+[2024-04-29 01:31:14] INFO root fetch - processPackages [pypomes-logging]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_logging-0.0.3.tar.gz]
+[2024-04-29 01:31:14] INFO root fetch - main [MainThread]: End processing [pypomes-logging]: success
+[2024-04-29 01:31:14] INFO root fetch - main [MainThread]: Store serial: [22971547]
