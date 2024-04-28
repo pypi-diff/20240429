@@ -237,3 +237,24 @@
 [2024-04-29 00:25:52] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
 [2024-04-29 00:25:52] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
 [2024-04-29 00:25:52] INFO root fetch - main [MainThread]: Store serial: [22971281]
+[2024-04-29 00:27:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971281]
+[2024-04-29 00:28:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-29 00:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mo-times
+[2024-04-29 00:28:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: diffforms
+[2024-04-29 00:28:00] INFO root fetch - processPackages [mo-times]: New version: [5.608.24119] Old Version: [5.606.24115]
+[2024-04-29 00:28:00] INFO root fetch - processPackages [mo-times]: Downloading https://files.pythonhosted.org/packages/e4/3c/2ebb7952b04161628a5543c8e1804350b3db0011f2d08fed0a6de9f0b07b/mo_times-5.606.24115.tar.gz
+[2024-04-29 00:28:00] INFO root fetch - processPackages [diffforms]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-29 00:28:00] INFO root fetch - processPackages [mo-times]: Downloading https://files.pythonhosted.org/packages/3d/f0/e6733dc60c70246f573775b2b898c847123072535de9d5afb04ddd6e6698/mo_times-5.608.24119.tar.gz
+[2024-04-29 00:28:01] INFO root fetch - processPackages [diffforms]: Downloading https://files.pythonhosted.org/packages/14/20/6fe101f8a8386acf1e8871ddba5a13006178f2e9370c3766b618b7c7e5d2/diffforms-0.0.1.tar.gz
+[2024-04-29 00:28:01] INFO root fetch - processPackages [mo-times]: executing diffoscope
+[2024-04-29 00:28:01] INFO root fetch - processPackages [mo-times]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_times-5.606.24115.tar.gz tmp/mo_times-5.608.24119.tar.gz --markdown 20240429/m/mo-times/5.606.24115-5.608.24119/README.md --exclude *.pyd
+[2024-04-29 00:28:01] INFO root fetch - processPackages [diffforms]: Downloading https://files.pythonhosted.org/packages/5b/c5/0f4558cd6ca5eed1e977381bccca73e72544fac7abdc6bc1c8b42a0a137f/diffforms-0.0.2.tar.gz
+[2024-04-29 00:28:01] INFO root fetch - processPackages [diffforms]: executing diffoscope
+[2024-04-29 00:28:01] INFO root fetch - processPackages [diffforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffforms-0.0.1.tar.gz tmp/diffforms-0.0.2.tar.gz --markdown 20240429/d/diffforms/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-29 00:28:01] INFO root fetch - processPackages [mo-times]: Remove: archive file [/home/abi/fetcher/tmp/mo_times-5.606.24115.tar.gz]
+[2024-04-29 00:28:01] INFO root fetch - processPackages [mo-times]: Remove: archive file [/home/abi/fetcher/tmp/mo_times-5.608.24119.tar.gz]
+[2024-04-29 00:28:01] INFO root fetch - main [MainThread]: End processing [mo-times]: success
+[2024-04-29 00:28:01] INFO root fetch - processPackages [diffforms]: Remove: archive file [/home/abi/fetcher/tmp/diffforms-0.0.1.tar.gz]
+[2024-04-29 00:28:01] INFO root fetch - processPackages [diffforms]: Remove: archive file [/home/abi/fetcher/tmp/diffforms-0.0.2.tar.gz]
+[2024-04-29 00:28:01] INFO root fetch - main [MainThread]: End processing [diffforms]: success
+[2024-04-29 00:28:01] INFO root fetch - main [MainThread]: Store serial: [22971286]
