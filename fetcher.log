@@ -279,3 +279,30 @@
 [2024-04-29 00:30:14] INFO root fetch - processPackages [rattail]: Remove: archive file [/home/abi/fetcher/tmp/rattail-0.9.99.tar.gz]
 [2024-04-29 00:30:14] INFO root fetch - main [MainThread]: End processing [rattail]: success
 [2024-04-29 00:30:14] INFO root fetch - main [MainThread]: Store serial: [22971291]
+[2024-04-29 00:32:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971291]
+[2024-04-29 00:32:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 00:32:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mo-files
+[2024-04-29 00:32:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: custjson-FRIENCHBULLPACKAGES
+[2024-04-29 00:32:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autodft
+[2024-04-29 00:32:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: indexify-dspy
+[2024-04-29 00:32:23] WARNING root fetch - processPackages [indexify-dspy]: Skipping, unable to determine old version
+[2024-04-29 00:32:23] INFO root fetch - main [MainThread]: End processing [indexify-dspy] error
+[2024-04-29 00:32:23] ERROR root fetch - processPackages [custjson-FRIENCHBULLPACKAGES]: Unable to get metadata: No such project 'custjson-FRIENCHBULLPACKAGES'
+[2024-04-29 00:32:23] INFO root fetch - main [MainThread]: End processing [custjson-FRIENCHBULLPACKAGES] error
+[2024-04-29 00:32:23] INFO root fetch - processPackages [autodft]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-29 00:32:23] INFO root fetch - processPackages [mo-files]: New version: [6.609.24119] Old Version: [6.606.24115]
+[2024-04-29 00:32:23] INFO root fetch - processPackages [mo-files]: Downloading https://files.pythonhosted.org/packages/2a/93/f8dbccb3ff71c128a1a356935187438c67d06bf2f31b745da3ed32f5e2ae/mo_files-6.606.24115.tar.gz
+[2024-04-29 00:32:23] INFO root fetch - processPackages [autodft]: Downloading https://files.pythonhosted.org/packages/5a/97/44bad2f35c66c08bf02dbf1938b5ab0d20aca85b81f6a211a3153c0e95f5/autodft-1.0.1.tar.gz
+[2024-04-29 00:32:24] INFO root fetch - processPackages [mo-files]: Downloading https://files.pythonhosted.org/packages/d1/7e/bee1148dcda00da53a332fe4d4004a97318c7a97a0ec8b84f47400f6dc64/mo_files-6.609.24119.tar.gz
+[2024-04-29 00:32:24] INFO root fetch - processPackages [autodft]: Downloading https://files.pythonhosted.org/packages/99/60/3ff37642c2eae8faa11ff3a043567a2f6ae2e9d35492248a21f5fb8f0c78/autodft-1.0.2.tar.gz
+[2024-04-29 00:32:24] INFO root fetch - processPackages [mo-files]: executing diffoscope
+[2024-04-29 00:32:24] INFO root fetch - processPackages [mo-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_files-6.606.24115.tar.gz tmp/mo_files-6.609.24119.tar.gz --markdown 20240429/m/mo-files/6.606.24115-6.609.24119/README.md --exclude *.pyd
+[2024-04-29 00:32:24] INFO root fetch - processPackages [autodft]: executing diffoscope
+[2024-04-29 00:32:24] INFO root fetch - processPackages [autodft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodft-1.0.1.tar.gz tmp/autodft-1.0.2.tar.gz --markdown 20240429/a/autodft/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-29 00:32:24] INFO root fetch - processPackages [mo-files]: Remove: archive file [/home/abi/fetcher/tmp/mo_files-6.606.24115.tar.gz]
+[2024-04-29 00:32:24] INFO root fetch - processPackages [mo-files]: Remove: archive file [/home/abi/fetcher/tmp/mo_files-6.609.24119.tar.gz]
+[2024-04-29 00:32:24] INFO root fetch - main [MainThread]: End processing [mo-files]: success
+[2024-04-29 00:32:25] INFO root fetch - processPackages [autodft]: Remove: archive file [/home/abi/fetcher/tmp/autodft-1.0.1.tar.gz]
+[2024-04-29 00:32:25] INFO root fetch - processPackages [autodft]: Remove: archive file [/home/abi/fetcher/tmp/autodft-1.0.2.tar.gz]
+[2024-04-29 00:32:25] INFO root fetch - main [MainThread]: End processing [autodft]: success
+[2024-04-29 00:32:25] INFO root fetch - main [MainThread]: Store serial: [22971308]
