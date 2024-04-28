@@ -889,3 +889,33 @@
 [2024-04-29 01:37:51] INFO root fetch - processPackages [report-creator]: Remove: archive file [/home/abi/fetcher/tmp/report_creator-1.0.9.tar.gz]
 [2024-04-29 01:37:51] INFO root fetch - main [MainThread]: End processing [report-creator]: success
 [2024-04-29 01:37:51] INFO root fetch - main [MainThread]: Store serial: [22971567]
+[2024-04-29 01:39:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971567]
+[2024-04-29 01:39:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 01:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-simulator-xiuxian
+[2024-04-29 01:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev
+[2024-04-29 01:39:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pkscreener
+[2024-04-29 01:39:59] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: New version: [0.5.36] Old Version: [0.5.34]
+[2024-04-29 01:39:59] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240428.303] Old Version: [0.44.20240425.293]
+[2024-04-29 01:39:59] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: Downloading https://files.pythonhosted.org/packages/29/33/5708e15a04b57a013db197dd0a224078f9d1a6cb74b81eb654616d8d3c7b/nonebot_plugin_simulator_xiuxian-0.5.34.tar.gz
+[2024-04-29 01:39:59] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/b4/d4/b9c1ce0a24bc13f5cc1b81d4bc5130cb76c4eb18ac6da004b37e1ed819ea/pkscreener-0.44.20240425.293.tar.gz
+[2024-04-29 01:40:00] INFO root fetch - processPackages [nbdev]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-04-29 01:40:00] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/41/83/285d62a23867acf9047b3686ca22ef1650eaa23d726850df63b5ae33d457/pkscreener-0.44.20240428.303.tar.gz
+[2024-04-29 01:40:00] INFO root fetch - processPackages [nbdev]: Downloading https://files.pythonhosted.org/packages/81/51/fab74a54685fb8abc7a3e35834c91c5b2dace9b02d4cb11fdd42c1e1671e/nbdev-2.3.8.tar.gz
+[2024-04-29 01:40:00] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: Downloading https://files.pythonhosted.org/packages/cf/d0/e147afa33b733a45694cd6cef3912e3ae8bda273a40be7e0519db6c4d8c9/nonebot_plugin_simulator_xiuxian-0.5.36.tar.gz
+[2024-04-29 01:40:00] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-04-29 01:40:00] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240425.293.tar.gz tmp/pkscreener-0.44.20240428.303.tar.gz --markdown 20240429/p/pkscreener/0.44.20240425.293-0.44.20240428.303/README.md --exclude *.pyd
+[2024-04-29 01:40:00] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: executing diffoscope
+[2024-04-29 01:40:00] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_simulator_xiuxian-0.5.34.tar.gz tmp/nonebot_plugin_simulator_xiuxian-0.5.36.tar.gz --markdown 20240429/n/nonebot-plugin-simulator-xiuxian/0.5.34-0.5.36/README.md --exclude *.pyd
+[2024-04-29 01:40:00] INFO root fetch - processPackages [nbdev]: Downloading https://files.pythonhosted.org/packages/40/d2/c90832233197e9f55e8869a7f75fd019929dcd8c6c18e14a34a4c1c087aa/nbdev-2.3.9.tar.gz
+[2024-04-29 01:40:00] INFO root fetch - processPackages [nbdev]: executing diffoscope
+[2024-04-29 01:40:00] INFO root fetch - processPackages [nbdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-2.3.8.tar.gz tmp/nbdev-2.3.9.tar.gz --markdown 20240429/n/nbdev/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-04-29 01:40:01] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_simulator_xiuxian-0.5.34.tar.gz]
+[2024-04-29 01:40:01] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_simulator_xiuxian-0.5.36.tar.gz]
+[2024-04-29 01:40:01] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-simulator-xiuxian]: success
+[2024-04-29 01:40:01] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240425.293.tar.gz]
+[2024-04-29 01:40:01] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240428.303.tar.gz]
+[2024-04-29 01:40:01] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-04-29 01:40:01] INFO root fetch - processPackages [nbdev]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-2.3.8.tar.gz]
+[2024-04-29 01:40:01] INFO root fetch - processPackages [nbdev]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-2.3.9.tar.gz]
+[2024-04-29 01:40:01] INFO root fetch - main [MainThread]: End processing [nbdev]: success
+[2024-04-29 01:40:01] INFO root fetch - main [MainThread]: Store serial: [22971576]
