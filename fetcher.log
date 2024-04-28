@@ -64,3 +64,36 @@
 [2024-04-29 00:08:30] INFO root fetch - processPackages [eventeditor-GPT]: Remove: archive file [/home/abi/fetcher/tmp/eventeditor_GPT-1.3.8-py3-none-any.whl.zip]
 [2024-04-29 00:08:30] INFO root fetch - main [MainThread]: End processing [eventeditor-GPT]: success
 [2024-04-29 00:08:30] INFO root fetch - main [MainThread]: Store serial: [22971182]
+[2024-04-29 00:10:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971182]
+[2024-04-29 00:10:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 00:10:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: funtoo-ramdisk
+[2024-04-29 00:10:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aviatrix-migration-nat
+[2024-04-29 00:10:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bpx-py
+[2024-04-29 00:10:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: octree-creation-app
+[2024-04-29 00:10:38] WARNING root fetch - processPackages [bpx-py]: Skipping, unable to determine old version
+[2024-04-29 00:10:38] INFO root fetch - main [MainThread]: End processing [bpx-py] error
+[2024-04-29 00:10:38] INFO root fetch - processPackages [funtoo-ramdisk]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-29 00:10:38] INFO root fetch - processPackages [octree-creation-app]: New version: [0.1.0rc1] Old Version: [0.1.0a5]
+[2024-04-29 00:10:38] INFO root fetch - processPackages [aviatrix-migration-nat]: New version: [0.9.1] Old Version: [0.8.4]
+[2024-04-29 00:10:38] INFO root fetch - processPackages [funtoo-ramdisk]: Downloading https://files.pythonhosted.org/packages/fa/a9/ef20abf6a7c37f79dec2d67bb8b8d1fefefc573195f32eb943558d8597db/funtoo_ramdisk-1.1.8.tar.gz
+[2024-04-29 00:10:38] INFO root fetch - processPackages [octree-creation-app]: Downloading https://files.pythonhosted.org/packages/94/17/8a163ae2996e9bb07e693a897803b89185f3753d1181d92a2626cb4b1487/octree_creation_app-0.1.0a5.tar.gz
+[2024-04-29 00:10:39] INFO root fetch - processPackages [aviatrix-migration-nat]: Downloading https://files.pythonhosted.org/packages/cb/47/92651d92ccba0fbe9e38d333a7b5429e4de29cde51799fffc63cbd67ef8f/aviatrix_migration_nat-0.8.4-cp39-cp39-win_amd64.whl
+[2024-04-29 00:10:39] INFO root fetch - processPackages [funtoo-ramdisk]: Downloading https://files.pythonhosted.org/packages/dd/08/9f1cdd46afa442da53cf8c4372adc9059d36e9e99c7fd438132df3f19a43/funtoo_ramdisk-1.1.9.tar.gz
+[2024-04-29 00:10:39] INFO root fetch - processPackages [octree-creation-app]: Downloading https://files.pythonhosted.org/packages/e8/b9/a2aa9035887dce4c31c1116346c9b656ba7aced2fe68f5ab2d08167c0b15/octree_creation_app-0.1.0rc1.tar.gz
+[2024-04-29 00:10:39] INFO root fetch - processPackages [funtoo-ramdisk]: executing diffoscope
+[2024-04-29 00:10:39] INFO root fetch - processPackages [funtoo-ramdisk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funtoo_ramdisk-1.1.8.tar.gz tmp/funtoo_ramdisk-1.1.9.tar.gz --markdown 20240429/f/funtoo-ramdisk/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-29 00:10:39] INFO root fetch - processPackages [octree-creation-app]: executing diffoscope
+[2024-04-29 00:10:39] INFO root fetch - processPackages [octree-creation-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octree_creation_app-0.1.0a5.tar.gz tmp/octree_creation_app-0.1.0rc1.tar.gz --markdown 20240429/o/octree-creation-app/0.1.0a5-0.1.0rc1/README.md --exclude *.pyd
+[2024-04-29 00:10:39] INFO root fetch - processPackages [aviatrix-migration-nat]: Downloading https://files.pythonhosted.org/packages/37/f7/0efcc81caba5ea189e83b5143600bfe51793e6a7b54710565f85a0bcc609/aviatrix_migration_nat-0.9.1-cp37-cp37m-win_amd64.whl
+[2024-04-29 00:10:40] INFO root fetch - processPackages [octree-creation-app]: Remove: archive file [/home/abi/fetcher/tmp/octree_creation_app-0.1.0a5.tar.gz]
+[2024-04-29 00:10:40] INFO root fetch - processPackages [octree-creation-app]: Remove: archive file [/home/abi/fetcher/tmp/octree_creation_app-0.1.0rc1.tar.gz]
+[2024-04-29 00:10:40] INFO root fetch - main [MainThread]: End processing [octree-creation-app]: success
+[2024-04-29 00:10:40] INFO root fetch - processPackages [funtoo-ramdisk]: Remove: archive file [/home/abi/fetcher/tmp/funtoo_ramdisk-1.1.8.tar.gz]
+[2024-04-29 00:10:40] INFO root fetch - processPackages [funtoo-ramdisk]: Remove: archive file [/home/abi/fetcher/tmp/funtoo_ramdisk-1.1.9.tar.gz]
+[2024-04-29 00:10:40] INFO root fetch - main [MainThread]: End processing [funtoo-ramdisk]: success
+[2024-04-29 00:10:41] INFO root fetch - processPackages [aviatrix-migration-nat]: executing diffoscope
+[2024-04-29 00:10:41] INFO root fetch - processPackages [aviatrix-migration-nat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_migration_nat-0.8.4-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_migration_nat-0.9.1-cp37-cp37m-win_amd64.whl.zip --markdown 20240429/a/aviatrix-migration-nat/0.8.4-0.9.1/README.md --exclude *.pyd
+[2024-04-29 00:10:41] INFO root fetch - processPackages [aviatrix-migration-nat]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration_nat-0.8.4-cp39-cp39-win_amd64.whl.zip]
+[2024-04-29 00:10:41] INFO root fetch - processPackages [aviatrix-migration-nat]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration_nat-0.9.1-cp37-cp37m-win_amd64.whl.zip]
+[2024-04-29 00:10:41] INFO root fetch - main [MainThread]: End processing [aviatrix-migration-nat]: success
+[2024-04-29 00:10:41] INFO root fetch - main [MainThread]: Store serial: [22971201]
