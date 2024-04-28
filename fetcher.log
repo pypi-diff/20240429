@@ -761,3 +761,38 @@
 [2024-04-29 01:22:34] WARNING root fetch - processPackages [jeanpdf]: Skipping, unable to determine old version
 [2024-04-29 01:22:34] INFO root fetch - main [MainThread]: End processing [jeanpdf] error
 [2024-04-29 01:22:34] INFO root fetch - main [MainThread]: Store serial: [22971506]
+[2024-04-29 01:24:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971506]
+[2024-04-29 01:24:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 01:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyminerva
+[2024-04-29 01:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: roapi
+[2024-04-29 01:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bihyung
+[2024-04-29 01:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rubpy
+[2024-04-29 01:24:43] INFO root fetch - processPackages [bihyung]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-04-29 01:24:43] INFO root fetch - processPackages [bihyung]: Downloading https://files.pythonhosted.org/packages/0b/c8/1a90ded8c6608c3c82ebe6daf80facc6a9654a5915cce44d70661aee23d2/bihyung-0.1.3.tar.gz
+[2024-04-29 01:24:43] INFO root fetch - processPackages [roapi]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-29 01:24:43] INFO root fetch - processPackages [rubpy]: New version: [7.0.2b2] Old Version: [7.0.2b1]
+[2024-04-29 01:24:43] INFO root fetch - processPackages [pyminerva]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-29 01:24:43] INFO root fetch - processPackages [bihyung]: Downloading https://files.pythonhosted.org/packages/c3/07/68e681f10abd0994cf8cbde8d87de3a0ba3fa114495ba4a5929c1b2ca3c9/bihyung-0.2.0.tar.gz
+[2024-04-29 01:24:43] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/3f/63/9a73bb6736be5bc6a54863cf985d76bd5e9d14157247fea27bb2923d9137/rubpy-7.0.2b1.tar.gz
+[2024-04-29 01:24:43] INFO root fetch - processPackages [roapi]: Downloading https://files.pythonhosted.org/packages/a2/ba/023d39dc9f58edd26421769f7d683e7b8a8966893b9fae7b235c693a17cb/roapi-0.8.1-py3-none-win_amd64.whl
+[2024-04-29 01:24:44] INFO root fetch - processPackages [bihyung]: executing diffoscope
+[2024-04-29 01:24:44] INFO root fetch - processPackages [bihyung]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bihyung-0.1.3.tar.gz tmp/bihyung-0.2.0.tar.gz --markdown 20240429/b/bihyung/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-04-29 01:24:44] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/71/85/01e8f26ee3130cf86f9e4b898bf1c77b6edaa3ff18d78ab72ab3042c1c41/pyminerva-0.0.98.tar.gz
+[2024-04-29 01:24:44] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/a5/a5/ddfed1f1dce684f9f90354b6ed2904366ae806672564fc7a77bdae58b12f/rubpy-7.0.2b2.tar.gz
+[2024-04-29 01:24:44] WARNING root fetch - processPackages [roapi]: Skipping package: exceeds size limit 15857558>=10485760
+[2024-04-29 01:24:44] INFO root fetch - main [MainThread]: End processing [roapi] error
+[2024-04-29 01:24:44] INFO root fetch - processPackages [rubpy]: executing diffoscope
+[2024-04-29 01:24:44] INFO root fetch - processPackages [rubpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubpy-7.0.2b1.tar.gz tmp/rubpy-7.0.2b2.tar.gz --markdown 20240429/r/rubpy/7.0.2b1-7.0.2b2/README.md --exclude *.pyd
+[2024-04-29 01:24:44] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/30/9b/396cf38441ad3c8ce48c213fff676d95f1f3f4feeb1b7dc8824277fe413e/pyminerva-0.0.99.tar.gz
+[2024-04-29 01:24:44] INFO root fetch - processPackages [pyminerva]: executing diffoscope
+[2024-04-29 01:24:44] INFO root fetch - processPackages [pyminerva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyminerva-0.0.98.tar.gz tmp/pyminerva-0.0.99.tar.gz --markdown 20240429/p/pyminerva/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-29 01:24:44] INFO root fetch - processPackages [bihyung]: Remove: archive file [/home/abi/fetcher/tmp/bihyung-0.1.3.tar.gz]
+[2024-04-29 01:24:44] INFO root fetch - processPackages [bihyung]: Remove: archive file [/home/abi/fetcher/tmp/bihyung-0.2.0.tar.gz]
+[2024-04-29 01:24:44] INFO root fetch - main [MainThread]: End processing [bihyung]: success
+[2024-04-29 01:24:45] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.98.tar.gz]
+[2024-04-29 01:24:45] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.99.tar.gz]
+[2024-04-29 01:24:45] INFO root fetch - main [MainThread]: End processing [pyminerva]: success
+[2024-04-29 01:24:45] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-7.0.2b1.tar.gz]
+[2024-04-29 01:24:45] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-7.0.2b2.tar.gz]
+[2024-04-29 01:24:45] INFO root fetch - main [MainThread]: End processing [rubpy]: success
+[2024-04-29 01:24:45] INFO root fetch - main [MainThread]: Store serial: [22971533]
