@@ -919,3 +919,18 @@
 [2024-04-29 01:40:01] INFO root fetch - processPackages [nbdev]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-2.3.9.tar.gz]
 [2024-04-29 01:40:01] INFO root fetch - main [MainThread]: End processing [nbdev]: success
 [2024-04-29 01:40:01] INFO root fetch - main [MainThread]: Store serial: [22971576]
+[2024-04-29 01:42:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971576]
+[2024-04-29 01:42:09] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-29 01:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: passive-honeypot
+[2024-04-29 01:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cardex
+[2024-04-29 01:42:10] INFO root fetch - processPackages [cardex]: New version: [0.2.0.dev9] Old Version: [0.2.0.dev8]
+[2024-04-29 01:42:10] INFO root fetch - processPackages [cardex]: Downloading https://files.pythonhosted.org/packages/96/6e/6c4d87215e2446a0ac9bc903860b173f9fc347eb73dc8e4a21a298670a00/cardex-0.2.0.dev8.tar.gz
+[2024-04-29 01:42:10] WARNING root fetch - processPackages [passive-honeypot]: Skipping, unable to determine old version
+[2024-04-29 01:42:10] INFO root fetch - main [MainThread]: End processing [passive-honeypot] error
+[2024-04-29 01:42:10] INFO root fetch - processPackages [cardex]: Downloading https://files.pythonhosted.org/packages/a5/f1/936319cd5a1e0862bc33edbce29c37659ee57c4782e76613d4ce0b406196/cardex-0.2.0.dev9.tar.gz
+[2024-04-29 01:42:10] INFO root fetch - processPackages [cardex]: executing diffoscope
+[2024-04-29 01:42:10] INFO root fetch - processPackages [cardex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardex-0.2.0.dev8.tar.gz tmp/cardex-0.2.0.dev9.tar.gz --markdown 20240429/c/cardex/0.2.0.dev8-0.2.0.dev9/README.md --exclude *.pyd
+[2024-04-29 01:42:11] INFO root fetch - processPackages [cardex]: Remove: archive file [/home/abi/fetcher/tmp/cardex-0.2.0.dev8.tar.gz]
+[2024-04-29 01:42:11] INFO root fetch - processPackages [cardex]: Remove: archive file [/home/abi/fetcher/tmp/cardex-0.2.0.dev9.tar.gz]
+[2024-04-29 01:42:11] INFO root fetch - main [MainThread]: End processing [cardex]: success
+[2024-04-29 01:42:11] INFO root fetch - main [MainThread]: Store serial: [22971584]
