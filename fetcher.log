@@ -701,3 +701,9 @@
 [2024-04-29 01:09:43] INFO root fetch - processPackages [odk-tools]: Remove: archive file [/home/abi/fetcher/tmp/odk_tools-0.1.4.tar.gz]
 [2024-04-29 01:09:43] INFO root fetch - main [MainThread]: End processing [odk-tools]: success
 [2024-04-29 01:09:43] INFO root fetch - main [MainThread]: Store serial: [22971473]
+[2024-04-29 01:11:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971473]
+[2024-04-29 01:11:52] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-29 01:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: haulsrv
+[2024-04-29 01:11:52] WARNING root fetch - processPackages [haulsrv]: Skipping, unable to determine old version
+[2024-04-29 01:11:52] INFO root fetch - main [MainThread]: End processing [haulsrv] error
+[2024-04-29 01:11:52] INFO root fetch - main [MainThread]: Store serial: [22971477]
