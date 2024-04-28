@@ -97,3 +97,15 @@
 [2024-04-29 00:10:41] INFO root fetch - processPackages [aviatrix-migration-nat]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration_nat-0.9.1-cp37-cp37m-win_amd64.whl.zip]
 [2024-04-29 00:10:41] INFO root fetch - main [MainThread]: End processing [aviatrix-migration-nat]: success
 [2024-04-29 00:10:41] INFO root fetch - main [MainThread]: Store serial: [22971201]
+[2024-04-29 00:12:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971201]
+[2024-04-29 00:12:50] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-29 00:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bifabrik
+[2024-04-29 00:12:50] INFO root fetch - processPackages [bifabrik]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-29 00:12:50] INFO root fetch - processPackages [bifabrik]: Downloading https://files.pythonhosted.org/packages/19/26/edfaf1eb2be1afd1cf3e6361ff8daebac81b71f69bb3079a48ba4e09987e/bifabrik-0.7.0.tar.gz
+[2024-04-29 00:12:51] INFO root fetch - processPackages [bifabrik]: Downloading https://files.pythonhosted.org/packages/6c/3d/0080465192d7a5cd5926a16faa72e6314c5e1e541d8503cd14f21ce787c6/bifabrik-0.7.1.tar.gz
+[2024-04-29 00:12:51] INFO root fetch - processPackages [bifabrik]: executing diffoscope
+[2024-04-29 00:12:51] INFO root fetch - processPackages [bifabrik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bifabrik-0.7.0.tar.gz tmp/bifabrik-0.7.1.tar.gz --markdown 20240429/b/bifabrik/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-29 00:12:51] INFO root fetch - processPackages [bifabrik]: Remove: archive file [/home/abi/fetcher/tmp/bifabrik-0.7.0.tar.gz]
+[2024-04-29 00:12:51] INFO root fetch - processPackages [bifabrik]: Remove: archive file [/home/abi/fetcher/tmp/bifabrik-0.7.1.tar.gz]
+[2024-04-29 00:12:51] INFO root fetch - main [MainThread]: End processing [bifabrik]: success
+[2024-04-29 00:12:51] INFO root fetch - main [MainThread]: Store serial: [22971218]
