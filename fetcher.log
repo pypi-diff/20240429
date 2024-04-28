@@ -306,3 +306,36 @@
 [2024-04-29 00:32:25] INFO root fetch - processPackages [autodft]: Remove: archive file [/home/abi/fetcher/tmp/autodft-1.0.2.tar.gz]
 [2024-04-29 00:32:25] INFO root fetch - main [MainThread]: End processing [autodft]: success
 [2024-04-29 00:32:25] INFO root fetch - main [MainThread]: Store serial: [22971308]
+[2024-04-29 00:34:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971308]
+[2024-04-29 00:34:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 00:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mo-json-config
+[2024-04-29 00:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: custjson
+[2024-04-29 00:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Tailbone
+[2024-04-29 00:34:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: caustic.parser
+[2024-04-29 00:34:33] INFO root fetch - processPackages [caustic.parser]: New version: [2.2.6.post1] Old Version: [2.2.6]
+[2024-04-29 00:34:33] WARNING root fetch - processPackages [custjson]: Skipping, unable to determine old version
+[2024-04-29 00:34:33] INFO root fetch - main [MainThread]: End processing [custjson] error
+[2024-04-29 00:34:33] INFO root fetch - processPackages [mo-json-config]: New version: [4.609.24119] Old Version: [4.606.24115]
+[2024-04-29 00:34:34] INFO root fetch - processPackages [Tailbone]: New version: [0.9.96] Old Version: [0.9.95]
+[2024-04-29 00:34:34] INFO root fetch - processPackages [mo-json-config]: Downloading https://files.pythonhosted.org/packages/97/45/f1974cd83923672b7100ee610661ed954ab6aec0aa247a0c3cce6d256151/mo_json_config-4.606.24115.tar.gz
+[2024-04-29 00:34:34] INFO root fetch - processPackages [caustic.parser]: Downloading https://files.pythonhosted.org/packages/40/46/70d62515093cb865214407540318b44ebe7318b237bfbfdebab8b79e71c9/caustic.parser-2.2.6.tar.gz
+[2024-04-29 00:34:34] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/d3/f5/6281835322a9736c1e981d64eaedbd9719a7822f9b959938a9e431dfae22/tailbone-0.9.95.tar.gz
+[2024-04-29 00:34:34] INFO root fetch - processPackages [caustic.parser]: Downloading https://files.pythonhosted.org/packages/f7/e8/43e43b56d5cfd8a4cdddfcd1fac1746f8ed2d91a200c276d3c014d141975/caustic.parser-2.2.6.post1.tar.gz
+[2024-04-29 00:34:34] INFO root fetch - processPackages [mo-json-config]: Downloading https://files.pythonhosted.org/packages/0d/37/7ec1203dda835ee0bdde26763428bebefab1454c4f6fe4f2dcb8538dd25a/mo_json_config-4.609.24119.tar.gz
+[2024-04-29 00:34:34] INFO root fetch - processPackages [caustic.parser]: executing diffoscope
+[2024-04-29 00:34:34] INFO root fetch - processPackages [caustic.parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caustic.parser-2.2.6.tar.gz tmp/caustic.parser-2.2.6.post1.tar.gz --markdown 20240429/c/caustic.parser/2.2.6-2.2.6.post1/README.md --exclude *.pyd
+[2024-04-29 00:34:34] INFO root fetch - processPackages [mo-json-config]: executing diffoscope
+[2024-04-29 00:34:34] INFO root fetch - processPackages [mo-json-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_json_config-4.606.24115.tar.gz tmp/mo_json_config-4.609.24119.tar.gz --markdown 20240429/m/mo-json-config/4.606.24115-4.609.24119/README.md --exclude *.pyd
+[2024-04-29 00:34:34] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/40/48/d068d15e5c14b9048d5ffad6867d9353d33adf32a71b13b2a439ef5bdb17/tailbone-0.9.96.tar.gz
+[2024-04-29 00:34:34] INFO root fetch - processPackages [Tailbone]: executing diffoscope
+[2024-04-29 00:34:34] INFO root fetch - processPackages [Tailbone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailbone-0.9.95.tar.gz tmp/tailbone-0.9.96.tar.gz --markdown 20240429/T/Tailbone/0.9.95-0.9.96/README.md --exclude *.pyd
+[2024-04-29 00:34:35] INFO root fetch - processPackages [mo-json-config]: Remove: archive file [/home/abi/fetcher/tmp/mo_json_config-4.606.24115.tar.gz]
+[2024-04-29 00:34:35] INFO root fetch - processPackages [mo-json-config]: Remove: archive file [/home/abi/fetcher/tmp/mo_json_config-4.609.24119.tar.gz]
+[2024-04-29 00:34:35] INFO root fetch - main [MainThread]: End processing [mo-json-config]: success
+[2024-04-29 00:34:35] INFO root fetch - processPackages [caustic.parser]: Remove: archive file [/home/abi/fetcher/tmp/caustic.parser-2.2.6.tar.gz]
+[2024-04-29 00:34:35] INFO root fetch - processPackages [caustic.parser]: Remove: archive file [/home/abi/fetcher/tmp/caustic.parser-2.2.6.post1.tar.gz]
+[2024-04-29 00:34:35] INFO root fetch - main [MainThread]: End processing [caustic.parser]: success
+[2024-04-29 00:34:36] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/tailbone-0.9.95.tar.gz]
+[2024-04-29 00:34:36] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/tailbone-0.9.96.tar.gz]
+[2024-04-29 00:34:36] INFO root fetch - main [MainThread]: End processing [Tailbone]: success
+[2024-04-29 00:34:36] INFO root fetch - main [MainThread]: Store serial: [22971322]
