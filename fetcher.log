@@ -982,3 +982,36 @@
 [2024-04-29 01:48:44] INFO root fetch - processPackages [meni]: Remove: archive file [/home/abi/fetcher/tmp/meni-0.1.2.tar.gz]
 [2024-04-29 01:48:44] INFO root fetch - main [MainThread]: End processing [meni]: success
 [2024-04-29 01:48:44] INFO root fetch - main [MainThread]: Store serial: [22971603]
+[2024-04-29 01:50:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971603]
+[2024-04-29 01:50:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 01:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-criteria
+[2024-04-29 01:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vht
+[2024-04-29 01:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: passive-honeypot
+[2024-04-29 01:50:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: came-domotic-unofficial
+[2024-04-29 01:50:52] INFO root fetch - processPackages [came-domotic-unofficial]: New version: [1.0.0rc7] Old Version: [1.0.0rc6]
+[2024-04-29 01:50:52] WARNING root fetch - processPackages [passive-honeypot]: Skipping, unable to determine old version
+[2024-04-29 01:50:52] INFO root fetch - main [MainThread]: End processing [passive-honeypot] error
+[2024-04-29 01:50:52] INFO root fetch - processPackages [came-domotic-unofficial]: Downloading https://files.pythonhosted.org/packages/d2/7a/865834864acbc97fe01719396d7cc10833728d256e61d8de9acd0abd100d/came_domotic_unofficial-1.0.0rc6.tar.gz
+[2024-04-29 01:50:52] INFO root fetch - processPackages [python-criteria]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-29 01:50:52] INFO root fetch - processPackages [vht]: New version: [0.3.69] Old Version: [0.3.33]
+[2024-04-29 01:50:53] INFO root fetch - processPackages [came-domotic-unofficial]: Downloading https://files.pythonhosted.org/packages/8f/a8/dad4cf74dcdcbd9e6522cebe1dd88f3c7b29e975743dfc12863bbc067839/came_domotic_unofficial-1.0.0rc7.tar.gz
+[2024-04-29 01:50:53] INFO root fetch - processPackages [python-criteria]: Downloading https://files.pythonhosted.org/packages/01/1a/c692d97d11de6b5bb86dd6f501bb44d05044437893ac02d88cd47fc4b027/python-criteria-0.4.0.tar.gz
+[2024-04-29 01:50:53] INFO root fetch - processPackages [vht]: Downloading https://files.pythonhosted.org/packages/ed/e2/0ec8576d9d569dc1ae90e2b354cca8212619ed9527cab3b83b55833ca05e/vht-0.3.33.tar.gz
+[2024-04-29 01:50:53] INFO root fetch - processPackages [came-domotic-unofficial]: executing diffoscope
+[2024-04-29 01:50:53] INFO root fetch - processPackages [came-domotic-unofficial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/came_domotic_unofficial-1.0.0rc6.tar.gz tmp/came_domotic_unofficial-1.0.0rc7.tar.gz --markdown 20240429/c/came-domotic-unofficial/1.0.0rc6-1.0.0rc7/README.md --exclude *.pyd
+[2024-04-29 01:50:53] INFO root fetch - processPackages [python-criteria]: Downloading https://files.pythonhosted.org/packages/9f/b6/4a00174bcea13ede1b44c23db8302e8ea1e0d5ea83c23d6b3ebfdab5189e/python_criteria-0.5.0.tar.gz
+[2024-04-29 01:50:53] INFO root fetch - processPackages [vht]: Downloading https://files.pythonhosted.org/packages/26/ce/41fc96b36440e1880942c15f89274f7aea2a20520db67ecba582dfb8bfcb/vht-0.3.69.tar.gz
+[2024-04-29 01:50:53] INFO root fetch - processPackages [python-criteria]: executing diffoscope
+[2024-04-29 01:50:53] INFO root fetch - processPackages [python-criteria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-criteria-0.4.0.tar.gz tmp/python_criteria-0.5.0.tar.gz --markdown 20240429/p/python-criteria/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-29 01:50:53] INFO root fetch - processPackages [vht]: executing diffoscope
+[2024-04-29 01:50:53] INFO root fetch - processPackages [vht]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vht-0.3.33.tar.gz tmp/vht-0.3.69.tar.gz --markdown 20240429/v/vht/0.3.33-0.3.69/README.md --exclude *.pyd
+[2024-04-29 01:50:53] INFO root fetch - processPackages [came-domotic-unofficial]: Remove: archive file [/home/abi/fetcher/tmp/came_domotic_unofficial-1.0.0rc6.tar.gz]
+[2024-04-29 01:50:53] INFO root fetch - processPackages [came-domotic-unofficial]: Remove: archive file [/home/abi/fetcher/tmp/came_domotic_unofficial-1.0.0rc7.tar.gz]
+[2024-04-29 01:50:53] INFO root fetch - main [MainThread]: End processing [came-domotic-unofficial]: success
+[2024-04-29 01:50:54] INFO root fetch - processPackages [python-criteria]: Remove: archive file [/home/abi/fetcher/tmp/python-criteria-0.4.0.tar.gz]
+[2024-04-29 01:50:54] INFO root fetch - processPackages [python-criteria]: Remove: archive file [/home/abi/fetcher/tmp/python_criteria-0.5.0.tar.gz]
+[2024-04-29 01:50:54] INFO root fetch - main [MainThread]: End processing [python-criteria]: success
+[2024-04-29 01:50:55] INFO root fetch - processPackages [vht]: Remove: archive file [/home/abi/fetcher/tmp/vht-0.3.33.tar.gz]
+[2024-04-29 01:50:55] INFO root fetch - processPackages [vht]: Remove: archive file [/home/abi/fetcher/tmp/vht-0.3.69.tar.gz]
+[2024-04-29 01:50:55] INFO root fetch - main [MainThread]: End processing [vht]: success
+[2024-04-29 01:50:55] INFO root fetch - main [MainThread]: Store serial: [22971615]
