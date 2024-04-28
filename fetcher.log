@@ -189,3 +189,15 @@
 [2024-04-29 00:19:22] INFO root fetch - processPackages [netsome]: Remove: archive file [/home/abi/fetcher/tmp/netsome-0.3.6.tar.gz]
 [2024-04-29 00:19:22] INFO root fetch - main [MainThread]: End processing [netsome]: success
 [2024-04-29 00:19:22] INFO root fetch - main [MainThread]: Store serial: [22971261]
+[2024-04-29 00:21:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971261]
+[2024-04-29 00:21:30] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-29 00:21:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oresat-c3
+[2024-04-29 00:21:30] INFO root fetch - processPackages [oresat-c3]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-04-29 00:21:31] INFO root fetch - processPackages [oresat-c3]: Downloading https://files.pythonhosted.org/packages/6d/75/900e9ac25f94796bfea504e44c76af79f154e986374dd8bff3700f3ab723/oresat-c3-0.2.3.tar.gz
+[2024-04-29 00:21:31] INFO root fetch - processPackages [oresat-c3]: Downloading https://files.pythonhosted.org/packages/4d/b2/81da9cad4bb1870f64d92b90e9f10ee74082c28cfaa90964353a70745f06/oresat_c3-0.3.0.tar.gz
+[2024-04-29 00:21:31] INFO root fetch - processPackages [oresat-c3]: executing diffoscope
+[2024-04-29 00:21:31] INFO root fetch - processPackages [oresat-c3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oresat-c3-0.2.3.tar.gz tmp/oresat_c3-0.3.0.tar.gz --markdown 20240429/o/oresat-c3/0.2.3-0.3.0/README.md --exclude *.pyd
+[2024-04-29 00:21:32] INFO root fetch - processPackages [oresat-c3]: Remove: archive file [/home/abi/fetcher/tmp/oresat-c3-0.2.3.tar.gz]
+[2024-04-29 00:21:32] INFO root fetch - processPackages [oresat-c3]: Remove: archive file [/home/abi/fetcher/tmp/oresat_c3-0.3.0.tar.gz]
+[2024-04-29 00:21:32] INFO root fetch - main [MainThread]: End processing [oresat-c3]: success
+[2024-04-29 00:21:32] INFO root fetch - main [MainThread]: Store serial: [22971264]
