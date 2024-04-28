@@ -674,3 +674,12 @@
 [2024-04-29 01:05:23] INFO root fetch - processPackages [open2fa]: Remove: archive file [/home/abi/fetcher/tmp/open2fa-1.4.0-py3-none-any.whl.zip]
 [2024-04-29 01:05:23] INFO root fetch - main [MainThread]: End processing [open2fa]: success
 [2024-04-29 01:05:23] INFO root fetch - main [MainThread]: Store serial: [22971450]
+[2024-04-29 01:07:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971450]
+[2024-04-29 01:07:32] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-29 01:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AI-envs
+[2024-04-29 01:07:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unleashed-chat-cli
+[2024-04-29 01:07:33] WARNING root fetch - processPackages [unleashed-chat-cli]: Skipping, unable to determine old version
+[2024-04-29 01:07:33] INFO root fetch - main [MainThread]: End processing [unleashed-chat-cli] error
+[2024-04-29 01:07:33] WARNING root fetch - processPackages [AI-envs]: Skipping, unable to determine old version
+[2024-04-29 01:07:33] INFO root fetch - main [MainThread]: End processing [AI-envs] error
+[2024-04-29 01:07:33] INFO root fetch - main [MainThread]: Store serial: [22971460]
