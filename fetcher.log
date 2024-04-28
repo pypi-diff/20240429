@@ -510,3 +510,36 @@
 [2024-04-29 00:47:40] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.99.tar.gz]
 [2024-04-29 00:47:40] INFO root fetch - main [MainThread]: End processing [pipez]: success
 [2024-04-29 00:47:40] INFO root fetch - main [MainThread]: Store serial: [22971402]
+[2024-04-29 00:49:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971402]
+[2024-04-29 00:49:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 00:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyzdoc
+[2024-04-29 00:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cpg-workflows
+[2024-04-29 00:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pure-interface
+[2024-04-29 00:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: authexchange
+[2024-04-29 00:49:48] INFO root fetch - processPackages [authexchange]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-04-29 00:49:49] INFO root fetch - processPackages [authexchange]: Downloading https://files.pythonhosted.org/packages/7e/e2/96400c2277d9dc736383fb3ae9c0d25bafe7848191cf09a37a540a7f9e01/authexchange-0.7.3.tar.gz
+[2024-04-29 00:49:49] WARNING root fetch - processPackages [pyzdoc]: Skipping, unable to determine old version
+[2024-04-29 00:49:49] INFO root fetch - main [MainThread]: End processing [pyzdoc] error
+[2024-04-29 00:49:49] INFO root fetch - processPackages [pure-interface]: New version: [8.0.2] Old Version: [8.0.1]
+[2024-04-29 00:49:49] INFO root fetch - processPackages [cpg-workflows]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-29 00:49:49] INFO root fetch - processPackages [authexchange]: Downloading https://files.pythonhosted.org/packages/2a/43/13b362bcfbd9d626f124c37cb1acc88fe2f59ea03b56dae22ab2a9f4c4c6/authexchange-0.7.4.tar.gz
+[2024-04-29 00:49:49] INFO root fetch - processPackages [pure-interface]: Downloading https://files.pythonhosted.org/packages/48/96/dc817c3b6ea674824cf05f9bf78f1d681d3a0696260b7a9d92e83aadff10/pure-interface-8.0.1.tar.gz
+[2024-04-29 00:49:49] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/97/85/ebcf50223506f96abcfa077315ab244e192faa632ed400789582dcf565e0/cpg-workflows-1.9.0.tar.gz
+[2024-04-29 00:49:49] INFO root fetch - processPackages [authexchange]: executing diffoscope
+[2024-04-29 00:49:49] INFO root fetch - processPackages [authexchange]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authexchange-0.7.3.tar.gz tmp/authexchange-0.7.4.tar.gz --markdown 20240429/a/authexchange/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-04-29 00:49:49] INFO root fetch - processPackages [pure-interface]: Downloading https://files.pythonhosted.org/packages/b2/73/3b31dc3e4af081b9ccee00c0c4c3dec0640412d7ca0e17ca247154558a72/pure_interface-8.0.2.tar.gz
+[2024-04-29 00:49:49] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/0d/82/bd0cb905c3b340f5cd9b1eb95911c5444e8ba0f6369afc3c60336fed7e14/cpg-workflows-1.9.1.tar.gz
+[2024-04-29 00:49:49] INFO root fetch - processPackages [pure-interface]: executing diffoscope
+[2024-04-29 00:49:49] INFO root fetch - processPackages [pure-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pure-interface-8.0.1.tar.gz tmp/pure_interface-8.0.2.tar.gz --markdown 20240429/p/pure-interface/8.0.1-8.0.2/README.md --exclude *.pyd
+[2024-04-29 00:49:49] INFO root fetch - processPackages [cpg-workflows]: executing diffoscope
+[2024-04-29 00:49:49] INFO root fetch - processPackages [cpg-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-workflows-1.9.0.tar.gz tmp/cpg-workflows-1.9.1.tar.gz --markdown 20240429/c/cpg-workflows/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-29 00:49:49] INFO root fetch - processPackages [authexchange]: Remove: archive file [/home/abi/fetcher/tmp/authexchange-0.7.3.tar.gz]
+[2024-04-29 00:49:49] INFO root fetch - processPackages [authexchange]: Remove: archive file [/home/abi/fetcher/tmp/authexchange-0.7.4.tar.gz]
+[2024-04-29 00:49:49] INFO root fetch - main [MainThread]: End processing [authexchange]: success
+[2024-04-29 00:49:50] INFO root fetch - processPackages [pure-interface]: Remove: archive file [/home/abi/fetcher/tmp/pure-interface-8.0.1.tar.gz]
+[2024-04-29 00:49:50] INFO root fetch - processPackages [pure-interface]: Remove: archive file [/home/abi/fetcher/tmp/pure_interface-8.0.2.tar.gz]
+[2024-04-29 00:49:50] INFO root fetch - main [MainThread]: End processing [pure-interface]: success
+[2024-04-29 00:49:50] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.0.tar.gz]
+[2024-04-29 00:49:50] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
+[2024-04-29 00:49:50] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
+[2024-04-29 00:49:50] INFO root fetch - main [MainThread]: Store serial: [22971415]
