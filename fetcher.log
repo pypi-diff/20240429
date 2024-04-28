@@ -627,3 +627,27 @@
 [2024-04-29 00:58:54] INFO root fetch - processPackages [vegan]: Remove: archive file [/home/abi/fetcher/tmp/vegan-2.1.0.tar.gz]
 [2024-04-29 00:58:54] INFO root fetch - main [MainThread]: End processing [vegan]: success
 [2024-04-29 00:58:54] INFO root fetch - main [MainThread]: Store serial: [22971435]
+[2024-04-29 01:00:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971435]
+[2024-04-29 01:01:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 01:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cz-conventional-gitmoji
+[2024-04-29 01:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: custjson
+[2024-04-29 01:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vegan
+[2024-04-29 01:01:04] WARNING root fetch - processPackages [custjson]: Skipping, unable to determine old version
+[2024-04-29 01:01:04] INFO root fetch - main [MainThread]: End processing [custjson] error
+[2024-04-29 01:01:04] INFO root fetch - processPackages [vegan]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-04-29 01:01:04] INFO root fetch - processPackages [vegan]: Downloading https://files.pythonhosted.org/packages/ff/0f/74da797757871d77780ab44999b62c95e89fd72bf37b645ceca14f039bbd/vegan-2.1.0.tar.gz
+[2024-04-29 01:01:04] INFO root fetch - processPackages [cz-conventional-gitmoji]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-29 01:01:04] INFO root fetch - processPackages [cz-conventional-gitmoji]: Downloading https://files.pythonhosted.org/packages/a2/f0/4bb82915bd6c89f6ae850e14dcf1b3acbe4a8d72c131b9bd3cdc7f662451/cz_conventional_gitmoji-0.3.0.tar.gz
+[2024-04-29 01:01:04] INFO root fetch - processPackages [vegan]: Downloading https://files.pythonhosted.org/packages/d7/94/c9daaf8df6813fb0152f6637e8b251e122b8c159f9095994c0f547d62077/vegan-2.1.1.tar.gz
+[2024-04-29 01:01:05] INFO root fetch - processPackages [cz-conventional-gitmoji]: Downloading https://files.pythonhosted.org/packages/94/0e/71b72381600e3bedce2859dbe8fe446bf6340ddf522f082c8def99578278/cz_conventional_gitmoji-0.3.1.tar.gz
+[2024-04-29 01:01:05] INFO root fetch - processPackages [cz-conventional-gitmoji]: executing diffoscope
+[2024-04-29 01:01:05] INFO root fetch - processPackages [cz-conventional-gitmoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cz_conventional_gitmoji-0.3.0.tar.gz tmp/cz_conventional_gitmoji-0.3.1.tar.gz --markdown 20240429/c/cz-conventional-gitmoji/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-29 01:01:05] INFO root fetch - processPackages [vegan]: executing diffoscope
+[2024-04-29 01:01:05] INFO root fetch - processPackages [vegan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vegan-2.1.0.tar.gz tmp/vegan-2.1.1.tar.gz --markdown 20240429/v/vegan/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-04-29 01:01:05] INFO root fetch - processPackages [cz-conventional-gitmoji]: Remove: archive file [/home/abi/fetcher/tmp/cz_conventional_gitmoji-0.3.0.tar.gz]
+[2024-04-29 01:01:05] INFO root fetch - processPackages [cz-conventional-gitmoji]: Remove: archive file [/home/abi/fetcher/tmp/cz_conventional_gitmoji-0.3.1.tar.gz]
+[2024-04-29 01:01:05] INFO root fetch - main [MainThread]: End processing [cz-conventional-gitmoji]: success
+[2024-04-29 01:01:08] INFO root fetch - processPackages [vegan]: Remove: archive file [/home/abi/fetcher/tmp/vegan-2.1.0.tar.gz]
+[2024-04-29 01:01:08] INFO root fetch - processPackages [vegan]: Remove: archive file [/home/abi/fetcher/tmp/vegan-2.1.1.tar.gz]
+[2024-04-29 01:01:08] INFO root fetch - main [MainThread]: End processing [vegan]: success
+[2024-04-29 01:01:08] INFO root fetch - main [MainThread]: Store serial: [22971445]
