@@ -874,3 +874,18 @@
 [2024-04-29 01:35:40] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.4.9.232723.dev0.tar.gz]
 [2024-04-29 01:35:40] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
 [2024-04-29 01:35:40] INFO root fetch - main [MainThread]: Store serial: [22971559]
+[2024-04-29 01:37:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971559]
+[2024-04-29 01:37:50] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-29 01:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: report-creator
+[2024-04-29 01:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: passive-honeypot-OTTODANP
+[2024-04-29 01:37:50] INFO root fetch - processPackages [report-creator]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-29 01:37:50] WARNING root fetch - processPackages [passive-honeypot-OTTODANP]: Skipping, unable to determine old version
+[2024-04-29 01:37:50] INFO root fetch - main [MainThread]: End processing [passive-honeypot-OTTODANP] error
+[2024-04-29 01:37:50] INFO root fetch - processPackages [report-creator]: Downloading https://files.pythonhosted.org/packages/57/ef/80d0f362d1009648ca0ef0f2dadddabcae16222604617a8e3a951400fd86/report_creator-1.0.8.tar.gz
+[2024-04-29 01:37:50] INFO root fetch - processPackages [report-creator]: Downloading https://files.pythonhosted.org/packages/9f/b7/f0e16193c83b532bc0e2222b47171e2feab21ebd4b7ffa9d962f816813bc/report_creator-1.0.9.tar.gz
+[2024-04-29 01:37:51] INFO root fetch - processPackages [report-creator]: executing diffoscope
+[2024-04-29 01:37:51] INFO root fetch - processPackages [report-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/report_creator-1.0.8.tar.gz tmp/report_creator-1.0.9.tar.gz --markdown 20240429/r/report-creator/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-29 01:37:51] INFO root fetch - processPackages [report-creator]: Remove: archive file [/home/abi/fetcher/tmp/report_creator-1.0.8.tar.gz]
+[2024-04-29 01:37:51] INFO root fetch - processPackages [report-creator]: Remove: archive file [/home/abi/fetcher/tmp/report_creator-1.0.9.tar.gz]
+[2024-04-29 01:37:51] INFO root fetch - main [MainThread]: End processing [report-creator]: success
+[2024-04-29 01:37:51] INFO root fetch - main [MainThread]: Store serial: [22971567]
