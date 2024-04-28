@@ -802,3 +802,21 @@
 [2024-04-29 01:26:53] WARNING root fetch - processPackages [mdpsolver]: Skipping, unable to determine old version
 [2024-04-29 01:26:53] INFO root fetch - main [MainThread]: End processing [mdpsolver] error
 [2024-04-29 01:26:53] INFO root fetch - main [MainThread]: Store serial: [22971533]
+[2024-04-29 01:28:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971533]
+[2024-04-29 01:29:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 01:29:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mdpsolver
+[2024-04-29 01:29:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanking
+[2024-04-29 01:29:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: parsett
+[2024-04-29 01:29:03] WARNING root fetch - processPackages [parsett]: Skipping, unable to determine old version
+[2024-04-29 01:29:03] INFO root fetch - main [MainThread]: End processing [parsett] error
+[2024-04-29 01:29:03] WARNING root fetch - processPackages [mdpsolver]: Skipping, unable to determine old version
+[2024-04-29 01:29:03] INFO root fetch - main [MainThread]: End processing [mdpsolver] error
+[2024-04-29 01:29:03] INFO root fetch - processPackages [spanking]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-29 01:29:04] INFO root fetch - processPackages [spanking]: Downloading https://files.pythonhosted.org/packages/bc/e3/3b40f84b1b7aade16b4612d794232c0d8bfd3ac0dddeea2567e34d6c023d/spanking-0.1.1.tar.gz
+[2024-04-29 01:29:04] INFO root fetch - processPackages [spanking]: Downloading https://files.pythonhosted.org/packages/f9/16/d6b1ea370095da099ff56dcd51eafb2a5aab79acd2f34c2a00d83eb2fc6e/spanking-0.1.2.tar.gz
+[2024-04-29 01:29:04] INFO root fetch - processPackages [spanking]: executing diffoscope
+[2024-04-29 01:29:04] INFO root fetch - processPackages [spanking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanking-0.1.1.tar.gz tmp/spanking-0.1.2.tar.gz --markdown 20240429/s/spanking/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-29 01:29:05] INFO root fetch - processPackages [spanking]: Remove: archive file [/home/abi/fetcher/tmp/spanking-0.1.1.tar.gz]
+[2024-04-29 01:29:05] INFO root fetch - processPackages [spanking]: Remove: archive file [/home/abi/fetcher/tmp/spanking-0.1.2.tar.gz]
+[2024-04-29 01:29:05] INFO root fetch - main [MainThread]: End processing [spanking]: success
+[2024-04-29 01:29:05] INFO root fetch - main [MainThread]: Store serial: [22971544]
