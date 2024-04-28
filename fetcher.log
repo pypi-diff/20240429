@@ -52,3 +52,15 @@
 [2024-04-29 00:06:20] INFO root fetch - processPackages [zer1t0-aze]: Remove: archive file [/home/abi/fetcher/tmp/zer1t0_aze-0.0.4.tar.gz]
 [2024-04-29 00:06:20] INFO root fetch - main [MainThread]: End processing [zer1t0-aze]: success
 [2024-04-29 00:06:20] INFO root fetch - main [MainThread]: Store serial: [22971179]
+[2024-04-29 00:08:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971179]
+[2024-04-29 00:08:28] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-29 00:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eventeditor-GPT
+[2024-04-29 00:08:29] INFO root fetch - processPackages [eventeditor-GPT]: New version: [1.3.8] Old Version: [1.0.2]
+[2024-04-29 00:08:29] INFO root fetch - processPackages [eventeditor-GPT]: Downloading https://files.pythonhosted.org/packages/59/bd/d877319a89cf5178685e71a673284e032e86a966fc7c438c960e9d713209/eventeditor-GPT-1.0.2.tar.gz
+[2024-04-29 00:08:29] INFO root fetch - processPackages [eventeditor-GPT]: Downloading https://files.pythonhosted.org/packages/da/48/f5588b121857313b9b6b086dcd9cdc867db0d4d6684f630b3c8ea12682cb/eventeditor_GPT-1.3.8-py3-none-any.whl
+[2024-04-29 00:08:29] INFO root fetch - processPackages [eventeditor-GPT]: executing diffoscope
+[2024-04-29 00:08:29] INFO root fetch - processPackages [eventeditor-GPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventeditor-GPT-1.0.2.tar.gz tmp/eventeditor_GPT-1.3.8-py3-none-any.whl.zip --markdown 20240429/e/eventeditor-GPT/1.0.2-1.3.8/README.md --exclude *.pyd
+[2024-04-29 00:08:30] INFO root fetch - processPackages [eventeditor-GPT]: Remove: archive file [/home/abi/fetcher/tmp/eventeditor-GPT-1.0.2.tar.gz]
+[2024-04-29 00:08:30] INFO root fetch - processPackages [eventeditor-GPT]: Remove: archive file [/home/abi/fetcher/tmp/eventeditor_GPT-1.3.8-py3-none-any.whl.zip]
+[2024-04-29 00:08:30] INFO root fetch - main [MainThread]: End processing [eventeditor-GPT]: success
+[2024-04-29 00:08:30] INFO root fetch - main [MainThread]: Store serial: [22971182]
