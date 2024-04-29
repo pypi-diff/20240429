@@ -23286,3 +23286,126 @@ EOFError: EOF read where object expected
 [2024-04-29 16:18:31] INFO root fetch - processPackages [maplib]: Remove: archive file [/home/abi/fetcher/tmp/maplib-0.8.9.tar.gz]
 [2024-04-29 16:18:31] INFO root fetch - main [MainThread]: End processing [maplib]: success
 [2024-04-29 16:18:31] INFO root fetch - main [MainThread]: Store serial: [22985197]
+[2024-04-29 16:20:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22985197]
+[2024-04-29 16:20:39] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-29 16:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gradio-molecule2d
+[2024-04-29 16:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lightning-extensions
+[2024-04-29 16:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyGenStability
+[2024-04-29 16:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf
+[2024-04-29 16:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyunifiprotect
+[2024-04-29 16:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: falcon-challenge
+[2024-04-29 16:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assemblyline-service-client
+[2024-04-29 16:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assemblyline-service-server
+[2024-04-29 16:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assemblyline-ui
+[2024-04-29 16:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: RenewablesAutomate
+[2024-04-29 16:20:40] WARNING root fetch - processPackages [RenewablesAutomate]: Skipping, unable to determine old version
+[2024-04-29 16:20:40] INFO root fetch - processPackages [RenewablesAutomate]: Start processing: SVInsight
+[2024-04-29 16:20:40] INFO root fetch - main [MainThread]: End processing [RenewablesAutomate] error
+[2024-04-29 16:20:40] INFO root fetch - processPackages [lightning-extensions]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-29 16:20:40] INFO root fetch - processPackages [gradio-molecule2d]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-29 16:20:40] INFO root fetch - processPackages [PyGenStability]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-29 16:20:40] INFO root fetch - processPackages [lightning-extensions]: Downloading https://files.pythonhosted.org/packages/63/2a/b1916875fdd39708d5076a7f97e208020cc9415f6368941fe8686dc5e63e/lightning_extensions-0.0.7.tar.gz
+[2024-04-29 16:20:40] INFO root fetch - processPackages [falcon-challenge]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-29 16:20:40] INFO root fetch - processPackages [pyunifiprotect]: New version: [5.2.0] Old Version: [5.1.3]
+[2024-04-29 16:20:40] INFO root fetch - processPackages [SVInsight]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-29 16:20:40] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-04-29 16:20:40] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-04-29 16:20:40] INFO root fetch - processPackages [gradio-molecule2d]: Downloading https://files.pythonhosted.org/packages/c1/3d/7163c2a344ace58f711f66de268ed31e8453b2cf9a3272823691e5cbf433/gradio_molecule2d-0.0.1.tar.gz
+[2024-04-29 16:20:40] INFO root fetch - processPackages [cdktf]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-29 16:20:40] INFO root fetch - processPackages [PyGenStability]: Downloading https://files.pythonhosted.org/packages/9b/a9/23a5ae824c6b25861ce1e58916bf4295e6a4c798b76ad8a0aacd534fa35f/PyGenStability-0.2.3.tar.gz
+[2024-04-29 16:20:40] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-04-29 16:20:40] INFO root fetch - processPackages [falcon-challenge]: Downloading https://files.pythonhosted.org/packages/53/e3/9d185f6149b6448ca117dee55c56063077688509664269f20fd5f66f0e8a/falcon_challenge-0.2.8.tar.gz
+[2024-04-29 16:20:40] INFO root fetch - processPackages [pyunifiprotect]: Downloading https://files.pythonhosted.org/packages/1d/ea/1361b19595184c96f8b3e95812ea8622e618a2123edaa0b466610132c075/pyunifiprotect-5.1.3.tar.gz
+[2024-04-29 16:20:40] INFO root fetch - processPackages [SVInsight]: Downloading https://files.pythonhosted.org/packages/4b/2b/2d99e433d86e7b044deef5ccbcfa8c076d2f2ab4707b6ef174acf9c1c333/svinsight-0.3.3.tar.gz
+[2024-04-29 16:20:40] INFO root fetch - processPackages [lightning-extensions]: Downloading https://files.pythonhosted.org/packages/ec/19/979424f82665c27e0f4ade9d3c49a019d99654d0ac1df85e12134cb8fb8f/lightning_extensions-0.0.9.tar.gz
+[2024-04-29 16:20:40] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/09/f6/461581aa3df5df687f3412c4e34ee4b73d2e6bffec292b864c2b7703ce20/assemblyline_service_client-4.5.1.dev98-py3-none-any.whl
+[2024-04-29 16:20:40] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/f2/74/b8237d72f5bff6c82a740d48ec21ed2b8942846129c189028d0c66238da1/assemblyline_service_server-4.5.1.dev98-py3-none-any.whl
+[2024-04-29 16:20:40] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/87/b3/c146d54086d890741cc9d05c63504e1386b268ef8cbc52d9aa78c1080aa3/cdktf-0.9.3.tar.gz
+[2024-04-29 16:20:40] INFO root fetch - processPackages [lightning-extensions]: executing diffoscope
+[2024-04-29 16:20:40] INFO root fetch - processPackages [lightning-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning_extensions-0.0.7.tar.gz tmp/lightning_extensions-0.0.9.tar.gz --markdown 20240429/l/lightning-extensions/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-04-29 16:20:40] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/b5/68/4bf2882ecdfd3493ba5557cff1c06d2e527fe7e8ba2963a37bcad30bf714/assemblyline_ui-4.5.1.dev98-py3-none-any.whl
+[2024-04-29 16:20:40] INFO root fetch - processPackages [SVInsight]: Downloading https://files.pythonhosted.org/packages/44/bb/b15aeeb09669e0048bddcca61595ad36d99f2c9f99fdaab0b287b3717a93/svinsight-0.3.4.tar.gz
+[2024-04-29 16:20:40] INFO root fetch - processPackages [falcon-challenge]: Downloading https://files.pythonhosted.org/packages/70/39/289ac647333f796983e8f9f4fea739a7549c7f93f85b76049604117def43/falcon_challenge-0.2.9.tar.gz
+[2024-04-29 16:20:40] INFO root fetch - processPackages [PyGenStability]: Downloading https://files.pythonhosted.org/packages/22/1f/832556f1d6013d633b2d30c2b9c1ef43d789333c20165d1e5919bb0a84c5/PyGenStability-0.2.4-cp39-cp39-macosx_10_13_x86_64.whl
+[2024-04-29 16:20:41] INFO root fetch - processPackages [pyunifiprotect]: Downloading https://files.pythonhosted.org/packages/61/b8/a0fd7ff57850b7985b8e82645aedff542fbeff4b53f77d2c0846a5b1294f/pyunifiprotect-5.2.0.tar.gz
+[2024-04-29 16:20:41] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/71/b9/931accceaab4b85f0403f7e1e99c5e67613d62945cec643f8cbe392edb99/assemblyline_service_client-4.5.1.dev99-py3-none-any.whl
+[2024-04-29 16:20:41] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/56/40/7aa376ad2c2a5e676da4626e03b7f92a1e4368e86ecfac6183027c093511/assemblyline_service_server-4.5.1.dev99-py3-none-any.whl
+[2024-04-29 16:20:41] INFO root fetch - processPackages [gradio-molecule2d]: Downloading https://files.pythonhosted.org/packages/42/df/7f14cfff0728970ba81f36a921b8ff958bbca3654e4941b9111e4c18bd68/gradio_molecule2d-0.0.2.tar.gz
+[2024-04-29 16:20:41] INFO root fetch - processPackages [falcon-challenge]: executing diffoscope
+[2024-04-29 16:20:41] INFO root fetch - processPackages [falcon-challenge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/falcon_challenge-0.2.8.tar.gz tmp/falcon_challenge-0.2.9.tar.gz --markdown 20240429/f/falcon-challenge/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-29 16:20:41] INFO root fetch - processPackages [SVInsight]: executing diffoscope
+[2024-04-29 16:20:41] INFO root fetch - processPackages [SVInsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svinsight-0.3.3.tar.gz tmp/svinsight-0.3.4.tar.gz --markdown 20240429/S/SVInsight/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-04-29 16:20:41] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/fb/ac/688fc1bf55eadae3eb16a0bc260554cc144adfd2057b87015cb6e58ed6d9/assemblyline_ui-4.5.1.dev99-py3-none-any.whl
+[2024-04-29 16:20:41] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2024-04-29 16:20:41] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.5.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.5.1.dev99-py3-none-any.whl.zip --markdown 20240429/a/assemblyline-service-server/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-04-29 16:20:41] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2024-04-29 16:20:41] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.5.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.5.1.dev99-py3-none-any.whl.zip --markdown 20240429/a/assemblyline-service-client/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-04-29 16:20:41] INFO root fetch - processPackages [pyunifiprotect]: executing diffoscope
+[2024-04-29 16:20:41] INFO root fetch - processPackages [pyunifiprotect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyunifiprotect-5.1.3.tar.gz tmp/pyunifiprotect-5.2.0.tar.gz --markdown 20240429/p/pyunifiprotect/5.1.3-5.2.0/README.md --exclude *.pyd
+[2024-04-29 16:20:41] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/80/8d/cbc9ef418f046a8c17f614889aba72b6e668540a2966498bef6f1dbb3a10/cdktf-0.9.4.tar.gz
+[2024-04-29 16:20:41] INFO root fetch - processPackages [PyGenStability]: executing diffoscope
+[2024-04-29 16:20:41] INFO root fetch - processPackages [PyGenStability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyGenStability-0.2.3.tar.gz tmp/PyGenStability-0.2.4-cp39-cp39-macosx_10_13_x86_64.whl.zip --markdown 20240429/P/PyGenStability/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-29 16:20:41] INFO root fetch - processPackages [gradio-molecule2d]: executing diffoscope
+[2024-04-29 16:20:41] INFO root fetch - processPackages [gradio-molecule2d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradio_molecule2d-0.0.1.tar.gz tmp/gradio_molecule2d-0.0.2.tar.gz --markdown 20240429/g/gradio-molecule2d/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-29 16:20:41] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2024-04-29 16:20:41] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.5.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.5.1.dev99-py3-none-any.whl.zip --markdown 20240429/a/assemblyline-ui/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-04-29 16:20:41] INFO root fetch - processPackages [cdktf]: executing diffoscope
+[2024-04-29 16:20:41] INFO root fetch - processPackages [cdktf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-0.9.3.tar.gz tmp/cdktf-0.9.4.tar.gz --markdown 20240429/c/cdktf/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-29 16:20:41] INFO root fetch - processPackages [lightning-extensions]: Remove: archive file [/home/abi/fetcher/tmp/lightning_extensions-0.0.7.tar.gz]
+[2024-04-29 16:20:41] INFO root fetch - processPackages [lightning-extensions]: Remove: archive file [/home/abi/fetcher/tmp/lightning_extensions-0.0.9.tar.gz]
+[2024-04-29 16:20:41] INFO root fetch - processPackages [lightning-extensions]: Start processing: dls-dodal
+[2024-04-29 16:20:41] INFO root fetch - main [MainThread]: End processing [lightning-extensions]: success
+[2024-04-29 16:20:41] INFO root fetch - processPackages [dls-dodal]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-29 16:20:41] INFO root fetch - processPackages [dls-dodal]: Downloading https://files.pythonhosted.org/packages/7d/05/37c63aa0cd1a6ce2a8a5c2af1a34235ffe8817d51ad11163a3cd85ae12f0/dls-dodal-1.8.0.tar.gz
+[2024-04-29 16:20:42] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.5.1.dev98-py3-none-any.whl.zip]
+[2024-04-29 16:20:42] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.5.1.dev99-py3-none-any.whl.zip]
+[2024-04-29 16:20:42] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: assemblyline-v4-service
+[2024-04-29 16:20:42] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2024-04-29 16:20:42] INFO root fetch - processPackages [SVInsight]: Remove: archive file [/home/abi/fetcher/tmp/svinsight-0.3.3.tar.gz]
+[2024-04-29 16:20:42] INFO root fetch - processPackages [SVInsight]: Remove: archive file [/home/abi/fetcher/tmp/svinsight-0.3.4.tar.gz]
+[2024-04-29 16:20:42] INFO root fetch - processPackages [SVInsight]: Start processing: nonebot-plugin-wordcloud
+[2024-04-29 16:20:42] INFO root fetch - main [MainThread]: End processing [SVInsight]: success
+[2024-04-29 16:20:42] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.5.1.dev99] Old Version: [4.5.1.dev98]
+[2024-04-29 16:20:42] INFO root fetch - processPackages [dls-dodal]: Downloading https://files.pythonhosted.org/packages/0f/b3/c8af395d46d1c9764756342c7841827c9e0e708aade9b05af36c576f333a/dls-dodal-1.9.0.tar.gz
+[2024-04-29 16:20:42] INFO root fetch - processPackages [PyGenStability]: Remove: archive file [/home/abi/fetcher/tmp/PyGenStability-0.2.3.tar.gz]
+[2024-04-29 16:20:42] INFO root fetch - processPackages [PyGenStability]: Remove: archive file [/home/abi/fetcher/tmp/PyGenStability-0.2.4-cp39-cp39-macosx_10_13_x86_64.whl.zip]
+[2024-04-29 16:20:42] INFO root fetch - main [MainThread]: End processing [PyGenStability]: success
+[2024-04-29 16:20:42] INFO root fetch - processPackages [nonebot-plugin-wordcloud]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-29 16:20:42] INFO root fetch - processPackages [dls-dodal]: executing diffoscope
+[2024-04-29 16:20:42] INFO root fetch - processPackages [dls-dodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dls-dodal-1.8.0.tar.gz tmp/dls-dodal-1.9.0.tar.gz --markdown 20240429/d/dls-dodal/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-29 16:20:42] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.5.1.dev98-py3-none-any.whl.zip]
+[2024-04-29 16:20:42] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.5.1.dev99-py3-none-any.whl.zip]
+[2024-04-29 16:20:42] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2024-04-29 16:20:42] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/e9/5c/01c9c0751191f7c8a1219ba8ca8d35521ba24c6f4e0b3b30f123968022a4/assemblyline_v4_service-4.5.1.dev98-py3-none-any.whl
+[2024-04-29 16:20:42] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.5.1.dev98-py3-none-any.whl.zip]
+[2024-04-29 16:20:42] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.5.1.dev99-py3-none-any.whl.zip]
+[2024-04-29 16:20:42] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2024-04-29 16:20:42] INFO root fetch - processPackages [nonebot-plugin-wordcloud]: Downloading https://files.pythonhosted.org/packages/5b/f4/e062ac853286ae2db2c33905a8026b71db4d3a2e950b11db6aa76fb198b1/nonebot_plugin_wordcloud-0.7.1.tar.gz
+[2024-04-29 16:20:42] INFO root fetch - processPackages [falcon-challenge]: Remove: archive file [/home/abi/fetcher/tmp/falcon_challenge-0.2.8.tar.gz]
+[2024-04-29 16:20:42] INFO root fetch - processPackages [falcon-challenge]: Remove: archive file [/home/abi/fetcher/tmp/falcon_challenge-0.2.9.tar.gz]
+[2024-04-29 16:20:42] INFO root fetch - main [MainThread]: End processing [falcon-challenge]: success
+[2024-04-29 16:20:42] INFO root fetch - processPackages [pyunifiprotect]: Remove: archive file [/home/abi/fetcher/tmp/pyunifiprotect-5.1.3.tar.gz]
+[2024-04-29 16:20:42] INFO root fetch - processPackages [pyunifiprotect]: Remove: archive file [/home/abi/fetcher/tmp/pyunifiprotect-5.2.0.tar.gz]
+[2024-04-29 16:20:42] INFO root fetch - main [MainThread]: End processing [pyunifiprotect]: success
+[2024-04-29 16:20:42] INFO root fetch - processPackages [cdktf]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-0.9.3.tar.gz]
+[2024-04-29 16:20:42] INFO root fetch - processPackages [cdktf]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-0.9.4.tar.gz]
+[2024-04-29 16:20:43] INFO root fetch - main [MainThread]: End processing [cdktf]: success
+[2024-04-29 16:20:43] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/6c/18/d6496f3a9ea60866c419e3c1e5cf618fc2709d7fb2b7dc4bd270f6fcbbc1/assemblyline_v4_service-4.5.1.dev99-py3-none-any.whl
+[2024-04-29 16:20:43] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2024-04-29 16:20:43] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.5.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.5.1.dev99-py3-none-any.whl.zip --markdown 20240429/a/assemblyline-v4-service/4.5.1.dev98-4.5.1.dev99/README.md --exclude *.pyd
+[2024-04-29 16:20:43] INFO root fetch - processPackages [nonebot-plugin-wordcloud]: Downloading https://files.pythonhosted.org/packages/5a/d2/4d01ff6cecd5445746c7197bfa662cffaa104e3e0d49e504cb9dce626320/nonebot_plugin_wordcloud-0.7.2.tar.gz
+[2024-04-29 16:20:44] INFO root fetch - processPackages [dls-dodal]: Remove: archive file [/home/abi/fetcher/tmp/dls-dodal-1.8.0.tar.gz]
+[2024-04-29 16:20:44] INFO root fetch - processPackages [dls-dodal]: Remove: archive file [/home/abi/fetcher/tmp/dls-dodal-1.9.0.tar.gz]
+[2024-04-29 16:20:44] INFO root fetch - main [MainThread]: End processing [dls-dodal]: success
+[2024-04-29 16:20:44] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.5.1.dev98-py3-none-any.whl.zip]
+[2024-04-29 16:20:44] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.5.1.dev99-py3-none-any.whl.zip]
+[2024-04-29 16:20:44] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2024-04-29 16:20:44] INFO root fetch - processPackages [nonebot-plugin-wordcloud]: executing diffoscope
+[2024-04-29 16:20:44] INFO root fetch - processPackages [nonebot-plugin-wordcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_wordcloud-0.7.1.tar.gz tmp/nonebot_plugin_wordcloud-0.7.2.tar.gz --markdown 20240429/n/nonebot-plugin-wordcloud/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-04-29 16:20:45] INFO root fetch - processPackages [nonebot-plugin-wordcloud]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_wordcloud-0.7.1.tar.gz]
+[2024-04-29 16:20:45] INFO root fetch - processPackages [nonebot-plugin-wordcloud]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_wordcloud-0.7.2.tar.gz]
+[2024-04-29 16:20:45] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-wordcloud]: success
+[2024-04-29 16:20:45] INFO root fetch - processPackages [gradio-molecule2d]: Remove: archive file [/home/abi/fetcher/tmp/gradio_molecule2d-0.0.1.tar.gz]
+[2024-04-29 16:20:45] INFO root fetch - processPackages [gradio-molecule2d]: Remove: archive file [/home/abi/fetcher/tmp/gradio_molecule2d-0.0.2.tar.gz]
+[2024-04-29 16:20:45] INFO root fetch - main [MainThread]: End processing [gradio-molecule2d]: success
+[2024-04-29 16:20:45] INFO root fetch - main [MainThread]: Store serial: [22985240]
