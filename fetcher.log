@@ -18091,3 +18091,52 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 13:59:30] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.4.9.tar.gz]
 [2024-04-29 13:59:30] INFO root fetch - main [MainThread]: End processing [Files.com]: success
 [2024-04-29 13:59:30] INFO root fetch - main [MainThread]: Store serial: [22982957]
+[2024-04-29 14:01:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982957]
+[2024-04-29 14:01:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-29 14:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-core-xe-esimd
+[2024-04-29 14:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdo-sdk-python
+[2024-04-29 14:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-model-manager
+[2024-04-29 14:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlatom
+[2024-04-29 14:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: timepulse
+[2024-04-29 14:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: curve-apps
+[2024-04-29 14:01:40] INFO root fetch - processPackages [bigdl-core-xe-esimd]: New version: [2.5.0b20240429] Old Version: [2.5.0b20240428]
+[2024-04-29 14:01:40] INFO root fetch - processPackages [timepulse]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-29 14:01:40] INFO root fetch - processPackages [bigdl-core-xe-esimd]: Downloading https://files.pythonhosted.org/packages/af/4b/38013ce507ad4315e9cc91528f37b39d78d70ed7ffee33efd1c0912b2ad1/bigdl_core_xe_esimd-2.5.0b20240428-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-29 14:01:40] INFO root fetch - processPackages [mlatom]: New version: [3.4.0b0] Old Version: [3.3.0]
+[2024-04-29 14:01:40] INFO root fetch - processPackages [torch-model-manager]: New version: [0.1.0.dev1] Old Version: [0.0.8.dev2]
+[2024-04-29 14:01:40] INFO root fetch - processPackages [curve-apps]: New version: [0.1.0rc2] Old Version: [0.1.0rc1]
+[2024-04-29 14:01:40] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-04-29 14:01:40] WARNING root fetch - processPackages [bigdl-core-xe-esimd]: Skipping package: exceeds size limit 61871662>=10485760
+[2024-04-29 14:01:40] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd] error
+[2024-04-29 14:01:40] INFO root fetch - processPackages [timepulse]: Downloading https://files.pythonhosted.org/packages/9f/f7/87e8e7aaab9727eed3f45b6b3d3f52f9723e03a5aaeac998174b5ade44ea/timepulse-0.2.0.tar.gz
+[2024-04-29 14:01:40] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/ea/3c/e9dc46277ffd1909f7aaa283e755a944e3a8dd7cef795c10dc27386486e3/torch_model_manager-0.0.8.dev2.tar.gz
+[2024-04-29 14:01:40] INFO root fetch - processPackages [mlatom]: Downloading https://files.pythonhosted.org/packages/f8/9d/9c1f2f29ee6f9bd544878665ddf4e14c7b85d557f0f709af84e2e21a902b/mlatom-3.3.0.tar.gz
+[2024-04-29 14:01:40] INFO root fetch - processPackages [curve-apps]: Downloading https://files.pythonhosted.org/packages/e6/c2/476ce7540cc89aa25dea9a9896f554d4880cd46f301b1b73d5fc74b6c558/curve_apps-0.1.0rc1.tar.gz
+[2024-04-29 14:01:40] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-04-29 14:01:40] WARNING root fetch - processPackages [mlatom]: Skipping package: exceeds size limit 51232821>=10485760
+[2024-04-29 14:01:40] INFO root fetch - main [MainThread]: End processing [mlatom] error
+[2024-04-29 14:01:40] INFO root fetch - processPackages [timepulse]: Downloading https://files.pythonhosted.org/packages/bf/b3/777013f468d7703bb36f62fb6a08fb8f0462def096de901305cdf4b296c7/timepulse-0.3.0.tar.gz
+[2024-04-29 14:01:40] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/80/c0/17e0b306c6708d302120a8b0aa947a0e8ad2dd9d83d421c2a059d8340131/torch_model_manager-0.1.0.dev1.tar.gz
+[2024-04-29 14:01:40] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-04-29 14:01:40] INFO root fetch - processPackages [timepulse]: executing diffoscope
+[2024-04-29 14:01:40] INFO root fetch - processPackages [timepulse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timepulse-0.2.0.tar.gz tmp/timepulse-0.3.0.tar.gz --markdown 20240429/t/timepulse/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-29 14:01:40] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-04-29 14:01:40] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.0.8.dev2.tar.gz tmp/torch_model_manager-0.1.0.dev1.tar.gz --markdown 20240429/t/torch-model-manager/0.0.8.dev2-0.1.0.dev1/README.md --exclude *.pyd
+[2024-04-29 14:01:40] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-04-29 14:01:40] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240429/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-04-29 14:01:41] INFO root fetch - processPackages [curve-apps]: Downloading https://files.pythonhosted.org/packages/7e/14/a2f0ee507de082246574d54b17f081945a8b84fd63b0593a78bffb864ba7/curve_apps-0.1.0rc2.tar.gz
+[2024-04-29 14:01:41] INFO root fetch - processPackages [curve-apps]: executing diffoscope
+[2024-04-29 14:01:41] INFO root fetch - processPackages [curve-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curve_apps-0.1.0rc1.tar.gz tmp/curve_apps-0.1.0rc2.tar.gz --markdown 20240429/c/curve-apps/0.1.0rc1-0.1.0rc2/README.md --exclude *.pyd
+[2024-04-29 14:01:41] INFO root fetch - processPackages [timepulse]: Remove: archive file [/home/abi/fetcher/tmp/timepulse-0.2.0.tar.gz]
+[2024-04-29 14:01:41] INFO root fetch - processPackages [timepulse]: Remove: archive file [/home/abi/fetcher/tmp/timepulse-0.3.0.tar.gz]
+[2024-04-29 14:01:41] INFO root fetch - main [MainThread]: End processing [timepulse]: success
+[2024-04-29 14:01:41] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.0.8.dev2.tar.gz]
+[2024-04-29 14:01:41] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.1.0.dev1.tar.gz]
+[2024-04-29 14:01:41] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-04-29 14:01:42] INFO root fetch - processPackages [curve-apps]: Remove: archive file [/home/abi/fetcher/tmp/curve_apps-0.1.0rc1.tar.gz]
+[2024-04-29 14:01:42] INFO root fetch - processPackages [curve-apps]: Remove: archive file [/home/abi/fetcher/tmp/curve_apps-0.1.0rc2.tar.gz]
+[2024-04-29 14:01:42] INFO root fetch - main [MainThread]: End processing [curve-apps]: success
+[2024-04-29 14:01:42] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-04-29 14:01:42] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-04-29 14:01:42] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-04-29 14:01:42] INFO root fetch - main [MainThread]: Store serial: [22982974]
