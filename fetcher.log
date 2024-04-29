@@ -7037,3 +7037,18 @@
 [2024-04-29 04:54:12] INFO root fetch - processPackages [unleashed-chat]: Remove: archive file [/home/abi/fetcher/tmp/unleashed_chat-0.1.3.tar.gz]
 [2024-04-29 04:54:12] INFO root fetch - main [MainThread]: End processing [unleashed-chat]: success
 [2024-04-29 04:54:12] INFO root fetch - main [MainThread]: Store serial: [22978222]
+[2024-04-29 04:56:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978222]
+[2024-04-29 04:56:21] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-29 04:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dvtag
+[2024-04-29 04:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ervdetective
+[2024-04-29 04:56:21] INFO root fetch - processPackages [dvtag]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-29 04:56:21] WARNING root fetch - processPackages [ervdetective]: Skipping, unable to determine old version
+[2024-04-29 04:56:21] INFO root fetch - main [MainThread]: End processing [ervdetective] error
+[2024-04-29 04:56:21] INFO root fetch - processPackages [dvtag]: Downloading https://files.pythonhosted.org/packages/d2/19/002542e084cfad60d306bedd2a1a115bf8cb3e4f939cf7ef1bea8311367f/dvtag-0.7.1.tar.gz
+[2024-04-29 04:56:21] INFO root fetch - processPackages [dvtag]: Downloading https://files.pythonhosted.org/packages/50/c9/007cc0e249e0bea7db9a21fd6072eba0be89191d5aa09d1b30e051cedd8f/dvtag-0.7.2.tar.gz
+[2024-04-29 04:56:21] INFO root fetch - processPackages [dvtag]: executing diffoscope
+[2024-04-29 04:56:21] INFO root fetch - processPackages [dvtag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvtag-0.7.1.tar.gz tmp/dvtag-0.7.2.tar.gz --markdown 20240429/d/dvtag/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-04-29 04:56:22] INFO root fetch - processPackages [dvtag]: Remove: archive file [/home/abi/fetcher/tmp/dvtag-0.7.1.tar.gz]
+[2024-04-29 04:56:22] INFO root fetch - processPackages [dvtag]: Remove: archive file [/home/abi/fetcher/tmp/dvtag-0.7.2.tar.gz]
+[2024-04-29 04:56:22] INFO root fetch - main [MainThread]: End processing [dvtag]: success
+[2024-04-29 04:56:22] INFO root fetch - main [MainThread]: Store serial: [22978238]
