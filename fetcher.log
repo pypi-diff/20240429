@@ -8424,3 +8424,32 @@
 [2024-04-29 06:53:31] INFO root fetch - processPackages [enconnect]: Remove: archive file [/home/abi/fetcher/tmp/enconnect-0.3.0.tar.gz]
 [2024-04-29 06:53:31] INFO root fetch - main [MainThread]: End processing [enconnect]: success
 [2024-04-29 06:53:31] INFO root fetch - main [MainThread]: Store serial: [22978810]
+[2024-04-29 06:55:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978810]
+[2024-04-29 06:55:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 06:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opensees
+[2024-04-29 06:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moraine
+[2024-04-29 06:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-string-tool
+[2024-04-29 06:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flowmancer
+[2024-04-29 06:55:41] WARNING root fetch - processPackages [py-string-tool]: Skipping, unable to determine old version
+[2024-04-29 06:55:41] INFO root fetch - main [MainThread]: End processing [py-string-tool] error
+[2024-04-29 06:55:41] INFO root fetch - processPackages [moraine]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-04-29 06:55:41] INFO root fetch - processPackages [moraine]: Downloading https://files.pythonhosted.org/packages/1a/96/9b5595ec20543116a953c41b855f492f8b0852e73d921ce67fbbfae1705f/moraine-0.6.3.tar.gz
+[2024-04-29 06:55:41] INFO root fetch - processPackages [flowmancer]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-29 06:55:41] INFO root fetch - processPackages [opensees]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 06:55:41] INFO root fetch - processPackages [flowmancer]: Downloading https://files.pythonhosted.org/packages/16/67/dc7e0f71395efdfa833d75db9c3cea1581c7472b0d0486c81d58b8a867af/flowmancer-0.9.4.tar.gz
+[2024-04-29 06:55:41] INFO root fetch - processPackages [moraine]: Downloading https://files.pythonhosted.org/packages/4d/9b/51ff9f44e19a0bee2721fca3581c74b5731d49ca30804e1c712dfaf67ede/moraine-0.6.4.tar.gz
+[2024-04-29 06:55:42] INFO root fetch - processPackages [moraine]: executing diffoscope
+[2024-04-29 06:55:42] INFO root fetch - processPackages [moraine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moraine-0.6.3.tar.gz tmp/moraine-0.6.4.tar.gz --markdown 20240429/m/moraine/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-04-29 06:55:42] INFO root fetch - processPackages [opensees]: Downloading https://files.pythonhosted.org/packages/89/07/b8f08c9d4567b2986131cfb7613ef5601c16b2a3c0ac5f22dd8e82eec99d/opensees-0.0.9.tar.gz
+[2024-04-29 06:55:42] INFO root fetch - processPackages [flowmancer]: Downloading https://files.pythonhosted.org/packages/6c/70/08dbb431bf20c50c0cc8980f264315b9ee83779e5be507e72b668ea0d341/flowmancer-0.9.5.tar.gz
+[2024-04-29 06:55:42] INFO root fetch - processPackages [flowmancer]: executing diffoscope
+[2024-04-29 06:55:42] INFO root fetch - processPackages [flowmancer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmancer-0.9.4.tar.gz tmp/flowmancer-0.9.5.tar.gz --markdown 20240429/f/flowmancer/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-29 06:55:42] INFO root fetch - processPackages [moraine]: Remove: archive file [/home/abi/fetcher/tmp/moraine-0.6.3.tar.gz]
+[2024-04-29 06:55:42] INFO root fetch - processPackages [moraine]: Remove: archive file [/home/abi/fetcher/tmp/moraine-0.6.4.tar.gz]
+[2024-04-29 06:55:42] INFO root fetch - main [MainThread]: End processing [moraine]: success
+[2024-04-29 06:55:42] WARNING root fetch - processPackages [opensees]: Skipping package: exceeds size limit 22392766>=10485760
+[2024-04-29 06:55:42] INFO root fetch - main [MainThread]: End processing [opensees] error
+[2024-04-29 06:55:42] INFO root fetch - processPackages [flowmancer]: Remove: archive file [/home/abi/fetcher/tmp/flowmancer-0.9.4.tar.gz]
+[2024-04-29 06:55:42] INFO root fetch - processPackages [flowmancer]: Remove: archive file [/home/abi/fetcher/tmp/flowmancer-0.9.5.tar.gz]
+[2024-04-29 06:55:42] INFO root fetch - main [MainThread]: End processing [flowmancer]: success
+[2024-04-29 06:55:42] INFO root fetch - main [MainThread]: Store serial: [22978828]
