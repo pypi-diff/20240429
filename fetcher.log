@@ -9935,3 +9935,37 @@
 [2024-04-29 08:39:29] INFO root fetch - processPackages [mountaineer]: Remove: archive file [/home/abi/fetcher/tmp/mountaineer-0.4.2.dev3.tar.gz]
 [2024-04-29 08:39:29] INFO root fetch - main [MainThread]: End processing [mountaineer]: success
 [2024-04-29 08:39:29] INFO root fetch - main [MainThread]: Store serial: [22979541]
+[2024-04-29 08:41:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979541]
+[2024-04-29 08:41:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 08:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: static-analysis-script
+[2024-04-29 08:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hello-avishek
+[2024-04-29 08:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chroptiks
+[2024-04-29 08:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chroptiks
+[2024-04-29 08:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Rajsaro
+[2024-04-29 08:41:38] INFO root fetch - processPackages [chroptiks]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-29 08:41:38] INFO root fetch - processPackages [static-analysis-script]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-29 08:41:38] INFO root fetch - processPackages [chroptiks]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-29 08:41:38] WARNING root fetch - processPackages [hello-avishek]: Skipping, unable to determine old version
+[2024-04-29 08:41:38] ERROR root fetch - processPackages [Rajsaro]: Unable to get metadata: No such project 'Rajsaro'
+[2024-04-29 08:41:38] INFO root fetch - main [MainThread]: End processing [hello-avishek] error
+[2024-04-29 08:41:38] INFO root fetch - main [MainThread]: End processing [Rajsaro] error
+[2024-04-29 08:41:38] INFO root fetch - processPackages [chroptiks]: Downloading https://files.pythonhosted.org/packages/19/2a/d4543e585911599203da22c4d615cc085cdcbeb86421dcc3db3240e4020a/chroptiks-0.1.3.tar.gz
+[2024-04-29 08:41:38] INFO root fetch - processPackages [static-analysis-script]: Downloading https://files.pythonhosted.org/packages/24/88/37172148f68a5d527191ce6107065b83bc103c879f0d3bb371ac919fd335/static_analysis_script-0.1.6.tar.gz
+[2024-04-29 08:41:38] INFO root fetch - processPackages [chroptiks]: Downloading https://files.pythonhosted.org/packages/19/2a/d4543e585911599203da22c4d615cc085cdcbeb86421dcc3db3240e4020a/chroptiks-0.1.3.tar.gz
+[2024-04-29 08:41:38] INFO root fetch - processPackages [chroptiks]: Downloading https://files.pythonhosted.org/packages/47/10/e9d4fd1d60215841a87f751420c307aa5f991940cdca47d94db7294598c9/chroptiks-0.1.4.tar.gz
+[2024-04-29 08:41:38] INFO root fetch - processPackages [chroptiks]: Downloading https://files.pythonhosted.org/packages/47/10/e9d4fd1d60215841a87f751420c307aa5f991940cdca47d94db7294598c9/chroptiks-0.1.4.tar.gz
+[2024-04-29 08:41:38] INFO root fetch - processPackages [static-analysis-script]: Downloading https://files.pythonhosted.org/packages/bb/25/af9f9c2b62960eadfe80f01dcf422d3e562a83bc0470250c0a243b33de08/static_analysis_script-0.1.7.tar.gz
+[2024-04-29 08:41:38] INFO root fetch - processPackages [chroptiks]: executing diffoscope
+[2024-04-29 08:41:38] INFO root fetch - processPackages [chroptiks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chroptiks-0.1.3.tar.gz tmp/chroptiks-0.1.4.tar.gz --markdown 20240429/c/chroptiks/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-29 08:41:38] INFO root fetch - processPackages [chroptiks]: executing diffoscope
+[2024-04-29 08:41:38] INFO root fetch - processPackages [chroptiks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chroptiks-0.1.3.tar.gz tmp/chroptiks-0.1.4.tar.gz --markdown 20240429/c/chroptiks/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-29 08:41:39] INFO root fetch - processPackages [static-analysis-script]: executing diffoscope
+[2024-04-29 08:41:39] INFO root fetch - processPackages [static-analysis-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/static_analysis_script-0.1.6.tar.gz tmp/static_analysis_script-0.1.7.tar.gz --markdown 20240429/s/static-analysis-script/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-29 08:41:39] INFO root fetch - processPackages [chroptiks]: Remove: archive file [/home/abi/fetcher/tmp/chroptiks-0.1.3.tar.gz]
+[2024-04-29 08:41:39] INFO root fetch - processPackages [chroptiks]: Remove: archive file [/home/abi/fetcher/tmp/chroptiks-0.1.4.tar.gz]
+[2024-04-29 08:41:39] INFO root fetch - main [MainThread]: End processing [chroptiks]: success
+[2024-04-29 08:41:39] INFO root fetch - main [MainThread]: End processing [chroptiks]: success
+[2024-04-29 08:41:39] INFO root fetch - processPackages [static-analysis-script]: Remove: archive file [/home/abi/fetcher/tmp/static_analysis_script-0.1.6.tar.gz]
+[2024-04-29 08:41:39] INFO root fetch - processPackages [static-analysis-script]: Remove: archive file [/home/abi/fetcher/tmp/static_analysis_script-0.1.7.tar.gz]
+[2024-04-29 08:41:39] INFO root fetch - main [MainThread]: End processing [static-analysis-script]: success
+[2024-04-29 08:41:39] INFO root fetch - main [MainThread]: Store serial: [22979558]
