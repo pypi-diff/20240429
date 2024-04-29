@@ -7196,3 +7196,24 @@
 [2024-04-29 05:15:44] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
 [2024-04-29 05:15:44] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
 [2024-04-29 05:15:44] INFO root fetch - main [MainThread]: Store serial: [22978320]
+[2024-04-29 05:17:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978320]
+[2024-04-29 05:17:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-29 05:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-brand
+[2024-04-29 05:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybaseutils
+[2024-04-29 05:17:53] INFO root fetch - processPackages [pybaseutils]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-29 05:17:53] INFO root fetch - processPackages [odoo-addon-brand]: New version: [17.0.1.1.0.7] Old Version: [17.0.1.1.0.6]
+[2024-04-29 05:17:53] INFO root fetch - processPackages [pybaseutils]: Downloading https://files.pythonhosted.org/packages/4e/e7/e2d544bd4c1e1ddd185e5e0711b9c7552cd7609f3c82498968adc261402c/pybaseutils-1.0.5.tar.gz
+[2024-04-29 05:17:53] INFO root fetch - processPackages [odoo-addon-brand]: Downloading https://files.pythonhosted.org/packages/db/cb/a372d813ad3d4d9cecd2036a88fa3112a7049204980c3e91142dd50c99f2/odoo_addon_brand-17.0.1.1.0.6-py3-none-any.whl
+[2024-04-29 05:17:54] INFO root fetch - processPackages [pybaseutils]: Downloading https://files.pythonhosted.org/packages/6c/c3/e6379f68a1e64b74d87a1a3e33020bcb894b90f5f7b188e557bf628f28c1/pybaseutils-1.0.6.tar.gz
+[2024-04-29 05:17:54] INFO root fetch - processPackages [odoo-addon-brand]: Downloading https://files.pythonhosted.org/packages/b9/bc/ce4e94baf4751acb8cfb71dcc419313d4dea6e29f4e442145bfac509f552/odoo_addon_brand-17.0.1.1.0.7-py3-none-any.whl
+[2024-04-29 05:17:54] INFO root fetch - processPackages [pybaseutils]: executing diffoscope
+[2024-04-29 05:17:54] INFO root fetch - processPackages [pybaseutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybaseutils-1.0.5.tar.gz tmp/pybaseutils-1.0.6.tar.gz --markdown 20240429/p/pybaseutils/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-29 05:17:54] INFO root fetch - processPackages [odoo-addon-brand]: executing diffoscope
+[2024-04-29 05:17:54] INFO root fetch - processPackages [odoo-addon-brand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_brand-17.0.1.1.0.6-py3-none-any.whl.zip tmp/odoo_addon_brand-17.0.1.1.0.7-py3-none-any.whl.zip --markdown 20240429/o/odoo-addon-brand/17.0.1.1.0.6-17.0.1.1.0.7/README.md --exclude *.pyd
+[2024-04-29 05:17:54] INFO root fetch - processPackages [odoo-addon-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_brand-17.0.1.1.0.6-py3-none-any.whl.zip]
+[2024-04-29 05:17:54] INFO root fetch - processPackages [odoo-addon-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_brand-17.0.1.1.0.7-py3-none-any.whl.zip]
+[2024-04-29 05:17:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-brand]: success
+[2024-04-29 05:17:55] INFO root fetch - processPackages [pybaseutils]: Remove: archive file [/home/abi/fetcher/tmp/pybaseutils-1.0.5.tar.gz]
+[2024-04-29 05:17:55] INFO root fetch - processPackages [pybaseutils]: Remove: archive file [/home/abi/fetcher/tmp/pybaseutils-1.0.6.tar.gz]
+[2024-04-29 05:17:55] INFO root fetch - main [MainThread]: End processing [pybaseutils]: success
+[2024-04-29 05:17:55] INFO root fetch - main [MainThread]: Store serial: [22978325]
