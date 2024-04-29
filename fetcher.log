@@ -21872,3 +21872,60 @@ EOFError: EOF read where object expected
 [2024-04-29 15:40:46] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.7.2.tar.gz]
 [2024-04-29 15:40:46] INFO root fetch - main [MainThread]: End processing [jy_lib]: success
 [2024-04-29 15:40:46] INFO root fetch - main [MainThread]: Store serial: [22984530]
+[2024-04-29 15:42:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22984530]
+[2024-04-29 15:42:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-29 15:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2024-04-29 15:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: folkmq
+[2024-04-29 15:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypipr
+[2024-04-29 15:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaxsim
+[2024-04-29 15:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simple-aws-wrapper
+[2024-04-29 15:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zabel-elements
+[2024-04-29 15:42:55] INFO root fetch - processPackages [folkmq]: New version: [1.4.2.2] Old Version: [1.4.2.1]
+[2024-04-29 15:42:55] INFO root fetch - processPackages [pypipr]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-04-29 15:42:55] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-29 15:42:55] INFO root fetch - processPackages [simple-aws-wrapper]: New version: [2.8.0] Old Version: [2.7.5]
+[2024-04-29 15:42:55] INFO root fetch - processPackages [zabel-elements]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-29 15:42:55] INFO root fetch - processPackages [jaxsim]: New version: [0.2.dev92] Old Version: [0.2.dev87]
+[2024-04-29 15:42:56] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/41/8e/296646c6a3d68ecf6c58c3ec52ece636443172c24750f76c7001939e52d3/pypipr-1.0.98.tar.gz
+[2024-04-29 15:42:56] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-29 15:42:56] INFO root fetch - processPackages [folkmq]: Downloading https://files.pythonhosted.org/packages/33/46/2fff76fc4e8129ecc010164f600738dd3d057fb148338df24d48850910e7/folkmq-1.4.2.1.tar.gz
+[2024-04-29 15:42:56] INFO root fetch - processPackages [simple-aws-wrapper]: Downloading https://files.pythonhosted.org/packages/23/b8/d9b052e18f0f3de26a395f6e0c3468c3de2121890885b1c393827e6de864/simple_aws_wrapper-2.7.5.tar.gz
+[2024-04-29 15:42:56] INFO root fetch - processPackages [zabel-elements]: Downloading https://files.pythonhosted.org/packages/5f/39/ad03fc6cf0b575c47396cd9f44ac96551349c4e0c0b5409c67c9e9dc0c23/zabel_elements-1.8.1-py3-none-any.whl
+[2024-04-29 15:42:56] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/b5/25/4a27bb25679ce17fef64a522f1af1c8722d2ec06d59735f1ddf7d16201d9/jaxsim-0.2.dev87.tar.gz
+[2024-04-29 15:42:56] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/49/d0/c23afc67d1fa03531bbd97cc72ad024e79b8e25678a6a5674d469d19cdf9/pypipr-1.0.99.tar.gz
+[2024-04-29 15:42:56] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-29 15:42:56] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-04-29 15:42:56] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.98.tar.gz tmp/pypipr-1.0.99.tar.gz --markdown 20240429/p/pypipr/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-04-29 15:42:56] INFO root fetch - processPackages [folkmq]: Downloading https://files.pythonhosted.org/packages/05/ca/4c476256eeca3156381d50dec99a1c778af1267e8dff0cfb1773262c7952/folkmq-1.4.2.2.tar.gz
+[2024-04-29 15:42:56] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-29 15:42:56] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240429/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-29 15:42:56] INFO root fetch - processPackages [folkmq]: executing diffoscope
+[2024-04-29 15:42:56] INFO root fetch - processPackages [folkmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/folkmq-1.4.2.1.tar.gz tmp/folkmq-1.4.2.2.tar.gz --markdown 20240429/f/folkmq/1.4.2.1-1.4.2.2/README.md --exclude *.pyd
+[2024-04-29 15:42:56] INFO root fetch - processPackages [simple-aws-wrapper]: Downloading https://files.pythonhosted.org/packages/13/a1/f7177ea142cacb66fedf2b7f5668538732dcc419e23ff1aba5db3b578150/simple_aws_wrapper-2.8.0.tar.gz
+[2024-04-29 15:42:56] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/5f/f3/d7774afb77c6832c188a48524d674234d264ab4e593515aac50ba544ea66/jaxsim-0.2.dev92.tar.gz
+[2024-04-29 15:42:56] INFO root fetch - processPackages [simple-aws-wrapper]: executing diffoscope
+[2024-04-29 15:42:56] INFO root fetch - processPackages [simple-aws-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_aws_wrapper-2.7.5.tar.gz tmp/simple_aws_wrapper-2.8.0.tar.gz --markdown 20240429/s/simple-aws-wrapper/2.7.5-2.8.0/README.md --exclude *.pyd
+[2024-04-29 15:42:56] INFO root fetch - processPackages [jaxsim]: executing diffoscope
+[2024-04-29 15:42:56] INFO root fetch - processPackages [jaxsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxsim-0.2.dev87.tar.gz tmp/jaxsim-0.2.dev92.tar.gz --markdown 20240429/j/jaxsim/0.2.dev87-0.2.dev92/README.md --exclude *.pyd
+[2024-04-29 15:42:56] INFO root fetch - processPackages [zabel-elements]: Downloading https://files.pythonhosted.org/packages/b7/a7/6f93f1838ec6585d2200940225b0d9f6df044f18746f729b748d822aafb7/zabel_elements-1.9.0-py3-none-any.whl
+[2024-04-29 15:42:57] INFO root fetch - processPackages [zabel-elements]: executing diffoscope
+[2024-04-29 15:42:57] INFO root fetch - processPackages [zabel-elements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zabel_elements-1.8.1-py3-none-any.whl.zip tmp/zabel_elements-1.9.0-py3-none-any.whl.zip --markdown 20240429/z/zabel-elements/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-04-29 15:42:57] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.98.tar.gz]
+[2024-04-29 15:42:57] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.99.tar.gz]
+[2024-04-29 15:42:57] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-04-29 15:42:57] INFO root fetch - processPackages [folkmq]: Remove: archive file [/home/abi/fetcher/tmp/folkmq-1.4.2.1.tar.gz]
+[2024-04-29 15:42:57] INFO root fetch - processPackages [folkmq]: Remove: archive file [/home/abi/fetcher/tmp/folkmq-1.4.2.2.tar.gz]
+[2024-04-29 15:42:57] INFO root fetch - main [MainThread]: End processing [folkmq]: success
+[2024-04-29 15:42:57] INFO root fetch - processPackages [simple-aws-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/simple_aws_wrapper-2.7.5.tar.gz]
+[2024-04-29 15:42:57] INFO root fetch - processPackages [simple-aws-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/simple_aws_wrapper-2.8.0.tar.gz]
+[2024-04-29 15:42:57] INFO root fetch - main [MainThread]: End processing [simple-aws-wrapper]: success
+[2024-04-29 15:42:57] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev87.tar.gz]
+[2024-04-29 15:42:57] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev92.tar.gz]
+[2024-04-29 15:42:57] INFO root fetch - main [MainThread]: End processing [jaxsim]: success
+[2024-04-29 15:42:57] INFO root fetch - processPackages [zabel-elements]: Remove: archive file [/home/abi/fetcher/tmp/zabel_elements-1.8.1-py3-none-any.whl.zip]
+[2024-04-29 15:42:57] INFO root fetch - processPackages [zabel-elements]: Remove: archive file [/home/abi/fetcher/tmp/zabel_elements-1.9.0-py3-none-any.whl.zip]
+[2024-04-29 15:42:57] INFO root fetch - main [MainThread]: End processing [zabel-elements]: success
+[2024-04-29 15:42:58] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-29 15:42:58] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-29 15:42:58] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-29 15:42:58] INFO root fetch - main [MainThread]: Store serial: [22984545]
