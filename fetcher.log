@@ -6963,3 +6963,18 @@
 [2024-04-29 04:45:26] INFO root fetch - processPackages [alibabacloud-ddoscoo20200101]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ddoscoo20200101-2.0.0.tar.gz]
 [2024-04-29 04:45:26] INFO root fetch - main [MainThread]: End processing [alibabacloud-ddoscoo20200101]: success
 [2024-04-29 04:45:26] INFO root fetch - main [MainThread]: Store serial: [22978183]
+[2024-04-29 04:47:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978183]
+[2024-04-29 04:47:38] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-29 04:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unleashed-chat
+[2024-04-29 04:47:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trex-program
+[2024-04-29 04:47:39] INFO root fetch - processPackages [unleashed-chat]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-29 04:47:39] WARNING root fetch - processPackages [trex-program]: Skipping, unable to determine old version
+[2024-04-29 04:47:39] INFO root fetch - main [MainThread]: End processing [trex-program] error
+[2024-04-29 04:47:39] INFO root fetch - processPackages [unleashed-chat]: Downloading https://files.pythonhosted.org/packages/16/7e/ef1797dfd606e73356a8071b06864df460e9906f9f83f6b402e677f5de1c/unleashed_chat-0.1.tar.gz
+[2024-04-29 04:47:39] INFO root fetch - processPackages [unleashed-chat]: Downloading https://files.pythonhosted.org/packages/ec/9c/98ca7dfb739c5aac10803478e2a6b6f4a96b96a9461c8281ace1869c8620/unleashed_chat-0.1.1-py3-none-any.whl
+[2024-04-29 04:47:39] INFO root fetch - processPackages [unleashed-chat]: executing diffoscope
+[2024-04-29 04:47:39] INFO root fetch - processPackages [unleashed-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unleashed_chat-0.1.tar.gz tmp/unleashed_chat-0.1.1-py3-none-any.whl.zip --markdown 20240429/u/unleashed-chat/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-29 04:47:40] INFO root fetch - processPackages [unleashed-chat]: Remove: archive file [/home/abi/fetcher/tmp/unleashed_chat-0.1.tar.gz]
+[2024-04-29 04:47:40] INFO root fetch - processPackages [unleashed-chat]: Remove: archive file [/home/abi/fetcher/tmp/unleashed_chat-0.1.1-py3-none-any.whl.zip]
+[2024-04-29 04:47:40] INFO root fetch - main [MainThread]: End processing [unleashed-chat]: success
+[2024-04-29 04:47:40] INFO root fetch - main [MainThread]: Store serial: [22978190]
