@@ -1799,3 +1799,33 @@
 [2024-04-29 02:41:01] INFO root fetch - processPackages [mo-math]: Remove: archive file [/home/abi/fetcher/tmp/mo_math-7.611.24120.tar.gz]
 [2024-04-29 02:41:01] INFO root fetch - main [MainThread]: End processing [mo-math]: success
 [2024-04-29 02:41:01] INFO root fetch - main [MainThread]: Store serial: [22971926]
+[2024-04-29 02:43:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971926]
+[2024-04-29 02:43:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 02:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: config-ninja
+[2024-04-29 02:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: notolog
+[2024-04-29 02:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-hierarchical-models
+[2024-04-29 02:43:10] INFO root fetch - processPackages [django-hierarchical-models]: New version: [2.0.0] Old Version: [1.2.0]
+[2024-04-29 02:43:10] INFO root fetch - processPackages [config-ninja]: New version: [1.3.0b4] Old Version: [1.2.0rc1]
+[2024-04-29 02:43:10] INFO root fetch - processPackages [notolog]: New version: [0.9.0b8] Old Version: [0.9.0b0]
+[2024-04-29 02:43:10] INFO root fetch - processPackages [config-ninja]: Downloading https://files.pythonhosted.org/packages/db/e8/efb3f23ee04bb031bba444015d1da04a031e934d7d35a95e7f5366621cae/config_ninja-1.2.0rc1.tar.gz
+[2024-04-29 02:43:10] INFO root fetch - processPackages [django-hierarchical-models]: Downloading https://files.pythonhosted.org/packages/e4/d9/3de76cfaaf313e595055bc0c9795432fef318c15675c053420ec0a13e564/django_hierarchical_models-1.2.0.tar.gz
+[2024-04-29 02:43:10] INFO root fetch - processPackages [notolog]: Downloading https://files.pythonhosted.org/packages/67/d1/bc3cd41276939ae694974abd3b973b3da4e66a39317c8134439332bb2f69/notolog-0.9.0b0.tar.gz
+[2024-04-29 02:43:10] INFO root fetch - processPackages [django-hierarchical-models]: Downloading https://files.pythonhosted.org/packages/ee/e9/753954da22c4e2785ffb4201ee97a6b5a9ab8ff14571e8c8964a1dc25d48/django_hierarchical_models-2.0.0.tar.gz
+[2024-04-29 02:43:10] INFO root fetch - processPackages [config-ninja]: Downloading https://files.pythonhosted.org/packages/e6/d1/166d8da275eacfc981b86a30c0c23f9899fc0bb04ebcb8ad306ce13a1d63/config_ninja-1.3.0b4.tar.gz
+[2024-04-29 02:43:10] INFO root fetch - processPackages [django-hierarchical-models]: executing diffoscope
+[2024-04-29 02:43:10] INFO root fetch - processPackages [django-hierarchical-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_hierarchical_models-1.2.0.tar.gz tmp/django_hierarchical_models-2.0.0.tar.gz --markdown 20240429/d/django-hierarchical-models/1.2.0-2.0.0/README.md --exclude *.pyd
+[2024-04-29 02:43:10] INFO root fetch - processPackages [config-ninja]: executing diffoscope
+[2024-04-29 02:43:10] INFO root fetch - processPackages [config-ninja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/config_ninja-1.2.0rc1.tar.gz tmp/config_ninja-1.3.0b4.tar.gz --markdown 20240429/c/config-ninja/1.2.0rc1-1.3.0b4/README.md --exclude *.pyd
+[2024-04-29 02:43:11] INFO root fetch - processPackages [notolog]: Downloading https://files.pythonhosted.org/packages/ed/3b/04d5e809f688c5b59ce363674bdbba613e01597d5504a70e3e0e13830a36/notolog-0.9.0b8.tar.gz
+[2024-04-29 02:43:11] INFO root fetch - processPackages [notolog]: executing diffoscope
+[2024-04-29 02:43:11] INFO root fetch - processPackages [notolog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notolog-0.9.0b0.tar.gz tmp/notolog-0.9.0b8.tar.gz --markdown 20240429/n/notolog/0.9.0b0-0.9.0b8/README.md --exclude *.pyd
+[2024-04-29 02:43:11] INFO root fetch - processPackages [django-hierarchical-models]: Remove: archive file [/home/abi/fetcher/tmp/django_hierarchical_models-1.2.0.tar.gz]
+[2024-04-29 02:43:11] INFO root fetch - processPackages [django-hierarchical-models]: Remove: archive file [/home/abi/fetcher/tmp/django_hierarchical_models-2.0.0.tar.gz]
+[2024-04-29 02:43:11] INFO root fetch - main [MainThread]: End processing [django-hierarchical-models]: success
+[2024-04-29 02:43:11] INFO root fetch - processPackages [config-ninja]: Remove: archive file [/home/abi/fetcher/tmp/config_ninja-1.2.0rc1.tar.gz]
+[2024-04-29 02:43:11] INFO root fetch - processPackages [config-ninja]: Remove: archive file [/home/abi/fetcher/tmp/config_ninja-1.3.0b4.tar.gz]
+[2024-04-29 02:43:11] INFO root fetch - main [MainThread]: End processing [config-ninja]: success
+[2024-04-29 02:43:11] INFO root fetch - processPackages [notolog]: Remove: archive file [/home/abi/fetcher/tmp/notolog-0.9.0b0.tar.gz]
+[2024-04-29 02:43:11] INFO root fetch - processPackages [notolog]: Remove: archive file [/home/abi/fetcher/tmp/notolog-0.9.0b8.tar.gz]
+[2024-04-29 02:43:11] INFO root fetch - main [MainThread]: End processing [notolog]: success
+[2024-04-29 02:43:11] INFO root fetch - main [MainThread]: Store serial: [22971934]
