@@ -13187,3 +13187,126 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 11:03:57] INFO root fetch - processPackages [ampform-dpd]: Remove: archive file [/home/abi/fetcher/tmp/ampform_dpd-0.1.7.tar.gz]
 [2024-04-29 11:03:57] INFO root fetch - main [MainThread]: End processing [ampform-dpd]: success
 [2024-04-29 11:03:57] INFO root fetch - main [MainThread]: Store serial: [22981026]
+[2024-04-29 11:06:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22981026]
+[2024-04-29 11:06:06] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-29 11:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarmauri
+[2024-04-29 11:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autogluon.common
+[2024-04-29 11:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fetch-sitemap
+[2024-04-29 11:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autogluon.core
+[2024-04-29 11:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogluon.features
+[2024-04-29 11:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: asyncTwitterClient
+[2024-04-29 11:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crossword-puzzle
+[2024-04-29 11:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autogluon.tabular
+[2024-04-29 11:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: loe-simp-app-fw
+[2024-04-29 11:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pppfy
+[2024-04-29 11:06:06] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.84]
+[2024-04-29 11:06:06] INFO root fetch - processPackages [fetch-sitemap]: New version: [9] Old Version: [7]
+[2024-04-29 11:06:06] INFO root fetch - processPackages [autogluon.tabular]: New version: [1.1.1b20240428] Old Version: [1.1.1b20240426]
+[2024-04-29 11:06:06] INFO root fetch - processPackages [asyncTwitterClient]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-29 11:06:06] INFO root fetch - processPackages [autogluon.common]: New version: [1.1.1b20240428] Old Version: [1.1.1b20240427]
+[2024-04-29 11:06:06] INFO root fetch - processPackages [autogluon.core]: New version: [1.1.1b20240428] Old Version: [1.1.1b20240427]
+[2024-04-29 11:06:06] INFO root fetch - processPackages [autogluon.features]: New version: [1.1.1b20240428] Old Version: [1.1.1b20240426]
+[2024-04-29 11:06:06] INFO root fetch - processPackages [loe-simp-app-fw]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-29 11:06:06] WARNING root fetch - processPackages [pppfy]: Skipping, unable to determine old version
+[2024-04-29 11:06:06] INFO root fetch - processPackages [pppfy]: Start processing: autogluon.multimodal
+[2024-04-29 11:06:06] INFO root fetch - main [MainThread]: End processing [pppfy] error
+[2024-04-29 11:06:06] INFO root fetch - processPackages [fetch-sitemap]: Downloading https://files.pythonhosted.org/packages/fa/3b/9857ac05cf828115e1c8350df11ddffbc02df2e961759f067d1c936cbc8c/fetch-sitemap-7.tar.gz
+[2024-04-29 11:06:06] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/8f/a6/a384e8a1290b8f36bb193ee9de41ec280a57a289f0f251add0723199fa68/swarmauri-0.1.84.tar.gz
+[2024-04-29 11:06:06] INFO root fetch - processPackages [crossword-puzzle]: New version: [1.2.56] Old Version: [1.2.55]
+[2024-04-29 11:06:07] INFO root fetch - processPackages [autogluon.multimodal]: New version: [1.1.1b20240428] Old Version: [1.1.1b20240426]
+[2024-04-29 11:06:07] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/bd/07/7821e24d8f9abdce2612672fd6831c3de3b5c8dc13011356b51b51e1738b/autogluon.tabular-1.1.1b20240426.tar.gz
+[2024-04-29 11:06:07] INFO root fetch - processPackages [asyncTwitterClient]: Downloading https://files.pythonhosted.org/packages/cf/1e/9789f01e834137fe9934874dd282ba5b3dcdccad67ecc07f6686117a3784/asyncTwitterClient-0.4.0.tar.gz
+[2024-04-29 11:06:07] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/df/40/72475e3403c7d162cff141b9fb97d3ed4eba8988628ca700f46591f12994/autogluon.core-1.1.1b20240427-py3-none-any.whl
+[2024-04-29 11:06:07] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/18/3b/1fec5cb5488da35b90fd0be8bff530674ab22f1eecf7266b7a1107d092ba/autogluon.features-1.1.1b20240426.tar.gz
+[2024-04-29 11:06:07] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/38/80/ecde0a0d18429ee81a758c3c2787f00f3cfd054d095d669440b1d9273a04/autogluon.common-1.1.1b20240427.tar.gz
+[2024-04-29 11:06:07] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/92/0c/8adb8c31fa53e5490ee064fd4263ac562a8190413da90ef43c3da8f5687f/autogluon.multimodal-1.1.1b20240426.tar.gz
+[2024-04-29 11:06:07] INFO root fetch - processPackages [loe-simp-app-fw]: Downloading https://files.pythonhosted.org/packages/e6/3f/0294831f5c0dd39fa13f3e219ec3e85f67e509b0adf215fc5acdf44f60bb/loe_simp_app_fw-1.1.1.tar.gz
+[2024-04-29 11:06:07] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/ca/64/096a829056fc244083dd44f6cd3e41386b0dcf7f8edc33b328b41551bf7b/crossword_puzzle-1.2.55.tar.gz
+[2024-04-29 11:06:07] INFO root fetch - processPackages [fetch-sitemap]: Downloading https://files.pythonhosted.org/packages/2d/c0/001895b4f74f5715cfdd4783292ea04f3fa5d8f1cced5e162f58ed06a690/fetch_sitemap-9.tar.gz
+[2024-04-29 11:06:07] INFO root fetch - processPackages [asyncTwitterClient]: Downloading https://files.pythonhosted.org/packages/82/71/0443266c500d03e617bcc70cf0b2d65183b994ae94a5ef94f0d4714a2844/asyncTwitterClient-0.5.0.tar.gz
+[2024-04-29 11:06:07] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-29 11:06:07] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/10/14/d054924405e0e2b70021b35b6cea8a32053836c50a8be4b6cbc6cbcec052/autogluon.tabular-1.1.1b20240428.tar.gz
+[2024-04-29 11:06:07] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/65/f6/225a3262a2d273d7cc5f42945566a024ebf31de1fa781db12e5e88637b73/autogluon.features-1.1.1b20240428.tar.gz
+[2024-04-29 11:06:07] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/d3/b7/97f6e0bd5fd1c8f4b47dac4982183cbb03af9c85e923fb8dce5fb5fa3365/autogluon.core-1.1.1b20240428.tar.gz
+[2024-04-29 11:06:07] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/14/21/05304f6983e9d0f155eab72979f607b18a44e731bb362020fe1d4e9ffc41/autogluon.multimodal-1.1.1b20240428.tar.gz
+[2024-04-29 11:06:07] INFO root fetch - processPackages [fetch-sitemap]: executing diffoscope
+[2024-04-29 11:06:07] INFO root fetch - processPackages [fetch-sitemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fetch-sitemap-7.tar.gz tmp/fetch_sitemap-9.tar.gz --markdown 20240429/f/fetch-sitemap/7-9/README.md --exclude *.pyd
+[2024-04-29 11:06:07] INFO root fetch - processPackages [loe-simp-app-fw]: Downloading https://files.pythonhosted.org/packages/53/5d/5dd429355df0818c2c8e38880a8a8de8e0d52fc2db34d2c7cdbca95cbae0/loe_simp_app_fw-1.1.2.tar.gz
+[2024-04-29 11:06:07] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/ba/d9/936b7a4b77467c5d4727d228c0253cafa89066bb4320546bc03487166971/autogluon.common-1.1.1b20240428.tar.gz
+[2024-04-29 11:06:07] INFO root fetch - processPackages [asyncTwitterClient]: executing diffoscope
+[2024-04-29 11:06:07] INFO root fetch - processPackages [asyncTwitterClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncTwitterClient-0.4.0.tar.gz tmp/asyncTwitterClient-0.5.0.tar.gz --markdown 20240429/a/asyncTwitterClient/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-29 11:06:07] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-29 11:06:07] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.84.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240429/s/swarmauri/0.1.84-0.1.9/README.md --exclude *.pyd
+[2024-04-29 11:06:07] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2024-04-29 11:06:07] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-1.1.1b20240426.tar.gz tmp/autogluon.features-1.1.1b20240428.tar.gz --markdown 20240429/a/autogluon.features/1.1.1b20240426-1.1.1b20240428/README.md --exclude *.pyd
+[2024-04-29 11:06:07] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2024-04-29 11:06:07] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-1.1.1b20240426.tar.gz tmp/autogluon.tabular-1.1.1b20240428.tar.gz --markdown 20240429/a/autogluon.tabular/1.1.1b20240426-1.1.1b20240428/README.md --exclude *.pyd
+[2024-04-29 11:06:07] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-04-29 11:06:07] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.1.1b20240427-py3-none-any.whl.zip tmp/autogluon.core-1.1.1b20240428.tar.gz --markdown 20240429/a/autogluon.core/1.1.1b20240427-1.1.1b20240428/README.md --exclude *.pyd
+[2024-04-29 11:06:07] INFO root fetch - processPackages [loe-simp-app-fw]: executing diffoscope
+[2024-04-29 11:06:07] INFO root fetch - processPackages [loe-simp-app-fw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loe_simp_app_fw-1.1.1.tar.gz tmp/loe_simp_app_fw-1.1.2.tar.gz --markdown 20240429/l/loe-simp-app-fw/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-29 11:06:07] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2024-04-29 11:06:07] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-1.1.1b20240426.tar.gz tmp/autogluon.multimodal-1.1.1b20240428.tar.gz --markdown 20240429/a/autogluon.multimodal/1.1.1b20240426-1.1.1b20240428/README.md --exclude *.pyd
+[2024-04-29 11:06:07] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-04-29 11:06:07] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.1.1b20240427.tar.gz tmp/autogluon.common-1.1.1b20240428.tar.gz --markdown 20240429/a/autogluon.common/1.1.1b20240427-1.1.1b20240428/README.md --exclude *.pyd
+[2024-04-29 11:06:08] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/dd/33/7acb3b27107eddd82c838e7d616dcdedf1a7a1f77abb0083185860ca3d97/crossword_puzzle-1.2.56.tar.gz
+[2024-04-29 11:06:08] INFO root fetch - processPackages [crossword-puzzle]: executing diffoscope
+[2024-04-29 11:06:08] INFO root fetch - processPackages [crossword-puzzle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossword_puzzle-1.2.55.tar.gz tmp/crossword_puzzle-1.2.56.tar.gz --markdown 20240429/c/crossword-puzzle/1.2.55-1.2.56/README.md --exclude *.pyd
+[2024-04-29 11:06:08] INFO root fetch - processPackages [fetch-sitemap]: Remove: archive file [/home/abi/fetcher/tmp/fetch-sitemap-7.tar.gz]
+[2024-04-29 11:06:08] INFO root fetch - processPackages [fetch-sitemap]: Remove: archive file [/home/abi/fetcher/tmp/fetch_sitemap-9.tar.gz]
+[2024-04-29 11:06:08] INFO root fetch - processPackages [fetch-sitemap]: Start processing: autogluon.timeseries
+[2024-04-29 11:06:08] INFO root fetch - main [MainThread]: End processing [fetch-sitemap]: success
+[2024-04-29 11:06:08] INFO root fetch - processPackages [autogluon.timeseries]: New version: [1.1.1b20240428] Old Version: [1.1.1b20240426]
+[2024-04-29 11:06:08] INFO root fetch - processPackages [asyncTwitterClient]: Remove: archive file [/home/abi/fetcher/tmp/asyncTwitterClient-0.4.0.tar.gz]
+[2024-04-29 11:06:08] INFO root fetch - processPackages [asyncTwitterClient]: Remove: archive file [/home/abi/fetcher/tmp/asyncTwitterClient-0.5.0.tar.gz]
+[2024-04-29 11:06:08] INFO root fetch - processPackages [asyncTwitterClient]: Start processing: ramodels
+[2024-04-29 11:06:08] INFO root fetch - main [MainThread]: End processing [asyncTwitterClient]: success
+[2024-04-29 11:06:08] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.1.1.tar.gz]
+[2024-04-29 11:06:08] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.1.2.tar.gz]
+[2024-04-29 11:06:08] INFO root fetch - processPackages [loe-simp-app-fw]: Start processing: autogluon
+[2024-04-29 11:06:08] INFO root fetch - main [MainThread]: End processing [loe-simp-app-fw]: success
+[2024-04-29 11:06:08] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/1c/4f/d99ab20d18197f9ac691409da457d2f81d89d00438b82e8582d0a3112d37/autogluon.timeseries-1.1.1b20240426.tar.gz
+[2024-04-29 11:06:08] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240426.tar.gz]
+[2024-04-29 11:06:08] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240428.tar.gz]
+[2024-04-29 11:06:08] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2024-04-29 11:06:08] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2024-04-29 11:06:08] INFO root fetch - processPackages [autogluon]: New version: [1.1.1b20240428] Old Version: [1.1.1b20240426]
+[2024-04-29 11:06:08] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240427.tar.gz]
+[2024-04-29 11:06:08] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240428.tar.gz]
+[2024-04-29 11:06:08] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-04-29 11:06:09] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240427-py3-none-any.whl.zip]
+[2024-04-29 11:06:09] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240428.tar.gz]
+[2024-04-29 11:06:09] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-04-29 11:06:09] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/87/9e/34c04915ca73095c40c902966afc3a63877804853f1b2b77ecf17eaa0ad4/autogluon-1.1.1b20240426.tar.gz
+[2024-04-29 11:06:09] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/d7/2e/483ce3f3bed5c213a8f72ef4023cd0e2820a19737d2a5c66c51297d31e53/autogluon.timeseries-1.1.1b20240428.tar.gz
+[2024-04-29 11:06:09] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240426.tar.gz]
+[2024-04-29 11:06:09] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240428.tar.gz]
+[2024-04-29 11:06:09] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2024-04-29 11:06:09] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2024-04-29 11:06:09] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2024-04-29 11:06:09] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-1.1.1b20240426.tar.gz tmp/autogluon.timeseries-1.1.1b20240428.tar.gz --markdown 20240429/a/autogluon.timeseries/1.1.1b20240426-1.1.1b20240428/README.md --exclude *.pyd
+[2024-04-29 11:06:09] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/06/56/3307af0b6cd9dc57aebc1624318521f10aeb7232f1435a3d33a5ae47f876/autogluon-1.1.1b20240428.tar.gz
+[2024-04-29 11:06:09] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240426.tar.gz]
+[2024-04-29 11:06:09] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240428.tar.gz]
+[2024-04-29 11:06:09] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2024-04-29 11:06:09] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2024-04-29 11:06:09] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-1.1.1b20240426.tar.gz tmp/autogluon-1.1.1b20240428.tar.gz --markdown 20240429/a/autogluon/1.1.1b20240426-1.1.1b20240428/README.md --exclude *.pyd
+[2024-04-29 11:06:09] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2024-04-29 11:06:09] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.84.tar.gz]
+[2024-04-29 11:06:09] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-29 11:06:09] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-29 11:06:09] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2024-04-29 11:06:09] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20240429/r/ramodels/9.7.2-9.7.3/README.md --exclude *.pyd
+[2024-04-29 11:06:09] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240426.tar.gz]
+[2024-04-29 11:06:09] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240428.tar.gz]
+[2024-04-29 11:06:09] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2024-04-29 11:06:10] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240426.tar.gz]
+[2024-04-29 11:06:10] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240428.tar.gz]
+[2024-04-29 11:06:10] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2024-04-29 11:06:10] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2024-04-29 11:06:10] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2024-04-29 11:06:10] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2024-04-29 11:06:29] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.55.tar.gz]
+[2024-04-29 11:06:29] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.56.tar.gz]
+[2024-04-29 11:06:29] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
+[2024-04-29 11:06:29] INFO root fetch - main [MainThread]: Store serial: [22981069]
