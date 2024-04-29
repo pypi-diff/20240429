@@ -19915,3 +19915,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 15:03:50] INFO root fetch - processPackages [flickr-photos-api]: Remove: archive file [/home/abi/fetcher/tmp/flickr-photos-api-1.9.2.tar.gz]
 [2024-04-29 15:03:50] INFO root fetch - main [MainThread]: End processing [flickr-photos-api]: success
 [2024-04-29 15:03:50] INFO root fetch - main [MainThread]: Store serial: [22983788]
+[2024-04-29 15:05:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22983788]
+[2024-04-29 15:05:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 15:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tina4-python
+[2024-04-29 15:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: butterfree
+[2024-04-29 15:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asbc
+[2024-04-29 15:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: policyengine-us
+[2024-04-29 15:05:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SparkleAI
+[2024-04-29 15:05:59] WARNING root fetch - processPackages [SparkleAI]: Skipping, unable to determine old version
+[2024-04-29 15:05:59] INFO root fetch - main [MainThread]: End processing [SparkleAI] error
+[2024-04-29 15:05:59] WARNING root fetch - processPackages [asbc]: Skipping, unable to determine old version
+[2024-04-29 15:05:59] INFO root fetch - main [MainThread]: End processing [asbc] error
+[2024-04-29 15:05:59] INFO root fetch - processPackages [tina4-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 15:05:59] INFO root fetch - processPackages [butterfree]: New version: [1.2.4] Old Version: [1.2.3.dev0]
+[2024-04-29 15:05:59] INFO root fetch - processPackages [tina4-python]: Downloading https://files.pythonhosted.org/packages/61/79/4a27baf2c4da4707b63d581b639414c73fb68a3d702236356a9929e6ff99/tina4_python-0.1.8.tar.gz
+[2024-04-29 15:05:59] INFO root fetch - processPackages [butterfree]: Downloading https://files.pythonhosted.org/packages/35/40/46dc1c9dfc2511e1fdf74aebd04d5ee98158aec7c6e5025619af83cf828a/butterfree-1.2.3.dev0.tar.gz
+[2024-04-29 15:05:59] INFO root fetch - processPackages [policyengine-us]: New version: [0.753.0] Old Version: [0.752.1]
+[2024-04-29 15:05:59] INFO root fetch - processPackages [butterfree]: Downloading https://files.pythonhosted.org/packages/37/8c/5b38d2d3aabd140a53f09513887532a62a28e2036ccb36d08bd3cef29c85/butterfree-1.2.4.tar.gz
+[2024-04-29 15:05:59] INFO root fetch - processPackages [tina4-python]: Downloading https://files.pythonhosted.org/packages/24/2e/2593f1dbdfcf6fb7c1c21b890b7f8e264fcee760b48d5ceb7680112de137/tina4_python-0.1.9.tar.gz
+[2024-04-29 15:05:59] INFO root fetch - processPackages [tina4-python]: executing diffoscope
+[2024-04-29 15:05:59] INFO root fetch - processPackages [tina4-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tina4_python-0.1.8.tar.gz tmp/tina4_python-0.1.9.tar.gz --markdown 20240429/t/tina4-python/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 15:05:59] INFO root fetch - processPackages [butterfree]: executing diffoscope
+[2024-04-29 15:05:59] INFO root fetch - processPackages [butterfree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/butterfree-1.2.3.dev0.tar.gz tmp/butterfree-1.2.4.tar.gz --markdown 20240429/b/butterfree/1.2.3.dev0-1.2.4/README.md --exclude *.pyd
+[2024-04-29 15:05:59] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/04/56/edf04ca4b281b57442319e56851b96f1d74546f71178418c623c932a7b31/policyengine-us-0.752.1.tar.gz
+[2024-04-29 15:06:00] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/cc/dc/1812b57649189317295ac81ed85b87bb4517f0123c1043724951e7305a92/policyengine-us-0.753.0.tar.gz
+[2024-04-29 15:06:00] INFO root fetch - processPackages [tina4-python]: Remove: archive file [/home/abi/fetcher/tmp/tina4_python-0.1.8.tar.gz]
+[2024-04-29 15:06:00] INFO root fetch - processPackages [tina4-python]: Remove: archive file [/home/abi/fetcher/tmp/tina4_python-0.1.9.tar.gz]
+[2024-04-29 15:06:00] INFO root fetch - main [MainThread]: End processing [tina4-python]: success
+[2024-04-29 15:06:00] INFO root fetch - processPackages [butterfree]: Remove: archive file [/home/abi/fetcher/tmp/butterfree-1.2.3.dev0.tar.gz]
+[2024-04-29 15:06:00] INFO root fetch - processPackages [butterfree]: Remove: archive file [/home/abi/fetcher/tmp/butterfree-1.2.4.tar.gz]
+[2024-04-29 15:06:00] INFO root fetch - main [MainThread]: End processing [butterfree]: success
+[2024-04-29 15:06:00] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-04-29 15:06:00] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.752.1.tar.gz tmp/policyengine-us-0.753.0.tar.gz --markdown 20240429/p/policyengine-us/0.752.1-0.753.0/README.md --exclude *.pyd
+[2024-04-29 15:06:33] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.752.1.tar.gz]
+[2024-04-29 15:06:33] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.753.0.tar.gz]
+[2024-04-29 15:06:33] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-04-29 15:06:33] INFO root fetch - main [MainThread]: Store serial: [22983809]
