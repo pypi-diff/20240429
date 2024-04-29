@@ -11169,3 +11169,41 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 09:36:59] INFO root fetch - processPackages [altinn3-test-lib]: Remove: archive file [/home/abi/fetcher/tmp/altinn3_test_lib-0.0.8.tar.gz]
 [2024-04-29 09:36:59] INFO root fetch - main [MainThread]: End processing [altinn3-test-lib]: success
 [2024-04-29 09:36:59] INFO root fetch - main [MainThread]: Store serial: [22980120]
+[2024-04-29 09:39:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980120]
+[2024-04-29 09:39:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 09:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2024-04-29 09:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: weblate-language-data
+[2024-04-29 09:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sswater
+[2024-04-29 09:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: esanom
+[2024-04-29 09:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lalsuite
+[2024-04-29 09:39:08] INFO root fetch - processPackages [sswater]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-29 09:39:08] INFO root fetch - processPackages [sswater]: Downloading https://files.pythonhosted.org/packages/67/5c/fa0c3a3f7cca4ed16e166055f0b35fa1c96c2be07f40e598aeca85ea1259/sswater-0.0.3.tar.gz
+[2024-04-29 09:39:08] WARNING root fetch - processPackages [esanom]: Skipping, unable to determine old version
+[2024-04-29 09:39:08] INFO root fetch - main [MainThread]: End processing [esanom] error
+[2024-04-29 09:39:08] INFO root fetch - processPackages [weblate-language-data]: New version: [2024.5] Old Version: [2024.4]
+[2024-04-29 09:39:08] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240429073627] Old Version: [3.4.1.dev20240425185706]
+[2024-04-29 09:39:08] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-04-29 09:39:08] INFO root fetch - processPackages [weblate-language-data]: Downloading https://files.pythonhosted.org/packages/a2/de/f59d8d23c9bbbc1f8c695a7687220b5d1ba3ae6ce82469fbebd776a44791/weblate_language_data-2024.4.tar.gz
+[2024-04-29 09:39:08] INFO root fetch - processPackages [sswater]: Downloading https://files.pythonhosted.org/packages/25/bc/c03b557aec84b472b839afda8cc49fa59fec4b544c0c75bbbdd7b0f3c388/sswater-0.0.4.tar.gz
+[2024-04-29 09:39:08] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/c6/95/9cc1c2c487bdc1a3e8ce427b20df7538f2099f66343bc5937be9dccb41c1/localstack_core-3.4.1.dev20240425185706.tar.gz
+[2024-04-29 09:39:08] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-29 09:39:08] INFO root fetch - processPackages [sswater]: executing diffoscope
+[2024-04-29 09:39:08] INFO root fetch - processPackages [sswater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sswater-0.0.3.tar.gz tmp/sswater-0.0.4.tar.gz --markdown 20240429/s/sswater/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-29 09:39:08] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-04-29 09:39:08] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-04-29 09:39:08] INFO root fetch - processPackages [weblate-language-data]: Downloading https://files.pythonhosted.org/packages/55/c9/29f29b42f2a6f38c9a78ce3cc3a3f06890bd474a61bd1bed374ed40d6fff/weblate_language_data-2024.5.tar.gz
+[2024-04-29 09:39:08] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/a4/cb/ce193a6e055cb08ff6807d4065f2e8deedbd0376f80fd940e1165c7776e3/localstack_core-3.4.1.dev20240429073627.tar.gz
+[2024-04-29 09:39:08] INFO root fetch - processPackages [sswater]: Remove: archive file [/home/abi/fetcher/tmp/sswater-0.0.3.tar.gz]
+[2024-04-29 09:39:08] INFO root fetch - processPackages [sswater]: Remove: archive file [/home/abi/fetcher/tmp/sswater-0.0.4.tar.gz]
+[2024-04-29 09:39:08] INFO root fetch - main [MainThread]: End processing [sswater]: success
+[2024-04-29 09:39:09] INFO root fetch - processPackages [weblate-language-data]: executing diffoscope
+[2024-04-29 09:39:09] INFO root fetch - processPackages [weblate-language-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weblate_language_data-2024.4.tar.gz tmp/weblate_language_data-2024.5.tar.gz --markdown 20240429/w/weblate-language-data/2024.4-2024.5/README.md --exclude *.pyd
+[2024-04-29 09:39:09] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-29 09:39:09] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240425185706.tar.gz tmp/localstack_core-3.4.1.dev20240429073627.tar.gz --markdown 20240429/l/localstack-core/3.4.1.dev20240425185706-3.4.1.dev20240429073627/README.md --exclude *.pyd
+[2024-04-29 09:39:11] INFO root fetch - processPackages [weblate-language-data]: Remove: archive file [/home/abi/fetcher/tmp/weblate_language_data-2024.4.tar.gz]
+[2024-04-29 09:39:11] INFO root fetch - processPackages [weblate-language-data]: Remove: archive file [/home/abi/fetcher/tmp/weblate_language_data-2024.5.tar.gz]
+[2024-04-29 09:39:11] INFO root fetch - main [MainThread]: End processing [weblate-language-data]: success
+[2024-04-29 09:39:12] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240425185706.tar.gz]
+[2024-04-29 09:39:12] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240429073627.tar.gz]
+[2024-04-29 09:39:12] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-29 09:39:12] INFO root fetch - main [MainThread]: Store serial: [22980142]
