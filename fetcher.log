@@ -9370,3 +9370,24 @@
 [2024-04-29 07:59:51] INFO root fetch - processPackages [common-tools-ai-bnq]: Remove: archive file [/home/abi/fetcher/tmp/common-tools-ai-bnq-0.1.3.tar.gz]
 [2024-04-29 07:59:51] INFO root fetch - main [MainThread]: End processing [common-tools-ai-bnq]: success
 [2024-04-29 07:59:51] INFO root fetch - main [MainThread]: Store serial: [22979323]
+[2024-04-29 08:01:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979323]
+[2024-04-29 08:01:59] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-29 08:01:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swit-core
+[2024-04-29 08:01:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sswater
+[2024-04-29 08:01:59] INFO root fetch - processPackages [swit-core]: New version: [4.0.2] Old Version: [4.0.1]
+[2024-04-29 08:02:00] INFO root fetch - processPackages [swit-core]: Downloading https://files.pythonhosted.org/packages/52/78/8dbf8d259ded05f7d13d1b4f52a1edab55c3a5ddcd0c12d2f32319fd2670/swit_core-4.0.1.tar.gz
+[2024-04-29 08:02:00] INFO root fetch - processPackages [sswater]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-29 08:02:00] INFO root fetch - processPackages [sswater]: Downloading https://files.pythonhosted.org/packages/67/5c/fa0c3a3f7cca4ed16e166055f0b35fa1c96c2be07f40e598aeca85ea1259/sswater-0.0.3.tar.gz
+[2024-04-29 08:02:00] INFO root fetch - processPackages [swit-core]: Downloading https://files.pythonhosted.org/packages/22/fe/863b91697a1031102e43cbb43d99793dfd1cbd0dad63367794574536b6a8/swit_core-4.0.2.tar.gz
+[2024-04-29 08:02:00] INFO root fetch - processPackages [sswater]: Downloading https://files.pythonhosted.org/packages/25/bc/c03b557aec84b472b839afda8cc49fa59fec4b544c0c75bbbdd7b0f3c388/sswater-0.0.4.tar.gz
+[2024-04-29 08:02:00] INFO root fetch - processPackages [sswater]: executing diffoscope
+[2024-04-29 08:02:00] INFO root fetch - processPackages [sswater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sswater-0.0.3.tar.gz tmp/sswater-0.0.4.tar.gz --markdown 20240429/s/sswater/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-29 08:02:00] INFO root fetch - processPackages [swit-core]: executing diffoscope
+[2024-04-29 08:02:00] INFO root fetch - processPackages [swit-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swit_core-4.0.1.tar.gz tmp/swit_core-4.0.2.tar.gz --markdown 20240429/s/swit-core/4.0.1-4.0.2/README.md --exclude *.pyd
+[2024-04-29 08:02:01] INFO root fetch - processPackages [sswater]: Remove: archive file [/home/abi/fetcher/tmp/sswater-0.0.3.tar.gz]
+[2024-04-29 08:02:01] INFO root fetch - processPackages [sswater]: Remove: archive file [/home/abi/fetcher/tmp/sswater-0.0.4.tar.gz]
+[2024-04-29 08:02:01] INFO root fetch - main [MainThread]: End processing [sswater]: success
+[2024-04-29 08:02:04] INFO root fetch - processPackages [swit-core]: Remove: archive file [/home/abi/fetcher/tmp/swit_core-4.0.1.tar.gz]
+[2024-04-29 08:02:04] INFO root fetch - processPackages [swit-core]: Remove: archive file [/home/abi/fetcher/tmp/swit_core-4.0.2.tar.gz]
+[2024-04-29 08:02:04] INFO root fetch - main [MainThread]: End processing [swit-core]: success
+[2024-04-29 08:02:04] INFO root fetch - main [MainThread]: Store serial: [22979333]
