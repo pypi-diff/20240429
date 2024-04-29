@@ -7164,3 +7164,17 @@
 [2024-04-29 05:09:18] INFO root fetch - processPackages [bomcheckgui]: Remove: archive file [/home/abi/fetcher/tmp/bomcheckgui-1.9.7.tar.gz]
 [2024-04-29 05:09:18] INFO root fetch - main [MainThread]: End processing [bomcheckgui]: success
 [2024-04-29 05:09:18] INFO root fetch - main [MainThread]: Store serial: [22978296]
+[2024-04-29 05:11:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978296]
+[2024-04-29 05:11:27] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-29 05:13:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978296]
+[2024-04-29 05:13:32] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-29 05:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ruson
+[2024-04-29 05:13:32] INFO root fetch - processPackages [ruson]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-29 05:13:32] INFO root fetch - processPackages [ruson]: Downloading https://files.pythonhosted.org/packages/c8/e6/5c0840471a8b2eeae6c4c6e4a358e933e6fcbde5826a7d47bb7c0f15ef22/ruson-1.0.5.tar.gz
+[2024-04-29 05:13:33] INFO root fetch - processPackages [ruson]: Downloading https://files.pythonhosted.org/packages/45/27/278a1218492809cfaf3894ab8ba84f6db466592f1603c7b0ff2cf292ec58/ruson-1.0.6.tar.gz
+[2024-04-29 05:13:33] INFO root fetch - processPackages [ruson]: executing diffoscope
+[2024-04-29 05:13:33] INFO root fetch - processPackages [ruson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruson-1.0.5.tar.gz tmp/ruson-1.0.6.tar.gz --markdown 20240429/r/ruson/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-29 05:13:34] INFO root fetch - processPackages [ruson]: Remove: archive file [/home/abi/fetcher/tmp/ruson-1.0.5.tar.gz]
+[2024-04-29 05:13:34] INFO root fetch - processPackages [ruson]: Remove: archive file [/home/abi/fetcher/tmp/ruson-1.0.6.tar.gz]
+[2024-04-29 05:13:34] INFO root fetch - main [MainThread]: End processing [ruson]: success
+[2024-04-29 05:13:34] INFO root fetch - main [MainThread]: Store serial: [22978310]
