@@ -15977,3 +15977,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 12:46:17] INFO root fetch - processPackages [esp-idf-sbom]: Remove: archive file [/home/abi/fetcher/tmp/esp-idf-sbom-0.9.0.tar.gz]
 [2024-04-29 12:46:17] INFO root fetch - main [MainThread]: End processing [esp-idf-sbom]: success
 [2024-04-29 12:46:17] INFO root fetch - main [MainThread]: Store serial: [22982194]
+[2024-04-29 12:48:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982194]
+[2024-04-29 12:48:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 12:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jdtaxcalculator
+[2024-04-29 12:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: superlinked
+[2024-04-29 12:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uk-std-libraries
+[2024-04-29 12:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MeMeST
+[2024-04-29 12:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: finbourne-access-sdk
+[2024-04-29 12:48:26] INFO root fetch - processPackages [jdtaxcalculator]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-29 12:48:26] INFO root fetch - processPackages [superlinked]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-29 12:48:26] INFO root fetch - processPackages [MeMeST]: New version: [2024.4.9.212528] Old Version: [2024.4.9.212527]
+[2024-04-29 12:48:26] INFO root fetch - processPackages [uk-std-libraries]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-29 12:48:26] INFO root fetch - processPackages [jdtaxcalculator]: Downloading https://files.pythonhosted.org/packages/7a/2e/005a41c69e931e145bc340c465d0b6845101a48094df9356083c3519364a/jdtaxcalculator-0.0.3.tar.gz
+[2024-04-29 12:48:26] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/f7/5e/84d09e0e05b737b135f953e725a7a56acf875659f3a729403902dc51bddf/superlinked-3.9.0.tar.gz
+[2024-04-29 12:48:26] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-29 12:48:26] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/c7/f8/06a6b16a92478425f10419fced163609a359da2a317e7944daa8f7ef9d62/MeMeST-2024.4.9.212527.tar.gz
+[2024-04-29 12:48:26] INFO root fetch - processPackages [uk-std-libraries]: Downloading https://files.pythonhosted.org/packages/be/d2/1a20f404c683029a5b85eff111cc2eb544c6a896a7d9fa551c0fca7149ec/uk_std_libraries-0.0.7.tar.gz
+[2024-04-29 12:48:26] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/ba/4c/b40475a9d3097469d49458c79404aa15cc8c79a220ea3b85fc1d2b8895bc/MeMeST-2024.4.9.212528-py3-none-any.whl
+[2024-04-29 12:48:26] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/8f/6e/416193b22be21ffe493186a65f1f74ccb3521c483e54ad50c3c9f4533119/superlinked-3.9.1.tar.gz
+[2024-04-29 12:48:26] INFO root fetch - processPackages [uk-std-libraries]: Downloading https://files.pythonhosted.org/packages/f7/b3/d58b29d8d93e6dab402471fa195c6a699b0fcd057ff8640907b16bec2895/uk_std_libraries-0.0.8.tar.gz
+[2024-04-29 12:48:26] INFO root fetch - processPackages [jdtaxcalculator]: Downloading https://files.pythonhosted.org/packages/b7/c7/4e666ecafa04ec4f5be5de3840d7d9a670d475c6cf7d5d07936fa0193bde/jdtaxcalculator-0.0.4.tar.gz
+[2024-04-29 12:48:26] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-04-29 12:48:26] INFO root fetch - processPackages [MeMeST]: executing diffoscope
+[2024-04-29 12:48:26] INFO root fetch - processPackages [MeMeST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeMeST-2024.4.9.212527.tar.gz tmp/MeMeST-2024.4.9.212528-py3-none-any.whl.zip --markdown 20240429/M/MeMeST/2024.4.9.212527-2024.4.9.212528/README.md --exclude *.pyd
+[2024-04-29 12:48:26] INFO root fetch - processPackages [superlinked]: executing diffoscope
+[2024-04-29 12:48:26] INFO root fetch - processPackages [superlinked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superlinked-3.9.0.tar.gz tmp/superlinked-3.9.1.tar.gz --markdown 20240429/s/superlinked/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-04-29 12:48:26] INFO root fetch - processPackages [uk-std-libraries]: executing diffoscope
+[2024-04-29 12:48:26] INFO root fetch - processPackages [uk-std-libraries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uk_std_libraries-0.0.7.tar.gz tmp/uk_std_libraries-0.0.8.tar.gz --markdown 20240429/u/uk-std-libraries/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-29 12:48:26] INFO root fetch - processPackages [jdtaxcalculator]: executing diffoscope
+[2024-04-29 12:48:26] INFO root fetch - processPackages [jdtaxcalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jdtaxcalculator-0.0.3.tar.gz tmp/jdtaxcalculator-0.0.4.tar.gz --markdown 20240429/j/jdtaxcalculator/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-29 12:48:26] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-04-29 12:48:26] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-04-29 12:48:26] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240429/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-29 12:48:27] INFO root fetch - processPackages [uk-std-libraries]: Remove: archive file [/home/abi/fetcher/tmp/uk_std_libraries-0.0.7.tar.gz]
+[2024-04-29 12:48:27] INFO root fetch - processPackages [uk-std-libraries]: Remove: archive file [/home/abi/fetcher/tmp/uk_std_libraries-0.0.8.tar.gz]
+[2024-04-29 12:48:27] INFO root fetch - main [MainThread]: End processing [uk-std-libraries]: success
+[2024-04-29 12:48:27] INFO root fetch - processPackages [jdtaxcalculator]: Remove: archive file [/home/abi/fetcher/tmp/jdtaxcalculator-0.0.3.tar.gz]
+[2024-04-29 12:48:27] INFO root fetch - processPackages [jdtaxcalculator]: Remove: archive file [/home/abi/fetcher/tmp/jdtaxcalculator-0.0.4.tar.gz]
+[2024-04-29 12:48:27] INFO root fetch - main [MainThread]: End processing [jdtaxcalculator]: success
+[2024-04-29 12:48:27] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-2024.4.9.212527.tar.gz]
+[2024-04-29 12:48:27] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-2024.4.9.212528-py3-none-any.whl.zip]
+[2024-04-29 12:48:27] INFO root fetch - main [MainThread]: End processing [MeMeST]: success
+[2024-04-29 12:48:27] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.0.tar.gz]
+[2024-04-29 12:48:27] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.1.tar.gz]
+[2024-04-29 12:48:27] INFO root fetch - main [MainThread]: End processing [superlinked]: success
+[2024-04-29 12:48:27] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-04-29 12:48:27] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-04-29 12:48:27] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-04-29 12:48:27] INFO root fetch - main [MainThread]: Store serial: [22982208]
