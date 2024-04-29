@@ -9077,3 +9077,33 @@
 [2024-04-29 07:41:41] INFO root fetch - processPackages [jupyter-kernels]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_kernels-1.10.0-py3-none-any.whl.zip]
 [2024-04-29 07:41:41] INFO root fetch - main [MainThread]: End processing [jupyter-kernels]: success
 [2024-04-29 07:41:41] INFO root fetch - main [MainThread]: Store serial: [22979150]
+[2024-04-29 07:43:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979150]
+[2024-04-29 07:43:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 07:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tariochbctools
+[2024-04-29 07:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: etos-lib
+[2024-04-29 07:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lfg-llama
+[2024-04-29 07:43:51] INFO root fetch - processPackages [lfg-llama]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-29 07:43:51] INFO root fetch - processPackages [tariochbctools]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-29 07:43:51] INFO root fetch - processPackages [etos-lib]: New version: [4.2.0] Old Version: [4.1.1]
+[2024-04-29 07:43:51] INFO root fetch - processPackages [etos-lib]: Downloading https://files.pythonhosted.org/packages/c3/2b/140e70e5b4174ba3c3e3e069a9d3dac0a00d843c0a353fbe2f670f3fdd31/etos_lib-4.1.1.tar.gz
+[2024-04-29 07:43:51] INFO root fetch - processPackages [tariochbctools]: Downloading https://files.pythonhosted.org/packages/95/9f/f51deccea2eb9523e010ceda854777b0e67493bea01babbbc256a701c452/tariochbctools-0.8.0.tar.gz
+[2024-04-29 07:43:51] INFO root fetch - processPackages [lfg-llama]: Downloading https://files.pythonhosted.org/packages/c4/27/b7d6b2ef581430701a7d9e5169b8ebc3e51447bf1f9303984d519496893e/lfg_llama-1.0.0.tar.gz
+[2024-04-29 07:43:52] INFO root fetch - processPackages [lfg-llama]: Downloading https://files.pythonhosted.org/packages/a5/20/a6802c52945d5cee10b3ec63068995d8f7e4a2fd5140665482db36116a66/lfg_llama-1.0.1.tar.gz
+[2024-04-29 07:43:52] INFO root fetch - processPackages [tariochbctools]: Downloading https://files.pythonhosted.org/packages/e4/94/f1dc2d539ceb8800299330c25872406258c58f3315cd9e2c9a9957889ce2/tariochbctools-0.9.0.tar.gz
+[2024-04-29 07:43:52] INFO root fetch - processPackages [etos-lib]: Downloading https://files.pythonhosted.org/packages/41/3e/c8c5acc9e4ddcec2a36a386cf0bc7d5b395e546d44ee822a28b38c0c881b/etos_lib-4.2.0.tar.gz
+[2024-04-29 07:43:52] INFO root fetch - processPackages [tariochbctools]: executing diffoscope
+[2024-04-29 07:43:52] INFO root fetch - processPackages [tariochbctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tariochbctools-0.8.0.tar.gz tmp/tariochbctools-0.9.0.tar.gz --markdown 20240429/t/tariochbctools/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-29 07:43:52] INFO root fetch - processPackages [etos-lib]: executing diffoscope
+[2024-04-29 07:43:52] INFO root fetch - processPackages [etos-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etos_lib-4.1.1.tar.gz tmp/etos_lib-4.2.0.tar.gz --markdown 20240429/e/etos-lib/4.1.1-4.2.0/README.md --exclude *.pyd
+[2024-04-29 07:43:52] INFO root fetch - processPackages [lfg-llama]: executing diffoscope
+[2024-04-29 07:43:52] INFO root fetch - processPackages [lfg-llama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfg_llama-1.0.0.tar.gz tmp/lfg_llama-1.0.1.tar.gz --markdown 20240429/l/lfg-llama/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-29 07:43:52] INFO root fetch - processPackages [lfg-llama]: Remove: archive file [/home/abi/fetcher/tmp/lfg_llama-1.0.0.tar.gz]
+[2024-04-29 07:43:52] INFO root fetch - processPackages [lfg-llama]: Remove: archive file [/home/abi/fetcher/tmp/lfg_llama-1.0.1.tar.gz]
+[2024-04-29 07:43:52] INFO root fetch - main [MainThread]: End processing [lfg-llama]: success
+[2024-04-29 07:43:53] INFO root fetch - processPackages [etos-lib]: Remove: archive file [/home/abi/fetcher/tmp/etos_lib-4.1.1.tar.gz]
+[2024-04-29 07:43:53] INFO root fetch - processPackages [etos-lib]: Remove: archive file [/home/abi/fetcher/tmp/etos_lib-4.2.0.tar.gz]
+[2024-04-29 07:43:53] INFO root fetch - main [MainThread]: End processing [etos-lib]: success
+[2024-04-29 07:43:53] INFO root fetch - processPackages [tariochbctools]: Remove: archive file [/home/abi/fetcher/tmp/tariochbctools-0.8.0.tar.gz]
+[2024-04-29 07:43:53] INFO root fetch - processPackages [tariochbctools]: Remove: archive file [/home/abi/fetcher/tmp/tariochbctools-0.9.0.tar.gz]
+[2024-04-29 07:43:53] INFO root fetch - main [MainThread]: End processing [tariochbctools]: success
+[2024-04-29 07:43:53] INFO root fetch - main [MainThread]: Store serial: [22979160]
