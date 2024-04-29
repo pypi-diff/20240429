@@ -9762,3 +9762,24 @@
 [2024-04-29 08:28:31] INFO root fetch - processPackages [tinyrv]: Remove: archive file [/home/abi/fetcher/tmp/tinyrv-0.0.6.tar.gz]
 [2024-04-29 08:28:31] INFO root fetch - main [MainThread]: End processing [tinyrv]: success
 [2024-04-29 08:28:31] INFO root fetch - main [MainThread]: Store serial: [22979461]
+[2024-04-29 08:30:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979461]
+[2024-04-29 08:30:40] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-29 08:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: static-analysis-script
+[2024-04-29 08:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skodaconnect
+[2024-04-29 08:30:40] INFO root fetch - processPackages [static-analysis-script]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-29 08:30:40] INFO root fetch - processPackages [static-analysis-script]: Downloading https://files.pythonhosted.org/packages/b6/5c/c6a926a86700ebf1c66d4ad2b5987c0744ca90b62d25f8e9ca7ad604a628/static_analysis_script-0.1.4.tar.gz
+[2024-04-29 08:30:40] INFO root fetch - processPackages [skodaconnect]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-29 08:30:40] INFO root fetch - processPackages [skodaconnect]: Downloading https://files.pythonhosted.org/packages/77/41/f9047ba46816d43d0eedea34dbba7f652596ff0f38995d187352994fbeb8/skodaconnect-1.3.8.tar.gz
+[2024-04-29 08:30:40] INFO root fetch - processPackages [static-analysis-script]: Downloading https://files.pythonhosted.org/packages/2a/57/ab1abe6bc791b5d5e6790a96bc39f45fc5ea60342b77690547da7a4b4f1f/static_analysis_script-0.1.5.tar.gz
+[2024-04-29 08:30:40] INFO root fetch - processPackages [static-analysis-script]: executing diffoscope
+[2024-04-29 08:30:40] INFO root fetch - processPackages [static-analysis-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/static_analysis_script-0.1.4.tar.gz tmp/static_analysis_script-0.1.5.tar.gz --markdown 20240429/s/static-analysis-script/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-29 08:30:41] INFO root fetch - processPackages [skodaconnect]: Downloading https://files.pythonhosted.org/packages/5d/5c/7e0d7881bfb2c3c948972677e1ace68b68603f9c835217a6d782ee7b4758/skodaconnect-1.3.9.tar.gz
+[2024-04-29 08:30:41] INFO root fetch - processPackages [skodaconnect]: executing diffoscope
+[2024-04-29 08:30:41] INFO root fetch - processPackages [skodaconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skodaconnect-1.3.8.tar.gz tmp/skodaconnect-1.3.9.tar.gz --markdown 20240429/s/skodaconnect/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-29 08:30:41] INFO root fetch - processPackages [static-analysis-script]: Remove: archive file [/home/abi/fetcher/tmp/static_analysis_script-0.1.4.tar.gz]
+[2024-04-29 08:30:41] INFO root fetch - processPackages [static-analysis-script]: Remove: archive file [/home/abi/fetcher/tmp/static_analysis_script-0.1.5.tar.gz]
+[2024-04-29 08:30:41] INFO root fetch - main [MainThread]: End processing [static-analysis-script]: success
+[2024-04-29 08:30:41] INFO root fetch - processPackages [skodaconnect]: Remove: archive file [/home/abi/fetcher/tmp/skodaconnect-1.3.8.tar.gz]
+[2024-04-29 08:30:41] INFO root fetch - processPackages [skodaconnect]: Remove: archive file [/home/abi/fetcher/tmp/skodaconnect-1.3.9.tar.gz]
+[2024-04-29 08:30:41] INFO root fetch - main [MainThread]: End processing [skodaconnect]: success
+[2024-04-29 08:30:41] INFO root fetch - main [MainThread]: Store serial: [22979467]
