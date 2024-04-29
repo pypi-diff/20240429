@@ -8697,3 +8697,24 @@
 [2024-04-29 07:11:29] INFO root fetch - processPackages [pyrfuniverse]: Remove: archive file [/home/abi/fetcher/tmp/pyrfuniverse-0.9.20.tar.gz]
 [2024-04-29 07:11:29] INFO root fetch - main [MainThread]: End processing [pyrfuniverse]: success
 [2024-04-29 07:11:29] INFO root fetch - main [MainThread]: Store serial: [22978988]
+[2024-04-29 07:13:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978988]
+[2024-04-29 07:13:38] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-29 07:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: askquinta
+[2024-04-29 07:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qg_toolkit
+[2024-04-29 07:13:38] INFO root fetch - processPackages [askquinta]: New version: [2.0.8] Old Version: [2.0.7]
+[2024-04-29 07:13:38] INFO root fetch - processPackages [qg_toolkit]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-29 07:13:39] INFO root fetch - processPackages [askquinta]: Downloading https://files.pythonhosted.org/packages/e9/ef/728997889895b58df8c533c1736b655a581796c94e60ed5f20162d85cc99/askquinta-2.0.7-py3-none-any.whl
+[2024-04-29 07:13:39] INFO root fetch - processPackages [qg_toolkit]: Downloading https://files.pythonhosted.org/packages/11/9e/09ed07dcc6a084f1220c27e3bc8aeda003559e1ac3e15dd994ca5c159c91/qg_toolkit-1.0.8.tar.gz
+[2024-04-29 07:13:39] INFO root fetch - processPackages [askquinta]: Downloading https://files.pythonhosted.org/packages/e5/07/58773d44306905c976dcaf079397a270b7f3ae630f48e42705e981c44e0a/askquinta-2.0.8.tar.gz
+[2024-04-29 07:13:39] INFO root fetch - processPackages [qg_toolkit]: Downloading https://files.pythonhosted.org/packages/0c/37/88bab794be1362be7f0eec4b8b276ea25aa565f10e0daaffe6b05efd5835/qg_toolkit-1.0.9.tar.gz
+[2024-04-29 07:13:39] INFO root fetch - processPackages [askquinta]: executing diffoscope
+[2024-04-29 07:13:39] INFO root fetch - processPackages [askquinta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/askquinta-2.0.7-py3-none-any.whl.zip tmp/askquinta-2.0.8.tar.gz --markdown 20240429/a/askquinta/2.0.7-2.0.8/README.md --exclude *.pyd
+[2024-04-29 07:13:39] INFO root fetch - processPackages [qg_toolkit]: executing diffoscope
+[2024-04-29 07:13:39] INFO root fetch - processPackages [qg_toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qg_toolkit-1.0.8.tar.gz tmp/qg_toolkit-1.0.9.tar.gz --markdown 20240429/q/qg_toolkit/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-29 07:13:40] INFO root fetch - processPackages [askquinta]: Remove: archive file [/home/abi/fetcher/tmp/askquinta-2.0.7-py3-none-any.whl.zip]
+[2024-04-29 07:13:40] INFO root fetch - processPackages [askquinta]: Remove: archive file [/home/abi/fetcher/tmp/askquinta-2.0.8.tar.gz]
+[2024-04-29 07:13:40] INFO root fetch - main [MainThread]: End processing [askquinta]: success
+[2024-04-29 07:13:40] INFO root fetch - processPackages [qg_toolkit]: Remove: archive file [/home/abi/fetcher/tmp/qg_toolkit-1.0.8.tar.gz]
+[2024-04-29 07:13:40] INFO root fetch - processPackages [qg_toolkit]: Remove: archive file [/home/abi/fetcher/tmp/qg_toolkit-1.0.9.tar.gz]
+[2024-04-29 07:13:40] INFO root fetch - main [MainThread]: End processing [qg_toolkit]: success
+[2024-04-29 07:13:40] INFO root fetch - main [MainThread]: Store serial: [22978993]
