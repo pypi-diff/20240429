@@ -7322,3 +7322,9 @@
 [2024-04-29 05:24:26] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024042803.tar.gz]
 [2024-04-29 05:24:26] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2024-04-29 05:24:26] INFO root fetch - main [MainThread]: Store serial: [22978365]
+[2024-04-29 05:26:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978365]
+[2024-04-29 05:26:35] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-29 05:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: STMiner
+[2024-04-29 05:26:35] WARNING root fetch - processPackages [STMiner]: Skipping, unable to determine old version
+[2024-04-29 05:26:35] INFO root fetch - main [MainThread]: End processing [STMiner] error
+[2024-04-29 05:26:35] INFO root fetch - main [MainThread]: Store serial: [22978368]
