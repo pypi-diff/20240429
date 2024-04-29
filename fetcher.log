@@ -12803,3 +12803,91 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 10:50:42] INFO root fetch - processPackages [hsml]: Remove: archive file [/home/abi/fetcher/tmp/hsml-3.7.0rc0.tar.gz]
 [2024-04-29 10:50:42] INFO root fetch - main [MainThread]: End processing [hsml]: success
 [2024-04-29 10:50:42] INFO root fetch - main [MainThread]: Store serial: [22980869]
+[2024-04-29 10:52:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980869]
+[2024-04-29 10:52:51] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-29 10:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phonexia-enhanced-speech-to-text-built-on-whisper-client
+[2024-04-29 10:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: base91x
+[2024-04-29 10:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tilebox-grpc
+[2024-04-29 10:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swarmauri
+[2024-04-29 10:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: covid-ex
+[2024-04-29 10:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: middleware-help-python
+[2024-04-29 10:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netter
+[2024-04-29 10:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bank2ynab-limdingwen
+[2024-04-29 10:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gempy-engine
+[2024-04-29 10:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bank2ynab-limdingwen
+[2024-04-29 10:52:51] WARNING root fetch - processPackages [phonexia-enhanced-speech-to-text-built-on-whisper-client]: Skipping, unable to determine old version
+[2024-04-29 10:52:51] INFO root fetch - processPackages [phonexia-enhanced-speech-to-text-built-on-whisper-client]: Start processing: batou-ext
+[2024-04-29 10:52:51] INFO root fetch - main [MainThread]: End processing [phonexia-enhanced-speech-to-text-built-on-whisper-client] error
+[2024-04-29 10:52:51] INFO root fetch - processPackages [middleware-help-python]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-29 10:52:51] WARNING root fetch - processPackages [bank2ynab-limdingwen]: Skipping, unable to determine old version
+[2024-04-29 10:52:51] INFO root fetch - processPackages [bank2ynab-limdingwen]: Start processing: swarmauri
+[2024-04-29 10:52:51] INFO root fetch - main [MainThread]: End processing [bank2ynab-limdingwen] error
+[2024-04-29 10:52:51] WARNING root fetch - processPackages [bank2ynab-limdingwen]: Skipping, unable to determine old version
+[2024-04-29 10:52:51] INFO root fetch - processPackages [bank2ynab-limdingwen]: Start processing: ampform-dpd
+[2024-04-29 10:52:51] INFO root fetch - main [MainThread]: End processing [bank2ynab-limdingwen] error
+[2024-04-29 10:52:51] INFO root fetch - processPackages [tilebox-grpc]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-29 10:52:51] INFO root fetch - processPackages [base91x]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-29 10:52:51] WARNING root fetch - processPackages [covid-ex]: Skipping, unable to determine old version
+[2024-04-29 10:52:51] INFO root fetch - main [MainThread]: End processing [covid-ex] error
+[2024-04-29 10:52:51] INFO root fetch - processPackages [gempy-engine]: New version: [2024.1.3] Old Version: [2024.1.2]
+[2024-04-29 10:52:51] WARNING root fetch - processPackages [netter]: Skipping, unable to determine old version
+[2024-04-29 10:52:51] INFO root fetch - main [MainThread]: End processing [netter] error
+[2024-04-29 10:52:51] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.84]
+[2024-04-29 10:52:51] INFO root fetch - processPackages [middleware-help-python]: Downloading https://files.pythonhosted.org/packages/6d/6a/af0483a934d33a1a2aaf1ea26a277f37f5811cd25f80c72da543aa4c9205/middleware-help-python-0.0.4.tar.gz
+[2024-04-29 10:52:51] INFO root fetch - processPackages [batou-ext]: New version: [2.4.7] Old Version: [2.4.6]
+[2024-04-29 10:52:51] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.84]
+[2024-04-29 10:52:51] INFO root fetch - processPackages [ampform-dpd]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-29 10:52:51] INFO root fetch - processPackages [tilebox-grpc]: Downloading https://files.pythonhosted.org/packages/89/1d/b97965aa46b1cdfca9d35e7ce68762c61dfc5ca1c0a1f369c5a9c418475e/tilebox_grpc-0.9.0.tar.gz
+[2024-04-29 10:52:51] INFO root fetch - processPackages [base91x]: Downloading https://files.pythonhosted.org/packages/22/c8/235d33fb6ed1d6a4c11aac689e13b30dc890660ca427b8dd5a59625a2e7b/base91x-1.0.0.tar.gz
+[2024-04-29 10:52:51] INFO root fetch - processPackages [gempy-engine]: Downloading https://files.pythonhosted.org/packages/cd/56/5c2e295285086d77515c4304e3018881a877896d1c43826ed4ee08408f77/gempy_engine-2024.1.2.tar.gz
+[2024-04-29 10:52:51] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/8f/a6/a384e8a1290b8f36bb193ee9de41ec280a57a289f0f251add0723199fa68/swarmauri-0.1.84.tar.gz
+[2024-04-29 10:52:51] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/8f/a6/a384e8a1290b8f36bb193ee9de41ec280a57a289f0f251add0723199fa68/swarmauri-0.1.84.tar.gz
+[2024-04-29 10:52:52] INFO root fetch - processPackages [batou-ext]: Downloading https://files.pythonhosted.org/packages/9a/9c/239c8ec6443f61513010f8c1bd57e5ba9fa71e66ffdc24e346becbd2f7aa/batou_ext-2.4.6.tar.gz
+[2024-04-29 10:52:52] INFO root fetch - processPackages [ampform-dpd]: Downloading https://files.pythonhosted.org/packages/06/57/7601144c7b2e24caf9dc5adc9c192e532ad6e8c963e4b377fa1411c51496/ampform-dpd-0.1.6.tar.gz
+[2024-04-29 10:52:52] INFO root fetch - processPackages [middleware-help-python]: Downloading https://files.pythonhosted.org/packages/05/83/18b32bd01e8666f279764ea0b671ad0db3880395aaf04128e9048b6f9ac9/middleware-help-python-0.0.5.tar.gz
+[2024-04-29 10:52:52] INFO root fetch - processPackages [middleware-help-python]: executing diffoscope
+[2024-04-29 10:52:52] INFO root fetch - processPackages [middleware-help-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/middleware-help-python-0.0.4.tar.gz tmp/middleware-help-python-0.0.5.tar.gz --markdown 20240429/m/middleware-help-python/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-29 10:52:52] INFO root fetch - processPackages [base91x]: Downloading https://files.pythonhosted.org/packages/f2/cd/e8daa80cc7a95f35f8d146db2fcae934afa8a70457f20d30b4ab3f8874c1/base91x-1.0.1.tar.gz
+[2024-04-29 10:52:52] INFO root fetch - processPackages [tilebox-grpc]: Downloading https://files.pythonhosted.org/packages/b1/d0/864fe0b77fbd5a9a7dbe4505ccfbcdb396b9171e321ad4031d9af99643e1/tilebox_grpc-0.9.1.tar.gz
+[2024-04-29 10:52:52] INFO root fetch - processPackages [batou-ext]: Downloading https://files.pythonhosted.org/packages/0c/e3/62184a74a40f289a117f5b0568967e6e7a440e6435d45bb9be4df0eab2ab/batou_ext-2.4.7.tar.gz
+[2024-04-29 10:52:52] INFO root fetch - processPackages [base91x]: executing diffoscope
+[2024-04-29 10:52:52] INFO root fetch - processPackages [base91x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/base91x-1.0.0.tar.gz tmp/base91x-1.0.1.tar.gz --markdown 20240429/b/base91x/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-29 10:52:52] INFO root fetch - processPackages [tilebox-grpc]: executing diffoscope
+[2024-04-29 10:52:52] INFO root fetch - processPackages [tilebox-grpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tilebox_grpc-0.9.0.tar.gz tmp/tilebox_grpc-0.9.1.tar.gz --markdown 20240429/t/tilebox-grpc/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-29 10:52:52] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-29 10:52:52] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-29 10:52:52] INFO root fetch - processPackages [ampform-dpd]: Downloading https://files.pythonhosted.org/packages/0e/0e/765edc8113634aea2202e31f2dc2c1acee456b15b96a181bede11f5efb3f/ampform_dpd-0.1.7.tar.gz
+[2024-04-29 10:52:52] INFO root fetch - processPackages [gempy-engine]: Downloading https://files.pythonhosted.org/packages/95/a5/a445c119005db994bd652f0202f27bd63c66b916fbbd9c8fc5d2e162b25c/gempy_engine-2024.1.3.tar.gz
+[2024-04-29 10:52:52] INFO root fetch - processPackages [batou-ext]: executing diffoscope
+[2024-04-29 10:52:52] INFO root fetch - processPackages [batou-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batou_ext-2.4.6.tar.gz tmp/batou_ext-2.4.7.tar.gz --markdown 20240429/b/batou-ext/2.4.6-2.4.7/README.md --exclude *.pyd
+[2024-04-29 10:52:52] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-29 10:52:52] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.84.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240429/s/swarmauri/0.1.84-0.1.9/README.md --exclude *.pyd
+[2024-04-29 10:52:52] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-29 10:52:52] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.84.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240429/s/swarmauri/0.1.84-0.1.9/README.md --exclude *.pyd
+[2024-04-29 10:52:52] INFO root fetch - processPackages [ampform-dpd]: executing diffoscope
+[2024-04-29 10:52:52] INFO root fetch - processPackages [ampform-dpd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ampform-dpd-0.1.6.tar.gz tmp/ampform_dpd-0.1.7.tar.gz --markdown 20240429/a/ampform-dpd/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-29 10:52:52] INFO root fetch - processPackages [gempy-engine]: executing diffoscope
+[2024-04-29 10:52:52] INFO root fetch - processPackages [gempy-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gempy_engine-2024.1.2.tar.gz tmp/gempy_engine-2024.1.3.tar.gz --markdown 20240429/g/gempy-engine/2024.1.2-2024.1.3/README.md --exclude *.pyd
+[2024-04-29 10:52:53] INFO root fetch - processPackages [middleware-help-python]: Remove: archive file [/home/abi/fetcher/tmp/middleware-help-python-0.0.4.tar.gz]
+[2024-04-29 10:52:53] INFO root fetch - processPackages [middleware-help-python]: Remove: archive file [/home/abi/fetcher/tmp/middleware-help-python-0.0.5.tar.gz]
+[2024-04-29 10:52:53] INFO root fetch - main [MainThread]: End processing [middleware-help-python]: success
+[2024-04-29 10:52:53] INFO root fetch - processPackages [base91x]: Remove: archive file [/home/abi/fetcher/tmp/base91x-1.0.0.tar.gz]
+[2024-04-29 10:52:53] INFO root fetch - processPackages [base91x]: Remove: archive file [/home/abi/fetcher/tmp/base91x-1.0.1.tar.gz]
+[2024-04-29 10:52:53] INFO root fetch - main [MainThread]: End processing [base91x]: success
+[2024-04-29 10:52:53] INFO root fetch - processPackages [tilebox-grpc]: Remove: archive file [/home/abi/fetcher/tmp/tilebox_grpc-0.9.0.tar.gz]
+[2024-04-29 10:52:53] INFO root fetch - processPackages [tilebox-grpc]: Remove: archive file [/home/abi/fetcher/tmp/tilebox_grpc-0.9.1.tar.gz]
+[2024-04-29 10:52:53] INFO root fetch - main [MainThread]: End processing [tilebox-grpc]: success
+[2024-04-29 10:52:53] INFO root fetch - processPackages [batou-ext]: Remove: archive file [/home/abi/fetcher/tmp/batou_ext-2.4.6.tar.gz]
+[2024-04-29 10:52:53] INFO root fetch - processPackages [batou-ext]: Remove: archive file [/home/abi/fetcher/tmp/batou_ext-2.4.7.tar.gz]
+[2024-04-29 10:52:53] INFO root fetch - main [MainThread]: End processing [batou-ext]: success
+[2024-04-29 10:52:54] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.84.tar.gz]
+[2024-04-29 10:52:54] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-29 10:52:54] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-29 10:52:54] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-29 10:52:54] INFO root fetch - processPackages [gempy-engine]: Remove: archive file [/home/abi/fetcher/tmp/gempy_engine-2024.1.2.tar.gz]
+[2024-04-29 10:52:54] INFO root fetch - processPackages [gempy-engine]: Remove: archive file [/home/abi/fetcher/tmp/gempy_engine-2024.1.3.tar.gz]
+[2024-04-29 10:52:54] INFO root fetch - main [MainThread]: End processing [gempy-engine]: success
+[2024-04-29 10:52:55] INFO root fetch - processPackages [ampform-dpd]: Remove: archive file [/home/abi/fetcher/tmp/ampform-dpd-0.1.6.tar.gz]
+[2024-04-29 10:52:55] INFO root fetch - processPackages [ampform-dpd]: Remove: archive file [/home/abi/fetcher/tmp/ampform_dpd-0.1.7.tar.gz]
+[2024-04-29 10:52:55] INFO root fetch - main [MainThread]: End processing [ampform-dpd]: success
+[2024-04-29 10:52:55] INFO root fetch - main [MainThread]: Store serial: [22980914]
