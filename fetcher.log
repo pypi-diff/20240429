@@ -18334,3 +18334,30 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 14:08:32] INFO root fetch - processPackages [esiaccel]: Remove: archive file [/home/abi/fetcher/tmp/esiaccel-0.0.2.dev98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-29 14:08:32] INFO root fetch - main [MainThread]: End processing [esiaccel]: success
 [2024-04-29 14:08:32] INFO root fetch - main [MainThread]: Store serial: [22983123]
+[2024-04-29 14:10:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22983123]
+[2024-04-29 14:10:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 14:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: acmecse-test
+[2024-04-29 14:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyPowerFlex
+[2024-04-29 14:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PACMAN-charge
+[2024-04-29 14:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jb-v1
+[2024-04-29 14:10:44] INFO root fetch - processPackages [acmecse-test]: New version: [2024.4.4] Old Version: [2024.4.3]
+[2024-04-29 14:10:44] INFO root fetch - processPackages [acmecse-test]: Downloading https://files.pythonhosted.org/packages/91/92/73ede0458978e206ec532da0b9f17853b2337e7e658da084d647bea63ae7/acmecse_test-2024.4.3-py3-none-any.whl
+[2024-04-29 14:10:44] WARNING root fetch - processPackages [PACMAN-charge]: Skipping, unable to determine old version
+[2024-04-29 14:10:44] WARNING root fetch - processPackages [jb-v1]: Skipping, unable to determine old version
+[2024-04-29 14:10:44] INFO root fetch - main [MainThread]: End processing [PACMAN-charge] error
+[2024-04-29 14:10:44] INFO root fetch - main [MainThread]: End processing [jb-v1] error
+[2024-04-29 14:10:44] INFO root fetch - processPackages [PyPowerFlex]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-29 14:10:44] INFO root fetch - processPackages [PyPowerFlex]: Downloading https://files.pythonhosted.org/packages/81/34/9343de47044737abf89e04a0b323854263fa6163fec08866cf87cf10c7aa/PyPowerFlex-1.8.0.tar.gz
+[2024-04-29 14:10:44] INFO root fetch - processPackages [acmecse-test]: Downloading https://files.pythonhosted.org/packages/d9/5e/a4ef1cd52688d82d82515a258b0000bc01892521b30d57aa53b1519b6212/acmecse_test-2024.4.4-py3-none-any.whl
+[2024-04-29 14:10:45] INFO root fetch - processPackages [PyPowerFlex]: Downloading https://files.pythonhosted.org/packages/ee/17/a11f1d8065eb5c0810e3183a5b5f4508134aced5a5c07cf641b984d31d2e/PyPowerFlex-1.9.0.tar.gz
+[2024-04-29 14:10:45] INFO root fetch - processPackages [acmecse-test]: executing diffoscope
+[2024-04-29 14:10:45] INFO root fetch - processPackages [acmecse-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acmecse_test-2024.4.3-py3-none-any.whl.zip tmp/acmecse_test-2024.4.4-py3-none-any.whl.zip --markdown 20240429/a/acmecse-test/2024.4.3-2024.4.4/README.md --exclude *.pyd
+[2024-04-29 14:10:45] INFO root fetch - processPackages [PyPowerFlex]: executing diffoscope
+[2024-04-29 14:10:45] INFO root fetch - processPackages [PyPowerFlex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPowerFlex-1.8.0.tar.gz tmp/PyPowerFlex-1.9.0.tar.gz --markdown 20240429/P/PyPowerFlex/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-29 14:10:45] INFO root fetch - processPackages [PyPowerFlex]: Remove: archive file [/home/abi/fetcher/tmp/PyPowerFlex-1.8.0.tar.gz]
+[2024-04-29 14:10:45] INFO root fetch - processPackages [PyPowerFlex]: Remove: archive file [/home/abi/fetcher/tmp/PyPowerFlex-1.9.0.tar.gz]
+[2024-04-29 14:10:45] INFO root fetch - main [MainThread]: End processing [PyPowerFlex]: success
+[2024-04-29 14:10:47] INFO root fetch - processPackages [acmecse-test]: Remove: archive file [/home/abi/fetcher/tmp/acmecse_test-2024.4.3-py3-none-any.whl.zip]
+[2024-04-29 14:10:47] INFO root fetch - processPackages [acmecse-test]: Remove: archive file [/home/abi/fetcher/tmp/acmecse_test-2024.4.4-py3-none-any.whl.zip]
+[2024-04-29 14:10:47] INFO root fetch - main [MainThread]: End processing [acmecse-test]: success
+[2024-04-29 14:10:47] INFO root fetch - main [MainThread]: Store serial: [22983149]
