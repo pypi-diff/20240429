@@ -7406,3 +7406,24 @@
 [2024-04-29 05:30:57] INFO root fetch - processPackages [runtimepy]: Remove: archive file [/home/abi/fetcher/tmp/runtimepy-4.4.0.tar.gz]
 [2024-04-29 05:30:57] INFO root fetch - main [MainThread]: End processing [runtimepy]: success
 [2024-04-29 05:30:57] INFO root fetch - main [MainThread]: Store serial: [22978394]
+[2024-04-29 05:33:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978394]
+[2024-04-29 05:33:06] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-29 05:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gplugins
+[2024-04-29 05:33:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rlanutils
+[2024-04-29 05:33:06] INFO root fetch - processPackages [rlanutils]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-29 05:33:06] INFO root fetch - processPackages [rlanutils]: Downloading https://files.pythonhosted.org/packages/a7/22/ab9272eed97afd084e85ff0d97a9237481ddf41198c09a4296647ab2404f/rlanutils-0.1.5.tar.gz
+[2024-04-29 05:33:06] INFO root fetch - processPackages [gplugins]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-29 05:33:06] INFO root fetch - processPackages [gplugins]: Downloading https://files.pythonhosted.org/packages/fa/65/d1d3c483fca66a8c6a47ce3657f5b7ddde9f75b4c029056096b4081bc307/gplugins-0.9.8.tar.gz
+[2024-04-29 05:33:06] INFO root fetch - processPackages [rlanutils]: Downloading https://files.pythonhosted.org/packages/7a/a2/c3d446ddf89872b1bc3499f203149c3ab3cec0edc6ea390a7201d2d4e780/rlanutils-0.1.6.tar.gz
+[2024-04-29 05:33:06] INFO root fetch - processPackages [rlanutils]: executing diffoscope
+[2024-04-29 05:33:06] INFO root fetch - processPackages [rlanutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlanutils-0.1.5.tar.gz tmp/rlanutils-0.1.6.tar.gz --markdown 20240429/r/rlanutils/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-29 05:33:06] INFO root fetch - processPackages [gplugins]: Downloading https://files.pythonhosted.org/packages/8d/d1/6b532d5fd395ef4336d1e02c79051117722712aa3fcf6ca51f764a1e4d7d/gplugins-0.9.9.tar.gz
+[2024-04-29 05:33:07] INFO root fetch - processPackages [rlanutils]: Remove: archive file [/home/abi/fetcher/tmp/rlanutils-0.1.5.tar.gz]
+[2024-04-29 05:33:07] INFO root fetch - processPackages [rlanutils]: Remove: archive file [/home/abi/fetcher/tmp/rlanutils-0.1.6.tar.gz]
+[2024-04-29 05:33:07] INFO root fetch - main [MainThread]: End processing [rlanutils]: success
+[2024-04-29 05:33:07] INFO root fetch - processPackages [gplugins]: executing diffoscope
+[2024-04-29 05:33:07] INFO root fetch - processPackages [gplugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gplugins-0.9.8.tar.gz tmp/gplugins-0.9.9.tar.gz --markdown 20240429/g/gplugins/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-29 05:33:08] INFO root fetch - processPackages [gplugins]: Remove: archive file [/home/abi/fetcher/tmp/gplugins-0.9.8.tar.gz]
+[2024-04-29 05:33:08] INFO root fetch - processPackages [gplugins]: Remove: archive file [/home/abi/fetcher/tmp/gplugins-0.9.9.tar.gz]
+[2024-04-29 05:33:08] INFO root fetch - main [MainThread]: End processing [gplugins]: success
+[2024-04-29 05:33:08] INFO root fetch - main [MainThread]: Store serial: [22978400]
