@@ -19889,3 +19889,29 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 15:01:39] INFO root fetch - processPackages [threedi-modelchecker]: Remove: archive file [/home/abi/fetcher/tmp/threedi_modelchecker-2.7.2.tar.gz]
 [2024-04-29 15:01:39] INFO root fetch - main [MainThread]: End processing [threedi-modelchecker]: success
 [2024-04-29 15:01:39] INFO root fetch - main [MainThread]: Store serial: [22983778]
+[2024-04-29 15:03:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22983778]
+[2024-04-29 15:03:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 15:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AstecManager
+[2024-04-29 15:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-azure-blob-storage
+[2024-04-29 15:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flickr-photos-api
+[2024-04-29 15:03:48] INFO root fetch - processPackages [airbyte-source-azure-blob-storage]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-29 15:03:48] INFO root fetch - processPackages [airbyte-source-azure-blob-storage]: Downloading https://files.pythonhosted.org/packages/e4/67/457bd3dd04f7cd9fdc780d0027ff1e8ffb44db0bbc97c2a2a028e485e23c/airbyte_source_azure_blob_storage-0.4.0.tar.gz
+[2024-04-29 15:03:48] INFO root fetch - processPackages [flickr-photos-api]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-29 15:03:48] INFO root fetch - processPackages [AstecManager]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-29 15:03:49] INFO root fetch - processPackages [AstecManager]: Downloading https://files.pythonhosted.org/packages/f9/ba/4fa80e4e502975f6f9607c8a651251568e1ab5f3e957349307595f0b2165/AstecManager-0.2.8.tar.gz
+[2024-04-29 15:03:49] INFO root fetch - processPackages [flickr-photos-api]: Downloading https://files.pythonhosted.org/packages/29/d2/dfaa2d9faa31a88f1c421f4b58a0d4ba312aa191495033ea3f8aac37a200/flickr-photos-api-1.9.1.tar.gz
+[2024-04-29 15:03:49] INFO root fetch - processPackages [airbyte-source-azure-blob-storage]: Downloading https://files.pythonhosted.org/packages/f8/b5/537dd9bfa9b3ad0f750b14fa66c374e4ebd974d2bdaf942a62b019e8fca6/airbyte_source_azure_blob_storage-0.4.1.tar.gz
+[2024-04-29 15:03:49] WARNING root fetch - processPackages [AstecManager]: Skipping package: exceeds size limit 30603260>=10485760
+[2024-04-29 15:03:49] INFO root fetch - main [MainThread]: End processing [AstecManager] error
+[2024-04-29 15:03:49] INFO root fetch - processPackages [airbyte-source-azure-blob-storage]: executing diffoscope
+[2024-04-29 15:03:49] INFO root fetch - processPackages [airbyte-source-azure-blob-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_azure_blob_storage-0.4.0.tar.gz tmp/airbyte_source_azure_blob_storage-0.4.1.tar.gz --markdown 20240429/a/airbyte-source-azure-blob-storage/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-29 15:03:49] INFO root fetch - processPackages [flickr-photos-api]: Downloading https://files.pythonhosted.org/packages/38/ac/07447b6ae1d72699cff5c06fed59a01c0e90667034da3f730eacfbc3a77f/flickr-photos-api-1.9.2.tar.gz
+[2024-04-29 15:03:49] INFO root fetch - processPackages [flickr-photos-api]: executing diffoscope
+[2024-04-29 15:03:49] INFO root fetch - processPackages [flickr-photos-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flickr-photos-api-1.9.1.tar.gz tmp/flickr-photos-api-1.9.2.tar.gz --markdown 20240429/f/flickr-photos-api/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-29 15:03:49] INFO root fetch - processPackages [airbyte-source-azure-blob-storage]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_azure_blob_storage-0.4.0.tar.gz]
+[2024-04-29 15:03:49] INFO root fetch - processPackages [airbyte-source-azure-blob-storage]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_azure_blob_storage-0.4.1.tar.gz]
+[2024-04-29 15:03:49] INFO root fetch - main [MainThread]: End processing [airbyte-source-azure-blob-storage]: success
+[2024-04-29 15:03:50] INFO root fetch - processPackages [flickr-photos-api]: Remove: archive file [/home/abi/fetcher/tmp/flickr-photos-api-1.9.1.tar.gz]
+[2024-04-29 15:03:50] INFO root fetch - processPackages [flickr-photos-api]: Remove: archive file [/home/abi/fetcher/tmp/flickr-photos-api-1.9.2.tar.gz]
+[2024-04-29 15:03:50] INFO root fetch - main [MainThread]: End processing [flickr-photos-api]: success
+[2024-04-29 15:03:50] INFO root fetch - main [MainThread]: Store serial: [22983788]
