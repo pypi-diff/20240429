@@ -18202,3 +18202,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 14:03:56] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.35-py3-none-any.whl.zip]
 [2024-04-29 14:03:56] INFO root fetch - main [MainThread]: End processing [muko]: success
 [2024-04-29 14:03:56] INFO root fetch - main [MainThread]: Store serial: [22982996]
+[2024-04-29 14:06:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982996]
+[2024-04-29 14:06:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-29 14:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hgraph
+[2024-04-29 14:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipeline-ai
+[2024-04-29 14:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: troi
+[2024-04-29 14:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: secretvalidate
+[2024-04-29 14:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: house-price-prediction-6138
+[2024-04-29 14:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Nikola
+[2024-04-29 14:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: poppy-py
+[2024-04-29 14:06:06] INFO root fetch - processPackages [secretvalidate]: New version: [0.0.1a6] Old Version: [0.0.1a5]
+[2024-04-29 14:06:06] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/0e/5f/5dac94fe1e963d0203295e712fdfb90177f8c19fdd3f7ffedcdc424a3b8e/secretvalidate-0.0.1a5.tar.gz
+[2024-04-29 14:06:06] INFO root fetch - processPackages [troi]: New version: [29.0] Old Version: [2024.4.26.0]
+[2024-04-29 14:06:06] WARNING root fetch - processPackages [house-price-prediction-6138]: Skipping, unable to determine old version
+[2024-04-29 14:06:06] INFO root fetch - main [MainThread]: End processing [house-price-prediction-6138] error
+[2024-04-29 14:06:06] INFO root fetch - processPackages [hgraph]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-29 14:06:06] INFO root fetch - processPackages [Nikola]: New version: [8.3.1] Old Version: [8.3.0]
+[2024-04-29 14:06:06] INFO root fetch - processPackages [poppy-py]: New version: [0.1.7] Old Version: [0.1.5]
+[2024-04-29 14:06:06] INFO root fetch - processPackages [pipeline-ai]: New version: [2.1.7] Old Version: [2.1.6]
+[2024-04-29 14:06:07] INFO root fetch - processPackages [troi]: Downloading https://files.pythonhosted.org/packages/8a/c5/917cdc085962e0995a42ce1f0b626a3fb5add7eba59fd07c2079ca67a551/troi-2024.4.26.0.tar.gz
+[2024-04-29 14:06:07] INFO root fetch - processPackages [hgraph]: Downloading https://files.pythonhosted.org/packages/da/ad/e83b1d8661a0e583d3a8e4e301911d6797358607dad40d27057574e75081/hgraph-0.2.8.tar.gz
+[2024-04-29 14:06:07] INFO root fetch - processPackages [pipeline-ai]: Downloading https://files.pythonhosted.org/packages/d1/35/a0c5013b2555caaa1b5c570dda75430364df8a4c0d952a14d9bc0b1170a5/pipeline_ai-2.1.6.tar.gz
+[2024-04-29 14:06:07] INFO root fetch - processPackages [Nikola]: Downloading https://files.pythonhosted.org/packages/94/e8/d5ee76b2739f4d1b519765db66d8b058ff9ad61b5641662c3b69313fa2fb/Nikola-8.3.0.tar.gz
+[2024-04-29 14:06:07] INFO root fetch - processPackages [poppy-py]: Downloading https://files.pythonhosted.org/packages/81/8d/f5d1a61e56e61f60f89b48486e3ae623e2871e03791413fb16c81fee301b/poppy_py-0.1.5.tar.gz
+[2024-04-29 14:06:07] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/bd/e6/6a890a7e626736d30c188e28fc3e5f84e504d364907af39e7ef065a811e9/secretvalidate-0.0.1a6.tar.gz
+[2024-04-29 14:06:07] INFO root fetch - processPackages [secretvalidate]: executing diffoscope
+[2024-04-29 14:06:07] INFO root fetch - processPackages [secretvalidate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretvalidate-0.0.1a5.tar.gz tmp/secretvalidate-0.0.1a6.tar.gz --markdown 20240429/s/secretvalidate/0.0.1a5-0.0.1a6/README.md --exclude *.pyd
+[2024-04-29 14:06:07] INFO root fetch - processPackages [troi]: Downloading https://files.pythonhosted.org/packages/2c/78/a634349a0527c2fb0221751b43170b29f62664b2a97466353b6f9e6469f0/troi-29.0.tar.gz
+[2024-04-29 14:06:07] INFO root fetch - processPackages [hgraph]: Downloading https://files.pythonhosted.org/packages/22/05/43ea3ada7d538f8592b51d36721d624366793ada729a497eaaff2db9b540/hgraph-0.2.9.tar.gz
+[2024-04-29 14:06:07] INFO root fetch - processPackages [pipeline-ai]: Downloading https://files.pythonhosted.org/packages/ba/89/50813dc240222d72cd69806c72e75e9b16e02bd3dc78f6a6e582c627ebca/pipeline_ai-2.1.7.tar.gz
+[2024-04-29 14:06:07] INFO root fetch - processPackages [troi]: executing diffoscope
+[2024-04-29 14:06:07] INFO root fetch - processPackages [troi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troi-2024.4.26.0.tar.gz tmp/troi-29.0.tar.gz --markdown 20240429/t/troi/2024.4.26.0-29.0/README.md --exclude *.pyd
+[2024-04-29 14:06:07] INFO root fetch - processPackages [hgraph]: executing diffoscope
+[2024-04-29 14:06:07] INFO root fetch - processPackages [hgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hgraph-0.2.8.tar.gz tmp/hgraph-0.2.9.tar.gz --markdown 20240429/h/hgraph/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-29 14:06:07] INFO root fetch - processPackages [poppy-py]: Downloading https://files.pythonhosted.org/packages/b8/b0/c4daaa0437bff1490064ee1e85965d62c28f92038c4d8e24cd04666391b7/poppy_py-0.1.7-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-04-29 14:06:07] INFO root fetch - processPackages [pipeline-ai]: executing diffoscope
+[2024-04-29 14:06:07] INFO root fetch - processPackages [pipeline-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline_ai-2.1.6.tar.gz tmp/pipeline_ai-2.1.7.tar.gz --markdown 20240429/p/pipeline-ai/2.1.6-2.1.7/README.md --exclude *.pyd
+[2024-04-29 14:06:08] INFO root fetch - processPackages [Nikola]: Downloading https://files.pythonhosted.org/packages/bc/e3/39974a2b3009a1f9e7e5c9db5ba078f9f1999d714ab9c2f2c5bab9cd3ebe/Nikola-8.3.1.tar.gz
+[2024-04-29 14:06:08] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a5.tar.gz]
+[2024-04-29 14:06:08] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a6.tar.gz]
+[2024-04-29 14:06:08] INFO root fetch - main [MainThread]: End processing [secretvalidate]: success
+[2024-04-29 14:06:08] INFO root fetch - processPackages [troi]: Remove: archive file [/home/abi/fetcher/tmp/troi-2024.4.26.0.tar.gz]
+[2024-04-29 14:06:08] INFO root fetch - processPackages [troi]: Remove: archive file [/home/abi/fetcher/tmp/troi-29.0.tar.gz]
+[2024-04-29 14:06:08] INFO root fetch - main [MainThread]: End processing [troi]: success
+[2024-04-29 14:06:08] INFO root fetch - processPackages [Nikola]: executing diffoscope
+[2024-04-29 14:06:08] INFO root fetch - processPackages [Nikola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Nikola-8.3.0.tar.gz tmp/Nikola-8.3.1.tar.gz --markdown 20240429/N/Nikola/8.3.0-8.3.1/README.md --exclude *.pyd
+[2024-04-29 14:06:09] INFO root fetch - processPackages [poppy-py]: executing diffoscope
+[2024-04-29 14:06:09] INFO root fetch - processPackages [poppy-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poppy_py-0.1.5.tar.gz tmp/poppy_py-0.1.7-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240429/p/poppy-py/0.1.5-0.1.7/README.md --exclude *.pyd
+[2024-04-29 14:06:09] INFO root fetch - processPackages [pipeline-ai]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_ai-2.1.6.tar.gz]
+[2024-04-29 14:06:09] INFO root fetch - processPackages [pipeline-ai]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_ai-2.1.7.tar.gz]
+[2024-04-29 14:06:09] INFO root fetch - main [MainThread]: End processing [pipeline-ai]: success
+[2024-04-29 14:06:09] INFO root fetch - processPackages [hgraph]: Remove: archive file [/home/abi/fetcher/tmp/hgraph-0.2.8.tar.gz]
+[2024-04-29 14:06:09] INFO root fetch - processPackages [hgraph]: Remove: archive file [/home/abi/fetcher/tmp/hgraph-0.2.9.tar.gz]
+[2024-04-29 14:06:09] INFO root fetch - main [MainThread]: End processing [hgraph]: success
+[2024-04-29 14:06:09] INFO root fetch - processPackages [poppy-py]: Remove: archive file [/home/abi/fetcher/tmp/poppy_py-0.1.5.tar.gz]
+[2024-04-29 14:06:09] INFO root fetch - processPackages [poppy-py]: Remove: archive file [/home/abi/fetcher/tmp/poppy_py-0.1.7-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-04-29 14:06:09] INFO root fetch - main [MainThread]: End processing [poppy-py]: success
+[2024-04-29 14:06:14] INFO root fetch - processPackages [Nikola]: Remove: archive file [/home/abi/fetcher/tmp/Nikola-8.3.0.tar.gz]
+[2024-04-29 14:06:14] INFO root fetch - processPackages [Nikola]: Remove: archive file [/home/abi/fetcher/tmp/Nikola-8.3.1.tar.gz]
+[2024-04-29 14:06:14] INFO root fetch - main [MainThread]: End processing [Nikola]: success
+[2024-04-29 14:06:14] INFO root fetch - main [MainThread]: Store serial: [22983025]
