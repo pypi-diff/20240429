@@ -13901,3 +13901,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 11:30:42] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-9.0.0.tar.gz]
 [2024-04-29 11:30:42] INFO root fetch - main [MainThread]: End processing [mailslurp-client]: success
 [2024-04-29 11:30:42] INFO root fetch - main [MainThread]: Store serial: [22981407]
+[2024-04-29 11:32:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22981407]
+[2024-04-29 11:32:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 11:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lakeapi2sql
+[2024-04-29 11:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyopenweathermap
+[2024-04-29 11:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bmsdna-sql-utils
+[2024-04-29 11:32:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jetline
+[2024-04-29 11:32:51] INFO root fetch - processPackages [pyopenweathermap]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-29 11:32:51] WARNING root fetch - processPackages [bmsdna-sql-utils]: Skipping, unable to determine old version
+[2024-04-29 11:32:51] INFO root fetch - main [MainThread]: End processing [bmsdna-sql-utils] error
+[2024-04-29 11:32:51] INFO root fetch - processPackages [jetline]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 11:32:51] INFO root fetch - processPackages [pyopenweathermap]: Downloading https://files.pythonhosted.org/packages/21/11/d554c9817488e1a9e9a4ff66743afe5fc23d95bab6c1c4ba4fa80bd5164d/pyopenweathermap-0.0.5.tar.gz
+[2024-04-29 11:32:51] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/14/d7/4b17ee6567b17ad4eec9a6e6ceded1190275544e45e07f7b10971d03dc9f/jetline-0.1.8.tar.gz
+[2024-04-29 11:32:51] INFO root fetch - processPackages [lakeapi2sql]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-04-29 11:32:52] INFO root fetch - processPackages [pyopenweathermap]: Downloading https://files.pythonhosted.org/packages/31/27/00e76d0950e00fb2ca57fe43a50fadc482b7f5ab859ee34b7e3751cd31fb/pyopenweathermap-0.0.6.tar.gz
+[2024-04-29 11:32:52] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/e3/52/ee8efe5ee3940966b4c7e8b471dd88336c2950833a0dd4b4854cce8f181b/jetline-0.1.9.tar.gz
+[2024-04-29 11:32:52] INFO root fetch - processPackages [lakeapi2sql]: Downloading https://files.pythonhosted.org/packages/ed/68/88a839927a74e8069a4243893c395e8da4ce5272407b8855178ada3bb041/lakeapi2sql-0.8.2.tar.gz
+[2024-04-29 11:32:52] INFO root fetch - processPackages [pyopenweathermap]: executing diffoscope
+[2024-04-29 11:32:52] INFO root fetch - processPackages [pyopenweathermap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyopenweathermap-0.0.5.tar.gz tmp/pyopenweathermap-0.0.6.tar.gz --markdown 20240429/p/pyopenweathermap/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-29 11:32:52] INFO root fetch - processPackages [jetline]: executing diffoscope
+[2024-04-29 11:32:52] INFO root fetch - processPackages [jetline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetline-0.1.8.tar.gz tmp/jetline-0.1.9.tar.gz --markdown 20240429/j/jetline/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 11:32:52] INFO root fetch - processPackages [lakeapi2sql]: Downloading https://files.pythonhosted.org/packages/97/67/460001b0d981c9b8b4d7ef3fb6ef1710eeee9edde24156c79d9b2e9078c6/lakeapi2sql-0.8.3.tar.gz
+[2024-04-29 11:32:52] INFO root fetch - processPackages [lakeapi2sql]: executing diffoscope
+[2024-04-29 11:32:52] INFO root fetch - processPackages [lakeapi2sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakeapi2sql-0.8.2.tar.gz tmp/lakeapi2sql-0.8.3.tar.gz --markdown 20240429/l/lakeapi2sql/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-04-29 11:32:52] INFO root fetch - processPackages [pyopenweathermap]: Remove: archive file [/home/abi/fetcher/tmp/pyopenweathermap-0.0.5.tar.gz]
+[2024-04-29 11:32:52] INFO root fetch - processPackages [pyopenweathermap]: Remove: archive file [/home/abi/fetcher/tmp/pyopenweathermap-0.0.6.tar.gz]
+[2024-04-29 11:32:52] INFO root fetch - main [MainThread]: End processing [pyopenweathermap]: success
+[2024-04-29 11:32:52] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.1.8.tar.gz]
+[2024-04-29 11:32:52] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.1.9.tar.gz]
+[2024-04-29 11:32:52] INFO root fetch - main [MainThread]: End processing [jetline]: success
+[2024-04-29 11:32:53] INFO root fetch - processPackages [lakeapi2sql]: Remove: archive file [/home/abi/fetcher/tmp/lakeapi2sql-0.8.2.tar.gz]
+[2024-04-29 11:32:53] INFO root fetch - processPackages [lakeapi2sql]: Remove: archive file [/home/abi/fetcher/tmp/lakeapi2sql-0.8.3.tar.gz]
+[2024-04-29 11:32:53] INFO root fetch - main [MainThread]: End processing [lakeapi2sql]: success
+[2024-04-29 11:32:53] INFO root fetch - main [MainThread]: Store serial: [22981434]
