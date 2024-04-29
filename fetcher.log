@@ -13877,3 +13877,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 11:28:32] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.9.tar.gz]
 [2024-04-29 11:28:32] INFO root fetch - main [MainThread]: End processing [frontengine]: success
 [2024-04-29 11:28:32] INFO root fetch - main [MainThread]: Store serial: [22981395]
+[2024-04-29 11:30:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22981395]
+[2024-04-29 11:30:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 11:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: templated-setup
+[2024-04-29 11:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bs-scheduler
+[2024-04-29 11:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mailslurp-client
+[2024-04-29 11:30:41] INFO root fetch - processPackages [templated-setup]: New version: [0.4] Old Version: [0.3]
+[2024-04-29 11:30:41] INFO root fetch - processPackages [mailslurp-client]: New version: [9.0.0] Old Version: [8.7.1]
+[2024-04-29 11:30:41] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/05/33/59bdd092c7b0d4ba200336199f8c33b2ca350c65b61b8169388cf719c8c6/templated_setup-0.3.tar.gz
+[2024-04-29 11:30:41] WARNING root fetch - processPackages [bs-scheduler]: Skipping, unable to determine old version
+[2024-04-29 11:30:41] INFO root fetch - main [MainThread]: End processing [bs-scheduler] error
+[2024-04-29 11:30:41] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/3e/2a/b8cce2427a43d1e16d56cf7c0cb6846aa65ef693d53c602b86cc1b3e2dda/mailslurp-client-8.7.1.tar.gz
+[2024-04-29 11:30:41] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/09/95/2d134db5f6ebf157fd80f4b6566a367d24c6b3c133107d6396db17c19f22/templated_setup-0.4.tar.gz
+[2024-04-29 11:30:41] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/01/d9/2509603c731df895dbecf80066b199f2b72cb740d3900594486b1869bda3/mailslurp-client-9.0.0.tar.gz
+[2024-04-29 11:30:41] INFO root fetch - processPackages [templated-setup]: executing diffoscope
+[2024-04-29 11:30:41] INFO root fetch - processPackages [templated-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templated_setup-0.3.tar.gz tmp/templated_setup-0.4.tar.gz --markdown 20240429/t/templated-setup/0.3-0.4/README.md --exclude *.pyd
+[2024-04-29 11:30:41] INFO root fetch - processPackages [mailslurp-client]: executing diffoscope
+[2024-04-29 11:30:41] INFO root fetch - processPackages [mailslurp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailslurp-client-8.7.1.tar.gz tmp/mailslurp-client-9.0.0.tar.gz --markdown 20240429/m/mailslurp-client/8.7.1-9.0.0/README.md --exclude *.pyd
+[2024-04-29 11:30:42] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.3.tar.gz]
+[2024-04-29 11:30:42] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.4.tar.gz]
+[2024-04-29 11:30:42] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
+[2024-04-29 11:30:42] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-8.7.1.tar.gz]
+[2024-04-29 11:30:42] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-9.0.0.tar.gz]
+[2024-04-29 11:30:42] INFO root fetch - main [MainThread]: End processing [mailslurp-client]: success
+[2024-04-29 11:30:42] INFO root fetch - main [MainThread]: Store serial: [22981407]
