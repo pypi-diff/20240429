@@ -14920,3 +14920,114 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 12:04:28] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.1.tar.gz]
 [2024-04-29 12:04:28] INFO root fetch - main [MainThread]: End processing [superlinked]: success
 [2024-04-29 12:04:28] INFO root fetch - main [MainThread]: Store serial: [22981837]
+[2024-04-29 12:06:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22981837]
+[2024-04-29 12:06:37] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-29 12:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: volcengine-python-sdk
+[2024-04-29 12:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecv-python-development
+[2024-04-29 12:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nvidia-dali-tf-plugin-weekly-cuda120
+[2024-04-29 12:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb
+[2024-04-29 12:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-dataset
+[2024-04-29 12:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-models
+[2024-04-29 12:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: few-shot-priming
+[2024-04-29 12:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-protos
+[2024-04-29 12:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-sdk
+[2024-04-29 12:06:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-telemetry
+[2024-04-29 12:06:37] INFO root fetch - processPackages [nucliadb-models]: New version: [3.0.3.post459] Old Version: [3.0.3.post458]
+[2024-04-29 12:06:37] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-29 12:06:37] INFO root fetch - processPackages [volcengine-python-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-29 12:06:37] INFO root fetch - processPackages [nucliadb-dataset]: New version: [3.0.3.post459] Old Version: [3.0.3.post458]
+[2024-04-29 12:06:37] INFO root fetch - processPackages [nucliadb]: New version: [3.0.3.post459] Old Version: [3.0.3.post458]
+[2024-04-29 12:06:37] INFO root fetch - processPackages [nucliadb-protos]: New version: [3.0.3.post459] Old Version: [3.0.3.post458]
+[2024-04-29 12:06:37] INFO root fetch - processPackages [nucliadb-sdk]: New version: [3.0.3.post459] Old Version: [3.0.3.post458]
+[2024-04-29 12:06:37] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [3.0.3.post459] Old Version: [3.0.3.post458]
+[2024-04-29 12:06:37] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: New version: [1.38.0.dev20240428] Old Version: [1.36.0.dev20240310]
+[2024-04-29 12:06:37] INFO root fetch - processPackages [ecv-python-development]: New version: [0.0.55] Old Version: [0.0.54]
+[2024-04-29 12:06:37] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/76/a0/76fd7520f7cb5a0c5df153a8b922ed8396c718f0e236422679084b056f2f/nucliadb_models-3.0.3.post458-py3-none-any.whl
+[2024-04-29 12:06:37] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/c1/32/bbffdca51968b83a458bec9c2eefd5724b840c463c81e13e7c497d6e818e/nucliadb_sdk-3.0.3.post458-py3-none-any.whl
+[2024-04-29 12:06:37] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-29 12:06:37] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/ed/79/cb596433eb00e9b19668372e3f64f1e548682f96940846571c0c55f482ab/nucliadb_dataset-3.0.3.post458-py3-none-any.whl
+[2024-04-29 12:06:38] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/85/5f/edab5c3ecf206e42ff2e80ff68fd0ef1347a3b2e58b26bdf1bfe9d1a98de/nucliadb-3.0.3.post458-py3-none-any.whl
+[2024-04-29 12:06:38] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/19/f5/23851c05396a0ccedf84b478d389ef8177ab3590464483aaba6dae45d4c3/nucliadb_protos-3.0.3.post458-py3-none-any.whl
+[2024-04-29 12:06:38] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/ff/75/e607b174f4efc875809400aaf720dd84ad23c6cf463baaa0667f9f458263/volcengine-python-sdk-1.0.8.tar.gz
+[2024-04-29 12:06:38] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/19/b4/9bfee9b6be20000659a291abc54cc493f9811a1d9c30298787a78a7ad951/nucliadb_telemetry-3.0.3.post458-py3-none-any.whl
+[2024-04-29 12:06:38] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: Downloading https://files.pythonhosted.org/packages/0a/e1/8fffd49f91aa977ef1c420b470c9d89eb1eb0c254075421df19b4931135e/nvidia-dali-tf-plugin-weekly-cuda120-1.36.0.dev20240310.tar.gz
+[2024-04-29 12:06:38] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/22/51/8356f01c10e7ff62ff894436e0da0b4f4d96e78d07c69b32d785c65524d2/ecv-python-development-0.0.54.tar.gz
+[2024-04-29 12:06:38] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/db/90/bd85ff6dc21646a70b57541cedd6cdee048cf6eec7272ba745978a70d2dd/nucliadb_sdk-3.0.3.post459-py3-none-any.whl
+[2024-04-29 12:06:38] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/f7/dd/6a6f54eea96723cc8a84954eecc705a3d3d359343fedec05e85282591bc8/nucliadb_dataset-3.0.3.post459-py3-none-any.whl
+[2024-04-29 12:06:38] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/45/db/02d9528f8195e9a56922e5ec7db5dc27b0f0aa8b6b48147530fe03bfae7d/nucliadb_models-3.0.3.post459-py3-none-any.whl
+[2024-04-29 12:06:38] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/c1/c6/7ce2ac05586a40fde242c2bd8934b574417e2785e8a5c4ecdbeb00a6d033/nucliadb_protos-3.0.3.post459-py3-none-any.whl
+[2024-04-29 12:06:38] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/a4/7e/f8b0332eac4fbb13407d883cf93a200df544a7486c59a1d9ca5c572baa7e/nucliadb_telemetry-3.0.3.post459-py3-none-any.whl
+[2024-04-29 12:06:38] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/e9/d4/da9b624d9bb08530082739d01814206ec0ba4450edca0efeecec93fe30c4/nucliadb-3.0.3.post459-py3-none-any.whl
+[2024-04-29 12:06:38] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-04-29 12:06:38] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-3.0.3.post458-py3-none-any.whl.zip tmp/nucliadb_sdk-3.0.3.post459-py3-none-any.whl.zip --markdown 20240429/n/nucliadb-sdk/3.0.3.post458-3.0.3.post459/README.md --exclude *.pyd
+[2024-04-29 12:06:38] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-04-29 12:06:38] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-3.0.3.post458-py3-none-any.whl.zip tmp/nucliadb_dataset-3.0.3.post459-py3-none-any.whl.zip --markdown 20240429/n/nucliadb-dataset/3.0.3.post458-3.0.3.post459/README.md --exclude *.pyd
+[2024-04-29 12:06:38] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-04-29 12:06:38] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-3.0.3.post458-py3-none-any.whl.zip tmp/nucliadb_models-3.0.3.post459-py3-none-any.whl.zip --markdown 20240429/n/nucliadb-models/3.0.3.post458-3.0.3.post459/README.md --exclude *.pyd
+[2024-04-29 12:06:38] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/ae/f3/c7559f59429edf0123729e1748819b0c18e6df7cfbd62fd0764716a30d8f/ecv-python-development-0.0.55.tar.gz
+[2024-04-29 12:06:38] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-29 12:06:38] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-04-29 12:06:38] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-3.0.3.post458-py3-none-any.whl.zip tmp/nucliadb_protos-3.0.3.post459-py3-none-any.whl.zip --markdown 20240429/n/nucliadb-protos/3.0.3.post458-3.0.3.post459/README.md --exclude *.pyd
+[2024-04-29 12:06:38] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: Downloading https://files.pythonhosted.org/packages/40/bb/27a8b5842a750c3acb4ee2f492b83b740edada27ea73cf144a8b2a6c0121/nvidia_dali_tf_plugin_weekly_cuda120-1.38.0.dev20240428.tar.gz
+[2024-04-29 12:06:38] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/53/6e/bc2e8996b329c0459547989d687871830a3d17036f25d8455e66ffe3b1a8/volcengine-python-sdk-1.0.9.tar.gz
+[2024-04-29 12:06:38] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-04-29 12:06:38] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-3.0.3.post458-py3-none-any.whl.zip tmp/nucliadb_telemetry-3.0.3.post459-py3-none-any.whl.zip --markdown 20240429/n/nucliadb-telemetry/3.0.3.post458-3.0.3.post459/README.md --exclude *.pyd
+[2024-04-29 12:06:38] INFO root fetch - processPackages [ecv-python-development]: executing diffoscope
+[2024-04-29 12:06:38] INFO root fetch - processPackages [ecv-python-development]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecv-python-development-0.0.54.tar.gz tmp/ecv-python-development-0.0.55.tar.gz --markdown 20240429/e/ecv-python-development/0.0.54-0.0.55/README.md --exclude *.pyd
+[2024-04-29 12:06:38] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-04-29 12:06:38] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-3.0.3.post458-py3-none-any.whl.zip tmp/nucliadb-3.0.3.post459-py3-none-any.whl.zip --markdown 20240429/n/nucliadb/3.0.3.post458-3.0.3.post459/README.md --exclude *.pyd
+[2024-04-29 12:06:38] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: executing diffoscope
+[2024-04-29 12:06:38] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-weekly-cuda120-1.36.0.dev20240310.tar.gz tmp/nvidia_dali_tf_plugin_weekly_cuda120-1.38.0.dev20240428.tar.gz --markdown 20240429/n/nvidia-dali-tf-plugin-weekly-cuda120/1.36.0.dev20240310-1.38.0.dev20240428/README.md --exclude *.pyd
+[2024-04-29 12:06:38] INFO root fetch - processPackages [volcengine-python-sdk]: executing diffoscope
+[2024-04-29 12:06:38] INFO root fetch - processPackages [volcengine-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-python-sdk-1.0.8.tar.gz tmp/volcengine-python-sdk-1.0.9.tar.gz --markdown 20240429/v/volcengine-python-sdk/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-29 12:06:39] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-29 12:06:39] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240429/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-04-29 12:06:39] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.0.3.post458-py3-none-any.whl.zip]
+[2024-04-29 12:06:39] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.0.3.post459-py3-none-any.whl.zip]
+[2024-04-29 12:06:39] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: nucliadb-utils
+[2024-04-29 12:06:39] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-04-29 12:06:39] INFO root fetch - processPackages [nucliadb-utils]: New version: [3.0.3.post459] Old Version: [3.0.3.post458]
+[2024-04-29 12:06:39] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-weekly-cuda120-1.36.0.dev20240310.tar.gz]
+[2024-04-29 12:06:39] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_weekly_cuda120-1.38.0.dev20240428.tar.gz]
+[2024-04-29 12:06:39] INFO root fetch - processPackages [nvidia-dali-tf-plugin-weekly-cuda120]: Start processing: nvidia-dali-weekly-cuda120
+[2024-04-29 12:06:39] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-weekly-cuda120]: success
+[2024-04-29 12:06:39] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.0.3.post458-py3-none-any.whl.zip]
+[2024-04-29 12:06:39] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.0.3.post459-py3-none-any.whl.zip]
+[2024-04-29 12:06:39] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-04-29 12:06:39] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/77/4a/abbb0eb4f00bc93bf43d3ebb8fe08ecf83a9812015e1da08fc4c9db5ca06/nucliadb_utils-3.0.3.post458-py3-none-any.whl
+[2024-04-29 12:06:39] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.54.tar.gz]
+[2024-04-29 12:06:39] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.55.tar.gz]
+[2024-04-29 12:06:39] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
+[2024-04-29 12:06:39] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.0.3.post458-py3-none-any.whl.zip]
+[2024-04-29 12:06:39] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.0.3.post459-py3-none-any.whl.zip]
+[2024-04-29 12:06:39] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-04-29 12:06:39] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: New version: [1.38.0.dev20240428] Old Version: [1.36.0.dev20240310]
+[2024-04-29 12:06:39] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.0.3.post458-py3-none-any.whl.zip]
+[2024-04-29 12:06:39] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.0.3.post459-py3-none-any.whl.zip]
+[2024-04-29 12:06:39] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-04-29 12:06:39] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.0.3.post458-py3-none-any.whl.zip]
+[2024-04-29 12:06:39] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.0.3.post459-py3-none-any.whl.zip]
+[2024-04-29 12:06:39] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-04-29 12:06:40] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/34/f6/d944875b47ca940582acf7871874023af59c4a07e8cb2403b5efb42f752b/nucliadb_utils-3.0.3.post459-py3-none-any.whl
+[2024-04-29 12:06:40] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: Downloading https://files.pythonhosted.org/packages/43/85/9fd5e596cba197ddc6af1846274c199ec074eda7243b776f71555b45478d/nvidia-dali-weekly-cuda120-1.36.0.dev20240310.tar.gz
+[2024-04-29 12:06:40] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-04-29 12:06:40] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-3.0.3.post458-py3-none-any.whl.zip tmp/nucliadb_utils-3.0.3.post459-py3-none-any.whl.zip --markdown 20240429/n/nucliadb-utils/3.0.3.post458-3.0.3.post459/README.md --exclude *.pyd
+[2024-04-29 12:06:40] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-29 12:06:40] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-29 12:06:40] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-29 12:06:40] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: Downloading https://files.pythonhosted.org/packages/be/f1/a8f941c754e25b7fb2947810456041daedff1dd46df1345c191b6a32c098/nvidia_dali_weekly_cuda120-1.38.0.dev20240428.tar.gz
+[2024-04-29 12:06:40] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: executing diffoscope
+[2024-04-29 12:06:40] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-weekly-cuda120-1.36.0.dev20240310.tar.gz tmp/nvidia_dali_weekly_cuda120-1.38.0.dev20240428.tar.gz --markdown 20240429/n/nvidia-dali-weekly-cuda120/1.36.0.dev20240310-1.38.0.dev20240428/README.md --exclude *.pyd
+[2024-04-29 12:06:40] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.0.3.post458-py3-none-any.whl.zip]
+[2024-04-29 12:06:40] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.0.3.post459-py3-none-any.whl.zip]
+[2024-04-29 12:06:40] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-04-29 12:06:41] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-weekly-cuda120-1.36.0.dev20240310.tar.gz]
+[2024-04-29 12:06:41] INFO root fetch - processPackages [nvidia-dali-weekly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_weekly_cuda120-1.38.0.dev20240428.tar.gz]
+[2024-04-29 12:06:41] INFO root fetch - main [MainThread]: End processing [nvidia-dali-weekly-cuda120]: success
+[2024-04-29 12:06:41] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.0.3.post458-py3-none-any.whl.zip]
+[2024-04-29 12:06:41] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.0.3.post459-py3-none-any.whl.zip]
+[2024-04-29 12:06:41] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-04-29 12:06:46] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.8.tar.gz]
+[2024-04-29 12:06:46] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
+[2024-04-29 12:06:46] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
+[2024-04-29 12:06:46] INFO root fetch - main [MainThread]: Store serial: [22981863]
