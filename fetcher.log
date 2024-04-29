@@ -7732,3 +7732,40 @@
 [2024-04-29 06:01:27] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.6.4.tar.gz]
 [2024-04-29 06:01:27] INFO root fetch - main [MainThread]: End processing [yplib]: success
 [2024-04-29 06:01:27] INFO root fetch - main [MainThread]: Store serial: [22978515]
+[2024-04-29 06:03:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978515]
+[2024-04-29 06:03:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 06:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cpop
+[2024-04-29 06:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smtp-proxy
+[2024-04-29 06:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MeMeST
+[2024-04-29 06:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MeMeST
+[2024-04-29 06:03:35] INFO root fetch - processPackages [cpop]: New version: [35.0.7] Old Version: [35.0.6]
+[2024-04-29 06:03:35] INFO root fetch - processPackages [smtp-proxy]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-29 06:03:35] INFO root fetch - processPackages [cpop]: Downloading https://files.pythonhosted.org/packages/8c/58/f677d54b71d718cc8f0b180353dc868235dab751700c87a9250ea90b853b/cpop-35.0.6.tar.gz
+[2024-04-29 06:03:35] INFO root fetch - processPackages [smtp-proxy]: Downloading https://files.pythonhosted.org/packages/e9/c8/e263dcef3c4d04d77d03adebb132b1dc23d633363e78392123896f28bd67/smtp_proxy-0.1.4.tar.gz
+[2024-04-29 06:03:35] INFO root fetch - processPackages [MeMeST]: New version: [2024.4.9.212528] Old Version: [2024.4.9.212527]
+[2024-04-29 06:03:35] INFO root fetch - processPackages [MeMeST]: New version: [2024.4.9.212528] Old Version: [2024.4.9.212527]
+[2024-04-29 06:03:35] INFO root fetch - processPackages [cpop]: Downloading https://files.pythonhosted.org/packages/e6/38/74a6519f588a96f7176c08516591abc0c4186734606196c872ba032f47b0/cpop-35.0.7.tar.gz
+[2024-04-29 06:03:35] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/c7/f8/06a6b16a92478425f10419fced163609a359da2a317e7944daa8f7ef9d62/MeMeST-2024.4.9.212527.tar.gz
+[2024-04-29 06:03:35] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/c7/f8/06a6b16a92478425f10419fced163609a359da2a317e7944daa8f7ef9d62/MeMeST-2024.4.9.212527.tar.gz
+[2024-04-29 06:03:35] INFO root fetch - processPackages [smtp-proxy]: Downloading https://files.pythonhosted.org/packages/37/6e/21e67e4df271d06faa9d4a55d128d381269d8cacc228ca8f5985ceaf7e9b/smtp_proxy-0.1.5.tar.gz
+[2024-04-29 06:03:36] INFO root fetch - processPackages [cpop]: executing diffoscope
+[2024-04-29 06:03:36] INFO root fetch - processPackages [cpop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpop-35.0.6.tar.gz tmp/cpop-35.0.7.tar.gz --markdown 20240429/c/cpop/35.0.6-35.0.7/README.md --exclude *.pyd
+[2024-04-29 06:03:36] INFO root fetch - processPackages [smtp-proxy]: executing diffoscope
+[2024-04-29 06:03:36] INFO root fetch - processPackages [smtp-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smtp_proxy-0.1.4.tar.gz tmp/smtp_proxy-0.1.5.tar.gz --markdown 20240429/s/smtp-proxy/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-29 06:03:36] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/ba/4c/b40475a9d3097469d49458c79404aa15cc8c79a220ea3b85fc1d2b8895bc/MeMeST-2024.4.9.212528-py3-none-any.whl
+[2024-04-29 06:03:36] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/ba/4c/b40475a9d3097469d49458c79404aa15cc8c79a220ea3b85fc1d2b8895bc/MeMeST-2024.4.9.212528-py3-none-any.whl
+[2024-04-29 06:03:36] INFO root fetch - processPackages [MeMeST]: executing diffoscope
+[2024-04-29 06:03:36] INFO root fetch - processPackages [MeMeST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeMeST-2024.4.9.212527.tar.gz tmp/MeMeST-2024.4.9.212528-py3-none-any.whl.zip --markdown 20240429/M/MeMeST/2024.4.9.212527-2024.4.9.212528/README.md --exclude *.pyd
+[2024-04-29 06:03:36] INFO root fetch - processPackages [MeMeST]: executing diffoscope
+[2024-04-29 06:03:36] INFO root fetch - processPackages [MeMeST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeMeST-2024.4.9.212527.tar.gz tmp/MeMeST-2024.4.9.212528-py3-none-any.whl.zip --markdown 20240429/M/MeMeST/2024.4.9.212527-2024.4.9.212528/README.md --exclude *.pyd
+[2024-04-29 06:03:36] INFO root fetch - processPackages [smtp-proxy]: Remove: archive file [/home/abi/fetcher/tmp/smtp_proxy-0.1.4.tar.gz]
+[2024-04-29 06:03:36] INFO root fetch - processPackages [smtp-proxy]: Remove: archive file [/home/abi/fetcher/tmp/smtp_proxy-0.1.5.tar.gz]
+[2024-04-29 06:03:36] INFO root fetch - main [MainThread]: End processing [smtp-proxy]: success
+[2024-04-29 06:03:36] INFO root fetch - processPackages [cpop]: Remove: archive file [/home/abi/fetcher/tmp/cpop-35.0.6.tar.gz]
+[2024-04-29 06:03:36] INFO root fetch - processPackages [cpop]: Remove: archive file [/home/abi/fetcher/tmp/cpop-35.0.7.tar.gz]
+[2024-04-29 06:03:36] INFO root fetch - main [MainThread]: End processing [cpop]: success
+[2024-04-29 06:03:36] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-2024.4.9.212527.tar.gz]
+[2024-04-29 06:03:36] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-2024.4.9.212528-py3-none-any.whl.zip]
+[2024-04-29 06:03:37] INFO root fetch - main [MainThread]: End processing [MeMeST]: success
+[2024-04-29 06:03:37] INFO root fetch - main [MainThread]: End processing [MeMeST]: success
+[2024-04-29 06:03:37] INFO root fetch - main [MainThread]: Store serial: [22978525]
