@@ -13639,3 +13639,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 11:19:48] INFO root fetch - processPackages [nelsie]: Remove: archive file [/home/abi/fetcher/tmp/nelsie-0.7.0.tar.gz]
 [2024-04-29 11:19:48] INFO root fetch - main [MainThread]: End processing [nelsie]: success
 [2024-04-29 11:19:48] INFO root fetch - main [MainThread]: Store serial: [22981308]
+[2024-04-29 11:21:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22981308]
+[2024-04-29 11:21:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-29 11:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zato-apitest
+[2024-04-29 11:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gempy-plugins
+[2024-04-29 11:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kaikosdk
+[2024-04-29 11:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mochi-api-client
+[2024-04-29 11:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mailslurp-client
+[2024-04-29 11:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyckb
+[2024-04-29 11:21:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smtp-proxy
+[2024-04-29 11:21:57] INFO root fetch - processPackages [smtp-proxy]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-29 11:21:57] INFO root fetch - processPackages [smtp-proxy]: Downloading https://files.pythonhosted.org/packages/b2/8d/1ca520b4be756db4ecbb27e68dda48331fd9d36b05f50d2aec497efc7a98/smtp_proxy-0.1.7.tar.gz
+[2024-04-29 11:21:57] INFO root fetch - processPackages [zato-apitest]: New version: [24.1.24] Old Version: [24.1.23]
+[2024-04-29 11:21:57] INFO root fetch - processPackages [pyckb]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 11:21:57] INFO root fetch - processPackages [gempy-plugins]: New version: [2024.1.0] Old Version: [2023.2.0b1]
+[2024-04-29 11:21:57] INFO root fetch - processPackages [mochi-api-client]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-29 11:21:57] INFO root fetch - processPackages [kaikosdk]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-29 11:21:57] INFO root fetch - processPackages [mailslurp-client]: New version: [9.0.0] Old Version: [8.7.1]
+[2024-04-29 11:21:57] INFO root fetch - processPackages [zato-apitest]: Downloading https://files.pythonhosted.org/packages/c7/d6/49dd3e61d7ae040d12e0aae04a91bbf3da9d3d76daab29605a58075ee966/zato_apitest-24.1.23.tar.gz
+[2024-04-29 11:21:57] INFO root fetch - processPackages [gempy-plugins]: Downloading https://files.pythonhosted.org/packages/99/c0/144afca3eaeffc4031c63f7a628372122f0e52f3d4936cb94fa9a90d11fa/gempy_plugins-2023.2.0b1.tar.gz
+[2024-04-29 11:21:57] INFO root fetch - processPackages [kaikosdk]: Downloading https://files.pythonhosted.org/packages/12/03/10b3af4ed7c6d6045313197b51090fea63bfc02a842bf67a301ff0d403e6/kaikosdk-1.8.0.tar.gz
+[2024-04-29 11:21:57] INFO root fetch - processPackages [mochi-api-client]: Downloading https://files.pythonhosted.org/packages/14/8d/30b81943bc03fc43d05570701023567844bb8eb5044df8378fbda05bc55d/mochi-api-client-0.1.1.tar.gz
+[2024-04-29 11:21:57] INFO root fetch - processPackages [pyckb]: Downloading https://files.pythonhosted.org/packages/34/d9/1e6e6e0c0b2b699b8f18b563b9c08c37c2af6c551c4f075e01ce2350a883/pyckb-0.1.8.tar.gz
+[2024-04-29 11:21:57] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/3e/2a/b8cce2427a43d1e16d56cf7c0cb6846aa65ef693d53c602b86cc1b3e2dda/mailslurp-client-8.7.1.tar.gz
+[2024-04-29 11:21:57] INFO root fetch - processPackages [smtp-proxy]: Downloading https://files.pythonhosted.org/packages/ff/9f/4a917be276780468ef784292ef8bf5699c62eda36936fa875db6adb5ac9f/smtp_proxy-0.1.8.tar.gz
+[2024-04-29 11:21:57] INFO root fetch - processPackages [zato-apitest]: Downloading https://files.pythonhosted.org/packages/8e/99/2bb0f3f5fb5af450d11137b647db3c6e6c3f6465d999b55badb55c253811/zato_apitest-24.1.24.tar.gz
+[2024-04-29 11:21:57] INFO root fetch - processPackages [smtp-proxy]: executing diffoscope
+[2024-04-29 11:21:57] INFO root fetch - processPackages [smtp-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smtp_proxy-0.1.7.tar.gz tmp/smtp_proxy-0.1.8.tar.gz --markdown 20240429/s/smtp-proxy/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-29 11:21:57] INFO root fetch - processPackages [mochi-api-client]: Downloading https://files.pythonhosted.org/packages/25/47/e8de303109e97caf309ce599edb2644b656f7f560a5053473c8e404cb1cf/mochi-api-client-0.1.2.tar.gz
+[2024-04-29 11:21:57] INFO root fetch - processPackages [pyckb]: Downloading https://files.pythonhosted.org/packages/81/f1/5badb25531a55fb0e08289b931ac7e6617c982cad774068da7047bb267b6/pyckb-0.1.9.tar.gz
+[2024-04-29 11:21:57] INFO root fetch - processPackages [kaikosdk]: Downloading https://files.pythonhosted.org/packages/fc/da/332d78277e3d5377287735b92a4a001cc63b74dd40b10d827b5318f9115e/kaikosdk-1.9.0.tar.gz
+[2024-04-29 11:21:57] INFO root fetch - processPackages [zato-apitest]: executing diffoscope
+[2024-04-29 11:21:57] INFO root fetch - processPackages [zato-apitest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zato_apitest-24.1.23.tar.gz tmp/zato_apitest-24.1.24.tar.gz --markdown 20240429/z/zato-apitest/24.1.23-24.1.24/README.md --exclude *.pyd
+[2024-04-29 11:21:57] INFO root fetch - processPackages [gempy-plugins]: Downloading https://files.pythonhosted.org/packages/9f/e9/9a0141b1581cf1f1d1f85ebbcaa8549618d979af2495fd967d8adb05bee9/gempy_plugins-2024.1.0.tar.gz
+[2024-04-29 11:21:57] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/01/d9/2509603c731df895dbecf80066b199f2b72cb740d3900594486b1869bda3/mailslurp-client-9.0.0.tar.gz
+[2024-04-29 11:21:58] INFO root fetch - processPackages [mochi-api-client]: executing diffoscope
+[2024-04-29 11:21:58] INFO root fetch - processPackages [mochi-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mochi-api-client-0.1.1.tar.gz tmp/mochi-api-client-0.1.2.tar.gz --markdown 20240429/m/mochi-api-client/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-29 11:21:58] INFO root fetch - processPackages [kaikosdk]: executing diffoscope
+[2024-04-29 11:21:58] INFO root fetch - processPackages [kaikosdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaikosdk-1.8.0.tar.gz tmp/kaikosdk-1.9.0.tar.gz --markdown 20240429/k/kaikosdk/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-29 11:21:58] INFO root fetch - processPackages [gempy-plugins]: executing diffoscope
+[2024-04-29 11:21:58] INFO root fetch - processPackages [gempy-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gempy_plugins-2023.2.0b1.tar.gz tmp/gempy_plugins-2024.1.0.tar.gz --markdown 20240429/g/gempy-plugins/2023.2.0b1-2024.1.0/README.md --exclude *.pyd
+[2024-04-29 11:21:58] INFO root fetch - processPackages [pyckb]: executing diffoscope
+[2024-04-29 11:21:58] INFO root fetch - processPackages [pyckb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyckb-0.1.8.tar.gz tmp/pyckb-0.1.9.tar.gz --markdown 20240429/p/pyckb/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 11:21:58] INFO root fetch - processPackages [mailslurp-client]: executing diffoscope
+[2024-04-29 11:21:58] INFO root fetch - processPackages [mailslurp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailslurp-client-8.7.1.tar.gz tmp/mailslurp-client-9.0.0.tar.gz --markdown 20240429/m/mailslurp-client/8.7.1-9.0.0/README.md --exclude *.pyd
+[2024-04-29 11:21:58] INFO root fetch - processPackages [smtp-proxy]: Remove: archive file [/home/abi/fetcher/tmp/smtp_proxy-0.1.7.tar.gz]
+[2024-04-29 11:21:58] INFO root fetch - processPackages [smtp-proxy]: Remove: archive file [/home/abi/fetcher/tmp/smtp_proxy-0.1.8.tar.gz]
+[2024-04-29 11:21:58] INFO root fetch - main [MainThread]: End processing [smtp-proxy]: success
+[2024-04-29 11:21:58] INFO root fetch - processPackages [zato-apitest]: Remove: archive file [/home/abi/fetcher/tmp/zato_apitest-24.1.23.tar.gz]
+[2024-04-29 11:21:58] INFO root fetch - processPackages [zato-apitest]: Remove: archive file [/home/abi/fetcher/tmp/zato_apitest-24.1.24.tar.gz]
+[2024-04-29 11:21:58] INFO root fetch - main [MainThread]: End processing [zato-apitest]: success
+[2024-04-29 11:21:58] INFO root fetch - processPackages [mochi-api-client]: Remove: archive file [/home/abi/fetcher/tmp/mochi-api-client-0.1.1.tar.gz]
+[2024-04-29 11:21:58] INFO root fetch - processPackages [mochi-api-client]: Remove: archive file [/home/abi/fetcher/tmp/mochi-api-client-0.1.2.tar.gz]
+[2024-04-29 11:21:58] INFO root fetch - main [MainThread]: End processing [mochi-api-client]: success
+[2024-04-29 11:21:58] INFO root fetch - processPackages [kaikosdk]: Remove: archive file [/home/abi/fetcher/tmp/kaikosdk-1.8.0.tar.gz]
+[2024-04-29 11:21:58] INFO root fetch - processPackages [kaikosdk]: Remove: archive file [/home/abi/fetcher/tmp/kaikosdk-1.9.0.tar.gz]
+[2024-04-29 11:21:58] INFO root fetch - main [MainThread]: End processing [kaikosdk]: success
+[2024-04-29 11:21:58] INFO root fetch - processPackages [gempy-plugins]: Remove: archive file [/home/abi/fetcher/tmp/gempy_plugins-2023.2.0b1.tar.gz]
+[2024-04-29 11:21:58] INFO root fetch - processPackages [gempy-plugins]: Remove: archive file [/home/abi/fetcher/tmp/gempy_plugins-2024.1.0.tar.gz]
+[2024-04-29 11:21:58] INFO root fetch - main [MainThread]: End processing [gempy-plugins]: success
+[2024-04-29 11:21:58] INFO root fetch - processPackages [pyckb]: Remove: archive file [/home/abi/fetcher/tmp/pyckb-0.1.8.tar.gz]
+[2024-04-29 11:21:58] INFO root fetch - processPackages [pyckb]: Remove: archive file [/home/abi/fetcher/tmp/pyckb-0.1.9.tar.gz]
+[2024-04-29 11:21:58] INFO root fetch - main [MainThread]: End processing [pyckb]: success
+[2024-04-29 11:21:59] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-8.7.1.tar.gz]
+[2024-04-29 11:21:59] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-9.0.0.tar.gz]
+[2024-04-29 11:21:59] INFO root fetch - main [MainThread]: End processing [mailslurp-client]: success
+[2024-04-29 11:21:59] INFO root fetch - main [MainThread]: Store serial: [22981328]
