@@ -9616,3 +9616,77 @@
 [2024-04-29 08:17:26] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240428.tar.gz]
 [2024-04-29 08:17:26] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2024-04-29 08:17:26] INFO root fetch - main [MainThread]: Store serial: [22979410]
+[2024-04-29 08:19:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979410]
+[2024-04-29 08:19:44] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-29 08:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbrepo
+[2024-04-29 08:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mytot
+[2024-04-29 08:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-layui29
+[2024-04-29 08:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Quanthon
+[2024-04-29 08:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Quanthon
+[2024-04-29 08:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Quanthon
+[2024-04-29 08:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sudogang
+[2024-04-29 08:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bibleit
+[2024-04-29 08:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lytils
+[2024-04-29 08:19:44] INFO root fetch - processPackages [mytot]: New version: [2024.4.546183] Old Version: [2024.4.25.205747]
+[2024-04-29 08:19:44] INFO root fetch - processPackages [dbrepo]: New version: [1.4.3rc0] Old Version: [1.4.2rc15]
+[2024-04-29 08:19:44] INFO root fetch - processPackages [django-layui29]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-29 08:19:44] INFO root fetch - processPackages [mytot]: Downloading https://files.pythonhosted.org/packages/c3/31/17cf38519294f87781ec351a42f033916a06ea5ebdd76bc0adb6722b6cad/mytot-2024.4.25.205747-py3-none-any.whl
+[2024-04-29 08:19:44] INFO root fetch - processPackages [Quanthon]: New version: [0.3.6.6] Old Version: [0.3.6.5]
+[2024-04-29 08:19:44] INFO root fetch - processPackages [Quanthon]: New version: [0.3.6.6] Old Version: [0.3.6.5]
+[2024-04-29 08:19:44] INFO root fetch - processPackages [Quanthon]: New version: [0.3.6.6] Old Version: [0.3.6.5]
+[2024-04-29 08:19:44] INFO root fetch - processPackages [lytils]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-29 08:19:44] WARNING root fetch - processPackages [sudogang]: Skipping, unable to determine old version
+[2024-04-29 08:19:44] INFO root fetch - main [MainThread]: End processing [sudogang] error
+[2024-04-29 08:19:44] INFO root fetch - processPackages [bibleit]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 08:19:44] INFO root fetch - processPackages [django-layui29]: Downloading https://files.pythonhosted.org/packages/e5/ce/e242cc406d02940110edabe14c452698480b9d70c44603f9dc8cec7b8ec7/django_layui29-0.3.0.tar.gz
+[2024-04-29 08:19:44] INFO root fetch - processPackages [dbrepo]: Downloading https://files.pythonhosted.org/packages/c0/18/b96af27b2120d69c4de4b2b81c51bdd6b6aee737156346ac1bb4ec6dd97b/dbrepo-1.4.2rc15.tar.gz
+[2024-04-29 08:19:45] INFO root fetch - processPackages [Quanthon]: Downloading https://files.pythonhosted.org/packages/25/b9/92ba6145fdb0fb773e57664b705bbb4d4b1a6d8fee096f1c1e13dd6d0aa7/quanthon-0.3.6.5.tar.gz
+[2024-04-29 08:19:45] INFO root fetch - processPackages [Quanthon]: Downloading https://files.pythonhosted.org/packages/25/b9/92ba6145fdb0fb773e57664b705bbb4d4b1a6d8fee096f1c1e13dd6d0aa7/quanthon-0.3.6.5.tar.gz
+[2024-04-29 08:19:45] INFO root fetch - processPackages [mytot]: Downloading https://files.pythonhosted.org/packages/c3/62/d65ce018162ff5b9f213d4a64531ff1faa5d2cbad9b3988bfa676f731475/mytot-2024.4.546183-py3-none-any.whl
+[2024-04-29 08:19:45] INFO root fetch - processPackages [Quanthon]: Downloading https://files.pythonhosted.org/packages/25/b9/92ba6145fdb0fb773e57664b705bbb4d4b1a6d8fee096f1c1e13dd6d0aa7/quanthon-0.3.6.5.tar.gz
+[2024-04-29 08:19:45] INFO root fetch - processPackages [lytils]: Downloading https://files.pythonhosted.org/packages/f9/d8/f6bd4df528bd6f70421e3e4a476ef037756175e5478f1f8af2bc18600f25/lytils-0.1.3.tar.gz
+[2024-04-29 08:19:45] INFO root fetch - processPackages [bibleit]: Downloading https://files.pythonhosted.org/packages/46/67/1c4081b5ffc00608bcf294305b347654cc44bf04151037a6b5f06cd5ba25/bibleit-0.0.8.tar.gz
+[2024-04-29 08:19:45] INFO root fetch - processPackages [dbrepo]: Downloading https://files.pythonhosted.org/packages/4b/83/ee8539b4a304d3c80f50d882b75bc1d253e865f7fc491044e95e6228d994/dbrepo-1.4.3rc0.tar.gz
+[2024-04-29 08:19:45] INFO root fetch - processPackages [django-layui29]: Downloading https://files.pythonhosted.org/packages/b5/be/e1f866490dbe449e5e94ddcd8aec3e3f9e6a59da94d730ca9035d668ac72/django_layui29-0.4.0.tar.gz
+[2024-04-29 08:19:45] INFO root fetch - processPackages [mytot]: executing diffoscope
+[2024-04-29 08:19:45] INFO root fetch - processPackages [mytot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mytot-2024.4.25.205747-py3-none-any.whl.zip tmp/mytot-2024.4.546183-py3-none-any.whl.zip --markdown 20240429/m/mytot/2024.4.25.205747-2024.4.546183/README.md --exclude *.pyd
+[2024-04-29 08:19:45] INFO root fetch - processPackages [dbrepo]: executing diffoscope
+[2024-04-29 08:19:45] INFO root fetch - processPackages [dbrepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbrepo-1.4.2rc15.tar.gz tmp/dbrepo-1.4.3rc0.tar.gz --markdown 20240429/d/dbrepo/1.4.2rc15-1.4.3rc0/README.md --exclude *.pyd
+[2024-04-29 08:19:45] INFO root fetch - processPackages [django-layui29]: executing diffoscope
+[2024-04-29 08:19:45] INFO root fetch - processPackages [django-layui29]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_layui29-0.3.0.tar.gz tmp/django_layui29-0.4.0.tar.gz --markdown 20240429/d/django-layui29/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-29 08:19:45] INFO root fetch - processPackages [lytils]: Downloading https://files.pythonhosted.org/packages/1c/e4/caa7ea50f131f6e15b562a2f8e7440bef8230d0f12c8aa67721e6e9c3874/lytils-0.1.4.tar.gz
+[2024-04-29 08:19:45] INFO root fetch - processPackages [Quanthon]: Downloading https://files.pythonhosted.org/packages/2d/da/bc47ac11de6d55d4f1c63fadfb01d763339a9b0fe49d6cc6bccec558f9c3/quanthon-0.3.6.6.tar.gz
+[2024-04-29 08:19:45] INFO root fetch - processPackages [Quanthon]: Downloading https://files.pythonhosted.org/packages/2d/da/bc47ac11de6d55d4f1c63fadfb01d763339a9b0fe49d6cc6bccec558f9c3/quanthon-0.3.6.6.tar.gz
+[2024-04-29 08:19:45] INFO root fetch - processPackages [Quanthon]: Downloading https://files.pythonhosted.org/packages/2d/da/bc47ac11de6d55d4f1c63fadfb01d763339a9b0fe49d6cc6bccec558f9c3/quanthon-0.3.6.6.tar.gz
+[2024-04-29 08:19:45] INFO root fetch - processPackages [lytils]: executing diffoscope
+[2024-04-29 08:19:45] INFO root fetch - processPackages [lytils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lytils-0.1.3.tar.gz tmp/lytils-0.1.4.tar.gz --markdown 20240429/l/lytils/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-29 08:19:45] INFO root fetch - processPackages [Quanthon]: executing diffoscope
+[2024-04-29 08:19:45] INFO root fetch - processPackages [Quanthon]: executing diffoscope
+[2024-04-29 08:19:45] INFO root fetch - processPackages [Quanthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quanthon-0.3.6.5.tar.gz tmp/quanthon-0.3.6.6.tar.gz --markdown 20240429/Q/Quanthon/0.3.6.5-0.3.6.6/README.md --exclude *.pyd
+[2024-04-29 08:19:45] INFO root fetch - processPackages [Quanthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quanthon-0.3.6.5.tar.gz tmp/quanthon-0.3.6.6.tar.gz --markdown 20240429/Q/Quanthon/0.3.6.5-0.3.6.6/README.md --exclude *.pyd
+[2024-04-29 08:19:45] INFO root fetch - processPackages [Quanthon]: executing diffoscope
+[2024-04-29 08:19:45] INFO root fetch - processPackages [Quanthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quanthon-0.3.6.5.tar.gz tmp/quanthon-0.3.6.6.tar.gz --markdown 20240429/Q/Quanthon/0.3.6.5-0.3.6.6/README.md --exclude *.pyd
+[2024-04-29 08:19:45] INFO root fetch - processPackages [bibleit]: Downloading https://files.pythonhosted.org/packages/48/a2/403182399a047ed6f5ea0175511bae62c223f1efb278739f73b2f82272fa/bibleit-0.0.9.tar.gz
+[2024-04-29 08:19:46] INFO root fetch - processPackages [django-layui29]: Remove: archive file [/home/abi/fetcher/tmp/django_layui29-0.3.0.tar.gz]
+[2024-04-29 08:19:46] INFO root fetch - processPackages [django-layui29]: Remove: archive file [/home/abi/fetcher/tmp/django_layui29-0.4.0.tar.gz]
+[2024-04-29 08:19:46] INFO root fetch - main [MainThread]: End processing [django-layui29]: success
+[2024-04-29 08:19:46] INFO root fetch - processPackages [mytot]: Remove: archive file [/home/abi/fetcher/tmp/mytot-2024.4.25.205747-py3-none-any.whl.zip]
+[2024-04-29 08:19:46] INFO root fetch - processPackages [mytot]: Remove: archive file [/home/abi/fetcher/tmp/mytot-2024.4.546183-py3-none-any.whl.zip]
+[2024-04-29 08:19:46] INFO root fetch - main [MainThread]: End processing [mytot]: success
+[2024-04-29 08:19:46] INFO root fetch - processPackages [dbrepo]: Remove: archive file [/home/abi/fetcher/tmp/dbrepo-1.4.2rc15.tar.gz]
+[2024-04-29 08:19:46] INFO root fetch - processPackages [dbrepo]: Remove: archive file [/home/abi/fetcher/tmp/dbrepo-1.4.3rc0.tar.gz]
+[2024-04-29 08:19:46] INFO root fetch - main [MainThread]: End processing [dbrepo]: success
+[2024-04-29 08:19:46] INFO root fetch - processPackages [bibleit]: executing diffoscope
+[2024-04-29 08:19:46] INFO root fetch - processPackages [bibleit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bibleit-0.0.8.tar.gz tmp/bibleit-0.0.9.tar.gz --markdown 20240429/b/bibleit/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 08:19:46] INFO root fetch - processPackages [Quanthon]: Remove: archive file [/home/abi/fetcher/tmp/quanthon-0.3.6.5.tar.gz]
+[2024-04-29 08:19:46] INFO root fetch - processPackages [Quanthon]: Remove: archive file [/home/abi/fetcher/tmp/quanthon-0.3.6.6.tar.gz]
+[2024-04-29 08:19:46] INFO root fetch - main [MainThread]: End processing [Quanthon]: success
+[2024-04-29 08:19:46] INFO root fetch - main [MainThread]: End processing [Quanthon]: success
+[2024-04-29 08:19:46] INFO root fetch - main [MainThread]: End processing [Quanthon]: success
+[2024-04-29 08:19:46] INFO root fetch - processPackages [lytils]: Remove: archive file [/home/abi/fetcher/tmp/lytils-0.1.3.tar.gz]
+[2024-04-29 08:19:46] INFO root fetch - processPackages [lytils]: Remove: archive file [/home/abi/fetcher/tmp/lytils-0.1.4.tar.gz]
+[2024-04-29 08:19:46] INFO root fetch - main [MainThread]: End processing [lytils]: success
+[2024-04-29 08:19:47] INFO root fetch - processPackages [bibleit]: Remove: archive file [/home/abi/fetcher/tmp/bibleit-0.0.8.tar.gz]
+[2024-04-29 08:19:47] INFO root fetch - processPackages [bibleit]: Remove: archive file [/home/abi/fetcher/tmp/bibleit-0.0.9.tar.gz]
+[2024-04-29 08:19:47] INFO root fetch - main [MainThread]: End processing [bibleit]: success
+[2024-04-29 08:19:47] INFO root fetch - main [MainThread]: Store serial: [22979438]
