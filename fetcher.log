@@ -19688,3 +19688,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 14:55:04] INFO root fetch - processPackages [medium-to-markdown-py]: Remove: archive file [/home/abi/fetcher/tmp/medium_to_markdown_py-1.1.0.tar.gz]
 [2024-04-29 14:55:04] INFO root fetch - main [MainThread]: End processing [medium-to-markdown-py]: success
 [2024-04-29 14:55:04] INFO root fetch - main [MainThread]: Store serial: [22983708]
+[2024-04-29 14:57:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22983708]
+[2024-04-29 14:57:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-29 14:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qosst
+[2024-04-29 14:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: medium-to-markdown-py
+[2024-04-29 14:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qnngds
+[2024-04-29 14:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opsci-toolbox
+[2024-04-29 14:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: droid-metapatch
+[2024-04-29 14:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: breeze-connect
+[2024-04-29 14:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MLB-StatsAPI
+[2024-04-29 14:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scalegen-cli
+[2024-04-29 14:57:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: exponent-server-sdk-async
+[2024-04-29 14:57:13] INFO root fetch - processPackages [medium-to-markdown-py]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-29 14:57:13] WARNING root fetch - processPackages [opsci-toolbox]: Skipping, unable to determine old version
+[2024-04-29 14:57:13] INFO root fetch - processPackages [droid-metapatch]: New version: [2.0.0] Old Version: [1.2.0]
+[2024-04-29 14:57:13] INFO root fetch - main [MainThread]: End processing [opsci-toolbox] error
+[2024-04-29 14:57:13] WARNING root fetch - processPackages [exponent-server-sdk-async]: Skipping, unable to determine old version
+[2024-04-29 14:57:13] INFO root fetch - main [MainThread]: End processing [exponent-server-sdk-async] error
+[2024-04-29 14:57:13] WARNING root fetch - processPackages [qosst]: Skipping, unable to determine old version
+[2024-04-29 14:57:13] INFO root fetch - main [MainThread]: End processing [qosst] error
+[2024-04-29 14:57:13] INFO root fetch - processPackages [scalegen-cli]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-29 14:57:13] INFO root fetch - processPackages [qnngds]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-04-29 14:57:13] INFO root fetch - processPackages [scalegen-cli]: Downloading https://files.pythonhosted.org/packages/8b/b2/e40cc1a8fbd4d329752f11f01ee6cef2c13a4759060498f2820e782b4e36/scalegen-cli-0.0.3.tar.gz
+[2024-04-29 14:57:13] INFO root fetch - processPackages [medium-to-markdown-py]: Downloading https://files.pythonhosted.org/packages/d3/6b/5166ed2da78b614a9745f91ebae66b352645994acd02c6a9a50ccca6ad38/medium_to_markdown_py-1.1.0.tar.gz
+[2024-04-29 14:57:13] INFO root fetch - processPackages [MLB-StatsAPI]: New version: [1.7.2] Old Version: [1.7.1]
+[2024-04-29 14:57:13] INFO root fetch - processPackages [breeze-connect]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-29 14:57:13] INFO root fetch - processPackages [qnngds]: Downloading https://files.pythonhosted.org/packages/be/82/93188f07b003673b89830a2e7590426e66938ccd69ca33dae44b2fd28907/qnngds-2.1.1.tar.gz
+[2024-04-29 14:57:13] INFO root fetch - processPackages [droid-metapatch]: Downloading https://files.pythonhosted.org/packages/2c/4e/c733051b8b9f6dc27fd29cb1c6b33c37e01447243d2f4a5e3da31711c17f/droid_metapatch-1.2.0.tar.gz
+[2024-04-29 14:57:13] INFO root fetch - processPackages [breeze-connect]: Downloading https://files.pythonhosted.org/packages/eb/38/10bd4db4bbc0b15976ae792c12746686d284a9fc380eb2e473a18c8cf40a/breeze_connect-1.0.8.tar.gz
+[2024-04-29 14:57:13] INFO root fetch - processPackages [scalegen-cli]: Downloading https://files.pythonhosted.org/packages/15/23/b20a0ac2a6f3b1500ec9384250f6fb1493f55b4336660f0ed39e8f00b49f/scalegen-cli-0.0.4.tar.gz
+[2024-04-29 14:57:13] INFO root fetch - processPackages [MLB-StatsAPI]: Downloading https://files.pythonhosted.org/packages/74/ca/46f598502bab119c0517a2b3127acd5858a3272d2831e40abfcc6984812d/MLB-StatsAPI-1.7.1.tar.gz
+[2024-04-29 14:57:13] INFO root fetch - processPackages [qnngds]: Downloading https://files.pythonhosted.org/packages/f9/ba/66dec79df6a582524d30d2de22e25c31b1360584cec84c367c39a353834d/qnngds-2.1.2.tar.gz
+[2024-04-29 14:57:13] INFO root fetch - processPackages [droid-metapatch]: Downloading https://files.pythonhosted.org/packages/a8/06/3aa1ee6f054ac269c82dd723cddef55a56e82c2090f0dadd22ca17238aad/droid_metapatch-2.0.0.tar.gz
+[2024-04-29 14:57:13] INFO root fetch - processPackages [medium-to-markdown-py]: Downloading https://files.pythonhosted.org/packages/09/45/52a46778bdf3c6aeb0e19d4d9598e3ef612433c439fb8e39cee959a69f0f/medium_to_markdown_py-1.1.1.tar.gz
+[2024-04-29 14:57:13] INFO root fetch - processPackages [scalegen-cli]: executing diffoscope
+[2024-04-29 14:57:13] INFO root fetch - processPackages [scalegen-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalegen-cli-0.0.3.tar.gz tmp/scalegen-cli-0.0.4.tar.gz --markdown 20240429/s/scalegen-cli/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-29 14:57:13] INFO root fetch - processPackages [qnngds]: executing diffoscope
+[2024-04-29 14:57:13] INFO root fetch - processPackages [qnngds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qnngds-2.1.1.tar.gz tmp/qnngds-2.1.2.tar.gz --markdown 20240429/q/qnngds/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-04-29 14:57:14] INFO root fetch - processPackages [medium-to-markdown-py]: executing diffoscope
+[2024-04-29 14:57:14] INFO root fetch - processPackages [medium-to-markdown-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medium_to_markdown_py-1.1.0.tar.gz tmp/medium_to_markdown_py-1.1.1.tar.gz --markdown 20240429/m/medium-to-markdown-py/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-29 14:57:14] INFO root fetch - processPackages [droid-metapatch]: executing diffoscope
+[2024-04-29 14:57:14] INFO root fetch - processPackages [droid-metapatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/droid_metapatch-1.2.0.tar.gz tmp/droid_metapatch-2.0.0.tar.gz --markdown 20240429/d/droid-metapatch/1.2.0-2.0.0/README.md --exclude *.pyd
+[2024-04-29 14:57:14] INFO root fetch - processPackages [breeze-connect]: Downloading https://files.pythonhosted.org/packages/4c/42/710b1f5e8f9fd52127641623d4bd1c641247bcf346c97a3bb5c022588e32/breeze_connect-1.0.9.tar.gz
+[2024-04-29 14:57:14] INFO root fetch - processPackages [MLB-StatsAPI]: Downloading https://files.pythonhosted.org/packages/d1/f9/039e0680958fe043f137e5820c5043bcc6da9e4b5bf52734616f3f46ab81/mlb_statsapi-1.7.2.tar.gz
+[2024-04-29 14:57:14] INFO root fetch - processPackages [breeze-connect]: executing diffoscope
+[2024-04-29 14:57:14] INFO root fetch - processPackages [breeze-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breeze_connect-1.0.8.tar.gz tmp/breeze_connect-1.0.9.tar.gz --markdown 20240429/b/breeze-connect/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-29 14:57:14] INFO root fetch - processPackages [MLB-StatsAPI]: executing diffoscope
+[2024-04-29 14:57:14] INFO root fetch - processPackages [MLB-StatsAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLB-StatsAPI-1.7.1.tar.gz tmp/mlb_statsapi-1.7.2.tar.gz --markdown 20240429/M/MLB-StatsAPI/1.7.1-1.7.2/README.md --exclude *.pyd
+[2024-04-29 14:57:14] INFO root fetch - processPackages [droid-metapatch]: Remove: archive file [/home/abi/fetcher/tmp/droid_metapatch-1.2.0.tar.gz]
+[2024-04-29 14:57:14] INFO root fetch - processPackages [droid-metapatch]: Remove: archive file [/home/abi/fetcher/tmp/droid_metapatch-2.0.0.tar.gz]
+[2024-04-29 14:57:14] INFO root fetch - main [MainThread]: End processing [droid-metapatch]: success
+[2024-04-29 14:57:14] INFO root fetch - processPackages [qnngds]: Remove: archive file [/home/abi/fetcher/tmp/qnngds-2.1.1.tar.gz]
+[2024-04-29 14:57:14] INFO root fetch - processPackages [qnngds]: Remove: archive file [/home/abi/fetcher/tmp/qnngds-2.1.2.tar.gz]
+[2024-04-29 14:57:14] INFO root fetch - main [MainThread]: End processing [qnngds]: success
+[2024-04-29 14:57:14] INFO root fetch - processPackages [medium-to-markdown-py]: Remove: archive file [/home/abi/fetcher/tmp/medium_to_markdown_py-1.1.0.tar.gz]
+[2024-04-29 14:57:14] INFO root fetch - processPackages [medium-to-markdown-py]: Remove: archive file [/home/abi/fetcher/tmp/medium_to_markdown_py-1.1.1.tar.gz]
+[2024-04-29 14:57:14] INFO root fetch - main [MainThread]: End processing [medium-to-markdown-py]: success
+[2024-04-29 14:57:14] INFO root fetch - processPackages [breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/breeze_connect-1.0.8.tar.gz]
+[2024-04-29 14:57:14] INFO root fetch - processPackages [breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/breeze_connect-1.0.9.tar.gz]
+[2024-04-29 14:57:14] INFO root fetch - main [MainThread]: End processing [breeze-connect]: success
+[2024-04-29 14:57:14] INFO root fetch - processPackages [scalegen-cli]: Remove: archive file [/home/abi/fetcher/tmp/scalegen-cli-0.0.3.tar.gz]
+[2024-04-29 14:57:14] INFO root fetch - processPackages [scalegen-cli]: Remove: archive file [/home/abi/fetcher/tmp/scalegen-cli-0.0.4.tar.gz]
+[2024-04-29 14:57:14] INFO root fetch - main [MainThread]: End processing [scalegen-cli]: success
+[2024-04-29 14:57:15] INFO root fetch - processPackages [MLB-StatsAPI]: Remove: archive file [/home/abi/fetcher/tmp/MLB-StatsAPI-1.7.1.tar.gz]
+[2024-04-29 14:57:15] INFO root fetch - processPackages [MLB-StatsAPI]: Remove: archive file [/home/abi/fetcher/tmp/mlb_statsapi-1.7.2.tar.gz]
+[2024-04-29 14:57:15] INFO root fetch - main [MainThread]: End processing [MLB-StatsAPI]: success
+[2024-04-29 14:57:15] INFO root fetch - main [MainThread]: Store serial: [22983740]
