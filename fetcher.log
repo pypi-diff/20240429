@@ -8468,3 +8468,33 @@
 [2024-04-29 06:57:52] INFO root fetch - processPackages [gage]: Remove: archive file [/home/abi/fetcher/tmp/gage-0.1.1-py3-none-any.whl.zip]
 [2024-04-29 06:57:52] INFO root fetch - main [MainThread]: End processing [gage]: success
 [2024-04-29 06:57:52] INFO root fetch - main [MainThread]: Store serial: [22978835]
+[2024-04-29 06:59:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978835]
+[2024-04-29 07:00:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 07:00:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: relic-engine
+[2024-04-29 07:00:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowmancer
+[2024-04-29 07:00:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mytot
+[2024-04-29 07:00:02] INFO root fetch - processPackages [flowmancer]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-29 07:00:02] INFO root fetch - processPackages [flowmancer]: Downloading https://files.pythonhosted.org/packages/16/67/dc7e0f71395efdfa833d75db9c3cea1581c7472b0d0486c81d58b8a867af/flowmancer-0.9.4.tar.gz
+[2024-04-29 07:00:02] INFO root fetch - processPackages [mytot]: New version: [2024.4.546183] Old Version: [2024.4.25.205747]
+[2024-04-29 07:00:02] INFO root fetch - processPackages [relic-engine]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-29 07:00:02] INFO root fetch - processPackages [relic-engine]: Downloading https://files.pythonhosted.org/packages/88/f6/a2f593a55baa22d264c055c96453a2674728f7f5ae615e867e999426c328/relic_engine-0.2.8.tar.gz
+[2024-04-29 07:00:02] INFO root fetch - processPackages [mytot]: Downloading https://files.pythonhosted.org/packages/c3/31/17cf38519294f87781ec351a42f033916a06ea5ebdd76bc0adb6722b6cad/mytot-2024.4.25.205747-py3-none-any.whl
+[2024-04-29 07:00:02] INFO root fetch - processPackages [flowmancer]: Downloading https://files.pythonhosted.org/packages/6c/70/08dbb431bf20c50c0cc8980f264315b9ee83779e5be507e72b668ea0d341/flowmancer-0.9.5.tar.gz
+[2024-04-29 07:00:02] INFO root fetch - processPackages [flowmancer]: executing diffoscope
+[2024-04-29 07:00:02] INFO root fetch - processPackages [flowmancer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmancer-0.9.4.tar.gz tmp/flowmancer-0.9.5.tar.gz --markdown 20240429/f/flowmancer/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-29 07:00:03] INFO root fetch - processPackages [relic-engine]: Downloading https://files.pythonhosted.org/packages/a0/26/f266fcdc6d452a45f4a39fa14068221c51441b1c8a4c3146883c3da61164/relic_engine-0.2.9.tar.gz
+[2024-04-29 07:00:03] INFO root fetch - processPackages [mytot]: Downloading https://files.pythonhosted.org/packages/c3/62/d65ce018162ff5b9f213d4a64531ff1faa5d2cbad9b3988bfa676f731475/mytot-2024.4.546183-py3-none-any.whl
+[2024-04-29 07:00:03] INFO root fetch - processPackages [relic-engine]: executing diffoscope
+[2024-04-29 07:00:03] INFO root fetch - processPackages [relic-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relic_engine-0.2.8.tar.gz tmp/relic_engine-0.2.9.tar.gz --markdown 20240429/r/relic-engine/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-29 07:00:03] INFO root fetch - processPackages [mytot]: executing diffoscope
+[2024-04-29 07:00:03] INFO root fetch - processPackages [mytot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mytot-2024.4.25.205747-py3-none-any.whl.zip tmp/mytot-2024.4.546183-py3-none-any.whl.zip --markdown 20240429/m/mytot/2024.4.25.205747-2024.4.546183/README.md --exclude *.pyd
+[2024-04-29 07:00:03] INFO root fetch - processPackages [flowmancer]: Remove: archive file [/home/abi/fetcher/tmp/flowmancer-0.9.4.tar.gz]
+[2024-04-29 07:00:03] INFO root fetch - processPackages [flowmancer]: Remove: archive file [/home/abi/fetcher/tmp/flowmancer-0.9.5.tar.gz]
+[2024-04-29 07:00:03] INFO root fetch - main [MainThread]: End processing [flowmancer]: success
+[2024-04-29 07:00:03] INFO root fetch - processPackages [mytot]: Remove: archive file [/home/abi/fetcher/tmp/mytot-2024.4.25.205747-py3-none-any.whl.zip]
+[2024-04-29 07:00:03] INFO root fetch - processPackages [mytot]: Remove: archive file [/home/abi/fetcher/tmp/mytot-2024.4.546183-py3-none-any.whl.zip]
+[2024-04-29 07:00:03] INFO root fetch - main [MainThread]: End processing [mytot]: success
+[2024-04-29 07:00:03] INFO root fetch - processPackages [relic-engine]: Remove: archive file [/home/abi/fetcher/tmp/relic_engine-0.2.8.tar.gz]
+[2024-04-29 07:00:03] INFO root fetch - processPackages [relic-engine]: Remove: archive file [/home/abi/fetcher/tmp/relic_engine-0.2.9.tar.gz]
+[2024-04-29 07:00:03] INFO root fetch - main [MainThread]: End processing [relic-engine]: success
+[2024-04-29 07:00:03] INFO root fetch - main [MainThread]: Store serial: [22978845]
