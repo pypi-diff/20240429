@@ -14170,3 +14170,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 11:39:31] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2024-04-29 11:39:32] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2024-04-29 11:39:32] INFO root fetch - main [MainThread]: Store serial: [22981522]
+[2024-04-29 11:41:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22981522]
+[2024-04-29 11:41:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-29 11:41:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-sdk
+[2024-04-29 11:41:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-sdk
+[2024-04-29 11:41:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-telemetry
+[2024-04-29 11:41:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-telemetry
+[2024-04-29 11:41:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-utils
+[2024-04-29 11:41:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-utils
+[2024-04-29 11:41:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: asyncz
+[2024-04-29 11:41:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: niamoto
+[2024-04-29 11:41:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chocolate_app
+[2024-04-29 11:41:41] INFO root fetch - processPackages [asyncz]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-29 11:41:41] INFO root fetch - processPackages [niamoto]: New version: [0.0.2a1] Old Version: [0.0.1a2]
+[2024-04-29 11:41:41] INFO root fetch - processPackages [chocolate_app]: New version: [8.0.0] Old Version: [7.1.9]
+[2024-04-29 11:41:41] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [3.0.3.post459] Old Version: [3.0.3.post458]
+[2024-04-29 11:41:41] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [3.0.3.post459] Old Version: [3.0.3.post458]
+[2024-04-29 11:41:41] INFO root fetch - processPackages [nucliadb-utils]: New version: [3.0.3.post459] Old Version: [3.0.3.post458]
+[2024-04-29 11:41:41] INFO root fetch - processPackages [nucliadb-sdk]: New version: [3.0.3.post459] Old Version: [3.0.3.post458]
+[2024-04-29 11:41:41] INFO root fetch - processPackages [nucliadb-sdk]: New version: [3.0.3.post459] Old Version: [3.0.3.post458]
+[2024-04-29 11:41:41] INFO root fetch - processPackages [nucliadb-utils]: New version: [3.0.3.post459] Old Version: [3.0.3.post458]
+[2024-04-29 11:41:41] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/19/b4/9bfee9b6be20000659a291abc54cc493f9811a1d9c30298787a78a7ad951/nucliadb_telemetry-3.0.3.post458-py3-none-any.whl
+[2024-04-29 11:41:41] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/19/b4/9bfee9b6be20000659a291abc54cc493f9811a1d9c30298787a78a7ad951/nucliadb_telemetry-3.0.3.post458-py3-none-any.whl
+[2024-04-29 11:41:41] INFO root fetch - processPackages [asyncz]: Downloading https://files.pythonhosted.org/packages/5d/36/23fa3555a89b554ed6533d44ac438a5a1c574d8ca698b58ed5150d034be3/asyncz-0.5.0.tar.gz
+[2024-04-29 11:41:41] INFO root fetch - processPackages [niamoto]: Downloading https://files.pythonhosted.org/packages/14/59/b74592c872fe18eff142096eec08d8b8743ded3b92019948edebaff0327b/niamoto-0.0.1a2.tar.gz
+[2024-04-29 11:41:41] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/77/4a/abbb0eb4f00bc93bf43d3ebb8fe08ecf83a9812015e1da08fc4c9db5ca06/nucliadb_utils-3.0.3.post458-py3-none-any.whl
+[2024-04-29 11:41:41] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/77/4a/abbb0eb4f00bc93bf43d3ebb8fe08ecf83a9812015e1da08fc4c9db5ca06/nucliadb_utils-3.0.3.post458-py3-none-any.whl
+[2024-04-29 11:41:41] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/c1/32/bbffdca51968b83a458bec9c2eefd5724b840c463c81e13e7c497d6e818e/nucliadb_sdk-3.0.3.post458-py3-none-any.whl
+[2024-04-29 11:41:41] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/c1/32/bbffdca51968b83a458bec9c2eefd5724b840c463c81e13e7c497d6e818e/nucliadb_sdk-3.0.3.post458-py3-none-any.whl
+[2024-04-29 11:41:41] INFO root fetch - processPackages [chocolate_app]: Downloading https://files.pythonhosted.org/packages/ca/75/6665e9ffa2914ddf1349e444d009063232f9a594b31d8856639951dc1588/chocolate_app-7.1.9.tar.gz
+[2024-04-29 11:41:41] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/a4/7e/f8b0332eac4fbb13407d883cf93a200df544a7486c59a1d9ca5c572baa7e/nucliadb_telemetry-3.0.3.post459-py3-none-any.whl
+[2024-04-29 11:41:41] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/a4/7e/f8b0332eac4fbb13407d883cf93a200df544a7486c59a1d9ca5c572baa7e/nucliadb_telemetry-3.0.3.post459-py3-none-any.whl
+[2024-04-29 11:41:41] INFO root fetch - processPackages [asyncz]: Downloading https://files.pythonhosted.org/packages/bc/b4/69c68814c3b23ca1a50040e28d4764cbc4111d1b444695a6ce0d153aa67f/asyncz-0.6.0.tar.gz
+[2024-04-29 11:41:41] INFO root fetch - processPackages [niamoto]: Downloading https://files.pythonhosted.org/packages/32/b3/c47e6bf0c1b4f6b3314cd67feb8981b361a240428aa96808ee89c7a39ecc/niamoto-0.0.2a1.tar.gz
+[2024-04-29 11:41:41] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/34/f6/d944875b47ca940582acf7871874023af59c4a07e8cb2403b5efb42f752b/nucliadb_utils-3.0.3.post459-py3-none-any.whl
+[2024-04-29 11:41:41] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/34/f6/d944875b47ca940582acf7871874023af59c4a07e8cb2403b5efb42f752b/nucliadb_utils-3.0.3.post459-py3-none-any.whl
+[2024-04-29 11:41:41] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/db/90/bd85ff6dc21646a70b57541cedd6cdee048cf6eec7272ba745978a70d2dd/nucliadb_sdk-3.0.3.post459-py3-none-any.whl
+[2024-04-29 11:41:41] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/db/90/bd85ff6dc21646a70b57541cedd6cdee048cf6eec7272ba745978a70d2dd/nucliadb_sdk-3.0.3.post459-py3-none-any.whl
+[2024-04-29 11:41:41] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-04-29 11:41:41] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-3.0.3.post458-py3-none-any.whl.zip tmp/nucliadb_telemetry-3.0.3.post459-py3-none-any.whl.zip --markdown 20240429/n/nucliadb-telemetry/3.0.3.post458-3.0.3.post459/README.md --exclude *.pyd
+[2024-04-29 11:41:41] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-04-29 11:41:41] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-3.0.3.post458-py3-none-any.whl.zip tmp/nucliadb_telemetry-3.0.3.post459-py3-none-any.whl.zip --markdown 20240429/n/nucliadb-telemetry/3.0.3.post458-3.0.3.post459/README.md --exclude *.pyd
+[2024-04-29 11:41:41] INFO root fetch - processPackages [asyncz]: executing diffoscope
+[2024-04-29 11:41:41] INFO root fetch - processPackages [asyncz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncz-0.5.0.tar.gz tmp/asyncz-0.6.0.tar.gz --markdown 20240429/a/asyncz/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-29 11:41:41] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-04-29 11:41:41] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-3.0.3.post458-py3-none-any.whl.zip tmp/nucliadb_utils-3.0.3.post459-py3-none-any.whl.zip --markdown 20240429/n/nucliadb-utils/3.0.3.post458-3.0.3.post459/README.md --exclude *.pyd
+[2024-04-29 11:41:42] INFO root fetch - processPackages [niamoto]: executing diffoscope
+[2024-04-29 11:41:42] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-04-29 11:41:42] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-3.0.3.post458-py3-none-any.whl.zip tmp/nucliadb_utils-3.0.3.post459-py3-none-any.whl.zip --markdown 20240429/n/nucliadb-utils/3.0.3.post458-3.0.3.post459/README.md --exclude *.pyd
+[2024-04-29 11:41:42] INFO root fetch - processPackages [niamoto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niamoto-0.0.1a2.tar.gz tmp/niamoto-0.0.2a1.tar.gz --markdown 20240429/n/niamoto/0.0.1a2-0.0.2a1/README.md --exclude *.pyd
+[2024-04-29 11:41:42] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-04-29 11:41:42] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-3.0.3.post458-py3-none-any.whl.zip tmp/nucliadb_sdk-3.0.3.post459-py3-none-any.whl.zip --markdown 20240429/n/nucliadb-sdk/3.0.3.post458-3.0.3.post459/README.md --exclude *.pyd
+[2024-04-29 11:41:42] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-04-29 11:41:42] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-3.0.3.post458-py3-none-any.whl.zip tmp/nucliadb_sdk-3.0.3.post459-py3-none-any.whl.zip --markdown 20240429/n/nucliadb-sdk/3.0.3.post458-3.0.3.post459/README.md --exclude *.pyd
+[2024-04-29 11:41:42] INFO root fetch - processPackages [chocolate_app]: Downloading https://files.pythonhosted.org/packages/72/0d/ab8c7171908bf492b3f32bc712380fe1dba37f478c7e4aee24c496e66460/chocolate_app-8.0.0.tar.gz
+[2024-04-29 11:41:42] INFO root fetch - processPackages [chocolate_app]: executing diffoscope
+[2024-04-29 11:41:42] INFO root fetch - processPackages [chocolate_app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chocolate_app-7.1.9.tar.gz tmp/chocolate_app-8.0.0.tar.gz --markdown 20240429/c/chocolate_app/7.1.9-8.0.0/README.md --exclude *.pyd
+[2024-04-29 11:41:43] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.0.3.post458-py3-none-any.whl.zip]
+[2024-04-29 11:41:43] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.0.3.post459-py3-none-any.whl.zip]
+[2024-04-29 11:41:43] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-04-29 11:41:43] INFO root fetch - processPackages [niamoto]: Remove: archive file [/home/abi/fetcher/tmp/niamoto-0.0.1a2.tar.gz]
+[2024-04-29 11:41:43] INFO root fetch - processPackages [niamoto]: Remove: archive file [/home/abi/fetcher/tmp/niamoto-0.0.2a1.tar.gz]
+[2024-04-29 11:41:43] INFO root fetch - main [MainThread]: End processing [niamoto]: success
+[2024-04-29 11:41:43] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-04-29 11:41:43] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.0.3.post458-py3-none-any.whl.zip]
+[2024-04-29 11:41:43] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.0.3.post459-py3-none-any.whl.zip]
+[2024-04-29 11:41:43] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-04-29 11:41:43] INFO root fetch - processPackages [asyncz]: Remove: archive file [/home/abi/fetcher/tmp/asyncz-0.5.0.tar.gz]
+[2024-04-29 11:41:43] INFO root fetch - processPackages [asyncz]: Remove: archive file [/home/abi/fetcher/tmp/asyncz-0.6.0.tar.gz]
+[2024-04-29 11:41:43] INFO root fetch - main [MainThread]: End processing [asyncz]: success
+[2024-04-29 11:41:43] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-04-29 11:41:43] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.0.3.post458-py3-none-any.whl.zip]
+[2024-04-29 11:41:43] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.0.3.post459-py3-none-any.whl.zip]
+[2024-04-29 11:41:43] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-04-29 11:41:43] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-04-29 11:42:01] INFO root fetch - processPackages [chocolate_app]: Remove: archive file [/home/abi/fetcher/tmp/chocolate_app-7.1.9.tar.gz]
+[2024-04-29 11:42:01] INFO root fetch - processPackages [chocolate_app]: Remove: archive file [/home/abi/fetcher/tmp/chocolate_app-8.0.0.tar.gz]
+[2024-04-29 11:42:01] INFO root fetch - main [MainThread]: End processing [chocolate_app]: success
+[2024-04-29 11:42:01] INFO root fetch - main [MainThread]: Store serial: [22981543]
