@@ -22774,3 +22774,41 @@ EOFError: EOF read where object expected
 [2024-04-29 16:05:11] INFO root fetch - processPackages [morphonet]: Remove: archive file [/home/abi/fetcher/tmp/morphonet-2.2.9.tar.gz]
 [2024-04-29 16:05:11] INFO root fetch - main [MainThread]: End processing [morphonet]: success
 [2024-04-29 16:05:11] INFO root fetch - main [MainThread]: Store serial: [22984938]
+[2024-04-29 16:07:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22984938]
+[2024-04-29 16:07:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 16:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aeroterra-ds
+[2024-04-29 16:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opencti-excel-uploader
+[2024-04-29 16:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bioomics
+[2024-04-29 16:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: symusic
+[2024-04-29 16:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: procfiles
+[2024-04-29 16:07:20] INFO root fetch - processPackages [aeroterra-ds]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-29 16:07:20] INFO root fetch - processPackages [opencti-excel-uploader]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-29 16:07:20] INFO root fetch - processPackages [bioomics]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-29 16:07:20] WARNING root fetch - processPackages [procfiles]: Skipping, unable to determine old version
+[2024-04-29 16:07:20] INFO root fetch - main [MainThread]: End processing [procfiles] error
+[2024-04-29 16:07:20] INFO root fetch - processPackages [opencti-excel-uploader]: Downloading https://files.pythonhosted.org/packages/7f/77/1307e56cd776cfebb55636cb5f2cb15a52bcb22f66e00919d6285700ebb4/opencti_excel_uploader-0.2.8.tar.gz
+[2024-04-29 16:07:20] INFO root fetch - processPackages [aeroterra-ds]: Downloading https://files.pythonhosted.org/packages/ba/b1/3a99297ffcf64498604031fbfe5f7bd77eb9e82535bcc04134866b539665/aeroterra_ds-1.0.8.tar.gz
+[2024-04-29 16:07:20] INFO root fetch - processPackages [symusic]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-04-29 16:07:20] INFO root fetch - processPackages [bioomics]: Downloading https://files.pythonhosted.org/packages/8b/4d/76805778cc509a1b75533962101c279b060b2e7ecbad02e227f2055fc47f/bioomics-0.2.4.tar.gz
+[2024-04-29 16:07:20] INFO root fetch - processPackages [opencti-excel-uploader]: Downloading https://files.pythonhosted.org/packages/08/21/739f84a5ec2b7af8dc93f7fba838b32f68e968c014b4980bc109510d3dd3/opencti_excel_uploader-0.2.9.tar.gz
+[2024-04-29 16:07:20] INFO root fetch - processPackages [aeroterra-ds]: Downloading https://files.pythonhosted.org/packages/5b/68/aaa8e502a3d00d0cf6ffc68cdd9599605601abff8e12de5fd50b45beac5c/aeroterra_ds-1.0.9.tar.gz
+[2024-04-29 16:07:21] INFO root fetch - processPackages [symusic]: Downloading https://files.pythonhosted.org/packages/a4/dd/4a6a99e798b823c6f98be32132fabfd4919fbea58ec59805c3127e37d1aa/symusic-0.4.6.tar.gz
+[2024-04-29 16:07:21] INFO root fetch - processPackages [opencti-excel-uploader]: executing diffoscope
+[2024-04-29 16:07:21] INFO root fetch - processPackages [opencti-excel-uploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencti_excel_uploader-0.2.8.tar.gz tmp/opencti_excel_uploader-0.2.9.tar.gz --markdown 20240429/o/opencti-excel-uploader/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-29 16:07:21] INFO root fetch - processPackages [aeroterra-ds]: executing diffoscope
+[2024-04-29 16:07:21] INFO root fetch - processPackages [aeroterra-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeroterra_ds-1.0.8.tar.gz tmp/aeroterra_ds-1.0.9.tar.gz --markdown 20240429/a/aeroterra-ds/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-29 16:07:21] WARNING root fetch - processPackages [symusic]: Skipping package: exceeds size limit 13478101>=10485760
+[2024-04-29 16:07:21] INFO root fetch - main [MainThread]: End processing [symusic] error
+[2024-04-29 16:07:21] INFO root fetch - processPackages [bioomics]: Downloading https://files.pythonhosted.org/packages/01/bb/3290df90ce404f72ba602715d750ce93cf6719c01aaf67751c1bf8d79d1f/bioomics-0.2.5.tar.gz
+[2024-04-29 16:07:21] INFO root fetch - processPackages [bioomics]: executing diffoscope
+[2024-04-29 16:07:21] INFO root fetch - processPackages [bioomics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioomics-0.2.4.tar.gz tmp/bioomics-0.2.5.tar.gz --markdown 20240429/b/bioomics/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-29 16:07:21] INFO root fetch - processPackages [opencti-excel-uploader]: Remove: archive file [/home/abi/fetcher/tmp/opencti_excel_uploader-0.2.8.tar.gz]
+[2024-04-29 16:07:21] INFO root fetch - processPackages [opencti-excel-uploader]: Remove: archive file [/home/abi/fetcher/tmp/opencti_excel_uploader-0.2.9.tar.gz]
+[2024-04-29 16:07:21] INFO root fetch - main [MainThread]: End processing [opencti-excel-uploader]: success
+[2024-04-29 16:07:21] INFO root fetch - processPackages [aeroterra-ds]: Remove: archive file [/home/abi/fetcher/tmp/aeroterra_ds-1.0.8.tar.gz]
+[2024-04-29 16:07:21] INFO root fetch - processPackages [aeroterra-ds]: Remove: archive file [/home/abi/fetcher/tmp/aeroterra_ds-1.0.9.tar.gz]
+[2024-04-29 16:07:21] INFO root fetch - main [MainThread]: End processing [aeroterra-ds]: success
+[2024-04-29 16:07:22] INFO root fetch - processPackages [bioomics]: Remove: archive file [/home/abi/fetcher/tmp/bioomics-0.2.4.tar.gz]
+[2024-04-29 16:07:22] INFO root fetch - processPackages [bioomics]: Remove: archive file [/home/abi/fetcher/tmp/bioomics-0.2.5.tar.gz]
+[2024-04-29 16:07:22] INFO root fetch - main [MainThread]: End processing [bioomics]: success
+[2024-04-29 16:07:22] INFO root fetch - main [MainThread]: Store serial: [22984996]
