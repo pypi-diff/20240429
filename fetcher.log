@@ -22616,3 +22616,59 @@ EOFError: EOF read where object expected
 [2024-04-29 16:00:39] INFO root fetch - processPackages [sparkpipelineframework]: Remove: archive file [/home/abi/fetcher/tmp/sparkpipelineframework-2.0.9.tar.gz]
 [2024-04-29 16:00:39] INFO root fetch - main [MainThread]: End processing [sparkpipelineframework]: success
 [2024-04-29 16:00:39] INFO root fetch - main [MainThread]: Store serial: [22984873]
+[2024-04-29 16:02:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22984873]
+[2024-04-29 16:02:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-29 16:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyfomo
+[2024-04-29 16:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: antakia-core
+[2024-04-29 16:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ert
+[2024-04-29 16:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: twikit
+[2024-04-29 16:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antakia
+[2024-04-29 16:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: recoverable-async-task
+[2024-04-29 16:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anemoi-utils
+[2024-04-29 16:02:48] INFO root fetch - processPackages [anemoi-utils]: New version: [0.1.6] Old Version: [0.1.3]
+[2024-04-29 16:02:48] INFO root fetch - processPackages [antakia]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-29 16:02:48] INFO root fetch - processPackages [pyfomo]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 16:02:48] INFO root fetch - processPackages [antakia-core]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-29 16:02:48] INFO root fetch - processPackages [twikit]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-29 16:02:48] WARNING root fetch - processPackages [recoverable-async-task]: Skipping, unable to determine old version
+[2024-04-29 16:02:48] INFO root fetch - main [MainThread]: End processing [recoverable-async-task] error
+[2024-04-29 16:02:48] INFO root fetch - processPackages [ert]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-04-29 16:02:48] INFO root fetch - processPackages [anemoi-utils]: Downloading https://files.pythonhosted.org/packages/ee/25/bc38e1f436ae73f71c4339096621c02c402defc9f3da982f7db0efc47283/anemoi-utils-0.1.3.tar.gz
+[2024-04-29 16:02:48] INFO root fetch - processPackages [antakia]: Downloading https://files.pythonhosted.org/packages/b7/8d/2f8225191d644ef2d6c14317b5cc5a73ca66ad5513339d7afe4587a4fb8f/antakia-0.4.3.tar.gz
+[2024-04-29 16:02:48] INFO root fetch - processPackages [twikit]: Downloading https://files.pythonhosted.org/packages/9c/cc/fa2648bd6665831038c782f618568f0c464c18751a9883e6c8d42a7426a9/twikit-1.5.8.tar.gz
+[2024-04-29 16:02:48] INFO root fetch - processPackages [antakia-core]: Downloading https://files.pythonhosted.org/packages/5f/cc/a37bd7dcac60a5d6a0910d8beafd909d711e3744167e9a4420737060d28e/antakia_core-0.4.3.tar.gz
+[2024-04-29 16:02:48] INFO root fetch - processPackages [pyfomo]: Downloading https://files.pythonhosted.org/packages/a4/a1/f161299ec97e6622401b89b014c7652572837cd624c65bab8ac0e6621917/pyfomo-0.0.8.tar.gz
+[2024-04-29 16:02:49] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/d3/ed/1b32adc2b0f34e25ca508b858069a0b7e840006670aad8f9c91899cfb57e/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-29 16:02:49] WARNING root fetch - processPackages [antakia]: Skipping package: exceeds size limit 22881579>=10485760
+[2024-04-29 16:02:49] INFO root fetch - main [MainThread]: End processing [antakia] error
+[2024-04-29 16:02:49] INFO root fetch - processPackages [antakia-core]: Downloading https://files.pythonhosted.org/packages/ef/d1/263021cf26d01aadcce3a493954177a1eb38a84f67addbbee9a2d71347a3/antakia_core-0.4.4.tar.gz
+[2024-04-29 16:02:49] INFO root fetch - processPackages [anemoi-utils]: Downloading https://files.pythonhosted.org/packages/b7/af/f3978d6d3a06aa96cc3c4f7fb2b492b184a1ffb33d40ea0cd3919a5386ac/anemoi_utils-0.1.6.tar.gz
+[2024-04-29 16:02:49] INFO root fetch - processPackages [twikit]: Downloading https://files.pythonhosted.org/packages/91/8f/4cbb6f8859c8b1bf5587ee57fa870e9ba808dd95602037d4719b70ed03ad/twikit-1.5.9.tar.gz
+[2024-04-29 16:02:49] INFO root fetch - processPackages [antakia-core]: executing diffoscope
+[2024-04-29 16:02:49] INFO root fetch - processPackages [antakia-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antakia_core-0.4.3.tar.gz tmp/antakia_core-0.4.4.tar.gz --markdown 20240429/a/antakia-core/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-04-29 16:02:49] INFO root fetch - processPackages [pyfomo]: Downloading https://files.pythonhosted.org/packages/44/24/beddeb02a7cafad1787f3ced26c999186d81a20c396f50ea5edbf355b8fc/pyfomo-0.0.9.tar.gz
+[2024-04-29 16:02:49] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/8d/4f/a098d5c93dec8fbf941d7d4f60fb3b86707ea5c9f599479549a3d84e246b/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-29 16:02:49] INFO root fetch - processPackages [twikit]: executing diffoscope
+[2024-04-29 16:02:49] INFO root fetch - processPackages [twikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twikit-1.5.8.tar.gz tmp/twikit-1.5.9.tar.gz --markdown 20240429/t/twikit/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-04-29 16:02:49] INFO root fetch - processPackages [anemoi-utils]: executing diffoscope
+[2024-04-29 16:02:49] INFO root fetch - processPackages [anemoi-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anemoi-utils-0.1.3.tar.gz tmp/anemoi_utils-0.1.6.tar.gz --markdown 20240429/a/anemoi-utils/0.1.3-0.1.6/README.md --exclude *.pyd
+[2024-04-29 16:02:49] INFO root fetch - processPackages [pyfomo]: executing diffoscope
+[2024-04-29 16:02:49] INFO root fetch - processPackages [pyfomo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfomo-0.0.8.tar.gz tmp/pyfomo-0.0.9.tar.gz --markdown 20240429/p/pyfomo/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 16:02:49] INFO root fetch - processPackages [ert]: executing diffoscope
+[2024-04-29 16:02:49] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240429/e/ert/9.0.8-9.0.9/README.md --exclude *.pyd
+[2024-04-29 16:02:50] INFO root fetch - processPackages [anemoi-utils]: Remove: archive file [/home/abi/fetcher/tmp/anemoi-utils-0.1.3.tar.gz]
+[2024-04-29 16:02:50] INFO root fetch - processPackages [anemoi-utils]: Remove: archive file [/home/abi/fetcher/tmp/anemoi_utils-0.1.6.tar.gz]
+[2024-04-29 16:02:50] INFO root fetch - main [MainThread]: End processing [anemoi-utils]: success
+[2024-04-29 16:02:50] INFO root fetch - processPackages [antakia-core]: Remove: archive file [/home/abi/fetcher/tmp/antakia_core-0.4.3.tar.gz]
+[2024-04-29 16:02:50] INFO root fetch - processPackages [antakia-core]: Remove: archive file [/home/abi/fetcher/tmp/antakia_core-0.4.4.tar.gz]
+[2024-04-29 16:02:50] INFO root fetch - main [MainThread]: End processing [antakia-core]: success
+[2024-04-29 16:02:50] INFO root fetch - processPackages [twikit]: Remove: archive file [/home/abi/fetcher/tmp/twikit-1.5.8.tar.gz]
+[2024-04-29 16:02:50] INFO root fetch - processPackages [twikit]: Remove: archive file [/home/abi/fetcher/tmp/twikit-1.5.9.tar.gz]
+[2024-04-29 16:02:50] INFO root fetch - main [MainThread]: End processing [twikit]: success
+[2024-04-29 16:02:50] INFO root fetch - processPackages [pyfomo]: Remove: archive file [/home/abi/fetcher/tmp/pyfomo-0.0.8.tar.gz]
+[2024-04-29 16:02:50] INFO root fetch - processPackages [pyfomo]: Remove: archive file [/home/abi/fetcher/tmp/pyfomo-0.0.9.tar.gz]
+[2024-04-29 16:02:50] INFO root fetch - main [MainThread]: End processing [pyfomo]: success
+[2024-04-29 16:02:54] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-29 16:02:54] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-29 16:02:54] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2024-04-29 16:02:54] INFO root fetch - main [MainThread]: Store serial: [22984909]
