@@ -10022,3 +10022,51 @@
 [2024-04-29 08:43:49] INFO root fetch - processPackages [xerosdk]: Remove: archive file [/home/abi/fetcher/tmp/xerosdk-0.9.0.tar.gz]
 [2024-04-29 08:43:49] INFO root fetch - main [MainThread]: End processing [xerosdk]: success
 [2024-04-29 08:43:49] INFO root fetch - main [MainThread]: Store serial: [22979575]
+[2024-04-29 08:45:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979575]
+[2024-04-29 08:45:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 08:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lfg-llama
+[2024-04-29 08:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: echo-endpoints
+[2024-04-29 08:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-azure
+[2024-04-29 08:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jetline
+[2024-04-29 08:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nzmath
+[2024-04-29 08:45:58] INFO root fetch - processPackages [lfg-llama]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-29 08:45:58] INFO root fetch - processPackages [jetline]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 08:45:58] INFO root fetch - processPackages [lfg-llama]: Downloading https://files.pythonhosted.org/packages/a5/20/a6802c52945d5cee10b3ec63068995d8f7e4a2fd5140665482db36116a66/lfg_llama-1.0.1.tar.gz
+[2024-04-29 08:45:58] INFO root fetch - processPackages [echo-endpoints]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-29 08:45:58] INFO root fetch - processPackages [nzmath]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-04-29 08:45:58] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/14/d7/4b17ee6567b17ad4eec9a6e6ceded1190275544e45e07f7b10971d03dc9f/jetline-0.1.8.tar.gz
+[2024-04-29 08:45:58] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2024-04-29 08:45:59] INFO root fetch - processPackages [echo-endpoints]: Downloading https://files.pythonhosted.org/packages/c1/ba/99e4198521bff4193eaa4b207ef7713566bf96db47dcbec883b02eb93348/echo_endpoints-0.0.4.tar.gz
+[2024-04-29 08:45:59] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/e3/52/ee8efe5ee3940966b4c7e8b471dd88336c2950833a0dd4b4854cce8f181b/jetline-0.1.9.tar.gz
+[2024-04-29 08:45:59] INFO root fetch - processPackages [nzmath]: Downloading https://files.pythonhosted.org/packages/e2/e8/1dff5ec95d07d7c210a8e4ac31b5390f383fc94adba541fabc35b5f58871/nzmath-3.0.0.tar.gz
+[2024-04-29 08:45:59] INFO root fetch - processPackages [lfg-llama]: Downloading https://files.pythonhosted.org/packages/49/d9/28c484edb6ec485ddbc78e6d77f4c25a2c42299ebd657b4e78a5126c8d8e/lfg_llama-1.0.2.tar.gz
+[2024-04-29 08:45:59] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2024-04-29 08:45:59] INFO root fetch - processPackages [jetline]: executing diffoscope
+[2024-04-29 08:45:59] INFO root fetch - processPackages [jetline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetline-0.1.8.tar.gz tmp/jetline-0.1.9.tar.gz --markdown 20240429/j/jetline/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 08:45:59] INFO root fetch - processPackages [lfg-llama]: executing diffoscope
+[2024-04-29 08:45:59] INFO root fetch - processPackages [lfg-llama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfg_llama-1.0.1.tar.gz tmp/lfg_llama-1.0.2.tar.gz --markdown 20240429/l/lfg-llama/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-29 08:45:59] INFO root fetch - processPackages [echo-endpoints]: Downloading https://files.pythonhosted.org/packages/51/31/ab1cf7810466de987d65fb1a31dd80c83aefa146f4a2160739b87cad6229/echo_endpoints-0.0.5.tar.gz
+[2024-04-29 08:45:59] INFO root fetch - processPackages [echo-endpoints]: executing diffoscope
+[2024-04-29 08:45:59] INFO root fetch - processPackages [echo-endpoints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echo_endpoints-0.0.4.tar.gz tmp/echo_endpoints-0.0.5.tar.gz --markdown 20240429/e/echo-endpoints/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-29 08:45:59] INFO root fetch - processPackages [nzmath]: Downloading https://files.pythonhosted.org/packages/6b/68/1d0e487a5d1edd7d21646422d304e6846aa1bbfa7945a9372e3d497ddaf6/nzmath-3.0.1.tar.gz
+[2024-04-29 08:45:59] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.1.8.tar.gz]
+[2024-04-29 08:45:59] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.1.9.tar.gz]
+[2024-04-29 08:45:59] INFO root fetch - main [MainThread]: End processing [jetline]: success
+[2024-04-29 08:45:59] INFO root fetch - processPackages [lfg-llama]: Remove: archive file [/home/abi/fetcher/tmp/lfg_llama-1.0.1.tar.gz]
+[2024-04-29 08:45:59] INFO root fetch - processPackages [lfg-llama]: Remove: archive file [/home/abi/fetcher/tmp/lfg_llama-1.0.2.tar.gz]
+[2024-04-29 08:45:59] INFO root fetch - main [MainThread]: End processing [lfg-llama]: success
+[2024-04-29 08:45:59] INFO root fetch - processPackages [nzmath]: executing diffoscope
+[2024-04-29 08:45:59] INFO root fetch - processPackages [nzmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nzmath-3.0.0.tar.gz tmp/nzmath-3.0.1.tar.gz --markdown 20240429/n/nzmath/3.0.0-3.0.1/README.md --exclude *.pyd
+[2024-04-29 08:46:00] INFO root fetch - processPackages [echo-endpoints]: Remove: archive file [/home/abi/fetcher/tmp/echo_endpoints-0.0.4.tar.gz]
+[2024-04-29 08:46:00] INFO root fetch - processPackages [echo-endpoints]: Remove: archive file [/home/abi/fetcher/tmp/echo_endpoints-0.0.5.tar.gz]
+[2024-04-29 08:46:00] INFO root fetch - main [MainThread]: End processing [echo-endpoints]: success
+[2024-04-29 08:46:01] INFO root fetch - processPackages [nzmath]: Remove: archive file [/home/abi/fetcher/tmp/nzmath-3.0.0.tar.gz]
+[2024-04-29 08:46:01] INFO root fetch - processPackages [nzmath]: Remove: archive file [/home/abi/fetcher/tmp/nzmath-3.0.1.tar.gz]
+[2024-04-29 08:46:01] INFO root fetch - main [MainThread]: End processing [nzmath]: success
+[2024-04-29 08:46:05] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2024-04-29 08:46:05] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2024-04-29 08:46:05] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20240429/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/README.md --exclude *.pyd
+[2024-04-29 08:46:15] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654274095.tar.gz]
+[2024-04-29 08:46:15] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
+[2024-04-29 08:46:15] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2024-04-29 08:46:15] INFO root fetch - main [MainThread]: Store serial: [22979592]
