@@ -16750,3 +16750,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 13:10:31] INFO root fetch - processPackages [bc-detect-secrets]: Remove: archive file [/home/abi/fetcher/tmp/bc-detect-secrets-1.5.9.tar.gz]
 [2024-04-29 13:10:31] INFO root fetch - main [MainThread]: End processing [bc-detect-secrets]: success
 [2024-04-29 13:10:31] INFO root fetch - main [MainThread]: Store serial: [22982447]
+[2024-04-29 13:12:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982447]
+[2024-04-29 13:12:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-29 13:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ckanext-tour
+[2024-04-29 13:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mizdb-watchlist
+[2024-04-29 13:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ultralytics-rknn
+[2024-04-29 13:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tgwrap
+[2024-04-29 13:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: uk-std-libraries
+[2024-04-29 13:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: acmecse-test
+[2024-04-29 13:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: automotifs
+[2024-04-29 13:12:40] INFO root fetch - processPackages [acmecse-test]: New version: [2024.4.2] Old Version: [2024.4.1]
+[2024-04-29 13:12:40] INFO root fetch - processPackages [ultralytics-rknn]: New version: [8.0.152] Old Version: [8.0.151]
+[2024-04-29 13:12:40] WARNING root fetch - processPackages [ckanext-tour]: Skipping, unable to determine old version
+[2024-04-29 13:12:40] INFO root fetch - main [MainThread]: End processing [ckanext-tour] error
+[2024-04-29 13:12:40] INFO root fetch - processPackages [ultralytics-rknn]: Downloading https://files.pythonhosted.org/packages/6f/8a/8a45793b77f92eadf4608ab85c62e0c7cea9ffde85e459d7a81d5ee5d5fc/ultralytics_rknn-8.0.151-py3-none-any.whl
+[2024-04-29 13:12:40] INFO root fetch - processPackages [uk-std-libraries]: New version: [0.0.13] Old Version: [0.0.12]
+[2024-04-29 13:12:40] INFO root fetch - processPackages [automotifs]: New version: [1.4.4] Old Version: [1.4.2]
+[2024-04-29 13:12:40] INFO root fetch - processPackages [mizdb-watchlist]: New version: [1.0.0] Old Version: [0.1.8]
+[2024-04-29 13:12:40] INFO root fetch - processPackages [tgwrap]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-29 13:12:40] INFO root fetch - processPackages [acmecse-test]: Downloading https://files.pythonhosted.org/packages/3b/75/37021800d23a2285603354f4cc90170d5c556225ec5ba14b9377bccfc790/acmecse_test-2024.4.1-py3-none-any.whl
+[2024-04-29 13:12:40] INFO root fetch - processPackages [mizdb-watchlist]: Downloading https://files.pythonhosted.org/packages/42/41/09d870dff082d3fe2cc55494176adde9266cf7e4f13101906c4d5fcb12e1/mizdb_watchlist-0.1.8.tar.gz
+[2024-04-29 13:12:40] INFO root fetch - processPackages [tgwrap]: Downloading https://files.pythonhosted.org/packages/cd/76/006e6d70082f803ed2ca4f41f13b9c5f8cc06004402da90e844bb2c6e473/tgwrap-0.9.0.tar.gz
+[2024-04-29 13:12:40] INFO root fetch - processPackages [uk-std-libraries]: Downloading https://files.pythonhosted.org/packages/6c/d4/868c206da9245215b03056b58b53ee4616298da8a394f9455ca88336bcd5/uk_std_libraries-0.0.12.tar.gz
+[2024-04-29 13:12:40] INFO root fetch - processPackages [automotifs]: Downloading https://files.pythonhosted.org/packages/b9/79/52680b9e87a99817fbabd9cfc5819ef4d98ab035874728ccc8280270a879/automotifs-1.4.2.tar.gz
+[2024-04-29 13:12:40] INFO root fetch - processPackages [ultralytics-rknn]: Downloading https://files.pythonhosted.org/packages/9d/21/844392f227b7b049b89a1d52be3ba67d2547956a9d8a0a81e3e8704c1fbd/ultralytics_rknn-8.0.152-py3-none-any.whl
+[2024-04-29 13:12:40] INFO root fetch - processPackages [mizdb-watchlist]: Downloading https://files.pythonhosted.org/packages/e4/98/7339ea4fac59f848f14cb78e9069e70de233d7ae7e33300bae540fdf843f/mizdb_watchlist-1.0.0.tar.gz
+[2024-04-29 13:12:40] INFO root fetch - processPackages [ultralytics-rknn]: executing diffoscope
+[2024-04-29 13:12:40] INFO root fetch - processPackages [ultralytics-rknn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics_rknn-8.0.151-py3-none-any.whl.zip tmp/ultralytics_rknn-8.0.152-py3-none-any.whl.zip --markdown 20240429/u/ultralytics-rknn/8.0.151-8.0.152/README.md --exclude *.pyd
+[2024-04-29 13:12:40] INFO root fetch - processPackages [tgwrap]: Downloading https://files.pythonhosted.org/packages/c0/9e/74c589b94d3dc8ba617bb0626ef87f615bec32cb5f560cbafa72d8a050f1/tgwrap-0.9.1.tar.gz
+[2024-04-29 13:12:40] INFO root fetch - processPackages [uk-std-libraries]: Downloading https://files.pythonhosted.org/packages/ad/9e/58f90736b62011947f113a7e5da98034ca024d64d3ed27206f2c2f13514a/uk_std_libraries-0.0.13.tar.gz
+[2024-04-29 13:12:40] INFO root fetch - processPackages [acmecse-test]: Downloading https://files.pythonhosted.org/packages/3e/58/b5b7422e7556af3f1736607c2fa34bf36e6c6c9820739f0b2f1874fc4778/acmecse_test-2024.4.2-py3-none-any.whl
+[2024-04-29 13:12:40] INFO root fetch - processPackages [automotifs]: Downloading https://files.pythonhosted.org/packages/26/b2/c7b10610883a900ec98a4ce8128530daaeade0686250fa3194b0ac68f06b/automotifs-1.4.4.tar.gz
+[2024-04-29 13:12:40] INFO root fetch - processPackages [mizdb-watchlist]: executing diffoscope
+[2024-04-29 13:12:40] INFO root fetch - processPackages [mizdb-watchlist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mizdb_watchlist-0.1.8.tar.gz tmp/mizdb_watchlist-1.0.0.tar.gz --markdown 20240429/m/mizdb-watchlist/0.1.8-1.0.0/README.md --exclude *.pyd
+[2024-04-29 13:12:41] INFO root fetch - processPackages [tgwrap]: executing diffoscope
+[2024-04-29 13:12:41] INFO root fetch - processPackages [tgwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgwrap-0.9.0.tar.gz tmp/tgwrap-0.9.1.tar.gz --markdown 20240429/t/tgwrap/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-29 13:12:41] INFO root fetch - processPackages [uk-std-libraries]: executing diffoscope
+[2024-04-29 13:12:41] INFO root fetch - processPackages [uk-std-libraries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uk_std_libraries-0.0.12.tar.gz tmp/uk_std_libraries-0.0.13.tar.gz --markdown 20240429/u/uk-std-libraries/0.0.12-0.0.13/README.md --exclude *.pyd
+[2024-04-29 13:12:41] INFO root fetch - processPackages [acmecse-test]: executing diffoscope
+[2024-04-29 13:12:41] INFO root fetch - processPackages [acmecse-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acmecse_test-2024.4.1-py3-none-any.whl.zip tmp/acmecse_test-2024.4.2-py3-none-any.whl.zip --markdown 20240429/a/acmecse-test/2024.4.1-2024.4.2/README.md --exclude *.pyd
+[2024-04-29 13:12:41] INFO root fetch - processPackages [automotifs]: executing diffoscope
+[2024-04-29 13:12:41] INFO root fetch - processPackages [automotifs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automotifs-1.4.2.tar.gz tmp/automotifs-1.4.4.tar.gz --markdown 20240429/a/automotifs/1.4.2-1.4.4/README.md --exclude *.pyd
+[2024-04-29 13:12:41] INFO root fetch - processPackages [tgwrap]: Remove: archive file [/home/abi/fetcher/tmp/tgwrap-0.9.0.tar.gz]
+[2024-04-29 13:12:41] INFO root fetch - processPackages [tgwrap]: Remove: archive file [/home/abi/fetcher/tmp/tgwrap-0.9.1.tar.gz]
+[2024-04-29 13:12:41] INFO root fetch - main [MainThread]: End processing [tgwrap]: success
+[2024-04-29 13:12:41] INFO root fetch - processPackages [mizdb-watchlist]: Remove: archive file [/home/abi/fetcher/tmp/mizdb_watchlist-0.1.8.tar.gz]
+[2024-04-29 13:12:41] INFO root fetch - processPackages [mizdb-watchlist]: Remove: archive file [/home/abi/fetcher/tmp/mizdb_watchlist-1.0.0.tar.gz]
+[2024-04-29 13:12:41] INFO root fetch - main [MainThread]: End processing [mizdb-watchlist]: success
+[2024-04-29 13:12:41] INFO root fetch - processPackages [uk-std-libraries]: Remove: archive file [/home/abi/fetcher/tmp/uk_std_libraries-0.0.12.tar.gz]
+[2024-04-29 13:12:41] INFO root fetch - processPackages [uk-std-libraries]: Remove: archive file [/home/abi/fetcher/tmp/uk_std_libraries-0.0.13.tar.gz]
+[2024-04-29 13:12:41] INFO root fetch - main [MainThread]: End processing [uk-std-libraries]: success
+[2024-04-29 13:12:41] INFO root fetch - processPackages [automotifs]: Remove: archive file [/home/abi/fetcher/tmp/automotifs-1.4.2.tar.gz]
+[2024-04-29 13:12:41] INFO root fetch - processPackages [automotifs]: Remove: archive file [/home/abi/fetcher/tmp/automotifs-1.4.4.tar.gz]
+[2024-04-29 13:12:41] INFO root fetch - main [MainThread]: End processing [automotifs]: success
+[2024-04-29 13:12:42] INFO root fetch - processPackages [ultralytics-rknn]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics_rknn-8.0.151-py3-none-any.whl.zip]
+[2024-04-29 13:12:42] INFO root fetch - processPackages [ultralytics-rknn]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics_rknn-8.0.152-py3-none-any.whl.zip]
+[2024-04-29 13:12:42] INFO root fetch - main [MainThread]: End processing [ultralytics-rknn]: success
+[2024-04-29 13:12:43] INFO root fetch - processPackages [acmecse-test]: Remove: archive file [/home/abi/fetcher/tmp/acmecse_test-2024.4.1-py3-none-any.whl.zip]
+[2024-04-29 13:12:43] INFO root fetch - processPackages [acmecse-test]: Remove: archive file [/home/abi/fetcher/tmp/acmecse_test-2024.4.2-py3-none-any.whl.zip]
+[2024-04-29 13:12:43] INFO root fetch - main [MainThread]: End processing [acmecse-test]: success
+[2024-04-29 13:12:43] INFO root fetch - main [MainThread]: Store serial: [22982470]
