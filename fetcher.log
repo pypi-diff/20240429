@@ -9310,3 +9310,63 @@
 [2024-04-29 07:57:40] INFO root fetch - processPackages [jh2]: Remove: archive file [/home/abi/fetcher/tmp/jh2-5.0.2-pp38-pypy38_pp73-macosx_10_12_x86_64.whl.zip]
 [2024-04-29 07:57:40] INFO root fetch - main [MainThread]: End processing [jh2]: success
 [2024-04-29 07:57:40] INFO root fetch - main [MainThread]: Store serial: [22979272]
+[2024-04-29 07:59:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979272]
+[2024-04-29 07:59:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-29 07:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: matricula-online-scraper
+[2024-04-29 07:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kisa-utils
+[2024-04-29 07:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pynpdc
+[2024-04-29 07:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qg_toolkit
+[2024-04-29 07:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opyls
+[2024-04-29 07:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: common-tools-ai-bnq
+[2024-04-29 07:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sunray
+[2024-04-29 07:59:49] INFO root fetch - processPackages [kisa-utils]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-29 07:59:49] INFO root fetch - processPackages [matricula-online-scraper]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-04-29 07:59:49] INFO root fetch - processPackages [opyls]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-29 07:59:49] INFO root fetch - processPackages [qg_toolkit]: New version: [1.0.9.2] Old Version: [1.0.9.1]
+[2024-04-29 07:59:49] INFO root fetch - processPackages [kisa-utils]: Downloading https://files.pythonhosted.org/packages/ee/95/a05113f73e087421286b5a4c66118860a6f1df9cffbe081a209de2ccfc4c/kisa_utils-0.9.1-py3-none-any.whl
+[2024-04-29 07:59:49] WARNING root fetch - processPackages [pynpdc]: Skipping, unable to determine old version
+[2024-04-29 07:59:49] INFO root fetch - main [MainThread]: End processing [pynpdc] error
+[2024-04-29 07:59:49] INFO root fetch - processPackages [qg_toolkit]: Downloading https://files.pythonhosted.org/packages/e8/d2/542e64fbc7372c0874023f1a29f4914e39e6a03427a5ea997949265dd66d/qg_toolkit-1.0.9.1.tar.gz
+[2024-04-29 07:59:49] INFO root fetch - processPackages [common-tools-ai-bnq]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-29 07:59:49] INFO root fetch - processPackages [sunray]: New version: [0.2.0] Old Version: [0.1.0b1]
+[2024-04-29 07:59:49] INFO root fetch - processPackages [matricula-online-scraper]: Downloading https://files.pythonhosted.org/packages/3c/74/a22bff7999652931bf15efae1afae6283d506db6e2749a97eafc402871b1/matricula_online_scraper-0.2.2.tar.gz
+[2024-04-29 07:59:49] INFO root fetch - processPackages [opyls]: Downloading https://files.pythonhosted.org/packages/f0/cb/39717d739f4e87f2c3466b5b0a7c716cd2bfe8e3892fe635db9e31123163/opyls-0.0.1.tar.gz
+[2024-04-29 07:59:49] INFO root fetch - processPackages [kisa-utils]: Downloading https://files.pythonhosted.org/packages/45/a9/4bbdc6afa54eafe6aeb55a578bba32e13d0173c8a6e64cabc8f226fc5941/kisa_utils-0.9.2-py3-none-any.whl
+[2024-04-29 07:59:49] INFO root fetch - processPackages [common-tools-ai-bnq]: Downloading https://files.pythonhosted.org/packages/cf/d1/93b1fe24d163a0df5705bd3989ffa42760e7252a29efb3ea81f2185c41aa/common-tools-ai-bnq-0.1.2.tar.gz
+[2024-04-29 07:59:49] INFO root fetch - processPackages [sunray]: Downloading https://files.pythonhosted.org/packages/ec/81/ce802d08ee11c394bb6ef339f80efc7f4db7039138c4cdc77b0a0b22145e/sunray-0.1.0b1.tar.gz
+[2024-04-29 07:59:49] INFO root fetch - processPackages [qg_toolkit]: Downloading https://files.pythonhosted.org/packages/b4/b9/96202d516470c31b0c6ab10176712ba6a685c0b3d463e1be97b2cfad5f8a/qg_toolkit-1.0.9.2.tar.gz
+[2024-04-29 07:59:50] INFO root fetch - processPackages [matricula-online-scraper]: Downloading https://files.pythonhosted.org/packages/fb/d1/769a5dc0e665769b832e13877fb808f939bde8329ac7018115a53e430f5e/matricula_online_scraper-0.3.0.tar.gz
+[2024-04-29 07:59:50] INFO root fetch - processPackages [kisa-utils]: executing diffoscope
+[2024-04-29 07:59:50] INFO root fetch - processPackages [kisa-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kisa_utils-0.9.1-py3-none-any.whl.zip tmp/kisa_utils-0.9.2-py3-none-any.whl.zip --markdown 20240429/k/kisa-utils/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-29 07:59:50] INFO root fetch - processPackages [qg_toolkit]: executing diffoscope
+[2024-04-29 07:59:50] INFO root fetch - processPackages [qg_toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qg_toolkit-1.0.9.1.tar.gz tmp/qg_toolkit-1.0.9.2.tar.gz --markdown 20240429/q/qg_toolkit/1.0.9.1-1.0.9.2/README.md --exclude *.pyd
+[2024-04-29 07:59:50] INFO root fetch - processPackages [matricula-online-scraper]: executing diffoscope
+[2024-04-29 07:59:50] INFO root fetch - processPackages [matricula-online-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matricula_online_scraper-0.2.2.tar.gz tmp/matricula_online_scraper-0.3.0.tar.gz --markdown 20240429/m/matricula-online-scraper/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-04-29 07:59:50] INFO root fetch - processPackages [opyls]: Downloading https://files.pythonhosted.org/packages/e0/7e/cb585cf3e030ed8eac46b7815af2834d2d65335ba004ad16b5dee0148edf/opyls-0.0.2.tar.gz
+[2024-04-29 07:59:50] INFO root fetch - processPackages [common-tools-ai-bnq]: Downloading https://files.pythonhosted.org/packages/00/9f/aa4494ebc798791ac1c94f9e954d50a010d5cc061233ec98001b001be518/common-tools-ai-bnq-0.1.3.tar.gz
+[2024-04-29 07:59:50] INFO root fetch - processPackages [opyls]: executing diffoscope
+[2024-04-29 07:59:50] INFO root fetch - processPackages [opyls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opyls-0.0.1.tar.gz tmp/opyls-0.0.2.tar.gz --markdown 20240429/o/opyls/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-29 07:59:50] INFO root fetch - processPackages [sunray]: Downloading https://files.pythonhosted.org/packages/94/3f/64d5faaa8a785af2680cb5046f70dbcb3ba4895cf4be9d34b0eb904b3cc2/sunray-0.2.0-py3-none-any.whl
+[2024-04-29 07:59:50] INFO root fetch - processPackages [common-tools-ai-bnq]: executing diffoscope
+[2024-04-29 07:59:50] INFO root fetch - processPackages [common-tools-ai-bnq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common-tools-ai-bnq-0.1.2.tar.gz tmp/common-tools-ai-bnq-0.1.3.tar.gz --markdown 20240429/c/common-tools-ai-bnq/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-29 07:59:50] INFO root fetch - processPackages [sunray]: executing diffoscope
+[2024-04-29 07:59:50] INFO root fetch - processPackages [sunray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunray-0.1.0b1.tar.gz tmp/sunray-0.2.0-py3-none-any.whl.zip --markdown 20240429/s/sunray/0.1.0b1-0.2.0/README.md --exclude *.pyd
+[2024-04-29 07:59:50] INFO root fetch - processPackages [matricula-online-scraper]: Remove: archive file [/home/abi/fetcher/tmp/matricula_online_scraper-0.2.2.tar.gz]
+[2024-04-29 07:59:50] INFO root fetch - processPackages [matricula-online-scraper]: Remove: archive file [/home/abi/fetcher/tmp/matricula_online_scraper-0.3.0.tar.gz]
+[2024-04-29 07:59:50] INFO root fetch - main [MainThread]: End processing [matricula-online-scraper]: success
+[2024-04-29 07:59:50] INFO root fetch - processPackages [kisa-utils]: Remove: archive file [/home/abi/fetcher/tmp/kisa_utils-0.9.1-py3-none-any.whl.zip]
+[2024-04-29 07:59:50] INFO root fetch - processPackages [kisa-utils]: Remove: archive file [/home/abi/fetcher/tmp/kisa_utils-0.9.2-py3-none-any.whl.zip]
+[2024-04-29 07:59:50] INFO root fetch - main [MainThread]: End processing [kisa-utils]: success
+[2024-04-29 07:59:50] INFO root fetch - processPackages [opyls]: Remove: archive file [/home/abi/fetcher/tmp/opyls-0.0.1.tar.gz]
+[2024-04-29 07:59:50] INFO root fetch - processPackages [opyls]: Remove: archive file [/home/abi/fetcher/tmp/opyls-0.0.2.tar.gz]
+[2024-04-29 07:59:50] INFO root fetch - main [MainThread]: End processing [opyls]: success
+[2024-04-29 07:59:51] INFO root fetch - processPackages [qg_toolkit]: Remove: archive file [/home/abi/fetcher/tmp/qg_toolkit-1.0.9.1.tar.gz]
+[2024-04-29 07:59:51] INFO root fetch - processPackages [qg_toolkit]: Remove: archive file [/home/abi/fetcher/tmp/qg_toolkit-1.0.9.2.tar.gz]
+[2024-04-29 07:59:51] INFO root fetch - main [MainThread]: End processing [qg_toolkit]: success
+[2024-04-29 07:59:51] INFO root fetch - processPackages [sunray]: Remove: archive file [/home/abi/fetcher/tmp/sunray-0.1.0b1.tar.gz]
+[2024-04-29 07:59:51] INFO root fetch - processPackages [sunray]: Remove: archive file [/home/abi/fetcher/tmp/sunray-0.2.0-py3-none-any.whl.zip]
+[2024-04-29 07:59:51] INFO root fetch - main [MainThread]: End processing [sunray]: success
+[2024-04-29 07:59:51] INFO root fetch - processPackages [common-tools-ai-bnq]: Remove: archive file [/home/abi/fetcher/tmp/common-tools-ai-bnq-0.1.2.tar.gz]
+[2024-04-29 07:59:51] INFO root fetch - processPackages [common-tools-ai-bnq]: Remove: archive file [/home/abi/fetcher/tmp/common-tools-ai-bnq-0.1.3.tar.gz]
+[2024-04-29 07:59:51] INFO root fetch - main [MainThread]: End processing [common-tools-ai-bnq]: success
+[2024-04-29 07:59:51] INFO root fetch - main [MainThread]: Store serial: [22979323]
