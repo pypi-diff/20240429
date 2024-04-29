@@ -14248,3 +14248,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 11:42:01] INFO root fetch - processPackages [chocolate_app]: Remove: archive file [/home/abi/fetcher/tmp/chocolate_app-8.0.0.tar.gz]
 [2024-04-29 11:42:01] INFO root fetch - main [MainThread]: End processing [chocolate_app]: success
 [2024-04-29 11:42:01] INFO root fetch - main [MainThread]: Store serial: [22981543]
+[2024-04-29 11:44:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22981543]
+[2024-04-29 11:44:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 11:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kostsample
+[2024-04-29 11:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: erp-apis
+[2024-04-29 11:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scriptman
+[2024-04-29 11:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funboost
+[2024-04-29 11:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odxtools
+[2024-04-29 11:44:19] INFO root fetch - processPackages [kostsample]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-29 11:44:19] INFO root fetch - processPackages [kostsample]: Downloading https://files.pythonhosted.org/packages/5b/39/b809d61a9d2f96063190ad62b405cff6bf4e0530a0394de7c4acd3839131/kostsample-1.0.2.tar.gz
+[2024-04-29 11:44:19] WARNING root fetch - processPackages [erp-apis]: Skipping, unable to determine old version
+[2024-04-29 11:44:19] INFO root fetch - main [MainThread]: End processing [erp-apis] error
+[2024-04-29 11:44:19] INFO root fetch - processPackages [odxtools]: New version: [7.0.0] Old Version: [6.7.1]
+[2024-04-29 11:44:19] INFO root fetch - processPackages [scriptman]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-04-29 11:44:19] INFO root fetch - processPackages [funboost]: New version: [44.2] Old Version: [44.1]
+[2024-04-29 11:44:20] INFO root fetch - processPackages [odxtools]: Downloading https://files.pythonhosted.org/packages/c8/7c/3d0e7fa2d77138540434d225e78e54903346ac5eb58a1f8ee6c8a2b2021f/odxtools-6.7.1-py3-none-any.whl
+[2024-04-29 11:44:20] INFO root fetch - processPackages [kostsample]: Downloading https://files.pythonhosted.org/packages/0e/7c/3bbc730cb96a350ec3c74f678ccbd0460a612761f5332ff90c4f634a5f92/kostsample-1.0.3.tar.gz
+[2024-04-29 11:44:20] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/27/f7/0707385323ce419f9dea6276ea31aceb17bcbb845a93691f2484d9696ebf/funboost-44.1.tar.gz
+[2024-04-29 11:44:20] INFO root fetch - processPackages [scriptman]: Downloading https://files.pythonhosted.org/packages/f0/36/7146888ddadc02a0f2fe536e4ba47e16a5aa6d2b9bf2b21cc312fb61bb23/scriptman-0.0.0.8.tar.gz
+[2024-04-29 11:44:20] INFO root fetch - processPackages [kostsample]: executing diffoscope
+[2024-04-29 11:44:20] INFO root fetch - processPackages [kostsample]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kostsample-1.0.2.tar.gz tmp/kostsample-1.0.3.tar.gz --markdown 20240429/k/kostsample/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-29 11:44:20] INFO root fetch - processPackages [odxtools]: Downloading https://files.pythonhosted.org/packages/8d/2a/55619392991efe0a66c2f0b5da51f6c73adf350db3068dd1ffa10b183fee/odxtools-7.0.0-py3-none-any.whl
+[2024-04-29 11:44:20] INFO root fetch - processPackages [scriptman]: Downloading https://files.pythonhosted.org/packages/f5/05/b5fcf85e401e2ea793d31d90d33eb9fe185765b18bd32c99cfe69d516956/scriptman-0.0.0.9.tar.gz
+[2024-04-29 11:44:20] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/4a/7e/fe32a02b9c33db80432522236a199abd3885a0fc7847a323b7d23f51f580/funboost-44.2.tar.gz
+[2024-04-29 11:44:20] INFO root fetch - processPackages [odxtools]: executing diffoscope
+[2024-04-29 11:44:20] INFO root fetch - processPackages [odxtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odxtools-6.7.1-py3-none-any.whl.zip tmp/odxtools-7.0.0-py3-none-any.whl.zip --markdown 20240429/o/odxtools/6.7.1-7.0.0/README.md --exclude *.pyd
+[2024-04-29 11:44:20] INFO root fetch - processPackages [scriptman]: executing diffoscope
+[2024-04-29 11:44:20] INFO root fetch - processPackages [scriptman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scriptman-0.0.0.8.tar.gz tmp/scriptman-0.0.0.9.tar.gz --markdown 20240429/s/scriptman/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-04-29 11:44:20] INFO root fetch - processPackages [kostsample]: Remove: archive file [/home/abi/fetcher/tmp/kostsample-1.0.2.tar.gz]
+[2024-04-29 11:44:20] INFO root fetch - processPackages [kostsample]: Remove: archive file [/home/abi/fetcher/tmp/kostsample-1.0.3.tar.gz]
+[2024-04-29 11:44:20] INFO root fetch - main [MainThread]: End processing [kostsample]: success
+[2024-04-29 11:44:21] INFO root fetch - processPackages [funboost]: executing diffoscope
+[2024-04-29 11:44:21] INFO root fetch - processPackages [funboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funboost-44.1.tar.gz tmp/funboost-44.2.tar.gz --markdown 20240429/f/funboost/44.1-44.2/README.md --exclude *.pyd
+[2024-04-29 11:44:21] INFO root fetch - processPackages [scriptman]: Remove: archive file [/home/abi/fetcher/tmp/scriptman-0.0.0.8.tar.gz]
+[2024-04-29 11:44:21] INFO root fetch - processPackages [scriptman]: Remove: archive file [/home/abi/fetcher/tmp/scriptman-0.0.0.9.tar.gz]
+[2024-04-29 11:44:21] INFO root fetch - main [MainThread]: End processing [scriptman]: success
+[2024-04-29 11:44:21] INFO root fetch - processPackages [odxtools]: Remove: archive file [/home/abi/fetcher/tmp/odxtools-6.7.1-py3-none-any.whl.zip]
+[2024-04-29 11:44:21] INFO root fetch - processPackages [odxtools]: Remove: archive file [/home/abi/fetcher/tmp/odxtools-7.0.0-py3-none-any.whl.zip]
+[2024-04-29 11:44:21] INFO root fetch - main [MainThread]: End processing [odxtools]: success
+[2024-04-29 11:44:22] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-44.1.tar.gz]
+[2024-04-29 11:44:22] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-44.2.tar.gz]
+[2024-04-29 11:44:22] INFO root fetch - main [MainThread]: End processing [funboost]: success
+[2024-04-29 11:44:22] INFO root fetch - main [MainThread]: Store serial: [22981557]
