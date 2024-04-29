@@ -7720,3 +7720,15 @@
 [2024-04-29 05:59:17] INFO root fetch - processPackages [erniebot]: Remove: archive file [/home/abi/fetcher/tmp/erniebot-0.5.5.tar.gz]
 [2024-04-29 05:59:17] INFO root fetch - main [MainThread]: End processing [erniebot]: success
 [2024-04-29 05:59:17] INFO root fetch - main [MainThread]: Store serial: [22978512]
+[2024-04-29 06:01:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978512]
+[2024-04-29 06:01:26] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-29 06:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yplib
+[2024-04-29 06:01:26] INFO root fetch - processPackages [yplib]: New version: [5.6.4] Old Version: [5.6.3]
+[2024-04-29 06:01:26] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/7f/27/c66dbf03edcccfc414e1204b3e5869c24c9100fcdbe48148d612ecc7fe55/yplib-5.6.3.tar.gz
+[2024-04-29 06:01:26] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/6d/5d/28e793eb5191f4fe7c4d55d1a2b411065ad0d75cda758899e63966d4a3be/yplib-5.6.4.tar.gz
+[2024-04-29 06:01:26] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2024-04-29 06:01:26] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-5.6.3.tar.gz tmp/yplib-5.6.4.tar.gz --markdown 20240429/y/yplib/5.6.3-5.6.4/README.md --exclude *.pyd
+[2024-04-29 06:01:27] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.6.3.tar.gz]
+[2024-04-29 06:01:27] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.6.4.tar.gz]
+[2024-04-29 06:01:27] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2024-04-29 06:01:27] INFO root fetch - main [MainThread]: Store serial: [22978515]
