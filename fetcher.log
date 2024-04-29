@@ -8808,3 +8808,24 @@
 [2024-04-29 07:20:18] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-44.1.tar.gz]
 [2024-04-29 07:20:18] INFO root fetch - main [MainThread]: End processing [funboost]: success
 [2024-04-29 07:20:18] INFO root fetch - main [MainThread]: Store serial: [22979030]
+[2024-04-29 07:22:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979030]
+[2024-04-29 07:22:27] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-29 07:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moraine
+[2024-04-29 07:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qg_toolkit
+[2024-04-29 07:22:27] INFO root fetch - processPackages [moraine]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-04-29 07:22:27] INFO root fetch - processPackages [qg_toolkit]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-29 07:22:27] INFO root fetch - processPackages [qg_toolkit]: Downloading https://files.pythonhosted.org/packages/11/9e/09ed07dcc6a084f1220c27e3bc8aeda003559e1ac3e15dd994ca5c159c91/qg_toolkit-1.0.8.tar.gz
+[2024-04-29 07:22:27] INFO root fetch - processPackages [moraine]: Downloading https://files.pythonhosted.org/packages/4d/9b/51ff9f44e19a0bee2721fca3581c74b5731d49ca30804e1c712dfaf67ede/moraine-0.6.4.tar.gz
+[2024-04-29 07:22:27] INFO root fetch - processPackages [qg_toolkit]: Downloading https://files.pythonhosted.org/packages/0c/37/88bab794be1362be7f0eec4b8b276ea25aa565f10e0daaffe6b05efd5835/qg_toolkit-1.0.9.tar.gz
+[2024-04-29 07:22:27] INFO root fetch - processPackages [moraine]: Downloading https://files.pythonhosted.org/packages/5c/8c/e8bf0aa493f0f9d73ff6008284f3957aff0eab33b8b6fc5a93434411cbf7/moraine-0.6.5.tar.gz
+[2024-04-29 07:22:27] INFO root fetch - processPackages [qg_toolkit]: executing diffoscope
+[2024-04-29 07:22:27] INFO root fetch - processPackages [qg_toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qg_toolkit-1.0.8.tar.gz tmp/qg_toolkit-1.0.9.tar.gz --markdown 20240429/q/qg_toolkit/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-29 07:22:27] INFO root fetch - processPackages [moraine]: executing diffoscope
+[2024-04-29 07:22:27] INFO root fetch - processPackages [moraine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moraine-0.6.4.tar.gz tmp/moraine-0.6.5.tar.gz --markdown 20240429/m/moraine/0.6.4-0.6.5/README.md --exclude *.pyd
+[2024-04-29 07:22:28] INFO root fetch - processPackages [qg_toolkit]: Remove: archive file [/home/abi/fetcher/tmp/qg_toolkit-1.0.8.tar.gz]
+[2024-04-29 07:22:28] INFO root fetch - processPackages [qg_toolkit]: Remove: archive file [/home/abi/fetcher/tmp/qg_toolkit-1.0.9.tar.gz]
+[2024-04-29 07:22:28] INFO root fetch - main [MainThread]: End processing [qg_toolkit]: success
+[2024-04-29 07:22:28] INFO root fetch - processPackages [moraine]: Remove: archive file [/home/abi/fetcher/tmp/moraine-0.6.4.tar.gz]
+[2024-04-29 07:22:28] INFO root fetch - processPackages [moraine]: Remove: archive file [/home/abi/fetcher/tmp/moraine-0.6.5.tar.gz]
+[2024-04-29 07:22:28] INFO root fetch - main [MainThread]: End processing [moraine]: success
+[2024-04-29 07:22:28] INFO root fetch - main [MainThread]: Store serial: [22979036]
