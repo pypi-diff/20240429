@@ -12528,3 +12528,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 10:39:30] INFO root fetch - processPackages [ragfmk]: Remove: archive file [/home/abi/fetcher/tmp/ragfmk-0.1.2-py3-none-any.whl.zip]
 [2024-04-29 10:39:30] INFO root fetch - main [MainThread]: End processing [ragfmk]: success
 [2024-04-29 10:39:30] INFO root fetch - main [MainThread]: Store serial: [22980713]
+[2024-04-29 10:41:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980713]
+[2024-04-29 10:41:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-29 10:41:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydantic-argparse
+[2024-04-29 10:41:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: YoutubeUser
+[2024-04-29 10:41:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testsolar-pytestx
+[2024-04-29 10:41:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zeus-utility
+[2024-04-29 10:41:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sws-api-client
+[2024-04-29 10:41:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bank2ynab
+[2024-04-29 10:41:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-sync-env
+[2024-04-29 10:41:40] INFO root fetch - processPackages [YoutubeUser]: New version: [1.0.1] Old Version: [0.0.8]
+[2024-04-29 10:41:40] INFO root fetch - processPackages [sws-api-client]: New version: [0.0.8.dev0] Old Version: [0.0.7.dev0]
+[2024-04-29 10:41:40] WARNING root fetch - processPackages [testsolar-pytestx]: Skipping, unable to determine old version
+[2024-04-29 10:41:40] INFO root fetch - main [MainThread]: End processing [testsolar-pytestx] error
+[2024-04-29 10:41:40] INFO root fetch - processPackages [YoutubeUser]: Downloading https://files.pythonhosted.org/packages/4a/62/4ee3c6d7e7e42ef6ecfbb9cea54f05659c49b104da0f6263de257dce84ab/youtubeuser-0.0.8.tar.gz
+[2024-04-29 10:41:41] INFO root fetch - processPackages [sws-api-client]: Downloading https://files.pythonhosted.org/packages/96/a2/60e8fba00a71afb3ae77298d5ed415fff12c7833224e41c17ef3c94bd7c8/sws_api_client-0.0.7.dev0.tar.gz
+[2024-04-29 10:41:41] ERROR root fetch - processPackages [bank2ynab]: Unable to get metadata: No such project 'bank2ynab'
+[2024-04-29 10:41:41] INFO root fetch - main [MainThread]: End processing [bank2ynab] error
+[2024-04-29 10:41:41] INFO root fetch - processPackages [zeus-utility]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 10:41:41] INFO root fetch - processPackages [pydantic-argparse]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-29 10:41:41] INFO root fetch - processPackages [django-sync-env]: New version: [0.3.1a9] Old Version: [0.3.1a8]
+[2024-04-29 10:41:41] INFO root fetch - processPackages [zeus-utility]: Downloading https://files.pythonhosted.org/packages/f7/0a/addf80239b42b302b25e99c51eef7f1bc6bcf2dd0f89a0892ee1ec940106/zeus_utility-0.0.8.tar.gz
+[2024-04-29 10:41:41] INFO root fetch - processPackages [YoutubeUser]: Downloading https://files.pythonhosted.org/packages/b8/9d/8af9349562c8ec30909b92321e45e3d47d2191857dbbc3f2f3bf42a99f00/youtubeuser-1.0.1.tar.gz
+[2024-04-29 10:41:41] INFO root fetch - processPackages [pydantic-argparse]: Downloading https://files.pythonhosted.org/packages/30/a5/ae32e92cc5293322d89e6d40dc59e69e2eaa0ea8fff4281be86a26b791d0/pydantic_argparse-0.8.0.tar.gz
+[2024-04-29 10:41:41] INFO root fetch - processPackages [sws-api-client]: Downloading https://files.pythonhosted.org/packages/66/d6/29d7aebbe593b7caf4d621e7396c79fb3ed5b4119bf0ae89b0745c8dd1f4/sws_api_client-0.0.8.dev0.tar.gz
+[2024-04-29 10:41:41] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/24/78/009e2f56d84d6eb849f08471c884f6aff8d021ec213adff24e1dfb5bc33e/django_sync_env-0.3.1a8.tar.gz
+[2024-04-29 10:41:41] INFO root fetch - processPackages [YoutubeUser]: executing diffoscope
+[2024-04-29 10:41:41] INFO root fetch - processPackages [YoutubeUser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youtubeuser-0.0.8.tar.gz tmp/youtubeuser-1.0.1.tar.gz --markdown 20240429/Y/YoutubeUser/0.0.8-1.0.1/README.md --exclude *.pyd
+[2024-04-29 10:41:41] INFO root fetch - processPackages [sws-api-client]: executing diffoscope
+[2024-04-29 10:41:41] INFO root fetch - processPackages [sws-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sws_api_client-0.0.7.dev0.tar.gz tmp/sws_api_client-0.0.8.dev0.tar.gz --markdown 20240429/s/sws-api-client/0.0.7.dev0-0.0.8.dev0/README.md --exclude *.pyd
+[2024-04-29 10:41:41] INFO root fetch - processPackages [zeus-utility]: Downloading https://files.pythonhosted.org/packages/fc/75/ed283ce0be5bb9c6b19572eab325210e6d548988eca2fe9c7082d1627292/zeus_utility-0.0.9.tar.gz
+[2024-04-29 10:41:41] INFO root fetch - processPackages [pydantic-argparse]: Downloading https://files.pythonhosted.org/packages/9d/68/f67377429bb0fb8718dc841beafd3eade66824fc90de87c31a4d5caa2f68/pydantic_argparse-0.9.0.tar.gz
+[2024-04-29 10:41:41] INFO root fetch - processPackages [zeus-utility]: executing diffoscope
+[2024-04-29 10:41:41] INFO root fetch - processPackages [zeus-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeus_utility-0.0.8.tar.gz tmp/zeus_utility-0.0.9.tar.gz --markdown 20240429/z/zeus-utility/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 10:41:41] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/09/f6/638f51a800edaadde68c64c67b668aae5d792eea2037d314f4dbea6565dd/django_sync_env-0.3.1a9.tar.gz
+[2024-04-29 10:41:41] INFO root fetch - processPackages [pydantic-argparse]: executing diffoscope
+[2024-04-29 10:41:41] INFO root fetch - processPackages [pydantic-argparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_argparse-0.8.0.tar.gz tmp/pydantic_argparse-0.9.0.tar.gz --markdown 20240429/p/pydantic-argparse/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-29 10:41:41] INFO root fetch - processPackages [django-sync-env]: executing diffoscope
+[2024-04-29 10:41:41] INFO root fetch - processPackages [django-sync-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sync_env-0.3.1a8.tar.gz tmp/django_sync_env-0.3.1a9.tar.gz --markdown 20240429/d/django-sync-env/0.3.1a8-0.3.1a9/README.md --exclude *.pyd
+[2024-04-29 10:41:42] INFO root fetch - processPackages [YoutubeUser]: Remove: archive file [/home/abi/fetcher/tmp/youtubeuser-0.0.8.tar.gz]
+[2024-04-29 10:41:42] INFO root fetch - processPackages [YoutubeUser]: Remove: archive file [/home/abi/fetcher/tmp/youtubeuser-1.0.1.tar.gz]
+[2024-04-29 10:41:42] INFO root fetch - main [MainThread]: End processing [YoutubeUser]: success
+[2024-04-29 10:41:42] INFO root fetch - processPackages [sws-api-client]: Remove: archive file [/home/abi/fetcher/tmp/sws_api_client-0.0.7.dev0.tar.gz]
+[2024-04-29 10:41:42] INFO root fetch - processPackages [sws-api-client]: Remove: archive file [/home/abi/fetcher/tmp/sws_api_client-0.0.8.dev0.tar.gz]
+[2024-04-29 10:41:42] INFO root fetch - main [MainThread]: End processing [sws-api-client]: success
+[2024-04-29 10:41:42] INFO root fetch - processPackages [zeus-utility]: Remove: archive file [/home/abi/fetcher/tmp/zeus_utility-0.0.8.tar.gz]
+[2024-04-29 10:41:42] INFO root fetch - processPackages [zeus-utility]: Remove: archive file [/home/abi/fetcher/tmp/zeus_utility-0.0.9.tar.gz]
+[2024-04-29 10:41:42] INFO root fetch - main [MainThread]: End processing [zeus-utility]: success
+[2024-04-29 10:41:42] INFO root fetch - processPackages [pydantic-argparse]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_argparse-0.8.0.tar.gz]
+[2024-04-29 10:41:42] INFO root fetch - processPackages [pydantic-argparse]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_argparse-0.9.0.tar.gz]
+[2024-04-29 10:41:42] INFO root fetch - main [MainThread]: End processing [pydantic-argparse]: success
+[2024-04-29 10:41:42] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a8.tar.gz]
+[2024-04-29 10:41:42] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a9.tar.gz]
+[2024-04-29 10:41:42] INFO root fetch - main [MainThread]: End processing [django-sync-env]: success
+[2024-04-29 10:41:42] INFO root fetch - main [MainThread]: Store serial: [22980738]
