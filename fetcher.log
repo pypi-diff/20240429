@@ -8203,3 +8203,48 @@
 [2024-04-29 06:38:22] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
 [2024-04-29 06:38:22] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
 [2024-04-29 06:38:22] INFO root fetch - main [MainThread]: Store serial: [22978695]
+[2024-04-29 06:40:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978695]
+[2024-04-29 06:40:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-29 06:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-keycloak
+[2024-04-29 06:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xzutils
+[2024-04-29 06:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seqlogic
+[2024-04-29 06:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyprql
+[2024-04-29 06:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simulation-engine
+[2024-04-29 06:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-string-tool
+[2024-04-29 06:40:31] WARNING root fetch - processPackages [xzutils]: Skipping, unable to determine old version
+[2024-04-29 06:40:31] INFO root fetch - main [MainThread]: End processing [xzutils] error
+[2024-04-29 06:40:31] WARNING root fetch - processPackages [py-string-tool]: Skipping, unable to determine old version
+[2024-04-29 06:40:31] INFO root fetch - main [MainThread]: End processing [py-string-tool] error
+[2024-04-29 06:40:31] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.4.0a1714364451] Old Version: [5.4.0a1714110241]
+[2024-04-29 06:40:31] INFO root fetch - processPackages [seqlogic]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-29 06:40:31] INFO root fetch - processPackages [pyprql]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-29 06:40:31] INFO root fetch - processPackages [simulation-engine]: New version: [1.0.0] Old Version: [0.1.9]
+[2024-04-29 06:40:31] INFO root fetch - processPackages [seqlogic]: Downloading https://files.pythonhosted.org/packages/53/9b/7dc32f3bbe5c9b50c04b08b775e802353bdf5d64b5ade5356a91534243f2/seqlogic-0.0.7.tar.gz
+[2024-04-29 06:40:31] INFO root fetch - processPackages [simulation-engine]: Downloading https://files.pythonhosted.org/packages/b2/e4/b9cd4f7d21fc8b01cd648db3d4f32748b8e96279bd957add7534eeaaeed9/simulation_engine-0.1.9.tar.gz
+[2024-04-29 06:40:31] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/72/65/3c0a2063742e15118d08a06c5884dc0558bb1c0631d9dc6a359778547349/pulumi_keycloak-5.4.0a1714110241.tar.gz
+[2024-04-29 06:40:31] INFO root fetch - processPackages [pyprql]: Downloading https://files.pythonhosted.org/packages/b8/68/7f97fee1cd34a6f9f9d45710cbc196a438a01b0d5b915ddb21f08eead000/pyprql-0.8.0.tar.gz
+[2024-04-29 06:40:32] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/15/d9/878bda4402a4a901c12178ef5847ae1730fda6b674235b5c31aa2585c05d/pulumi_keycloak-5.4.0a1714364451.tar.gz
+[2024-04-29 06:40:32] INFO root fetch - processPackages [pyprql]: Downloading https://files.pythonhosted.org/packages/d0/f8/85d43a7c46dc8987033fe7274ceaf4399d28160769c4179c5391efd7372c/pyprql-0.9.0.tar.gz
+[2024-04-29 06:40:32] INFO root fetch - processPackages [seqlogic]: Downloading https://files.pythonhosted.org/packages/d1/54/26b010a875e3e76a7b393d39e80e8c31f7cb0cb0579a38eeb2b95e1465dc/seqlogic-0.0.8.tar.gz
+[2024-04-29 06:40:32] INFO root fetch - processPackages [simulation-engine]: Downloading https://files.pythonhosted.org/packages/8a/3d/6f6df07fd27859980a00acea0519123cab5cb55aa1cf98f14dfb086549b6/simulation-engine-1.0.0.tar.gz
+[2024-04-29 06:40:32] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2024-04-29 06:40:32] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.4.0a1714110241.tar.gz tmp/pulumi_keycloak-5.4.0a1714364451.tar.gz --markdown 20240429/p/pulumi-keycloak/5.4.0a1714110241-5.4.0a1714364451/README.md --exclude *.pyd
+[2024-04-29 06:40:32] INFO root fetch - processPackages [simulation-engine]: executing diffoscope
+[2024-04-29 06:40:32] INFO root fetch - processPackages [simulation-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simulation_engine-0.1.9.tar.gz tmp/simulation-engine-1.0.0.tar.gz --markdown 20240429/s/simulation-engine/0.1.9-1.0.0/README.md --exclude *.pyd
+[2024-04-29 06:40:32] INFO root fetch - processPackages [seqlogic]: executing diffoscope
+[2024-04-29 06:40:32] INFO root fetch - processPackages [seqlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqlogic-0.0.7.tar.gz tmp/seqlogic-0.0.8.tar.gz --markdown 20240429/s/seqlogic/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-29 06:40:32] INFO root fetch - processPackages [pyprql]: executing diffoscope
+[2024-04-29 06:40:32] INFO root fetch - processPackages [pyprql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprql-0.8.0.tar.gz tmp/pyprql-0.9.0.tar.gz --markdown 20240429/p/pyprql/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-29 06:40:32] INFO root fetch - processPackages [simulation-engine]: Remove: archive file [/home/abi/fetcher/tmp/simulation_engine-0.1.9.tar.gz]
+[2024-04-29 06:40:32] INFO root fetch - processPackages [simulation-engine]: Remove: archive file [/home/abi/fetcher/tmp/simulation-engine-1.0.0.tar.gz]
+[2024-04-29 06:40:32] INFO root fetch - main [MainThread]: End processing [simulation-engine]: success
+[2024-04-29 06:40:33] INFO root fetch - processPackages [pyprql]: Remove: archive file [/home/abi/fetcher/tmp/pyprql-0.8.0.tar.gz]
+[2024-04-29 06:40:33] INFO root fetch - processPackages [pyprql]: Remove: archive file [/home/abi/fetcher/tmp/pyprql-0.9.0.tar.gz]
+[2024-04-29 06:40:33] INFO root fetch - main [MainThread]: End processing [pyprql]: success
+[2024-04-29 06:40:33] INFO root fetch - processPackages [seqlogic]: Remove: archive file [/home/abi/fetcher/tmp/seqlogic-0.0.7.tar.gz]
+[2024-04-29 06:40:33] INFO root fetch - processPackages [seqlogic]: Remove: archive file [/home/abi/fetcher/tmp/seqlogic-0.0.8.tar.gz]
+[2024-04-29 06:40:33] INFO root fetch - main [MainThread]: End processing [seqlogic]: success
+[2024-04-29 06:40:33] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1714110241.tar.gz]
+[2024-04-29 06:40:33] INFO root fetch - processPackages [pulumi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_keycloak-5.4.0a1714364451.tar.gz]
+[2024-04-29 06:40:33] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2024-04-29 06:40:33] INFO root fetch - main [MainThread]: Store serial: [22978724]
