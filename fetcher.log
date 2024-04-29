@@ -21148,3 +21148,32 @@ EOFError: EOF read where object expected
 [2024-04-29 15:29:37] INFO root fetch - processPackages [nestipy]: Remove: archive file [/home/abi/fetcher/tmp/nestipy-0.2.9.tar.gz]
 [2024-04-29 15:29:37] INFO root fetch - main [MainThread]: End processing [nestipy]: success
 [2024-04-29 15:29:37] INFO root fetch - main [MainThread]: Store serial: [22984302]
+[2024-04-29 15:31:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22984302]
+[2024-04-29 15:31:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 15:31:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: music-assistant
+[2024-04-29 15:31:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paloalto-panorama-sdk
+[2024-04-29 15:31:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: roodmus
+[2024-04-29 15:31:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openwind
+[2024-04-29 15:31:46] INFO root fetch - processPackages [roodmus]: New version: [0.0.31] Old Version: [0.0.24]
+[2024-04-29 15:31:46] WARNING root fetch - processPackages [paloalto-panorama-sdk]: Skipping, unable to determine old version
+[2024-04-29 15:31:46] INFO root fetch - main [MainThread]: End processing [paloalto-panorama-sdk] error
+[2024-04-29 15:31:46] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b142] Old Version: [2.0.0b141]
+[2024-04-29 15:31:46] INFO root fetch - processPackages [openwind]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-29 15:31:46] INFO root fetch - processPackages [roodmus]: Downloading https://files.pythonhosted.org/packages/dc/5b/c4f165831fb5d644848e9d16c0c34c781220470ae78cdff4787ef3940f80/roodmus-0.0.24.tar.gz
+[2024-04-29 15:31:46] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/db/44/3443b2c02aaa0663e8c07a79538adb0e1f0386c347b04aede4300e7b0958/music_assistant-2.0.0b141.tar.gz
+[2024-04-29 15:31:46] INFO root fetch - processPackages [openwind]: Downloading https://files.pythonhosted.org/packages/bc/1a/a60c857be260d5493d3aea86d1d8f87b93175ec44b226375fa261876c93d/openwind-0.9.2.tar.gz
+[2024-04-29 15:31:47] INFO root fetch - processPackages [roodmus]: Downloading https://files.pythonhosted.org/packages/d8/92/e9917662265a081421c83e20bf96e030f99b2868c44433c62aaee97f2039/roodmus-0.0.31.tar.gz
+[2024-04-29 15:31:47] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 16936228>=10485760
+[2024-04-29 15:31:47] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2024-04-29 15:31:47] INFO root fetch - processPackages [roodmus]: executing diffoscope
+[2024-04-29 15:31:47] INFO root fetch - processPackages [roodmus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roodmus-0.0.24.tar.gz tmp/roodmus-0.0.31.tar.gz --markdown 20240429/r/roodmus/0.0.24-0.0.31/README.md --exclude *.pyd
+[2024-04-29 15:31:47] INFO root fetch - processPackages [openwind]: Downloading https://files.pythonhosted.org/packages/0d/b8/9997f8cc75e6c4cb6f9f11f7c889cc5abf33ffbf6f2bb0c3764410a8bede/openwind-0.9.3.tar.gz
+[2024-04-29 15:31:47] INFO root fetch - processPackages [openwind]: executing diffoscope
+[2024-04-29 15:31:47] INFO root fetch - processPackages [openwind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openwind-0.9.2.tar.gz tmp/openwind-0.9.3.tar.gz --markdown 20240429/o/openwind/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-29 15:31:48] INFO root fetch - processPackages [roodmus]: Remove: archive file [/home/abi/fetcher/tmp/roodmus-0.0.24.tar.gz]
+[2024-04-29 15:31:48] INFO root fetch - processPackages [roodmus]: Remove: archive file [/home/abi/fetcher/tmp/roodmus-0.0.31.tar.gz]
+[2024-04-29 15:31:48] INFO root fetch - main [MainThread]: End processing [roodmus]: success
+[2024-04-29 15:31:48] INFO root fetch - processPackages [openwind]: Remove: archive file [/home/abi/fetcher/tmp/openwind-0.9.2.tar.gz]
+[2024-04-29 15:31:48] INFO root fetch - processPackages [openwind]: Remove: archive file [/home/abi/fetcher/tmp/openwind-0.9.3.tar.gz]
+[2024-04-29 15:31:48] INFO root fetch - main [MainThread]: End processing [openwind]: success
+[2024-04-29 15:31:48] INFO root fetch - main [MainThread]: Store serial: [22984318]
