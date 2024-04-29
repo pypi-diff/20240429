@@ -18361,3 +18361,79 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 14:10:47] INFO root fetch - processPackages [acmecse-test]: Remove: archive file [/home/abi/fetcher/tmp/acmecse_test-2024.4.4-py3-none-any.whl.zip]
 [2024-04-29 14:10:47] INFO root fetch - main [MainThread]: End processing [acmecse-test]: success
 [2024-04-29 14:10:47] INFO root fetch - main [MainThread]: Store serial: [22983149]
+[2024-04-29 14:12:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22983149]
+[2024-04-29 14:12:55] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-29 14:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: demo-avis
+[2024-04-29 14:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-awscdk-resolver
+[2024-04-29 14:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyPowerStore
+[2024-04-29 14:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rats-pipelines
+[2024-04-29 14:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rats-apps
+[2024-04-29 14:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s
+[2024-04-29 14:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rats-processors
+[2024-04-29 14:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk8s
+[2024-04-29 14:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: petitRADTRANS
+[2024-04-29 14:12:56] INFO root fetch - processPackages [petitRADTRANS]: New version: [2.7.7] Old Version: [2.7.6]
+[2024-04-29 14:12:56] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-29 14:12:56] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-29 14:12:56] WARNING root fetch - processPackages [demo-avis]: Skipping, unable to determine old version
+[2024-04-29 14:12:56] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: New version: [0.0.90] Old Version: [0.0.9]
+[2024-04-29 14:12:56] INFO root fetch - main [MainThread]: End processing [demo-avis] error
+[2024-04-29 14:12:56] INFO root fetch - processPackages [PyPowerStore]: New version: [3.2.0.0] Old Version: [3.1.0.0]
+[2024-04-29 14:12:56] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-29 14:12:56] INFO root fetch - processPackages [rats-processors]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-29 14:12:56] INFO root fetch - processPackages [rats-apps]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-29 14:12:56] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2024-04-29 14:12:56] INFO root fetch - processPackages [petitRADTRANS]: Downloading https://files.pythonhosted.org/packages/17/a5/a7d711219fe1876bbe87b9ac5e9774b39ea58cb091c117a02124e6fedc16/petitRADTRANS-2.7.6.tar.gz
+[2024-04-29 14:12:56] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2024-04-29 14:12:56] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/e4/ba/3b1af2b8b411cdb77e57e6b1d4e656a18d1c62c5fddbd831b369378f4fbd/cdk8s-awscdk-resolver-0.0.9.tar.gz
+[2024-04-29 14:12:56] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/2b/ac/7cdd84e9d923505e71fd914f800c3d7199d0e4a098aa8259413f06395c30/rats_apps-0.1.3.dev8-py3-none-any.whl
+[2024-04-29 14:12:56] INFO root fetch - processPackages [PyPowerStore]: Downloading https://files.pythonhosted.org/packages/39/fd/a5fc2a38c746f4c1addf6c73f9487c8bacdd5f1bdc3b0fd69304dbf0c7d6/PyPowerStore-3.1.0.0.tar.gz
+[2024-04-29 14:12:56] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/ec/dd/e1571a4a4be4a6e8a24f82ab1b058ced7ac30426c5fa734e21c3bb791cd1/rats_pipelines-0.1.3.dev8-py3-none-any.whl
+[2024-04-29 14:12:56] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/ee/14/9e43a65d4c611c1fd72f73131b77c7f2d0b9dec99834658b01571114c849/rats_processors-0.1.3.dev8-py3-none-any.whl
+[2024-04-29 14:12:56] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2024-04-29 14:12:56] INFO root fetch - processPackages [petitRADTRANS]: Downloading https://files.pythonhosted.org/packages/5d/dc/88c2436295951956dea2e4344483ecd8b08784e835de1f6e4f4e248966a3/petitRADTRANS-2.7.7.tar.gz
+[2024-04-29 14:12:56] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2024-04-29 14:12:56] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2024-04-29 14:12:56] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20240429/c/cdk8s/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-04-29 14:12:56] INFO root fetch - processPackages [petitRADTRANS]: executing diffoscope
+[2024-04-29 14:12:56] INFO root fetch - processPackages [petitRADTRANS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petitRADTRANS-2.7.6.tar.gz tmp/petitRADTRANS-2.7.7.tar.gz --markdown 20240429/p/petitRADTRANS/2.7.6-2.7.7/README.md --exclude *.pyd
+[2024-04-29 14:12:57] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2024-04-29 14:12:57] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20240429/c/cdk8s/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-04-29 14:12:57] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/63/25/d3d6e41dfb5bd98bcbf7f79d3856cc774212467e002a6abf0eb6cd14bd96/rats_apps-0.1.3.dev9-py3-none-any.whl
+[2024-04-29 14:12:57] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/e7/8d/a13e78a2bb2c0ebebefaad3af24c7c58b035bd300b60a2d6d52bed6786db/cdk8s-awscdk-resolver-0.0.90.tar.gz
+[2024-04-29 14:12:57] INFO root fetch - processPackages [PyPowerStore]: Downloading https://files.pythonhosted.org/packages/1e/31/87bb8974741cc17c4d800922db07715dfd53f23e6011d4e7cf612a5a3abd/PyPowerStore-3.2.0.0.tar.gz
+[2024-04-29 14:12:57] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/b8/2d/79bd6c94d590e76f61506daaf64bbb07726287dd538e4b8a5d5a3fd64ad7/rats_pipelines-0.1.3.dev9-py3-none-any.whl
+[2024-04-29 14:12:57] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-04-29 14:12:57] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240429/r/rats-apps/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-29 14:12:57] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/83/b6/122ea8648f16d78861cb7c33e0f599e2421b03f295f46bbf34d66c3d399a/rats_processors-0.1.3.dev9-py3-none-any.whl
+[2024-04-29 14:12:57] INFO root fetch - processPackages [PyPowerStore]: executing diffoscope
+[2024-04-29 14:12:57] INFO root fetch - processPackages [PyPowerStore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPowerStore-3.1.0.0.tar.gz tmp/PyPowerStore-3.2.0.0.tar.gz --markdown 20240429/P/PyPowerStore/3.1.0.0-3.2.0.0/README.md --exclude *.pyd
+[2024-04-29 14:12:57] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: executing diffoscope
+[2024-04-29 14:12:57] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-awscdk-resolver-0.0.9.tar.gz tmp/cdk8s-awscdk-resolver-0.0.90.tar.gz --markdown 20240429/c/cdk8s-awscdk-resolver/0.0.9-0.0.90/README.md --exclude *.pyd
+[2024-04-29 14:12:57] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-29 14:12:57] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240429/r/rats-pipelines/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-29 14:12:57] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-04-29 14:12:57] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240429/r/rats-processors/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-29 14:12:58] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2024-04-29 14:12:58] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2024-04-29 14:12:58] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2024-04-29 14:12:58] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2024-04-29 14:12:58] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-29 14:12:58] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-29 14:12:58] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-04-29 14:12:58] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.9.tar.gz]
+[2024-04-29 14:12:58] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.90.tar.gz]
+[2024-04-29 14:12:58] INFO root fetch - main [MainThread]: End processing [cdk8s-awscdk-resolver]: success
+[2024-04-29 14:12:58] INFO root fetch - processPackages [PyPowerStore]: Remove: archive file [/home/abi/fetcher/tmp/PyPowerStore-3.1.0.0.tar.gz]
+[2024-04-29 14:12:58] INFO root fetch - processPackages [PyPowerStore]: Remove: archive file [/home/abi/fetcher/tmp/PyPowerStore-3.2.0.0.tar.gz]
+[2024-04-29 14:12:58] INFO root fetch - main [MainThread]: End processing [PyPowerStore]: success
+[2024-04-29 14:12:58] INFO root fetch - processPackages [petitRADTRANS]: Remove: archive file [/home/abi/fetcher/tmp/petitRADTRANS-2.7.6.tar.gz]
+[2024-04-29 14:12:58] INFO root fetch - processPackages [petitRADTRANS]: Remove: archive file [/home/abi/fetcher/tmp/petitRADTRANS-2.7.7.tar.gz]
+[2024-04-29 14:12:58] INFO root fetch - main [MainThread]: End processing [petitRADTRANS]: success
+[2024-04-29 14:12:58] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-29 14:12:58] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-29 14:12:58] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-29 14:12:58] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-29 14:12:58] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-29 14:12:58] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-04-29 14:12:58] INFO root fetch - main [MainThread]: Store serial: [22983175]
