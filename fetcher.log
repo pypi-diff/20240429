@@ -10200,3 +10200,37 @@
 [2024-04-29 08:50:39] INFO root fetch - processPackages [quadpy]: Remove: archive file [/home/abi/fetcher/tmp/quadpy-0.17.19-py3-none-any.whl.zip]
 [2024-04-29 08:50:39] INFO root fetch - main [MainThread]: End processing [quadpy]: success
 [2024-04-29 08:50:39] INFO root fetch - main [MainThread]: Store serial: [22979646]
+[2024-04-29 08:52:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979646]
+[2024-04-29 08:52:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 08:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: petsc
+[2024-04-29 08:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glyphsLib
+[2024-04-29 08:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cynetdiff
+[2024-04-29 08:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jetline
+[2024-04-29 08:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: didi-notebook-extension
+[2024-04-29 08:52:49] INFO root fetch - processPackages [cynetdiff]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 08:52:49] INFO root fetch - processPackages [jetline]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 08:52:49] INFO root fetch - processPackages [cynetdiff]: Downloading https://files.pythonhosted.org/packages/99/58/9587d98e22f845c3d3bf3021a5f276af34ed00486be48947751c66768de1/cynetdiff-0.1.8.tar.gz
+[2024-04-29 08:52:49] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/14/d7/4b17ee6567b17ad4eec9a6e6ceded1190275544e45e07f7b10971d03dc9f/jetline-0.1.8.tar.gz
+[2024-04-29 08:52:49] INFO root fetch - processPackages [petsc]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-04-29 08:52:49] INFO root fetch - processPackages [glyphsLib]: New version: [6.7.1] Old Version: [6.7.0b1]
+[2024-04-29 08:52:49] WARNING root fetch - processPackages [didi-notebook-extension]: Skipping, unable to determine old version
+[2024-04-29 08:52:49] INFO root fetch - main [MainThread]: End processing [didi-notebook-extension] error
+[2024-04-29 08:52:49] INFO root fetch - processPackages [petsc]: Downloading https://files.pythonhosted.org/packages/e6/6c/555ad15fd1f9f2d8a044577c2df9fe855a7cd0f47d2716ebf478a2ca0a37/petsc-3.9.1.tar.gz
+[2024-04-29 08:52:49] INFO root fetch - processPackages [glyphsLib]: Downloading https://files.pythonhosted.org/packages/e4/95/d24377ff0bf3389f0a739e39a24c21002a6718ecda6b1c1d3ce1f87b789c/glyphsLib-6.7.0b1.tar.gz
+[2024-04-29 08:52:49] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/e3/52/ee8efe5ee3940966b4c7e8b471dd88336c2950833a0dd4b4854cce8f181b/jetline-0.1.9.tar.gz
+[2024-04-29 08:52:49] WARNING root fetch - processPackages [glyphsLib]: Skipping package: exceeds size limit 25917555>=10485760
+[2024-04-29 08:52:49] INFO root fetch - main [MainThread]: End processing [glyphsLib] error
+[2024-04-29 08:52:49] INFO root fetch - processPackages [cynetdiff]: Downloading https://files.pythonhosted.org/packages/e7/ce/ab41ce041dbbf4ecd0e9bcb4ad282ffb19b8cdb3aa9ef0d124d08ddfd70f/cynetdiff-0.1.9.tar.gz
+[2024-04-29 08:52:49] INFO root fetch - processPackages [jetline]: executing diffoscope
+[2024-04-29 08:52:49] INFO root fetch - processPackages [jetline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetline-0.1.8.tar.gz tmp/jetline-0.1.9.tar.gz --markdown 20240429/j/jetline/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 08:52:49] INFO root fetch - processPackages [cynetdiff]: executing diffoscope
+[2024-04-29 08:52:49] INFO root fetch - processPackages [cynetdiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cynetdiff-0.1.8.tar.gz tmp/cynetdiff-0.1.9.tar.gz --markdown 20240429/c/cynetdiff/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 08:52:50] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.1.8.tar.gz]
+[2024-04-29 08:52:50] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.1.9.tar.gz]
+[2024-04-29 08:52:50] INFO root fetch - main [MainThread]: End processing [jetline]: success
+[2024-04-29 08:52:50] WARNING root fetch - processPackages [petsc]: Skipping package: exceeds size limit 11609124>=10485760
+[2024-04-29 08:52:50] INFO root fetch - main [MainThread]: End processing [petsc] error
+[2024-04-29 08:52:51] INFO root fetch - processPackages [cynetdiff]: Remove: archive file [/home/abi/fetcher/tmp/cynetdiff-0.1.8.tar.gz]
+[2024-04-29 08:52:51] INFO root fetch - processPackages [cynetdiff]: Remove: archive file [/home/abi/fetcher/tmp/cynetdiff-0.1.9.tar.gz]
+[2024-04-29 08:52:51] INFO root fetch - main [MainThread]: End processing [cynetdiff]: success
+[2024-04-29 08:52:51] INFO root fetch - main [MainThread]: Store serial: [22979673]
