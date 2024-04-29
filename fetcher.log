@@ -11974,3 +11974,71 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 10:14:26] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc99.post1.tar.gz]
 [2024-04-29 10:14:26] INFO root fetch - main [MainThread]: End processing [scematk]: success
 [2024-04-29 10:14:26] INFO root fetch - main [MainThread]: Store serial: [22980455]
+[2024-04-29 10:16:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980455]
+[2024-04-29 10:16:35] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-29 10:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: secretscraper
+[2024-04-29 10:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: databricks-connect
+[2024-04-29 10:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cg
+[2024-04-29 10:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gcp-pal
+[2024-04-29 10:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fetch-sitemap
+[2024-04-29 10:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sempyro
+[2024-04-29 10:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: esphome-dashboard
+[2024-04-29 10:16:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hydrobricks
+[2024-04-29 10:16:35] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.61] Old Version: [9.1.60]
+[2024-04-29 10:16:35] INFO root fetch - processPackages [cg]: New version: [60.4.8] Old Version: [60.4.7]
+[2024-04-29 10:16:35] INFO root fetch - processPackages [sempyro]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-29 10:16:35] INFO root fetch - processPackages [gcp-pal]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-29 10:16:35] INFO root fetch - processPackages [esphome-dashboard]: New version: [20240429.1] Old Version: [20240412.0]
+[2024-04-29 10:16:35] INFO root fetch - processPackages [secretscraper]: New version: [1.3.7.1] Old Version: [1.3.6]
+[2024-04-29 10:16:35] INFO root fetch - processPackages [fetch-sitemap]: New version: [9] Old Version: [7]
+[2024-04-29 10:16:35] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/65/2a/1910d32760133d3e5316a1f137d5531bf07376a48d19ca159e2b81c48641/databricks-connect-9.1.60.tar.gz
+[2024-04-29 10:16:35] INFO root fetch - processPackages [hydrobricks]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-29 10:16:35] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/ae/27/314f0b4793e67e0f4bf19978a60bdfc2d183cb45460b764e8f28e917bd99/cg-60.4.7.tar.gz
+[2024-04-29 10:16:35] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257323249>=10485760
+[2024-04-29 10:16:35] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2024-04-29 10:16:35] INFO root fetch - processPackages [gcp-pal]: Downloading https://files.pythonhosted.org/packages/6a/6d/6b0daa6525fd353cbcc6000e75fad8b2ea3492f884c043613aea7db39daf/gcp_pal-1.0.4.tar.gz
+[2024-04-29 10:16:35] INFO root fetch - processPackages [fetch-sitemap]: Downloading https://files.pythonhosted.org/packages/fa/3b/9857ac05cf828115e1c8350df11ddffbc02df2e961759f067d1c936cbc8c/fetch-sitemap-7.tar.gz
+[2024-04-29 10:16:35] INFO root fetch - processPackages [sempyro]: Downloading https://files.pythonhosted.org/packages/95/f6/72445b965ac1f44fc8fcf5fc21359a6c966ee33e9086303a31d0aa289507/sempyro-1.1.0.tar.gz
+[2024-04-29 10:16:35] INFO root fetch - processPackages [secretscraper]: Downloading https://files.pythonhosted.org/packages/20/36/e82e599451927ed62c1b9c3045727f291e9c1ebef9d46b3ccb0cef7d948c/secretscraper-1.3.6.tar.gz
+[2024-04-29 10:16:36] INFO root fetch - processPackages [esphome-dashboard]: Downloading https://files.pythonhosted.org/packages/ad/1f/583c28b40593bb320eeeddcb9937dad69195ccfaaf076f2d4838cc6aff46/esphome-dashboard-20240412.0.tar.gz
+[2024-04-29 10:16:36] INFO root fetch - processPackages [hydrobricks]: Downloading https://files.pythonhosted.org/packages/64/88/69e8633926ea1b4f06cc52c2c397c686990c013ce93c7d93c0791d41fe62/hydrobricks-0.7.1.tar.gz
+[2024-04-29 10:16:36] INFO root fetch - processPackages [gcp-pal]: Downloading https://files.pythonhosted.org/packages/47/53/acda58f870fb8c9aed4f166fdb2683b5ee65b99e92f6f8ee739bbe3dc2d3/gcp_pal-1.0.5.tar.gz
+[2024-04-29 10:16:36] INFO root fetch - processPackages [secretscraper]: Downloading https://files.pythonhosted.org/packages/07/72/551150c3f878c57de1d0ddfe46ca837fa62e4766a4af590e92fb88d03cc5/secretscraper-1.3.7.1.tar.gz
+[2024-04-29 10:16:36] INFO root fetch - processPackages [fetch-sitemap]: Downloading https://files.pythonhosted.org/packages/2d/c0/001895b4f74f5715cfdd4783292ea04f3fa5d8f1cced5e162f58ed06a690/fetch_sitemap-9.tar.gz
+[2024-04-29 10:16:36] INFO root fetch - processPackages [gcp-pal]: executing diffoscope
+[2024-04-29 10:16:36] INFO root fetch - processPackages [gcp-pal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcp_pal-1.0.4.tar.gz tmp/gcp_pal-1.0.5.tar.gz --markdown 20240429/g/gcp-pal/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-29 10:16:36] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6d/8a/0fe96c62aae3c6ee2fd8c01bad8b4bc5cdd27f1a79c3475f16908c3aeae2/cg-60.4.8.tar.gz
+[2024-04-29 10:16:36] INFO root fetch - processPackages [secretscraper]: executing diffoscope
+[2024-04-29 10:16:36] INFO root fetch - processPackages [secretscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretscraper-1.3.6.tar.gz tmp/secretscraper-1.3.7.1.tar.gz --markdown 20240429/s/secretscraper/1.3.6-1.3.7.1/README.md --exclude *.pyd
+[2024-04-29 10:16:36] INFO root fetch - processPackages [hydrobricks]: Downloading https://files.pythonhosted.org/packages/54/58/03a41de5f04539bf460649766f9d74b84bed0e26da55086ac00899723a5c/hydrobricks-0.7.2.tar.gz
+[2024-04-29 10:16:36] INFO root fetch - processPackages [fetch-sitemap]: executing diffoscope
+[2024-04-29 10:16:36] INFO root fetch - processPackages [fetch-sitemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fetch-sitemap-7.tar.gz tmp/fetch_sitemap-9.tar.gz --markdown 20240429/f/fetch-sitemap/7-9/README.md --exclude *.pyd
+[2024-04-29 10:16:36] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-29 10:16:36] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.4.7.tar.gz tmp/cg-60.4.8.tar.gz --markdown 20240429/c/cg/60.4.7-60.4.8/README.md --exclude *.pyd
+[2024-04-29 10:16:36] INFO root fetch - processPackages [hydrobricks]: executing diffoscope
+[2024-04-29 10:16:36] INFO root fetch - processPackages [hydrobricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrobricks-0.7.1.tar.gz tmp/hydrobricks-0.7.2.tar.gz --markdown 20240429/h/hydrobricks/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-04-29 10:16:37] INFO root fetch - processPackages [esphome-dashboard]: Downloading https://files.pythonhosted.org/packages/a0/23/4b670fdb351bfcf1a208e1494c2c13b5762bcb9757615c508b81e56ff8d1/esphome_dashboard-20240429.1.tar.gz
+[2024-04-29 10:16:37] INFO root fetch - processPackages [fetch-sitemap]: Remove: archive file [/home/abi/fetcher/tmp/fetch-sitemap-7.tar.gz]
+[2024-04-29 10:16:37] INFO root fetch - processPackages [fetch-sitemap]: Remove: archive file [/home/abi/fetcher/tmp/fetch_sitemap-9.tar.gz]
+[2024-04-29 10:16:37] INFO root fetch - main [MainThread]: End processing [fetch-sitemap]: success
+[2024-04-29 10:16:37] INFO root fetch - processPackages [gcp-pal]: Remove: archive file [/home/abi/fetcher/tmp/gcp_pal-1.0.4.tar.gz]
+[2024-04-29 10:16:37] INFO root fetch - processPackages [gcp-pal]: Remove: archive file [/home/abi/fetcher/tmp/gcp_pal-1.0.5.tar.gz]
+[2024-04-29 10:16:37] INFO root fetch - main [MainThread]: End processing [gcp-pal]: success
+[2024-04-29 10:16:37] INFO root fetch - processPackages [secretscraper]: Remove: archive file [/home/abi/fetcher/tmp/secretscraper-1.3.6.tar.gz]
+[2024-04-29 10:16:37] INFO root fetch - processPackages [secretscraper]: Remove: archive file [/home/abi/fetcher/tmp/secretscraper-1.3.7.1.tar.gz]
+[2024-04-29 10:16:37] INFO root fetch - main [MainThread]: End processing [secretscraper]: success
+[2024-04-29 10:16:37] INFO root fetch - processPackages [hydrobricks]: Remove: archive file [/home/abi/fetcher/tmp/hydrobricks-0.7.1.tar.gz]
+[2024-04-29 10:16:37] INFO root fetch - processPackages [hydrobricks]: Remove: archive file [/home/abi/fetcher/tmp/hydrobricks-0.7.2.tar.gz]
+[2024-04-29 10:16:37] INFO root fetch - main [MainThread]: End processing [hydrobricks]: success
+[2024-04-29 10:16:37] INFO root fetch - processPackages [sempyro]: Downloading https://files.pythonhosted.org/packages/92/11/73838195611977efa914295b24b69d2a31fa3078dd8b17d408e898f56e39/sempyro-1.2.0.tar.gz
+[2024-04-29 10:16:37] WARNING root fetch - processPackages [sempyro]: Skipping package: exceeds size limit 15378934>=10485760
+[2024-04-29 10:16:37] INFO root fetch - main [MainThread]: End processing [sempyro] error
+[2024-04-29 10:16:38] INFO root fetch - processPackages [esphome-dashboard]: executing diffoscope
+[2024-04-29 10:16:38] INFO root fetch - processPackages [esphome-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-dashboard-20240412.0.tar.gz tmp/esphome_dashboard-20240429.1.tar.gz --markdown 20240429/e/esphome-dashboard/20240412.0-20240429.1/README.md --exclude *.pyd
+[2024-04-29 10:16:41] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.4.7.tar.gz]
+[2024-04-29 10:16:41] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.4.8.tar.gz]
+[2024-04-29 10:16:41] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-29 10:17:22] INFO root fetch - processPackages [esphome-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/esphome-dashboard-20240412.0.tar.gz]
+[2024-04-29 10:17:22] INFO root fetch - processPackages [esphome-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/esphome_dashboard-20240429.1.tar.gz]
+[2024-04-29 10:17:22] INFO root fetch - main [MainThread]: End processing [esphome-dashboard]: success
+[2024-04-29 10:17:22] INFO root fetch - main [MainThread]: Store serial: [22980480]
