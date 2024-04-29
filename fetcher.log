@@ -7573,3 +7573,36 @@
 [2024-04-29 05:48:18] INFO root fetch - processPackages [nonebot-adapter-qq]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_qq-1.4.4.tar.gz]
 [2024-04-29 05:48:18] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-qq]: success
 [2024-04-29 05:48:18] INFO root fetch - main [MainThread]: Store serial: [22978451]
+[2024-04-29 05:50:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978451]
+[2024-04-29 05:50:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 05:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qctrl-embedded-sdk
+[2024-04-29 05:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smtp-proxy
+[2024-04-29 05:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wikidot
+[2024-04-29 05:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rlbot-flatbuffers
+[2024-04-29 05:50:27] INFO root fetch - processPackages [wikidot]: New version: [3.0.6] Old Version: [3.0.5]
+[2024-04-29 05:50:27] INFO root fetch - processPackages [smtp-proxy]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-29 05:50:27] WARNING root fetch - processPackages [qctrl-embedded-sdk]: Skipping, unable to determine old version
+[2024-04-29 05:50:27] INFO root fetch - main [MainThread]: End processing [qctrl-embedded-sdk] error
+[2024-04-29 05:50:27] INFO root fetch - processPackages [rlbot-flatbuffers]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-29 05:50:27] INFO root fetch - processPackages [wikidot]: Downloading https://files.pythonhosted.org/packages/c7/9e/322c53144c49d55a65a4b2b08e25d29160c3500ae0cd017dd4266cedac15/wikidot-3.0.5.tar.gz
+[2024-04-29 05:50:27] INFO root fetch - processPackages [smtp-proxy]: Downloading https://files.pythonhosted.org/packages/00/d0/10c0cd9fde128570be755dc557b1eff27c341dd79b4d0e1e8c8e8aee1647/smtp_proxy-0.1.3.tar.gz
+[2024-04-29 05:50:28] INFO root fetch - processPackages [rlbot-flatbuffers]: Downloading https://files.pythonhosted.org/packages/42/2b/6257e605276cae426cf7a8aa5f8fd30eac9a54b096d3fca03a0d9ecdaed9/rlbot_flatbuffers-0.3.2.tar.gz
+[2024-04-29 05:50:28] INFO root fetch - processPackages [smtp-proxy]: Downloading https://files.pythonhosted.org/packages/e9/c8/e263dcef3c4d04d77d03adebb132b1dc23d633363e78392123896f28bd67/smtp_proxy-0.1.4.tar.gz
+[2024-04-29 05:50:28] INFO root fetch - processPackages [wikidot]: Downloading https://files.pythonhosted.org/packages/07/8c/d58df3e1ade3cbdb45b60aba748b7a447969622d90a944c9b2edc5c0efc3/wikidot-3.0.6.tar.gz
+[2024-04-29 05:50:28] INFO root fetch - processPackages [smtp-proxy]: executing diffoscope
+[2024-04-29 05:50:28] INFO root fetch - processPackages [smtp-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smtp_proxy-0.1.3.tar.gz tmp/smtp_proxy-0.1.4.tar.gz --markdown 20240429/s/smtp-proxy/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-29 05:50:28] INFO root fetch - processPackages [wikidot]: executing diffoscope
+[2024-04-29 05:50:28] INFO root fetch - processPackages [wikidot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikidot-3.0.5.tar.gz tmp/wikidot-3.0.6.tar.gz --markdown 20240429/w/wikidot/3.0.5-3.0.6/README.md --exclude *.pyd
+[2024-04-29 05:50:28] INFO root fetch - processPackages [smtp-proxy]: Remove: archive file [/home/abi/fetcher/tmp/smtp_proxy-0.1.3.tar.gz]
+[2024-04-29 05:50:28] INFO root fetch - processPackages [smtp-proxy]: Remove: archive file [/home/abi/fetcher/tmp/smtp_proxy-0.1.4.tar.gz]
+[2024-04-29 05:50:28] INFO root fetch - main [MainThread]: End processing [smtp-proxy]: success
+[2024-04-29 05:50:28] INFO root fetch - processPackages [wikidot]: Remove: archive file [/home/abi/fetcher/tmp/wikidot-3.0.5.tar.gz]
+[2024-04-29 05:50:28] INFO root fetch - processPackages [wikidot]: Remove: archive file [/home/abi/fetcher/tmp/wikidot-3.0.6.tar.gz]
+[2024-04-29 05:50:28] INFO root fetch - main [MainThread]: End processing [wikidot]: success
+[2024-04-29 05:50:29] INFO root fetch - processPackages [rlbot-flatbuffers]: Downloading https://files.pythonhosted.org/packages/2c/4a/7f1524d4ae297623b4c8381c409ed9ba339f70276c85a313539f3d070592/rlbot_flatbuffers-0.3.3.tar.gz
+[2024-04-29 05:50:30] INFO root fetch - processPackages [rlbot-flatbuffers]: executing diffoscope
+[2024-04-29 05:50:30] INFO root fetch - processPackages [rlbot-flatbuffers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlbot_flatbuffers-0.3.2.tar.gz tmp/rlbot_flatbuffers-0.3.3.tar.gz --markdown 20240429/r/rlbot-flatbuffers/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-29 05:50:32] INFO root fetch - processPackages [rlbot-flatbuffers]: Remove: archive file [/home/abi/fetcher/tmp/rlbot_flatbuffers-0.3.2.tar.gz]
+[2024-04-29 05:50:32] INFO root fetch - processPackages [rlbot-flatbuffers]: Remove: archive file [/home/abi/fetcher/tmp/rlbot_flatbuffers-0.3.3.tar.gz]
+[2024-04-29 05:50:32] INFO root fetch - main [MainThread]: End processing [rlbot-flatbuffers]: success
+[2024-04-29 05:50:32] INFO root fetch - main [MainThread]: Store serial: [22978473]
