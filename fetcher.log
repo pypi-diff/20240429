@@ -21929,3 +21929,133 @@ EOFError: EOF read where object expected
 [2024-04-29 15:42:58] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-04-29 15:42:58] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-04-29 15:42:58] INFO root fetch - main [MainThread]: Store serial: [22984545]
+[2024-04-29 15:45:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22984545]
+[2024-04-29 15:45:07] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-04-29 15:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: siwe
+[2024-04-29 15:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: secretvalidate
+[2024-04-29 15:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-custom-fieldsets
+[2024-04-29 15:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: appdynamics-bindeps-linux-x64
+[2024-04-29 15:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: JayttleProcess
+[2024-04-29 15:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: svtter-template-creator
+[2024-04-29 15:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bemagnetized
+[2024-04-29 15:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lightning-extensions
+[2024-04-29 15:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: threedi-schema
+[2024-04-29 15:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: appdynamics
+[2024-04-29 15:45:07] INFO root fetch - processPackages [secretvalidate]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-04-29 15:45:07] INFO root fetch - processPackages [threedi-schema]: New version: [0.222.dev1] Old Version: [0.222.dev0]
+[2024-04-29 15:45:07] WARNING root fetch - processPackages [bemagnetized]: Skipping, unable to determine old version
+[2024-04-29 15:45:07] INFO root fetch - processPackages [bemagnetized]: Start processing: gradio-molecule2d
+[2024-04-29 15:45:07] INFO root fetch - main [MainThread]: End processing [bemagnetized] error
+[2024-04-29 15:45:07] WARNING root fetch - processPackages [django-custom-fieldsets]: Skipping, unable to determine old version
+[2024-04-29 15:45:07] INFO root fetch - processPackages [django-custom-fieldsets]: Start processing: moonstreamdb
+[2024-04-29 15:45:07] INFO root fetch - main [MainThread]: End processing [django-custom-fieldsets] error
+[2024-04-29 15:45:07] INFO root fetch - processPackages [siwe]: New version: [3.0.0] Old Version: [2.4.1]
+[2024-04-29 15:45:07] INFO root fetch - processPackages [lightning-extensions]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-29 15:45:07] INFO root fetch - processPackages [JayttleProcess]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-29 15:45:07] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/2a/74/f1fedcd5b126c4af0184fc7bc616c4941f414eb51cc2fc523514708f3cae/secretvalidate-0.0.1a8.tar.gz
+[2024-04-29 15:45:07] INFO root fetch - processPackages [appdynamics-bindeps-linux-x64]: New version: [4.3.2.0] Old Version: [4.3.1.0]
+[2024-04-29 15:45:07] INFO root fetch - processPackages [threedi-schema]: Downloading https://files.pythonhosted.org/packages/f8/1a/f8878173243c129fe29995a0c90b5124c3df01897dd4274c1e79a9515060/threedi-schema-0.222.dev0.tar.gz
+[2024-04-29 15:45:07] INFO root fetch - processPackages [svtter-template-creator]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-04-29 15:45:07] INFO root fetch - processPackages [appdynamics]: New version: [4.5.8.0] Old Version: [4.5.7.0]
+[2024-04-29 15:45:07] WARNING root fetch - processPackages [gradio-molecule2d]: Skipping, unable to determine old version
+[2024-04-29 15:45:07] INFO root fetch - processPackages [gradio-molecule2d]: Start processing: nestipy-peewee
+[2024-04-29 15:45:07] INFO root fetch - main [MainThread]: End processing [gradio-molecule2d] error
+[2024-04-29 15:45:07] INFO root fetch - processPackages [moonstreamdb]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-29 15:45:07] INFO root fetch - processPackages [nestipy-peewee]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-29 15:45:07] INFO root fetch - processPackages [nestipy-peewee]: Downloading https://files.pythonhosted.org/packages/70/90/9e00ece9a14ba58d0a0ee78cf29ccbb323af4fcd5bb3e1cea0c17a1cb986/nestipy_peewee-0.1.2.tar.gz
+[2024-04-29 15:45:08] INFO root fetch - processPackages [appdynamics-bindeps-linux-x64]: Downloading https://files.pythonhosted.org/packages/b0/32/fe6233dbb333fbb9ff5127552143a28c144217aaeb58b0438e87d608e554/appdynamics_bindeps_linux_x64-4.3.1.0-cp34-none-any.whl
+[2024-04-29 15:45:08] INFO root fetch - processPackages [siwe]: Downloading https://files.pythonhosted.org/packages/5e/cf/7e1a9da9bd696d6e1b071c394fa4f35be27dce172451b4460ee7897f3b84/siwe-2.4.1.tar.gz
+[2024-04-29 15:45:08] INFO root fetch - processPackages [JayttleProcess]: Downloading https://files.pythonhosted.org/packages/f7/1e/124276072d65c2af50fb34a2e6f64bd77b18df502397500ff5ee5e7cee88/JayttleProcess-0.2.6-py3-none-any.whl
+[2024-04-29 15:45:08] INFO root fetch - processPackages [lightning-extensions]: Downloading https://files.pythonhosted.org/packages/63/2a/b1916875fdd39708d5076a7f97e208020cc9415f6368941fe8686dc5e63e/lightning_extensions-0.0.7.tar.gz
+[2024-04-29 15:45:08] INFO root fetch - processPackages [svtter-template-creator]: Downloading https://files.pythonhosted.org/packages/af/c4/ccb20745d32031af960f4534b68cd759b09cf4b60e811ef97c68c628804a/svtter_template_creator-0.6.1.tar.gz
+[2024-04-29 15:45:08] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/57/86/54b1f11aebe768d2014fd8f4bb1e90e29a764014e1104c5ccf64e6433d48/secretvalidate-0.0.1a9.tar.gz
+[2024-04-29 15:45:08] WARNING root fetch - processPackages [appdynamics-bindeps-linux-x64]: Skipping package: exceeds size limit 27672102>=10485760
+[2024-04-29 15:45:08] INFO root fetch - processPackages [appdynamics-bindeps-linux-x64]: Start processing: appdynamics-alpine
+[2024-04-29 15:45:08] INFO root fetch - main [MainThread]: End processing [appdynamics-bindeps-linux-x64] error
+[2024-04-29 15:45:08] INFO root fetch - processPackages [threedi-schema]: Downloading https://files.pythonhosted.org/packages/d0/e5/93aa48bea3e4fc58be7a5998f159840df82c4a8dbd0841898f7d5402ac36/threedi_schema-0.222.dev1.tar.gz
+[2024-04-29 15:45:08] INFO root fetch - processPackages [moonstreamdb]: Downloading https://files.pythonhosted.org/packages/24/5a/ed447d6f6b6fe4f51ce184b3c921639547f6e11f45c384781f8776c0bc76/moonstreamdb-0.4.2.tar.gz
+[2024-04-29 15:45:08] INFO root fetch - processPackages [appdynamics]: Downloading https://files.pythonhosted.org/packages/bf/ed/2040d8ec7088ec99dc304a4d8278bf79a1473d3c1de3cb284c1fc1bf7cdc/appdynamics-4.5.7.0-py2.py3-none-any.whl
+[2024-04-29 15:45:08] INFO root fetch - processPackages [secretvalidate]: executing diffoscope
+[2024-04-29 15:45:08] INFO root fetch - processPackages [secretvalidate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretvalidate-0.0.1a8.tar.gz tmp/secretvalidate-0.0.1a9.tar.gz --markdown 20240429/s/secretvalidate/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-04-29 15:45:08] INFO root fetch - processPackages [appdynamics-alpine]: New version: [24.4.1.6770] Old Version: [24.2.0.6567]
+[2024-04-29 15:45:08] INFO root fetch - processPackages [nestipy-peewee]: Downloading https://files.pythonhosted.org/packages/eb/cf/025406575f87be1bab51d0ccf1c761153364762b6c6a2018973b35224fd3/nestipy_peewee-0.1.3.tar.gz
+[2024-04-29 15:45:08] INFO root fetch - processPackages [threedi-schema]: executing diffoscope
+[2024-04-29 15:45:08] INFO root fetch - processPackages [threedi-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threedi-schema-0.222.dev0.tar.gz tmp/threedi_schema-0.222.dev1.tar.gz --markdown 20240429/t/threedi-schema/0.222.dev0-0.222.dev1/README.md --exclude *.pyd
+[2024-04-29 15:45:08] INFO root fetch - processPackages [nestipy-peewee]: executing diffoscope
+[2024-04-29 15:45:08] INFO root fetch - processPackages [nestipy-peewee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestipy_peewee-0.1.2.tar.gz tmp/nestipy_peewee-0.1.3.tar.gz --markdown 20240429/n/nestipy-peewee/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-29 15:45:08] INFO root fetch - processPackages [siwe]: Downloading https://files.pythonhosted.org/packages/64/ec/fa01ad574ffa13ecfe303ef9049d5b819ea85e288a8e74214c76d1e101fc/siwe-3.0.0.tar.gz
+[2024-04-29 15:45:08] INFO root fetch - processPackages [svtter-template-creator]: Downloading https://files.pythonhosted.org/packages/58/8b/ec7efdf5140aea45700e2d04fac2404a93352c99d34ff7dd777060d34d21/svtter_template_creator-0.7.0.tar.gz
+[2024-04-29 15:45:08] INFO root fetch - processPackages [JayttleProcess]: Downloading https://files.pythonhosted.org/packages/66/b8/6dd7ca14decbbb48fbc7100c98afe4f76902f0b1d11cb49616a4487c8800/JayttleProcess-0.2.7-py3-none-any.whl
+[2024-04-29 15:45:08] INFO root fetch - processPackages [moonstreamdb]: Downloading https://files.pythonhosted.org/packages/33/23/4cdd512e6c31b0e2a5d7d61a8ec25ae987da3d426ae49dfb7aceba26ae0d/moonstreamdb-0.4.3.tar.gz
+[2024-04-29 15:45:08] INFO root fetch - processPackages [appdynamics-alpine]: Downloading https://files.pythonhosted.org/packages/d6/a4/ecd2b1274d42f18b9e17dade47e0dc59fd285aca0af7be76a8da5bdbdeaa/appdynamics_alpine-24.2.0.6567-py2.py3-none-any.whl
+[2024-04-29 15:45:08] INFO root fetch - processPackages [siwe]: executing diffoscope
+[2024-04-29 15:45:08] INFO root fetch - processPackages [siwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siwe-2.4.1.tar.gz tmp/siwe-3.0.0.tar.gz --markdown 20240429/s/siwe/2.4.1-3.0.0/README.md --exclude *.pyd
+[2024-04-29 15:45:08] INFO root fetch - processPackages [svtter-template-creator]: executing diffoscope
+[2024-04-29 15:45:08] INFO root fetch - processPackages [svtter-template-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svtter_template_creator-0.6.1.tar.gz tmp/svtter_template_creator-0.7.0.tar.gz --markdown 20240429/s/svtter-template-creator/0.6.1-0.7.0/README.md --exclude *.pyd
+[2024-04-29 15:45:08] INFO root fetch - processPackages [appdynamics]: Downloading https://files.pythonhosted.org/packages/c1/39/9736ccc054ed982973efe45baf1491bf187e9431a105b163d6a087888d4b/appdynamics-4.5.8.0-py2.py3-none-any.whl
+[2024-04-29 15:45:08] INFO root fetch - processPackages [JayttleProcess]: executing diffoscope
+[2024-04-29 15:45:08] INFO root fetch - processPackages [JayttleProcess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JayttleProcess-0.2.6-py3-none-any.whl.zip tmp/JayttleProcess-0.2.7-py3-none-any.whl.zip --markdown 20240429/J/JayttleProcess/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-29 15:45:08] INFO root fetch - processPackages [moonstreamdb]: executing diffoscope
+[2024-04-29 15:45:08] INFO root fetch - processPackages [moonstreamdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonstreamdb-0.4.2.tar.gz tmp/moonstreamdb-0.4.3.tar.gz --markdown 20240429/m/moonstreamdb/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-04-29 15:45:08] INFO root fetch - processPackages [appdynamics]: executing diffoscope
+[2024-04-29 15:45:08] INFO root fetch - processPackages [appdynamics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appdynamics-4.5.7.0-py2.py3-none-any.whl.zip tmp/appdynamics-4.5.8.0-py2.py3-none-any.whl.zip --markdown 20240429/a/appdynamics/4.5.7.0-4.5.8.0/README.md --exclude *.pyd
+[2024-04-29 15:45:08] INFO root fetch - processPackages [lightning-extensions]: Downloading https://files.pythonhosted.org/packages/ec/19/979424f82665c27e0f4ade9d3c49a019d99654d0ac1df85e12134cb8fb8f/lightning_extensions-0.0.9.tar.gz
+[2024-04-29 15:45:09] INFO root fetch - processPackages [appdynamics-alpine]: Downloading https://files.pythonhosted.org/packages/4a/32/6950d351a953bae0fe813eee7a3d1ea8c29acee1c2a09f01f9c26cc125d1/appdynamics_alpine-24.4.1.6770-py2.py3-none-any.whl
+[2024-04-29 15:45:09] INFO root fetch - processPackages [lightning-extensions]: executing diffoscope
+[2024-04-29 15:45:09] INFO root fetch - processPackages [lightning-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning_extensions-0.0.7.tar.gz tmp/lightning_extensions-0.0.9.tar.gz --markdown 20240429/l/lightning-extensions/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-04-29 15:45:09] INFO root fetch - processPackages [appdynamics-alpine]: executing diffoscope
+[2024-04-29 15:45:09] INFO root fetch - processPackages [appdynamics-alpine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appdynamics_alpine-24.2.0.6567-py2.py3-none-any.whl.zip tmp/appdynamics_alpine-24.4.1.6770-py2.py3-none-any.whl.zip --markdown 20240429/a/appdynamics-alpine/24.2.0.6567-24.4.1.6770/README.md --exclude *.pyd
+[2024-04-29 15:45:09] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a8.tar.gz]
+[2024-04-29 15:45:09] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a9.tar.gz]
+[2024-04-29 15:45:09] INFO root fetch - processPackages [secretvalidate]: Start processing: opencti-excel-uploader
+[2024-04-29 15:45:09] INFO root fetch - main [MainThread]: End processing [secretvalidate]: success
+[2024-04-29 15:45:09] INFO root fetch - processPackages [opencti-excel-uploader]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-29 15:45:09] INFO root fetch - processPackages [opencti-excel-uploader]: Downloading https://files.pythonhosted.org/packages/7f/77/1307e56cd776cfebb55636cb5f2cb15a52bcb22f66e00919d6285700ebb4/opencti_excel_uploader-0.2.8.tar.gz
+[2024-04-29 15:45:09] INFO root fetch - processPackages [threedi-schema]: Remove: archive file [/home/abi/fetcher/tmp/threedi-schema-0.222.dev0.tar.gz]
+[2024-04-29 15:45:09] INFO root fetch - processPackages [threedi-schema]: Remove: archive file [/home/abi/fetcher/tmp/threedi_schema-0.222.dev1.tar.gz]
+[2024-04-29 15:45:09] INFO root fetch - processPackages [threedi-schema]: Start processing: uvx
+[2024-04-29 15:45:09] INFO root fetch - main [MainThread]: End processing [threedi-schema]: success
+[2024-04-29 15:45:09] INFO root fetch - processPackages [nestipy-peewee]: Remove: archive file [/home/abi/fetcher/tmp/nestipy_peewee-0.1.2.tar.gz]
+[2024-04-29 15:45:09] INFO root fetch - processPackages [nestipy-peewee]: Remove: archive file [/home/abi/fetcher/tmp/nestipy_peewee-0.1.3.tar.gz]
+[2024-04-29 15:45:09] INFO root fetch - processPackages [nestipy-peewee]: Start processing: appdynamics-bindeps-alpine-linux-x64
+[2024-04-29 15:45:09] INFO root fetch - main [MainThread]: End processing [nestipy-peewee]: success
+[2024-04-29 15:45:09] INFO root fetch - processPackages [opencti-excel-uploader]: Downloading https://files.pythonhosted.org/packages/08/21/739f84a5ec2b7af8dc93f7fba838b32f68e968c014b4980bc109510d3dd3/opencti_excel_uploader-0.2.9.tar.gz
+[2024-04-29 15:45:09] INFO root fetch - processPackages [uvx]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-04-29 15:45:09] INFO root fetch - processPackages [svtter-template-creator]: Remove: archive file [/home/abi/fetcher/tmp/svtter_template_creator-0.6.1.tar.gz]
+[2024-04-29 15:45:09] INFO root fetch - processPackages [svtter-template-creator]: Remove: archive file [/home/abi/fetcher/tmp/svtter_template_creator-0.7.0.tar.gz]
+[2024-04-29 15:45:09] INFO root fetch - main [MainThread]: End processing [svtter-template-creator]: success
+[2024-04-29 15:45:09] INFO root fetch - processPackages [siwe]: Remove: archive file [/home/abi/fetcher/tmp/siwe-2.4.1.tar.gz]
+[2024-04-29 15:45:09] INFO root fetch - processPackages [siwe]: Remove: archive file [/home/abi/fetcher/tmp/siwe-3.0.0.tar.gz]
+[2024-04-29 15:45:09] INFO root fetch - main [MainThread]: End processing [siwe]: success
+[2024-04-29 15:45:10] INFO root fetch - processPackages [appdynamics-bindeps-alpine-linux-x64]: New version: [24.3.0] Old Version: [24.2.0]
+[2024-04-29 15:45:10] INFO root fetch - processPackages [opencti-excel-uploader]: executing diffoscope
+[2024-04-29 15:45:10] INFO root fetch - processPackages [opencti-excel-uploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencti_excel_uploader-0.2.8.tar.gz tmp/opencti_excel_uploader-0.2.9.tar.gz --markdown 20240429/o/opencti-excel-uploader/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-29 15:45:10] INFO root fetch - processPackages [moonstreamdb]: Remove: archive file [/home/abi/fetcher/tmp/moonstreamdb-0.4.2.tar.gz]
+[2024-04-29 15:45:10] INFO root fetch - processPackages [moonstreamdb]: Remove: archive file [/home/abi/fetcher/tmp/moonstreamdb-0.4.3.tar.gz]
+[2024-04-29 15:45:10] INFO root fetch - main [MainThread]: End processing [moonstreamdb]: success
+[2024-04-29 15:45:10] INFO root fetch - processPackages [JayttleProcess]: Remove: archive file [/home/abi/fetcher/tmp/JayttleProcess-0.2.6-py3-none-any.whl.zip]
+[2024-04-29 15:45:10] INFO root fetch - processPackages [JayttleProcess]: Remove: archive file [/home/abi/fetcher/tmp/JayttleProcess-0.2.7-py3-none-any.whl.zip]
+[2024-04-29 15:45:10] INFO root fetch - main [MainThread]: End processing [JayttleProcess]: success
+[2024-04-29 15:45:10] INFO root fetch - processPackages [uvx]: Downloading https://files.pythonhosted.org/packages/ee/81/a37d1a6074a6efaa516f4337522b10b5f5badafcd05ba2e6577a9e95ecb2/uvx-2.0.5.tar.gz
+[2024-04-29 15:45:10] INFO root fetch - processPackages [appdynamics-bindeps-alpine-linux-x64]: Downloading https://files.pythonhosted.org/packages/11/32/ee17a6f7eed8892e5c63781e96cd0f72f1ebd00b7c50be998add37c6f5bf/appdynamics_bindeps_alpine_linux_x64-24.2.0-cp39-none-any.whl
+[2024-04-29 15:45:10] INFO root fetch - processPackages [lightning-extensions]: Remove: archive file [/home/abi/fetcher/tmp/lightning_extensions-0.0.7.tar.gz]
+[2024-04-29 15:45:10] INFO root fetch - processPackages [lightning-extensions]: Remove: archive file [/home/abi/fetcher/tmp/lightning_extensions-0.0.9.tar.gz]
+[2024-04-29 15:45:10] INFO root fetch - main [MainThread]: End processing [lightning-extensions]: success
+[2024-04-29 15:45:10] WARNING root fetch - processPackages [appdynamics-bindeps-alpine-linux-x64]: Skipping package: exceeds size limit 66042976>=10485760
+[2024-04-29 15:45:10] INFO root fetch - main [MainThread]: End processing [appdynamics-bindeps-alpine-linux-x64] error
+[2024-04-29 15:45:10] INFO root fetch - processPackages [uvx]: Downloading https://files.pythonhosted.org/packages/80/ba/68266034cd9db46a721544a706c19e5bb2710fa459bfb6400ad13fcfb602/uvx-2.0.6.tar.gz
+[2024-04-29 15:45:10] INFO root fetch - processPackages [appdynamics]: Remove: archive file [/home/abi/fetcher/tmp/appdynamics-4.5.7.0-py2.py3-none-any.whl.zip]
+[2024-04-29 15:45:10] INFO root fetch - processPackages [appdynamics]: Remove: archive file [/home/abi/fetcher/tmp/appdynamics-4.5.8.0-py2.py3-none-any.whl.zip]
+[2024-04-29 15:45:10] INFO root fetch - main [MainThread]: End processing [appdynamics]: success
+[2024-04-29 15:45:10] INFO root fetch - processPackages [uvx]: executing diffoscope
+[2024-04-29 15:45:10] INFO root fetch - processPackages [uvx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uvx-2.0.5.tar.gz tmp/uvx-2.0.6.tar.gz --markdown 20240429/u/uvx/2.0.5-2.0.6/README.md --exclude *.pyd
+[2024-04-29 15:45:10] INFO root fetch - processPackages [appdynamics-alpine]: Remove: archive file [/home/abi/fetcher/tmp/appdynamics_alpine-24.2.0.6567-py2.py3-none-any.whl.zip]
+[2024-04-29 15:45:10] INFO root fetch - processPackages [appdynamics-alpine]: Remove: archive file [/home/abi/fetcher/tmp/appdynamics_alpine-24.4.1.6770-py2.py3-none-any.whl.zip]
+[2024-04-29 15:45:10] INFO root fetch - main [MainThread]: End processing [appdynamics-alpine]: success
+[2024-04-29 15:45:10] INFO root fetch - processPackages [opencti-excel-uploader]: Remove: archive file [/home/abi/fetcher/tmp/opencti_excel_uploader-0.2.8.tar.gz]
+[2024-04-29 15:45:10] INFO root fetch - processPackages [opencti-excel-uploader]: Remove: archive file [/home/abi/fetcher/tmp/opencti_excel_uploader-0.2.9.tar.gz]
+[2024-04-29 15:45:10] INFO root fetch - main [MainThread]: End processing [opencti-excel-uploader]: success
+[2024-04-29 15:45:11] INFO root fetch - processPackages [uvx]: Remove: archive file [/home/abi/fetcher/tmp/uvx-2.0.5.tar.gz]
+[2024-04-29 15:45:11] INFO root fetch - processPackages [uvx]: Remove: archive file [/home/abi/fetcher/tmp/uvx-2.0.6.tar.gz]
+[2024-04-29 15:45:11] INFO root fetch - main [MainThread]: End processing [uvx]: success
+[2024-04-29 15:45:11] INFO root fetch - main [MainThread]: Store serial: [22984598]
