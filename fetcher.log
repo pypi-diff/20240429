@@ -1587,3 +1587,33 @@
 [2024-04-29 02:23:36] INFO root fetch - processPackages [cdktf-local-exec]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-local-exec-0.5.9.tar.gz]
 [2024-04-29 02:23:36] INFO root fetch - main [MainThread]: End processing [cdktf-local-exec]: success
 [2024-04-29 02:23:36] INFO root fetch - main [MainThread]: Store serial: [22971835]
+[2024-04-29 02:25:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971835]
+[2024-04-29 02:25:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 02:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-certbot-dns-route53
+[2024-04-29 02:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-serverless-clamscan
+[2024-04-29 02:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-cdk8s
+[2024-04-29 02:25:44] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.6.99] Old Version: [2.6.98]
+[2024-04-29 02:25:44] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-04-29 02:25:44] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/04/67/6fb0e00ee65986b766391e4327a7370cec35f8458c0c80507e3b56a79e57/cdk-serverless-clamscan-2.6.98.tar.gz
+[2024-04-29 02:25:44] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-04-29 02:25:44] INFO root fetch - processPackages [cdktf-cdk8s]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-29 02:25:44] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/53/8f/ea40546b0f696761a1aaeee533ca8a5f53147131c3aa1f0aa1316112f44f/cdk-serverless-clamscan-2.6.99.tar.gz
+[2024-04-29 02:25:44] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-04-29 02:25:44] INFO root fetch - processPackages [cdktf-cdk8s]: Downloading https://files.pythonhosted.org/packages/99/a9/22344888a8fca72d2966fa4f98932af4bdd98bcac60e5d091a8e0b304cce/cdktf-cdk8s-0.9.8.tar.gz
+[2024-04-29 02:25:44] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-04-29 02:25:44] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240429/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-04-29 02:25:45] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2024-04-29 02:25:45] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.6.98.tar.gz tmp/cdk-serverless-clamscan-2.6.99.tar.gz --markdown 20240429/c/cdk-serverless-clamscan/2.6.98-2.6.99/README.md --exclude *.pyd
+[2024-04-29 02:25:45] INFO root fetch - processPackages [cdktf-cdk8s]: Downloading https://files.pythonhosted.org/packages/20/45/51fb70e05adcb2ecf1886baf859815ec9ba32caaa0a97ffb3e4c544d7025/cdktf-cdk8s-0.9.9.tar.gz
+[2024-04-29 02:25:45] INFO root fetch - processPackages [cdktf-cdk8s]: executing diffoscope
+[2024-04-29 02:25:45] INFO root fetch - processPackages [cdktf-cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdk8s-0.9.8.tar.gz tmp/cdktf-cdk8s-0.9.9.tar.gz --markdown 20240429/c/cdktf-cdk8s/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-29 02:25:45] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-04-29 02:25:45] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-04-29 02:25:45] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-04-29 02:25:45] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.98.tar.gz]
+[2024-04-29 02:25:45] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.99.tar.gz]
+[2024-04-29 02:25:45] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2024-04-29 02:25:45] INFO root fetch - processPackages [cdktf-cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdk8s-0.9.8.tar.gz]
+[2024-04-29 02:25:45] INFO root fetch - processPackages [cdktf-cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdk8s-0.9.9.tar.gz]
+[2024-04-29 02:25:45] INFO root fetch - main [MainThread]: End processing [cdktf-cdk8s]: success
+[2024-04-29 02:25:45] INFO root fetch - main [MainThread]: Store serial: [22971856]
