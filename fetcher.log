@@ -8769,3 +8769,42 @@
 [2024-04-29 07:18:02] INFO root fetch - processPackages [sched2]: Remove: archive file [/home/abi/fetcher/tmp/sched2-0.8.1.tar.gz]
 [2024-04-29 07:18:02] INFO root fetch - main [MainThread]: End processing [sched2]: success
 [2024-04-29 07:18:02] INFO root fetch - main [MainThread]: Store serial: [22979005]
+[2024-04-29 07:20:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979005]
+[2024-04-29 07:20:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 07:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bihyung
+[2024-04-29 07:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omnata-plugin-runtime
+[2024-04-29 07:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moltx
+[2024-04-29 07:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funboost
+[2024-04-29 07:20:14] INFO root fetch - processPackages [bihyung]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-29 07:20:14] INFO root fetch - processPackages [bihyung]: Downloading https://files.pythonhosted.org/packages/4e/0d/5b0d050339c4c248bc62ab12d5959455dbc9ad5e99b35fb5225e2495befa/bihyung-0.2.1.tar.gz
+[2024-04-29 07:20:14] INFO root fetch - processPackages [moltx]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-29 07:20:14] INFO root fetch - processPackages [funboost]: New version: [44.1] Old Version: [44.0]
+[2024-04-29 07:20:14] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.3.9a44] Old Version: [0.3.9a43]
+[2024-04-29 07:20:14] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/8e/11/abde4b4d82373bc42a84a5591bf31c6cca540ba9f13337491df615af0b6c/omnata_plugin_runtime-0.3.9a43.tar.gz
+[2024-04-29 07:20:14] INFO root fetch - processPackages [moltx]: Downloading https://files.pythonhosted.org/packages/e6/63/8e088ac0a6856d7b9144620a782ee94981e751d979f1fe6deed48a4039ce/moltx-0.9.7.tar.gz
+[2024-04-29 07:20:14] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/36/ef/c86974f42471cb9166fd935fe11e8d7ebe8f1865e6feaf5c1dd3d55ed7ac/funboost-44.0.tar.gz
+[2024-04-29 07:20:14] INFO root fetch - processPackages [bihyung]: Downloading https://files.pythonhosted.org/packages/cb/a8/ae27f780224a2617080f00f24ea50537f17af9b6fc5c93c77c4384150095/bihyung-0.2.2.tar.gz
+[2024-04-29 07:20:14] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/de/f5/326ad467bb560d9dc8d7cebfe2aed77d524aeaf8a8ee7c6107f202eb6d0d/omnata_plugin_runtime-0.3.9a44.tar.gz
+[2024-04-29 07:20:14] INFO root fetch - processPackages [bihyung]: executing diffoscope
+[2024-04-29 07:20:14] INFO root fetch - processPackages [bihyung]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bihyung-0.2.1.tar.gz tmp/bihyung-0.2.2.tar.gz --markdown 20240429/b/bihyung/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-29 07:20:14] INFO root fetch - processPackages [moltx]: Downloading https://files.pythonhosted.org/packages/1d/2e/870870567093aebc997134d37aaf06cfb17b7d118fdf690d11e8a1f12f68/moltx-0.9.8.tar.gz
+[2024-04-29 07:20:14] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2024-04-29 07:20:14] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.3.9a43.tar.gz tmp/omnata_plugin_runtime-0.3.9a44.tar.gz --markdown 20240429/o/omnata-plugin-runtime/0.3.9a43-0.3.9a44/README.md --exclude *.pyd
+[2024-04-29 07:20:14] INFO root fetch - processPackages [moltx]: executing diffoscope
+[2024-04-29 07:20:14] INFO root fetch - processPackages [moltx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moltx-0.9.7.tar.gz tmp/moltx-0.9.8.tar.gz --markdown 20240429/m/moltx/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-04-29 07:20:15] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/27/f7/0707385323ce419f9dea6276ea31aceb17bcbb845a93691f2484d9696ebf/funboost-44.1.tar.gz
+[2024-04-29 07:20:15] INFO root fetch - processPackages [bihyung]: Remove: archive file [/home/abi/fetcher/tmp/bihyung-0.2.1.tar.gz]
+[2024-04-29 07:20:15] INFO root fetch - processPackages [bihyung]: Remove: archive file [/home/abi/fetcher/tmp/bihyung-0.2.2.tar.gz]
+[2024-04-29 07:20:15] INFO root fetch - main [MainThread]: End processing [bihyung]: success
+[2024-04-29 07:20:15] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a43.tar.gz]
+[2024-04-29 07:20:15] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a44.tar.gz]
+[2024-04-29 07:20:15] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2024-04-29 07:20:15] INFO root fetch - processPackages [moltx]: Remove: archive file [/home/abi/fetcher/tmp/moltx-0.9.7.tar.gz]
+[2024-04-29 07:20:15] INFO root fetch - processPackages [moltx]: Remove: archive file [/home/abi/fetcher/tmp/moltx-0.9.8.tar.gz]
+[2024-04-29 07:20:15] INFO root fetch - main [MainThread]: End processing [moltx]: success
+[2024-04-29 07:20:17] INFO root fetch - processPackages [funboost]: executing diffoscope
+[2024-04-29 07:20:17] INFO root fetch - processPackages [funboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funboost-44.0.tar.gz tmp/funboost-44.1.tar.gz --markdown 20240429/f/funboost/44.0-44.1/README.md --exclude *.pyd
+[2024-04-29 07:20:18] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-44.0.tar.gz]
+[2024-04-29 07:20:18] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-44.1.tar.gz]
+[2024-04-29 07:20:18] INFO root fetch - main [MainThread]: End processing [funboost]: success
+[2024-04-29 07:20:18] INFO root fetch - main [MainThread]: Store serial: [22979030]
