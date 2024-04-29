@@ -12677,3 +12677,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 10:46:17] INFO root fetch - processPackages [subsurface]: Remove: archive file [/home/abi/fetcher/tmp/subsurface-2024.1.0.tar.gz]
 [2024-04-29 10:46:17] INFO root fetch - main [MainThread]: End processing [subsurface]: success
 [2024-04-29 10:46:17] INFO root fetch - main [MainThread]: Store serial: [22980801]
+[2024-04-29 10:48:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980801]
+[2024-04-29 10:48:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-29 10:48:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepgpu
+[2024-04-29 10:48:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LLM-Mediator
+[2024-04-29 10:48:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly-cpu
+[2024-04-29 10:48:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-gemini-api
+[2024-04-29 10:48:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kuzu
+[2024-04-29 10:48:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nap-plot-tools
+[2024-04-29 10:48:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: effidict
+[2024-04-29 10:48:26] INFO root fetch - processPackages [python-gemini-api]: New version: [2.4.9] Old Version: [2.4.8]
+[2024-04-29 10:48:26] INFO root fetch - processPackages [deepgpu]: New version: [2.1.0rc3] Old Version: [2.1.0rc2]
+[2024-04-29 10:48:26] INFO root fetch - processPackages [effidict]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-29 10:48:26] INFO root fetch - processPackages [nap-plot-tools]: New version: [0.1.0] Old Version: [0.0.4]
+[2024-04-29 10:48:26] INFO root fetch - processPackages [LLM-Mediator]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-29 10:48:26] INFO root fetch - processPackages [python-gemini-api]: Downloading https://files.pythonhosted.org/packages/df/92/933ff04cb3c679d643c1c60a056f42f9d700aa265c44d69427a5e8379850/python_gemini_api-2.4.8.tar.gz
+[2024-04-29 10:48:26] INFO root fetch - processPackages [kuzu]: New version: [0.3.3.dev50] Old Version: [0.3.3.dev49]
+[2024-04-29 10:48:26] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240429] Old Version: [2.17.0.dev20240428]
+[2024-04-29 10:48:26] INFO root fetch - processPackages [deepgpu]: Downloading https://files.pythonhosted.org/packages/cb/04/5e28d50c5da65eafbff26ec9f7116ee7f0c53c2a17b5964634056819a68f/deepgpu-2.1.0rc2.tar.gz
+[2024-04-29 10:48:26] INFO root fetch - processPackages [LLM-Mediator]: Downloading https://files.pythonhosted.org/packages/d0/2b/bb4905946c62b7df26c40e6991fe2f28d4d45220485d7095082bc5c37f6e/LLM_Mediator-0.9.8.tar.gz
+[2024-04-29 10:48:26] INFO root fetch - processPackages [effidict]: Downloading https://files.pythonhosted.org/packages/3b/b5/3835b6d67585ef134badbeb72b0c9ec13fea4f084c087c12dbc91f2fc5af/effidict-0.0.3.tar.gz
+[2024-04-29 10:48:26] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/36/6a/86c18615dce8469af50db452058c45650f4b392a6756faf17bdfdc0b6503/tf_nightly_cpu-2.17.0.dev20240428-cp39-cp39-win_amd64.whl
+[2024-04-29 10:48:26] INFO root fetch - processPackages [nap-plot-tools]: Downloading https://files.pythonhosted.org/packages/b6/b0/f9d867c53edda04dd26b543eaf2f4356f304bf7afb0427f019d5414f128f/nap-plot-tools-0.0.4.tar.gz
+[2024-04-29 10:48:26] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/33/ea/386ace811c84e569b0031353985e0980a04052bdecb37b3675d9e395eb99/kuzu-0.3.3.dev49.tar.gz
+[2024-04-29 10:48:26] INFO root fetch - processPackages [python-gemini-api]: Downloading https://files.pythonhosted.org/packages/47/1e/5e383b7f0029280e106563a369e5df187d611eb67cb57ce5584fbf916840/python_gemini_api-2.4.9.tar.gz
+[2024-04-29 10:48:26] INFO root fetch - processPackages [deepgpu]: Downloading https://files.pythonhosted.org/packages/da/59/03f40a77859e112891a727a6127fb6173f8eecdc0dd489634d230b4ae46c/deepgpu-2.1.0rc3.tar.gz
+[2024-04-29 10:48:26] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/c3/50/8dbe425d988ef67f434dea1bc77b1a3d27647cca1c2d0a76b320de3172bf/tf_nightly_cpu-2.17.0.dev20240429-cp39-cp39-win_amd64.whl
+[2024-04-29 10:48:27] INFO root fetch - processPackages [python-gemini-api]: executing diffoscope
+[2024-04-29 10:48:27] INFO root fetch - processPackages [python-gemini-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_gemini_api-2.4.8.tar.gz tmp/python_gemini_api-2.4.9.tar.gz --markdown 20240429/p/python-gemini-api/2.4.8-2.4.9/README.md --exclude *.pyd
+[2024-04-29 10:48:27] INFO root fetch - processPackages [deepgpu]: executing diffoscope
+[2024-04-29 10:48:27] INFO root fetch - processPackages [deepgpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepgpu-2.1.0rc2.tar.gz tmp/deepgpu-2.1.0rc3.tar.gz --markdown 20240429/d/deepgpu/2.1.0rc2-2.1.0rc3/README.md --exclude *.pyd
+[2024-04-29 10:48:27] INFO root fetch - processPackages [LLM-Mediator]: Downloading https://files.pythonhosted.org/packages/80/7b/762987020609c9651402f0f7389e822cd8cfc8e6d23e62a412f84f730bde/LLM_Mediator-0.9.9.tar.gz
+[2024-04-29 10:48:27] INFO root fetch - processPackages [effidict]: Downloading https://files.pythonhosted.org/packages/b2/c9/8dd64aa91616c884c8a485e6c62b15f6f8d90574c185f4fa26c6181585da/effidict-0.0.4.tar.gz
+[2024-04-29 10:48:27] INFO root fetch - processPackages [nap-plot-tools]: Downloading https://files.pythonhosted.org/packages/bd/b9/83fe93ed159a51f54641a00266c631ca6f047ae9eb47343b0877ec690562/nap-plot-tools-0.1.0.tar.gz
+[2024-04-29 10:48:27] INFO root fetch - processPackages [LLM-Mediator]: executing diffoscope
+[2024-04-29 10:48:27] INFO root fetch - processPackages [LLM-Mediator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LLM_Mediator-0.9.8.tar.gz tmp/LLM_Mediator-0.9.9.tar.gz --markdown 20240429/L/LLM-Mediator/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-29 10:48:27] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-04-29 10:48:27] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240428-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240429-cp39-cp39-win_amd64.whl.zip --markdown 20240429/t/tf-nightly-cpu/2.17.0.dev20240428-2.17.0.dev20240429/README.md --exclude *.pyd
+[2024-04-29 10:48:27] INFO root fetch - processPackages [nap-plot-tools]: executing diffoscope
+[2024-04-29 10:48:27] INFO root fetch - processPackages [nap-plot-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nap-plot-tools-0.0.4.tar.gz tmp/nap-plot-tools-0.1.0.tar.gz --markdown 20240429/n/nap-plot-tools/0.0.4-0.1.0/README.md --exclude *.pyd
+[2024-04-29 10:48:27] INFO root fetch - processPackages [effidict]: executing diffoscope
+[2024-04-29 10:48:27] INFO root fetch - processPackages [effidict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/effidict-0.0.3.tar.gz tmp/effidict-0.0.4.tar.gz --markdown 20240429/e/effidict/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-29 10:48:27] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/23/cb/ecc0bf5ec6c9292472023f50e77c785301e4172a115cc35f6e90ce2631e5/kuzu-0.3.3.dev50-cp39-cp39-macosx_11_0_x86_64.whl
+[2024-04-29 10:48:27] INFO root fetch - processPackages [deepgpu]: Remove: archive file [/home/abi/fetcher/tmp/deepgpu-2.1.0rc2.tar.gz]
+[2024-04-29 10:48:27] INFO root fetch - processPackages [deepgpu]: Remove: archive file [/home/abi/fetcher/tmp/deepgpu-2.1.0rc3.tar.gz]
+[2024-04-29 10:48:27] INFO root fetch - main [MainThread]: End processing [deepgpu]: success
+[2024-04-29 10:48:27] INFO root fetch - processPackages [LLM-Mediator]: Remove: archive file [/home/abi/fetcher/tmp/LLM_Mediator-0.9.8.tar.gz]
+[2024-04-29 10:48:27] INFO root fetch - processPackages [LLM-Mediator]: Remove: archive file [/home/abi/fetcher/tmp/LLM_Mediator-0.9.9.tar.gz]
+[2024-04-29 10:48:27] INFO root fetch - main [MainThread]: End processing [LLM-Mediator]: success
+[2024-04-29 10:48:27] INFO root fetch - processPackages [nap-plot-tools]: Remove: archive file [/home/abi/fetcher/tmp/nap-plot-tools-0.0.4.tar.gz]
+[2024-04-29 10:48:27] INFO root fetch - processPackages [nap-plot-tools]: Remove: archive file [/home/abi/fetcher/tmp/nap-plot-tools-0.1.0.tar.gz]
+[2024-04-29 10:48:27] INFO root fetch - main [MainThread]: End processing [nap-plot-tools]: success
+[2024-04-29 10:48:28] INFO root fetch - processPackages [python-gemini-api]: Remove: archive file [/home/abi/fetcher/tmp/python_gemini_api-2.4.8.tar.gz]
+[2024-04-29 10:48:28] INFO root fetch - processPackages [python-gemini-api]: Remove: archive file [/home/abi/fetcher/tmp/python_gemini_api-2.4.9.tar.gz]
+[2024-04-29 10:48:28] INFO root fetch - main [MainThread]: End processing [python-gemini-api]: success
+[2024-04-29 10:48:28] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240428-cp39-cp39-win_amd64.whl.zip]
+[2024-04-29 10:48:28] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240429-cp39-cp39-win_amd64.whl.zip]
+[2024-04-29 10:48:28] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-04-29 10:48:28] INFO root fetch - processPackages [effidict]: Remove: archive file [/home/abi/fetcher/tmp/effidict-0.0.3.tar.gz]
+[2024-04-29 10:48:28] INFO root fetch - processPackages [effidict]: Remove: archive file [/home/abi/fetcher/tmp/effidict-0.0.4.tar.gz]
+[2024-04-29 10:48:28] INFO root fetch - main [MainThread]: End processing [effidict]: success
+[2024-04-29 10:48:29] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-04-29 10:48:29] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.3.3.dev49.tar.gz tmp/kuzu-0.3.3.dev50-cp39-cp39-macosx_11_0_x86_64.whl.zip --markdown 20240429/k/kuzu/0.3.3.dev49-0.3.3.dev50/README.md --exclude *.pyd
+[2024-04-29 10:48:31] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev49.tar.gz]
+[2024-04-29 10:48:31] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev50-cp39-cp39-macosx_11_0_x86_64.whl.zip]
+[2024-04-29 10:48:31] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-04-29 10:48:31] INFO root fetch - main [MainThread]: Store serial: [22980845]
