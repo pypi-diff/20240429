@@ -12456,3 +12456,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 10:35:07] INFO root fetch - processPackages [icoc]: Remove: archive file [/home/abi/fetcher/tmp/icoc-1.9.0.tar.gz]
 [2024-04-29 10:35:07] INFO root fetch - main [MainThread]: End processing [icoc]: success
 [2024-04-29 10:35:07] INFO root fetch - main [MainThread]: Store serial: [22980689]
+[2024-04-29 10:37:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980689]
+[2024-04-29 10:37:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 10:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: socon-embedded
+[2024-04-29 10:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: binaryai
+[2024-04-29 10:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mteb
+[2024-04-29 10:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cesnet-datazoo
+[2024-04-29 10:37:17] INFO root fetch - processPackages [mteb]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-04-29 10:37:17] INFO root fetch - processPackages [socon-embedded]: New version: [0.1a5] Old Version: [0.1a4]
+[2024-04-29 10:37:17] INFO root fetch - processPackages [binaryai]: New version: [0.8.0] Old Version: [0.7.1]
+[2024-04-29 10:37:17] INFO root fetch - processPackages [cesnet-datazoo]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-29 10:37:17] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/b5/e7/1ffcd000a118bd6a4b183610de5d0891ab9c767ccabb6c7e3f63ba9edb45/mteb-1.7.8.tar.gz
+[2024-04-29 10:37:17] INFO root fetch - processPackages [socon-embedded]: Downloading https://files.pythonhosted.org/packages/48/8b/dfd184f5a14ba027e13545ab740567d530f0c65feb2248e58ab0ae205274/socon_embedded-0.1a4.tar.gz
+[2024-04-29 10:37:17] INFO root fetch - processPackages [binaryai]: Downloading https://files.pythonhosted.org/packages/b4/28/7c9fd230c110caa5750655de956f95c8f4d5ad7967a72c784cbc50d983f8/binaryai-0.7.1.tar.gz
+[2024-04-29 10:37:17] INFO root fetch - processPackages [cesnet-datazoo]: Downloading https://files.pythonhosted.org/packages/46/44/1f1fa752488e6ece47b8381e217cdfb6413d08c7b675000de4747ddeb8bd/cesnet-datazoo-0.1.3.tar.gz
+[2024-04-29 10:37:17] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/eb/d9/b925270f0a2467b3204b0f467cc702668d24bd9a8e876306ea7e3da17507/mteb-1.7.9.tar.gz
+[2024-04-29 10:37:17] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-29 10:37:17] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.7.8.tar.gz tmp/mteb-1.7.9.tar.gz --markdown 20240429/m/mteb/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-04-29 10:37:17] INFO root fetch - processPackages [socon-embedded]: Downloading https://files.pythonhosted.org/packages/41/76/5af5de6bc240ef23bbbbff0026a3f546883f23ff2a91b3ce2e8677b3bff1/socon_embedded-0.1a5.tar.gz
+[2024-04-29 10:37:17] INFO root fetch - processPackages [binaryai]: Downloading https://files.pythonhosted.org/packages/19/96/7857f2cfae6c2fc050ba7dfb95d57e6d07a31fa752f1a1359632f221ce13/binaryai-0.8.0.tar.gz
+[2024-04-29 10:37:17] INFO root fetch - processPackages [cesnet-datazoo]: Downloading https://files.pythonhosted.org/packages/02/f3/26177425a81be2833d790fbe5082f70fece55610c3394a3892b8ef388c8d/cesnet_datazoo-0.1.4.tar.gz
+[2024-04-29 10:37:18] INFO root fetch - processPackages [socon-embedded]: executing diffoscope
+[2024-04-29 10:37:18] INFO root fetch - processPackages [socon-embedded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socon_embedded-0.1a4.tar.gz tmp/socon_embedded-0.1a5.tar.gz --markdown 20240429/s/socon-embedded/0.1a4-0.1a5/README.md --exclude *.pyd
+[2024-04-29 10:37:18] INFO root fetch - processPackages [binaryai]: executing diffoscope
+[2024-04-29 10:37:18] INFO root fetch - processPackages [binaryai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binaryai-0.7.1.tar.gz tmp/binaryai-0.8.0.tar.gz --markdown 20240429/b/binaryai/0.7.1-0.8.0/README.md --exclude *.pyd
+[2024-04-29 10:37:18] INFO root fetch - processPackages [cesnet-datazoo]: executing diffoscope
+[2024-04-29 10:37:18] INFO root fetch - processPackages [cesnet-datazoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cesnet-datazoo-0.1.3.tar.gz tmp/cesnet_datazoo-0.1.4.tar.gz --markdown 20240429/c/cesnet-datazoo/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-29 10:37:18] INFO root fetch - processPackages [socon-embedded]: Remove: archive file [/home/abi/fetcher/tmp/socon_embedded-0.1a4.tar.gz]
+[2024-04-29 10:37:18] INFO root fetch - processPackages [socon-embedded]: Remove: archive file [/home/abi/fetcher/tmp/socon_embedded-0.1a5.tar.gz]
+[2024-04-29 10:37:18] INFO root fetch - main [MainThread]: End processing [socon-embedded]: success
+[2024-04-29 10:37:18] INFO root fetch - processPackages [cesnet-datazoo]: Remove: archive file [/home/abi/fetcher/tmp/cesnet-datazoo-0.1.3.tar.gz]
+[2024-04-29 10:37:18] INFO root fetch - processPackages [cesnet-datazoo]: Remove: archive file [/home/abi/fetcher/tmp/cesnet_datazoo-0.1.4.tar.gz]
+[2024-04-29 10:37:18] INFO root fetch - main [MainThread]: End processing [cesnet-datazoo]: success
+[2024-04-29 10:37:18] INFO root fetch - processPackages [binaryai]: Remove: archive file [/home/abi/fetcher/tmp/binaryai-0.7.1.tar.gz]
+[2024-04-29 10:37:18] INFO root fetch - processPackages [binaryai]: Remove: archive file [/home/abi/fetcher/tmp/binaryai-0.8.0.tar.gz]
+[2024-04-29 10:37:18] INFO root fetch - main [MainThread]: End processing [binaryai]: success
+[2024-04-29 10:37:19] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.8.tar.gz]
+[2024-04-29 10:37:19] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
+[2024-04-29 10:37:19] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-29 10:37:19] INFO root fetch - main [MainThread]: Store serial: [22980701]
