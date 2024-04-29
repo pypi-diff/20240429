@@ -10657,3 +10657,51 @@
 [2024-04-29 09:12:58] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
 [2024-04-29 09:12:58] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2024-04-29 09:12:58] INFO root fetch - main [MainThread]: Store serial: [22979916]
+[2024-04-29 09:15:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979916]
+[2024-04-29 09:15:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-29 09:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jetline
+[2024-04-29 09:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ragfmk
+[2024-04-29 09:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qrkey
+[2024-04-29 09:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: guanin
+[2024-04-29 09:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: genomeshader
+[2024-04-29 09:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pear-ebi
+[2024-04-29 09:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: biapy
+[2024-04-29 09:15:07] INFO root fetch - processPackages [biapy]: New version: [3.4.0] Old Version: [3.3.9]
+[2024-04-29 09:15:08] INFO root fetch - processPackages [genomeshader]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 09:15:08] INFO root fetch - processPackages [jetline]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 09:15:08] INFO root fetch - processPackages [pear-ebi]: New version: [0.1.84] Old Version: [0.1.83]
+[2024-04-29 09:15:08] WARNING root fetch - processPackages [ragfmk]: Skipping, unable to determine old version
+[2024-04-29 09:15:08] INFO root fetch - main [MainThread]: End processing [ragfmk] error
+[2024-04-29 09:15:08] INFO root fetch - processPackages [qrkey]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-29 09:15:08] INFO root fetch - processPackages [guanin]: New version: [1.2.9.1] Old Version: [1.2.9]
+[2024-04-29 09:15:08] INFO root fetch - processPackages [biapy]: Downloading https://files.pythonhosted.org/packages/73/bf/35b2ac932dfe7efffd3d5e609ca249b6c958185bdbb6e1e413e150c06dce/biapy-3.3.9.tar.gz
+[2024-04-29 09:15:08] INFO root fetch - processPackages [genomeshader]: Downloading https://files.pythonhosted.org/packages/1c/84/39f1662d319381705e811acf6c7854194d08e68e45c79d57c5a763bdc863/genomeshader-0.1.8.tar.gz
+[2024-04-29 09:15:08] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/14/d7/4b17ee6567b17ad4eec9a6e6ceded1190275544e45e07f7b10971d03dc9f/jetline-0.1.8.tar.gz
+[2024-04-29 09:15:08] INFO root fetch - processPackages [pear-ebi]: Downloading https://files.pythonhosted.org/packages/5f/69/b14f90d6908f21ad036908faba31312201c8028f5b3123a0cb2542b459a6/pear_ebi-0.1.83.tar.gz
+[2024-04-29 09:15:08] WARNING root fetch - processPackages [biapy]: Skipping package: exceeds size limit 40769461>=10485760
+[2024-04-29 09:15:08] INFO root fetch - main [MainThread]: End processing [biapy] error
+[2024-04-29 09:15:08] WARNING root fetch - processPackages [pear-ebi]: Skipping package: exceeds size limit 11240631>=10485760
+[2024-04-29 09:15:08] INFO root fetch - main [MainThread]: End processing [pear-ebi] error
+[2024-04-29 09:15:08] INFO root fetch - processPackages [qrkey]: Downloading https://files.pythonhosted.org/packages/41/03/f2e0efb17eeb2e6898c412f2225d686c85e5b8367c55b4abb4c4ccba5a1d/qrkey-0.4.3.tar.gz
+[2024-04-29 09:15:08] INFO root fetch - processPackages [guanin]: Downloading https://files.pythonhosted.org/packages/d0/9c/9e30cd358039ba922c8133878ac612ad62124ad92623358294612873d69a/guanin-1.2.9.tar.gz
+[2024-04-29 09:15:08] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/e3/52/ee8efe5ee3940966b4c7e8b471dd88336c2950833a0dd4b4854cce8f181b/jetline-0.1.9.tar.gz
+[2024-04-29 09:15:08] INFO root fetch - processPackages [genomeshader]: Downloading https://files.pythonhosted.org/packages/99/48/90c7c052b1a65bbffd3e20c6f11964c9fc1a3dc182ef8de7c3611b26d473/genomeshader-0.1.9.tar.gz
+[2024-04-29 09:15:08] WARNING root fetch - processPackages [guanin]: Skipping package: exceeds size limit 10883390>=10485760
+[2024-04-29 09:15:08] INFO root fetch - main [MainThread]: End processing [guanin] error
+[2024-04-29 09:15:08] INFO root fetch - processPackages [jetline]: executing diffoscope
+[2024-04-29 09:15:08] INFO root fetch - processPackages [jetline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetline-0.1.8.tar.gz tmp/jetline-0.1.9.tar.gz --markdown 20240429/j/jetline/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 09:15:08] INFO root fetch - processPackages [genomeshader]: executing diffoscope
+[2024-04-29 09:15:08] INFO root fetch - processPackages [genomeshader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomeshader-0.1.8.tar.gz tmp/genomeshader-0.1.9.tar.gz --markdown 20240429/g/genomeshader/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 09:15:08] INFO root fetch - processPackages [qrkey]: Downloading https://files.pythonhosted.org/packages/9e/0d/4961da70cf56a4da4e03eeb4832c758842c38debfdb90cdb8bc3ec2e2a3e/qrkey-0.4.4.tar.gz
+[2024-04-29 09:15:08] INFO root fetch - processPackages [qrkey]: executing diffoscope
+[2024-04-29 09:15:08] INFO root fetch - processPackages [qrkey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrkey-0.4.3.tar.gz tmp/qrkey-0.4.4.tar.gz --markdown 20240429/q/qrkey/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-04-29 09:15:09] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.1.8.tar.gz]
+[2024-04-29 09:15:09] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.1.9.tar.gz]
+[2024-04-29 09:15:09] INFO root fetch - main [MainThread]: End processing [jetline]: success
+[2024-04-29 09:15:09] INFO root fetch - processPackages [genomeshader]: Remove: archive file [/home/abi/fetcher/tmp/genomeshader-0.1.8.tar.gz]
+[2024-04-29 09:15:09] INFO root fetch - processPackages [genomeshader]: Remove: archive file [/home/abi/fetcher/tmp/genomeshader-0.1.9.tar.gz]
+[2024-04-29 09:15:09] INFO root fetch - main [MainThread]: End processing [genomeshader]: success
+[2024-04-29 09:15:09] INFO root fetch - processPackages [qrkey]: Remove: archive file [/home/abi/fetcher/tmp/qrkey-0.4.3.tar.gz]
+[2024-04-29 09:15:09] INFO root fetch - processPackages [qrkey]: Remove: archive file [/home/abi/fetcher/tmp/qrkey-0.4.4.tar.gz]
+[2024-04-29 09:15:09] INFO root fetch - main [MainThread]: End processing [qrkey]: success
+[2024-04-29 09:15:09] INFO root fetch - main [MainThread]: Store serial: [22979938]
