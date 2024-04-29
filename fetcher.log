@@ -11908,3 +11908,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 10:12:15] INFO root fetch - processPackages [bunches]: Remove: archive file [/home/abi/fetcher/tmp/bunches-0.1.3.tar.gz]
 [2024-04-29 10:12:15] INFO root fetch - main [MainThread]: End processing [bunches]: success
 [2024-04-29 10:12:15] INFO root fetch - main [MainThread]: Store serial: [22980423]
+[2024-04-29 10:14:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980423]
+[2024-04-29 10:14:24] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-29 10:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: numbertheorypkg
+[2024-04-29 10:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crawlee
+[2024-04-29 10:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gefpy
+[2024-04-29 10:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scematk
+[2024-04-29 10:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lazyad
+[2024-04-29 10:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pear-ebi
+[2024-04-29 10:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jackdyeruktaxcalculator
+[2024-04-29 10:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: databricks-connect
+[2024-04-29 10:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tidydata
+[2024-04-29 10:14:24] INFO root fetch - processPackages [crawlee]: New version: [0.0.3b4] Old Version: [0.0.3b3]
+[2024-04-29 10:14:24] INFO root fetch - processPackages [crawlee]: Downloading https://files.pythonhosted.org/packages/9d/76/c82c87029f5a9a9b62fcf6baa01d1924939f245a373ad9eeb9c7785fe80e/crawlee-0.0.3b3.tar.gz
+[2024-04-29 10:14:25] WARNING root fetch - processPackages [numbertheorypkg]: Skipping, unable to determine old version
+[2024-04-29 10:14:25] INFO root fetch - main [MainThread]: End processing [numbertheorypkg] error
+[2024-04-29 10:14:25] INFO root fetch - processPackages [gefpy]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-29 10:14:25] INFO root fetch - processPackages [jackdyeruktaxcalculator]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-29 10:14:25] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.61] Old Version: [9.1.60]
+[2024-04-29 10:14:25] INFO root fetch - processPackages [pear-ebi]: New version: [0.1.86] Old Version: [0.1.85]
+[2024-04-29 10:14:25] INFO root fetch - processPackages [lazyad]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 10:14:25] INFO root fetch - processPackages [scematk]: New version: [0.0.2rc99.post1] Old Version: [0.0.2rc98.post1]
+[2024-04-29 10:14:25] INFO root fetch - processPackages [tidydata]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 10:14:25] INFO root fetch - processPackages [gefpy]: Downloading https://files.pythonhosted.org/packages/98/e8/56a0871a723038be7a64fa6b059d3b7e4e5a978bea6a6aebb605b7071b1b/gefpy-1.1.2-cp38-cp38-win_amd64.whl
+[2024-04-29 10:14:25] INFO root fetch - processPackages [jackdyeruktaxcalculator]: Downloading https://files.pythonhosted.org/packages/7e/32/903d1fe2f6c0f0e2a57dff28a3b9b0a81c6363c5aa5c2e62156ff9ba4332/jackdyeruktaxcalculator-0.0.4.tar.gz
+[2024-04-29 10:14:25] INFO root fetch - processPackages [pear-ebi]: Downloading https://files.pythonhosted.org/packages/94/57/51318507cc29247b996b435676dd9d8c6d967d71d419c9fd5c927c6232f8/pear_ebi-0.1.85.tar.gz
+[2024-04-29 10:14:25] INFO root fetch - processPackages [scematk]: Downloading https://files.pythonhosted.org/packages/74/b4/2c4bf9a440c6109c1526403bd63a1ad539bac9b025336ad220b4b533e7b7/scematk-0.0.2rc98.post1.tar.gz
+[2024-04-29 10:14:25] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/3f/9c/9d8a8814dbedaa707257e01a64458376d55a3a152b2f08ef9f4c56661787/lazyad-0.0.8.tar.gz
+[2024-04-29 10:14:25] INFO root fetch - processPackages [tidydata]: Downloading https://files.pythonhosted.org/packages/d9/eb/7be9aa80b84038608523b916335ce29a3ba3ef108de76fe790307d1605f0/tidydata-0.1.8.tar.gz
+[2024-04-29 10:14:25] WARNING root fetch - processPackages [pear-ebi]: Skipping package: exceeds size limit 11240674>=10485760
+[2024-04-29 10:14:25] INFO root fetch - main [MainThread]: End processing [pear-ebi] error
+[2024-04-29 10:14:25] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/65/2a/1910d32760133d3e5316a1f137d5531bf07376a48d19ca159e2b81c48641/databricks-connect-9.1.60.tar.gz
+[2024-04-29 10:14:25] INFO root fetch - processPackages [crawlee]: Downloading https://files.pythonhosted.org/packages/95/d3/19f69942f63023b9bda0a612048d3be6e0c71633390cbd4e3d6cd2235436/crawlee-0.0.3b4.tar.gz
+[2024-04-29 10:14:25] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257323249>=10485760
+[2024-04-29 10:14:25] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2024-04-29 10:14:25] INFO root fetch - processPackages [crawlee]: executing diffoscope
+[2024-04-29 10:14:25] INFO root fetch - processPackages [crawlee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlee-0.0.3b3.tar.gz tmp/crawlee-0.0.3b4.tar.gz --markdown 20240429/c/crawlee/0.0.3b3-0.0.3b4/README.md --exclude *.pyd
+[2024-04-29 10:14:25] INFO root fetch - processPackages [jackdyeruktaxcalculator]: Downloading https://files.pythonhosted.org/packages/10/9f/1bdeb8209c8b8a41348e75972e16fd1693b387690de713dfff9831e06e57/jackdyeruktaxcalculator-0.0.5.tar.gz
+[2024-04-29 10:14:25] WARNING root fetch - processPackages [gefpy]: Skipping package: exceeds size limit 26356723>=10485760
+[2024-04-29 10:14:25] INFO root fetch - main [MainThread]: End processing [gefpy] error
+[2024-04-29 10:14:25] INFO root fetch - processPackages [scematk]: Downloading https://files.pythonhosted.org/packages/88/05/a551ffce29ada02c3b808f4d3523aefcebb95b513746d269b86d0d75e18b/scematk-0.0.2rc99.post1.tar.gz
+[2024-04-29 10:14:25] INFO root fetch - processPackages [jackdyeruktaxcalculator]: executing diffoscope
+[2024-04-29 10:14:25] INFO root fetch - processPackages [jackdyeruktaxcalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jackdyeruktaxcalculator-0.0.4.tar.gz tmp/jackdyeruktaxcalculator-0.0.5.tar.gz --markdown 20240429/j/jackdyeruktaxcalculator/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-29 10:14:25] INFO root fetch - processPackages [lazyad]: Downloading https://files.pythonhosted.org/packages/7b/2a/f7437e2bbfc03d2bf7d3c612739c19147a2f7a431be3132870c8e6528a86/lazyad-0.0.9.tar.gz
+[2024-04-29 10:14:25] INFO root fetch - processPackages [tidydata]: Downloading https://files.pythonhosted.org/packages/57/9a/5133e0eba8a534e721eacc28f37e80fb570af2997ee6d7ad219fc3d98da7/tidydata-0.1.9.tar.gz
+[2024-04-29 10:14:25] INFO root fetch - processPackages [lazyad]: executing diffoscope
+[2024-04-29 10:14:25] INFO root fetch - processPackages [lazyad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyad-0.0.8.tar.gz tmp/lazyad-0.0.9.tar.gz --markdown 20240429/l/lazyad/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 10:14:25] INFO root fetch - processPackages [tidydata]: executing diffoscope
+[2024-04-29 10:14:25] INFO root fetch - processPackages [tidydata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidydata-0.1.8.tar.gz tmp/tidydata-0.1.9.tar.gz --markdown 20240429/t/tidydata/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 10:14:25] INFO root fetch - processPackages [scematk]: executing diffoscope
+[2024-04-29 10:14:25] INFO root fetch - processPackages [scematk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scematk-0.0.2rc98.post1.tar.gz tmp/scematk-0.0.2rc99.post1.tar.gz --markdown 20240429/s/scematk/0.0.2rc98.post1-0.0.2rc99.post1/README.md --exclude *.pyd
+[2024-04-29 10:14:26] INFO root fetch - processPackages [crawlee]: Remove: archive file [/home/abi/fetcher/tmp/crawlee-0.0.3b3.tar.gz]
+[2024-04-29 10:14:26] INFO root fetch - processPackages [crawlee]: Remove: archive file [/home/abi/fetcher/tmp/crawlee-0.0.3b4.tar.gz]
+[2024-04-29 10:14:26] INFO root fetch - main [MainThread]: End processing [crawlee]: success
+[2024-04-29 10:14:26] INFO root fetch - processPackages [jackdyeruktaxcalculator]: Remove: archive file [/home/abi/fetcher/tmp/jackdyeruktaxcalculator-0.0.4.tar.gz]
+[2024-04-29 10:14:26] INFO root fetch - processPackages [jackdyeruktaxcalculator]: Remove: archive file [/home/abi/fetcher/tmp/jackdyeruktaxcalculator-0.0.5.tar.gz]
+[2024-04-29 10:14:26] INFO root fetch - main [MainThread]: End processing [jackdyeruktaxcalculator]: success
+[2024-04-29 10:14:26] INFO root fetch - processPackages [tidydata]: Remove: archive file [/home/abi/fetcher/tmp/tidydata-0.1.8.tar.gz]
+[2024-04-29 10:14:26] INFO root fetch - processPackages [tidydata]: Remove: archive file [/home/abi/fetcher/tmp/tidydata-0.1.9.tar.gz]
+[2024-04-29 10:14:26] INFO root fetch - main [MainThread]: End processing [tidydata]: success
+[2024-04-29 10:14:26] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.8.tar.gz]
+[2024-04-29 10:14:26] INFO root fetch - processPackages [lazyad]: Remove: archive file [/home/abi/fetcher/tmp/lazyad-0.0.9.tar.gz]
+[2024-04-29 10:14:26] INFO root fetch - main [MainThread]: End processing [lazyad]: success
+[2024-04-29 10:14:26] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc98.post1.tar.gz]
+[2024-04-29 10:14:26] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc99.post1.tar.gz]
+[2024-04-29 10:14:26] INFO root fetch - main [MainThread]: End processing [scematk]: success
+[2024-04-29 10:14:26] INFO root fetch - main [MainThread]: Store serial: [22980455]
