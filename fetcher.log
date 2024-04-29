@@ -19048,3 +19048,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 14:35:16] INFO root fetch - processPackages [docassemble.webapp]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.webapp-1.4.99.tar.gz]
 [2024-04-29 14:35:16] INFO root fetch - main [MainThread]: End processing [docassemble.webapp]: success
 [2024-04-29 14:35:16] INFO root fetch - main [MainThread]: Store serial: [22983432]
+[2024-04-29 14:37:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22983432]
+[2024-04-29 14:37:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-29 14:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: afeng-py-tools
+[2024-04-29 14:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dknovautils
+[2024-04-29 14:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: justai
+[2024-04-29 14:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: falcon-digital-signature
+[2024-04-29 14:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: napari-conidie
+[2024-04-29 14:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: peutils
+[2024-04-29 14:37:25] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-29 14:37:25] INFO root fetch - processPackages [napari-conidie]: New version: [1.0.0] Old Version: [0.0.1]
+[2024-04-29 14:37:25] INFO root fetch - processPackages [dknovautils]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-29 14:37:25] INFO root fetch - processPackages [peutils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-29 14:37:25] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-04-29 14:37:25] WARNING root fetch - processPackages [falcon-digital-signature]: Skipping, unable to determine old version
+[2024-04-29 14:37:25] INFO root fetch - main [MainThread]: End processing [falcon-digital-signature] error
+[2024-04-29 14:37:25] INFO root fetch - processPackages [napari-conidie]: Downloading https://files.pythonhosted.org/packages/69/5d/b5dd9c1dc5495c1a78f12a610590ba21d98015dde8b318eaf9a217ffe3f9/napari-conidie-0.0.1.tar.gz
+[2024-04-29 14:37:25] INFO root fetch - processPackages [justai]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-04-29 14:37:25] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/4e/39/1eb81f8e300ed6373049718c5a57a694e6bee7a75801271a4a474bf6ed9f/dknovautils-0.2.6.tar.gz
+[2024-04-29 14:37:25] INFO root fetch - processPackages [peutils]: Downloading https://files.pythonhosted.org/packages/86/56/fc38c0e7cb317b1857f035c575fbf769b42801fd4ebbac8e63455b682efc/peutils-0.0.98.tar.gz
+[2024-04-29 14:37:26] INFO root fetch - processPackages [napari-conidie]: Downloading https://files.pythonhosted.org/packages/35/1f/af3eface92a1f2f2c6d4541d0b4c55968ffd4d8bf0c262ff5e85243444f2/napari_conidie-1.0.0.tar.gz
+[2024-04-29 14:37:26] INFO root fetch - processPackages [justai]: Downloading https://files.pythonhosted.org/packages/59/61/98130bcf121fd7890cbbd01c3dd59fc1732ba355d5c514e3e317dee3c5ec/justai-3.2.8.tar.gz
+[2024-04-29 14:37:26] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/73/18/329801f23af5911b600c33e50c225644b18ee24e29b641492f030534da12/dknovautils-0.2.7.tar.gz
+[2024-04-29 14:37:26] INFO root fetch - processPackages [peutils]: Downloading https://files.pythonhosted.org/packages/ba/fe/8c48c448fd9667ae84b126cee4f1683e818dc74524c954a888b5bc50330a/peutils-0.0.99.tar.gz
+[2024-04-29 14:37:26] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-04-29 14:37:26] INFO root fetch - processPackages [napari-conidie]: executing diffoscope
+[2024-04-29 14:37:26] INFO root fetch - processPackages [napari-conidie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-conidie-0.0.1.tar.gz tmp/napari_conidie-1.0.0.tar.gz --markdown 20240429/n/napari-conidie/0.0.1-1.0.0/README.md --exclude *.pyd
+[2024-04-29 14:37:26] INFO root fetch - processPackages [dknovautils]: executing diffoscope
+[2024-04-29 14:37:26] INFO root fetch - processPackages [dknovautils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dknovautils-0.2.6.tar.gz tmp/dknovautils-0.2.7.tar.gz --markdown 20240429/d/dknovautils/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-29 14:37:26] INFO root fetch - processPackages [peutils]: executing diffoscope
+[2024-04-29 14:37:26] INFO root fetch - processPackages [peutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peutils-0.0.98.tar.gz tmp/peutils-0.0.99.tar.gz --markdown 20240429/p/peutils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-29 14:37:26] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-04-29 14:37:26] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240429/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-29 14:37:26] INFO root fetch - processPackages [justai]: Downloading https://files.pythonhosted.org/packages/39/22/673498b888a84e317dfd091c347ab6c4ed0eecac5458d8d414d695860d93/justai-3.2.9.tar.gz
+[2024-04-29 14:37:26] INFO root fetch - processPackages [justai]: executing diffoscope
+[2024-04-29 14:37:26] INFO root fetch - processPackages [justai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/justai-3.2.8.tar.gz tmp/justai-3.2.9.tar.gz --markdown 20240429/j/justai/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-04-29 14:37:27] INFO root fetch - processPackages [napari-conidie]: Remove: archive file [/home/abi/fetcher/tmp/napari-conidie-0.0.1.tar.gz]
+[2024-04-29 14:37:27] INFO root fetch - processPackages [napari-conidie]: Remove: archive file [/home/abi/fetcher/tmp/napari_conidie-1.0.0.tar.gz]
+[2024-04-29 14:37:27] INFO root fetch - main [MainThread]: End processing [napari-conidie]: success
+[2024-04-29 14:37:27] INFO root fetch - processPackages [dknovautils]: Remove: archive file [/home/abi/fetcher/tmp/dknovautils-0.2.6.tar.gz]
+[2024-04-29 14:37:27] INFO root fetch - processPackages [dknovautils]: Remove: archive file [/home/abi/fetcher/tmp/dknovautils-0.2.7.tar.gz]
+[2024-04-29 14:37:27] INFO root fetch - main [MainThread]: End processing [dknovautils]: success
+[2024-04-29 14:37:27] INFO root fetch - processPackages [peutils]: Remove: archive file [/home/abi/fetcher/tmp/peutils-0.0.98.tar.gz]
+[2024-04-29 14:37:27] INFO root fetch - processPackages [peutils]: Remove: archive file [/home/abi/fetcher/tmp/peutils-0.0.99.tar.gz]
+[2024-04-29 14:37:27] INFO root fetch - main [MainThread]: End processing [peutils]: success
+[2024-04-29 14:37:27] INFO root fetch - processPackages [justai]: Remove: archive file [/home/abi/fetcher/tmp/justai-3.2.8.tar.gz]
+[2024-04-29 14:37:27] INFO root fetch - processPackages [justai]: Remove: archive file [/home/abi/fetcher/tmp/justai-3.2.9.tar.gz]
+[2024-04-29 14:37:27] INFO root fetch - main [MainThread]: End processing [justai]: success
+[2024-04-29 14:37:27] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-04-29 14:37:27] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-04-29 14:37:27] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-04-29 14:37:27] INFO root fetch - main [MainThread]: Store serial: [22983453]
