@@ -15938,3 +15938,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 12:44:06] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-3.9.1.dev4.tar.gz]
 [2024-04-29 12:44:06] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
 [2024-04-29 12:44:06] INFO root fetch - main [MainThread]: Store serial: [22982181]
+[2024-04-29 12:46:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982181]
+[2024-04-29 12:46:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 12:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fetch-sitemap
+[2024-04-29 12:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ckanext-admin-panel
+[2024-04-29 12:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: esp-idf-sbom
+[2024-04-29 12:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: roff
+[2024-04-29 12:46:15] INFO root fetch - processPackages [roff]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-29 12:46:15] INFO root fetch - processPackages [fetch-sitemap]: New version: [9] Old Version: [7]
+[2024-04-29 12:46:15] INFO root fetch - processPackages [ckanext-admin-panel]: New version: [1.0.11] Old Version: [0.0.1]
+[2024-04-29 12:46:15] INFO root fetch - processPackages [esp-idf-sbom]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-29 12:46:15] INFO root fetch - processPackages [roff]: Downloading https://files.pythonhosted.org/packages/a9/b4/c48e7c62c6da14a324d8e7cc871ffd77629b5f00cc5db51dc6d2336e0f1e/roff-0.2.0.tar.gz
+[2024-04-29 12:46:15] INFO root fetch - processPackages [fetch-sitemap]: Downloading https://files.pythonhosted.org/packages/fa/3b/9857ac05cf828115e1c8350df11ddffbc02df2e961759f067d1c936cbc8c/fetch-sitemap-7.tar.gz
+[2024-04-29 12:46:15] INFO root fetch - processPackages [ckanext-admin-panel]: Downloading https://files.pythonhosted.org/packages/2a/4a/cba0685244d48a669697e4daa1ea354ad5e13290095f3d775268a6fb1112/ckanext-admin-panel-0.0.1.tar.gz
+[2024-04-29 12:46:15] INFO root fetch - processPackages [roff]: Downloading https://files.pythonhosted.org/packages/f3/29/cef26f8c5ce369837ef2ec5968fe844471dfbbeab2e452dba1723b4cbcc5/roff-0.3.0.tar.gz
+[2024-04-29 12:46:16] INFO root fetch - processPackages [esp-idf-sbom]: Downloading https://files.pythonhosted.org/packages/a7/fc/d515ce5a6fd085358e66f44b63019cd0d2ba2970c06ba6e30fe2501117c9/esp-idf-sbom-0.8.0.tar.gz
+[2024-04-29 12:46:16] INFO root fetch - processPackages [fetch-sitemap]: Downloading https://files.pythonhosted.org/packages/2d/c0/001895b4f74f5715cfdd4783292ea04f3fa5d8f1cced5e162f58ed06a690/fetch_sitemap-9.tar.gz
+[2024-04-29 12:46:16] INFO root fetch - processPackages [roff]: executing diffoscope
+[2024-04-29 12:46:16] INFO root fetch - processPackages [roff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roff-0.2.0.tar.gz tmp/roff-0.3.0.tar.gz --markdown 20240429/r/roff/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-29 12:46:16] INFO root fetch - processPackages [fetch-sitemap]: executing diffoscope
+[2024-04-29 12:46:16] INFO root fetch - processPackages [fetch-sitemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fetch-sitemap-7.tar.gz tmp/fetch_sitemap-9.tar.gz --markdown 20240429/f/fetch-sitemap/7-9/README.md --exclude *.pyd
+[2024-04-29 12:46:16] INFO root fetch - processPackages [ckanext-admin-panel]: Downloading https://files.pythonhosted.org/packages/12/c9/6d8ec0aa330f803c56fd459ec5c75ee42f519c857a359b05e08f92cb273a/ckanext_admin_panel-1.0.11.tar.gz
+[2024-04-29 12:46:16] INFO root fetch - processPackages [ckanext-admin-panel]: executing diffoscope
+[2024-04-29 12:46:16] INFO root fetch - processPackages [ckanext-admin-panel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-admin-panel-0.0.1.tar.gz tmp/ckanext_admin_panel-1.0.11.tar.gz --markdown 20240429/c/ckanext-admin-panel/0.0.1-1.0.11/README.md --exclude *.pyd
+[2024-04-29 12:46:16] INFO root fetch - processPackages [esp-idf-sbom]: Downloading https://files.pythonhosted.org/packages/49/09/046690c7be6048b29a39df64c0f1931fada9061a001cd8625b563a66b52e/esp-idf-sbom-0.9.0.tar.gz
+[2024-04-29 12:46:16] INFO root fetch - processPackages [esp-idf-sbom]: executing diffoscope
+[2024-04-29 12:46:16] INFO root fetch - processPackages [esp-idf-sbom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esp-idf-sbom-0.8.0.tar.gz tmp/esp-idf-sbom-0.9.0.tar.gz --markdown 20240429/e/esp-idf-sbom/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-29 12:46:16] INFO root fetch - processPackages [roff]: Remove: archive file [/home/abi/fetcher/tmp/roff-0.2.0.tar.gz]
+[2024-04-29 12:46:16] INFO root fetch - processPackages [roff]: Remove: archive file [/home/abi/fetcher/tmp/roff-0.3.0.tar.gz]
+[2024-04-29 12:46:16] INFO root fetch - main [MainThread]: End processing [roff]: success
+[2024-04-29 12:46:16] INFO root fetch - processPackages [fetch-sitemap]: Remove: archive file [/home/abi/fetcher/tmp/fetch-sitemap-7.tar.gz]
+[2024-04-29 12:46:16] INFO root fetch - processPackages [fetch-sitemap]: Remove: archive file [/home/abi/fetcher/tmp/fetch_sitemap-9.tar.gz]
+[2024-04-29 12:46:16] INFO root fetch - main [MainThread]: End processing [fetch-sitemap]: success
+[2024-04-29 12:46:16] INFO root fetch - processPackages [ckanext-admin-panel]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-admin-panel-0.0.1.tar.gz]
+[2024-04-29 12:46:16] INFO root fetch - processPackages [ckanext-admin-panel]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_admin_panel-1.0.11.tar.gz]
+[2024-04-29 12:46:17] INFO root fetch - main [MainThread]: End processing [ckanext-admin-panel]: success
+[2024-04-29 12:46:17] INFO root fetch - processPackages [esp-idf-sbom]: Remove: archive file [/home/abi/fetcher/tmp/esp-idf-sbom-0.8.0.tar.gz]
+[2024-04-29 12:46:17] INFO root fetch - processPackages [esp-idf-sbom]: Remove: archive file [/home/abi/fetcher/tmp/esp-idf-sbom-0.9.0.tar.gz]
+[2024-04-29 12:46:17] INFO root fetch - main [MainThread]: End processing [esp-idf-sbom]: success
+[2024-04-29 12:46:17] INFO root fetch - main [MainThread]: Store serial: [22982194]
