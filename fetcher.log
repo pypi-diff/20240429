@@ -7501,3 +7501,24 @@
 [2024-04-29 05:41:47] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-8.1.0.tar.gz]
 [2024-04-29 05:41:47] INFO root fetch - main [MainThread]: End processing [volstreet]: success
 [2024-04-29 05:41:47] INFO root fetch - main [MainThread]: Store serial: [22978424]
+[2024-04-29 05:43:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978424]
+[2024-04-29 05:43:56] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-29 05:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spinesUtils
+[2024-04-29 05:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nb-log
+[2024-04-29 05:43:57] INFO root fetch - processPackages [spinesUtils]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-29 05:43:57] INFO root fetch - processPackages [nb-log]: New version: [9.9] Old Version: [9.8]
+[2024-04-29 05:43:57] INFO root fetch - processPackages [spinesUtils]: Downloading https://files.pythonhosted.org/packages/61/a3/5ca4648096d3484f0f6e7c6eb9af6122cb2e97924e76460b86cefc2b7c87/spinesUtils-0.4.0.tar.gz
+[2024-04-29 05:43:57] INFO root fetch - processPackages [nb-log]: Downloading https://files.pythonhosted.org/packages/22/98/61f2b3a749cdecb69a6010138138fcffa16875119c0e669be11105b6ba58/nb_log-9.8.tar.gz
+[2024-04-29 05:43:57] INFO root fetch - processPackages [spinesUtils]: Downloading https://files.pythonhosted.org/packages/82/f3/9ec67f8db6cdead75e1969c508233ce639580353098892df428b35eccf90/spinesutils-0.4.1.tar.gz
+[2024-04-29 05:43:57] INFO root fetch - processPackages [nb-log]: Downloading https://files.pythonhosted.org/packages/71/b4/b5fd7191646e224248dd5e17266bc6a64d40d6fb5a20f465bb538b007259/nb_log-9.9.tar.gz
+[2024-04-29 05:43:57] INFO root fetch - processPackages [spinesUtils]: executing diffoscope
+[2024-04-29 05:43:57] INFO root fetch - processPackages [spinesUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spinesUtils-0.4.0.tar.gz tmp/spinesutils-0.4.1.tar.gz --markdown 20240429/s/spinesUtils/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-29 05:43:57] INFO root fetch - processPackages [nb-log]: executing diffoscope
+[2024-04-29 05:43:57] INFO root fetch - processPackages [nb-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb_log-9.8.tar.gz tmp/nb_log-9.9.tar.gz --markdown 20240429/n/nb-log/9.8-9.9/README.md --exclude *.pyd
+[2024-04-29 05:43:58] INFO root fetch - processPackages [spinesUtils]: Remove: archive file [/home/abi/fetcher/tmp/spinesUtils-0.4.0.tar.gz]
+[2024-04-29 05:43:58] INFO root fetch - processPackages [spinesUtils]: Remove: archive file [/home/abi/fetcher/tmp/spinesutils-0.4.1.tar.gz]
+[2024-04-29 05:43:58] INFO root fetch - main [MainThread]: End processing [spinesUtils]: success
+[2024-04-29 05:43:58] INFO root fetch - processPackages [nb-log]: Remove: archive file [/home/abi/fetcher/tmp/nb_log-9.8.tar.gz]
+[2024-04-29 05:43:58] INFO root fetch - processPackages [nb-log]: Remove: archive file [/home/abi/fetcher/tmp/nb_log-9.9.tar.gz]
+[2024-04-29 05:43:58] INFO root fetch - main [MainThread]: End processing [nb-log]: success
+[2024-04-29 05:43:58] INFO root fetch - main [MainThread]: Store serial: [22978430]
