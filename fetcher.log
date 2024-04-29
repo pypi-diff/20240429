@@ -23112,3 +23112,115 @@ EOFError: EOF read where object expected
 [2024-04-29 16:14:04] INFO root fetch - processPackages [wheelz-idp-validations]: Remove: archive file [/home/abi/fetcher/tmp/wheelz_idp_validations-2.1.0.tar.gz]
 [2024-04-29 16:14:04] INFO root fetch - main [MainThread]: End processing [wheelz-idp-validations]: success
 [2024-04-29 16:14:04] INFO root fetch - main [MainThread]: Store serial: [22985116]
+[2024-04-29 16:16:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22985116]
+[2024-04-29 16:16:13] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-29 16:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2024-04-29 16:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytgpt-bot
+[2024-04-29 16:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ezside
+[2024-04-29 16:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2024-04-29 16:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bent
+[2024-04-29 16:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cybrid-api-organization-python
+[2024-04-29 16:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mongo-Vconnect
+[2024-04-29 16:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: survival-data-handler
+[2024-04-29 16:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dknovautils
+[2024-04-29 16:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lightning-extensions
+[2024-04-29 16:16:13] INFO root fetch - processPackages [dknovautils]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-29 16:16:13] INFO root fetch - processPackages [lightning-extensions]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-29 16:16:13] INFO root fetch - processPackages [pytgpt-bot]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-29 16:16:13] INFO root fetch - processPackages [survival-data-handler]: New version: [2024.4.5] Old Version: [2024.1.4]
+[2024-04-29 16:16:13] INFO root fetch - processPackages [ezside]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 16:16:13] INFO root fetch - processPackages [bent]: New version: [0.0.9] Old Version: [0.0.39]
+[2024-04-29 16:16:13] INFO root fetch - processPackages [lightning-extensions]: Downloading https://files.pythonhosted.org/packages/63/2a/b1916875fdd39708d5076a7f97e208020cc9415f6368941fe8686dc5e63e/lightning_extensions-0.0.7.tar.gz
+[2024-04-29 16:16:13] WARNING root fetch - processPackages [mongo-Vconnect]: Skipping, unable to determine old version
+[2024-04-29 16:16:13] INFO root fetch - processPackages [mongo-Vconnect]: Start processing: cybrid-api-id-python
+[2024-04-29 16:16:13] INFO root fetch - main [MainThread]: End processing [mongo-Vconnect] error
+[2024-04-29 16:16:13] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/5d/40/3aa6dc0713919570a5de2de45fb9628566350c0cda9f344e1c8e2fd9c58b/dknovautils-0.2.8.tar.gz
+[2024-04-29 16:16:13] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-29 16:16:13] INFO root fetch - processPackages [pytgpt-bot]: Downloading https://files.pythonhosted.org/packages/c2/53/2dd9ecb09753cac89fc4f6e8442bd37108fb5ef1f19cbc292f506c23477b/pytgpt_bot-0.1.4.tar.gz
+[2024-04-29 16:16:13] INFO root fetch - processPackages [ezside]: Downloading https://files.pythonhosted.org/packages/5a/d4/1810386c07f848c78c2e8b15144f22482295b4040d1283a67e6675563952/ezside-0.1.8.tar.gz
+[2024-04-29 16:16:13] INFO root fetch - processPackages [survival-data-handler]: Downloading https://files.pythonhosted.org/packages/de/a6/a4f712a37173dde806b193a7290343f30fd4c292490bed83e6dc7999471f/survival_data_handler-2024.1.4.tar.gz
+[2024-04-29 16:16:13] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-29 16:16:13] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-29 16:16:13] INFO root fetch - processPackages [bent]: Downloading https://files.pythonhosted.org/packages/5d/43/113143c6b6347e1bb71972653ee235d760d0a32ce1df7da3e2893b77387c/bent-0.0.39.tar.gz
+[2024-04-29 16:16:13] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-29 16:16:13] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/75/d9/17a583a2d5fccaef7210a11d9f7dc963aab51cd4a5ae5f7983c03291f4bc/cybrid-api-organization-python-0.98.2.tar.gz
+[2024-04-29 16:16:14] INFO root fetch - processPackages [lightning-extensions]: Downloading https://files.pythonhosted.org/packages/ec/19/979424f82665c27e0f4ade9d3c49a019d99654d0ac1df85e12134cb8fb8f/lightning_extensions-0.0.9.tar.gz
+[2024-04-29 16:16:14] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-29 16:16:14] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-29 16:16:14] INFO root fetch - processPackages [ezside]: Downloading https://files.pythonhosted.org/packages/f1/e0/2cae952d702515bb0e82f0bacbe379367f4a416b2a3928f33850e21ae823/ezside-0.1.9.tar.gz
+[2024-04-29 16:16:14] INFO root fetch - processPackages [survival-data-handler]: Downloading https://files.pythonhosted.org/packages/20/3f/5c04ddfb2a87b29b2c57ec5be47fc7b3e75d17c4ce472b67262dfe1936cb/survival_data_handler-2024.4.5.tar.gz
+[2024-04-29 16:16:14] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/0e/53/a876751d299130f7983380ab69a0e7ef084aa32d849228d41250913731f6/dknovautils-0.2.9.tar.gz
+[2024-04-29 16:16:14] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-04-29 16:16:14] INFO root fetch - processPackages [lightning-extensions]: executing diffoscope
+[2024-04-29 16:16:14] INFO root fetch - processPackages [lightning-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning_extensions-0.0.7.tar.gz tmp/lightning_extensions-0.0.9.tar.gz --markdown 20240429/l/lightning-extensions/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-04-29 16:16:14] INFO root fetch - processPackages [bent]: Downloading https://files.pythonhosted.org/packages/90/0b/e90bc1c1cde3dc26fe2b1f4a0648bdbf77fa5cd447091e4accd93b6ce8bb/bent-0.0.9.tar.gz
+[2024-04-29 16:16:14] INFO root fetch - processPackages [pytgpt-bot]: Downloading https://files.pythonhosted.org/packages/dc/49/b6a8f4887c53c902c3393b2810157b721e0320106995ba71c26dad9f8215/pytgpt_bot-0.1.5.tar.gz
+[2024-04-29 16:16:14] INFO root fetch - processPackages [ezside]: executing diffoscope
+[2024-04-29 16:16:14] INFO root fetch - processPackages [ezside]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezside-0.1.8.tar.gz tmp/ezside-0.1.9.tar.gz --markdown 20240429/e/ezside/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 16:16:14] INFO root fetch - processPackages [survival-data-handler]: executing diffoscope
+[2024-04-29 16:16:14] INFO root fetch - processPackages [survival-data-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/survival_data_handler-2024.1.4.tar.gz tmp/survival_data_handler-2024.4.5.tar.gz --markdown 20240429/s/survival-data-handler/2024.1.4-2024.4.5/README.md --exclude *.pyd
+[2024-04-29 16:16:14] INFO root fetch - processPackages [dknovautils]: executing diffoscope
+[2024-04-29 16:16:14] INFO root fetch - processPackages [dknovautils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dknovautils-0.2.8.tar.gz tmp/dknovautils-0.2.9.tar.gz --markdown 20240429/d/dknovautils/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-29 16:16:14] INFO root fetch - processPackages [pytgpt-bot]: executing diffoscope
+[2024-04-29 16:16:14] INFO root fetch - processPackages [pytgpt-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytgpt_bot-0.1.4.tar.gz tmp/pytgpt_bot-0.1.5.tar.gz --markdown 20240429/p/pytgpt-bot/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-29 16:16:14] INFO root fetch - processPackages [bent]: executing diffoscope
+[2024-04-29 16:16:14] INFO root fetch - processPackages [bent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bent-0.0.39.tar.gz tmp/bent-0.0.9.tar.gz --markdown 20240429/b/bent/0.0.39-0.0.9/README.md --exclude *.pyd
+[2024-04-29 16:16:14] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/93/ab/a857018ac26aeaa884608066dbe6bd482e17a4edf88533d3335a3ed2a25c/cybrid-api-organization-python-0.99.0.tar.gz
+[2024-04-29 16:16:14] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-29 16:16:14] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-29 16:16:14] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2024-04-29 16:16:14] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.98.2.tar.gz tmp/cybrid-api-organization-python-0.99.0.tar.gz --markdown 20240429/c/cybrid-api-organization-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-04-29 16:16:14] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-04-29 16:16:14] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-29 16:16:14] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240429/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-04-29 16:16:14] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-29 16:16:14] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240429/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-04-29 16:16:14] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-04-29 16:16:14] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240429/c/cybrid-api-id-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-04-29 16:16:15] INFO root fetch - processPackages [lightning-extensions]: Remove: archive file [/home/abi/fetcher/tmp/lightning_extensions-0.0.7.tar.gz]
+[2024-04-29 16:16:15] INFO root fetch - processPackages [lightning-extensions]: Remove: archive file [/home/abi/fetcher/tmp/lightning_extensions-0.0.9.tar.gz]
+[2024-04-29 16:16:15] INFO root fetch - processPackages [lightning-extensions]: Start processing: msal_streamlit_t2
+[2024-04-29 16:16:15] INFO root fetch - main [MainThread]: End processing [lightning-extensions]: success
+[2024-04-29 16:16:15] INFO root fetch - processPackages [msal_streamlit_t2]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-29 16:16:15] INFO root fetch - processPackages [msal_streamlit_t2]: Downloading https://files.pythonhosted.org/packages/43/a9/fec17cfad5a63d15d219a19f9e6b7f24dcb0346dee1208428825fa3cab83/msal_streamlit_t2-1.1.0.tar.gz
+[2024-04-29 16:16:15] INFO root fetch - processPackages [survival-data-handler]: Remove: archive file [/home/abi/fetcher/tmp/survival_data_handler-2024.1.4.tar.gz]
+[2024-04-29 16:16:15] INFO root fetch - processPackages [survival-data-handler]: Remove: archive file [/home/abi/fetcher/tmp/survival_data_handler-2024.4.5.tar.gz]
+[2024-04-29 16:16:15] INFO root fetch - processPackages [survival-data-handler]: Start processing: cybrid-api-bank-python
+[2024-04-29 16:16:15] INFO root fetch - main [MainThread]: End processing [survival-data-handler]: success
+[2024-04-29 16:16:15] INFO root fetch - processPackages [ezside]: Remove: archive file [/home/abi/fetcher/tmp/ezside-0.1.8.tar.gz]
+[2024-04-29 16:16:15] INFO root fetch - processPackages [ezside]: Remove: archive file [/home/abi/fetcher/tmp/ezside-0.1.9.tar.gz]
+[2024-04-29 16:16:15] INFO root fetch - main [MainThread]: End processing [ezside]: success
+[2024-04-29 16:16:15] INFO root fetch - processPackages [dknovautils]: Remove: archive file [/home/abi/fetcher/tmp/dknovautils-0.2.8.tar.gz]
+[2024-04-29 16:16:15] INFO root fetch - processPackages [dknovautils]: Remove: archive file [/home/abi/fetcher/tmp/dknovautils-0.2.9.tar.gz]
+[2024-04-29 16:16:15] INFO root fetch - main [MainThread]: End processing [dknovautils]: success
+[2024-04-29 16:16:15] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-29 16:16:15] INFO root fetch - processPackages [pytgpt-bot]: Remove: archive file [/home/abi/fetcher/tmp/pytgpt_bot-0.1.4.tar.gz]
+[2024-04-29 16:16:15] INFO root fetch - processPackages [pytgpt-bot]: Remove: archive file [/home/abi/fetcher/tmp/pytgpt_bot-0.1.5.tar.gz]
+[2024-04-29 16:16:15] INFO root fetch - main [MainThread]: End processing [pytgpt-bot]: success
+[2024-04-29 16:16:15] INFO root fetch - processPackages [bent]: Remove: archive file [/home/abi/fetcher/tmp/bent-0.0.39.tar.gz]
+[2024-04-29 16:16:15] INFO root fetch - processPackages [bent]: Remove: archive file [/home/abi/fetcher/tmp/bent-0.0.9.tar.gz]
+[2024-04-29 16:16:15] INFO root fetch - main [MainThread]: End processing [bent]: success
+[2024-04-29 16:16:15] INFO root fetch - processPackages [msal_streamlit_t2]: Downloading https://files.pythonhosted.org/packages/88/75/5a33325f0b5f12ac13dee38eac258d0cfe358062d3bbe8c858b720ec5080/msal_streamlit_t2-1.1.1.tar.gz
+[2024-04-29 16:16:15] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/da/dd/e8ea2fc7e8f671e18adae35333d00fdc692f7637860f9e361fba5fe3b85a/cybrid-api-bank-python-0.98.2.tar.gz
+[2024-04-29 16:16:15] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.98.2.tar.gz]
+[2024-04-29 16:16:15] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.99.0.tar.gz]
+[2024-04-29 16:16:15] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2024-04-29 16:16:15] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-04-29 16:16:15] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-04-29 16:16:15] INFO root fetch - processPackages [msal_streamlit_t2]: executing diffoscope
+[2024-04-29 16:16:15] INFO root fetch - processPackages [msal_streamlit_t2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msal_streamlit_t2-1.1.0.tar.gz tmp/msal_streamlit_t2-1.1.1.tar.gz --markdown 20240429/m/msal_streamlit_t2/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-29 16:16:15] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-29 16:16:15] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-29 16:16:16] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/a1/e6/1c6a95191a8826ea0636949d5bfdb7d34a65b1f81b3cb27e1863a88a1552/cybrid-api-bank-python-0.99.0.tar.gz
+[2024-04-29 16:16:16] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2024-04-29 16:16:16] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.98.2.tar.gz tmp/cybrid-api-bank-python-0.99.0.tar.gz --markdown 20240429/c/cybrid-api-bank-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-04-29 16:16:16] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-04-29 16:16:16] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-04-29 16:16:16] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-04-29 16:16:16] INFO root fetch - processPackages [msal_streamlit_t2]: Remove: archive file [/home/abi/fetcher/tmp/msal_streamlit_t2-1.1.0.tar.gz]
+[2024-04-29 16:16:16] INFO root fetch - processPackages [msal_streamlit_t2]: Remove: archive file [/home/abi/fetcher/tmp/msal_streamlit_t2-1.1.1.tar.gz]
+[2024-04-29 16:16:16] INFO root fetch - main [MainThread]: End processing [msal_streamlit_t2]: success
+[2024-04-29 16:16:18] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.98.2.tar.gz]
+[2024-04-29 16:16:18] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
+[2024-04-29 16:16:18] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2024-04-29 16:16:18] INFO root fetch - main [MainThread]: Store serial: [22985161]
