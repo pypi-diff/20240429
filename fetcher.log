@@ -13823,3 +13823,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 11:26:21] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.9.0.tar.gz]
 [2024-04-29 11:26:21] INFO root fetch - main [MainThread]: End processing [gov-uk-dashboards]: success
 [2024-04-29 11:26:21] INFO root fetch - main [MainThread]: Store serial: [22981372]
+[2024-04-29 11:28:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22981372]
+[2024-04-29 11:28:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-29 11:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GreenLightPlus
+[2024-04-29 11:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: loe-simp-app-fw
+[2024-04-29 11:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: typedmongo
+[2024-04-29 11:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zato-apitest
+[2024-04-29 11:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dmocker
+[2024-04-29 11:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: frontengine
+[2024-04-29 11:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: frontengine-dev
+[2024-04-29 11:28:30] INFO root fetch - processPackages [loe-simp-app-fw]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-29 11:28:30] INFO root fetch - processPackages [zato-apitest]: New version: [24.1.25] Old Version: [24.1.24]
+[2024-04-29 11:28:30] WARNING root fetch - processPackages [GreenLightPlus]: Skipping, unable to determine old version
+[2024-04-29 11:28:30] INFO root fetch - main [MainThread]: End processing [GreenLightPlus] error
+[2024-04-29 11:28:30] INFO root fetch - processPackages [loe-simp-app-fw]: Downloading https://files.pythonhosted.org/packages/53/5d/5dd429355df0818c2c8e38880a8a8de8e0d52fc2db34d2c7cdbca95cbae0/loe_simp_app_fw-1.1.2.tar.gz
+[2024-04-29 11:28:30] INFO root fetch - processPackages [zato-apitest]: Downloading https://files.pythonhosted.org/packages/8e/99/2bb0f3f5fb5af450d11137b647db3c6e6c3f6465d999b55badb55c253811/zato_apitest-24.1.24.tar.gz
+[2024-04-29 11:28:30] INFO root fetch - processPackages [frontengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 11:28:30] INFO root fetch - processPackages [typedmongo]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-29 11:28:30] WARNING root fetch - processPackages [dmocker]: Skipping, unable to determine old version
+[2024-04-29 11:28:30] INFO root fetch - main [MainThread]: End processing [dmocker] error
+[2024-04-29 11:28:30] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 11:28:30] INFO root fetch - processPackages [typedmongo]: Downloading https://files.pythonhosted.org/packages/a5/df/2f47cd4d5e3b2afce8ecd5ca3f999e682603dc77e6f1024d1613e7fd4fd0/typedmongo-1.1.0.tar.gz
+[2024-04-29 11:28:30] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/62/88/6d99d7b463365da48db6f37c9bde41e7f7f20eeb1a13653a273586e81d3a/frontengine-0.0.8.tar.gz
+[2024-04-29 11:28:30] INFO root fetch - processPackages [loe-simp-app-fw]: Downloading https://files.pythonhosted.org/packages/fc/70/00e666494af414e252a54712c0b2bd3185aa8d8f34240ea0adb90691623b/loe_simp_app_fw-1.1.3.tar.gz
+[2024-04-29 11:28:30] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/23/e2/01e0fe02ca6b73e163f3f0d080231bc0c783a63e766e5524eb246350518d/frontengine_dev-0.0.8.tar.gz
+[2024-04-29 11:28:30] INFO root fetch - processPackages [zato-apitest]: Downloading https://files.pythonhosted.org/packages/42/8b/ffb2d0c4b82abb1ff78e3152d93512a5a0b821cddaf99211050cc3c8a76d/zato_apitest-24.1.25.tar.gz
+[2024-04-29 11:28:30] INFO root fetch - processPackages [loe-simp-app-fw]: executing diffoscope
+[2024-04-29 11:28:30] INFO root fetch - processPackages [loe-simp-app-fw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loe_simp_app_fw-1.1.2.tar.gz tmp/loe_simp_app_fw-1.1.3.tar.gz --markdown 20240429/l/loe-simp-app-fw/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-04-29 11:28:30] INFO root fetch - processPackages [zato-apitest]: executing diffoscope
+[2024-04-29 11:28:30] INFO root fetch - processPackages [zato-apitest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zato_apitest-24.1.24.tar.gz tmp/zato_apitest-24.1.25.tar.gz --markdown 20240429/z/zato-apitest/24.1.24-24.1.25/README.md --exclude *.pyd
+[2024-04-29 11:28:31] INFO root fetch - processPackages [typedmongo]: Downloading https://files.pythonhosted.org/packages/5c/2c/1dfd8a858bab5a01ded62c9ea2b6c4b4031bb66ac2e26426e627d8d55212/typedmongo-1.1.1.tar.gz
+[2024-04-29 11:28:31] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/a5/8e/4bb92b2db27649b96b46469f263e2fdd091c8283ff06a24534624c34be9d/frontengine-0.0.9.tar.gz
+[2024-04-29 11:28:31] INFO root fetch - processPackages [typedmongo]: executing diffoscope
+[2024-04-29 11:28:31] INFO root fetch - processPackages [typedmongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedmongo-1.1.0.tar.gz tmp/typedmongo-1.1.1.tar.gz --markdown 20240429/t/typedmongo/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-29 11:28:31] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/bd/40/ac58f5e1633b3b2ea3574839a03ddc6a124459f3e721986a4208fbe06488/frontengine_dev-0.0.9.tar.gz
+[2024-04-29 11:28:31] INFO root fetch - processPackages [frontengine]: executing diffoscope
+[2024-04-29 11:28:31] INFO root fetch - processPackages [frontengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine-0.0.8.tar.gz tmp/frontengine-0.0.9.tar.gz --markdown 20240429/f/frontengine/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 11:28:31] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2024-04-29 11:28:31] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20240429/f/frontengine-dev/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 11:28:31] INFO root fetch - processPackages [zato-apitest]: Remove: archive file [/home/abi/fetcher/tmp/zato_apitest-24.1.24.tar.gz]
+[2024-04-29 11:28:31] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.1.2.tar.gz]
+[2024-04-29 11:28:31] INFO root fetch - processPackages [zato-apitest]: Remove: archive file [/home/abi/fetcher/tmp/zato_apitest-24.1.25.tar.gz]
+[2024-04-29 11:28:31] INFO root fetch - processPackages [loe-simp-app-fw]: Remove: archive file [/home/abi/fetcher/tmp/loe_simp_app_fw-1.1.3.tar.gz]
+[2024-04-29 11:28:31] INFO root fetch - main [MainThread]: End processing [zato-apitest]: success
+[2024-04-29 11:28:31] INFO root fetch - main [MainThread]: End processing [loe-simp-app-fw]: success
+[2024-04-29 11:28:31] INFO root fetch - processPackages [typedmongo]: Remove: archive file [/home/abi/fetcher/tmp/typedmongo-1.1.0.tar.gz]
+[2024-04-29 11:28:31] INFO root fetch - processPackages [typedmongo]: Remove: archive file [/home/abi/fetcher/tmp/typedmongo-1.1.1.tar.gz]
+[2024-04-29 11:28:31] INFO root fetch - main [MainThread]: End processing [typedmongo]: success
+[2024-04-29 11:28:31] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.8.tar.gz]
+[2024-04-29 11:28:31] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.9.tar.gz]
+[2024-04-29 11:28:31] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2024-04-29 11:28:32] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.8.tar.gz]
+[2024-04-29 11:28:32] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.9.tar.gz]
+[2024-04-29 11:28:32] INFO root fetch - main [MainThread]: End processing [frontengine]: success
+[2024-04-29 11:28:32] INFO root fetch - main [MainThread]: Store serial: [22981395]
