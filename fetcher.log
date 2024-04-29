@@ -21097,3 +21097,54 @@ EOFError: EOF read where object expected
 [2024-04-29 15:27:26] INFO root fetch - processPackages [scipion-em-cryosparc2]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-cryosparc2-4.1.0.tar.gz]
 [2024-04-29 15:27:26] INFO root fetch - main [MainThread]: End processing [scipion-em-cryosparc2]: success
 [2024-04-29 15:27:26] INFO root fetch - main [MainThread]: Store serial: [22984279]
+[2024-04-29 15:29:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22984279]
+[2024-04-29 15:29:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-29 15:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: survival-data-handler
+[2024-04-29 15:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stopwords-tr
+[2024-04-29 15:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: integrate-ai
+[2024-04-29 15:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opencti-excel-uploader
+[2024-04-29 15:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: decoutilities
+[2024-04-29 15:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nestipy
+[2024-04-29 15:29:35] INFO root fetch - processPackages [opencti-excel-uploader]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-29 15:29:35] INFO root fetch - processPackages [decoutilities]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-29 15:29:35] INFO root fetch - processPackages [opencti-excel-uploader]: Downloading https://files.pythonhosted.org/packages/7f/77/1307e56cd776cfebb55636cb5f2cb15a52bcb22f66e00919d6285700ebb4/opencti_excel_uploader-0.2.8.tar.gz
+[2024-04-29 15:29:35] INFO root fetch - processPackages [nestipy]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-29 15:29:35] INFO root fetch - processPackages [survival-data-handler]: New version: [2024.4.5] Old Version: [2024.1.4]
+[2024-04-29 15:29:35] WARNING root fetch - processPackages [stopwords-tr]: Skipping, unable to determine old version
+[2024-04-29 15:29:35] INFO root fetch - processPackages [integrate-ai]: New version: [9.9.1] Old Version: [9.9.0]
+[2024-04-29 15:29:35] INFO root fetch - main [MainThread]: End processing [stopwords-tr] error
+[2024-04-29 15:29:35] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/9c/62/62fe95c9410c22d1507ba5dadf2d35b132a4d8cc5885632c154fbb13efc9/decoutilities-0.1.5.tar.gz
+[2024-04-29 15:29:35] INFO root fetch - processPackages [nestipy]: Downloading https://files.pythonhosted.org/packages/9e/af/d3f13170313d1b25eb5835508e3c827e40778caf767d5112394f8d25afdc/nestipy-0.2.8.tar.gz
+[2024-04-29 15:29:35] INFO root fetch - processPackages [survival-data-handler]: Downloading https://files.pythonhosted.org/packages/de/a6/a4f712a37173dde806b193a7290343f30fd4c292490bed83e6dc7999471f/survival_data_handler-2024.1.4.tar.gz
+[2024-04-29 15:29:35] INFO root fetch - processPackages [integrate-ai]: Downloading https://files.pythonhosted.org/packages/f1/01/96641704e9e83c32b1812fdcdace9392bde8c02b319c067e1c0f9d4c84ca/integrate-ai-9.9.0.tar.gz
+[2024-04-29 15:29:35] INFO root fetch - processPackages [opencti-excel-uploader]: Downloading https://files.pythonhosted.org/packages/08/21/739f84a5ec2b7af8dc93f7fba838b32f68e968c014b4980bc109510d3dd3/opencti_excel_uploader-0.2.9.tar.gz
+[2024-04-29 15:29:35] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/a3/1c/941f0afc4a3e9b9340a808cd674ac0528baad295acc7df432f47f3e6e36c/decoutilities-0.1.6.tar.gz
+[2024-04-29 15:29:35] INFO root fetch - processPackages [opencti-excel-uploader]: executing diffoscope
+[2024-04-29 15:29:35] INFO root fetch - processPackages [opencti-excel-uploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencti_excel_uploader-0.2.8.tar.gz tmp/opencti_excel_uploader-0.2.9.tar.gz --markdown 20240429/o/opencti-excel-uploader/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-29 15:29:35] INFO root fetch - processPackages [decoutilities]: executing diffoscope
+[2024-04-29 15:29:35] INFO root fetch - processPackages [decoutilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decoutilities-0.1.5.tar.gz tmp/decoutilities-0.1.6.tar.gz --markdown 20240429/d/decoutilities/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-29 15:29:36] INFO root fetch - processPackages [survival-data-handler]: Downloading https://files.pythonhosted.org/packages/20/3f/5c04ddfb2a87b29b2c57ec5be47fc7b3e75d17c4ce472b67262dfe1936cb/survival_data_handler-2024.4.5.tar.gz
+[2024-04-29 15:29:36] INFO root fetch - processPackages [nestipy]: Downloading https://files.pythonhosted.org/packages/95/58/d5f039cff5bd91f89f7698be6b56a7af29c3e664a5dabb711d1edf32af8f/nestipy-0.2.9.tar.gz
+[2024-04-29 15:29:36] INFO root fetch - processPackages [integrate-ai]: Downloading https://files.pythonhosted.org/packages/be/65/dd201a071f1781aa72dd706271285b617b541e57f18d3636fa38b18606a9/integrate-ai-9.9.1.tar.gz
+[2024-04-29 15:29:36] INFO root fetch - processPackages [survival-data-handler]: executing diffoscope
+[2024-04-29 15:29:36] INFO root fetch - processPackages [survival-data-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/survival_data_handler-2024.1.4.tar.gz tmp/survival_data_handler-2024.4.5.tar.gz --markdown 20240429/s/survival-data-handler/2024.1.4-2024.4.5/README.md --exclude *.pyd
+[2024-04-29 15:29:36] INFO root fetch - processPackages [nestipy]: executing diffoscope
+[2024-04-29 15:29:36] INFO root fetch - processPackages [nestipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestipy-0.2.8.tar.gz tmp/nestipy-0.2.9.tar.gz --markdown 20240429/n/nestipy/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-29 15:29:36] INFO root fetch - processPackages [integrate-ai]: executing diffoscope
+[2024-04-29 15:29:36] INFO root fetch - processPackages [integrate-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/integrate-ai-9.9.0.tar.gz tmp/integrate-ai-9.9.1.tar.gz --markdown 20240429/i/integrate-ai/9.9.0-9.9.1/README.md --exclude *.pyd
+[2024-04-29 15:29:36] INFO root fetch - processPackages [opencti-excel-uploader]: Remove: archive file [/home/abi/fetcher/tmp/opencti_excel_uploader-0.2.8.tar.gz]
+[2024-04-29 15:29:36] INFO root fetch - processPackages [opencti-excel-uploader]: Remove: archive file [/home/abi/fetcher/tmp/opencti_excel_uploader-0.2.9.tar.gz]
+[2024-04-29 15:29:36] INFO root fetch - main [MainThread]: End processing [opencti-excel-uploader]: success
+[2024-04-29 15:29:36] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.1.5.tar.gz]
+[2024-04-29 15:29:36] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.1.6.tar.gz]
+[2024-04-29 15:29:36] INFO root fetch - main [MainThread]: End processing [decoutilities]: success
+[2024-04-29 15:29:37] INFO root fetch - processPackages [survival-data-handler]: Remove: archive file [/home/abi/fetcher/tmp/survival_data_handler-2024.1.4.tar.gz]
+[2024-04-29 15:29:37] INFO root fetch - processPackages [survival-data-handler]: Remove: archive file [/home/abi/fetcher/tmp/survival_data_handler-2024.4.5.tar.gz]
+[2024-04-29 15:29:37] INFO root fetch - main [MainThread]: End processing [survival-data-handler]: success
+[2024-04-29 15:29:37] INFO root fetch - processPackages [integrate-ai]: Remove: archive file [/home/abi/fetcher/tmp/integrate-ai-9.9.0.tar.gz]
+[2024-04-29 15:29:37] INFO root fetch - processPackages [integrate-ai]: Remove: archive file [/home/abi/fetcher/tmp/integrate-ai-9.9.1.tar.gz]
+[2024-04-29 15:29:37] INFO root fetch - main [MainThread]: End processing [integrate-ai]: success
+[2024-04-29 15:29:37] INFO root fetch - processPackages [nestipy]: Remove: archive file [/home/abi/fetcher/tmp/nestipy-0.2.8.tar.gz]
+[2024-04-29 15:29:37] INFO root fetch - processPackages [nestipy]: Remove: archive file [/home/abi/fetcher/tmp/nestipy-0.2.9.tar.gz]
+[2024-04-29 15:29:37] INFO root fetch - main [MainThread]: End processing [nestipy]: success
+[2024-04-29 15:29:37] INFO root fetch - main [MainThread]: Store serial: [22984302]
