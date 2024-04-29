@@ -9552,3 +9552,67 @@
 [2024-04-29 08:15:08] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.9.9.tar.gz]
 [2024-04-29 08:15:08] INFO root fetch - main [MainThread]: End processing [pyphetools]: success
 [2024-04-29 08:15:08] INFO root fetch - main [MainThread]: Store serial: [22979390]
+[2024-04-29 08:17:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979390]
+[2024-04-29 08:17:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-29 08:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eirStru
+[2024-04-29 08:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fake-bpy-module-latest
+[2024-04-29 08:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fake-bpy-module
+[2024-04-29 08:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: upgini
+[2024-04-29 08:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opyls
+[2024-04-29 08:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: static-analysis-script
+[2024-04-29 08:17:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opyls
+[2024-04-29 08:17:17] INFO root fetch - processPackages [eirStru]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-29 08:17:17] INFO root fetch - processPackages [opyls]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-29 08:17:17] INFO root fetch - processPackages [static-analysis-script]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-29 08:17:17] INFO root fetch - processPackages [opyls]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-29 08:17:17] INFO root fetch - processPackages [fake-bpy-module]: New version: [20240428] Old Version: [20240427]
+[2024-04-29 08:17:17] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240428] Old Version: [20240427]
+[2024-04-29 08:17:17] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-04-29 08:17:18] INFO root fetch - processPackages [static-analysis-script]: Downloading https://files.pythonhosted.org/packages/51/33/32f9bd1b5a6e9932571b93d52ce516d7ec9b9734f47d8ffbeb127cb4aaa2/static_analysis_script-0.1.3.tar.gz
+[2024-04-29 08:17:18] INFO root fetch - processPackages [opyls]: Downloading https://files.pythonhosted.org/packages/6a/4e/4d750884e043d0082ca0d1f7e3b5d3eb68e55d0a8cd5b9636244601a7197/opyls-0.0.3.tar.gz
+[2024-04-29 08:17:18] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/b5/2a/25fb95363a9110b32ccbc230c8a5f6207e35c7c5906b6f63320a4ca71535/eirStru-0.3.8.tar.gz
+[2024-04-29 08:17:18] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/d7/59/63aecaf77fa0bec4ea888c3a55c348974086621ca8a0ea642d10596361ab/fake_bpy_module-20240427.tar.gz
+[2024-04-29 08:17:18] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/d6/35/6081c6721cd9cec9d9830fcde69ed114b4d4eaaacac34d39fb6b9bb58a4c/fake_bpy_module_latest-20240427.tar.gz
+[2024-04-29 08:17:18] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2024-04-29 08:17:18] INFO root fetch - processPackages [opyls]: Downloading https://files.pythonhosted.org/packages/6a/4e/4d750884e043d0082ca0d1f7e3b5d3eb68e55d0a8cd5b9636244601a7197/opyls-0.0.3.tar.gz
+[2024-04-29 08:17:18] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/26/ce/8cae1a6c9a510bd827a325862ceb832b9e593422dff66af06aa3bdda4f40/eirStru-0.3.9.tar.gz
+[2024-04-29 08:17:18] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2024-04-29 08:17:18] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-29 08:17:18] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.3.8.tar.gz tmp/eirStru-0.3.9.tar.gz --markdown 20240429/e/eirStru/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-29 08:17:18] INFO root fetch - processPackages [opyls]: Downloading https://files.pythonhosted.org/packages/8c/72/394a8d760451e9d6dc8d830631355283b6de6b7dfecf1843043f178b60f5/opyls-0.0.4.tar.gz
+[2024-04-29 08:17:18] INFO root fetch - processPackages [opyls]: Downloading https://files.pythonhosted.org/packages/8c/72/394a8d760451e9d6dc8d830631355283b6de6b7dfecf1843043f178b60f5/opyls-0.0.4.tar.gz
+[2024-04-29 08:17:18] INFO root fetch - processPackages [static-analysis-script]: Downloading https://files.pythonhosted.org/packages/b6/5c/c6a926a86700ebf1c66d4ad2b5987c0744ca90b62d25f8e9ca7ad604a628/static_analysis_script-0.1.4.tar.gz
+[2024-04-29 08:17:18] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2024-04-29 08:17:18] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20240429/u/upgini/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-04-29 08:17:18] INFO root fetch - processPackages [opyls]: executing diffoscope
+[2024-04-29 08:17:18] INFO root fetch - processPackages [opyls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opyls-0.0.3.tar.gz tmp/opyls-0.0.4.tar.gz --markdown 20240429/o/opyls/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-29 08:17:18] INFO root fetch - processPackages [opyls]: executing diffoscope
+[2024-04-29 08:17:18] INFO root fetch - processPackages [opyls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opyls-0.0.3.tar.gz tmp/opyls-0.0.4.tar.gz --markdown 20240429/o/opyls/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-29 08:17:18] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/2e/15/5708c61524ecaedd99e5c8c5390ef44802d9ac08a0d5ccff04ad4cff6e24/fake_bpy_module_latest-20240428.tar.gz
+[2024-04-29 08:17:18] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/84/03/8aeef49b42792f7dfc4397e32cff53a8c44e4fc865cf311e0ce95b513d94/fake_bpy_module-20240428.tar.gz
+[2024-04-29 08:17:18] INFO root fetch - processPackages [static-analysis-script]: executing diffoscope
+[2024-04-29 08:17:18] INFO root fetch - processPackages [static-analysis-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/static_analysis_script-0.1.3.tar.gz tmp/static_analysis_script-0.1.4.tar.gz --markdown 20240429/s/static-analysis-script/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-29 08:17:18] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-04-29 08:17:18] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module_latest-20240427.tar.gz tmp/fake_bpy_module_latest-20240428.tar.gz --markdown 20240429/f/fake-bpy-module-latest/20240427-20240428/README.md --exclude *.pyd
+[2024-04-29 08:17:18] INFO root fetch - processPackages [fake-bpy-module]: executing diffoscope
+[2024-04-29 08:17:18] INFO root fetch - processPackages [fake-bpy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module-20240427.tar.gz tmp/fake_bpy_module-20240428.tar.gz --markdown 20240429/f/fake-bpy-module/20240427-20240428/README.md --exclude *.pyd
+[2024-04-29 08:17:19] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.8.tar.gz]
+[2024-04-29 08:17:19] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.9.tar.gz]
+[2024-04-29 08:17:19] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-29 08:17:19] INFO root fetch - processPackages [opyls]: Remove: archive file [/home/abi/fetcher/tmp/opyls-0.0.3.tar.gz]
+[2024-04-29 08:17:19] INFO root fetch - processPackages [opyls]: Remove: archive file [/home/abi/fetcher/tmp/opyls-0.0.4.tar.gz]
+[2024-04-29 08:17:19] INFO root fetch - main [MainThread]: End processing [opyls]: success
+[2024-04-29 08:17:19] INFO root fetch - processPackages [static-analysis-script]: Remove: archive file [/home/abi/fetcher/tmp/static_analysis_script-0.1.3.tar.gz]
+[2024-04-29 08:17:19] INFO root fetch - processPackages [static-analysis-script]: Remove: archive file [/home/abi/fetcher/tmp/static_analysis_script-0.1.4.tar.gz]
+[2024-04-29 08:17:19] INFO root fetch - main [MainThread]: End processing [static-analysis-script]: success
+[2024-04-29 08:17:19] INFO root fetch - main [MainThread]: End processing [opyls]: success
+[2024-04-29 08:17:19] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2024-04-29 08:17:19] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2024-04-29 08:17:19] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2024-04-29 08:17:26] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240427.tar.gz]
+[2024-04-29 08:17:26] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240428.tar.gz]
+[2024-04-29 08:17:26] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
+[2024-04-29 08:17:26] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240427.tar.gz]
+[2024-04-29 08:17:26] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240428.tar.gz]
+[2024-04-29 08:17:26] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-04-29 08:17:26] INFO root fetch - main [MainThread]: Store serial: [22979410]
