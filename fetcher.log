@@ -7457,3 +7457,17 @@
 [2024-04-29 05:35:20] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
 [2024-04-29 05:35:20] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
 [2024-04-29 05:35:20] INFO root fetch - main [MainThread]: Store serial: [22978409]
+[2024-04-29 05:37:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978409]
+[2024-04-29 05:37:29] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-29 05:39:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978411]
+[2024-04-29 05:39:34] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-29 05:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataframe-short
+[2024-04-29 05:39:34] INFO root fetch - processPackages [dataframe-short]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-29 05:39:34] INFO root fetch - processPackages [dataframe-short]: Downloading https://files.pythonhosted.org/packages/f5/0e/5fdcf629a08e06bfaa5c1423466f87c1f8ad8b80d6a15af7ce266e91acc1/dataframe_short-0.1.0.tar.gz
+[2024-04-29 05:39:35] INFO root fetch - processPackages [dataframe-short]: Downloading https://files.pythonhosted.org/packages/5c/7b/2b7d0f246355209ac5f06d4666a26d3767dc9e62240023c5feb426bb3cd4/dataframe_short-0.1.1.tar.gz
+[2024-04-29 05:39:35] INFO root fetch - processPackages [dataframe-short]: executing diffoscope
+[2024-04-29 05:39:35] INFO root fetch - processPackages [dataframe-short]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataframe_short-0.1.0.tar.gz tmp/dataframe_short-0.1.1.tar.gz --markdown 20240429/d/dataframe-short/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-29 05:39:35] INFO root fetch - processPackages [dataframe-short]: Remove: archive file [/home/abi/fetcher/tmp/dataframe_short-0.1.0.tar.gz]
+[2024-04-29 05:39:35] INFO root fetch - processPackages [dataframe-short]: Remove: archive file [/home/abi/fetcher/tmp/dataframe_short-0.1.1.tar.gz]
+[2024-04-29 05:39:35] INFO root fetch - main [MainThread]: End processing [dataframe-short]: success
+[2024-04-29 05:39:35] INFO root fetch - main [MainThread]: Store serial: [22978416]
