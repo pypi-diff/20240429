@@ -10482,3 +10482,45 @@
 [2024-04-29 09:06:13] INFO root fetch - processPackages [feffery-utils-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_utils_components-0.2.0rc9.tar.gz]
 [2024-04-29 09:06:13] INFO root fetch - main [MainThread]: End processing [feffery-utils-components]: success
 [2024-04-29 09:06:13] INFO root fetch - main [MainThread]: Store serial: [22979808]
+[2024-04-29 09:08:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979808]
+[2024-04-29 09:08:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 09:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LeeCo
+[2024-04-29 09:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: winloop
+[2024-04-29 09:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jetline
+[2024-04-29 09:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyedifice
+[2024-04-29 09:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: templated-setup
+[2024-04-29 09:08:23] INFO root fetch - processPackages [jetline]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 09:08:23] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/14/d7/4b17ee6567b17ad4eec9a6e6ceded1190275544e45e07f7b10971d03dc9f/jetline-0.1.8.tar.gz
+[2024-04-29 09:08:23] INFO root fetch - processPackages [pyedifice]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-04-29 09:08:23] INFO root fetch - processPackages [LeeCo]: New version: [0.0.1a1] Old Version: [0.0.1a0]
+[2024-04-29 09:08:23] WARNING root fetch - processPackages [templated-setup]: Skipping, unable to determine old version
+[2024-04-29 09:08:23] INFO root fetch - main [MainThread]: End processing [templated-setup] error
+[2024-04-29 09:08:23] INFO root fetch - processPackages [winloop]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-29 09:08:23] INFO root fetch - processPackages [pyedifice]: Downloading https://files.pythonhosted.org/packages/62/89/3421b589c2bd0ef07c75eff062af426b5099a0ec5ed7e2b815952eb70b19/pyedifice-0.5.3.tar.gz
+[2024-04-29 09:08:23] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/e3/52/ee8efe5ee3940966b4c7e8b471dd88336c2950833a0dd4b4854cce8f181b/jetline-0.1.9.tar.gz
+[2024-04-29 09:08:23] INFO root fetch - processPackages [LeeCo]: Downloading https://files.pythonhosted.org/packages/9b/79/06474260b2d9031a70ce71b5166636a71eff66953b9e5979cd8c408745fd/LeeCo-0.0.1a0.tar.gz
+[2024-04-29 09:08:23] INFO root fetch - processPackages [winloop]: Downloading https://files.pythonhosted.org/packages/b3/bb/a3169d02e64e7fa11fd5b3bdd45f5c190d6c782b96ede1cdd9ac78e68446/winloop-0.1.2.tar.gz
+[2024-04-29 09:08:24] INFO root fetch - processPackages [jetline]: executing diffoscope
+[2024-04-29 09:08:24] INFO root fetch - processPackages [jetline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetline-0.1.8.tar.gz tmp/jetline-0.1.9.tar.gz --markdown 20240429/j/jetline/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 09:08:24] INFO root fetch - processPackages [pyedifice]: Downloading https://files.pythonhosted.org/packages/15/04/55aebc7ae4d7b7b0ebbaf2001ae342c9575f57de9a4c61c8eab270ca9820/pyedifice-0.5.4.tar.gz
+[2024-04-29 09:08:24] INFO root fetch - processPackages [LeeCo]: Downloading https://files.pythonhosted.org/packages/69/78/bc3dd745b66edd7def30a878468644d5fce8674f39949b2e2cb46dfe37b0/LeeCo-0.0.1a1-py3-none-any.whl
+[2024-04-29 09:08:24] INFO root fetch - processPackages [winloop]: Downloading https://files.pythonhosted.org/packages/12/fe/c09dfc66e57bbfade39e6e460008588d4dfb1b64d38dbb60a3e373f0d6bb/winloop-0.1.3.tar.gz
+[2024-04-29 09:08:24] INFO root fetch - processPackages [LeeCo]: executing diffoscope
+[2024-04-29 09:08:24] INFO root fetch - processPackages [LeeCo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LeeCo-0.0.1a0.tar.gz tmp/LeeCo-0.0.1a1-py3-none-any.whl.zip --markdown 20240429/L/LeeCo/0.0.1a0-0.0.1a1/README.md --exclude *.pyd
+[2024-04-29 09:08:24] INFO root fetch - processPackages [pyedifice]: executing diffoscope
+[2024-04-29 09:08:24] INFO root fetch - processPackages [pyedifice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyedifice-0.5.3.tar.gz tmp/pyedifice-0.5.4.tar.gz --markdown 20240429/p/pyedifice/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-04-29 09:08:24] INFO root fetch - processPackages [winloop]: executing diffoscope
+[2024-04-29 09:08:24] INFO root fetch - processPackages [winloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winloop-0.1.2.tar.gz tmp/winloop-0.1.3.tar.gz --markdown 20240429/w/winloop/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-29 09:08:24] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.1.8.tar.gz]
+[2024-04-29 09:08:24] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.1.9.tar.gz]
+[2024-04-29 09:08:24] INFO root fetch - main [MainThread]: End processing [jetline]: success
+[2024-04-29 09:08:24] INFO root fetch - processPackages [LeeCo]: Remove: archive file [/home/abi/fetcher/tmp/LeeCo-0.0.1a0.tar.gz]
+[2024-04-29 09:08:24] INFO root fetch - processPackages [LeeCo]: Remove: archive file [/home/abi/fetcher/tmp/LeeCo-0.0.1a1-py3-none-any.whl.zip]
+[2024-04-29 09:08:24] INFO root fetch - main [MainThread]: End processing [LeeCo]: success
+[2024-04-29 09:08:28] INFO root fetch - processPackages [winloop]: Remove: archive file [/home/abi/fetcher/tmp/winloop-0.1.2.tar.gz]
+[2024-04-29 09:08:28] INFO root fetch - processPackages [winloop]: Remove: archive file [/home/abi/fetcher/tmp/winloop-0.1.3.tar.gz]
+[2024-04-29 09:08:28] INFO root fetch - main [MainThread]: End processing [winloop]: success
+[2024-04-29 09:08:29] INFO root fetch - processPackages [pyedifice]: Remove: archive file [/home/abi/fetcher/tmp/pyedifice-0.5.3.tar.gz]
+[2024-04-29 09:08:29] INFO root fetch - processPackages [pyedifice]: Remove: archive file [/home/abi/fetcher/tmp/pyedifice-0.5.4.tar.gz]
+[2024-04-29 09:08:29] INFO root fetch - main [MainThread]: End processing [pyedifice]: success
+[2024-04-29 09:08:29] INFO root fetch - main [MainThread]: Store serial: [22979827]
