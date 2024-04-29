@@ -12228,3 +12228,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 10:23:59] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-2.9.2-cp39-cp39-win_amd64.whl.zip]
 [2024-04-29 10:23:59] INFO root fetch - main [MainThread]: End processing [usearch]: success
 [2024-04-29 10:23:59] INFO root fetch - main [MainThread]: Store serial: [22980598]
+[2024-04-29 10:26:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980598]
+[2024-04-29 10:26:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 10:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scenario_assessment
+[2024-04-29 10:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vclean
+[2024-04-29 10:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MyLLM
+[2024-04-29 10:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: templated-setup
+[2024-04-29 10:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cg
+[2024-04-29 10:26:08] INFO root fetch - processPackages [vclean]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-04-29 10:26:08] INFO root fetch - processPackages [templated-setup]: New version: [0.2] Old Version: [0.1]
+[2024-04-29 10:26:08] INFO root fetch - processPackages [cg]: New version: [60.4.9] Old Version: [60.4.8]
+[2024-04-29 10:26:08] WARNING root fetch - processPackages [scenario_assessment]: Skipping, unable to determine old version
+[2024-04-29 10:26:08] INFO root fetch - main [MainThread]: End processing [scenario_assessment] error
+[2024-04-29 10:26:08] INFO root fetch - processPackages [MyLLM]: New version: [4.8.9] Old Version: [4.8.8]
+[2024-04-29 10:26:08] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6d/8a/0fe96c62aae3c6ee2fd8c01bad8b4bc5cdd27f1a79c3475f16908c3aeae2/cg-60.4.8.tar.gz
+[2024-04-29 10:26:08] INFO root fetch - processPackages [vclean]: Downloading https://files.pythonhosted.org/packages/4a/13/606105b3b958e14fb597b9a28edbdc5563b071054a80d3d15849e4af7abd/vclean-0.0.0.tar.gz
+[2024-04-29 10:26:08] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/e0/91/7199d5691181df2d85bce98d4ad4144cad96f569cefdf3253f1cc299028d/templated_setup-0.1.tar.gz
+[2024-04-29 10:26:08] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/17/a3/c8c72d3fe2409e7c53f4f1b62d22d58eda0f109b746f00cee99c542888b9/myllm-4.8.8.tar.gz
+[2024-04-29 10:26:08] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/b0/66/ee3debe4e76c8dbb5a42d4e0f2cee0a2e7b457675c7bd7fbf4510faf616f/templated_setup-0.2.tar.gz
+[2024-04-29 10:26:08] INFO root fetch - processPackages [vclean]: Downloading https://files.pythonhosted.org/packages/e4/f1/9ea14e785ca53c9b63408041b8baf0a575c30f7d523581f7bcfb7d96aabf/vclean-0.0.1.tar.gz
+[2024-04-29 10:26:08] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/57/3a/bfe2f2c55e10a6dee7a033bc1731f5ed17fe7c958a210478832a958f6d80/myllm-4.8.9.tar.gz
+[2024-04-29 10:26:09] INFO root fetch - processPackages [templated-setup]: executing diffoscope
+[2024-04-29 10:26:09] INFO root fetch - processPackages [templated-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templated_setup-0.1.tar.gz tmp/templated_setup-0.2.tar.gz --markdown 20240429/t/templated-setup/0.1-0.2/README.md --exclude *.pyd
+[2024-04-29 10:26:09] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/b3/ab/26825e53155724bbc3f90a3d62ae0d257e27bb52728714568e7229a50c63/cg-60.4.9.tar.gz
+[2024-04-29 10:26:09] INFO root fetch - processPackages [vclean]: executing diffoscope
+[2024-04-29 10:26:09] INFO root fetch - processPackages [vclean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vclean-0.0.0.tar.gz tmp/vclean-0.0.1.tar.gz --markdown 20240429/v/vclean/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-04-29 10:26:09] INFO root fetch - processPackages [MyLLM]: executing diffoscope
+[2024-04-29 10:26:09] INFO root fetch - processPackages [MyLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myllm-4.8.8.tar.gz tmp/myllm-4.8.9.tar.gz --markdown 20240429/M/MyLLM/4.8.8-4.8.9/README.md --exclude *.pyd
+[2024-04-29 10:26:09] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-29 10:26:09] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.4.8.tar.gz tmp/cg-60.4.9.tar.gz --markdown 20240429/c/cg/60.4.8-60.4.9/README.md --exclude *.pyd
+[2024-04-29 10:26:09] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.1.tar.gz]
+[2024-04-29 10:26:09] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.2.tar.gz]
+[2024-04-29 10:26:09] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
+[2024-04-29 10:26:09] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.8.tar.gz]
+[2024-04-29 10:26:09] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.9.tar.gz]
+[2024-04-29 10:26:09] INFO root fetch - main [MainThread]: End processing [MyLLM]: success
+[2024-04-29 10:26:09] INFO root fetch - processPackages [vclean]: Remove: archive file [/home/abi/fetcher/tmp/vclean-0.0.0.tar.gz]
+[2024-04-29 10:26:09] INFO root fetch - processPackages [vclean]: Remove: archive file [/home/abi/fetcher/tmp/vclean-0.0.1.tar.gz]
+[2024-04-29 10:26:09] INFO root fetch - main [MainThread]: End processing [vclean]: success
+[2024-04-29 10:26:13] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.4.8.tar.gz]
+[2024-04-29 10:26:13] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.4.9.tar.gz]
+[2024-04-29 10:26:13] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-29 10:26:13] INFO root fetch - main [MainThread]: Store serial: [22980627]
