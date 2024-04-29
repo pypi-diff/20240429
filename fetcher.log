@@ -17279,3 +17279,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 13:30:36] INFO root fetch - processPackages [opencti-excel-uploader]: Remove: archive file [/home/abi/fetcher/tmp/opencti_excel_uploader-0.2.3.tar.gz]
 [2024-04-29 13:30:36] INFO root fetch - main [MainThread]: End processing [opencti-excel-uploader]: success
 [2024-04-29 13:30:36] INFO root fetch - main [MainThread]: Store serial: [22982687]
+[2024-04-29 13:32:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982687]
+[2024-04-29 13:32:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-29 13:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logprep
+[2024-04-29 13:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiotgbot
+[2024-04-29 13:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aivol
+[2024-04-29 13:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keelson
+[2024-04-29 13:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netsuitesdk
+[2024-04-29 13:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ropt
+[2024-04-29 13:32:45] INFO root fetch - processPackages [keelson]: New version: [0.3.1rc9] Old Version: [0.3.1rc8]
+[2024-04-29 13:32:45] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/c6/e7/74deb2f4692ca724892622c48d5c9a3300000f59c46ecd7f1ca9fbf2937f/keelson-0.3.1rc8-py3-none-any.whl
+[2024-04-29 13:32:45] INFO root fetch - processPackages [aivol]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-29 13:32:45] INFO root fetch - processPackages [ropt]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-29 13:32:45] INFO root fetch - processPackages [netsuitesdk]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-29 13:32:45] INFO root fetch - processPackages [aiotgbot]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-29 13:32:45] INFO root fetch - processPackages [logprep]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-04-29 13:32:45] INFO root fetch - processPackages [aivol]: Downloading https://files.pythonhosted.org/packages/29/49/52fd9d40746f2e585880df765abd4a0d8e1597344e7bf4a9b1283b65f113/aivol-0.0.6.tar.gz
+[2024-04-29 13:32:45] INFO root fetch - processPackages [netsuitesdk]: Downloading https://files.pythonhosted.org/packages/e5/08/0a16a5ae184a2bcd174b7255fe02bb05ffe69fd215ac0b74729faa6da08a/netsuitesdk-2.8.0.tar.gz
+[2024-04-29 13:32:45] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/d3/ac/b73a3ad73043384f594b9564cff3200eead0fca16963d71069905057ba4e/keelson-0.3.1rc9-py3-none-any.whl
+[2024-04-29 13:32:45] INFO root fetch - processPackages [aiotgbot]: Downloading https://files.pythonhosted.org/packages/2c/b4/eb1fcd2ce7e71bb09e5b555b150815f457fe43c9877f345e57ee8a732c2a/aiotgbot-0.9.5.tar.gz
+[2024-04-29 13:32:45] INFO root fetch - processPackages [logprep]: Downloading https://files.pythonhosted.org/packages/b7/dd/b6e64a3f20c4983b74dc9863c3153f386d95293807969ea2c0d705c29d06/logprep-9.0.2.tar.gz
+[2024-04-29 13:32:45] INFO root fetch - processPackages [ropt]: Downloading https://files.pythonhosted.org/packages/77/2e/a2a7f717a0572b3cd61b0cc4f4a8b52e76c1bc234d9c6f0f1dd213599f08/ropt-0.2.0.tar.gz
+[2024-04-29 13:32:45] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-04-29 13:32:45] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.3.1rc8-py3-none-any.whl.zip tmp/keelson-0.3.1rc9-py3-none-any.whl.zip --markdown 20240429/k/keelson/0.3.1rc8-0.3.1rc9/README.md --exclude *.pyd
+[2024-04-29 13:32:46] INFO root fetch - processPackages [aivol]: Downloading https://files.pythonhosted.org/packages/2b/19/06fede3fe9dfe07716d1acb94bf4d7c8dda09c998a8f8488d17f0bd13edb/aivol-0.0.7.tar.gz
+[2024-04-29 13:32:46] INFO root fetch - processPackages [netsuitesdk]: Downloading https://files.pythonhosted.org/packages/f4/b0/f6cad2ab7a9d5d66e6245bbb1a53d175f89152e49f7c8d2d01e6e17453f7/netsuitesdk-2.9.0.tar.gz
+[2024-04-29 13:32:46] INFO root fetch - processPackages [aiotgbot]: Downloading https://files.pythonhosted.org/packages/0f/85/301c585e2f01d3a250660e7afb2c7cefe9ffbc63b809bca915b8c5868450/aiotgbot-0.9.6.tar.gz
+[2024-04-29 13:32:46] INFO root fetch - processPackages [aivol]: executing diffoscope
+[2024-04-29 13:32:46] INFO root fetch - processPackages [aivol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aivol-0.0.6.tar.gz tmp/aivol-0.0.7.tar.gz --markdown 20240429/a/aivol/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-29 13:32:46] INFO root fetch - processPackages [logprep]: Downloading https://files.pythonhosted.org/packages/94/cd/e89069de4cb8f48c0cad5adb1b7f61c8b9a3230aa17787ad56945151ff83/logprep-9.0.3.tar.gz
+[2024-04-29 13:32:46] INFO root fetch - processPackages [ropt]: Downloading https://files.pythonhosted.org/packages/13/65/858554e5d81ef08d68a8a1e60e7c190ce5d94c92ac3b758253c4bb9ffe8c/ropt-0.2.1.tar.gz
+[2024-04-29 13:32:46] INFO root fetch - processPackages [netsuitesdk]: executing diffoscope
+[2024-04-29 13:32:46] INFO root fetch - processPackages [netsuitesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netsuitesdk-2.8.0.tar.gz tmp/netsuitesdk-2.9.0.tar.gz --markdown 20240429/n/netsuitesdk/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-04-29 13:32:46] INFO root fetch - processPackages [aiotgbot]: executing diffoscope
+[2024-04-29 13:32:46] INFO root fetch - processPackages [aiotgbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotgbot-0.9.5.tar.gz tmp/aiotgbot-0.9.6.tar.gz --markdown 20240429/a/aiotgbot/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-04-29 13:32:46] INFO root fetch - processPackages [logprep]: executing diffoscope
+[2024-04-29 13:32:46] INFO root fetch - processPackages [logprep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logprep-9.0.2.tar.gz tmp/logprep-9.0.3.tar.gz --markdown 20240429/l/logprep/9.0.2-9.0.3/README.md --exclude *.pyd
+[2024-04-29 13:32:46] INFO root fetch - processPackages [ropt]: executing diffoscope
+[2024-04-29 13:32:46] INFO root fetch - processPackages [ropt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ropt-0.2.0.tar.gz tmp/ropt-0.2.1.tar.gz --markdown 20240429/r/ropt/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-29 13:32:46] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.1rc8-py3-none-any.whl.zip]
+[2024-04-29 13:32:46] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.1rc9-py3-none-any.whl.zip]
+[2024-04-29 13:32:46] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-04-29 13:32:46] INFO root fetch - processPackages [aivol]: Remove: archive file [/home/abi/fetcher/tmp/aivol-0.0.6.tar.gz]
+[2024-04-29 13:32:46] INFO root fetch - processPackages [aivol]: Remove: archive file [/home/abi/fetcher/tmp/aivol-0.0.7.tar.gz]
+[2024-04-29 13:32:46] INFO root fetch - main [MainThread]: End processing [aivol]: success
+[2024-04-29 13:32:47] INFO root fetch - processPackages [aiotgbot]: Remove: archive file [/home/abi/fetcher/tmp/aiotgbot-0.9.5.tar.gz]
+[2024-04-29 13:32:47] INFO root fetch - processPackages [aiotgbot]: Remove: archive file [/home/abi/fetcher/tmp/aiotgbot-0.9.6.tar.gz]
+[2024-04-29 13:32:47] INFO root fetch - main [MainThread]: End processing [aiotgbot]: success
+[2024-04-29 13:32:47] INFO root fetch - processPackages [netsuitesdk]: Remove: archive file [/home/abi/fetcher/tmp/netsuitesdk-2.8.0.tar.gz]
+[2024-04-29 13:32:47] INFO root fetch - processPackages [netsuitesdk]: Remove: archive file [/home/abi/fetcher/tmp/netsuitesdk-2.9.0.tar.gz]
+[2024-04-29 13:32:47] INFO root fetch - main [MainThread]: End processing [netsuitesdk]: success
+[2024-04-29 13:32:47] INFO root fetch - processPackages [ropt]: Remove: archive file [/home/abi/fetcher/tmp/ropt-0.2.0.tar.gz]
+[2024-04-29 13:32:47] INFO root fetch - processPackages [ropt]: Remove: archive file [/home/abi/fetcher/tmp/ropt-0.2.1.tar.gz]
+[2024-04-29 13:32:47] INFO root fetch - main [MainThread]: End processing [ropt]: success
+[2024-04-29 13:32:48] INFO root fetch - processPackages [logprep]: Remove: archive file [/home/abi/fetcher/tmp/logprep-9.0.2.tar.gz]
+[2024-04-29 13:32:48] INFO root fetch - processPackages [logprep]: Remove: archive file [/home/abi/fetcher/tmp/logprep-9.0.3.tar.gz]
+[2024-04-29 13:32:48] INFO root fetch - main [MainThread]: End processing [logprep]: success
+[2024-04-29 13:32:48] INFO root fetch - main [MainThread]: Store serial: [22982703]
