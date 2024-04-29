@@ -16692,3 +16692,61 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 13:08:19] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2024.4.29.tar.gz]
 [2024-04-29 13:08:19] INFO root fetch - main [MainThread]: End processing [spai]: success
 [2024-04-29 13:08:19] INFO root fetch - main [MainThread]: Store serial: [22982427]
+[2024-04-29 13:10:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982427]
+[2024-04-29 13:10:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-29 13:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-azure-native
+[2024-04-29 13:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecv-python-development
+[2024-04-29 13:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: synch2jira
+[2024-04-29 13:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-azure-native
+[2024-04-29 13:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ns-asphalt9
+[2024-04-29 13:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bc-detect-secrets
+[2024-04-29 13:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qg_toolkit
+[2024-04-29 13:10:29] INFO root fetch - processPackages [qg_toolkit]: New version: [1.0.16] Old Version: [1.0.15]
+[2024-04-29 13:10:29] INFO root fetch - processPackages [pulumi-azure-native]: New version: [2.9.1a1696416212] Old Version: [2.9.1a1696411987]
+[2024-04-29 13:10:29] INFO root fetch - processPackages [synch2jira]: New version: [0.0.92] Old Version: [0.0.90]
+[2024-04-29 13:10:29] INFO root fetch - processPackages [pulumi-azure-native]: New version: [2.9.1a1696416212] Old Version: [2.9.1a1696411987]
+[2024-04-29 13:10:29] INFO root fetch - processPackages [ns-asphalt9]: New version: [3.4.0] Old Version: [3.3.0]
+[2024-04-29 13:10:29] INFO root fetch - processPackages [bc-detect-secrets]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-29 13:10:29] INFO root fetch - processPackages [ecv-python-development]: New version: [0.0.57] Old Version: [0.0.56]
+[2024-04-29 13:10:29] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/7c/39/23e88d5a9a544cb9a75a9c0b077f73c9c90cb756d8e32766dfffb90f8833/pulumi_azure_native-2.9.1a1696411987.tar.gz
+[2024-04-29 13:10:29] INFO root fetch - processPackages [qg_toolkit]: Downloading https://files.pythonhosted.org/packages/2e/52/dfc0db0ad3172e6de65f829be5d005449582f88c67c2d7caf3973704f6e0/qg_toolkit-1.0.15.tar.gz
+[2024-04-29 13:10:29] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/7c/39/23e88d5a9a544cb9a75a9c0b077f73c9c90cb756d8e32766dfffb90f8833/pulumi_azure_native-2.9.1a1696411987.tar.gz
+[2024-04-29 13:10:29] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/ac/89/8b516eb18c22325b081189904047384452a9632613ff3239bed0f9af7f0c/synch2jira-0.0.90.tar.gz
+[2024-04-29 13:10:29] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 27430128>=10485760
+[2024-04-29 13:10:29] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2024-04-29 13:10:29] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 27430128>=10485760
+[2024-04-29 13:10:29] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2024-04-29 13:10:29] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/9a/47/4af6fd30de0827edfc798b1a2a86cb95ecf02da3ff6e2700272c20a758ef/ns_asphalt9-3.3.0.tar.gz
+[2024-04-29 13:10:29] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/9c/eb/c7f3852b06d5b06c4395c54229bcd0be57ecc827679377cbd830e5c8e1b5/ecv-python-development-0.0.56.tar.gz
+[2024-04-29 13:10:29] INFO root fetch - processPackages [bc-detect-secrets]: Downloading https://files.pythonhosted.org/packages/79/9c/627c3ef35c99626307581bb34033a4f71a8995bedcf8bed561e71ccd8811/bc-detect-secrets-1.5.8.tar.gz
+[2024-04-29 13:10:29] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/43/14/6f75dbd556e30e1e676db4cf124487a7b6c686c6daec58b5cbd03ac827b9/synch2jira-0.0.92.tar.gz
+[2024-04-29 13:10:29] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/de/95/2853338f6a97e1e18e4f5ba8f0bebc2783f7e7cdd4c1616a8c1d80cb951d/ns_asphalt9-3.4.0.tar.gz
+[2024-04-29 13:10:29] INFO root fetch - processPackages [synch2jira]: executing diffoscope
+[2024-04-29 13:10:29] INFO root fetch - processPackages [synch2jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synch2jira-0.0.90.tar.gz tmp/synch2jira-0.0.92.tar.gz --markdown 20240429/s/synch2jira/0.0.90-0.0.92/README.md --exclude *.pyd
+[2024-04-29 13:10:29] INFO root fetch - processPackages [qg_toolkit]: Downloading https://files.pythonhosted.org/packages/96/a4/dfa0f05b38e2458e43b87746c08da9563f684108c9588c6a674fe0a4595d/qg_toolkit-1.0.16.tar.gz
+[2024-04-29 13:10:29] INFO root fetch - processPackages [ecv-python-development]: Downloading https://files.pythonhosted.org/packages/94/04/9e325cc506c41f4c5de8f126e791307762c568b30c3ef7092b5b0b64a497/ecv-python-development-0.0.57.tar.gz
+[2024-04-29 13:10:29] INFO root fetch - processPackages [bc-detect-secrets]: Downloading https://files.pythonhosted.org/packages/42/0f/25a1152db4487a6f53e4787ce51b1b616079396f2d6ec7ec952f17f417bb/bc-detect-secrets-1.5.9.tar.gz
+[2024-04-29 13:10:29] INFO root fetch - processPackages [ns-asphalt9]: executing diffoscope
+[2024-04-29 13:10:29] INFO root fetch - processPackages [ns-asphalt9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ns_asphalt9-3.3.0.tar.gz tmp/ns_asphalt9-3.4.0.tar.gz --markdown 20240429/n/ns-asphalt9/3.3.0-3.4.0/README.md --exclude *.pyd
+[2024-04-29 13:10:30] INFO root fetch - processPackages [qg_toolkit]: executing diffoscope
+[2024-04-29 13:10:30] INFO root fetch - processPackages [qg_toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qg_toolkit-1.0.15.tar.gz tmp/qg_toolkit-1.0.16.tar.gz --markdown 20240429/q/qg_toolkit/1.0.15-1.0.16/README.md --exclude *.pyd
+[2024-04-29 13:10:30] INFO root fetch - processPackages [ecv-python-development]: executing diffoscope
+[2024-04-29 13:10:30] INFO root fetch - processPackages [ecv-python-development]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecv-python-development-0.0.56.tar.gz tmp/ecv-python-development-0.0.57.tar.gz --markdown 20240429/e/ecv-python-development/0.0.56-0.0.57/README.md --exclude *.pyd
+[2024-04-29 13:10:30] INFO root fetch - processPackages [bc-detect-secrets]: executing diffoscope
+[2024-04-29 13:10:30] INFO root fetch - processPackages [bc-detect-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bc-detect-secrets-1.5.8.tar.gz tmp/bc-detect-secrets-1.5.9.tar.gz --markdown 20240429/b/bc-detect-secrets/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-04-29 13:10:30] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.90.tar.gz]
+[2024-04-29 13:10:30] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.92.tar.gz]
+[2024-04-29 13:10:30] INFO root fetch - main [MainThread]: End processing [synch2jira]: success
+[2024-04-29 13:10:30] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.56.tar.gz]
+[2024-04-29 13:10:30] INFO root fetch - processPackages [ecv-python-development]: Remove: archive file [/home/abi/fetcher/tmp/ecv-python-development-0.0.57.tar.gz]
+[2024-04-29 13:10:30] INFO root fetch - main [MainThread]: End processing [ecv-python-development]: success
+[2024-04-29 13:10:30] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-3.3.0.tar.gz]
+[2024-04-29 13:10:30] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-3.4.0.tar.gz]
+[2024-04-29 13:10:30] INFO root fetch - main [MainThread]: End processing [ns-asphalt9]: success
+[2024-04-29 13:10:31] INFO root fetch - processPackages [qg_toolkit]: Remove: archive file [/home/abi/fetcher/tmp/qg_toolkit-1.0.15.tar.gz]
+[2024-04-29 13:10:31] INFO root fetch - processPackages [qg_toolkit]: Remove: archive file [/home/abi/fetcher/tmp/qg_toolkit-1.0.16.tar.gz]
+[2024-04-29 13:10:31] INFO root fetch - main [MainThread]: End processing [qg_toolkit]: success
+[2024-04-29 13:10:31] INFO root fetch - processPackages [bc-detect-secrets]: Remove: archive file [/home/abi/fetcher/tmp/bc-detect-secrets-1.5.8.tar.gz]
+[2024-04-29 13:10:31] INFO root fetch - processPackages [bc-detect-secrets]: Remove: archive file [/home/abi/fetcher/tmp/bc-detect-secrets-1.5.9.tar.gz]
+[2024-04-29 13:10:31] INFO root fetch - main [MainThread]: End processing [bc-detect-secrets]: success
+[2024-04-29 13:10:31] INFO root fetch - main [MainThread]: Store serial: [22982447]
