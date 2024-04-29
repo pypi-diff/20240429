@@ -1,4 +1,4 @@
-# Comparing `tmp/winrt-Windows.UI.Xaml.Automation.Provider-2.0.0b2.tar.gz` & `tmp/winrt_Windows.UI.Xaml.Automation.Provider-2.0.1-cp311-cp311-win_amd64.whl.zip`
+# Comparing `tmp/winrt-Windows.UI.Xaml.Automation.Provider-2.0.0b2.tar.gz` & `tmp/winrt_Windows.UI.Xaml.Automation.Provider-2.0.1-cp39-cp39-win_arm64.whl.zip`
 
 ## filetype from file(1)
 
