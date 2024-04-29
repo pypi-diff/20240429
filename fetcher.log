@@ -9014,3 +9014,36 @@
 [2024-04-29 07:36:37] INFO root fetch - processPackages [jz3]: Remove: archive file [/home/abi/fetcher/tmp/jz3-0.1.7.tar.gz]
 [2024-04-29 07:36:37] INFO root fetch - main [MainThread]: End processing [jz3]: success
 [2024-04-29 07:36:37] INFO root fetch - main [MainThread]: Store serial: [22979132]
+[2024-04-29 07:38:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979132]
+[2024-04-29 07:38:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 07:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jz3
+[2024-04-29 07:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opyls
+[2024-04-29 07:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kisa-utils
+[2024-04-29 07:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: report-creator
+[2024-04-29 07:38:45] WARNING root fetch - processPackages [opyls]: Skipping, unable to determine old version
+[2024-04-29 07:38:45] INFO root fetch - main [MainThread]: End processing [opyls] error
+[2024-04-29 07:38:45] INFO root fetch - processPackages [report-creator]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-29 07:38:45] INFO root fetch - processPackages [jz3]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-29 07:38:45] INFO root fetch - processPackages [kisa-utils]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-29 07:38:45] INFO root fetch - processPackages [report-creator]: Downloading https://files.pythonhosted.org/packages/57/ef/80d0f362d1009648ca0ef0f2dadddabcae16222604617a8e3a951400fd86/report_creator-1.0.8.tar.gz
+[2024-04-29 07:38:45] INFO root fetch - processPackages [jz3]: Downloading https://files.pythonhosted.org/packages/66/4d/f6f6ad8002ecd2de26c5f90887b018ea02439f5a8f3250c74732b8d365af/jz3-0.1.7.tar.gz
+[2024-04-29 07:38:46] INFO root fetch - processPackages [report-creator]: Downloading https://files.pythonhosted.org/packages/9f/b7/f0e16193c83b532bc0e2222b47171e2feab21ebd4b7ffa9d962f816813bc/report_creator-1.0.9.tar.gz
+[2024-04-29 07:38:46] INFO root fetch - processPackages [kisa-utils]: Downloading https://files.pythonhosted.org/packages/ee/95/a05113f73e087421286b5a4c66118860a6f1df9cffbe081a209de2ccfc4c/kisa_utils-0.9.1-py3-none-any.whl
+[2024-04-29 07:38:46] INFO root fetch - processPackages [report-creator]: executing diffoscope
+[2024-04-29 07:38:46] INFO root fetch - processPackages [report-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/report_creator-1.0.8.tar.gz tmp/report_creator-1.0.9.tar.gz --markdown 20240429/r/report-creator/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-29 07:38:46] INFO root fetch - processPackages [kisa-utils]: Downloading https://files.pythonhosted.org/packages/45/a9/4bbdc6afa54eafe6aeb55a578bba32e13d0173c8a6e64cabc8f226fc5941/kisa_utils-0.9.2-py3-none-any.whl
+[2024-04-29 07:38:46] INFO root fetch - processPackages [jz3]: Downloading https://files.pythonhosted.org/packages/3e/58/3469c6c117e8f6e8ca476df6525b560fe0bf13958b5ee124c997b15ff64d/jz3-0.1.8.tar.gz
+[2024-04-29 07:38:46] INFO root fetch - processPackages [report-creator]: Remove: archive file [/home/abi/fetcher/tmp/report_creator-1.0.8.tar.gz]
+[2024-04-29 07:38:46] INFO root fetch - processPackages [report-creator]: Remove: archive file [/home/abi/fetcher/tmp/report_creator-1.0.9.tar.gz]
+[2024-04-29 07:38:46] INFO root fetch - main [MainThread]: End processing [report-creator]: success
+[2024-04-29 07:38:46] INFO root fetch - processPackages [kisa-utils]: executing diffoscope
+[2024-04-29 07:38:46] INFO root fetch - processPackages [kisa-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kisa_utils-0.9.1-py3-none-any.whl.zip tmp/kisa_utils-0.9.2-py3-none-any.whl.zip --markdown 20240429/k/kisa-utils/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-29 07:38:47] INFO root fetch - processPackages [jz3]: executing diffoscope
+[2024-04-29 07:38:47] INFO root fetch - processPackages [jz3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jz3-0.1.7.tar.gz tmp/jz3-0.1.8.tar.gz --markdown 20240429/j/jz3/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-29 07:38:47] INFO root fetch - processPackages [kisa-utils]: Remove: archive file [/home/abi/fetcher/tmp/kisa_utils-0.9.1-py3-none-any.whl.zip]
+[2024-04-29 07:38:47] INFO root fetch - processPackages [kisa-utils]: Remove: archive file [/home/abi/fetcher/tmp/kisa_utils-0.9.2-py3-none-any.whl.zip]
+[2024-04-29 07:38:47] INFO root fetch - main [MainThread]: End processing [kisa-utils]: success
+[2024-04-29 07:38:48] INFO root fetch - processPackages [jz3]: Remove: archive file [/home/abi/fetcher/tmp/jz3-0.1.7.tar.gz]
+[2024-04-29 07:38:48] INFO root fetch - processPackages [jz3]: Remove: archive file [/home/abi/fetcher/tmp/jz3-0.1.8.tar.gz]
+[2024-04-29 07:38:48] INFO root fetch - main [MainThread]: End processing [jz3]: success
+[2024-04-29 07:38:48] INFO root fetch - main [MainThread]: Store serial: [22979143]
