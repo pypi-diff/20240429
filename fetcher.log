@@ -4959,3 +4959,189 @@
 [2024-04-29 03:52:00] INFO root fetch - processPackages [winrt-Windows.Networking.Vpn]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Networking.Vpn-2.0.1-cp310-cp310-win_amd64.whl.zip]
 [2024-04-29 03:52:00] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Networking.Vpn]: success
 [2024-04-29 03:52:00] INFO root fetch - main [MainThread]: Store serial: [22975570]
+[2024-04-29 03:54:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22975570]
+[2024-04-29 03:54:08] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2024-04-29 03:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: winrt-Windows.Networking.Vpn
+[2024-04-29 03:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: winrt-Windows.Networking.XboxLive
+[2024-04-29 03:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: winrt-Windows.Perception
+[2024-04-29 03:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vonage-verify
+[2024-04-29 03:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vonage-verify-v2
+[2024-04-29 03:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vonage
+[2024-04-29 03:54:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: winrt-Windows.Perception.Automation.Core
+[2024-04-29 03:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vonage-number-insight-v2
+[2024-04-29 03:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vonage-users
+[2024-04-29 03:54:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vonage-messages
+[2024-04-29 03:54:09] INFO root fetch - processPackages [winrt-Windows.Networking.Vpn]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 03:54:09] INFO root fetch - processPackages [winrt-Windows.Networking.Vpn]: Downloading https://files.pythonhosted.org/packages/0a/ff/8de8ba5cf96ee8a558630a6afb45a4034e3a489fe0e40836e62060ff50c4/winrt-Windows.Networking.Vpn-2.0.0b2.tar.gz
+[2024-04-29 03:54:09] INFO root fetch - processPackages [winrt-Windows.Perception]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 03:54:09] INFO root fetch - processPackages [winrt-Windows.Networking.XboxLive]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 03:54:09] INFO root fetch - processPackages [vonage-messages]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-29 03:54:09] INFO root fetch - processPackages [vonage-verify-v2]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-29 03:54:09] INFO root fetch - processPackages [vonage]: New version: [3.99.0a8] Old Version: [3.99.0a7]
+[2024-04-29 03:54:09] INFO root fetch - processPackages [vonage-verify]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-29 03:54:09] INFO root fetch - processPackages [vonage-number-insight-v2]: New version: [0.1.1b0] Old Version: [0.1.0b0]
+[2024-04-29 03:54:09] INFO root fetch - processPackages [vonage-users]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-29 03:54:09] INFO root fetch - processPackages [winrt-Windows.Perception.Automation.Core]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 03:54:09] INFO root fetch - processPackages [winrt-Windows.Perception]: Downloading https://files.pythonhosted.org/packages/e0/d8/c7e20bc1b9182b8facd1025b6b21d2aa04e4ffd90eaf33087baa4ecd66c5/winrt-Windows.Perception-2.0.0b2.tar.gz
+[2024-04-29 03:54:09] INFO root fetch - processPackages [winrt-Windows.Perception.Automation.Core]: Downloading https://files.pythonhosted.org/packages/5e/d4/60b61091d105b83985530bac1d7e9bc5867214bd3ff9a6d198ff8236c580/winrt-Windows.Perception.Automation.Core-2.0.0b2.tar.gz
+[2024-04-29 03:54:09] INFO root fetch - processPackages [winrt-Windows.Networking.XboxLive]: Downloading https://files.pythonhosted.org/packages/c5/d4/c405a242c6d90609537e430aadc08b7a8abf6b44c75e63da7728b86603dd/winrt-Windows.Networking.XboxLive-2.0.0b2.tar.gz
+[2024-04-29 03:54:09] INFO root fetch - processPackages [vonage-messages]: Downloading https://files.pythonhosted.org/packages/5f/73/748bfce4ab5c311ae78755ac4b76350fdb10bc45b30c9f31ca5a5be6b653/vonage_messages-1.1.0.tar.gz
+[2024-04-29 03:54:09] INFO root fetch - processPackages [vonage-number-insight-v2]: Downloading https://files.pythonhosted.org/packages/01/ca/37d2fa76783bf57716d175d994258467158838b3c40a6e7d289310430f35/vonage_number_insight_v2-0.1.0b0.tar.gz
+[2024-04-29 03:54:09] INFO root fetch - processPackages [vonage-verify]: Downloading https://files.pythonhosted.org/packages/df/ac/6b252e0bb0e3d7cb56ccdfcf93a388da9441b0c44d5d4b14164eb8d7149c/vonage_verify-1.1.0.tar.gz
+[2024-04-29 03:54:09] INFO root fetch - processPackages [vonage-users]: Downloading https://files.pythonhosted.org/packages/ff/e4/2ac02f33fb33adcb7b5750c6808ab5a774163f68cf577e943751ae633380/vonage_users-1.1.0.tar.gz
+[2024-04-29 03:54:09] INFO root fetch - processPackages [winrt-Windows.Networking.Vpn]: Downloading https://files.pythonhosted.org/packages/65/d0/9352cb3a729bc9d76d16971f7cc0ab94af3ac4b6746aad1eef52785a74ff/winrt_Windows.Networking.Vpn-2.0.1-cp310-cp310-win_amd64.whl
+[2024-04-29 03:54:09] INFO root fetch - processPackages [vonage-verify-v2]: Downloading https://files.pythonhosted.org/packages/1d/97/f3deffeb2e0784e95774afab218beca44fb23e6e9cc001d77369962c0b35/vonage_verify_v2-1.1.0.tar.gz
+[2024-04-29 03:54:09] INFO root fetch - processPackages [vonage]: Downloading https://files.pythonhosted.org/packages/1e/03/3b3a02cdf1c20b96b4f56bb261ba20f68cfacb178d6a1b8587e454b31cb1/vonage-3.99.0a7.tar.gz
+[2024-04-29 03:54:09] INFO root fetch - processPackages [winrt-Windows.Networking.Vpn]: executing diffoscope
+[2024-04-29 03:54:09] INFO root fetch - processPackages [winrt-Windows.Networking.Vpn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Networking.Vpn-2.0.0b2.tar.gz tmp/winrt_Windows.Networking.Vpn-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Networking.Vpn/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 03:54:09] INFO root fetch - processPackages [winrt-Windows.Perception]: Downloading https://files.pythonhosted.org/packages/03/77/a84edd028b14a23254a3e659d95ff7f843f0778268402768618bb1d452dc/winrt_Windows.Perception-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 03:54:09] INFO root fetch - processPackages [winrt-Windows.Perception.Automation.Core]: Downloading https://files.pythonhosted.org/packages/45/38/11c2e4bafad069ff836b1297366d4d85faa60aa5dc7b5fb330c139b77399/winrt_Windows.Perception.Automation.Core-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 03:54:10] INFO root fetch - processPackages [vonage-number-insight-v2]: Downloading https://files.pythonhosted.org/packages/dc/a0/d2a94219ffaaa2a145f5c8f63b34c8739c57757972c206a607e04b77e099/vonage_number_insight_v2-0.1.1b0.tar.gz
+[2024-04-29 03:54:10] INFO root fetch - processPackages [winrt-Windows.Networking.XboxLive]: Downloading https://files.pythonhosted.org/packages/19/37/8adfd0fea9c2fd195a9cbb9e6a14c3c6f40fe7ac57b91a9891497f364c19/winrt_Windows.Networking.XboxLive-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 03:54:10] INFO root fetch - processPackages [vonage-users]: Downloading https://files.pythonhosted.org/packages/47/f8/abdfe6a5657b3a182adfedcc1d4eccfef3a53ddb183475300c82867e8342/vonage_users-1.1.1.tar.gz
+[2024-04-29 03:54:10] INFO root fetch - processPackages [vonage-verify]: Downloading https://files.pythonhosted.org/packages/5a/e8/2e7a42535b06dbb6b8eea8ae77619dd0ee5ca33fd57672612687f98a44e3/vonage_verify-1.1.1.tar.gz
+[2024-04-29 03:54:10] INFO root fetch - processPackages [vonage-messages]: Downloading https://files.pythonhosted.org/packages/f7/fd/43da1d145bb07648f227dbd63bb44f47b63a8a4a8166b5d809f3aadfb834/vonage_messages-1.1.1.tar.gz
+[2024-04-29 03:54:10] INFO root fetch - processPackages [vonage-verify-v2]: Downloading https://files.pythonhosted.org/packages/7e/bd/61e0f5eab1b1a9c9e5f17fd0762e4c0faa3e61e9a6e66237ee15b161769d/vonage_verify_v2-1.1.1.tar.gz
+[2024-04-29 03:54:10] INFO root fetch - processPackages [vonage]: Downloading https://files.pythonhosted.org/packages/72/83/0b1fb80b66e0eb80cbab70275bef09dceb530d1bef54237f41ebff06b32e/vonage-3.99.0a8.tar.gz
+[2024-04-29 03:54:10] INFO root fetch - processPackages [winrt-Windows.Perception]: executing diffoscope
+[2024-04-29 03:54:10] INFO root fetch - processPackages [winrt-Windows.Perception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Perception-2.0.0b2.tar.gz tmp/winrt_Windows.Perception-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Perception/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 03:54:10] INFO root fetch - processPackages [vonage-number-insight-v2]: executing diffoscope
+[2024-04-29 03:54:10] INFO root fetch - processPackages [vonage-number-insight-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vonage_number_insight_v2-0.1.0b0.tar.gz tmp/vonage_number_insight_v2-0.1.1b0.tar.gz --markdown 20240429/v/vonage-number-insight-v2/0.1.0b0-0.1.1b0/README.md --exclude *.pyd
+[2024-04-29 03:54:10] INFO root fetch - processPackages [winrt-Windows.Perception.Automation.Core]: executing diffoscope
+[2024-04-29 03:54:10] INFO root fetch - processPackages [winrt-Windows.Perception.Automation.Core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Perception.Automation.Core-2.0.0b2.tar.gz tmp/winrt_Windows.Perception.Automation.Core-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Perception.Automation.Core/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 03:54:10] INFO root fetch - processPackages [vonage-users]: executing diffoscope
+[2024-04-29 03:54:10] INFO root fetch - processPackages [vonage-users]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vonage_users-1.1.0.tar.gz tmp/vonage_users-1.1.1.tar.gz --markdown 20240429/v/vonage-users/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-29 03:54:10] INFO root fetch - processPackages [vonage-verify]: executing diffoscope
+[2024-04-29 03:54:10] INFO root fetch - processPackages [vonage-verify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vonage_verify-1.1.0.tar.gz tmp/vonage_verify-1.1.1.tar.gz --markdown 20240429/v/vonage-verify/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-29 03:54:10] INFO root fetch - processPackages [vonage-messages]: executing diffoscope
+[2024-04-29 03:54:10] INFO root fetch - processPackages [vonage-messages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vonage_messages-1.1.0.tar.gz tmp/vonage_messages-1.1.1.tar.gz --markdown 20240429/v/vonage-messages/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-29 03:54:10] INFO root fetch - processPackages [vonage-verify-v2]: executing diffoscope
+[2024-04-29 03:54:10] INFO root fetch - processPackages [vonage-verify-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vonage_verify_v2-1.1.0.tar.gz tmp/vonage_verify_v2-1.1.1.tar.gz --markdown 20240429/v/vonage-verify-v2/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-29 03:54:10] INFO root fetch - processPackages [vonage]: executing diffoscope
+[2024-04-29 03:54:10] INFO root fetch - processPackages [vonage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vonage-3.99.0a7.tar.gz tmp/vonage-3.99.0a8.tar.gz --markdown 20240429/v/vonage/3.99.0a7-3.99.0a8/README.md --exclude *.pyd
+[2024-04-29 03:54:10] INFO root fetch - processPackages [winrt-Windows.Networking.XboxLive]: executing diffoscope
+[2024-04-29 03:54:10] INFO root fetch - processPackages [winrt-Windows.Networking.XboxLive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Networking.XboxLive-2.0.0b2.tar.gz tmp/winrt_Windows.Networking.XboxLive-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Networking.XboxLive/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 03:54:10] INFO root fetch - processPackages [winrt-Windows.Networking.Vpn]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Networking.Vpn-2.0.0b2.tar.gz]
+[2024-04-29 03:54:10] INFO root fetch - processPackages [winrt-Windows.Networking.Vpn]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Networking.Vpn-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 03:54:10] INFO root fetch - processPackages [winrt-Windows.Networking.Vpn]: Start processing: vonage-utils
+[2024-04-29 03:54:10] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Networking.Vpn]: success
+[2024-04-29 03:54:10] INFO root fetch - processPackages [vonage-utils]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-29 03:54:10] INFO root fetch - processPackages [vonage-utils]: Downloading https://files.pythonhosted.org/packages/bd/72/7fc6a1e1b5245bd38722f9618028e9c25062819a6e3c9c0298a0110e2bae/vonage_utils-1.1.0.tar.gz
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-users]: Remove: archive file [/home/abi/fetcher/tmp/vonage_users-1.1.0.tar.gz]
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-users]: Remove: archive file [/home/abi/fetcher/tmp/vonage_users-1.1.1.tar.gz]
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-users]: Start processing: winrt-Windows.Perception.People
+[2024-04-29 03:54:11] INFO root fetch - main [MainThread]: End processing [vonage-users]: success
+[2024-04-29 03:54:11] INFO root fetch - processPackages [winrt-Windows.Perception]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Perception-2.0.0b2.tar.gz]
+[2024-04-29 03:54:11] INFO root fetch - processPackages [winrt-Windows.Perception]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Perception-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 03:54:11] INFO root fetch - processPackages [winrt-Windows.Perception]: Start processing: vonage-number-insight
+[2024-04-29 03:54:11] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Perception]: success
+[2024-04-29 03:54:11] INFO root fetch - processPackages [winrt-Windows.Perception.Automation.Core]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Perception.Automation.Core-2.0.0b2.tar.gz]
+[2024-04-29 03:54:11] INFO root fetch - processPackages [winrt-Windows.Perception.Automation.Core]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Perception.Automation.Core-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 03:54:11] INFO root fetch - processPackages [winrt-Windows.Perception.Automation.Core]: Start processing: vonage-voice
+[2024-04-29 03:54:11] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Perception.Automation.Core]: success
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-verify-v2]: Remove: archive file [/home/abi/fetcher/tmp/vonage_verify_v2-1.1.0.tar.gz]
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-verify-v2]: Remove: archive file [/home/abi/fetcher/tmp/vonage_verify_v2-1.1.1.tar.gz]
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-verify-v2]: Start processing: vonage-sms
+[2024-04-29 03:54:11] INFO root fetch - main [MainThread]: End processing [vonage-verify-v2]: success
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-messages]: Remove: archive file [/home/abi/fetcher/tmp/vonage_messages-1.1.0.tar.gz]
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-messages]: Remove: archive file [/home/abi/fetcher/tmp/vonage_messages-1.1.1.tar.gz]
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-messages]: Start processing: vonage-http-client
+[2024-04-29 03:54:11] INFO root fetch - main [MainThread]: End processing [vonage-messages]: success
+[2024-04-29 03:54:11] INFO root fetch - processPackages [winrt-Windows.Perception.People]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-verify]: Remove: archive file [/home/abi/fetcher/tmp/vonage_verify-1.1.0.tar.gz]
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-verify]: Remove: archive file [/home/abi/fetcher/tmp/vonage_verify-1.1.1.tar.gz]
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-verify]: Start processing: winrt-Windows.Perception.Spatial
+[2024-04-29 03:54:11] INFO root fetch - main [MainThread]: End processing [vonage-verify]: success
+[2024-04-29 03:54:11] WARNING root fetch - processPackages [vonage-number-insight]: Skipping, unable to determine old version
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-number-insight]: Start processing: winrt-Windows.Perception.Spatial.Preview
+[2024-04-29 03:54:11] INFO root fetch - main [MainThread]: End processing [vonage-number-insight] error
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-voice]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-sms]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-http-client]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-utils]: Downloading https://files.pythonhosted.org/packages/6b/56/7b8ebabd163896cd57102aca7ee2ef411f67e0eeeaf1739bcf7dc5bf69d7/vonage_utils-1.1.1.tar.gz
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage]: Remove: archive file [/home/abi/fetcher/tmp/vonage-3.99.0a7.tar.gz]
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage]: Remove: archive file [/home/abi/fetcher/tmp/vonage-3.99.0a8.tar.gz]
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage]: Start processing: winrt-Windows.Perception.Spatial.Surfaces
+[2024-04-29 03:54:11] INFO root fetch - main [MainThread]: End processing [vonage]: success
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-number-insight-v2]: Remove: archive file [/home/abi/fetcher/tmp/vonage_number_insight_v2-0.1.0b0.tar.gz]
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-number-insight-v2]: Remove: archive file [/home/abi/fetcher/tmp/vonage_number_insight_v2-0.1.1b0.tar.gz]
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-number-insight-v2]: Start processing: winrt-Windows.Phone.ApplicationModel
+[2024-04-29 03:54:11] INFO root fetch - main [MainThread]: End processing [vonage-number-insight-v2]: success
+[2024-04-29 03:54:11] INFO root fetch - processPackages [winrt-Windows.Networking.XboxLive]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Networking.XboxLive-2.0.0b2.tar.gz]
+[2024-04-29 03:54:11] INFO root fetch - processPackages [winrt-Windows.Networking.XboxLive]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Networking.XboxLive-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 03:54:11] INFO root fetch - processPackages [winrt-Windows.Networking.XboxLive]: Start processing: winrt-Windows.Phone.Devices.Notification
+[2024-04-29 03:54:11] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Networking.XboxLive]: success
+[2024-04-29 03:54:11] INFO root fetch - processPackages [winrt-Windows.Perception.Spatial]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 03:54:11] INFO root fetch - processPackages [winrt-Windows.Perception.Spatial.Preview]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 03:54:11] INFO root fetch - processPackages [winrt-Windows.Perception.People]: Downloading https://files.pythonhosted.org/packages/f2/36/fe0ab3c08cc60c14437135d1f78e2c0c08e156082b36d0cc4d111cd3308c/winrt-Windows.Perception.People-2.0.0b2.tar.gz
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-voice]: Downloading https://files.pythonhosted.org/packages/bf/f6/09539e087393104ecc69db46069575eb2c7dc0956958de2fbe595e2aaa50/vonage_voice-1.0.1.tar.gz
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-sms]: Downloading https://files.pythonhosted.org/packages/98/05/2ec8140331d33f68ee96bc70c9ba7ca31783f10af25e7bea9119ea4a6c29/vonage_sms-1.1.0.tar.gz
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-utils]: executing diffoscope
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vonage_utils-1.1.0.tar.gz tmp/vonage_utils-1.1.1.tar.gz --markdown 20240429/v/vonage-utils/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-29 03:54:11] INFO root fetch - processPackages [winrt-Windows.Perception.Spatial.Surfaces]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 03:54:11] INFO root fetch - processPackages [winrt-Windows.Phone.ApplicationModel]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 03:54:11] INFO root fetch - processPackages [winrt-Windows.Phone.Devices.Notification]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-http-client]: Downloading https://files.pythonhosted.org/packages/f6/30/0b4d2a59995e133f255f4e3cde74cdd790180db75ab4e671537b2cebd5e3/vonage_http_client-1.3.0.tar.gz
+[2024-04-29 03:54:11] INFO root fetch - processPackages [winrt-Windows.Perception.Spatial]: Downloading https://files.pythonhosted.org/packages/49/fa/00e296f423861e794d824e391a26460560977d02c4ffbfd613d8582695ff/winrt-Windows.Perception.Spatial-2.0.0b2.tar.gz
+[2024-04-29 03:54:11] INFO root fetch - processPackages [winrt-Windows.Perception.Spatial.Preview]: Downloading https://files.pythonhosted.org/packages/a2/cc/3aac0ef4b793072b098a8d5bfbc77bef369fe5561df6de3366999d4bb4d8/winrt-Windows.Perception.Spatial.Preview-2.0.0b2.tar.gz
+[2024-04-29 03:54:11] INFO root fetch - processPackages [winrt-Windows.Perception.Spatial.Surfaces]: Downloading https://files.pythonhosted.org/packages/27/52/9eb642e2bc01144bd00e4a3f1a9b0e77e8792520f774d978512ef7ac1ee1/winrt-Windows.Perception.Spatial.Surfaces-2.0.0b2.tar.gz
+[2024-04-29 03:54:11] INFO root fetch - processPackages [winrt-Windows.Phone.ApplicationModel]: Downloading https://files.pythonhosted.org/packages/f6/0a/9847cf2df7cb673d50906a7a2b0fa0a3b39b214a234a439323eade8a198e/winrt-Windows.Phone.ApplicationModel-2.0.0b2.tar.gz
+[2024-04-29 03:54:11] INFO root fetch - processPackages [winrt-Windows.Perception.People]: Downloading https://files.pythonhosted.org/packages/99/3e/efa1db7eaf7c8c6c0690ca83b2ba30b11e26e4fb5c23a06fe1886f48be84/winrt_Windows.Perception.People-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-voice]: Downloading https://files.pythonhosted.org/packages/2c/d2/048e15ab7afd2db85cddf97e38d268f87448590793cacedfff65ce390830/vonage_voice-1.0.2.tar.gz
+[2024-04-29 03:54:11] INFO root fetch - processPackages [winrt-Windows.Phone.Devices.Notification]: Downloading https://files.pythonhosted.org/packages/d5/62/205481f8a60fc52ebd88707dfb98e76a5f92d00ca3b0712130ff7b0894db/winrt-Windows.Phone.Devices.Notification-2.0.0b2.tar.gz
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-sms]: Downloading https://files.pythonhosted.org/packages/1c/5f/0e323b0bc94972c43d91a20356073fb44e5a2d1fd012a71414ad74fa0ec0/vonage_sms-1.1.1.tar.gz
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-http-client]: Downloading https://files.pythonhosted.org/packages/67/6e/8f7323880f0413d76508c4b783d69519f4664b4e8f4d7b93da0e8de35435/vonage_http_client-1.3.1.tar.gz
+[2024-04-29 03:54:11] INFO root fetch - processPackages [winrt-Windows.Perception.Spatial]: Downloading https://files.pythonhosted.org/packages/a9/2f/99ed3d5184234b8c820e1ec7ba50c928817cb88cf35bb59d52ed637b8911/winrt_Windows.Perception.Spatial-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-utils]: Remove: archive file [/home/abi/fetcher/tmp/vonage_utils-1.1.0.tar.gz]
+[2024-04-29 03:54:11] INFO root fetch - processPackages [vonage-utils]: Remove: archive file [/home/abi/fetcher/tmp/vonage_utils-1.1.1.tar.gz]
+[2024-04-29 03:54:11] INFO root fetch - main [MainThread]: End processing [vonage-utils]: success
+[2024-04-29 03:54:12] INFO root fetch - processPackages [winrt-Windows.Perception.Spatial.Preview]: Downloading https://files.pythonhosted.org/packages/ef/75/98b5095e0c0f388fb6c460e2ebe8fa1c81dfbc0c0379a7c2f9cf1f99eb9a/winrt_Windows.Perception.Spatial.Preview-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 03:54:12] INFO root fetch - processPackages [vonage-voice]: executing diffoscope
+[2024-04-29 03:54:12] INFO root fetch - processPackages [vonage-voice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vonage_voice-1.0.1.tar.gz tmp/vonage_voice-1.0.2.tar.gz --markdown 20240429/v/vonage-voice/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-29 03:54:12] INFO root fetch - processPackages [vonage-sms]: executing diffoscope
+[2024-04-29 03:54:12] INFO root fetch - processPackages [vonage-sms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vonage_sms-1.1.0.tar.gz tmp/vonage_sms-1.1.1.tar.gz --markdown 20240429/v/vonage-sms/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-29 03:54:12] INFO root fetch - processPackages [winrt-Windows.Perception.People]: executing diffoscope
+[2024-04-29 03:54:12] INFO root fetch - processPackages [winrt-Windows.Perception.People]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Perception.People-2.0.0b2.tar.gz tmp/winrt_Windows.Perception.People-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Perception.People/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 03:54:12] INFO root fetch - processPackages [vonage-http-client]: executing diffoscope
+[2024-04-29 03:54:12] INFO root fetch - processPackages [vonage-http-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vonage_http_client-1.3.0.tar.gz tmp/vonage_http_client-1.3.1.tar.gz --markdown 20240429/v/vonage-http-client/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-04-29 03:54:12] INFO root fetch - processPackages [winrt-Windows.Perception.Spatial.Surfaces]: Downloading https://files.pythonhosted.org/packages/1c/57/e9c2888a32be9339232480eae33a99a8309f700224aed2fe19c03e3f983d/winrt_Windows.Perception.Spatial.Surfaces-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 03:54:12] INFO root fetch - processPackages [winrt-Windows.Phone.ApplicationModel]: Downloading https://files.pythonhosted.org/packages/5b/e4/0a048db331012684708c3c08b67b9f0d41e3c7436ac3fc59d4d088cf78ac/winrt_Windows.Phone.ApplicationModel-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 03:54:12] INFO root fetch - processPackages [winrt-Windows.Perception.Spatial]: executing diffoscope
+[2024-04-29 03:54:12] INFO root fetch - processPackages [winrt-Windows.Perception.Spatial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Perception.Spatial-2.0.0b2.tar.gz tmp/winrt_Windows.Perception.Spatial-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Perception.Spatial/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 03:54:12] INFO root fetch - processPackages [winrt-Windows.Perception.Spatial.Preview]: executing diffoscope
+[2024-04-29 03:54:12] INFO root fetch - processPackages [winrt-Windows.Perception.Spatial.Preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Perception.Spatial.Preview-2.0.0b2.tar.gz tmp/winrt_Windows.Perception.Spatial.Preview-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Perception.Spatial.Preview/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 03:54:12] INFO root fetch - processPackages [winrt-Windows.Phone.Devices.Notification]: Downloading https://files.pythonhosted.org/packages/d5/76/75671a64fa04eb04053c6d850bc4f91b7941fce688fcd250a324a291240d/winrt_Windows.Phone.Devices.Notification-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 03:54:12] INFO root fetch - processPackages [winrt-Windows.Perception.Spatial.Surfaces]: executing diffoscope
+[2024-04-29 03:54:12] INFO root fetch - processPackages [winrt-Windows.Perception.Spatial.Surfaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Perception.Spatial.Surfaces-2.0.0b2.tar.gz tmp/winrt_Windows.Perception.Spatial.Surfaces-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Perception.Spatial.Surfaces/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 03:54:12] INFO root fetch - processPackages [winrt-Windows.Phone.ApplicationModel]: executing diffoscope
+[2024-04-29 03:54:12] INFO root fetch - processPackages [winrt-Windows.Phone.ApplicationModel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Phone.ApplicationModel-2.0.0b2.tar.gz tmp/winrt_Windows.Phone.ApplicationModel-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Phone.ApplicationModel/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 03:54:12] INFO root fetch - processPackages [vonage-http-client]: Remove: archive file [/home/abi/fetcher/tmp/vonage_http_client-1.3.0.tar.gz]
+[2024-04-29 03:54:12] INFO root fetch - processPackages [vonage-http-client]: Remove: archive file [/home/abi/fetcher/tmp/vonage_http_client-1.3.1.tar.gz]
+[2024-04-29 03:54:12] INFO root fetch - main [MainThread]: End processing [vonage-http-client]: success
+[2024-04-29 03:54:12] INFO root fetch - processPackages [winrt-Windows.Phone.Devices.Notification]: executing diffoscope
+[2024-04-29 03:54:12] INFO root fetch - processPackages [winrt-Windows.Phone.Devices.Notification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Phone.Devices.Notification-2.0.0b2.tar.gz tmp/winrt_Windows.Phone.Devices.Notification-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Phone.Devices.Notification/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 03:54:12] INFO root fetch - processPackages [winrt-Windows.Perception.Spatial]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Perception.Spatial-2.0.0b2.tar.gz]
+[2024-04-29 03:54:12] INFO root fetch - processPackages [winrt-Windows.Perception.Spatial]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Perception.Spatial-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 03:54:12] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Perception.Spatial]: success
+[2024-04-29 03:54:12] INFO root fetch - processPackages [vonage-voice]: Remove: archive file [/home/abi/fetcher/tmp/vonage_voice-1.0.1.tar.gz]
+[2024-04-29 03:54:12] INFO root fetch - processPackages [vonage-voice]: Remove: archive file [/home/abi/fetcher/tmp/vonage_voice-1.0.2.tar.gz]
+[2024-04-29 03:54:12] INFO root fetch - processPackages [winrt-Windows.Perception.Spatial.Preview]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Perception.Spatial.Preview-2.0.0b2.tar.gz]
+[2024-04-29 03:54:12] INFO root fetch - main [MainThread]: End processing [vonage-voice]: success
+[2024-04-29 03:54:12] INFO root fetch - processPackages [winrt-Windows.Perception.Spatial.Preview]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Perception.Spatial.Preview-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 03:54:12] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Perception.Spatial.Preview]: success
+[2024-04-29 03:54:13] INFO root fetch - processPackages [winrt-Windows.Phone.ApplicationModel]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Phone.ApplicationModel-2.0.0b2.tar.gz]
+[2024-04-29 03:54:13] INFO root fetch - processPackages [winrt-Windows.Phone.ApplicationModel]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Phone.ApplicationModel-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 03:54:13] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Phone.ApplicationModel]: success
+[2024-04-29 03:54:13] INFO root fetch - processPackages [vonage-sms]: Remove: archive file [/home/abi/fetcher/tmp/vonage_sms-1.1.0.tar.gz]
+[2024-04-29 03:54:13] INFO root fetch - processPackages [vonage-sms]: Remove: archive file [/home/abi/fetcher/tmp/vonage_sms-1.1.1.tar.gz]
+[2024-04-29 03:54:13] INFO root fetch - main [MainThread]: End processing [vonage-sms]: success
+[2024-04-29 03:54:13] INFO root fetch - processPackages [winrt-Windows.Perception.People]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Perception.People-2.0.0b2.tar.gz]
+[2024-04-29 03:54:13] INFO root fetch - processPackages [winrt-Windows.Perception.People]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Perception.People-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 03:54:13] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Perception.People]: success
+[2024-04-29 03:54:13] INFO root fetch - processPackages [winrt-Windows.Perception.Spatial.Surfaces]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Perception.Spatial.Surfaces-2.0.0b2.tar.gz]
+[2024-04-29 03:54:13] INFO root fetch - processPackages [winrt-Windows.Perception.Spatial.Surfaces]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Perception.Spatial.Surfaces-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 03:54:13] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Perception.Spatial.Surfaces]: success
+[2024-04-29 03:54:13] INFO root fetch - processPackages [winrt-Windows.Phone.Devices.Notification]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Phone.Devices.Notification-2.0.0b2.tar.gz]
+[2024-04-29 03:54:13] INFO root fetch - processPackages [winrt-Windows.Phone.Devices.Notification]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Phone.Devices.Notification-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 03:54:13] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Phone.Devices.Notification]: success
+[2024-04-29 03:54:13] INFO root fetch - main [MainThread]: Store serial: [22975730]
