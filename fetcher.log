@@ -10747,3 +10747,51 @@
 [2024-04-29 09:19:31] INFO root fetch - processPackages [pytrinamic]: Remove: archive file [/home/abi/fetcher/tmp/pytrinamic-0.2.9.tar.gz]
 [2024-04-29 09:19:31] INFO root fetch - main [MainThread]: End processing [pytrinamic]: success
 [2024-04-29 09:19:31] INFO root fetch - main [MainThread]: Store serial: [22979949]
+[2024-04-29 09:21:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979949]
+[2024-04-29 09:21:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 09:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: STMiner
+[2024-04-29 09:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: huojiweiguoba
+[2024-04-29 09:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vlite
+[2024-04-29 09:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipelinepy
+[2024-04-29 09:21:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kytest
+[2024-04-29 09:21:40] INFO root fetch - processPackages [vlite]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-29 09:21:40] INFO root fetch - processPackages [huojiweiguoba]: New version: [9.0] Old Version: [8.0]
+[2024-04-29 09:21:40] INFO root fetch - processPackages [vlite]: Downloading https://files.pythonhosted.org/packages/4f/c5/d700985eb2f67f948aed168df688452c4536e9e29bda942fc3458b1e4189/vlite-0.2.4.tar.gz
+[2024-04-29 09:21:40] INFO root fetch - processPackages [pipelinepy]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-29 09:21:40] INFO root fetch - processPackages [huojiweiguoba]: Downloading https://files.pythonhosted.org/packages/9b/6f/b64a46e83d6bfc0f46bb336114ec9f43e3939f86a70108c310351b4f02b4/huojiweiguoba-8.0.tar.gz
+[2024-04-29 09:21:40] INFO root fetch - processPackages [kytest]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 09:21:40] INFO root fetch - processPackages [STMiner]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-29 09:21:40] INFO root fetch - processPackages [pipelinepy]: Downloading https://files.pythonhosted.org/packages/c6/eb/fddda746a793010de5345292916820529b977c8f415dfb0b9009102400aa/pipelinepy-1.0.4.tar.gz
+[2024-04-29 09:21:40] INFO root fetch - processPackages [kytest]: Downloading https://files.pythonhosted.org/packages/38/b4/85e915d95e6d8ae6caae685be018b54adaadfcc88094c4b9a766af3f139c/kytest-0.0.8.tar.gz
+[2024-04-29 09:21:40] INFO root fetch - processPackages [STMiner]: Downloading https://files.pythonhosted.org/packages/e0/ea/ecc90afbe2b15624439c4ac8f1962c769fbe2784e7356e105719f0bc1b7d/STMiner-1.0.1.tar.gz
+[2024-04-29 09:21:40] INFO root fetch - processPackages [huojiweiguoba]: Downloading https://files.pythonhosted.org/packages/3a/79/586f36e886e9e8dcfc4129b51554721e3019a3b5fc5ca074d349a5747db3/huojiweiguoba-9.0.tar.gz
+[2024-04-29 09:21:41] INFO root fetch - processPackages [vlite]: Downloading https://files.pythonhosted.org/packages/72/b7/1a54392529e538d11901ba93ec16028d7e2930246ef180cb4f78851efbb4/vlite-0.2.5.tar.gz
+[2024-04-29 09:21:41] INFO root fetch - processPackages [huojiweiguoba]: executing diffoscope
+[2024-04-29 09:21:41] INFO root fetch - processPackages [huojiweiguoba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huojiweiguoba-8.0.tar.gz tmp/huojiweiguoba-9.0.tar.gz --markdown 20240429/h/huojiweiguoba/8.0-9.0/README.md --exclude *.pyd
+[2024-04-29 09:21:41] INFO root fetch - processPackages [vlite]: executing diffoscope
+[2024-04-29 09:21:41] INFO root fetch - processPackages [vlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vlite-0.2.4.tar.gz tmp/vlite-0.2.5.tar.gz --markdown 20240429/v/vlite/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-29 09:21:41] INFO root fetch - processPackages [pipelinepy]: Downloading https://files.pythonhosted.org/packages/e6/82/69849a40fe25f4262faac31c7598ff084c0f3126ea363885204e169863af/pipelinepy-1.0.5.tar.gz
+[2024-04-29 09:21:41] INFO root fetch - processPackages [kytest]: Downloading https://files.pythonhosted.org/packages/36/f4/c3ebb11b933fe50ea919d941f19fdd760121247aa33dcca464e43242fc1c/kytest-0.0.9.tar.gz
+[2024-04-29 09:21:41] INFO root fetch - processPackages [STMiner]: Downloading https://files.pythonhosted.org/packages/6f/5c/58b58f061da43a82db6a7ce80c5d9f374098dd560081b3ee9cd4db20af9c/STMiner-1.0.2.tar.gz
+[2024-04-29 09:21:41] INFO root fetch - processPackages [pipelinepy]: executing diffoscope
+[2024-04-29 09:21:41] INFO root fetch - processPackages [pipelinepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipelinepy-1.0.4.tar.gz tmp/pipelinepy-1.0.5.tar.gz --markdown 20240429/p/pipelinepy/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-29 09:21:41] INFO root fetch - processPackages [STMiner]: executing diffoscope
+[2024-04-29 09:21:41] INFO root fetch - processPackages [STMiner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/STMiner-1.0.1.tar.gz tmp/STMiner-1.0.2.tar.gz --markdown 20240429/S/STMiner/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-29 09:21:41] INFO root fetch - processPackages [kytest]: executing diffoscope
+[2024-04-29 09:21:41] INFO root fetch - processPackages [kytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kytest-0.0.8.tar.gz tmp/kytest-0.0.9.tar.gz --markdown 20240429/k/kytest/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 09:21:41] INFO root fetch - processPackages [huojiweiguoba]: Remove: archive file [/home/abi/fetcher/tmp/huojiweiguoba-8.0.tar.gz]
+[2024-04-29 09:21:41] INFO root fetch - processPackages [huojiweiguoba]: Remove: archive file [/home/abi/fetcher/tmp/huojiweiguoba-9.0.tar.gz]
+[2024-04-29 09:21:41] INFO root fetch - main [MainThread]: End processing [huojiweiguoba]: success
+[2024-04-29 09:21:41] INFO root fetch - processPackages [vlite]: Remove: archive file [/home/abi/fetcher/tmp/vlite-0.2.4.tar.gz]
+[2024-04-29 09:21:41] INFO root fetch - processPackages [vlite]: Remove: archive file [/home/abi/fetcher/tmp/vlite-0.2.5.tar.gz]
+[2024-04-29 09:21:41] INFO root fetch - main [MainThread]: End processing [vlite]: success
+[2024-04-29 09:21:42] INFO root fetch - processPackages [pipelinepy]: Remove: archive file [/home/abi/fetcher/tmp/pipelinepy-1.0.4.tar.gz]
+[2024-04-29 09:21:42] INFO root fetch - processPackages [pipelinepy]: Remove: archive file [/home/abi/fetcher/tmp/pipelinepy-1.0.5.tar.gz]
+[2024-04-29 09:21:42] INFO root fetch - main [MainThread]: End processing [pipelinepy]: success
+[2024-04-29 09:21:42] INFO root fetch - processPackages [STMiner]: Remove: archive file [/home/abi/fetcher/tmp/STMiner-1.0.1.tar.gz]
+[2024-04-29 09:21:42] INFO root fetch - processPackages [STMiner]: Remove: archive file [/home/abi/fetcher/tmp/STMiner-1.0.2.tar.gz]
+[2024-04-29 09:21:42] INFO root fetch - main [MainThread]: End processing [STMiner]: success
+[2024-04-29 09:21:42] INFO root fetch - processPackages [kytest]: Remove: archive file [/home/abi/fetcher/tmp/kytest-0.0.8.tar.gz]
+[2024-04-29 09:21:42] INFO root fetch - processPackages [kytest]: Remove: archive file [/home/abi/fetcher/tmp/kytest-0.0.9.tar.gz]
+[2024-04-29 09:21:42] INFO root fetch - main [MainThread]: End processing [kytest]: success
+[2024-04-29 09:21:42] INFO root fetch - main [MainThread]: Store serial: [22979963]
