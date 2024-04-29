@@ -18699,3 +18699,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 14:26:11] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
 [2024-04-29 14:26:11] INFO root fetch - main [MainThread]: End processing [capellambse]: success
 [2024-04-29 14:26:11] INFO root fetch - main [MainThread]: Store serial: [22983284]
+[2024-04-29 14:28:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22983284]
+[2024-04-29 14:28:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-29 14:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ropt-pymoo
+[2024-04-29 14:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qontract-reconcile
+[2024-04-29 14:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mesido
+[2024-04-29 14:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-adapter-kaiheila
+[2024-04-29 14:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wagtail-treemodeladmin
+[2024-04-29 14:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RenewablesAutomate
+[2024-04-29 14:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyesorm
+[2024-04-29 14:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qosst-hal
+[2024-04-29 14:28:20] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-29 14:28:20] INFO root fetch - processPackages [ropt-pymoo]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-29 14:28:20] WARNING root fetch - processPackages [RenewablesAutomate]: Skipping, unable to determine old version
+[2024-04-29 14:28:20] INFO root fetch - main [MainThread]: End processing [RenewablesAutomate] error
+[2024-04-29 14:28:20] INFO root fetch - processPackages [pyesorm]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-29 14:28:20] INFO root fetch - processPackages [wagtail-treemodeladmin]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-29 14:28:20] INFO root fetch - processPackages [nonebot-adapter-kaiheila]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-29 14:28:20] INFO root fetch - processPackages [mesido]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-29 14:28:20] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-29 14:28:20] WARNING root fetch - processPackages [qosst-hal]: Skipping, unable to determine old version
+[2024-04-29 14:28:20] INFO root fetch - main [MainThread]: End processing [qosst-hal] error
+[2024-04-29 14:28:20] INFO root fetch - processPackages [ropt-pymoo]: Downloading https://files.pythonhosted.org/packages/a3/76/95abca530542ee5683ea8895cce940ac0ffd3a3666e3eb0b99987a0424c5/ropt_pymoo-0.1.0.tar.gz
+[2024-04-29 14:28:20] INFO root fetch - processPackages [mesido]: Downloading https://files.pythonhosted.org/packages/a6/ce/756cbcf5b7832902b98242ba13df35504040123864bb07fb87f10997da97/mesido-0.1.1.tar.gz
+[2024-04-29 14:28:20] INFO root fetch - processPackages [nonebot-adapter-kaiheila]: Downloading https://files.pythonhosted.org/packages/25/76/9797b395f140a640ba254066fd053731e4660972864914aa874094d1b733/nonebot_adapter_kaiheila-0.3.3.tar.gz
+[2024-04-29 14:28:20] INFO root fetch - processPackages [wagtail-treemodeladmin]: Downloading https://files.pythonhosted.org/packages/e7/f5/df2956137fb72f2dc6e890bd5e548587714b8f2d95df815d44476b819805/wagtail-treemodeladmin-1.9.0.tar.gz
+[2024-04-29 14:28:20] INFO root fetch - processPackages [pyesorm]: Downloading https://files.pythonhosted.org/packages/81/22/aa3db6d736fff238fef9c8025f6e2f8786e822f359e5208f092947a5a418/pyesorm-0.3.0.tar.gz
+[2024-04-29 14:28:20] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-29 14:28:21] INFO root fetch - processPackages [ropt-pymoo]: Downloading https://files.pythonhosted.org/packages/69/78/2b1dac8c8f8c5863852515cc726e0d2352dbdc5eaaf24407f09727972a74/ropt_pymoo-0.2.0.tar.gz
+[2024-04-29 14:28:21] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-29 14:28:21] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240429/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-29 14:28:21] INFO root fetch - processPackages [nonebot-adapter-kaiheila]: Downloading https://files.pythonhosted.org/packages/63/11/56d412ea071c784f8c5242f5df4020334d31125ba1b9c58e28318f9fc5ec/nonebot_adapter_kaiheila-0.3.4.tar.gz
+[2024-04-29 14:28:21] INFO root fetch - processPackages [mesido]: Downloading https://files.pythonhosted.org/packages/b9/81/62b65e7f5d883f8a0810f57fdf0531eacde810710ca45dd3bc581f5b0f7a/mesido-0.1.2.tar.gz
+[2024-04-29 14:28:21] INFO root fetch - processPackages [ropt-pymoo]: executing diffoscope
+[2024-04-29 14:28:21] INFO root fetch - processPackages [ropt-pymoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ropt_pymoo-0.1.0.tar.gz tmp/ropt_pymoo-0.2.0.tar.gz --markdown 20240429/r/ropt-pymoo/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-29 14:28:21] INFO root fetch - processPackages [wagtail-treemodeladmin]: Downloading https://files.pythonhosted.org/packages/d1/be/aa4f8706f35ead904bdad328cb235a1033b8f49f3063e3c67d73354226f6/wagtail_treemodeladmin-1.9.1.tar.gz
+[2024-04-29 14:28:21] INFO root fetch - processPackages [pyesorm]: Downloading https://files.pythonhosted.org/packages/23/fe/e1108043238c290ccc384de9d9a863c49f1024f8fd8b5c291b2b10dfbe2e/pyesorm-0.3.1.tar.gz
+[2024-04-29 14:28:21] INFO root fetch - processPackages [nonebot-adapter-kaiheila]: executing diffoscope
+[2024-04-29 14:28:21] INFO root fetch - processPackages [nonebot-adapter-kaiheila]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_kaiheila-0.3.3.tar.gz tmp/nonebot_adapter_kaiheila-0.3.4.tar.gz --markdown 20240429/n/nonebot-adapter-kaiheila/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-04-29 14:28:21] INFO root fetch - processPackages [wagtail-treemodeladmin]: executing diffoscope
+[2024-04-29 14:28:21] INFO root fetch - processPackages [wagtail-treemodeladmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-treemodeladmin-1.9.0.tar.gz tmp/wagtail_treemodeladmin-1.9.1.tar.gz --markdown 20240429/w/wagtail-treemodeladmin/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-29 14:28:21] INFO root fetch - processPackages [pyesorm]: executing diffoscope
+[2024-04-29 14:28:21] INFO root fetch - processPackages [pyesorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyesorm-0.3.0.tar.gz tmp/pyesorm-0.3.1.tar.gz --markdown 20240429/p/pyesorm/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-29 14:28:21] INFO root fetch - processPackages [mesido]: executing diffoscope
+[2024-04-29 14:28:21] INFO root fetch - processPackages [mesido]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesido-0.1.1.tar.gz tmp/mesido-0.1.2.tar.gz --markdown 20240429/m/mesido/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-29 14:28:22] INFO root fetch - processPackages [ropt-pymoo]: Remove: archive file [/home/abi/fetcher/tmp/ropt_pymoo-0.1.0.tar.gz]
+[2024-04-29 14:28:22] INFO root fetch - processPackages [ropt-pymoo]: Remove: archive file [/home/abi/fetcher/tmp/ropt_pymoo-0.2.0.tar.gz]
+[2024-04-29 14:28:22] INFO root fetch - main [MainThread]: End processing [ropt-pymoo]: success
+[2024-04-29 14:28:22] INFO root fetch - processPackages [wagtail-treemodeladmin]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-treemodeladmin-1.9.0.tar.gz]
+[2024-04-29 14:28:22] INFO root fetch - processPackages [wagtail-treemodeladmin]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_treemodeladmin-1.9.1.tar.gz]
+[2024-04-29 14:28:22] INFO root fetch - main [MainThread]: End processing [wagtail-treemodeladmin]: success
+[2024-04-29 14:28:22] INFO root fetch - processPackages [nonebot-adapter-kaiheila]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_kaiheila-0.3.3.tar.gz]
+[2024-04-29 14:28:22] INFO root fetch - processPackages [nonebot-adapter-kaiheila]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_kaiheila-0.3.4.tar.gz]
+[2024-04-29 14:28:22] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-kaiheila]: success
+[2024-04-29 14:28:22] INFO root fetch - processPackages [pyesorm]: Remove: archive file [/home/abi/fetcher/tmp/pyesorm-0.3.0.tar.gz]
+[2024-04-29 14:28:22] INFO root fetch - processPackages [pyesorm]: Remove: archive file [/home/abi/fetcher/tmp/pyesorm-0.3.1.tar.gz]
+[2024-04-29 14:28:22] INFO root fetch - main [MainThread]: End processing [pyesorm]: success
+[2024-04-29 14:28:23] INFO root fetch - processPackages [mesido]: Remove: archive file [/home/abi/fetcher/tmp/mesido-0.1.1.tar.gz]
+[2024-04-29 14:28:23] INFO root fetch - processPackages [mesido]: Remove: archive file [/home/abi/fetcher/tmp/mesido-0.1.2.tar.gz]
+[2024-04-29 14:28:23] INFO root fetch - main [MainThread]: End processing [mesido]: success
+[2024-04-29 14:28:23] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-29 14:28:23] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-29 14:28:23] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-29 14:28:23] INFO root fetch - main [MainThread]: Store serial: [22983312]
