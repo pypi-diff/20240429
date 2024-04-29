@@ -11784,3 +11784,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 10:03:29] INFO root fetch - processPackages [ansys-geometry-core]: Remove: archive file [/home/abi/fetcher/tmp/ansys_geometry_core-0.5.2.tar.gz]
 [2024-04-29 10:03:29] INFO root fetch - main [MainThread]: End processing [ansys-geometry-core]: success
 [2024-04-29 10:03:29] INFO root fetch - main [MainThread]: Store serial: [22980374]
+[2024-04-29 10:05:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980374]
+[2024-04-29 10:05:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-29 10:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drf-nested-browsable
+[2024-04-29 10:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: landcover_lca
+[2024-04-29 10:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langfun
+[2024-04-29 10:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tdf_tool
+[2024-04-29 10:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: napari-psf-analysis
+[2024-04-29 10:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aibridge-test
+[2024-04-29 10:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: era-5g-client
+[2024-04-29 10:05:38] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240428] Old Version: [0.0.2.dev20240427]
+[2024-04-29 10:05:38] INFO root fetch - processPackages [aibridge-test]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-29 10:05:38] WARNING root fetch - processPackages [landcover_lca]: Skipping, unable to determine old version
+[2024-04-29 10:05:38] INFO root fetch - processPackages [drf-nested-browsable]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-04-29 10:05:38] INFO root fetch - main [MainThread]: End processing [landcover_lca] error
+[2024-04-29 10:05:38] INFO root fetch - processPackages [napari-psf-analysis]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-29 10:05:38] INFO root fetch - processPackages [era-5g-client]: New version: [1.0.0] Old Version: [0.9.0]
+[2024-04-29 10:05:38] INFO root fetch - processPackages [tdf_tool]: New version: [2.4.9] Old Version: [2.4.8]
+[2024-04-29 10:05:38] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/3b/9e/507b74c8a77f5a5eb7e595dca90dc1dd75d442a79eea812b82459009c47c/langfun-0.0.2.dev20240427-py3-none-any.whl
+[2024-04-29 10:05:38] INFO root fetch - processPackages [napari-psf-analysis]: Downloading https://files.pythonhosted.org/packages/26/6d/4caca86e63b60daff5cea502288f8581fdd9766b8fcd1924b224422640b2/napari_psf_analysis-1.1.2.tar.gz
+[2024-04-29 10:05:38] INFO root fetch - processPackages [drf-nested-browsable]: Downloading https://files.pythonhosted.org/packages/0b/05/afa01829a73df5d755254148f249a2284fe2233104cdf10ffe45a9e32123/drf_nested_browsable-0.2.3.tar.gz
+[2024-04-29 10:05:38] INFO root fetch - processPackages [aibridge-test]: Downloading https://files.pythonhosted.org/packages/8a/16/93dca4f3c58d98d56d0e0dff75ab50171dba169718685b956ad2b8cd615e/aibridge_test-0.3.3.tar.gz
+[2024-04-29 10:05:38] INFO root fetch - processPackages [era-5g-client]: Downloading https://files.pythonhosted.org/packages/d2/3b/412da055fd2b4e7292890dd4c18421395aaf4adffb8a3c6215caa439f146/era_5g_client-0.9.0.tar.gz
+[2024-04-29 10:05:38] INFO root fetch - processPackages [tdf_tool]: Downloading https://files.pythonhosted.org/packages/e2/20/7bd3981f89deedf6ba8fdd42fc8e01b5fa47635732ea90010af530c1cbc2/tdf_tool-2.4.8.tar.gz
+[2024-04-29 10:05:38] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/05/59/e1a2fac3f3bee1079c61ff9b004d4e3399a175bad70acf1085b34b29e068/langfun-0.0.2.dev20240428.tar.gz
+[2024-04-29 10:05:39] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-04-29 10:05:39] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240427-py3-none-any.whl.zip tmp/langfun-0.0.2.dev20240428.tar.gz --markdown 20240429/l/langfun/0.0.2.dev20240427-0.0.2.dev20240428/README.md --exclude *.pyd
+[2024-04-29 10:05:39] INFO root fetch - processPackages [drf-nested-browsable]: Downloading https://files.pythonhosted.org/packages/58/0e/f289344b2867cb7b66104f9dba49f4cc13fe0564abb850f4e835fa18627f/drf_nested_browsable-0.3.0.tar.gz
+[2024-04-29 10:05:39] INFO root fetch - processPackages [aibridge-test]: Downloading https://files.pythonhosted.org/packages/56/da/1f745be0b2c5b36f77eafa7fd8b68d5ea0e72766c852bdcbbe6a457d9cbf/aibridge_test-0.3.4.tar.gz
+[2024-04-29 10:05:39] INFO root fetch - processPackages [drf-nested-browsable]: executing diffoscope
+[2024-04-29 10:05:39] INFO root fetch - processPackages [drf-nested-browsable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_nested_browsable-0.2.3.tar.gz tmp/drf_nested_browsable-0.3.0.tar.gz --markdown 20240429/d/drf-nested-browsable/0.2.3-0.3.0/README.md --exclude *.pyd
+[2024-04-29 10:05:39] INFO root fetch - processPackages [tdf_tool]: Downloading https://files.pythonhosted.org/packages/0d/fb/edc0ac41f192341d2e9a5ca096da99a3e6e2fcbb2a105e9f80ca47732071/tdf_tool-2.4.9.tar.gz
+[2024-04-29 10:05:39] INFO root fetch - processPackages [aibridge-test]: executing diffoscope
+[2024-04-29 10:05:39] INFO root fetch - processPackages [aibridge-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aibridge_test-0.3.3.tar.gz tmp/aibridge_test-0.3.4.tar.gz --markdown 20240429/a/aibridge-test/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-04-29 10:05:39] INFO root fetch - processPackages [era-5g-client]: Downloading https://files.pythonhosted.org/packages/05/91/718b61acb0ebc72e11c3b7a5ae1f1bfe63ef1ef7925d74c2fffa28871f9c/era_5g_client-1.0.0.tar.gz
+[2024-04-29 10:05:39] INFO root fetch - processPackages [tdf_tool]: executing diffoscope
+[2024-04-29 10:05:39] INFO root fetch - processPackages [tdf_tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdf_tool-2.4.8.tar.gz tmp/tdf_tool-2.4.9.tar.gz --markdown 20240429/t/tdf_tool/2.4.8-2.4.9/README.md --exclude *.pyd
+[2024-04-29 10:05:39] INFO root fetch - processPackages [era-5g-client]: executing diffoscope
+[2024-04-29 10:05:39] INFO root fetch - processPackages [era-5g-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/era_5g_client-0.9.0.tar.gz tmp/era_5g_client-1.0.0.tar.gz --markdown 20240429/e/era-5g-client/0.9.0-1.0.0/README.md --exclude *.pyd
+[2024-04-29 10:05:39] INFO root fetch - processPackages [napari-psf-analysis]: Downloading https://files.pythonhosted.org/packages/58/ce/5235bf2af9771b76f91fe3bd849e40caf4c2a5223c74205ba7e6d3d55641/napari_psf_analysis-1.1.3.tar.gz
+[2024-04-29 10:05:39] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240427-py3-none-any.whl.zip]
+[2024-04-29 10:05:39] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240428.tar.gz]
+[2024-04-29 10:05:39] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-04-29 10:05:39] INFO root fetch - processPackages [drf-nested-browsable]: Remove: archive file [/home/abi/fetcher/tmp/drf_nested_browsable-0.2.3.tar.gz]
+[2024-04-29 10:05:39] INFO root fetch - processPackages [drf-nested-browsable]: Remove: archive file [/home/abi/fetcher/tmp/drf_nested_browsable-0.3.0.tar.gz]
+[2024-04-29 10:05:39] INFO root fetch - main [MainThread]: End processing [drf-nested-browsable]: success
+[2024-04-29 10:05:40] INFO root fetch - processPackages [napari-psf-analysis]: executing diffoscope
+[2024-04-29 10:05:40] INFO root fetch - processPackages [napari-psf-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari_psf_analysis-1.1.2.tar.gz tmp/napari_psf_analysis-1.1.3.tar.gz --markdown 20240429/n/napari-psf-analysis/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-04-29 10:05:40] INFO root fetch - processPackages [era-5g-client]: Remove: archive file [/home/abi/fetcher/tmp/era_5g_client-0.9.0.tar.gz]
+[2024-04-29 10:05:40] INFO root fetch - processPackages [era-5g-client]: Remove: archive file [/home/abi/fetcher/tmp/era_5g_client-1.0.0.tar.gz]
+[2024-04-29 10:05:40] INFO root fetch - main [MainThread]: End processing [era-5g-client]: success
+[2024-04-29 10:05:40] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.3.3.tar.gz]
+[2024-04-29 10:05:40] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.3.4.tar.gz]
+[2024-04-29 10:05:40] INFO root fetch - main [MainThread]: End processing [aibridge-test]: success
+[2024-04-29 10:05:40] INFO root fetch - processPackages [tdf_tool]: Remove: archive file [/home/abi/fetcher/tmp/tdf_tool-2.4.8.tar.gz]
+[2024-04-29 10:05:40] INFO root fetch - processPackages [tdf_tool]: Remove: archive file [/home/abi/fetcher/tmp/tdf_tool-2.4.9.tar.gz]
+[2024-04-29 10:05:40] INFO root fetch - main [MainThread]: End processing [tdf_tool]: success
+[2024-04-29 10:05:41] INFO root fetch - processPackages [napari-psf-analysis]: Remove: archive file [/home/abi/fetcher/tmp/napari_psf_analysis-1.1.2.tar.gz]
+[2024-04-29 10:05:41] INFO root fetch - processPackages [napari-psf-analysis]: Remove: archive file [/home/abi/fetcher/tmp/napari_psf_analysis-1.1.3.tar.gz]
+[2024-04-29 10:05:41] INFO root fetch - main [MainThread]: End processing [napari-psf-analysis]: success
+[2024-04-29 10:05:41] INFO root fetch - main [MainThread]: Store serial: [22980397]
