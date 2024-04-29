@@ -7801,3 +7801,15 @@
 [2024-04-29 06:05:47] INFO root fetch - processPackages [fastapix-py]: Remove: archive file [/home/abi/fetcher/tmp/fastapix_py-0.8.3-py3-none-any.whl.zip]
 [2024-04-29 06:05:47] INFO root fetch - main [MainThread]: End processing [fastapix-py]: success
 [2024-04-29 06:05:47] INFO root fetch - main [MainThread]: Store serial: [22978542]
+[2024-04-29 06:07:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978542]
+[2024-04-29 06:07:56] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-29 06:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: notolog
+[2024-04-29 06:07:56] INFO root fetch - processPackages [notolog]: New version: [0.9.0b9] Old Version: [0.9.0b10]
+[2024-04-29 06:07:56] INFO root fetch - processPackages [notolog]: Downloading https://files.pythonhosted.org/packages/24/c9/bb2157b7fde9973c29216b7120928da34164ed23db12cc7c7fac4454cc3b/notolog-0.9.0b10.tar.gz
+[2024-04-29 06:07:57] INFO root fetch - processPackages [notolog]: Downloading https://files.pythonhosted.org/packages/72/47/246372fe0fe98c3cce2d0730f8221d9a7245ebb40cccf898e53fb385b8c6/notolog-0.9.0b9.tar.gz
+[2024-04-29 06:07:57] INFO root fetch - processPackages [notolog]: executing diffoscope
+[2024-04-29 06:07:57] INFO root fetch - processPackages [notolog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notolog-0.9.0b10.tar.gz tmp/notolog-0.9.0b9.tar.gz --markdown 20240429/n/notolog/0.9.0b10-0.9.0b9/README.md --exclude *.pyd
+[2024-04-29 06:07:58] INFO root fetch - processPackages [notolog]: Remove: archive file [/home/abi/fetcher/tmp/notolog-0.9.0b10.tar.gz]
+[2024-04-29 06:07:58] INFO root fetch - processPackages [notolog]: Remove: archive file [/home/abi/fetcher/tmp/notolog-0.9.0b9.tar.gz]
+[2024-04-29 06:07:58] INFO root fetch - main [MainThread]: End processing [notolog]: success
+[2024-04-29 06:07:58] INFO root fetch - main [MainThread]: Store serial: [22978546]
