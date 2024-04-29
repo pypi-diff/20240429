@@ -15168,3 +15168,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 12:13:19] INFO root fetch - processPackages [ara-tools]: Remove: archive file [/home/abi/fetcher/tmp/ara-tools-0.1.4.9.tar.gz]
 [2024-04-29 12:13:19] INFO root fetch - main [MainThread]: End processing [ara-tools]: success
 [2024-04-29 12:13:19] INFO root fetch - main [MainThread]: Store serial: [22981917]
+[2024-04-29 12:15:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22981917]
+[2024-04-29 12:15:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 12:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tqsdk
+[2024-04-29 12:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: twinlab
+[2024-04-29 12:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jeeves-pr-stack
+[2024-04-29 12:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ixoncdkingress
+[2024-04-29 12:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: decoutilities
+[2024-04-29 12:15:29] INFO root fetch - processPackages [decoutilities]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-29 12:15:29] INFO root fetch - processPackages [ixoncdkingress]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 12:15:29] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/4c/e2/3855c84717b56f1486a5ffc1198c6c84eb7902c8827083cc1be290b6df9a/decoutilities-0.1.1.tar.gz
+[2024-04-29 12:15:29] INFO root fetch - processPackages [twinlab]: New version: [2.6.0] Old Version: [2.5.0]
+[2024-04-29 12:15:29] INFO root fetch - processPackages [ixoncdkingress]: Downloading https://files.pythonhosted.org/packages/b3/1b/2738933755f61b85947702010ca1d9403e64824e49dcdc082f1b61a07b4a/ixoncdkingress-0.0.8.tar.gz
+[2024-04-29 12:15:29] INFO root fetch - processPackages [jeeves-pr-stack]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-29 12:15:29] INFO root fetch - processPackages [tqsdk]: New version: [3.5.8] Old Version: [3.5.7]
+[2024-04-29 12:15:29] INFO root fetch - processPackages [twinlab]: Downloading https://files.pythonhosted.org/packages/1e/76/c704d1d406a22687724c5dafb38abd6b226e5babcc9bf1b2d17b3262da9f/twinlab-2.5.0.tar.gz
+[2024-04-29 12:15:29] INFO root fetch - processPackages [jeeves-pr-stack]: Downloading https://files.pythonhosted.org/packages/f0/b1/9b322d4ea42c2e99e6018c14d46ad8de66b2aa221650d7275016fc9ae3ba/jeeves_pr_stack-0.1.2.tar.gz
+[2024-04-29 12:15:29] INFO root fetch - processPackages [tqsdk]: Downloading https://files.pythonhosted.org/packages/92/8e/8dd80b69a1fa7d636415ca628fdf2265baa561e2481718d9f047ad451cdb/tqsdk-3.5.7.tar.gz
+[2024-04-29 12:15:29] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/c1/a9/4367b77ef1c286bc095f7b16bbbed8216887d515d2dd3196f3a523d3508d/decoutilities-0.1.2.tar.gz
+[2024-04-29 12:15:29] INFO root fetch - processPackages [ixoncdkingress]: Downloading https://files.pythonhosted.org/packages/81/5d/64486ddfc794e9b261c3c76607feaa76e92ecb01cd26ffd13bced3ecac65/ixoncdkingress-0.0.9.tar.gz
+[2024-04-29 12:15:29] INFO root fetch - processPackages [decoutilities]: executing diffoscope
+[2024-04-29 12:15:29] INFO root fetch - processPackages [decoutilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decoutilities-0.1.1.tar.gz tmp/decoutilities-0.1.2.tar.gz --markdown 20240429/d/decoutilities/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-29 12:15:29] INFO root fetch - processPackages [ixoncdkingress]: executing diffoscope
+[2024-04-29 12:15:29] INFO root fetch - processPackages [ixoncdkingress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixoncdkingress-0.0.8.tar.gz tmp/ixoncdkingress-0.0.9.tar.gz --markdown 20240429/i/ixoncdkingress/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 12:15:29] INFO root fetch - processPackages [twinlab]: Downloading https://files.pythonhosted.org/packages/6d/4a/f1a46ec9dcca9bfe10e714044317f64602578b6a63dff7bf989ef19325cd/twinlab-2.6.0.tar.gz
+[2024-04-29 12:15:29] INFO root fetch - processPackages [jeeves-pr-stack]: Downloading https://files.pythonhosted.org/packages/3d/64/2bb0f7789d3e2cec985cfa7fa0b4e531bd446dc77294db9c55d63609f3f5/jeeves_pr_stack-0.1.3.tar.gz
+[2024-04-29 12:15:29] INFO root fetch - processPackages [tqsdk]: Downloading https://files.pythonhosted.org/packages/a5/50/15615b34f8468d8492aafbe2d982b7b2a3cdafede2b59f02b0fdd21bcb3b/tqsdk-3.5.8.tar.gz
+[2024-04-29 12:15:29] INFO root fetch - processPackages [jeeves-pr-stack]: executing diffoscope
+[2024-04-29 12:15:29] INFO root fetch - processPackages [jeeves-pr-stack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jeeves_pr_stack-0.1.2.tar.gz tmp/jeeves_pr_stack-0.1.3.tar.gz --markdown 20240429/j/jeeves-pr-stack/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-29 12:15:29] INFO root fetch - processPackages [twinlab]: executing diffoscope
+[2024-04-29 12:15:29] INFO root fetch - processPackages [twinlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twinlab-2.5.0.tar.gz tmp/twinlab-2.6.0.tar.gz --markdown 20240429/t/twinlab/2.5.0-2.6.0/README.md --exclude *.pyd
+[2024-04-29 12:15:30] INFO root fetch - processPackages [tqsdk]: executing diffoscope
+[2024-04-29 12:15:30] INFO root fetch - processPackages [tqsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tqsdk-3.5.7.tar.gz tmp/tqsdk-3.5.8.tar.gz --markdown 20240429/t/tqsdk/3.5.7-3.5.8/README.md --exclude *.pyd
+[2024-04-29 12:15:30] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.1.1.tar.gz]
+[2024-04-29 12:15:30] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.1.2.tar.gz]
+[2024-04-29 12:15:30] INFO root fetch - main [MainThread]: End processing [decoutilities]: success
+[2024-04-29 12:15:30] INFO root fetch - processPackages [ixoncdkingress]: Remove: archive file [/home/abi/fetcher/tmp/ixoncdkingress-0.0.8.tar.gz]
+[2024-04-29 12:15:30] INFO root fetch - processPackages [ixoncdkingress]: Remove: archive file [/home/abi/fetcher/tmp/ixoncdkingress-0.0.9.tar.gz]
+[2024-04-29 12:15:30] INFO root fetch - main [MainThread]: End processing [ixoncdkingress]: success
+[2024-04-29 12:15:30] INFO root fetch - processPackages [jeeves-pr-stack]: Remove: archive file [/home/abi/fetcher/tmp/jeeves_pr_stack-0.1.2.tar.gz]
+[2024-04-29 12:15:30] INFO root fetch - processPackages [jeeves-pr-stack]: Remove: archive file [/home/abi/fetcher/tmp/jeeves_pr_stack-0.1.3.tar.gz]
+[2024-04-29 12:15:30] INFO root fetch - main [MainThread]: End processing [jeeves-pr-stack]: success
+[2024-04-29 12:15:30] INFO root fetch - processPackages [twinlab]: Remove: archive file [/home/abi/fetcher/tmp/twinlab-2.5.0.tar.gz]
+[2024-04-29 12:15:30] INFO root fetch - processPackages [twinlab]: Remove: archive file [/home/abi/fetcher/tmp/twinlab-2.6.0.tar.gz]
+[2024-04-29 12:15:30] INFO root fetch - main [MainThread]: End processing [twinlab]: success
+[2024-04-29 12:15:31] INFO root fetch - processPackages [tqsdk]: Remove: archive file [/home/abi/fetcher/tmp/tqsdk-3.5.7.tar.gz]
+[2024-04-29 12:15:31] INFO root fetch - processPackages [tqsdk]: Remove: archive file [/home/abi/fetcher/tmp/tqsdk-3.5.8.tar.gz]
+[2024-04-29 12:15:31] INFO root fetch - main [MainThread]: End processing [tqsdk]: success
+[2024-04-29 12:15:31] INFO root fetch - main [MainThread]: Store serial: [22981932]
