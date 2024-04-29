@@ -15450,3 +15450,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 12:22:08] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2024-04-29 12:22:08] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2024-04-29 12:22:08] INFO root fetch - main [MainThread]: Store serial: [22982004]
+[2024-04-29 12:24:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982004]
+[2024-04-29 12:24:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 12:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wmill-pg
+[2024-04-29 12:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jdtaxcalculator
+[2024-04-29 12:24:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opencti-excel-uploader
+[2024-04-29 12:24:18] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-29 12:24:18] WARNING root fetch - processPackages [jdtaxcalculator]: Skipping, unable to determine old version
+[2024-04-29 12:24:18] INFO root fetch - main [MainThread]: End processing [jdtaxcalculator] error
+[2024-04-29 12:24:18] INFO root fetch - processPackages [opencti-excel-uploader]: New version: [0.2.1] Old Version: [0.1]
+[2024-04-29 12:24:18] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2024-04-29 12:24:18] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2024-04-29 12:24:18] INFO root fetch - processPackages [opencti-excel-uploader]: Downloading https://files.pythonhosted.org/packages/11/be/32105b7932c0eec8cc4c56aed7fba621e29c7823a8f4e6f709052e81b337/opencti_excel_uploader-0.1.tar.gz
+[2024-04-29 12:24:18] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2024-04-29 12:24:18] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20240429/w/wmill-pg/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-29 12:24:18] INFO root fetch - processPackages [opencti-excel-uploader]: Downloading https://files.pythonhosted.org/packages/c8/2a/9e60f888f8ce0789bb0527746af5967e005fc445aab713ba5ca39b33306c/opencti_excel_uploader-0.2.1.tar.gz
+[2024-04-29 12:24:19] INFO root fetch - processPackages [opencti-excel-uploader]: executing diffoscope
+[2024-04-29 12:24:19] INFO root fetch - processPackages [opencti-excel-uploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencti_excel_uploader-0.1.tar.gz tmp/opencti_excel_uploader-0.2.1.tar.gz --markdown 20240429/o/opencti-excel-uploader/0.1-0.2.1/README.md --exclude *.pyd
+[2024-04-29 12:24:19] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2024-04-29 12:24:19] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2024-04-29 12:24:19] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2024-04-29 12:24:19] INFO root fetch - processPackages [opencti-excel-uploader]: Remove: archive file [/home/abi/fetcher/tmp/opencti_excel_uploader-0.1.tar.gz]
+[2024-04-29 12:24:19] INFO root fetch - processPackages [opencti-excel-uploader]: Remove: archive file [/home/abi/fetcher/tmp/opencti_excel_uploader-0.2.1.tar.gz]
+[2024-04-29 12:24:19] INFO root fetch - main [MainThread]: End processing [opencti-excel-uploader]: success
+[2024-04-29 12:24:19] INFO root fetch - main [MainThread]: Store serial: [22982016]
