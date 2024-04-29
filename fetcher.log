@@ -7955,3 +7955,36 @@
 [2024-04-29 06:21:00] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc99.post1.tar.gz]
 [2024-04-29 06:21:00] INFO root fetch - main [MainThread]: End processing [py-dbchat]: success
 [2024-04-29 06:21:00] INFO root fetch - main [MainThread]: Store serial: [22978599]
+[2024-04-29 06:23:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978599]
+[2024-04-29 06:23:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 06:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bestdori-api
+[2024-04-29 06:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imghdr2
+[2024-04-29 06:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: appmesh
+[2024-04-29 06:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tadl
+[2024-04-29 06:23:09] INFO root fetch - processPackages [tadl]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-29 06:23:09] INFO root fetch - processPackages [bestdori-api]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-04-29 06:23:09] WARNING root fetch - processPackages [imghdr2]: Skipping, unable to determine old version
+[2024-04-29 06:23:09] INFO root fetch - main [MainThread]: End processing [imghdr2] error
+[2024-04-29 06:23:09] INFO root fetch - processPackages [appmesh]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-29 06:23:09] INFO root fetch - processPackages [tadl]: Downloading https://files.pythonhosted.org/packages/7a/05/007b19ff5e45cf18153633fc17c78e1076a02f0d995aecb21020fec189c9/tadl-0.1.0.tar.gz
+[2024-04-29 06:23:10] INFO root fetch - processPackages [bestdori-api]: Downloading https://files.pythonhosted.org/packages/d5/13/949e4099da6461046c9285a0fe4bde208609aeb39ae8b73ffc49a8fcca66/bestdori-api-1.0.2.tar.gz
+[2024-04-29 06:23:10] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/62/60/bbf837999d4002c84c794654de395691b9ff6718079d46d78078df826544/appmesh-0.8.8-py3-none-any.whl
+[2024-04-29 06:23:10] INFO root fetch - processPackages [tadl]: Downloading https://files.pythonhosted.org/packages/3d/13/6d7f0f872394959b6188b1b95e5fed1a81379155c63ce06188527bf8f2fa/tadl-0.1.1.tar.gz
+[2024-04-29 06:23:10] INFO root fetch - processPackages [bestdori-api]: Downloading https://files.pythonhosted.org/packages/cf/c7/15dfec7ae4a4b135475f156bfcd3c2ee87344fb2ce701422938791378ed5/bestdori-api-1.1.0.tar.gz
+[2024-04-29 06:23:10] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/e2/27/5c39e7ce93fef9d6d349a7359d419ec57e7ea6329c5e4a2f4bfc71b428e4/appmesh-0.8.9-py3-none-any.whl
+[2024-04-29 06:23:10] INFO root fetch - processPackages [tadl]: executing diffoscope
+[2024-04-29 06:23:10] INFO root fetch - processPackages [tadl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tadl-0.1.0.tar.gz tmp/tadl-0.1.1.tar.gz --markdown 20240429/t/tadl/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-29 06:23:10] INFO root fetch - processPackages [bestdori-api]: executing diffoscope
+[2024-04-29 06:23:10] INFO root fetch - processPackages [bestdori-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bestdori-api-1.0.2.tar.gz tmp/bestdori-api-1.1.0.tar.gz --markdown 20240429/b/bestdori-api/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-04-29 06:23:10] INFO root fetch - processPackages [appmesh]: executing diffoscope
+[2024-04-29 06:23:10] INFO root fetch - processPackages [appmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appmesh-0.8.8-py3-none-any.whl.zip tmp/appmesh-0.8.9-py3-none-any.whl.zip --markdown 20240429/a/appmesh/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-29 06:23:11] INFO root fetch - processPackages [tadl]: Remove: archive file [/home/abi/fetcher/tmp/tadl-0.1.0.tar.gz]
+[2024-04-29 06:23:11] INFO root fetch - processPackages [tadl]: Remove: archive file [/home/abi/fetcher/tmp/tadl-0.1.1.tar.gz]
+[2024-04-29 06:23:11] INFO root fetch - main [MainThread]: End processing [tadl]: success
+[2024-04-29 06:23:11] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-0.8.8-py3-none-any.whl.zip]
+[2024-04-29 06:23:11] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-0.8.9-py3-none-any.whl.zip]
+[2024-04-29 06:23:11] INFO root fetch - main [MainThread]: End processing [appmesh]: success
+[2024-04-29 06:23:11] INFO root fetch - processPackages [bestdori-api]: Remove: archive file [/home/abi/fetcher/tmp/bestdori-api-1.0.2.tar.gz]
+[2024-04-29 06:23:11] INFO root fetch - processPackages [bestdori-api]: Remove: archive file [/home/abi/fetcher/tmp/bestdori-api-1.1.0.tar.gz]
+[2024-04-29 06:23:11] INFO root fetch - main [MainThread]: End processing [bestdori-api]: success
+[2024-04-29 06:23:11] INFO root fetch - main [MainThread]: Store serial: [22978613]
