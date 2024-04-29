@@ -7543,3 +7543,33 @@
 [2024-04-29 05:46:08] INFO root fetch - processPackages [LanusStats]: Remove: archive file [/home/abi/fetcher/tmp/LanusStats-1.2.0.tar.gz]
 [2024-04-29 05:46:08] INFO root fetch - main [MainThread]: End processing [LanusStats]: success
 [2024-04-29 05:46:08] INFO root fetch - main [MainThread]: Store serial: [22978441]
+[2024-04-29 05:48:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978441]
+[2024-04-29 05:48:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 05:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: email-profile
+[2024-04-29 05:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-adapter-qq
+[2024-04-29 05:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dataframe-short
+[2024-04-29 05:48:17] INFO root fetch - processPackages [dataframe-short]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-29 05:48:17] INFO root fetch - processPackages [dataframe-short]: Downloading https://files.pythonhosted.org/packages/5c/7b/2b7d0f246355209ac5f06d4666a26d3767dc9e62240023c5feb426bb3cd4/dataframe_short-0.1.1.tar.gz
+[2024-04-29 05:48:17] INFO root fetch - processPackages [nonebot-adapter-qq]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-04-29 05:48:17] INFO root fetch - processPackages [email-profile]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-29 05:48:17] INFO root fetch - processPackages [nonebot-adapter-qq]: Downloading https://files.pythonhosted.org/packages/57/0d/c771c6f9175d6700890761be7702bfcbcc4d50eda342f61b0a65289218b7/nonebot_adapter_qq-1.4.3.tar.gz
+[2024-04-29 05:48:17] INFO root fetch - processPackages [email-profile]: Downloading https://files.pythonhosted.org/packages/87/31/4376cec4c2881c70512aac38ebb89c3246236b22c3f912f3e408c6419bf7/email_profile-0.1.0.tar.gz
+[2024-04-29 05:48:17] INFO root fetch - processPackages [dataframe-short]: Downloading https://files.pythonhosted.org/packages/a3/c1/aa0a42ca8c1f0c089bac1485c98fcf55925d4e89c6407686596939caba93/dataframe_short-0.1.2.tar.gz
+[2024-04-29 05:48:17] INFO root fetch - processPackages [dataframe-short]: executing diffoscope
+[2024-04-29 05:48:17] INFO root fetch - processPackages [dataframe-short]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataframe_short-0.1.1.tar.gz tmp/dataframe_short-0.1.2.tar.gz --markdown 20240429/d/dataframe-short/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-29 05:48:17] INFO root fetch - processPackages [email-profile]: Downloading https://files.pythonhosted.org/packages/b9/7b/e193312ce96017bb7461e6151aa874a5f3d5567ac64a67e93e34d315a379/email_profile-0.2.0.tar.gz
+[2024-04-29 05:48:17] INFO root fetch - processPackages [nonebot-adapter-qq]: Downloading https://files.pythonhosted.org/packages/02/11/64cc913f093dfb45fd261dfc51ac2e2ef431364bfaf35f09204522a0b4d4/nonebot_adapter_qq-1.4.4.tar.gz
+[2024-04-29 05:48:18] INFO root fetch - processPackages [email-profile]: executing diffoscope
+[2024-04-29 05:48:18] INFO root fetch - processPackages [email-profile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/email_profile-0.1.0.tar.gz tmp/email_profile-0.2.0.tar.gz --markdown 20240429/e/email-profile/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-29 05:48:18] INFO root fetch - processPackages [nonebot-adapter-qq]: executing diffoscope
+[2024-04-29 05:48:18] INFO root fetch - processPackages [nonebot-adapter-qq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_qq-1.4.3.tar.gz tmp/nonebot_adapter_qq-1.4.4.tar.gz --markdown 20240429/n/nonebot-adapter-qq/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-04-29 05:48:18] INFO root fetch - processPackages [dataframe-short]: Remove: archive file [/home/abi/fetcher/tmp/dataframe_short-0.1.1.tar.gz]
+[2024-04-29 05:48:18] INFO root fetch - processPackages [dataframe-short]: Remove: archive file [/home/abi/fetcher/tmp/dataframe_short-0.1.2.tar.gz]
+[2024-04-29 05:48:18] INFO root fetch - main [MainThread]: End processing [dataframe-short]: success
+[2024-04-29 05:48:18] INFO root fetch - processPackages [email-profile]: Remove: archive file [/home/abi/fetcher/tmp/email_profile-0.1.0.tar.gz]
+[2024-04-29 05:48:18] INFO root fetch - processPackages [email-profile]: Remove: archive file [/home/abi/fetcher/tmp/email_profile-0.2.0.tar.gz]
+[2024-04-29 05:48:18] INFO root fetch - main [MainThread]: End processing [email-profile]: success
+[2024-04-29 05:48:18] INFO root fetch - processPackages [nonebot-adapter-qq]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_qq-1.4.3.tar.gz]
+[2024-04-29 05:48:18] INFO root fetch - processPackages [nonebot-adapter-qq]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_qq-1.4.4.tar.gz]
+[2024-04-29 05:48:18] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-qq]: success
+[2024-04-29 05:48:18] INFO root fetch - main [MainThread]: Store serial: [22978451]
