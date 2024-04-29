@@ -22926,3 +22926,81 @@ EOFError: EOF read where object expected
 [2024-04-29 16:09:38] INFO root fetch - processPackages [pyodide-mkdocs-theme]: Remove: archive file [/home/abi/fetcher/tmp/pyodide_mkdocs_theme-0.6.1.tar.gz]
 [2024-04-29 16:09:38] INFO root fetch - main [MainThread]: End processing [pyodide-mkdocs-theme]: success
 [2024-04-29 16:09:38] INFO root fetch - main [MainThread]: Store serial: [22985034]
+[2024-04-29 16:11:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22985034]
+[2024-04-29 16:11:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-29 16:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drafter
+[2024-04-29 16:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fyta-cli
+[2024-04-29 16:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: secretvalidate
+[2024-04-29 16:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lightning-extensions
+[2024-04-29 16:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: comet-toolbox
+[2024-04-29 16:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mov-cli
+[2024-04-29 16:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: juxta
+[2024-04-29 16:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdklabs.generative-ai-cdk-constructs
+[2024-04-29 16:11:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: artistools
+[2024-04-29 16:11:47] INFO root fetch - processPackages [lightning-extensions]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-29 16:11:47] INFO root fetch - processPackages [comet-toolbox]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-29 16:11:47] INFO root fetch - processPackages [secretvalidate]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-04-29 16:11:47] INFO root fetch - processPackages [artistools]: New version: [2024.4.29] Old Version: [2024.4.23]
+[2024-04-29 16:11:47] INFO root fetch - processPackages [mov-cli]: New version: [4.3.8] Old Version: [4.3.7]
+[2024-04-29 16:11:47] INFO root fetch - processPackages [lightning-extensions]: Downloading https://files.pythonhosted.org/packages/63/2a/b1916875fdd39708d5076a7f97e208020cc9415f6368941fe8686dc5e63e/lightning_extensions-0.0.7.tar.gz
+[2024-04-29 16:11:47] WARNING root fetch - processPackages [juxta]: Skipping, unable to determine old version
+[2024-04-29 16:11:47] INFO root fetch - main [MainThread]: End processing [juxta] error
+[2024-04-29 16:11:47] INFO root fetch - processPackages [drafter]: New version: [1.1.0] Old Version: [1.0.5]
+[2024-04-29 16:11:47] INFO root fetch - processPackages [fyta-cli]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-29 16:11:47] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/2a/74/f1fedcd5b126c4af0184fc7bc616c4941f414eb51cc2fc523514708f3cae/secretvalidate-0.0.1a8.tar.gz
+[2024-04-29 16:11:47] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-29 16:11:47] INFO root fetch - processPackages [comet-toolbox]: Downloading https://files.pythonhosted.org/packages/bd/ae/aba44c122d6478cf694160a11749422e4b60768a6f240498e80b7ccff56a/comet_toolbox-0.3.5.tar.gz
+[2024-04-29 16:11:47] INFO root fetch - processPackages [artistools]: Downloading https://files.pythonhosted.org/packages/fd/67/0d71d9385e2ed6943f27d5174c930d3203008f93375d2af76f2922d060e7/artistools-2024.4.23.tar.gz
+[2024-04-29 16:11:47] INFO root fetch - processPackages [lightning-extensions]: Downloading https://files.pythonhosted.org/packages/ec/19/979424f82665c27e0f4ade9d3c49a019d99654d0ac1df85e12134cb8fb8f/lightning_extensions-0.0.9.tar.gz
+[2024-04-29 16:11:47] INFO root fetch - processPackages [drafter]: Downloading https://files.pythonhosted.org/packages/15/57/db570466ce8d9455c909d74794dfda7cb508d120b1a4ba55935d4a206349/drafter-1.0.5.tar.gz
+[2024-04-29 16:11:47] INFO root fetch - processPackages [mov-cli]: Downloading https://files.pythonhosted.org/packages/ee/8e/ec1c958f335342e563bb069ad5143f81f4ae8c25d7b616e3b89a55a2a20a/mov_cli-4.3.7.tar.gz
+[2024-04-29 16:11:48] INFO root fetch - processPackages [fyta-cli]: Downloading https://files.pythonhosted.org/packages/f5/73/455fa9d986507f5c4df372b68dd74a5d2401534d157f291dd37da9e3b76a/fyta_cli-0.4.0.tar.gz
+[2024-04-29 16:11:48] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/57/86/54b1f11aebe768d2014fd8f4bb1e90e29a764014e1104c5ccf64e6433d48/secretvalidate-0.0.1a9.tar.gz
+[2024-04-29 16:11:48] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/79/87/07cb65a8c0c2fc2875a184fdc369cb5cae8af38496f859dbedf1593cf94a/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz
+[2024-04-29 16:11:48] INFO root fetch - processPackages [lightning-extensions]: executing diffoscope
+[2024-04-29 16:11:48] INFO root fetch - processPackages [lightning-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning_extensions-0.0.7.tar.gz tmp/lightning_extensions-0.0.9.tar.gz --markdown 20240429/l/lightning-extensions/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-04-29 16:11:48] INFO root fetch - processPackages [secretvalidate]: executing diffoscope
+[2024-04-29 16:11:48] INFO root fetch - processPackages [secretvalidate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretvalidate-0.0.1a8.tar.gz tmp/secretvalidate-0.0.1a9.tar.gz --markdown 20240429/s/secretvalidate/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-04-29 16:11:48] INFO root fetch - processPackages [comet-toolbox]: Downloading https://files.pythonhosted.org/packages/92/25/565ccca09ae4d1554db2046b706192b2d0ea2b467164234085057a5d9827/comet_toolbox-0.3.6.tar.gz
+[2024-04-29 16:11:48] INFO root fetch - processPackages [drafter]: Downloading https://files.pythonhosted.org/packages/ee/dc/7022d39529efb2cd4b6f231c2c100d37e398189c0e0c3ff71b6daf4f873a/drafter-1.1.0.tar.gz
+[2024-04-29 16:11:48] INFO root fetch - processPackages [fyta-cli]: Downloading https://files.pythonhosted.org/packages/95/13/cfbdaec26db07f963b349ced24da384e6a1da0323432cd25abad94adebb2/fyta_cli-0.4.1.tar.gz
+[2024-04-29 16:11:48] INFO root fetch - processPackages [mov-cli]: Downloading https://files.pythonhosted.org/packages/4d/1d/c33f4d15d63a1d641c0fbb9a17ed5214425655ba4a90ab9c4fbdcdda2b74/mov_cli-4.3.8.tar.gz
+[2024-04-29 16:11:48] INFO root fetch - processPackages [artistools]: Downloading https://files.pythonhosted.org/packages/1e/36/fb7196d2fd574fd6663cba65d64bde4185820c2ac7636b09643b00145786/artistools-2024.4.29.tar.gz
+[2024-04-29 16:11:48] INFO root fetch - processPackages [drafter]: executing diffoscope
+[2024-04-29 16:11:48] INFO root fetch - processPackages [drafter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drafter-1.0.5.tar.gz tmp/drafter-1.1.0.tar.gz --markdown 20240429/d/drafter/1.0.5-1.1.0/README.md --exclude *.pyd
+[2024-04-29 16:11:48] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/b1/3f/bb620aad2e3c9827bbd2a2a36dc64be1b0084b319f0f120e13690f4f1f17/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz
+[2024-04-29 16:11:48] INFO root fetch - processPackages [fyta-cli]: executing diffoscope
+[2024-04-29 16:11:48] INFO root fetch - processPackages [fyta-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyta_cli-0.4.0.tar.gz tmp/fyta_cli-0.4.1.tar.gz --markdown 20240429/f/fyta-cli/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-29 16:11:48] INFO root fetch - processPackages [mov-cli]: executing diffoscope
+[2024-04-29 16:11:48] INFO root fetch - processPackages [mov-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mov_cli-4.3.7.tar.gz tmp/mov_cli-4.3.8.tar.gz --markdown 20240429/m/mov-cli/4.3.7-4.3.8/README.md --exclude *.pyd
+[2024-04-29 16:11:48] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: executing diffoscope
+[2024-04-29 16:11:48] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz --markdown 20240429/c/cdklabs.generative-ai-cdk-constructs/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-29 16:11:48] INFO root fetch - processPackages [comet-toolbox]: executing diffoscope
+[2024-04-29 16:11:48] INFO root fetch - processPackages [comet-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comet_toolbox-0.3.5.tar.gz tmp/comet_toolbox-0.3.6.tar.gz --markdown 20240429/c/comet-toolbox/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-04-29 16:11:48] INFO root fetch - processPackages [artistools]: executing diffoscope
+[2024-04-29 16:11:48] INFO root fetch - processPackages [artistools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artistools-2024.4.23.tar.gz tmp/artistools-2024.4.29.tar.gz --markdown 20240429/a/artistools/2024.4.23-2024.4.29/README.md --exclude *.pyd
+[2024-04-29 16:11:49] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a8.tar.gz]
+[2024-04-29 16:11:49] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a9.tar.gz]
+[2024-04-29 16:11:49] INFO root fetch - main [MainThread]: End processing [secretvalidate]: success
+[2024-04-29 16:11:49] INFO root fetch - processPackages [lightning-extensions]: Remove: archive file [/home/abi/fetcher/tmp/lightning_extensions-0.0.7.tar.gz]
+[2024-04-29 16:11:49] INFO root fetch - processPackages [lightning-extensions]: Remove: archive file [/home/abi/fetcher/tmp/lightning_extensions-0.0.9.tar.gz]
+[2024-04-29 16:11:49] INFO root fetch - main [MainThread]: End processing [lightning-extensions]: success
+[2024-04-29 16:11:49] INFO root fetch - processPackages [drafter]: Remove: archive file [/home/abi/fetcher/tmp/drafter-1.0.5.tar.gz]
+[2024-04-29 16:11:49] INFO root fetch - processPackages [drafter]: Remove: archive file [/home/abi/fetcher/tmp/drafter-1.1.0.tar.gz]
+[2024-04-29 16:11:49] INFO root fetch - main [MainThread]: End processing [drafter]: success
+[2024-04-29 16:11:49] INFO root fetch - processPackages [fyta-cli]: Remove: archive file [/home/abi/fetcher/tmp/fyta_cli-0.4.0.tar.gz]
+[2024-04-29 16:11:49] INFO root fetch - processPackages [fyta-cli]: Remove: archive file [/home/abi/fetcher/tmp/fyta_cli-0.4.1.tar.gz]
+[2024-04-29 16:11:49] INFO root fetch - main [MainThread]: End processing [fyta-cli]: success
+[2024-04-29 16:11:49] INFO root fetch - processPackages [mov-cli]: Remove: archive file [/home/abi/fetcher/tmp/mov_cli-4.3.7.tar.gz]
+[2024-04-29 16:11:49] INFO root fetch - processPackages [mov-cli]: Remove: archive file [/home/abi/fetcher/tmp/mov_cli-4.3.8.tar.gz]
+[2024-04-29 16:11:49] INFO root fetch - main [MainThread]: End processing [mov-cli]: success
+[2024-04-29 16:11:50] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz]
+[2024-04-29 16:11:50] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz]
+[2024-04-29 16:11:50] INFO root fetch - main [MainThread]: End processing [cdklabs.generative-ai-cdk-constructs]: success
+[2024-04-29 16:11:51] INFO root fetch - processPackages [comet-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/comet_toolbox-0.3.5.tar.gz]
+[2024-04-29 16:11:51] INFO root fetch - processPackages [comet-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/comet_toolbox-0.3.6.tar.gz]
+[2024-04-29 16:11:51] INFO root fetch - main [MainThread]: End processing [comet-toolbox]: success
+[2024-04-29 16:11:51] INFO root fetch - processPackages [artistools]: Remove: archive file [/home/abi/fetcher/tmp/artistools-2024.4.23.tar.gz]
+[2024-04-29 16:11:51] INFO root fetch - processPackages [artistools]: Remove: archive file [/home/abi/fetcher/tmp/artistools-2024.4.29.tar.gz]
+[2024-04-29 16:11:51] INFO root fetch - main [MainThread]: End processing [artistools]: success
+[2024-04-29 16:11:51] INFO root fetch - main [MainThread]: Store serial: [22985074]
