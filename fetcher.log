@@ -13934,3 +13934,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 11:32:53] INFO root fetch - processPackages [lakeapi2sql]: Remove: archive file [/home/abi/fetcher/tmp/lakeapi2sql-0.8.3.tar.gz]
 [2024-04-29 11:32:53] INFO root fetch - main [MainThread]: End processing [lakeapi2sql]: success
 [2024-04-29 11:32:53] INFO root fetch - main [MainThread]: Store serial: [22981434]
+[2024-04-29 11:34:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22981434]
+[2024-04-29 11:35:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-29 11:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: misspy
+[2024-04-29 11:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: socket.d
+[2024-04-29 11:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpiodevice
+[2024-04-29 11:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mpltoolbox
+[2024-04-29 11:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tracebloc-package-dev
+[2024-04-29 11:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hsml
+[2024-04-29 11:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ansys-optislang-core
+[2024-04-29 11:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iso-week-date
+[2024-04-29 11:35:02] INFO root fetch - processPackages [misspy]: New version: [2024.4.0] Old Version: [2023.9.17rc1]
+[2024-04-29 11:35:02] INFO root fetch - processPackages [hsml]: New version: [3.7.0rc0] Old Version: [3.7.0]
+[2024-04-29 11:35:02] INFO root fetch - processPackages [socket.d]: New version: [2.4.13.1] Old Version: [2.4.13]
+[2024-04-29 11:35:02] INFO root fetch - processPackages [mpltoolbox]: New version: [24.4.0] Old Version: [23.9.0]
+[2024-04-29 11:35:02] INFO root fetch - processPackages [gpiodevice]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-29 11:35:02] INFO root fetch - processPackages [misspy]: Downloading https://files.pythonhosted.org/packages/14/3d/68ea314f54962cecde87a49916b4fcaf6ecddfd21f9ed4a909082f20af70/misspy-2023.9.17rc1.tar.gz
+[2024-04-29 11:35:02] INFO root fetch - processPackages [iso-week-date]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-29 11:35:02] INFO root fetch - processPackages [tracebloc-package-dev]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-29 11:35:02] INFO root fetch - processPackages [ansys-optislang-core]: New version: [0.7.0] Old Version: [0.6.3]
+[2024-04-29 11:35:02] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/5b/ec/6cf89506934e4ea6436e7a3c6f02c8f9d1f44954e80b5317a12160b9ade2/socket.d-2.4.13.tar.gz
+[2024-04-29 11:35:02] INFO root fetch - processPackages [hsml]: Downloading https://files.pythonhosted.org/packages/ae/54/cc97e26cd0167cd9c57146e48affdcd6c30074aae1afc943535d31865b85/hsml-3.7.0.tar.gz
+[2024-04-29 11:35:02] INFO root fetch - processPackages [mpltoolbox]: Downloading https://files.pythonhosted.org/packages/52/00/f2616c2bd5baf15dd981bbf4755b3f9a9a4388259283587461b214694930/mpltoolbox-23.9.0.tar.gz
+[2024-04-29 11:35:02] INFO root fetch - processPackages [gpiodevice]: Downloading https://files.pythonhosted.org/packages/8f/ae/9bc893556b422bea5286b59aa2bbf028f8b0bc1d36e4159d7debea9d9618/gpiodevice-0.0.4.tar.gz
+[2024-04-29 11:35:02] INFO root fetch - processPackages [iso-week-date]: Downloading https://files.pythonhosted.org/packages/f2/8e/28976ad79947cf38393eeaf2f66e73dab1a400026f45c9420396cb969f16/iso_week_date-1.1.0.tar.gz
+[2024-04-29 11:35:02] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/f5/c8/13a696d72bb172c25134ff8497e2a33abae28952aaf6027b69f19e6020ba/tracebloc_package-dev-0.5.8.tar.gz
+[2024-04-29 11:35:02] INFO root fetch - processPackages [ansys-optislang-core]: Downloading https://files.pythonhosted.org/packages/17/61/3d013842fbd82f6c25710c8c754d3979b889ff9605758120b6f173e4e90c/ansys_optislang_core-0.6.3.tar.gz
+[2024-04-29 11:35:02] INFO root fetch - processPackages [misspy]: Downloading https://files.pythonhosted.org/packages/3a/c2/d7dee71d32b812540951324550975bae88af7e91c33015d2116a48c27b78/misspy-2024.4.0.tar.gz
+[2024-04-29 11:35:02] INFO root fetch - processPackages [hsml]: Downloading https://files.pythonhosted.org/packages/12/15/255b5abe3ab43fe5208398f841b98b3ec34e3986682092f0847ed81205ef/hsml-3.7.0rc0.tar.gz
+[2024-04-29 11:35:02] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/46/74/290e48a74fdd39584867e2846383bac693c8a5f3d2ccb62c7a7ccd86adb6/socket.d-2.4.13.1.tar.gz
+[2024-04-29 11:35:02] INFO root fetch - processPackages [misspy]: executing diffoscope
+[2024-04-29 11:35:02] INFO root fetch - processPackages [misspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misspy-2023.9.17rc1.tar.gz tmp/misspy-2024.4.0.tar.gz --markdown 20240429/m/misspy/2023.9.17rc1-2024.4.0/README.md --exclude *.pyd
+[2024-04-29 11:35:02] INFO root fetch - processPackages [hsml]: executing diffoscope
+[2024-04-29 11:35:02] INFO root fetch - processPackages [hsml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsml-3.7.0.tar.gz tmp/hsml-3.7.0rc0.tar.gz --markdown 20240429/h/hsml/3.7.0-3.7.0rc0/README.md --exclude *.pyd
+[2024-04-29 11:35:02] INFO root fetch - processPackages [mpltoolbox]: Downloading https://files.pythonhosted.org/packages/5b/a2/e12fad3a78b526ac9b06ad317db633e7bac6828cdcc81ef632a09fe110a3/mpltoolbox-24.4.0.tar.gz
+[2024-04-29 11:35:02] INFO root fetch - processPackages [socket.d]: executing diffoscope
+[2024-04-29 11:35:02] INFO root fetch - processPackages [socket.d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socket.d-2.4.13.tar.gz tmp/socket.d-2.4.13.1.tar.gz --markdown 20240429/s/socket.d/2.4.13-2.4.13.1/README.md --exclude *.pyd
+[2024-04-29 11:35:02] INFO root fetch - processPackages [gpiodevice]: Downloading https://files.pythonhosted.org/packages/bf/4f/c1b1266953cfcd0708e2a4376696e42b69bc5fe3559a66e2eb71501ac072/gpiodevice-0.0.5.tar.gz
+[2024-04-29 11:35:02] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/29/74/ba081cbca75b4aef7de5e023ed946f224d93c52d8874131c97fc1c3a2682/tracebloc_package-dev-0.5.9.tar.gz
+[2024-04-29 11:35:02] INFO root fetch - processPackages [iso-week-date]: Downloading https://files.pythonhosted.org/packages/ca/c1/92760e7feb81d443b4f935e419ee37260ad5efc850e4b87beb16db7f3d6a/iso_week_date-1.2.0.tar.gz
+[2024-04-29 11:35:03] INFO root fetch - processPackages [mpltoolbox]: executing diffoscope
+[2024-04-29 11:35:03] INFO root fetch - processPackages [mpltoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpltoolbox-23.9.0.tar.gz tmp/mpltoolbox-24.4.0.tar.gz --markdown 20240429/m/mpltoolbox/23.9.0-24.4.0/README.md --exclude *.pyd
+[2024-04-29 11:35:03] INFO root fetch - processPackages [gpiodevice]: executing diffoscope
+[2024-04-29 11:35:03] INFO root fetch - processPackages [ansys-optislang-core]: Downloading https://files.pythonhosted.org/packages/de/60/70c8ac3ccbc03cee3418445174ff8165be2c68e1fb0e0b541a6ff09a182b/ansys_optislang_core-0.7.0.tar.gz
+[2024-04-29 11:35:03] INFO root fetch - processPackages [gpiodevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpiodevice-0.0.4.tar.gz tmp/gpiodevice-0.0.5.tar.gz --markdown 20240429/g/gpiodevice/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-29 11:35:03] INFO root fetch - processPackages [tracebloc-package-dev]: executing diffoscope
+[2024-04-29 11:35:03] INFO root fetch - processPackages [tracebloc-package-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-dev-0.5.8.tar.gz tmp/tracebloc_package-dev-0.5.9.tar.gz --markdown 20240429/t/tracebloc-package-dev/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-29 11:35:03] INFO root fetch - processPackages [iso-week-date]: executing diffoscope
+[2024-04-29 11:35:03] INFO root fetch - processPackages [iso-week-date]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iso_week_date-1.1.0.tar.gz tmp/iso_week_date-1.2.0.tar.gz --markdown 20240429/i/iso-week-date/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-29 11:35:03] INFO root fetch - processPackages [ansys-optislang-core]: executing diffoscope
+[2024-04-29 11:35:03] INFO root fetch - processPackages [ansys-optislang-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_optislang_core-0.6.3.tar.gz tmp/ansys_optislang_core-0.7.0.tar.gz --markdown 20240429/a/ansys-optislang-core/0.6.3-0.7.0/README.md --exclude *.pyd
+[2024-04-29 11:35:03] INFO root fetch - processPackages [misspy]: Remove: archive file [/home/abi/fetcher/tmp/misspy-2023.9.17rc1.tar.gz]
+[2024-04-29 11:35:03] INFO root fetch - processPackages [misspy]: Remove: archive file [/home/abi/fetcher/tmp/misspy-2024.4.0.tar.gz]
+[2024-04-29 11:35:03] INFO root fetch - main [MainThread]: End processing [misspy]: success
+[2024-04-29 11:35:03] INFO root fetch - processPackages [gpiodevice]: Remove: archive file [/home/abi/fetcher/tmp/gpiodevice-0.0.4.tar.gz]
+[2024-04-29 11:35:03] INFO root fetch - processPackages [gpiodevice]: Remove: archive file [/home/abi/fetcher/tmp/gpiodevice-0.0.5.tar.gz]
+[2024-04-29 11:35:03] INFO root fetch - main [MainThread]: End processing [gpiodevice]: success
+[2024-04-29 11:35:04] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.8.tar.gz]
+[2024-04-29 11:35:04] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.9.tar.gz]
+[2024-04-29 11:35:04] INFO root fetch - main [MainThread]: End processing [tracebloc-package-dev]: success
+[2024-04-29 11:35:04] INFO root fetch - processPackages [mpltoolbox]: Remove: archive file [/home/abi/fetcher/tmp/mpltoolbox-23.9.0.tar.gz]
+[2024-04-29 11:35:04] INFO root fetch - processPackages [mpltoolbox]: Remove: archive file [/home/abi/fetcher/tmp/mpltoolbox-24.4.0.tar.gz]
+[2024-04-29 11:35:04] INFO root fetch - main [MainThread]: End processing [mpltoolbox]: success
+[2024-04-29 11:35:04] INFO root fetch - processPackages [hsml]: Remove: archive file [/home/abi/fetcher/tmp/hsml-3.7.0.tar.gz]
+[2024-04-29 11:35:04] INFO root fetch - processPackages [hsml]: Remove: archive file [/home/abi/fetcher/tmp/hsml-3.7.0rc0.tar.gz]
+[2024-04-29 11:35:04] INFO root fetch - main [MainThread]: End processing [hsml]: success
+[2024-04-29 11:35:04] INFO root fetch - processPackages [iso-week-date]: Remove: archive file [/home/abi/fetcher/tmp/iso_week_date-1.1.0.tar.gz]
+[2024-04-29 11:35:04] INFO root fetch - processPackages [iso-week-date]: Remove: archive file [/home/abi/fetcher/tmp/iso_week_date-1.2.0.tar.gz]
+[2024-04-29 11:35:04] INFO root fetch - main [MainThread]: End processing [iso-week-date]: success
+[2024-04-29 11:35:04] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.13.tar.gz]
+[2024-04-29 11:35:04] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.13.1.tar.gz]
+[2024-04-29 11:35:04] INFO root fetch - main [MainThread]: End processing [socket.d]: success
+[2024-04-29 11:35:04] INFO root fetch - processPackages [ansys-optislang-core]: Remove: archive file [/home/abi/fetcher/tmp/ansys_optislang_core-0.6.3.tar.gz]
+[2024-04-29 11:35:04] INFO root fetch - processPackages [ansys-optislang-core]: Remove: archive file [/home/abi/fetcher/tmp/ansys_optislang_core-0.7.0.tar.gz]
+[2024-04-29 11:35:04] INFO root fetch - main [MainThread]: End processing [ansys-optislang-core]: success
+[2024-04-29 11:35:04] INFO root fetch - main [MainThread]: Store serial: [22981463]
