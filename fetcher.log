@@ -12042,3 +12042,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 10:17:22] INFO root fetch - processPackages [esphome-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/esphome_dashboard-20240429.1.tar.gz]
 [2024-04-29 10:17:22] INFO root fetch - main [MainThread]: End processing [esphome-dashboard]: success
 [2024-04-29 10:17:22] INFO root fetch - main [MainThread]: Store serial: [22980480]
+[2024-04-29 10:19:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980480]
+[2024-04-29 10:19:32] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-29 10:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jackdyeruktaxcalculator
+[2024-04-29 10:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloud-pak-operations-cli
+[2024-04-29 10:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: setuptools-ext
+[2024-04-29 10:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: colrev
+[2024-04-29 10:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlfluff-common-conventions
+[2024-04-29 10:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypaperless
+[2024-04-29 10:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: epimodel-sensitivity-test
+[2024-04-29 10:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: atomic-bomb-engine
+[2024-04-29 10:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: magentic
+[2024-04-29 10:19:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: py2docfx
+[2024-04-29 10:19:32] INFO root fetch - processPackages [setuptools-ext]: New version: [0.7] Old Version: [0.6]
+[2024-04-29 10:19:32] INFO root fetch - processPackages [epimodel-sensitivity-test]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-29 10:19:32] INFO root fetch - processPackages [sqlfluff-common-conventions]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-29 10:19:32] INFO root fetch - processPackages [jackdyeruktaxcalculator]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-29 10:19:32] INFO root fetch - processPackages [pypaperless]: New version: [3.1.3] Old Version: [3.1.2]
+[2024-04-29 10:19:32] INFO root fetch - processPackages [colrev]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-29 10:19:32] INFO root fetch - processPackages [cloud-pak-operations-cli]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-29 10:19:32] INFO root fetch - processPackages [setuptools-ext]: Downloading https://files.pythonhosted.org/packages/32/71/d8103333b7f10d42ea86972c645738d6e9ac35468bbc0e16016ae56aefb8/setuptools_ext-0.6.tar.gz
+[2024-04-29 10:19:32] INFO root fetch - processPackages [magentic]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-29 10:19:32] INFO root fetch - processPackages [sqlfluff-common-conventions]: Downloading https://files.pythonhosted.org/packages/b0/dd/fa9d757dd612deac94379a2dd6dc9a3dceb80963cabc8115a839089492f5/sqlfluff_common_conventions-0.0.1.tar.gz
+[2024-04-29 10:19:32] INFO root fetch - processPackages [epimodel-sensitivity-test]: Downloading https://files.pythonhosted.org/packages/ef/70/46e96cfde464f9f86a4509cc2a3fb00c795a907052a5e3f5b5f580499fa2/epimodel_sensitivity_test-0.1.4.tar.gz
+[2024-04-29 10:19:32] INFO root fetch - processPackages [py2docfx]: New version: [0.1.5rc1710519] Old Version: [0.1.5rc1707386]
+[2024-04-29 10:19:32] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-29 10:19:32] INFO root fetch - processPackages [jackdyeruktaxcalculator]: Downloading https://files.pythonhosted.org/packages/7e/32/903d1fe2f6c0f0e2a57dff28a3b9b0a81c6363c5aa5c2e62156ff9ba4332/jackdyeruktaxcalculator-0.0.4.tar.gz
+[2024-04-29 10:19:32] INFO root fetch - processPackages [pypaperless]: Downloading https://files.pythonhosted.org/packages/ab/93/6eccc504ffb32501f21e7ab56c1e945f1ef1ec0a5c0f72f4fa470a0e29a5/pypaperless-3.1.2.tar.gz
+[2024-04-29 10:19:32] INFO root fetch - processPackages [colrev]: Downloading https://files.pythonhosted.org/packages/a8/c6/595f1328252ea9db9ea96e15e6dca49efe68070a7ddac0c823ff5b2c330f/colrev-0.9.2.tar.gz
+[2024-04-29 10:19:32] INFO root fetch - processPackages [cloud-pak-operations-cli]: Downloading https://files.pythonhosted.org/packages/28/8d/1e4e599f41c8516d8b130944ce2a70966ab310eae9169a2e1e31bfac5c5f/cloud-pak-operations-cli-0.7.1.tar.gz
+[2024-04-29 10:19:32] INFO root fetch - processPackages [magentic]: Downloading https://files.pythonhosted.org/packages/b1/4c/c92b3a38ac6e6e9e2715083d4b0cd75ceb0e3bcbd7f805d25522283b4708/magentic-0.9.0.tar.gz
+[2024-04-29 10:19:32] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/94/0e/7a3ae0365a9d9fd2e1a1d159500f1621e2e834eb5cf96e26622ce4ce89ea/py2docfx-0.1.5rc1707386-py3-none-any.whl
+[2024-04-29 10:19:32] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-04-29 10:19:32] INFO root fetch - processPackages [setuptools-ext]: Downloading https://files.pythonhosted.org/packages/5e/46/490e64f9d05ac5d6eb21978fc2520cd8b5731756c8569cac3a723d83c9f0/setuptools_ext-0.7.tar.gz
+[2024-04-29 10:19:32] INFO root fetch - processPackages [sqlfluff-common-conventions]: Downloading https://files.pythonhosted.org/packages/0e/a3/d5e60ba2d595ff8476cfea619e21367a6628a914de2e45004a80039c4a5e/sqlfluff_common_conventions-0.1.0.tar.gz
+[2024-04-29 10:19:32] INFO root fetch - processPackages [jackdyeruktaxcalculator]: Downloading https://files.pythonhosted.org/packages/10/9f/1bdeb8209c8b8a41348e75972e16fd1693b387690de713dfff9831e06e57/jackdyeruktaxcalculator-0.0.5.tar.gz
+[2024-04-29 10:19:32] INFO root fetch - processPackages [epimodel-sensitivity-test]: Downloading https://files.pythonhosted.org/packages/39/15/2bbd3317a8c1d79e582171b9aa7ab20eee4a183ea3854028e5f2409f0206/epimodel_sensitivity_test-0.1.5.tar.gz
+[2024-04-29 10:19:32] INFO root fetch - processPackages [setuptools-ext]: executing diffoscope
+[2024-04-29 10:19:32] INFO root fetch - processPackages [setuptools-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setuptools_ext-0.6.tar.gz tmp/setuptools_ext-0.7.tar.gz --markdown 20240429/s/setuptools-ext/0.6-0.7/README.md --exclude *.pyd
+[2024-04-29 10:19:33] INFO root fetch - processPackages [sqlfluff-common-conventions]: executing diffoscope
+[2024-04-29 10:19:33] INFO root fetch - processPackages [sqlfluff-common-conventions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlfluff_common_conventions-0.0.1.tar.gz tmp/sqlfluff_common_conventions-0.1.0.tar.gz --markdown 20240429/s/sqlfluff-common-conventions/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-04-29 10:19:33] INFO root fetch - processPackages [jackdyeruktaxcalculator]: executing diffoscope
+[2024-04-29 10:19:33] INFO root fetch - processPackages [jackdyeruktaxcalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jackdyeruktaxcalculator-0.0.4.tar.gz tmp/jackdyeruktaxcalculator-0.0.5.tar.gz --markdown 20240429/j/jackdyeruktaxcalculator/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-29 10:19:33] INFO root fetch - processPackages [pypaperless]: Downloading https://files.pythonhosted.org/packages/5e/ce/c6d271e20c857cf40ee26bc3a3b6806efba583970a319e53373ee6384d78/pypaperless-3.1.3.tar.gz
+[2024-04-29 10:19:33] INFO root fetch - processPackages [epimodel-sensitivity-test]: executing diffoscope
+[2024-04-29 10:19:33] INFO root fetch - processPackages [epimodel-sensitivity-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epimodel_sensitivity_test-0.1.4.tar.gz tmp/epimodel_sensitivity_test-0.1.5.tar.gz --markdown 20240429/e/epimodel-sensitivity-test/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-29 10:19:33] INFO root fetch - processPackages [cloud-pak-operations-cli]: Downloading https://files.pythonhosted.org/packages/7e/e2/f3361999811a007c6f1472fbbe8a817eaa0465b3c58a248eaa8256d4867f/cloud_pak_operations_cli-0.7.2.tar.gz
+[2024-04-29 10:19:33] INFO root fetch - processPackages [magentic]: Downloading https://files.pythonhosted.org/packages/14/4d/5c6c2464c5abac2cf0a83ac11e48dd90edf9b6d646f6825ce23b0bfe99bf/magentic-0.9.1.tar.gz
+[2024-04-29 10:19:33] INFO root fetch - processPackages [colrev]: Downloading https://files.pythonhosted.org/packages/fa/e0/caa7656ff33aadc8b929375817416a84eaae7169ba9deeca4ff4151394da/colrev-0.9.3.tar.gz
+[2024-04-29 10:19:33] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/9d/e7/fc64a3d25616a1da34c00b8fcd0d259b84e477e7ae978b1df279c511d716/py2docfx-0.1.5rc1710519-py3-none-any.whl
+[2024-04-29 10:19:33] INFO root fetch - processPackages [pypaperless]: executing diffoscope
+[2024-04-29 10:19:33] INFO root fetch - processPackages [pypaperless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypaperless-3.1.2.tar.gz tmp/pypaperless-3.1.3.tar.gz --markdown 20240429/p/pypaperless/3.1.2-3.1.3/README.md --exclude *.pyd
+[2024-04-29 10:19:33] INFO root fetch - processPackages [cloud-pak-operations-cli]: executing diffoscope
+[2024-04-29 10:19:33] INFO root fetch - processPackages [cloud-pak-operations-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-pak-operations-cli-0.7.1.tar.gz tmp/cloud_pak_operations_cli-0.7.2.tar.gz --markdown 20240429/c/cloud-pak-operations-cli/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-04-29 10:19:33] INFO root fetch - processPackages [magentic]: executing diffoscope
+[2024-04-29 10:19:33] INFO root fetch - processPackages [magentic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magentic-0.9.0.tar.gz tmp/magentic-0.9.1.tar.gz --markdown 20240429/m/magentic/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-29 10:19:33] INFO root fetch - processPackages [colrev]: executing diffoscope
+[2024-04-29 10:19:33] INFO root fetch - processPackages [colrev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colrev-0.9.2.tar.gz tmp/colrev-0.9.3.tar.gz --markdown 20240429/c/colrev/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-29 10:19:33] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-04-29 10:19:33] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.5rc1707386-py3-none-any.whl.zip tmp/py2docfx-0.1.5rc1710519-py3-none-any.whl.zip --markdown 20240429/p/py2docfx/0.1.5rc1707386-0.1.5rc1710519/README.md --exclude *.pyd
+[2024-04-29 10:19:33] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-04-29 10:19:33] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-04-29 10:19:33] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240429/a/atomic-bomb-engine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-29 10:19:33] INFO root fetch - processPackages [setuptools-ext]: Remove: archive file [/home/abi/fetcher/tmp/setuptools_ext-0.6.tar.gz]
+[2024-04-29 10:19:33] INFO root fetch - processPackages [setuptools-ext]: Remove: archive file [/home/abi/fetcher/tmp/setuptools_ext-0.7.tar.gz]
+[2024-04-29 10:19:33] INFO root fetch - processPackages [setuptools-ext]: Start processing: WSAT
+[2024-04-29 10:19:33] INFO root fetch - main [MainThread]: End processing [setuptools-ext]: success
+[2024-04-29 10:19:33] INFO root fetch - processPackages [sqlfluff-common-conventions]: Remove: archive file [/home/abi/fetcher/tmp/sqlfluff_common_conventions-0.0.1.tar.gz]
+[2024-04-29 10:19:33] INFO root fetch - processPackages [sqlfluff-common-conventions]: Remove: archive file [/home/abi/fetcher/tmp/sqlfluff_common_conventions-0.1.0.tar.gz]
+[2024-04-29 10:19:33] INFO root fetch - main [MainThread]: End processing [sqlfluff-common-conventions]: success
+[2024-04-29 10:19:33] INFO root fetch - processPackages [jackdyeruktaxcalculator]: Remove: archive file [/home/abi/fetcher/tmp/jackdyeruktaxcalculator-0.0.4.tar.gz]
+[2024-04-29 10:19:33] INFO root fetch - processPackages [jackdyeruktaxcalculator]: Remove: archive file [/home/abi/fetcher/tmp/jackdyeruktaxcalculator-0.0.5.tar.gz]
+[2024-04-29 10:19:33] INFO root fetch - main [MainThread]: End processing [jackdyeruktaxcalculator]: success
+[2024-04-29 10:19:33] INFO root fetch - processPackages [WSAT]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-29 10:19:34] INFO root fetch - processPackages [epimodel-sensitivity-test]: Remove: archive file [/home/abi/fetcher/tmp/epimodel_sensitivity_test-0.1.4.tar.gz]
+[2024-04-29 10:19:34] INFO root fetch - processPackages [epimodel-sensitivity-test]: Remove: archive file [/home/abi/fetcher/tmp/epimodel_sensitivity_test-0.1.5.tar.gz]
+[2024-04-29 10:19:34] INFO root fetch - main [MainThread]: End processing [epimodel-sensitivity-test]: success
+[2024-04-29 10:19:34] INFO root fetch - processPackages [WSAT]: Downloading https://files.pythonhosted.org/packages/d7/90/fa6fda8403129f8b97aa8384b16238a11cf7e486ae899e21b086d7b1f529/wsat-0.1.1.tar.gz
+[2024-04-29 10:19:34] INFO root fetch - processPackages [pypaperless]: Remove: archive file [/home/abi/fetcher/tmp/pypaperless-3.1.2.tar.gz]
+[2024-04-29 10:19:34] INFO root fetch - processPackages [pypaperless]: Remove: archive file [/home/abi/fetcher/tmp/pypaperless-3.1.3.tar.gz]
+[2024-04-29 10:19:34] INFO root fetch - main [MainThread]: End processing [pypaperless]: success
+[2024-04-29 10:19:34] INFO root fetch - processPackages [magentic]: Remove: archive file [/home/abi/fetcher/tmp/magentic-0.9.0.tar.gz]
+[2024-04-29 10:19:34] INFO root fetch - processPackages [magentic]: Remove: archive file [/home/abi/fetcher/tmp/magentic-0.9.1.tar.gz]
+[2024-04-29 10:19:34] INFO root fetch - main [MainThread]: End processing [magentic]: success
+[2024-04-29 10:19:34] INFO root fetch - processPackages [WSAT]: Downloading https://files.pythonhosted.org/packages/3c/5b/1f737504bcf2766d37742a833a0737d60959fb760b009e1af1adc549d6b9/wsat-0.1.2.tar.gz
+[2024-04-29 10:19:34] INFO root fetch - processPackages [WSAT]: executing diffoscope
+[2024-04-29 10:19:34] INFO root fetch - processPackages [WSAT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wsat-0.1.1.tar.gz tmp/wsat-0.1.2.tar.gz --markdown 20240429/W/WSAT/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-29 10:19:34] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.5rc1707386-py3-none-any.whl.zip]
+[2024-04-29 10:19:34] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.5rc1710519-py3-none-any.whl.zip]
+[2024-04-29 10:19:34] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-04-29 10:19:34] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-04-29 10:19:34] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-04-29 10:19:34] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-04-29 10:19:34] INFO root fetch - processPackages [cloud-pak-operations-cli]: Remove: archive file [/home/abi/fetcher/tmp/cloud-pak-operations-cli-0.7.1.tar.gz]
+[2024-04-29 10:19:34] INFO root fetch - processPackages [cloud-pak-operations-cli]: Remove: archive file [/home/abi/fetcher/tmp/cloud_pak_operations_cli-0.7.2.tar.gz]
+[2024-04-29 10:19:34] INFO root fetch - main [MainThread]: End processing [cloud-pak-operations-cli]: success
+[2024-04-29 10:19:35] INFO root fetch - processPackages [WSAT]: Remove: archive file [/home/abi/fetcher/tmp/wsat-0.1.1.tar.gz]
+[2024-04-29 10:19:35] INFO root fetch - processPackages [WSAT]: Remove: archive file [/home/abi/fetcher/tmp/wsat-0.1.2.tar.gz]
+[2024-04-29 10:19:35] INFO root fetch - main [MainThread]: End processing [WSAT]: success
+[2024-04-29 10:19:35] INFO root fetch - processPackages [colrev]: Remove: archive file [/home/abi/fetcher/tmp/colrev-0.9.2.tar.gz]
+[2024-04-29 10:19:35] INFO root fetch - processPackages [colrev]: Remove: archive file [/home/abi/fetcher/tmp/colrev-0.9.3.tar.gz]
+[2024-04-29 10:19:35] INFO root fetch - main [MainThread]: End processing [colrev]: success
+[2024-04-29 10:19:35] INFO root fetch - main [MainThread]: Store serial: [22980515]
