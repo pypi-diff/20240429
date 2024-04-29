@@ -3681,3 +3681,132 @@
 [2024-04-29 03:25:32] INFO root fetch - processPackages [winrt-Windows.Devices.Lights]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Devices.Lights-2.0.1-cp39-cp39-win_arm64.whl.zip]
 [2024-04-29 03:25:32] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Devices.Lights]: success
 [2024-04-29 03:25:32] INFO root fetch - main [MainThread]: Store serial: [22974040]
+[2024-04-29 03:27:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22974040]
+[2024-04-29 03:27:41] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-29 03:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: winrt-Windows.Devices.Lights.Effects
+[2024-04-29 03:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pathlib-next
+[2024-04-29 03:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: winrt-Windows.Devices.Midi
+[2024-04-29 03:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: winrt-Windows.Devices.Perception
+[2024-04-29 03:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Tailbone
+[2024-04-29 03:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: winrt-Windows.Devices.Perception.Provider
+[2024-04-29 03:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: winrt-Windows.Devices.PointOfService
+[2024-04-29 03:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pixe
+[2024-04-29 03:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: winrt-Windows.Devices.PointOfService.Provider
+[2024-04-29 03:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: winrt-Windows.Devices.Portable
+[2024-04-29 03:27:41] INFO root fetch - processPackages [Tailbone]: New version: [0.9.96] Old Version: [0.9.95]
+[2024-04-29 03:27:41] INFO root fetch - processPackages [pathlib-next]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-29 03:27:41] INFO root fetch - processPackages [winrt-Windows.Devices.Perception.Provider]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 03:27:41] INFO root fetch - processPackages [winrt-Windows.Devices.PointOfService]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 03:27:41] INFO root fetch - processPackages [winrt-Windows.Devices.Lights.Effects]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 03:27:41] INFO root fetch - processPackages [pathlib-next]: Downloading https://files.pythonhosted.org/packages/5e/eb/0050d1b0ec7a2eb35c8226e6fea6a566d05bc9f1f0553a877c4fcc7e19fe/pathlib_next-0.1.6.tar.gz
+[2024-04-29 03:27:41] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/d3/f5/6281835322a9736c1e981d64eaedbd9719a7822f9b959938a9e431dfae22/tailbone-0.9.95.tar.gz
+[2024-04-29 03:27:41] INFO root fetch - processPackages [winrt-Windows.Devices.PointOfService.Provider]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 03:27:41] INFO root fetch - processPackages [pixe]: New version: [0.7.0] Old Version: [0.5.6]
+[2024-04-29 03:27:41] INFO root fetch - processPackages [winrt-Windows.Devices.Midi]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 03:27:41] INFO root fetch - processPackages [winrt-Windows.Devices.Perception]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 03:27:41] INFO root fetch - processPackages [winrt-Windows.Devices.Portable]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 03:27:41] INFO root fetch - processPackages [winrt-Windows.Devices.Perception.Provider]: Downloading https://files.pythonhosted.org/packages/f1/13/7a6b6e61dbba3c9eb68de18a8924cf6633cff616e05275f9164a26512dc8/winrt-Windows.Devices.Perception.Provider-2.0.0b2.tar.gz
+[2024-04-29 03:27:41] INFO root fetch - processPackages [winrt-Windows.Devices.Lights.Effects]: Downloading https://files.pythonhosted.org/packages/28/47/cf34ca7b4a3bddb137450ff10e5bc5822149559e01c58adc3802a7d2ee5f/winrt-Windows.Devices.Lights.Effects-2.0.0b2.tar.gz
+[2024-04-29 03:27:41] INFO root fetch - processPackages [winrt-Windows.Devices.PointOfService]: Downloading https://files.pythonhosted.org/packages/f9/5e/5341dda22287b6f1b26304fa172a5478802a5b74eaae0ba999c0d84ec01a/winrt-Windows.Devices.PointOfService-2.0.0b2.tar.gz
+[2024-04-29 03:27:41] INFO root fetch - processPackages [pixe]: Downloading https://files.pythonhosted.org/packages/e0/73/faebc5352759f6fa5987f9456078153cd47463f77fc2db082ea0a4faceeb/pixe-0.5.6.tar.gz
+[2024-04-29 03:27:41] INFO root fetch - processPackages [winrt-Windows.Devices.Midi]: Downloading https://files.pythonhosted.org/packages/0c/b5/9fb46986992d27bc8c411e4c4abdf2df8704d9a57afac4d0fa8183b2a7d4/winrt-Windows.Devices.Midi-2.0.0b2.tar.gz
+[2024-04-29 03:27:41] INFO root fetch - processPackages [winrt-Windows.Devices.Perception]: Downloading https://files.pythonhosted.org/packages/15/02/d3c821411ace04d539befb9c032388a8c7cd3aae49aa9e02fe27e2562353/winrt-Windows.Devices.Perception-2.0.0b2.tar.gz
+[2024-04-29 03:27:41] INFO root fetch - processPackages [winrt-Windows.Devices.Portable]: Downloading https://files.pythonhosted.org/packages/fa/d3/4c87eae3395509007ce02e0dd04db5283ea89b872a65c3441d046b2d4b47/winrt-Windows.Devices.Portable-2.0.0b2.tar.gz
+[2024-04-29 03:27:41] INFO root fetch - processPackages [winrt-Windows.Devices.PointOfService.Provider]: Downloading https://files.pythonhosted.org/packages/c8/02/7a77c057f516dd5bbe7dc9bb8f5ed9d26a23bcfd44f6617ab2201160cd82/winrt-Windows.Devices.PointOfService.Provider-2.0.0b2.tar.gz
+[2024-04-29 03:27:42] INFO root fetch - processPackages [pathlib-next]: Downloading https://files.pythonhosted.org/packages/cf/39/ef63ac50e055a4a3443d87aee0c81090e46e50367095057ec90513a9e2a2/pathlib_next-0.1.7.tar.gz
+[2024-04-29 03:27:42] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/40/48/d068d15e5c14b9048d5ffad6867d9353d33adf32a71b13b2a439ef5bdb17/tailbone-0.9.96.tar.gz
+[2024-04-29 03:27:42] INFO root fetch - processPackages [winrt-Windows.Devices.Lights.Effects]: Downloading https://files.pythonhosted.org/packages/e4/5c/fa4fc5ddf8a851d7ff18b0cd16ee6c30266df0f28644c6e404f4635aaf84/winrt_Windows.Devices.Lights.Effects-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 03:27:42] INFO root fetch - processPackages [pathlib-next]: executing diffoscope
+[2024-04-29 03:27:42] INFO root fetch - processPackages [pathlib-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathlib_next-0.1.6.tar.gz tmp/pathlib_next-0.1.7.tar.gz --markdown 20240429/p/pathlib-next/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-29 03:27:42] INFO root fetch - processPackages [winrt-Windows.Devices.Perception.Provider]: Downloading https://files.pythonhosted.org/packages/30/16/c2856eb8dc8c9f290d83af54efc6b5b9a232c74cd8d6da9445372783dae6/winrt_Windows.Devices.Perception.Provider-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 03:27:42] INFO root fetch - processPackages [winrt-Windows.Devices.PointOfService]: Downloading https://files.pythonhosted.org/packages/b0/c2/ce02f717fcb717136bae3a07fdc65143191b0ca2de11e517a64cd044422a/winrt_Windows.Devices.PointOfService-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 03:27:42] INFO root fetch - processPackages [Tailbone]: executing diffoscope
+[2024-04-29 03:27:42] INFO root fetch - processPackages [Tailbone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailbone-0.9.95.tar.gz tmp/tailbone-0.9.96.tar.gz --markdown 20240429/T/Tailbone/0.9.95-0.9.96/README.md --exclude *.pyd
+[2024-04-29 03:27:42] INFO root fetch - processPackages [pixe]: Downloading https://files.pythonhosted.org/packages/44/47/1f0a21e6b8ffb8e23779bb56c5cb818de2a258a77574d509dc4dffc01f01/pixe-0.7.0.tar.gz
+[2024-04-29 03:27:42] INFO root fetch - processPackages [winrt-Windows.Devices.Midi]: Downloading https://files.pythonhosted.org/packages/07/81/72391fc4be4d6d69688ccd65c014fbdfa232ce0131ebb8bacb2a4238c151/winrt_Windows.Devices.Midi-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 03:27:42] INFO root fetch - processPackages [winrt-Windows.Devices.Perception]: Downloading https://files.pythonhosted.org/packages/e3/7c/680841932a5395e183e89fa0e02d57784a706669406b7da937d0820c1342/winrt_Windows.Devices.Perception-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 03:27:42] INFO root fetch - processPackages [winrt-Windows.Devices.Portable]: Downloading https://files.pythonhosted.org/packages/c1/ad/45cdd500f12cb3e9ac4771378c6beeda3dfd2d0736a66b1f34b80ecb0f86/winrt_Windows.Devices.Portable-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 03:27:42] INFO root fetch - processPackages [winrt-Windows.Devices.PointOfService.Provider]: Downloading https://files.pythonhosted.org/packages/86/01/a36cc7864f056c64e74ecb6ef05a592fca57c4204a937d0003fe76afca53/winrt_Windows.Devices.PointOfService.Provider-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 03:27:42] INFO root fetch - processPackages [pixe]: executing diffoscope
+[2024-04-29 03:27:42] INFO root fetch - processPackages [pixe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixe-0.5.6.tar.gz tmp/pixe-0.7.0.tar.gz --markdown 20240429/p/pixe/0.5.6-0.7.0/README.md --exclude *.pyd
+[2024-04-29 03:27:42] INFO root fetch - processPackages [winrt-Windows.Devices.Perception.Provider]: executing diffoscope
+[2024-04-29 03:27:42] INFO root fetch - processPackages [winrt-Windows.Devices.Perception.Provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Devices.Perception.Provider-2.0.0b2.tar.gz tmp/winrt_Windows.Devices.Perception.Provider-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Devices.Perception.Provider/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 03:27:42] INFO root fetch - processPackages [winrt-Windows.Devices.Lights.Effects]: executing diffoscope
+[2024-04-29 03:27:42] INFO root fetch - processPackages [winrt-Windows.Devices.Lights.Effects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Devices.Lights.Effects-2.0.0b2.tar.gz tmp/winrt_Windows.Devices.Lights.Effects-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Devices.Lights.Effects/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 03:27:42] INFO root fetch - processPackages [winrt-Windows.Devices.Portable]: executing diffoscope
+[2024-04-29 03:27:42] INFO root fetch - processPackages [winrt-Windows.Devices.Portable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Devices.Portable-2.0.0b2.tar.gz tmp/winrt_Windows.Devices.Portable-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Devices.Portable/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 03:27:42] INFO root fetch - processPackages [winrt-Windows.Devices.PointOfService.Provider]: executing diffoscope
+[2024-04-29 03:27:42] INFO root fetch - processPackages [winrt-Windows.Devices.PointOfService.Provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Devices.PointOfService.Provider-2.0.0b2.tar.gz tmp/winrt_Windows.Devices.PointOfService.Provider-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Devices.PointOfService.Provider/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 03:27:42] INFO root fetch - processPackages [winrt-Windows.Devices.Midi]: executing diffoscope
+[2024-04-29 03:27:42] INFO root fetch - processPackages [winrt-Windows.Devices.Midi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Devices.Midi-2.0.0b2.tar.gz tmp/winrt_Windows.Devices.Midi-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Devices.Midi/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 03:27:42] INFO root fetch - processPackages [winrt-Windows.Devices.PointOfService]: executing diffoscope
+[2024-04-29 03:27:42] INFO root fetch - processPackages [winrt-Windows.Devices.PointOfService]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Devices.PointOfService-2.0.0b2.tar.gz tmp/winrt_Windows.Devices.PointOfService-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Devices.PointOfService/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 03:27:42] INFO root fetch - processPackages [winrt-Windows.Devices.Perception]: executing diffoscope
+[2024-04-29 03:27:42] INFO root fetch - processPackages [winrt-Windows.Devices.Perception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Devices.Perception-2.0.0b2.tar.gz tmp/winrt_Windows.Devices.Perception-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Devices.Perception/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 03:27:43] INFO root fetch - processPackages [pathlib-next]: Remove: archive file [/home/abi/fetcher/tmp/pathlib_next-0.1.6.tar.gz]
+[2024-04-29 03:27:43] INFO root fetch - processPackages [pathlib-next]: Remove: archive file [/home/abi/fetcher/tmp/pathlib_next-0.1.7.tar.gz]
+[2024-04-29 03:27:43] INFO root fetch - processPackages [pathlib-next]: Start processing: onediff
+[2024-04-29 03:27:43] INFO root fetch - main [MainThread]: End processing [pathlib-next]: success
+[2024-04-29 03:27:43] INFO root fetch - processPackages [onediff]: New version: [1.0.0.dev202404280129] Old Version: [1.0.0.dev202404270125]
+[2024-04-29 03:27:43] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/53/46/c8cba9abf29f3c4a05bf57a0d1a25c455f01827f3601e4940e0a71f158ae/onediff-1.0.0.dev202404270125.tar.gz
+[2024-04-29 03:27:43] INFO root fetch - processPackages [pixe]: Remove: archive file [/home/abi/fetcher/tmp/pixe-0.5.6.tar.gz]
+[2024-04-29 03:27:43] INFO root fetch - processPackages [pixe]: Remove: archive file [/home/abi/fetcher/tmp/pixe-0.7.0.tar.gz]
+[2024-04-29 03:27:43] INFO root fetch - processPackages [pixe]: Start processing: winrt-Windows.Devices.Power
+[2024-04-29 03:27:43] INFO root fetch - main [MainThread]: End processing [pixe]: success
+[2024-04-29 03:27:43] INFO root fetch - processPackages [winrt-Windows.Devices.PointOfService]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Devices.PointOfService-2.0.0b2.tar.gz]
+[2024-04-29 03:27:43] INFO root fetch - processPackages [winrt-Windows.Devices.PointOfService]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Devices.PointOfService-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 03:27:43] INFO root fetch - processPackages [winrt-Windows.Devices.PointOfService]: Start processing: onediffx
+[2024-04-29 03:27:43] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Devices.PointOfService]: success
+[2024-04-29 03:27:43] INFO root fetch - processPackages [winrt-Windows.Devices.Perception.Provider]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Devices.Perception.Provider-2.0.0b2.tar.gz]
+[2024-04-29 03:27:43] INFO root fetch - processPackages [winrt-Windows.Devices.Perception.Provider]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Devices.Perception.Provider-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 03:27:43] INFO root fetch - processPackages [winrt-Windows.Devices.Perception.Provider]: Start processing: winrt-Windows.Devices.Printers
+[2024-04-29 03:27:43] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Devices.Perception.Provider]: success
+[2024-04-29 03:27:43] INFO root fetch - processPackages [winrt-Windows.Devices.Power]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 03:27:43] INFO root fetch - processPackages [onediffx]: New version: [1.0.0.dev202404280129] Old Version: [1.0.0.dev202404270125]
+[2024-04-29 03:27:43] INFO root fetch - processPackages [winrt-Windows.Devices.PointOfService.Provider]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Devices.PointOfService.Provider-2.0.0b2.tar.gz]
+[2024-04-29 03:27:43] INFO root fetch - processPackages [winrt-Windows.Devices.PointOfService.Provider]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Devices.PointOfService.Provider-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 03:27:43] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Devices.PointOfService.Provider]: success
+[2024-04-29 03:27:43] INFO root fetch - processPackages [winrt-Windows.Devices.Midi]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Devices.Midi-2.0.0b2.tar.gz]
+[2024-04-29 03:27:43] INFO root fetch - processPackages [winrt-Windows.Devices.Midi]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Devices.Midi-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 03:27:43] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Devices.Midi]: success
+[2024-04-29 03:27:43] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/01/41/2bdb7dacd84479ee475562ac6ca434293814a9dba019953f8b91f373aaf2/onediffx-1.0.0.dev202404270125.tar.gz
+[2024-04-29 03:27:43] INFO root fetch - processPackages [winrt-Windows.Devices.Perception]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Devices.Perception-2.0.0b2.tar.gz]
+[2024-04-29 03:27:43] INFO root fetch - processPackages [winrt-Windows.Devices.Perception]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Devices.Perception-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 03:27:43] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Devices.Perception]: success
+[2024-04-29 03:27:43] INFO root fetch - processPackages [winrt-Windows.Devices.Lights.Effects]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Devices.Lights.Effects-2.0.0b2.tar.gz]
+[2024-04-29 03:27:43] INFO root fetch - processPackages [winrt-Windows.Devices.Lights.Effects]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Devices.Lights.Effects-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 03:27:43] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Devices.Lights.Effects]: success
+[2024-04-29 03:27:43] INFO root fetch - processPackages [winrt-Windows.Devices.Printers]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 03:27:43] INFO root fetch - processPackages [winrt-Windows.Devices.Portable]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Devices.Portable-2.0.0b2.tar.gz]
+[2024-04-29 03:27:43] INFO root fetch - processPackages [winrt-Windows.Devices.Portable]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Devices.Portable-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 03:27:43] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Devices.Portable]: success
+[2024-04-29 03:27:43] INFO root fetch - processPackages [winrt-Windows.Devices.Power]: Downloading https://files.pythonhosted.org/packages/b2/da/d16f1e9fd30d5b3e67bc9c85c2dd42f84382eb17fd71c89b5f9644c9f3d6/winrt-Windows.Devices.Power-2.0.0b2.tar.gz
+[2024-04-29 03:27:43] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/d8/0d/79bca62b002007ee29fddea5550aca618dcd4da70c40fead46957bb259ea/onediff-1.0.0.dev202404280129.tar.gz
+[2024-04-29 03:27:43] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-04-29 03:27:43] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-1.0.0.dev202404270125.tar.gz tmp/onediff-1.0.0.dev202404280129.tar.gz --markdown 20240429/o/onediff/1.0.0.dev202404270125-1.0.0.dev202404280129/README.md --exclude *.pyd
+[2024-04-29 03:27:43] INFO root fetch - processPackages [winrt-Windows.Devices.Printers]: Downloading https://files.pythonhosted.org/packages/69/7f/3ed6a25b9a7d79e8f9d69bf23f0b4c9580654115c1cb2d46ba6a45c4cddd/winrt-Windows.Devices.Printers-2.0.0b2.tar.gz
+[2024-04-29 03:27:43] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/83/7e/87cc7b26de1f58fc420fd1db9caaf6dadb8ff9321a5a5e4143d9dbbe2c48/onediffx-1.0.0.dev202404280129.tar.gz
+[2024-04-29 03:27:44] INFO root fetch - processPackages [winrt-Windows.Devices.Power]: Downloading https://files.pythonhosted.org/packages/a1/e2/dea10a70c78662d8c7c42e5cec07e481f23bcbb605e698b6678484e25ae2/winrt_Windows.Devices.Power-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 03:27:44] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-04-29 03:27:44] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-1.0.0.dev202404270125.tar.gz tmp/onediffx-1.0.0.dev202404280129.tar.gz --markdown 20240429/o/onediffx/1.0.0.dev202404270125-1.0.0.dev202404280129/README.md --exclude *.pyd
+[2024-04-29 03:27:44] INFO root fetch - processPackages [winrt-Windows.Devices.Printers]: Downloading https://files.pythonhosted.org/packages/90/dc/6103c709036d1b7639405a0aa4f14dc89fe046691e633da8ff9f1dd3bf15/winrt_Windows.Devices.Printers-2.0.1-cp39-cp39-win32.whl
+[2024-04-29 03:27:44] INFO root fetch - processPackages [winrt-Windows.Devices.Power]: executing diffoscope
+[2024-04-29 03:27:44] INFO root fetch - processPackages [winrt-Windows.Devices.Power]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Devices.Power-2.0.0b2.tar.gz tmp/winrt_Windows.Devices.Power-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Devices.Power/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 03:27:44] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202404270125.tar.gz]
+[2024-04-29 03:27:44] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202404280129.tar.gz]
+[2024-04-29 03:27:44] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-04-29 03:27:44] INFO root fetch - processPackages [winrt-Windows.Devices.Power]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Devices.Power-2.0.0b2.tar.gz]
+[2024-04-29 03:27:44] INFO root fetch - processPackages [winrt-Windows.Devices.Power]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Devices.Power-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 03:27:44] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Devices.Power]: success
+[2024-04-29 03:27:44] INFO root fetch - processPackages [winrt-Windows.Devices.Printers]: executing diffoscope
+[2024-04-29 03:27:44] INFO root fetch - processPackages [winrt-Windows.Devices.Printers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Devices.Printers-2.0.0b2.tar.gz tmp/winrt_Windows.Devices.Printers-2.0.1-cp39-cp39-win32.whl.zip --markdown 20240429/w/winrt-Windows.Devices.Printers/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 03:27:45] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202404270125.tar.gz]
+[2024-04-29 03:27:45] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202404280129.tar.gz]
+[2024-04-29 03:27:45] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-04-29 03:27:45] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/tailbone-0.9.95.tar.gz]
+[2024-04-29 03:27:45] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/tailbone-0.9.96.tar.gz]
+[2024-04-29 03:27:45] INFO root fetch - main [MainThread]: End processing [Tailbone]: success
+[2024-04-29 03:27:45] INFO root fetch - processPackages [winrt-Windows.Devices.Printers]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Devices.Printers-2.0.0b2.tar.gz]
+[2024-04-29 03:27:45] INFO root fetch - processPackages [winrt-Windows.Devices.Printers]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Devices.Printers-2.0.1-cp39-cp39-win32.whl.zip]
+[2024-04-29 03:27:45] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Devices.Printers]: success
+[2024-04-29 03:27:45] INFO root fetch - main [MainThread]: Store serial: [22974168]
