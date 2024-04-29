@@ -18527,3 +18527,38 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 14:17:22] INFO root fetch - processPackages [tonkord.py]: Remove: archive file [/home/abi/fetcher/tmp/tonkord.py-2.2.2.tar.gz]
 [2024-04-29 14:17:22] INFO root fetch - main [MainThread]: End processing [tonkord.py]: success
 [2024-04-29 14:17:22] INFO root fetch - main [MainThread]: Store serial: [22983219]
+[2024-04-29 14:19:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22983219]
+[2024-04-29 14:19:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 14:19:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: create-app-fastapi
+[2024-04-29 14:19:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nestipy-dynamic-module
+[2024-04-29 14:19:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qontract-reconcile
+[2024-04-29 14:19:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymobiledevice3
+[2024-04-29 14:19:30] INFO root fetch - processPackages [nestipy-dynamic-module]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-29 14:19:30] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-29 14:19:30] INFO root fetch - processPackages [nestipy-dynamic-module]: Downloading https://files.pythonhosted.org/packages/d7/85/742ab44f7dec58a8bde8c69f1ad800408cc6272731e8c52819753c90658b/nestipy_dynamic_module-0.1.5.tar.gz
+[2024-04-29 14:19:30] INFO root fetch - processPackages [create-app-fastapi]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-29 14:19:30] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-29 14:19:30] INFO root fetch - processPackages [pymobiledevice3]: New version: [4.5.0] Old Version: [4.4.1]
+[2024-04-29 14:19:30] INFO root fetch - processPackages [nestipy-dynamic-module]: Downloading https://files.pythonhosted.org/packages/52/24/5042a35c14646fd45f2e0f1a3f1a8cfa80d086ad340dfac25c151c21dd03/nestipy_dynamic_module-0.1.6.tar.gz
+[2024-04-29 14:19:30] INFO root fetch - processPackages [create-app-fastapi]: Downloading https://files.pythonhosted.org/packages/b4/04/1d9351ec160ea063b1f6ceb867305ecc31e901418ffcf80542d06d068a38/create-app-fastapi-0.0.3.tar.gz
+[2024-04-29 14:19:30] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/d7/ed/a884b82034385d2d03f2f5e0faa3a74261867c17da2407f5af5e1e088515/pymobiledevice3-4.4.1.tar.gz
+[2024-04-29 14:19:30] WARNING root fetch - processPackages [pymobiledevice3]: Skipping package: exceeds size limit 31545542>=10485760
+[2024-04-29 14:19:30] INFO root fetch - main [MainThread]: End processing [pymobiledevice3] error
+[2024-04-29 14:19:30] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-29 14:19:30] INFO root fetch - processPackages [nestipy-dynamic-module]: executing diffoscope
+[2024-04-29 14:19:30] INFO root fetch - processPackages [nestipy-dynamic-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestipy_dynamic_module-0.1.5.tar.gz tmp/nestipy_dynamic_module-0.1.6.tar.gz --markdown 20240429/n/nestipy-dynamic-module/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-29 14:19:31] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-29 14:19:31] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240429/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-29 14:19:31] INFO root fetch - processPackages [create-app-fastapi]: Downloading https://files.pythonhosted.org/packages/98/f6/2d19ef6a32cbe348a9d37b5582d32dd0233ebd2e45183bc4d0e624dbd435/create-app-fastapi-0.0.4.tar.gz
+[2024-04-29 14:19:31] INFO root fetch - processPackages [create-app-fastapi]: executing diffoscope
+[2024-04-29 14:19:31] INFO root fetch - processPackages [create-app-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create-app-fastapi-0.0.3.tar.gz tmp/create-app-fastapi-0.0.4.tar.gz --markdown 20240429/c/create-app-fastapi/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-29 14:19:31] INFO root fetch - processPackages [nestipy-dynamic-module]: Remove: archive file [/home/abi/fetcher/tmp/nestipy_dynamic_module-0.1.5.tar.gz]
+[2024-04-29 14:19:31] INFO root fetch - processPackages [nestipy-dynamic-module]: Remove: archive file [/home/abi/fetcher/tmp/nestipy_dynamic_module-0.1.6.tar.gz]
+[2024-04-29 14:19:31] INFO root fetch - main [MainThread]: End processing [nestipy-dynamic-module]: success
+[2024-04-29 14:19:31] INFO root fetch - processPackages [create-app-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/create-app-fastapi-0.0.3.tar.gz]
+[2024-04-29 14:19:31] INFO root fetch - processPackages [create-app-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/create-app-fastapi-0.0.4.tar.gz]
+[2024-04-29 14:19:31] INFO root fetch - main [MainThread]: End processing [create-app-fastapi]: success
+[2024-04-29 14:19:33] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-29 14:19:33] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-29 14:19:33] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-29 14:19:33] INFO root fetch - main [MainThread]: Store serial: [22983233]
