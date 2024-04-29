@@ -10735,3 +10735,15 @@
 [2024-04-29 09:17:20] INFO root fetch - processPackages [reda]: Remove: archive file [/home/abi/fetcher/tmp/reda-0.2.0.tar.gz]
 [2024-04-29 09:17:20] INFO root fetch - main [MainThread]: End processing [reda]: success
 [2024-04-29 09:17:20] INFO root fetch - main [MainThread]: Store serial: [22979945]
+[2024-04-29 09:19:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979945]
+[2024-04-29 09:19:29] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-29 09:19:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytrinamic
+[2024-04-29 09:19:29] INFO root fetch - processPackages [pytrinamic]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-29 09:19:29] INFO root fetch - processPackages [pytrinamic]: Downloading https://files.pythonhosted.org/packages/06/95/d74670c9c8663281291b7878b973228cd548a720d313b407dc013d4169d9/pytrinamic-0.2.8.tar.gz
+[2024-04-29 09:19:30] INFO root fetch - processPackages [pytrinamic]: Downloading https://files.pythonhosted.org/packages/be/b0/a32d963f454a8f7ec383d337248637b7af14f954eb748c761bf9adf573a5/pytrinamic-0.2.9.tar.gz
+[2024-04-29 09:19:30] INFO root fetch - processPackages [pytrinamic]: executing diffoscope
+[2024-04-29 09:19:30] INFO root fetch - processPackages [pytrinamic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytrinamic-0.2.8.tar.gz tmp/pytrinamic-0.2.9.tar.gz --markdown 20240429/p/pytrinamic/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-29 09:19:31] INFO root fetch - processPackages [pytrinamic]: Remove: archive file [/home/abi/fetcher/tmp/pytrinamic-0.2.8.tar.gz]
+[2024-04-29 09:19:31] INFO root fetch - processPackages [pytrinamic]: Remove: archive file [/home/abi/fetcher/tmp/pytrinamic-0.2.9.tar.gz]
+[2024-04-29 09:19:31] INFO root fetch - main [MainThread]: End processing [pytrinamic]: success
+[2024-04-29 09:19:31] INFO root fetch - main [MainThread]: Store serial: [22979949]
