@@ -19443,3 +19443,95 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 14:50:39] INFO root fetch - processPackages [oss2]: Remove: archive file [/home/abi/fetcher/tmp/oss2-2.9.1.tar.gz]
 [2024-04-29 14:50:39] INFO root fetch - main [MainThread]: End processing [oss2]: success
 [2024-04-29 14:50:39] INFO root fetch - main [MainThread]: Store serial: [22983619]
+[2024-04-29 14:52:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22983619]
+[2024-04-29 14:52:48] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-29 14:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qnngds
+[2024-04-29 14:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: g3core
+[2024-04-29 14:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: droid-metapatch
+[2024-04-29 14:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-cdk-constructs
+[2024-04-29 14:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tracebloc-package-dev
+[2024-04-29 14:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spark-metabase-api
+[2024-04-29 14:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simo
+[2024-04-29 14:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: keelson
+[2024-04-29 14:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: g3elements
+[2024-04-29 14:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odp-sdk-python-ingest
+[2024-04-29 14:52:48] INFO root fetch - processPackages [tracebloc-package-dev]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-29 14:52:49] INFO root fetch - processPackages [keelson]: New version: [0.3.1rc9] Old Version: [0.3.1rc8]
+[2024-04-29 14:52:49] INFO root fetch - processPackages [simo]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-29 14:52:49] INFO root fetch - processPackages [qnngds]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-04-29 14:52:49] INFO root fetch - processPackages [aws-cdk-constructs]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-29 14:52:49] INFO root fetch - processPackages [spark-metabase-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 14:52:49] INFO root fetch - processPackages [g3core]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-29 14:52:49] INFO root fetch - processPackages [droid-metapatch]: New version: [2.0.0] Old Version: [1.2.0]
+[2024-04-29 14:52:49] INFO root fetch - processPackages [g3elements]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-29 14:52:49] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/f5/c8/13a696d72bb172c25134ff8497e2a33abae28952aaf6027b69f19e6020ba/tracebloc_package-dev-0.5.8.tar.gz
+[2024-04-29 14:52:49] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/c6/e7/74deb2f4692ca724892622c48d5c9a3300000f59c46ecd7f1ca9fbf2937f/keelson-0.3.1rc8-py3-none-any.whl
+[2024-04-29 14:52:49] INFO root fetch - processPackages [odp-sdk-python-ingest]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-29 14:52:49] INFO root fetch - processPackages [simo]: Downloading https://files.pythonhosted.org/packages/9c/3e/85c97e5462a3125c0189f179fa275e8a0cf69dce695c9a637286581a09a0/simo-2.0.8.tar.gz
+[2024-04-29 14:52:49] WARNING root fetch - processPackages [simo]: Skipping package: exceeds size limit 20582813>=10485760
+[2024-04-29 14:52:49] INFO root fetch - processPackages [simo]: Start processing: senpy-sensei
+[2024-04-29 14:52:49] INFO root fetch - main [MainThread]: End processing [simo] error
+[2024-04-29 14:52:49] WARNING root fetch - processPackages [senpy-sensei]: Skipping, unable to determine old version
+[2024-04-29 14:52:49] INFO root fetch - main [MainThread]: End processing [senpy-sensei] error
+[2024-04-29 14:52:49] INFO root fetch - processPackages [qnngds]: Downloading https://files.pythonhosted.org/packages/be/82/93188f07b003673b89830a2e7590426e66938ccd69ca33dae44b2fd28907/qnngds-2.1.1.tar.gz
+[2024-04-29 14:52:49] INFO root fetch - processPackages [g3core]: Downloading https://files.pythonhosted.org/packages/3d/bb/0e685b505197232f1d3881aa940c9713a3241b0e23d8be1f795452768df7/g3core-0.1.1.tar.gz
+[2024-04-29 14:52:49] INFO root fetch - processPackages [aws-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/e6/37/d91f15ad3ff666b7db55fc300424baecc14de758543e3ada24b95f4ff718/aws_cdk_constructs-2.9.1.tar.gz
+[2024-04-29 14:52:49] INFO root fetch - processPackages [droid-metapatch]: Downloading https://files.pythonhosted.org/packages/2c/4e/c733051b8b9f6dc27fd29cb1c6b33c37e01447243d2f4a5e3da31711c17f/droid_metapatch-1.2.0.tar.gz
+[2024-04-29 14:52:49] INFO root fetch - processPackages [spark-metabase-api]: Downloading https://files.pythonhosted.org/packages/b7/c5/708e66a9a521398570782cce4314c59a3915732b618b76fb7c20d60853d2/spark-metabase-api-0.1.8.tar.gz
+[2024-04-29 14:52:49] INFO root fetch - processPackages [g3elements]: Downloading https://files.pythonhosted.org/packages/03/90/27994586cee021be2463d5e989c622252164979e3108831f8a43cb1b5cfa/g3elements-0.1.0.tar.gz
+[2024-04-29 14:52:49] INFO root fetch - processPackages [odp-sdk-python-ingest]: Downloading https://files.pythonhosted.org/packages/5d/0e/f9afd54a77824088abaaca0cfcd51ff6548c81c144895026889904c1c641/odp_sdk_python_ingest-0.4.8.tar.gz
+[2024-04-29 14:52:49] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/d3/ac/b73a3ad73043384f594b9564cff3200eead0fca16963d71069905057ba4e/keelson-0.3.1rc9-py3-none-any.whl
+[2024-04-29 14:52:49] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/29/74/ba081cbca75b4aef7de5e023ed946f224d93c52d8874131c97fc1c3a2682/tracebloc_package-dev-0.5.9.tar.gz
+[2024-04-29 14:52:49] INFO root fetch - processPackages [tracebloc-package-dev]: executing diffoscope
+[2024-04-29 14:52:49] INFO root fetch - processPackages [tracebloc-package-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-dev-0.5.8.tar.gz tmp/tracebloc_package-dev-0.5.9.tar.gz --markdown 20240429/t/tracebloc-package-dev/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-29 14:52:49] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-04-29 14:52:49] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.3.1rc8-py3-none-any.whl.zip tmp/keelson-0.3.1rc9-py3-none-any.whl.zip --markdown 20240429/k/keelson/0.3.1rc8-0.3.1rc9/README.md --exclude *.pyd
+[2024-04-29 14:52:49] INFO root fetch - processPackages [qnngds]: Downloading https://files.pythonhosted.org/packages/f9/ba/66dec79df6a582524d30d2de22e25c31b1360584cec84c367c39a353834d/qnngds-2.1.2.tar.gz
+[2024-04-29 14:52:49] INFO root fetch - processPackages [g3core]: Downloading https://files.pythonhosted.org/packages/8b/33/08880ed85e1ba380a64a6a893edb338b042a760df57141915355ea655d81/g3core-0.2.0.tar.gz
+[2024-04-29 14:52:49] INFO root fetch - processPackages [g3elements]: Downloading https://files.pythonhosted.org/packages/2c/a2/c8a9881fe4b895f0402de811107d1535370cf6e6d6ddcbfb94bf6d6f297a/g3elements-0.2.0.tar.gz
+[2024-04-29 14:52:49] INFO root fetch - processPackages [aws-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/35/f4/09f600eaed6a0720c0130482f53b61f86271746b2385735edef0f6e0c731/aws_cdk_constructs-2.9.2.tar.gz
+[2024-04-29 14:52:49] INFO root fetch - processPackages [qnngds]: executing diffoscope
+[2024-04-29 14:52:49] INFO root fetch - processPackages [qnngds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qnngds-2.1.1.tar.gz tmp/qnngds-2.1.2.tar.gz --markdown 20240429/q/qnngds/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-04-29 14:52:49] INFO root fetch - processPackages [spark-metabase-api]: Downloading https://files.pythonhosted.org/packages/85/48/5c6eacbacc9f67e4eced50608629c3a1d667281d94488ce0c2c9acbb06c5/spark_metabase_api-0.1.9.tar.gz
+[2024-04-29 14:52:49] INFO root fetch - processPackages [droid-metapatch]: Downloading https://files.pythonhosted.org/packages/a8/06/3aa1ee6f054ac269c82dd723cddef55a56e82c2090f0dadd22ca17238aad/droid_metapatch-2.0.0.tar.gz
+[2024-04-29 14:52:49] INFO root fetch - processPackages [g3core]: executing diffoscope
+[2024-04-29 14:52:49] INFO root fetch - processPackages [g3core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g3core-0.1.1.tar.gz tmp/g3core-0.2.0.tar.gz --markdown 20240429/g/g3core/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-04-29 14:52:49] INFO root fetch - processPackages [g3elements]: executing diffoscope
+[2024-04-29 14:52:49] INFO root fetch - processPackages [g3elements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g3elements-0.1.0.tar.gz tmp/g3elements-0.2.0.tar.gz --markdown 20240429/g/g3elements/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-29 14:52:49] INFO root fetch - processPackages [odp-sdk-python-ingest]: Downloading https://files.pythonhosted.org/packages/01/62/746ccaf558bd8d1acd3b8664ec29d268638a163fdb3748dce63c4d890463/odp_sdk_python_ingest-0.4.9.tar.gz
+[2024-04-29 14:52:50] INFO root fetch - processPackages [aws-cdk-constructs]: executing diffoscope
+[2024-04-29 14:52:50] INFO root fetch - processPackages [aws-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_cdk_constructs-2.9.1.tar.gz tmp/aws_cdk_constructs-2.9.2.tar.gz --markdown 20240429/a/aws-cdk-constructs/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-04-29 14:52:50] INFO root fetch - processPackages [spark-metabase-api]: executing diffoscope
+[2024-04-29 14:52:50] INFO root fetch - processPackages [spark-metabase-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark-metabase-api-0.1.8.tar.gz tmp/spark_metabase_api-0.1.9.tar.gz --markdown 20240429/s/spark-metabase-api/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 14:52:50] INFO root fetch - processPackages [droid-metapatch]: executing diffoscope
+[2024-04-29 14:52:50] INFO root fetch - processPackages [droid-metapatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/droid_metapatch-1.2.0.tar.gz tmp/droid_metapatch-2.0.0.tar.gz --markdown 20240429/d/droid-metapatch/1.2.0-2.0.0/README.md --exclude *.pyd
+[2024-04-29 14:52:50] INFO root fetch - processPackages [odp-sdk-python-ingest]: executing diffoscope
+[2024-04-29 14:52:50] INFO root fetch - processPackages [odp-sdk-python-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odp_sdk_python_ingest-0.4.8.tar.gz tmp/odp_sdk_python_ingest-0.4.9.tar.gz --markdown 20240429/o/odp-sdk-python-ingest/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-29 14:52:50] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.8.tar.gz]
+[2024-04-29 14:52:50] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.9.tar.gz]
+[2024-04-29 14:52:50] INFO root fetch - main [MainThread]: End processing [tracebloc-package-dev]: success
+[2024-04-29 14:52:50] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.1rc8-py3-none-any.whl.zip]
+[2024-04-29 14:52:50] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.1rc9-py3-none-any.whl.zip]
+[2024-04-29 14:52:50] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-04-29 14:52:50] INFO root fetch - processPackages [qnngds]: Remove: archive file [/home/abi/fetcher/tmp/qnngds-2.1.1.tar.gz]
+[2024-04-29 14:52:50] INFO root fetch - processPackages [qnngds]: Remove: archive file [/home/abi/fetcher/tmp/qnngds-2.1.2.tar.gz]
+[2024-04-29 14:52:50] INFO root fetch - main [MainThread]: End processing [qnngds]: success
+[2024-04-29 14:52:50] INFO root fetch - processPackages [spark-metabase-api]: Remove: archive file [/home/abi/fetcher/tmp/spark-metabase-api-0.1.8.tar.gz]
+[2024-04-29 14:52:50] INFO root fetch - processPackages [spark-metabase-api]: Remove: archive file [/home/abi/fetcher/tmp/spark_metabase_api-0.1.9.tar.gz]
+[2024-04-29 14:52:50] INFO root fetch - main [MainThread]: End processing [spark-metabase-api]: success
+[2024-04-29 14:52:50] INFO root fetch - processPackages [g3core]: Remove: archive file [/home/abi/fetcher/tmp/g3core-0.1.1.tar.gz]
+[2024-04-29 14:52:50] INFO root fetch - processPackages [g3core]: Remove: archive file [/home/abi/fetcher/tmp/g3core-0.2.0.tar.gz]
+[2024-04-29 14:52:50] INFO root fetch - main [MainThread]: End processing [g3core]: success
+[2024-04-29 14:52:50] INFO root fetch - processPackages [aws-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/aws_cdk_constructs-2.9.1.tar.gz]
+[2024-04-29 14:52:50] INFO root fetch - processPackages [aws-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/aws_cdk_constructs-2.9.2.tar.gz]
+[2024-04-29 14:52:50] INFO root fetch - processPackages [droid-metapatch]: Remove: archive file [/home/abi/fetcher/tmp/droid_metapatch-1.2.0.tar.gz]
+[2024-04-29 14:52:50] INFO root fetch - main [MainThread]: End processing [aws-cdk-constructs]: success
+[2024-04-29 14:52:50] INFO root fetch - processPackages [droid-metapatch]: Remove: archive file [/home/abi/fetcher/tmp/droid_metapatch-2.0.0.tar.gz]
+[2024-04-29 14:52:50] INFO root fetch - main [MainThread]: End processing [droid-metapatch]: success
+[2024-04-29 14:52:51] INFO root fetch - processPackages [g3elements]: Remove: archive file [/home/abi/fetcher/tmp/g3elements-0.1.0.tar.gz]
+[2024-04-29 14:52:51] INFO root fetch - processPackages [g3elements]: Remove: archive file [/home/abi/fetcher/tmp/g3elements-0.2.0.tar.gz]
+[2024-04-29 14:52:51] INFO root fetch - main [MainThread]: End processing [g3elements]: success
+[2024-04-29 14:52:51] INFO root fetch - processPackages [odp-sdk-python-ingest]: Remove: archive file [/home/abi/fetcher/tmp/odp_sdk_python_ingest-0.4.8.tar.gz]
+[2024-04-29 14:52:51] INFO root fetch - processPackages [odp-sdk-python-ingest]: Remove: archive file [/home/abi/fetcher/tmp/odp_sdk_python_ingest-0.4.9.tar.gz]
+[2024-04-29 14:52:51] INFO root fetch - main [MainThread]: End processing [odp-sdk-python-ingest]: success
+[2024-04-29 14:52:51] INFO root fetch - main [MainThread]: Store serial: [22983650]
