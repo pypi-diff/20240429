@@ -12495,3 +12495,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 10:37:19] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
 [2024-04-29 10:37:19] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-04-29 10:37:19] INFO root fetch - main [MainThread]: Store serial: [22980701]
+[2024-04-29 10:39:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980701]
+[2024-04-29 10:39:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 10:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airflow-providers-wherobots
+[2024-04-29 10:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stonefish-license-manager
+[2024-04-29 10:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ragfmk
+[2024-04-29 10:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: paloalto-panorama-sdk
+[2024-04-29 10:39:28] INFO root fetch - processPackages [stonefish-license-manager]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-04-29 10:39:28] INFO root fetch - processPackages [ragfmk]: New version: [0.1.2] Old Version: [0.1.1.3]
+[2024-04-29 10:39:28] INFO root fetch - processPackages [stonefish-license-manager]: Downloading https://files.pythonhosted.org/packages/f0/ad/d3b5caaabd5ba7980f74302ca088a8e3bd1014597f27058b0440408ca15f/stonefish_license_manager-0.4.5-py3-none-any.whl
+[2024-04-29 10:39:28] INFO root fetch - processPackages [airflow-providers-wherobots]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-29 10:39:28] WARNING root fetch - processPackages [paloalto-panorama-sdk]: Skipping, unable to determine old version
+[2024-04-29 10:39:28] INFO root fetch - main [MainThread]: End processing [paloalto-panorama-sdk] error
+[2024-04-29 10:39:29] INFO root fetch - processPackages [ragfmk]: Downloading https://files.pythonhosted.org/packages/29/49/ff9d37bcfd03b362ceea1daead5f4f47cbfdd60d924c92450098a1ae2e07/ragfmk-0.1.1.3-py3-none-any.whl
+[2024-04-29 10:39:29] INFO root fetch - processPackages [airflow-providers-wherobots]: Downloading https://files.pythonhosted.org/packages/10/89/8c095444eb431032c52df77362a7233dcfa2f079afac51540a12bb378d6b/airflow_providers_wherobots-0.1.0.tar.gz
+[2024-04-29 10:39:29] INFO root fetch - processPackages [stonefish-license-manager]: Downloading https://files.pythonhosted.org/packages/52/60/120a8b9413c34abb8beb2874a6015624a5ca8ff2fb1d01ba40834d1bc780/stonefish_license_manager-0.4.6-py3-none-any.whl
+[2024-04-29 10:39:29] INFO root fetch - processPackages [stonefish-license-manager]: executing diffoscope
+[2024-04-29 10:39:29] INFO root fetch - processPackages [stonefish-license-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stonefish_license_manager-0.4.5-py3-none-any.whl.zip tmp/stonefish_license_manager-0.4.6-py3-none-any.whl.zip --markdown 20240429/s/stonefish-license-manager/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-04-29 10:39:29] INFO root fetch - processPackages [ragfmk]: Downloading https://files.pythonhosted.org/packages/ed/6a/3004d3b7c5a137befc7fcb9a69aed1554d279e2a6b1bc46737fbd88689ff/ragfmk-0.1.2-py3-none-any.whl
+[2024-04-29 10:39:29] INFO root fetch - processPackages [airflow-providers-wherobots]: Downloading https://files.pythonhosted.org/packages/de/35/4084eeb6208e2ad70e2b5de7df97e339638ffd18d1a51f851c015f3de1c8/airflow_providers_wherobots-0.1.1.tar.gz
+[2024-04-29 10:39:29] INFO root fetch - processPackages [ragfmk]: executing diffoscope
+[2024-04-29 10:39:29] INFO root fetch - processPackages [ragfmk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragfmk-0.1.1.3-py3-none-any.whl.zip tmp/ragfmk-0.1.2-py3-none-any.whl.zip --markdown 20240429/r/ragfmk/0.1.1.3-0.1.2/README.md --exclude *.pyd
+[2024-04-29 10:39:29] INFO root fetch - processPackages [airflow-providers-wherobots]: executing diffoscope
+[2024-04-29 10:39:29] INFO root fetch - processPackages [airflow-providers-wherobots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow_providers_wherobots-0.1.0.tar.gz tmp/airflow_providers_wherobots-0.1.1.tar.gz --markdown 20240429/a/airflow-providers-wherobots/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-29 10:39:29] INFO root fetch - processPackages [stonefish-license-manager]: Remove: archive file [/home/abi/fetcher/tmp/stonefish_license_manager-0.4.5-py3-none-any.whl.zip]
+[2024-04-29 10:39:29] INFO root fetch - processPackages [stonefish-license-manager]: Remove: archive file [/home/abi/fetcher/tmp/stonefish_license_manager-0.4.6-py3-none-any.whl.zip]
+[2024-04-29 10:39:29] INFO root fetch - main [MainThread]: End processing [stonefish-license-manager]: success
+[2024-04-29 10:39:30] INFO root fetch - processPackages [airflow-providers-wherobots]: Remove: archive file [/home/abi/fetcher/tmp/airflow_providers_wherobots-0.1.0.tar.gz]
+[2024-04-29 10:39:30] INFO root fetch - processPackages [airflow-providers-wherobots]: Remove: archive file [/home/abi/fetcher/tmp/airflow_providers_wherobots-0.1.1.tar.gz]
+[2024-04-29 10:39:30] INFO root fetch - main [MainThread]: End processing [airflow-providers-wherobots]: success
+[2024-04-29 10:39:30] INFO root fetch - processPackages [ragfmk]: Remove: archive file [/home/abi/fetcher/tmp/ragfmk-0.1.1.3-py3-none-any.whl.zip]
+[2024-04-29 10:39:30] INFO root fetch - processPackages [ragfmk]: Remove: archive file [/home/abi/fetcher/tmp/ragfmk-0.1.2-py3-none-any.whl.zip]
+[2024-04-29 10:39:30] INFO root fetch - main [MainThread]: End processing [ragfmk]: success
+[2024-04-29 10:39:30] INFO root fetch - main [MainThread]: Store serial: [22980713]
