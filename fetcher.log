@@ -16055,3 +16055,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 12:50:37] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.1.4.tar.gz]
 [2024-04-29 12:50:37] INFO root fetch - main [MainThread]: End processing [decoutilities]: success
 [2024-04-29 12:50:37] INFO root fetch - main [MainThread]: Store serial: [22982217]
+[2024-04-29 12:52:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982217]
+[2024-04-29 12:52:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-29 12:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nestipy-dynamic-module
+[2024-04-29 12:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: julearn
+[2024-04-29 12:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quickstart-vdk
+[2024-04-29 12:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybertron_framework
+[2024-04-29 12:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qg_toolkit
+[2024-04-29 12:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Furious-GUI
+[2024-04-29 12:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seven-cloudapp-frame
+[2024-04-29 12:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dataclasses-json
+[2024-04-29 12:52:46] INFO root fetch - processPackages [qg_toolkit]: New version: [1.0.15] Old Version: [1.0.14]
+[2024-04-29 12:52:46] INFO root fetch - processPackages [nestipy-dynamic-module]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-29 12:52:46] INFO root fetch - processPackages [dataclasses-json]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-04-29 12:52:46] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-29 12:52:46] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-29 12:52:46] WARNING root fetch - processPackages [cybertron_framework]: Skipping, unable to determine old version
+[2024-04-29 12:52:46] INFO root fetch - processPackages [julearn]: New version: [0.3.2.dev57] Old Version: [0.3.2.dev24]
+[2024-04-29 12:52:46] INFO root fetch - main [MainThread]: End processing [cybertron_framework] error
+[2024-04-29 12:52:46] INFO root fetch - processPackages [Furious-GUI]: New version: [0.4.0] Old Version: [0.3.9]
+[2024-04-29 12:52:46] INFO root fetch - processPackages [qg_toolkit]: Downloading https://files.pythonhosted.org/packages/1c/5e/4fbc159426405d3cd75b96c566e43364e26b32fd07982fef6b628ba3f448/qg_toolkit-1.0.14.tar.gz
+[2024-04-29 12:52:46] INFO root fetch - processPackages [nestipy-dynamic-module]: Downloading https://files.pythonhosted.org/packages/d7/85/742ab44f7dec58a8bde8c69f1ad800408cc6272731e8c52819753c90658b/nestipy_dynamic_module-0.1.5.tar.gz
+[2024-04-29 12:52:46] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-29 12:52:46] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/b9/ca/39a9edf0448dce1557b063b8e2277fb9cfb7583e390be7c95ab7d0ea0641/seven_cloudapp_frame-1.1.8.tar.gz
+[2024-04-29 12:52:46] INFO root fetch - processPackages [dataclasses-json]: Downloading https://files.pythonhosted.org/packages/26/b4/bd652fbd5cbfa4f149e1630c0da70dc3c37ac27187eb8425eb403bd28a88/dataclasses_json-0.6.3.tar.gz
+[2024-04-29 12:52:46] INFO root fetch - processPackages [julearn]: Downloading https://files.pythonhosted.org/packages/d3/02/e40d964c2eca36fa10fd36e88a5237bb741fcef23f1d066e7aa24374d6e4/julearn-0.3.2.dev24.tar.gz
+[2024-04-29 12:52:46] INFO root fetch - processPackages [Furious-GUI]: Downloading https://files.pythonhosted.org/packages/e2/eb/5042c842cdb51dbcd3eb57af51460340cf9da5de00f0718696894e5af716/Furious-GUI-0.3.9.tar.gz
+[2024-04-29 12:52:46] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-29 12:52:46] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/3c/36/0c224bc89289ec1de22a5c6a2070b6fe931fc13c906476b1e568044096fc/seven_cloudapp_frame-1.1.9.tar.gz
+[2024-04-29 12:52:46] INFO root fetch - processPackages [nestipy-dynamic-module]: Downloading https://files.pythonhosted.org/packages/52/24/5042a35c14646fd45f2e0f1a3f1a8cfa80d086ad340dfac25c151c21dd03/nestipy_dynamic_module-0.1.6.tar.gz
+[2024-04-29 12:52:46] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-29 12:52:46] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240429/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-04-29 12:52:46] INFO root fetch - processPackages [qg_toolkit]: Downloading https://files.pythonhosted.org/packages/2e/52/dfc0db0ad3172e6de65f829be5d005449582f88c67c2d7caf3973704f6e0/qg_toolkit-1.0.15.tar.gz
+[2024-04-29 12:52:46] INFO root fetch - processPackages [nestipy-dynamic-module]: executing diffoscope
+[2024-04-29 12:52:46] INFO root fetch - processPackages [nestipy-dynamic-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestipy_dynamic_module-0.1.5.tar.gz tmp/nestipy_dynamic_module-0.1.6.tar.gz --markdown 20240429/n/nestipy-dynamic-module/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-29 12:52:46] INFO root fetch - processPackages [dataclasses-json]: Downloading https://files.pythonhosted.org/packages/ac/3f/3817dd82a4b6e6e17ac2bbbffc2b23715b5a3580bc8fcbea7a0670f52df5/dataclasses_json-0.6.4.tar.gz
+[2024-04-29 12:52:46] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2024-04-29 12:52:46] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.1.8.tar.gz tmp/seven_cloudapp_frame-1.1.9.tar.gz --markdown 20240429/s/seven-cloudapp-frame/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-29 12:52:47] INFO root fetch - processPackages [qg_toolkit]: executing diffoscope
+[2024-04-29 12:52:47] INFO root fetch - processPackages [qg_toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qg_toolkit-1.0.14.tar.gz tmp/qg_toolkit-1.0.15.tar.gz --markdown 20240429/q/qg_toolkit/1.0.14-1.0.15/README.md --exclude *.pyd
+[2024-04-29 12:52:47] INFO root fetch - processPackages [julearn]: Downloading https://files.pythonhosted.org/packages/30/2b/1df5a145f1d4ad14c35bd29a633ed2d48867d88e817c6214d31117098408/julearn-0.3.2.dev57.tar.gz
+[2024-04-29 12:52:47] INFO root fetch - processPackages [dataclasses-json]: executing diffoscope
+[2024-04-29 12:52:47] INFO root fetch - processPackages [dataclasses-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclasses_json-0.6.3.tar.gz tmp/dataclasses_json-0.6.4.tar.gz --markdown 20240429/d/dataclasses-json/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-04-29 12:52:47] INFO root fetch - processPackages [julearn]: executing diffoscope
+[2024-04-29 12:52:47] INFO root fetch - processPackages [julearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/julearn-0.3.2.dev24.tar.gz tmp/julearn-0.3.2.dev57.tar.gz --markdown 20240429/j/julearn/0.3.2.dev24-0.3.2.dev57/README.md --exclude *.pyd
+[2024-04-29 12:52:47] INFO root fetch - processPackages [nestipy-dynamic-module]: Remove: archive file [/home/abi/fetcher/tmp/nestipy_dynamic_module-0.1.5.tar.gz]
+[2024-04-29 12:52:47] INFO root fetch - processPackages [nestipy-dynamic-module]: Remove: archive file [/home/abi/fetcher/tmp/nestipy_dynamic_module-0.1.6.tar.gz]
+[2024-04-29 12:52:47] INFO root fetch - main [MainThread]: End processing [nestipy-dynamic-module]: success
+[2024-04-29 12:52:47] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-29 12:52:47] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-29 12:52:47] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-29 12:52:47] INFO root fetch - processPackages [dataclasses-json]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses_json-0.6.3.tar.gz]
+[2024-04-29 12:52:47] INFO root fetch - processPackages [dataclasses-json]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses_json-0.6.4.tar.gz]
+[2024-04-29 12:52:47] INFO root fetch - main [MainThread]: End processing [dataclasses-json]: success
+[2024-04-29 12:52:48] INFO root fetch - processPackages [qg_toolkit]: Remove: archive file [/home/abi/fetcher/tmp/qg_toolkit-1.0.14.tar.gz]
+[2024-04-29 12:52:48] INFO root fetch - processPackages [qg_toolkit]: Remove: archive file [/home/abi/fetcher/tmp/qg_toolkit-1.0.15.tar.gz]
+[2024-04-29 12:52:48] INFO root fetch - main [MainThread]: End processing [qg_toolkit]: success
+[2024-04-29 12:52:48] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.8.tar.gz]
+[2024-04-29 12:52:48] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.9.tar.gz]
+[2024-04-29 12:52:48] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2024-04-29 12:52:48] INFO root fetch - processPackages [julearn]: Remove: archive file [/home/abi/fetcher/tmp/julearn-0.3.2.dev24.tar.gz]
+[2024-04-29 12:52:48] INFO root fetch - processPackages [julearn]: Remove: archive file [/home/abi/fetcher/tmp/julearn-0.3.2.dev57.tar.gz]
+[2024-04-29 12:52:48] INFO root fetch - main [MainThread]: End processing [julearn]: success
+[2024-04-29 12:52:49] INFO root fetch - processPackages [Furious-GUI]: Downloading https://files.pythonhosted.org/packages/d2/a0/5abde10715924ddab948d3c48591e446bbf3464e1c95dcb8f206924d5919/Furious-GUI-0.4.0.tar.gz
+[2024-04-29 12:52:50] INFO root fetch - processPackages [Furious-GUI]: executing diffoscope
+[2024-04-29 12:52:50] INFO root fetch - processPackages [Furious-GUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Furious-GUI-0.3.9.tar.gz tmp/Furious-GUI-0.4.0.tar.gz --markdown 20240429/F/Furious-GUI/0.3.9-0.4.0/README.md --exclude *.pyd
+[2024-04-29 12:52:52] INFO root fetch - processPackages [Furious-GUI]: Remove: archive file [/home/abi/fetcher/tmp/Furious-GUI-0.3.9.tar.gz]
+[2024-04-29 12:52:52] INFO root fetch - processPackages [Furious-GUI]: Remove: archive file [/home/abi/fetcher/tmp/Furious-GUI-0.4.0.tar.gz]
+[2024-04-29 12:52:52] INFO root fetch - main [MainThread]: End processing [Furious-GUI]: success
+[2024-04-29 12:52:52] INFO root fetch - main [MainThread]: Store serial: [22982242]
