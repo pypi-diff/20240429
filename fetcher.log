@@ -6915,3 +6915,51 @@
 [2024-04-29 04:43:15] INFO root fetch - processPackages [swiftest]: Remove: archive file [/home/abi/fetcher/tmp/swiftest-2024.4.3.tar.gz]
 [2024-04-29 04:43:15] INFO root fetch - main [MainThread]: End processing [swiftest]: success
 [2024-04-29 04:43:15] INFO root fetch - main [MainThread]: Store serial: [22978168]
+[2024-04-29 04:45:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978168]
+[2024-04-29 04:45:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 04:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlflow-oidc-auth
+[2024-04-29 04:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-sysinformer
+[2024-04-29 04:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-ddoscoo20200101-py2
+[2024-04-29 04:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-ddoscoo20200101
+[2024-04-29 04:45:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ok-script
+[2024-04-29 04:45:23] INFO root fetch - processPackages [ok-script]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 04:45:24] INFO root fetch - processPackages [ok-script]: Downloading https://files.pythonhosted.org/packages/5f/e3/968a4bfd4b0c82df5c5171f3d7d42fc8d8354283f3bae8becf975bc2cfb9/ok-script-0.0.8.tar.gz
+[2024-04-29 04:45:24] INFO root fetch - processPackages [alibabacloud-ddoscoo20200101-py2]: New version: [2.0.0] Old Version: [1.2.1]
+[2024-04-29 04:45:24] INFO root fetch - processPackages [python-sysinformer]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-29 04:45:24] INFO root fetch - processPackages [alibabacloud-ddoscoo20200101]: New version: [2.0.0] Old Version: [1.2.1]
+[2024-04-29 04:45:24] INFO root fetch - processPackages [mlflow-oidc-auth]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-04-29 04:45:24] INFO root fetch - processPackages [alibabacloud-ddoscoo20200101-py2]: Downloading https://files.pythonhosted.org/packages/03/8b/a14ac4ab17aa6a72230b65177f6ebb64be938aa823bf0a1698845f847e81/alibabacloud_ddoscoo20200101_py2-1.2.1.tar.gz
+[2024-04-29 04:45:24] INFO root fetch - processPackages [python-sysinformer]: Downloading https://files.pythonhosted.org/packages/55/aa/0a9dc1a191ddd4a3400682359b8278da7061655018770830801e2ea95d5e/python_sysinformer-1.6.0.tar.gz
+[2024-04-29 04:45:24] INFO root fetch - processPackages [alibabacloud-ddoscoo20200101]: Downloading https://files.pythonhosted.org/packages/79/46/8e203792978308efc4bdff0326fa1a739fc0d94da716b98df2dc76d25f7e/alibabacloud_ddoscoo20200101-1.2.1.tar.gz
+[2024-04-29 04:45:24] INFO root fetch - processPackages [mlflow-oidc-auth]: Downloading https://files.pythonhosted.org/packages/46/d6/3df10e69c8ae5c49a54839db5cf2195adbc2295d865cbffb975d11cbaf18/mlflow_oidc_auth-1.4.0.tar.gz
+[2024-04-29 04:45:24] INFO root fetch - processPackages [ok-script]: Downloading https://files.pythonhosted.org/packages/7e/57/3cb2ecf6f3abc49a58957eb87297ca0e7574e568b46c512c2a5fc710a462/ok-script-0.0.9.tar.gz
+[2024-04-29 04:45:24] INFO root fetch - processPackages [ok-script]: executing diffoscope
+[2024-04-29 04:45:24] INFO root fetch - processPackages [ok-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ok-script-0.0.8.tar.gz tmp/ok-script-0.0.9.tar.gz --markdown 20240429/o/ok-script/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 04:45:24] INFO root fetch - processPackages [alibabacloud-ddoscoo20200101-py2]: Downloading https://files.pythonhosted.org/packages/87/e4/3af3db37102f44de32f123b82ab912d3fda0043c57be462374daec7c9e1f/alibabacloud_ddoscoo20200101_py2-2.0.0.tar.gz
+[2024-04-29 04:45:24] INFO root fetch - processPackages [mlflow-oidc-auth]: Downloading https://files.pythonhosted.org/packages/be/4e/890220d2ec5d9b62e7c37020f64b1715cffe58ee523dd6da8279e0412a50/mlflow_oidc_auth-1.5.0.tar.gz
+[2024-04-29 04:45:24] INFO root fetch - processPackages [python-sysinformer]: Downloading https://files.pythonhosted.org/packages/19/f3/e017c59eed12f612c08dce676133e98e6ff1873154e21e69dd49b32ab270/python_sysinformer-1.7.0.tar.gz
+[2024-04-29 04:45:24] INFO root fetch - processPackages [alibabacloud-ddoscoo20200101-py2]: executing diffoscope
+[2024-04-29 04:45:24] INFO root fetch - processPackages [alibabacloud-ddoscoo20200101-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ddoscoo20200101_py2-1.2.1.tar.gz tmp/alibabacloud_ddoscoo20200101_py2-2.0.0.tar.gz --markdown 20240429/a/alibabacloud-ddoscoo20200101-py2/1.2.1-2.0.0/README.md --exclude *.pyd
+[2024-04-29 04:45:24] INFO root fetch - processPackages [alibabacloud-ddoscoo20200101]: Downloading https://files.pythonhosted.org/packages/41/f2/24a29f0971ecc060744d91f7d668168dda0e29f935e8d2103c81089f2e05/alibabacloud_ddoscoo20200101-2.0.0.tar.gz
+[2024-04-29 04:45:24] INFO root fetch - processPackages [mlflow-oidc-auth]: executing diffoscope
+[2024-04-29 04:45:24] INFO root fetch - processPackages [mlflow-oidc-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow_oidc_auth-1.4.0.tar.gz tmp/mlflow_oidc_auth-1.5.0.tar.gz --markdown 20240429/m/mlflow-oidc-auth/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-04-29 04:45:24] INFO root fetch - processPackages [python-sysinformer]: executing diffoscope
+[2024-04-29 04:45:24] INFO root fetch - processPackages [python-sysinformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_sysinformer-1.6.0.tar.gz tmp/python_sysinformer-1.7.0.tar.gz --markdown 20240429/p/python-sysinformer/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-29 04:45:24] INFO root fetch - processPackages [alibabacloud-ddoscoo20200101]: executing diffoscope
+[2024-04-29 04:45:24] INFO root fetch - processPackages [alibabacloud-ddoscoo20200101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ddoscoo20200101-1.2.1.tar.gz tmp/alibabacloud_ddoscoo20200101-2.0.0.tar.gz --markdown 20240429/a/alibabacloud-ddoscoo20200101/1.2.1-2.0.0/README.md --exclude *.pyd
+[2024-04-29 04:45:25] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.8.tar.gz]
+[2024-04-29 04:45:25] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.9.tar.gz]
+[2024-04-29 04:45:25] INFO root fetch - main [MainThread]: End processing [ok-script]: success
+[2024-04-29 04:45:25] INFO root fetch - processPackages [python-sysinformer]: Remove: archive file [/home/abi/fetcher/tmp/python_sysinformer-1.6.0.tar.gz]
+[2024-04-29 04:45:25] INFO root fetch - processPackages [python-sysinformer]: Remove: archive file [/home/abi/fetcher/tmp/python_sysinformer-1.7.0.tar.gz]
+[2024-04-29 04:45:25] INFO root fetch - main [MainThread]: End processing [python-sysinformer]: success
+[2024-04-29 04:45:25] INFO root fetch - processPackages [mlflow-oidc-auth]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_oidc_auth-1.4.0.tar.gz]
+[2024-04-29 04:45:25] INFO root fetch - processPackages [mlflow-oidc-auth]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_oidc_auth-1.5.0.tar.gz]
+[2024-04-29 04:45:25] INFO root fetch - main [MainThread]: End processing [mlflow-oidc-auth]: success
+[2024-04-29 04:45:26] INFO root fetch - processPackages [alibabacloud-ddoscoo20200101-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ddoscoo20200101_py2-1.2.1.tar.gz]
+[2024-04-29 04:45:26] INFO root fetch - processPackages [alibabacloud-ddoscoo20200101-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ddoscoo20200101_py2-2.0.0.tar.gz]
+[2024-04-29 04:45:26] INFO root fetch - main [MainThread]: End processing [alibabacloud-ddoscoo20200101-py2]: success
+[2024-04-29 04:45:26] INFO root fetch - processPackages [alibabacloud-ddoscoo20200101]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ddoscoo20200101-1.2.1.tar.gz]
+[2024-04-29 04:45:26] INFO root fetch - processPackages [alibabacloud-ddoscoo20200101]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ddoscoo20200101-2.0.0.tar.gz]
+[2024-04-29 04:45:26] INFO root fetch - main [MainThread]: End processing [alibabacloud-ddoscoo20200101]: success
+[2024-04-29 04:45:26] INFO root fetch - main [MainThread]: Store serial: [22978183]
