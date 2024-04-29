@@ -19832,3 +19832,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 14:59:26] INFO root fetch - processPackages [visyn-core]: Remove: archive file [/home/abi/fetcher/tmp/visyn_core-9.2.2-py3-none-any.whl.zip]
 [2024-04-29 14:59:26] INFO root fetch - main [MainThread]: End processing [visyn-core]: success
 [2024-04-29 14:59:26] INFO root fetch - main [MainThread]: Store serial: [22983760]
+[2024-04-29 15:01:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22983760]
+[2024-04-29 15:01:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-29 15:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: secretvalidate
+[2024-04-29 15:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opencti-excel-uploader
+[2024-04-29 15:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: napari-threedee
+[2024-04-29 15:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vdk-trino
+[2024-04-29 15:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fse-baro
+[2024-04-29 15:01:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: threedi-modelchecker
+[2024-04-29 15:01:36] INFO root fetch - processPackages [opencti-excel-uploader]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-29 15:01:36] INFO root fetch - processPackages [secretvalidate]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-04-29 15:01:36] INFO root fetch - processPackages [fse-baro]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-29 15:01:36] INFO root fetch - processPackages [opencti-excel-uploader]: Downloading https://files.pythonhosted.org/packages/87/73/ac0e92aab5cd77669c551615796ab750807d8425e25a9485d0db7a7d8203/opencti_excel_uploader-0.2.6.tar.gz
+[2024-04-29 15:01:36] INFO root fetch - processPackages [napari-threedee]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 15:01:36] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/2a/74/f1fedcd5b126c4af0184fc7bc616c4941f414eb51cc2fc523514708f3cae/secretvalidate-0.0.1a8.tar.gz
+[2024-04-29 15:01:36] INFO root fetch - processPackages [fse-baro]: Downloading https://files.pythonhosted.org/packages/bd/af/736c4e8afa7f9bcc9f2d0a40d18c4a17423ab20320434f06f6312cac26c6/fse_baro-0.1.4.tar.gz
+[2024-04-29 15:01:36] INFO root fetch - processPackages [vdk-trino]: New version: [0.4.948436673] Old Version: [0.4.944393829]
+[2024-04-29 15:01:36] INFO root fetch - processPackages [threedi-modelchecker]: New version: [2.7.2] Old Version: [2.7.1.dev1]
+[2024-04-29 15:01:36] INFO root fetch - processPackages [napari-threedee]: Downloading https://files.pythonhosted.org/packages/3b/70/4e892251e0c8510fee507d7cbc0832629ed70e29e75ca555e1f782195d87/napari-threedee-0.0.8.tar.gz
+[2024-04-29 15:01:36] INFO root fetch - processPackages [vdk-trino]: Downloading https://files.pythonhosted.org/packages/c1/e2/8f118d923a35360ea129ef943675e16a4c90f5b3693b85b589572e4b33ec/vdk-trino-0.4.944393829.tar.gz
+[2024-04-29 15:01:36] INFO root fetch - processPackages [opencti-excel-uploader]: Downloading https://files.pythonhosted.org/packages/86/3f/db601217b8d79d29b290f404f2fe2ba019dc5b8665cdabc067dc15789b11/opencti_excel_uploader-0.2.7.tar.gz
+[2024-04-29 15:01:36] INFO root fetch - processPackages [threedi-modelchecker]: Downloading https://files.pythonhosted.org/packages/3c/7c/330853297f7991048d5b62f720c28186e6c993fdef7292d7b64d8fade65d/threedi_modelchecker-2.7.1.dev1.tar.gz
+[2024-04-29 15:01:36] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/57/86/54b1f11aebe768d2014fd8f4bb1e90e29a764014e1104c5ccf64e6433d48/secretvalidate-0.0.1a9.tar.gz
+[2024-04-29 15:01:36] INFO root fetch - processPackages [fse-baro]: Downloading https://files.pythonhosted.org/packages/4d/d7/be07cf995806434ba783dc611e7aea2fa59c137a55a82b5d2871b910e7a2/fse_baro-0.1.5.tar.gz
+[2024-04-29 15:01:36] INFO root fetch - processPackages [opencti-excel-uploader]: executing diffoscope
+[2024-04-29 15:01:36] INFO root fetch - processPackages [opencti-excel-uploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencti_excel_uploader-0.2.6.tar.gz tmp/opencti_excel_uploader-0.2.7.tar.gz --markdown 20240429/o/opencti-excel-uploader/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-29 15:01:36] INFO root fetch - processPackages [secretvalidate]: executing diffoscope
+[2024-04-29 15:01:36] INFO root fetch - processPackages [secretvalidate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretvalidate-0.0.1a8.tar.gz tmp/secretvalidate-0.0.1a9.tar.gz --markdown 20240429/s/secretvalidate/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-04-29 15:01:36] INFO root fetch - processPackages [fse-baro]: executing diffoscope
+[2024-04-29 15:01:36] INFO root fetch - processPackages [fse-baro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fse_baro-0.1.4.tar.gz tmp/fse_baro-0.1.5.tar.gz --markdown 20240429/f/fse-baro/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-29 15:01:36] INFO root fetch - processPackages [napari-threedee]: Downloading https://files.pythonhosted.org/packages/81/1f/82e3d9c32140273bc57be3c479e8e5ee885204a3dca7be7d2476b777ac72/napari-threedee-0.0.9.tar.gz
+[2024-04-29 15:01:36] INFO root fetch - processPackages [vdk-trino]: Downloading https://files.pythonhosted.org/packages/ea/7e/14f7593a87f15edb1f40491364c0653db0d59207e2be1a435c88ed1df071/vdk-trino-0.4.948436673.tar.gz
+[2024-04-29 15:01:36] INFO root fetch - processPackages [vdk-trino]: executing diffoscope
+[2024-04-29 15:01:36] INFO root fetch - processPackages [vdk-trino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-trino-0.4.944393829.tar.gz tmp/vdk-trino-0.4.948436673.tar.gz --markdown 20240429/v/vdk-trino/0.4.944393829-0.4.948436673/README.md --exclude *.pyd
+[2024-04-29 15:01:36] INFO root fetch - processPackages [napari-threedee]: executing diffoscope
+[2024-04-29 15:01:36] INFO root fetch - processPackages [napari-threedee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-threedee-0.0.8.tar.gz tmp/napari-threedee-0.0.9.tar.gz --markdown 20240429/n/napari-threedee/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 15:01:37] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a8.tar.gz]
+[2024-04-29 15:01:37] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a9.tar.gz]
+[2024-04-29 15:01:37] INFO root fetch - main [MainThread]: End processing [secretvalidate]: success
+[2024-04-29 15:01:37] INFO root fetch - processPackages [opencti-excel-uploader]: Remove: archive file [/home/abi/fetcher/tmp/opencti_excel_uploader-0.2.6.tar.gz]
+[2024-04-29 15:01:37] INFO root fetch - processPackages [opencti-excel-uploader]: Remove: archive file [/home/abi/fetcher/tmp/opencti_excel_uploader-0.2.7.tar.gz]
+[2024-04-29 15:01:37] INFO root fetch - main [MainThread]: End processing [opencti-excel-uploader]: success
+[2024-04-29 15:01:37] INFO root fetch - processPackages [fse-baro]: Remove: archive file [/home/abi/fetcher/tmp/fse_baro-0.1.4.tar.gz]
+[2024-04-29 15:01:37] INFO root fetch - processPackages [fse-baro]: Remove: archive file [/home/abi/fetcher/tmp/fse_baro-0.1.5.tar.gz]
+[2024-04-29 15:01:37] INFO root fetch - main [MainThread]: End processing [fse-baro]: success
+[2024-04-29 15:01:37] INFO root fetch - processPackages [vdk-trino]: Remove: archive file [/home/abi/fetcher/tmp/vdk-trino-0.4.944393829.tar.gz]
+[2024-04-29 15:01:37] INFO root fetch - processPackages [vdk-trino]: Remove: archive file [/home/abi/fetcher/tmp/vdk-trino-0.4.948436673.tar.gz]
+[2024-04-29 15:01:37] INFO root fetch - main [MainThread]: End processing [vdk-trino]: success
+[2024-04-29 15:01:37] INFO root fetch - processPackages [threedi-modelchecker]: Downloading https://files.pythonhosted.org/packages/cd/1e/f072fbf97a3e5f3cf5ecc0c56b85bf779e7246735eb2b9dff5b152082158/threedi_modelchecker-2.7.2.tar.gz
+[2024-04-29 15:01:37] INFO root fetch - processPackages [napari-threedee]: Remove: archive file [/home/abi/fetcher/tmp/napari-threedee-0.0.8.tar.gz]
+[2024-04-29 15:01:37] INFO root fetch - processPackages [napari-threedee]: Remove: archive file [/home/abi/fetcher/tmp/napari-threedee-0.0.9.tar.gz]
+[2024-04-29 15:01:37] INFO root fetch - main [MainThread]: End processing [napari-threedee]: success
+[2024-04-29 15:01:37] INFO root fetch - processPackages [threedi-modelchecker]: executing diffoscope
+[2024-04-29 15:01:37] INFO root fetch - processPackages [threedi-modelchecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threedi_modelchecker-2.7.1.dev1.tar.gz tmp/threedi_modelchecker-2.7.2.tar.gz --markdown 20240429/t/threedi-modelchecker/2.7.1.dev1-2.7.2/README.md --exclude *.pyd
+[2024-04-29 15:01:39] INFO root fetch - processPackages [threedi-modelchecker]: Remove: archive file [/home/abi/fetcher/tmp/threedi_modelchecker-2.7.1.dev1.tar.gz]
+[2024-04-29 15:01:39] INFO root fetch - processPackages [threedi-modelchecker]: Remove: archive file [/home/abi/fetcher/tmp/threedi_modelchecker-2.7.2.tar.gz]
+[2024-04-29 15:01:39] INFO root fetch - main [MainThread]: End processing [threedi-modelchecker]: success
+[2024-04-29 15:01:39] INFO root fetch - main [MainThread]: Store serial: [22983778]
