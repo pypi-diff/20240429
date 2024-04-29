@@ -7217,3 +7217,33 @@
 [2024-04-29 05:17:55] INFO root fetch - processPackages [pybaseutils]: Remove: archive file [/home/abi/fetcher/tmp/pybaseutils-1.0.6.tar.gz]
 [2024-04-29 05:17:55] INFO root fetch - main [MainThread]: End processing [pybaseutils]: success
 [2024-04-29 05:17:55] INFO root fetch - main [MainThread]: Store serial: [22978325]
+[2024-04-29 05:19:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978325]
+[2024-04-29 05:20:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 05:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vlite
+[2024-04-29 05:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wikidot
+[2024-04-29 05:20:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: orbitkit
+[2024-04-29 05:20:03] INFO root fetch - processPackages [wikidot]: New version: [3.0.5] Old Version: [3.0.4]
+[2024-04-29 05:20:03] INFO root fetch - processPackages [vlite]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-29 05:20:03] INFO root fetch - processPackages [orbitkit]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-04-29 05:20:04] INFO root fetch - processPackages [vlite]: Downloading https://files.pythonhosted.org/packages/4f/c5/d700985eb2f67f948aed168df688452c4536e9e29bda942fc3458b1e4189/vlite-0.2.4.tar.gz
+[2024-04-29 05:20:04] INFO root fetch - processPackages [wikidot]: Downloading https://files.pythonhosted.org/packages/90/a9/cda0334df978d7f57c08fa63129cc04b0767c41337758d842389c0c38b81/wikidot-3.0.4.tar.gz
+[2024-04-29 05:20:04] INFO root fetch - processPackages [orbitkit]: Downloading https://files.pythonhosted.org/packages/e0/3f/8dde0d2dd6c6925d71c1f829b559f1c1507654fd4c6243fd4475e62072cb/orbitkit-0.6.3.tar.gz
+[2024-04-29 05:20:04] INFO root fetch - processPackages [vlite]: Downloading https://files.pythonhosted.org/packages/72/b7/1a54392529e538d11901ba93ec16028d7e2930246ef180cb4f78851efbb4/vlite-0.2.5.tar.gz
+[2024-04-29 05:20:04] INFO root fetch - processPackages [wikidot]: Downloading https://files.pythonhosted.org/packages/c7/9e/322c53144c49d55a65a4b2b08e25d29160c3500ae0cd017dd4266cedac15/wikidot-3.0.5.tar.gz
+[2024-04-29 05:20:04] INFO root fetch - processPackages [orbitkit]: Downloading https://files.pythonhosted.org/packages/94/b4/738b2c414f1f885063663d4e52c8d79655923e7869975ba518c57ccfa224/orbitkit-0.6.4.tar.gz
+[2024-04-29 05:20:04] INFO root fetch - processPackages [vlite]: executing diffoscope
+[2024-04-29 05:20:04] INFO root fetch - processPackages [vlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vlite-0.2.4.tar.gz tmp/vlite-0.2.5.tar.gz --markdown 20240429/v/vlite/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-29 05:20:04] INFO root fetch - processPackages [wikidot]: executing diffoscope
+[2024-04-29 05:20:04] INFO root fetch - processPackages [wikidot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikidot-3.0.4.tar.gz tmp/wikidot-3.0.5.tar.gz --markdown 20240429/w/wikidot/3.0.4-3.0.5/README.md --exclude *.pyd
+[2024-04-29 05:20:04] INFO root fetch - processPackages [orbitkit]: executing diffoscope
+[2024-04-29 05:20:04] INFO root fetch - processPackages [orbitkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbitkit-0.6.3.tar.gz tmp/orbitkit-0.6.4.tar.gz --markdown 20240429/o/orbitkit/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-04-29 05:20:05] INFO root fetch - processPackages [vlite]: Remove: archive file [/home/abi/fetcher/tmp/vlite-0.2.4.tar.gz]
+[2024-04-29 05:20:05] INFO root fetch - processPackages [vlite]: Remove: archive file [/home/abi/fetcher/tmp/vlite-0.2.5.tar.gz]
+[2024-04-29 05:20:05] INFO root fetch - main [MainThread]: End processing [vlite]: success
+[2024-04-29 05:20:05] INFO root fetch - processPackages [orbitkit]: Remove: archive file [/home/abi/fetcher/tmp/orbitkit-0.6.3.tar.gz]
+[2024-04-29 05:20:05] INFO root fetch - processPackages [orbitkit]: Remove: archive file [/home/abi/fetcher/tmp/orbitkit-0.6.4.tar.gz]
+[2024-04-29 05:20:05] INFO root fetch - main [MainThread]: End processing [orbitkit]: success
+[2024-04-29 05:20:05] INFO root fetch - processPackages [wikidot]: Remove: archive file [/home/abi/fetcher/tmp/wikidot-3.0.4.tar.gz]
+[2024-04-29 05:20:05] INFO root fetch - processPackages [wikidot]: Remove: archive file [/home/abi/fetcher/tmp/wikidot-3.0.5.tar.gz]
+[2024-04-29 05:20:05] INFO root fetch - main [MainThread]: End processing [wikidot]: success
+[2024-04-29 05:20:05] INFO root fetch - main [MainThread]: Store serial: [22978334]
