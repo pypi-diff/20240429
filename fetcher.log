@@ -17924,3 +17924,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 13:52:52] INFO root fetch - processPackages [nestipy]: Remove: archive file [/home/abi/fetcher/tmp/nestipy-0.2.6.tar.gz]
 [2024-04-29 13:52:52] INFO root fetch - main [MainThread]: End processing [nestipy]: success
 [2024-04-29 13:52:52] INFO root fetch - main [MainThread]: Store serial: [22982897]
+[2024-04-29 13:54:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982897]
+[2024-04-29 13:55:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-29 13:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cardex
+[2024-04-29 13:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MedatechUK.APY
+[2024-04-29 13:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MolScore
+[2024-04-29 13:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fse-baro
+[2024-04-29 13:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GreenLightPlus
+[2024-04-29 13:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: secretvalidate
+[2024-04-29 13:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dualPredictor
+[2024-04-29 13:55:01] INFO root fetch - processPackages [fse-baro]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-29 13:55:01] INFO root fetch - processPackages [MedatechUK.APY]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 13:55:01] INFO root fetch - processPackages [secretvalidate]: New version: [0.0.1a5] Old Version: [0.0.1a4]
+[2024-04-29 13:55:01] INFO root fetch - processPackages [GreenLightPlus]: New version: [1.2] Old Version: [1.1]
+[2024-04-29 13:55:01] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/ed/90/6109321c71166d9e1468bdc7d1da54c03f8b173d9eecb8045882335ed491/secretvalidate-0.0.1a4.tar.gz
+[2024-04-29 13:55:01] INFO root fetch - processPackages [MolScore]: New version: [1.5.3] Old Version: [1.5.2]
+[2024-04-29 13:55:01] INFO root fetch - processPackages [dualPredictor]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 13:55:01] INFO root fetch - processPackages [cardex]: New version: [0.2.0.dev9] Old Version: [0.2.0.dev8]
+[2024-04-29 13:55:02] INFO root fetch - processPackages [fse-baro]: Downloading https://files.pythonhosted.org/packages/2c/df/6eaf31beed8c53a02805fcad911a0a791ef960dde573a9411722dd928301/fse_baro-0.1.1.tar.gz
+[2024-04-29 13:55:02] INFO root fetch - processPackages [MedatechUK.APY]: Downloading https://files.pythonhosted.org/packages/54/66/e44b04686d59238130935715b731408212eda9289254d189b3b770933a45/MedatechUK.APY-0.0.8.tar.gz
+[2024-04-29 13:55:02] INFO root fetch - processPackages [GreenLightPlus]: Downloading https://files.pythonhosted.org/packages/f5/4e/d04b27b473e01c85bbdcfff6c874174218ab2dbc735b3dcc9639cfe1fc76/greenlightplus-1.1.tar.gz
+[2024-04-29 13:55:02] INFO root fetch - processPackages [cardex]: Downloading https://files.pythonhosted.org/packages/96/6e/6c4d87215e2446a0ac9bc903860b173f9fc347eb73dc8e4a21a298670a00/cardex-0.2.0.dev8.tar.gz
+[2024-04-29 13:55:02] INFO root fetch - processPackages [MolScore]: Downloading https://files.pythonhosted.org/packages/bf/e3/9bfbee7c803ccb5ce2d27781d21be5ed86eddfb852afec2bda35b0f0d9bb/MolScore-1.5.2-py3-none-any.whl
+[2024-04-29 13:55:02] INFO root fetch - processPackages [fse-baro]: Downloading https://files.pythonhosted.org/packages/2e/17/99074099f65dc30a6e9b3ffbf1a7f39327b4612ea2a5f1c9ab682fe1274b/fse_baro-0.1.2.tar.gz
+[2024-04-29 13:55:02] INFO root fetch - processPackages [dualPredictor]: Downloading https://files.pythonhosted.org/packages/b3/99/b2c5ae81b8c8c7a346d3d6f8192907802692d0c7a72ec5a607adecbd0202/dualPredictor-0.0.8.tar.gz
+[2024-04-29 13:55:02] INFO root fetch - processPackages [MedatechUK.APY]: Downloading https://files.pythonhosted.org/packages/52/05/0fec0481da7efd13dbcc9f6a4f846a517422a23374a1f4e257f08e1315e9/MedatechUK.APY-0.0.9.tar.gz
+[2024-04-29 13:55:02] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/0e/5f/5dac94fe1e963d0203295e712fdfb90177f8c19fdd3f7ffedcdc424a3b8e/secretvalidate-0.0.1a5.tar.gz
+[2024-04-29 13:55:02] INFO root fetch - processPackages [cardex]: Downloading https://files.pythonhosted.org/packages/a5/f1/936319cd5a1e0862bc33edbce29c37659ee57c4782e76613d4ce0b406196/cardex-0.2.0.dev9.tar.gz
+[2024-04-29 13:55:02] INFO root fetch - processPackages [fse-baro]: executing diffoscope
+[2024-04-29 13:55:02] INFO root fetch - processPackages [fse-baro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fse_baro-0.1.1.tar.gz tmp/fse_baro-0.1.2.tar.gz --markdown 20240429/f/fse-baro/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-29 13:55:02] WARNING root fetch - processPackages [MolScore]: Skipping package: exceeds size limit 54464062>=10485760
+[2024-04-29 13:55:02] INFO root fetch - main [MainThread]: End processing [MolScore] error
+[2024-04-29 13:55:02] INFO root fetch - processPackages [MedatechUK.APY]: executing diffoscope
+[2024-04-29 13:55:02] INFO root fetch - processPackages [MedatechUK.APY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MedatechUK.APY-0.0.8.tar.gz tmp/MedatechUK.APY-0.0.9.tar.gz --markdown 20240429/M/MedatechUK.APY/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 13:55:02] INFO root fetch - processPackages [secretvalidate]: executing diffoscope
+[2024-04-29 13:55:02] INFO root fetch - processPackages [secretvalidate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretvalidate-0.0.1a4.tar.gz tmp/secretvalidate-0.0.1a5.tar.gz --markdown 20240429/s/secretvalidate/0.0.1a4-0.0.1a5/README.md --exclude *.pyd
+[2024-04-29 13:55:02] INFO root fetch - processPackages [GreenLightPlus]: Downloading https://files.pythonhosted.org/packages/27/87/f5a38688514a5c0de68bf742518c18d902ee311b88460501d84edd82568b/greenlightplus-1.2.tar.gz
+[2024-04-29 13:55:02] INFO root fetch - processPackages [cardex]: executing diffoscope
+[2024-04-29 13:55:02] INFO root fetch - processPackages [cardex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardex-0.2.0.dev8.tar.gz tmp/cardex-0.2.0.dev9.tar.gz --markdown 20240429/c/cardex/0.2.0.dev8-0.2.0.dev9/README.md --exclude *.pyd
+[2024-04-29 13:55:02] INFO root fetch - processPackages [GreenLightPlus]: executing diffoscope
+[2024-04-29 13:55:02] INFO root fetch - processPackages [GreenLightPlus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greenlightplus-1.1.tar.gz tmp/greenlightplus-1.2.tar.gz --markdown 20240429/G/GreenLightPlus/1.1-1.2/README.md --exclude *.pyd
+[2024-04-29 13:55:02] INFO root fetch - processPackages [dualPredictor]: Downloading https://files.pythonhosted.org/packages/aa/35/aece7cff1e9e7885b4a6cca30122595e0619daf7e03f425ec434392cf6c8/dualPredictor-0.0.9.tar.gz
+[2024-04-29 13:55:02] INFO root fetch - processPackages [dualPredictor]: executing diffoscope
+[2024-04-29 13:55:02] INFO root fetch - processPackages [dualPredictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dualPredictor-0.0.8.tar.gz tmp/dualPredictor-0.0.9.tar.gz --markdown 20240429/d/dualPredictor/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 13:55:03] INFO root fetch - processPackages [fse-baro]: Remove: archive file [/home/abi/fetcher/tmp/fse_baro-0.1.1.tar.gz]
+[2024-04-29 13:55:03] INFO root fetch - processPackages [fse-baro]: Remove: archive file [/home/abi/fetcher/tmp/fse_baro-0.1.2.tar.gz]
+[2024-04-29 13:55:03] INFO root fetch - main [MainThread]: End processing [fse-baro]: success
+[2024-04-29 13:55:03] INFO root fetch - processPackages [cardex]: Remove: archive file [/home/abi/fetcher/tmp/cardex-0.2.0.dev8.tar.gz]
+[2024-04-29 13:55:03] INFO root fetch - processPackages [cardex]: Remove: archive file [/home/abi/fetcher/tmp/cardex-0.2.0.dev9.tar.gz]
+[2024-04-29 13:55:03] INFO root fetch - main [MainThread]: End processing [cardex]: success
+[2024-04-29 13:55:03] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a4.tar.gz]
+[2024-04-29 13:55:03] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a5.tar.gz]
+[2024-04-29 13:55:03] INFO root fetch - main [MainThread]: End processing [secretvalidate]: success
+[2024-04-29 13:55:03] INFO root fetch - processPackages [GreenLightPlus]: Remove: archive file [/home/abi/fetcher/tmp/greenlightplus-1.1.tar.gz]
+[2024-04-29 13:55:03] INFO root fetch - processPackages [GreenLightPlus]: Remove: archive file [/home/abi/fetcher/tmp/greenlightplus-1.2.tar.gz]
+[2024-04-29 13:55:03] INFO root fetch - main [MainThread]: End processing [GreenLightPlus]: success
+[2024-04-29 13:55:03] INFO root fetch - processPackages [dualPredictor]: Remove: archive file [/home/abi/fetcher/tmp/dualPredictor-0.0.8.tar.gz]
+[2024-04-29 13:55:03] INFO root fetch - processPackages [dualPredictor]: Remove: archive file [/home/abi/fetcher/tmp/dualPredictor-0.0.9.tar.gz]
+[2024-04-29 13:55:03] INFO root fetch - main [MainThread]: End processing [dualPredictor]: success
+[2024-04-29 13:55:03] INFO root fetch - processPackages [MedatechUK.APY]: Remove: archive file [/home/abi/fetcher/tmp/MedatechUK.APY-0.0.8.tar.gz]
+[2024-04-29 13:55:03] INFO root fetch - processPackages [MedatechUK.APY]: Remove: archive file [/home/abi/fetcher/tmp/MedatechUK.APY-0.0.9.tar.gz]
+[2024-04-29 13:55:03] INFO root fetch - main [MainThread]: End processing [MedatechUK.APY]: success
+[2024-04-29 13:55:03] INFO root fetch - main [MainThread]: Store serial: [22982918]
