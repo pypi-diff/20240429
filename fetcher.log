@@ -7845,3 +7845,30 @@
 [2024-04-29 06:12:20] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
 [2024-04-29 06:12:20] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
 [2024-04-29 06:12:20] INFO root fetch - main [MainThread]: Store serial: [22978558]
+[2024-04-29 06:14:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978558]
+[2024-04-29 06:14:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 06:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simpeg-drivers
+[2024-04-29 06:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cp20240429
+[2024-04-29 06:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-115
+[2024-04-29 06:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PepperPepper
+[2024-04-29 06:14:29] WARNING root fetch - processPackages [simpeg-drivers]: Skipping, unable to determine old version
+[2024-04-29 06:14:29] INFO root fetch - main [MainThread]: End processing [simpeg-drivers] error
+[2024-04-29 06:14:29] INFO root fetch - processPackages [python-115]: New version: [0.0.7.3] Old Version: [0.0.7.2]
+[2024-04-29 06:14:29] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/6d/24/6303d5a4e955ed0b62c094e085252ff41090dc134d6f36896845e12469bf/python_115-0.0.7.2.tar.gz
+[2024-04-29 06:14:29] WARNING root fetch - processPackages [cp20240429]: Skipping, unable to determine old version
+[2024-04-29 06:14:29] INFO root fetch - main [MainThread]: End processing [cp20240429] error
+[2024-04-29 06:14:29] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-29 06:14:29] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/cd/34/1716267012504d6c849cf995a9dd0e1aac40c6adcb9be96e9d64e561ecda/pepperpepper-0.0.2.tar.gz
+[2024-04-29 06:14:29] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/01/66/617114f6680e456705e5761683611348255d74f5e6df4d926b6f253ed6ad/python_115-0.0.7.3.tar.gz
+[2024-04-29 06:14:29] INFO root fetch - processPackages [python-115]: executing diffoscope
+[2024-04-29 06:14:29] INFO root fetch - processPackages [python-115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_115-0.0.7.2.tar.gz tmp/python_115-0.0.7.3.tar.gz --markdown 20240429/p/python-115/0.0.7.2-0.0.7.3/README.md --exclude *.pyd
+[2024-04-29 06:14:29] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/b4/5f/8424c60452cef69296fe38459b3dc9dc0af914e13387d12911dbca5217bf/pepperpepper-0.0.3.tar.gz
+[2024-04-29 06:14:29] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-04-29 06:14:29] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.2.tar.gz tmp/pepperpepper-0.0.3.tar.gz --markdown 20240429/P/PepperPepper/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-29 06:14:30] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.7.2.tar.gz]
+[2024-04-29 06:14:30] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.7.3.tar.gz]
+[2024-04-29 06:14:30] INFO root fetch - main [MainThread]: End processing [python-115]: success
+[2024-04-29 06:14:30] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.2.tar.gz]
+[2024-04-29 06:14:30] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.3.tar.gz]
+[2024-04-29 06:14:30] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-04-29 06:14:30] INFO root fetch - main [MainThread]: Store serial: [22978572]
