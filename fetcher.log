@@ -17845,3 +17845,82 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 13:50:41] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.7.dev2.tar.gz]
 [2024-04-29 13:50:41] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2024-04-29 13:50:41] INFO root fetch - main [MainThread]: Store serial: [22982869]
+[2024-04-29 13:52:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982869]
+[2024-04-29 13:52:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-29 13:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-intel
+[2024-04-29 13:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly-intel
+[2024-04-29 13:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lukasdata
+[2024-04-29 13:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nestipy
+[2024-04-29 13:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fse-baro
+[2024-04-29 13:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keelson
+[2024-04-29 13:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: secretscraper
+[2024-04-29 13:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pcdr
+[2024-04-29 13:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tonkord.py
+[2024-04-29 13:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: secretvalidate
+[2024-04-29 13:52:50] WARNING root fetch - processPackages [tonkord.py]: Skipping, unable to determine old version
+[2024-04-29 13:52:50] INFO root fetch - main [MainThread]: End processing [tonkord.py] error
+[2024-04-29 13:52:50] INFO root fetch - processPackages [secretscraper]: New version: [1.3.8] Old Version: [1.3.7.1]
+[2024-04-29 13:52:50] INFO root fetch - processPackages [lukasdata]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-04-29 13:52:50] INFO root fetch - processPackages [secretvalidate]: New version: [0.0.1a4] Old Version: [0.0.1a3]
+[2024-04-29 13:52:50] INFO root fetch - processPackages [keelson]: New version: [0.3.1rc9] Old Version: [0.3.1rc8]
+[2024-04-29 13:52:50] INFO root fetch - processPackages [nestipy]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-29 13:52:50] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.17.0.dev20240429] Old Version: [2.17.0.dev20240428]
+[2024-04-29 13:52:50] INFO root fetch - processPackages [fse-baro]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-29 13:52:50] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/86/7d/41b36592f5a9d78dbbe550e7a39756b1a5e8ef8130a5d9f4af50a457ce5b/secretvalidate-0.0.1a3.tar.gz
+[2024-04-29 13:52:50] INFO root fetch - processPackages [pcdr]: New version: [1.0.0a3] Old Version: [1.0.0a2]
+[2024-04-29 13:52:50] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.17.0.dev20240429] Old Version: [2.17.0.dev20240428]
+[2024-04-29 13:52:50] INFO root fetch - processPackages [secretscraper]: Downloading https://files.pythonhosted.org/packages/07/72/551150c3f878c57de1d0ddfe46ca837fa62e4766a4af590e92fb88d03cc5/secretscraper-1.3.7.1.tar.gz
+[2024-04-29 13:52:51] INFO root fetch - processPackages [lukasdata]: Downloading https://files.pythonhosted.org/packages/0f/c7/a92a05e9877169913c84d5df13a9b3670241600667426a0586a5d5dfb6ac/lukasdata-1.2.3.tar.gz
+[2024-04-29 13:52:51] INFO root fetch - processPackages [nestipy]: Downloading https://files.pythonhosted.org/packages/cc/4c/f543ee0a9fcd831dc736514e39c0e11c7064ee5e7a09873a9247030cc026/nestipy-0.2.5.tar.gz
+[2024-04-29 13:52:51] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/c6/e7/74deb2f4692ca724892622c48d5c9a3300000f59c46ecd7f1ca9fbf2937f/keelson-0.3.1rc8-py3-none-any.whl
+[2024-04-29 13:52:51] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/67/25/253205ccb2fab3e0a9a1dcedd8fe569edc51aea65cf1ff65bd41833ee886/tf_nightly_intel-2.17.0.dev20240428-cp39-cp39-win_amd64.whl
+[2024-04-29 13:52:51] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/67/25/253205ccb2fab3e0a9a1dcedd8fe569edc51aea65cf1ff65bd41833ee886/tf_nightly_intel-2.17.0.dev20240428-cp39-cp39-win_amd64.whl
+[2024-04-29 13:52:51] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 213270835>=10485760
+[2024-04-29 13:52:51] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2024-04-29 13:52:51] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 213270835>=10485760
+[2024-04-29 13:52:51] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2024-04-29 13:52:51] INFO root fetch - processPackages [fse-baro]: Downloading https://files.pythonhosted.org/packages/2c/df/6eaf31beed8c53a02805fcad911a0a791ef960dde573a9411722dd928301/fse_baro-0.1.1.tar.gz
+[2024-04-29 13:52:51] INFO root fetch - processPackages [pcdr]: Downloading https://files.pythonhosted.org/packages/d7/c1/a07d69b717da18513109581b62c7a8a0a77648f68d1489333245629dc5f2/pcdr-1.0.0a2.tar.gz
+[2024-04-29 13:52:51] INFO root fetch - processPackages [lukasdata]: Downloading https://files.pythonhosted.org/packages/2c/de/9e2cdd7d6ea871fae07e23ac6b6ea9fd5683a180087ec5a219a3c0a8568f/lukasdata-1.2.4.tar.gz
+[2024-04-29 13:52:51] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/d3/ac/b73a3ad73043384f594b9564cff3200eead0fca16963d71069905057ba4e/keelson-0.3.1rc9-py3-none-any.whl
+[2024-04-29 13:52:51] INFO root fetch - processPackages [secretscraper]: Downloading https://files.pythonhosted.org/packages/b6/0a/337cb892c1bc7436d7d5c0eb958976a5db159c460a55bbe9006362b5d28d/secretscraper-1.3.8.tar.gz
+[2024-04-29 13:52:51] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/ed/90/6109321c71166d9e1468bdc7d1da54c03f8b173d9eecb8045882335ed491/secretvalidate-0.0.1a4.tar.gz
+[2024-04-29 13:52:51] INFO root fetch - processPackages [nestipy]: Downloading https://files.pythonhosted.org/packages/0c/ba/7b0e7d4bc736b138a9cf22adec2caf5adcd56d4c18ac0ab48583ba5c4aaa/nestipy-0.2.6.tar.gz
+[2024-04-29 13:52:51] INFO root fetch - processPackages [lukasdata]: executing diffoscope
+[2024-04-29 13:52:51] INFO root fetch - processPackages [lukasdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lukasdata-1.2.3.tar.gz tmp/lukasdata-1.2.4.tar.gz --markdown 20240429/l/lukasdata/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-04-29 13:52:51] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-04-29 13:52:51] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.3.1rc8-py3-none-any.whl.zip tmp/keelson-0.3.1rc9-py3-none-any.whl.zip --markdown 20240429/k/keelson/0.3.1rc8-0.3.1rc9/README.md --exclude *.pyd
+[2024-04-29 13:52:51] INFO root fetch - processPackages [secretscraper]: executing diffoscope
+[2024-04-29 13:52:51] INFO root fetch - processPackages [secretscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretscraper-1.3.7.1.tar.gz tmp/secretscraper-1.3.8.tar.gz --markdown 20240429/s/secretscraper/1.3.7.1-1.3.8/README.md --exclude *.pyd
+[2024-04-29 13:52:51] INFO root fetch - processPackages [secretvalidate]: executing diffoscope
+[2024-04-29 13:52:51] INFO root fetch - processPackages [secretvalidate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretvalidate-0.0.1a3.tar.gz tmp/secretvalidate-0.0.1a4.tar.gz --markdown 20240429/s/secretvalidate/0.0.1a3-0.0.1a4/README.md --exclude *.pyd
+[2024-04-29 13:52:51] INFO root fetch - processPackages [nestipy]: executing diffoscope
+[2024-04-29 13:52:51] INFO root fetch - processPackages [nestipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestipy-0.2.5.tar.gz tmp/nestipy-0.2.6.tar.gz --markdown 20240429/n/nestipy/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-29 13:52:51] INFO root fetch - processPackages [fse-baro]: Downloading https://files.pythonhosted.org/packages/2e/17/99074099f65dc30a6e9b3ffbf1a7f39327b4612ea2a5f1c9ab682fe1274b/fse_baro-0.1.2.tar.gz
+[2024-04-29 13:52:51] INFO root fetch - processPackages [pcdr]: Downloading https://files.pythonhosted.org/packages/a6/84/71278b8c3ca7fbf1de7f107c38883a200918d329f55cf1c4957644df97b4/pcdr-1.0.0a3.tar.gz
+[2024-04-29 13:52:51] INFO root fetch - processPackages [fse-baro]: executing diffoscope
+[2024-04-29 13:52:51] INFO root fetch - processPackages [fse-baro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fse_baro-0.1.1.tar.gz tmp/fse_baro-0.1.2.tar.gz --markdown 20240429/f/fse-baro/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-29 13:52:51] INFO root fetch - processPackages [pcdr]: executing diffoscope
+[2024-04-29 13:52:51] INFO root fetch - processPackages [pcdr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcdr-1.0.0a2.tar.gz tmp/pcdr-1.0.0a3.tar.gz --markdown 20240429/p/pcdr/1.0.0a2-1.0.0a3/README.md --exclude *.pyd
+[2024-04-29 13:52:52] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a3.tar.gz]
+[2024-04-29 13:52:52] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a4.tar.gz]
+[2024-04-29 13:52:52] INFO root fetch - main [MainThread]: End processing [secretvalidate]: success
+[2024-04-29 13:52:52] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.1rc8-py3-none-any.whl.zip]
+[2024-04-29 13:52:52] INFO root fetch - processPackages [lukasdata]: Remove: archive file [/home/abi/fetcher/tmp/lukasdata-1.2.3.tar.gz]
+[2024-04-29 13:52:52] INFO root fetch - processPackages [lukasdata]: Remove: archive file [/home/abi/fetcher/tmp/lukasdata-1.2.4.tar.gz]
+[2024-04-29 13:52:52] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.1rc9-py3-none-any.whl.zip]
+[2024-04-29 13:52:52] INFO root fetch - main [MainThread]: End processing [lukasdata]: success
+[2024-04-29 13:52:52] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-04-29 13:52:52] INFO root fetch - processPackages [fse-baro]: Remove: archive file [/home/abi/fetcher/tmp/fse_baro-0.1.1.tar.gz]
+[2024-04-29 13:52:52] INFO root fetch - processPackages [fse-baro]: Remove: archive file [/home/abi/fetcher/tmp/fse_baro-0.1.2.tar.gz]
+[2024-04-29 13:52:52] INFO root fetch - main [MainThread]: End processing [fse-baro]: success
+[2024-04-29 13:52:52] INFO root fetch - processPackages [secretscraper]: Remove: archive file [/home/abi/fetcher/tmp/secretscraper-1.3.7.1.tar.gz]
+[2024-04-29 13:52:52] INFO root fetch - processPackages [secretscraper]: Remove: archive file [/home/abi/fetcher/tmp/secretscraper-1.3.8.tar.gz]
+[2024-04-29 13:52:52] INFO root fetch - main [MainThread]: End processing [secretscraper]: success
+[2024-04-29 13:52:52] INFO root fetch - processPackages [pcdr]: Remove: archive file [/home/abi/fetcher/tmp/pcdr-1.0.0a2.tar.gz]
+[2024-04-29 13:52:52] INFO root fetch - processPackages [pcdr]: Remove: archive file [/home/abi/fetcher/tmp/pcdr-1.0.0a3.tar.gz]
+[2024-04-29 13:52:52] INFO root fetch - main [MainThread]: End processing [pcdr]: success
+[2024-04-29 13:52:52] INFO root fetch - processPackages [nestipy]: Remove: archive file [/home/abi/fetcher/tmp/nestipy-0.2.5.tar.gz]
+[2024-04-29 13:52:52] INFO root fetch - processPackages [nestipy]: Remove: archive file [/home/abi/fetcher/tmp/nestipy-0.2.6.tar.gz]
+[2024-04-29 13:52:52] INFO root fetch - main [MainThread]: End processing [nestipy]: success
+[2024-04-29 13:52:52] INFO root fetch - main [MainThread]: Store serial: [22982897]
