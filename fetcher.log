@@ -15845,3 +15845,48 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 12:39:44] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2024-04-29 12:39:44] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2024-04-29 12:39:44] INFO root fetch - main [MainThread]: Store serial: [22982139]
+[2024-04-29 12:41:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982139]
+[2024-04-29 12:41:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-29 12:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wurlitzer
+[2024-04-29 12:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: decoutilities
+[2024-04-29 12:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pelican-series
+[2024-04-29 12:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webviewpy
+[2024-04-29 12:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lsdensities
+[2024-04-29 12:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xformers
+[2024-04-29 12:41:53] INFO root fetch - processPackages [decoutilities]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-29 12:41:53] WARNING root fetch - processPackages [webviewpy]: Skipping, unable to determine old version
+[2024-04-29 12:41:53] INFO root fetch - main [MainThread]: End processing [webviewpy] error
+[2024-04-29 12:41:53] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/c1/a9/4367b77ef1c286bc095f7b16bbbed8216887d515d2dd3196f3a523d3508d/decoutilities-0.1.2.tar.gz
+[2024-04-29 12:41:53] INFO root fetch - processPackages [pelican-series]: New version: [3.0.0] Old Version: [2.1.0]
+[2024-04-29 12:41:53] WARNING root fetch - processPackages [lsdensities]: Skipping, unable to determine old version
+[2024-04-29 12:41:53] INFO root fetch - main [MainThread]: End processing [lsdensities] error
+[2024-04-29 12:41:53] INFO root fetch - processPackages [wurlitzer]: New version: [3.1.0] Old Version: [3.0.3]
+[2024-04-29 12:41:54] INFO root fetch - processPackages [xformers]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 12:41:54] INFO root fetch - processPackages [wurlitzer]: Downloading https://files.pythonhosted.org/packages/21/c1/846d54693433ba1ad33d09d47e858fba41c3f7de9b6ba15ac338c29cb6bb/wurlitzer-3.0.3.tar.gz
+[2024-04-29 12:41:54] INFO root fetch - processPackages [pelican-series]: Downloading https://files.pythonhosted.org/packages/7f/65/0bb2dc5851d0c278ba8c5381abf9ba428d30fe6add69b4c5cac1730d67ac/pelican-series-2.1.0.tar.gz
+[2024-04-29 12:41:54] INFO root fetch - processPackages [xformers]: Downloading https://files.pythonhosted.org/packages/81/d6/709a1f765f8ecb6217ecd010e71f23c871a6cacdf837e1186c057eb0372f/xformers-0.0.8.tar.gz
+[2024-04-29 12:41:54] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/46/b9/3c6859da34bec5268f5e1bcbbe22e2f3cd4f06209e0bab22c03a103a57ba/decoutilities-0.1.3.tar.gz
+[2024-04-29 12:41:54] INFO root fetch - processPackages [decoutilities]: executing diffoscope
+[2024-04-29 12:41:54] INFO root fetch - processPackages [decoutilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decoutilities-0.1.2.tar.gz tmp/decoutilities-0.1.3.tar.gz --markdown 20240429/d/decoutilities/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-29 12:41:54] INFO root fetch - processPackages [wurlitzer]: Downloading https://files.pythonhosted.org/packages/7b/4a/8fdefccb188c37992d8c7c5922b89aaa6cbf7d738a8798f92109ed7d4212/wurlitzer-3.1.0.tar.gz
+[2024-04-29 12:41:54] INFO root fetch - processPackages [pelican-series]: Downloading https://files.pythonhosted.org/packages/44/13/bc65ef34fbb921a8a0c56f4fc77b33fd0ebf1e8e989ef2fa24ce42e9453b/pelican_series-3.0.0.tar.gz
+[2024-04-29 12:41:54] INFO root fetch - processPackages [xformers]: Downloading https://files.pythonhosted.org/packages/8f/c2/9cfed3bb83e46be252b4a2e9a75ebb4c8a0f9df6cbb228b3646048a7d3c4/xformers-0.0.9.tar.gz
+[2024-04-29 12:41:54] INFO root fetch - processPackages [wurlitzer]: executing diffoscope
+[2024-04-29 12:41:54] INFO root fetch - processPackages [wurlitzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wurlitzer-3.0.3.tar.gz tmp/wurlitzer-3.1.0.tar.gz --markdown 20240429/w/wurlitzer/3.0.3-3.1.0/README.md --exclude *.pyd
+[2024-04-29 12:41:54] INFO root fetch - processPackages [pelican-series]: executing diffoscope
+[2024-04-29 12:41:54] INFO root fetch - processPackages [pelican-series]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pelican-series-2.1.0.tar.gz tmp/pelican_series-3.0.0.tar.gz --markdown 20240429/p/pelican-series/2.1.0-3.0.0/README.md --exclude *.pyd
+[2024-04-29 12:41:54] INFO root fetch - processPackages [xformers]: executing diffoscope
+[2024-04-29 12:41:54] INFO root fetch - processPackages [xformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xformers-0.0.8.tar.gz tmp/xformers-0.0.9.tar.gz --markdown 20240429/x/xformers/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 12:41:55] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.1.2.tar.gz]
+[2024-04-29 12:41:55] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.1.3.tar.gz]
+[2024-04-29 12:41:55] INFO root fetch - main [MainThread]: End processing [decoutilities]: success
+[2024-04-29 12:41:55] INFO root fetch - processPackages [wurlitzer]: Remove: archive file [/home/abi/fetcher/tmp/wurlitzer-3.0.3.tar.gz]
+[2024-04-29 12:41:55] INFO root fetch - processPackages [wurlitzer]: Remove: archive file [/home/abi/fetcher/tmp/wurlitzer-3.1.0.tar.gz]
+[2024-04-29 12:41:55] INFO root fetch - main [MainThread]: End processing [wurlitzer]: success
+[2024-04-29 12:41:55] INFO root fetch - processPackages [pelican-series]: Remove: archive file [/home/abi/fetcher/tmp/pelican-series-2.1.0.tar.gz]
+[2024-04-29 12:41:55] INFO root fetch - processPackages [pelican-series]: Remove: archive file [/home/abi/fetcher/tmp/pelican_series-3.0.0.tar.gz]
+[2024-04-29 12:41:55] INFO root fetch - main [MainThread]: End processing [pelican-series]: success
+[2024-04-29 12:41:55] INFO root fetch - processPackages [xformers]: Remove: archive file [/home/abi/fetcher/tmp/xformers-0.0.8.tar.gz]
+[2024-04-29 12:41:55] INFO root fetch - processPackages [xformers]: Remove: archive file [/home/abi/fetcher/tmp/xformers-0.0.9.tar.gz]
+[2024-04-29 12:41:55] INFO root fetch - main [MainThread]: End processing [xformers]: success
+[2024-04-29 12:41:55] INFO root fetch - main [MainThread]: Store serial: [22982158]
