@@ -7052,3 +7052,29 @@
 [2024-04-29 04:56:22] INFO root fetch - processPackages [dvtag]: Remove: archive file [/home/abi/fetcher/tmp/dvtag-0.7.2.tar.gz]
 [2024-04-29 04:56:22] INFO root fetch - main [MainThread]: End processing [dvtag]: success
 [2024-04-29 04:56:22] INFO root fetch - main [MainThread]: Store serial: [22978238]
+[2024-04-29 04:58:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978238]
+[2024-04-29 04:58:32] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-29 05:00:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978254]
+[2024-04-29 05:00:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 05:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-chat-handler
+[2024-04-29 05:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: umbrella-monitor
+[2024-04-29 05:00:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fog-x
+[2024-04-29 05:00:37] INFO root fetch - processPackages [streamlit-chat-handler]: New version: [0.1.4.dev3] Old Version: [0.1.4.dev2]
+[2024-04-29 05:00:37] WARNING root fetch - processPackages [umbrella-monitor]: Skipping, unable to determine old version
+[2024-04-29 05:00:37] INFO root fetch - processPackages [fog-x]: New version: [0.1.0b3] Old Version: [0.1.0b2]
+[2024-04-29 05:00:37] INFO root fetch - main [MainThread]: End processing [umbrella-monitor] error
+[2024-04-29 05:00:37] INFO root fetch - processPackages [fog-x]: Downloading https://files.pythonhosted.org/packages/67/4a/b288424ecbb87de54fa6c13e02698ec9a371c3e05d4575134ffe5ba46960/fog_x-0.1.0b2.tar.gz
+[2024-04-29 05:00:37] INFO root fetch - processPackages [streamlit-chat-handler]: Downloading https://files.pythonhosted.org/packages/99/6d/4964aaaa868809e2bf8a1b4425856a77b3f51498743ce36b18a1c219e02c/streamlit_chat_handler-0.1.4.dev2.tar.gz
+[2024-04-29 05:00:37] INFO root fetch - processPackages [fog-x]: Downloading https://files.pythonhosted.org/packages/30/c2/e9f0a9befd283a5a96355eb295f2a3694b4c0bf94a0c51bd0113e1b13a5b/fog_x-0.1.0b3.tar.gz
+[2024-04-29 05:00:37] INFO root fetch - processPackages [streamlit-chat-handler]: Downloading https://files.pythonhosted.org/packages/53/80/816635f1859ea4552c66942fca093c389960e9db551d23b130d3eb4323d8/streamlit_chat_handler-0.1.4.dev3.tar.gz
+[2024-04-29 05:00:37] INFO root fetch - processPackages [fog-x]: executing diffoscope
+[2024-04-29 05:00:37] INFO root fetch - processPackages [fog-x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fog_x-0.1.0b2.tar.gz tmp/fog_x-0.1.0b3.tar.gz --markdown 20240429/f/fog-x/0.1.0b2-0.1.0b3/README.md --exclude *.pyd
+[2024-04-29 05:00:37] INFO root fetch - processPackages [streamlit-chat-handler]: executing diffoscope
+[2024-04-29 05:00:37] INFO root fetch - processPackages [streamlit-chat-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_chat_handler-0.1.4.dev2.tar.gz tmp/streamlit_chat_handler-0.1.4.dev3.tar.gz --markdown 20240429/s/streamlit-chat-handler/0.1.4.dev2-0.1.4.dev3/README.md --exclude *.pyd
+[2024-04-29 05:00:38] INFO root fetch - processPackages [streamlit-chat-handler]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chat_handler-0.1.4.dev2.tar.gz]
+[2024-04-29 05:00:38] INFO root fetch - processPackages [streamlit-chat-handler]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chat_handler-0.1.4.dev3.tar.gz]
+[2024-04-29 05:00:38] INFO root fetch - main [MainThread]: End processing [streamlit-chat-handler]: success
+[2024-04-29 05:00:38] INFO root fetch - processPackages [fog-x]: Remove: archive file [/home/abi/fetcher/tmp/fog_x-0.1.0b2.tar.gz]
+[2024-04-29 05:00:38] INFO root fetch - processPackages [fog-x]: Remove: archive file [/home/abi/fetcher/tmp/fog_x-0.1.0b3.tar.gz]
+[2024-04-29 05:00:38] INFO root fetch - main [MainThread]: End processing [fog-x]: success
+[2024-04-29 05:00:38] INFO root fetch - main [MainThread]: Store serial: [22978266]
