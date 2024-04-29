@@ -9268,3 +9268,45 @@
 [2024-04-29 07:55:27] INFO root fetch - processPackages [smtp-proxy]: Remove: archive file [/home/abi/fetcher/tmp/smtp_proxy-0.1.7.tar.gz]
 [2024-04-29 07:55:27] INFO root fetch - main [MainThread]: End processing [smtp-proxy]: success
 [2024-04-29 07:55:27] INFO root fetch - main [MainThread]: Store serial: [22979215]
+[2024-04-29 07:57:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979215]
+[2024-04-29 07:57:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 07:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jh2
+[2024-04-29 07:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cmdcomp
+[2024-04-29 07:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azure-mgmt-eventgrid
+[2024-04-29 07:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: labcodes
+[2024-04-29 07:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easylogger4dev-alpha
+[2024-04-29 07:57:36] INFO root fetch - processPackages [easylogger4dev-alpha]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-29 07:57:36] INFO root fetch - processPackages [easylogger4dev-alpha]: Downloading https://files.pythonhosted.org/packages/1d/a5/5c9e17d8d9e22bb87a9e2f20790c9ba42e99b6d1b3eaa66a850f3776a2c5/easylogger4dev_alpha-0.1.1.tar.gz
+[2024-04-29 07:57:36] WARNING root fetch - processPackages [labcodes]: Skipping, unable to determine old version
+[2024-04-29 07:57:36] INFO root fetch - main [MainThread]: End processing [labcodes] error
+[2024-04-29 07:57:36] INFO root fetch - processPackages [cmdcomp]: New version: [2.6.0] Old Version: [2.5.4]
+[2024-04-29 07:57:36] INFO root fetch - processPackages [jh2]: New version: [5.0.2] Old Version: [5.0.1]
+[2024-04-29 07:57:36] INFO root fetch - processPackages [cmdcomp]: Downloading https://files.pythonhosted.org/packages/b8/a5/24ddd1a7fce5a6716a7bae1644e1f397442393d5adaa61898274d70602a3/cmdcomp-2.5.4.tar.gz
+[2024-04-29 07:57:36] INFO root fetch - processPackages [azure-mgmt-eventgrid]: New version: [9.0.0] Old Version: [8.0.0b1]
+[2024-04-29 07:57:37] INFO root fetch - processPackages [easylogger4dev-alpha]: Downloading https://files.pythonhosted.org/packages/c7/ac/63f5fa61727379eba15e5e4d05ebbb0a9bb4ac68d6a999e17a7a81011917/easylogger4dev_alpha-0.1.2.tar.gz
+[2024-04-29 07:57:37] INFO root fetch - processPackages [jh2]: Downloading https://files.pythonhosted.org/packages/26/4a/55a8a04ea4a8b408f9b04fc2face5131f500a214f6ec7c4ad7d2f6ed131a/jh2-5.0.1.tar.gz
+[2024-04-29 07:57:37] INFO root fetch - processPackages [azure-mgmt-eventgrid]: Downloading https://files.pythonhosted.org/packages/84/0f/8ac5a0fab60ddac71f85560de4b851f3ef47a32b2f2a2e633346068e775c/azure-mgmt-eventgrid-8.0.0b1.zip
+[2024-04-29 07:57:37] INFO root fetch - processPackages [easylogger4dev-alpha]: executing diffoscope
+[2024-04-29 07:57:37] INFO root fetch - processPackages [easylogger4dev-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easylogger4dev_alpha-0.1.1.tar.gz tmp/easylogger4dev_alpha-0.1.2.tar.gz --markdown 20240429/e/easylogger4dev-alpha/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-29 07:57:37] INFO root fetch - processPackages [cmdcomp]: Downloading https://files.pythonhosted.org/packages/33/35/456c27f38956b826020f353b691eaa4298c79a4a102d4a99e4f98286d8f6/cmdcomp-2.6.0.tar.gz
+[2024-04-29 07:57:37] INFO root fetch - processPackages [cmdcomp]: executing diffoscope
+[2024-04-29 07:57:37] INFO root fetch - processPackages [cmdcomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmdcomp-2.5.4.tar.gz tmp/cmdcomp-2.6.0.tar.gz --markdown 20240429/c/cmdcomp/2.5.4-2.6.0/README.md --exclude *.pyd
+[2024-04-29 07:57:37] INFO root fetch - processPackages [azure-mgmt-eventgrid]: Downloading https://files.pythonhosted.org/packages/c4/d4/081833d711a1e7e5159febc0351ff4b72800d3a6fe4c1961ceeecb9b29f9/azure-mgmt-eventgrid-9.0.0.zip
+[2024-04-29 07:57:37] INFO root fetch - processPackages [azure-mgmt-eventgrid]: executing diffoscope
+[2024-04-29 07:57:37] INFO root fetch - processPackages [azure-mgmt-eventgrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-eventgrid-8.0.0b1.zip tmp/azure-mgmt-eventgrid-9.0.0.zip --markdown 20240429/a/azure-mgmt-eventgrid/8.0.0b1-9.0.0/README.md --exclude *.pyd
+[2024-04-29 07:57:37] INFO root fetch - processPackages [jh2]: Downloading https://files.pythonhosted.org/packages/fe/08/1cde5ba16189095024c0a4681bfaa111d8b4b490322b5363b05f7a0e8d2a/jh2-5.0.2-pp38-pypy38_pp73-macosx_10_12_x86_64.whl
+[2024-04-29 07:57:37] INFO root fetch - processPackages [easylogger4dev-alpha]: Remove: archive file [/home/abi/fetcher/tmp/easylogger4dev_alpha-0.1.1.tar.gz]
+[2024-04-29 07:57:37] INFO root fetch - processPackages [easylogger4dev-alpha]: Remove: archive file [/home/abi/fetcher/tmp/easylogger4dev_alpha-0.1.2.tar.gz]
+[2024-04-29 07:57:37] INFO root fetch - main [MainThread]: End processing [easylogger4dev-alpha]: success
+[2024-04-29 07:57:37] INFO root fetch - processPackages [cmdcomp]: Remove: archive file [/home/abi/fetcher/tmp/cmdcomp-2.5.4.tar.gz]
+[2024-04-29 07:57:37] INFO root fetch - processPackages [cmdcomp]: Remove: archive file [/home/abi/fetcher/tmp/cmdcomp-2.6.0.tar.gz]
+[2024-04-29 07:57:37] INFO root fetch - main [MainThread]: End processing [cmdcomp]: success
+[2024-04-29 07:57:38] INFO root fetch - processPackages [azure-mgmt-eventgrid]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-eventgrid-8.0.0b1.zip]
+[2024-04-29 07:57:38] INFO root fetch - processPackages [azure-mgmt-eventgrid]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-eventgrid-9.0.0.zip]
+[2024-04-29 07:57:38] INFO root fetch - main [MainThread]: End processing [azure-mgmt-eventgrid]: success
+[2024-04-29 07:57:38] INFO root fetch - processPackages [jh2]: executing diffoscope
+[2024-04-29 07:57:38] INFO root fetch - processPackages [jh2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jh2-5.0.1.tar.gz tmp/jh2-5.0.2-pp38-pypy38_pp73-macosx_10_12_x86_64.whl.zip --markdown 20240429/j/jh2/5.0.1-5.0.2/README.md --exclude *.pyd
+[2024-04-29 07:57:40] INFO root fetch - processPackages [jh2]: Remove: archive file [/home/abi/fetcher/tmp/jh2-5.0.1.tar.gz]
+[2024-04-29 07:57:40] INFO root fetch - processPackages [jh2]: Remove: archive file [/home/abi/fetcher/tmp/jh2-5.0.2-pp38-pypy38_pp73-macosx_10_12_x86_64.whl.zip]
+[2024-04-29 07:57:40] INFO root fetch - main [MainThread]: End processing [jh2]: success
+[2024-04-29 07:57:40] INFO root fetch - main [MainThread]: Store serial: [22979272]
