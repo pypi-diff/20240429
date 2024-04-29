@@ -22230,3 +22230,51 @@ EOFError: EOF read where object expected
 [2024-04-29 15:49:36] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_gpdb20160503-3.5.4.tar.gz]
 [2024-04-29 15:49:36] INFO root fetch - main [MainThread]: End processing [alibabacloud-gpdb20160503]: success
 [2024-04-29 15:49:36] INFO root fetch - main [MainThread]: Store serial: [22984659]
+[2024-04-29 15:51:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22984659]
+[2024-04-29 15:51:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 15:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: threadpoolctl
+[2024-04-29 15:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepinspection
+[2024-04-29 15:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyjvcprojector
+[2024-04-29 15:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opencti-excel-uploader
+[2024-04-29 15:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jsonUts
+[2024-04-29 15:51:45] INFO root fetch - processPackages [opencti-excel-uploader]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-29 15:51:45] INFO root fetch - processPackages [threadpoolctl]: New version: [3.5.0] Old Version: [3.4.0]
+[2024-04-29 15:51:46] INFO root fetch - processPackages [opencti-excel-uploader]: Downloading https://files.pythonhosted.org/packages/7f/77/1307e56cd776cfebb55636cb5f2cb15a52bcb22f66e00919d6285700ebb4/opencti_excel_uploader-0.2.8.tar.gz
+[2024-04-29 15:51:46] INFO root fetch - processPackages [threadpoolctl]: Downloading https://files.pythonhosted.org/packages/7b/50/7e12b84eabcc8a88ec0e617f6fe94dd31db747ec27ff2b18728eaadaa086/threadpoolctl-3.4.0.tar.gz
+[2024-04-29 15:51:46] INFO root fetch - processPackages [deepinspection]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-29 15:51:46] INFO root fetch - processPackages [pyjvcprojector]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-29 15:51:46] INFO root fetch - processPackages [jsonUts]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-29 15:51:46] INFO root fetch - processPackages [opencti-excel-uploader]: Downloading https://files.pythonhosted.org/packages/08/21/739f84a5ec2b7af8dc93f7fba838b32f68e968c014b4980bc109510d3dd3/opencti_excel_uploader-0.2.9.tar.gz
+[2024-04-29 15:51:46] INFO root fetch - processPackages [deepinspection]: Downloading https://files.pythonhosted.org/packages/8f/ae/10d107763e8514f19f0fb901262dc17573a56b3b92e0a7ee1373c3022f44/deepinspection-0.1.0-py3-none-any.whl
+[2024-04-29 15:51:46] INFO root fetch - processPackages [threadpoolctl]: Downloading https://files.pythonhosted.org/packages/bd/55/b5148dcbf72f5cde221f8bfe3b6a540da7aa1842f6b491ad979a6c8b84af/threadpoolctl-3.5.0.tar.gz
+[2024-04-29 15:51:46] INFO root fetch - processPackages [pyjvcprojector]: Downloading https://files.pythonhosted.org/packages/2b/d9/de0db0860fda6da6bd5d26db9f095f5afd4665b8e567a76458246734de5d/pyjvcprojector-1.0.8.tar.gz
+[2024-04-29 15:51:46] INFO root fetch - processPackages [jsonUts]: Downloading https://files.pythonhosted.org/packages/5a/69/a50b34877e4a8d51101206958dee5edebf36cdac8bdc85329f0e53b6ae4f/jsonUts-1.0.1.tar.gz
+[2024-04-29 15:51:46] INFO root fetch - processPackages [opencti-excel-uploader]: executing diffoscope
+[2024-04-29 15:51:46] INFO root fetch - processPackages [opencti-excel-uploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencti_excel_uploader-0.2.8.tar.gz tmp/opencti_excel_uploader-0.2.9.tar.gz --markdown 20240429/o/opencti-excel-uploader/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-29 15:51:46] INFO root fetch - processPackages [threadpoolctl]: executing diffoscope
+[2024-04-29 15:51:46] INFO root fetch - processPackages [threadpoolctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threadpoolctl-3.4.0.tar.gz tmp/threadpoolctl-3.5.0.tar.gz --markdown 20240429/t/threadpoolctl/3.4.0-3.5.0/README.md --exclude *.pyd
+[2024-04-29 15:51:46] INFO root fetch - processPackages [deepinspection]: Downloading https://files.pythonhosted.org/packages/71/08/ce0f18cd1ec4415654d32e2999a02d8d3bc8799971a93a9cb3d94ab61c23/deepinspection-0.1.1.tar.gz
+[2024-04-29 15:51:46] INFO root fetch - processPackages [jsonUts]: Downloading https://files.pythonhosted.org/packages/2b/1e/7e1a90e3e51879a8e58d26d1a5d3b6517ee10eeab0a93d7804f880e94cc8/jsonUts-1.0.2.tar.gz
+[2024-04-29 15:51:46] INFO root fetch - processPackages [deepinspection]: executing diffoscope
+[2024-04-29 15:51:46] INFO root fetch - processPackages [deepinspection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepinspection-0.1.0-py3-none-any.whl.zip tmp/deepinspection-0.1.1.tar.gz --markdown 20240429/d/deepinspection/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-29 15:51:46] INFO root fetch - processPackages [jsonUts]: executing diffoscope
+[2024-04-29 15:51:46] INFO root fetch - processPackages [jsonUts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonUts-1.0.1.tar.gz tmp/jsonUts-1.0.2.tar.gz --markdown 20240429/j/jsonUts/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-29 15:51:46] INFO root fetch - processPackages [pyjvcprojector]: Downloading https://files.pythonhosted.org/packages/7e/61/4d11cdd66563f93122fc7d0808046fc1827f2d7d447d5d61d71a710c205c/pyjvcprojector-1.0.9.tar.gz
+[2024-04-29 15:51:47] INFO root fetch - processPackages [pyjvcprojector]: executing diffoscope
+[2024-04-29 15:51:47] INFO root fetch - processPackages [pyjvcprojector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjvcprojector-1.0.8.tar.gz tmp/pyjvcprojector-1.0.9.tar.gz --markdown 20240429/p/pyjvcprojector/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-29 15:51:47] INFO root fetch - processPackages [opencti-excel-uploader]: Remove: archive file [/home/abi/fetcher/tmp/opencti_excel_uploader-0.2.8.tar.gz]
+[2024-04-29 15:51:47] INFO root fetch - processPackages [opencti-excel-uploader]: Remove: archive file [/home/abi/fetcher/tmp/opencti_excel_uploader-0.2.9.tar.gz]
+[2024-04-29 15:51:47] INFO root fetch - main [MainThread]: End processing [opencti-excel-uploader]: success
+[2024-04-29 15:51:47] INFO root fetch - processPackages [threadpoolctl]: Remove: archive file [/home/abi/fetcher/tmp/threadpoolctl-3.4.0.tar.gz]
+[2024-04-29 15:51:47] INFO root fetch - processPackages [threadpoolctl]: Remove: archive file [/home/abi/fetcher/tmp/threadpoolctl-3.5.0.tar.gz]
+[2024-04-29 15:51:47] INFO root fetch - main [MainThread]: End processing [threadpoolctl]: success
+[2024-04-29 15:51:47] INFO root fetch - processPackages [deepinspection]: Remove: archive file [/home/abi/fetcher/tmp/deepinspection-0.1.0-py3-none-any.whl.zip]
+[2024-04-29 15:51:47] INFO root fetch - processPackages [deepinspection]: Remove: archive file [/home/abi/fetcher/tmp/deepinspection-0.1.1.tar.gz]
+[2024-04-29 15:51:47] INFO root fetch - main [MainThread]: End processing [deepinspection]: success
+[2024-04-29 15:51:47] INFO root fetch - processPackages [jsonUts]: Remove: archive file [/home/abi/fetcher/tmp/jsonUts-1.0.1.tar.gz]
+[2024-04-29 15:51:47] INFO root fetch - processPackages [jsonUts]: Remove: archive file [/home/abi/fetcher/tmp/jsonUts-1.0.2.tar.gz]
+[2024-04-29 15:51:47] INFO root fetch - main [MainThread]: End processing [jsonUts]: success
+[2024-04-29 15:51:47] INFO root fetch - processPackages [pyjvcprojector]: Remove: archive file [/home/abi/fetcher/tmp/pyjvcprojector-1.0.8.tar.gz]
+[2024-04-29 15:51:47] INFO root fetch - processPackages [pyjvcprojector]: Remove: archive file [/home/abi/fetcher/tmp/pyjvcprojector-1.0.9.tar.gz]
+[2024-04-29 15:51:47] INFO root fetch - main [MainThread]: End processing [pyjvcprojector]: success
+[2024-04-29 15:51:47] INFO root fetch - main [MainThread]: Store serial: [22984673]
