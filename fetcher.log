@@ -19177,3 +19177,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 14:41:50] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240429-py3-none-win_amd64.whl.zip]
 [2024-04-29 14:41:50] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
 [2024-04-29 14:41:50] INFO root fetch - main [MainThread]: Store serial: [22983491]
+[2024-04-29 14:43:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22983491]
+[2024-04-29 14:43:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-29 14:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-sops-secrets
+[2024-04-29 14:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DataExtractorOEG
+[2024-04-29 14:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: folkmq
+[2024-04-29 14:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RenewablesAutomate
+[2024-04-29 14:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: udi-interface
+[2024-04-29 14:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tensorcircuit-nightly
+[2024-04-29 14:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nestipy-config
+[2024-04-29 14:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qosst-skr
+[2024-04-29 14:43:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tracebloc-package-dev
+[2024-04-29 14:43:59] WARNING root fetch - processPackages [folkmq]: Skipping, unable to determine old version
+[2024-04-29 14:43:59] INFO root fetch - main [MainThread]: End processing [folkmq] error
+[2024-04-29 14:43:59] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2024-04-29 14:43:59] INFO root fetch - processPackages [DataExtractorOEG]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-29 14:43:59] WARNING root fetch - processPackages [RenewablesAutomate]: Skipping, unable to determine old version
+[2024-04-29 14:43:59] INFO root fetch - main [MainThread]: End processing [RenewablesAutomate] error
+[2024-04-29 14:43:59] WARNING root fetch - processPackages [nestipy-config]: Skipping, unable to determine old version
+[2024-04-29 14:43:59] INFO root fetch - main [MainThread]: End processing [nestipy-config] error
+[2024-04-29 14:43:59] INFO root fetch - processPackages [tracebloc-package-dev]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-29 14:43:59] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.7.0] Old Version: [1.6.9]
+[2024-04-29 14:43:59] INFO root fetch - processPackages [udi-interface]: New version: [3.3.5] Old Version: [3.3.4]
+[2024-04-29 14:43:59] WARNING root fetch - processPackages [qosst-skr]: Skipping, unable to determine old version
+[2024-04-29 14:43:59] INFO root fetch - main [MainThread]: End processing [qosst-skr] error
+[2024-04-29 14:43:59] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2024-04-29 14:43:59] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/b1/9e/bc21ae75149f84e1de000d24f901a0830ee7755745e91284ee7857dd909c/dataextractoroeg-0.3.3.tar.gz
+[2024-04-29 14:43:59] INFO root fetch - processPackages [udi-interface]: Downloading https://files.pythonhosted.org/packages/02/4e/99cd7c4d839f35b130dfd9c393843f554e2e2e08e5efdc277e7c5afccd97/udi_interface-3.3.4.tar.gz
+[2024-04-29 14:43:59] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/f5/c8/13a696d72bb172c25134ff8497e2a33abae28952aaf6027b69f19e6020ba/tracebloc_package-dev-0.5.8.tar.gz
+[2024-04-29 14:43:59] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/c3/94/63861f53f638a531368c5dad8df43a1504296c8a4f0e0621c55178507518/cdk-sops-secrets-1.6.9.tar.gz
+[2024-04-29 14:43:59] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2024-04-29 14:43:59] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2024-04-29 14:43:59] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20240429/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/README.md --exclude *.pyd
+[2024-04-29 14:43:59] INFO root fetch - processPackages [udi-interface]: Downloading https://files.pythonhosted.org/packages/1c/c1/8c373f9e542715b0da2a66fc7cd82a6142f1d87b69f026948bf94ad51e94/udi_interface-3.3.5.tar.gz
+[2024-04-29 14:43:59] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/57/1d/816f2017516ca1c5b90dcb4d87e187f0e6831bf3b31726c4dd822982ef2c/dataextractoroeg-0.3.4.tar.gz
+[2024-04-29 14:43:59] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/29/74/ba081cbca75b4aef7de5e023ed946f224d93c52d8874131c97fc1c3a2682/tracebloc_package-dev-0.5.9.tar.gz
+[2024-04-29 14:43:59] INFO root fetch - processPackages [DataExtractorOEG]: executing diffoscope
+[2024-04-29 14:43:59] INFO root fetch - processPackages [DataExtractorOEG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataextractoroeg-0.3.3.tar.gz tmp/dataextractoroeg-0.3.4.tar.gz --markdown 20240429/D/DataExtractorOEG/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-04-29 14:43:59] INFO root fetch - processPackages [udi-interface]: executing diffoscope
+[2024-04-29 14:43:59] INFO root fetch - processPackages [udi-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udi_interface-3.3.4.tar.gz tmp/udi_interface-3.3.5.tar.gz --markdown 20240429/u/udi-interface/3.3.4-3.3.5/README.md --exclude *.pyd
+[2024-04-29 14:43:59] INFO root fetch - processPackages [tracebloc-package-dev]: executing diffoscope
+[2024-04-29 14:43:59] INFO root fetch - processPackages [tracebloc-package-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-dev-0.5.8.tar.gz tmp/tracebloc_package-dev-0.5.9.tar.gz --markdown 20240429/t/tracebloc-package-dev/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-29 14:44:00] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/33/5d/54a0a7fcac081005bb658b955849e11ed20900e1449b0d152c16d787c974/cdk-sops-secrets-1.7.0.tar.gz
+[2024-04-29 14:44:00] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.8.tar.gz]
+[2024-04-29 14:44:00] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.9.tar.gz]
+[2024-04-29 14:44:00] INFO root fetch - main [MainThread]: End processing [tracebloc-package-dev]: success
+[2024-04-29 14:44:00] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.3.3.tar.gz]
+[2024-04-29 14:44:00] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.3.4.tar.gz]
+[2024-04-29 14:44:00] INFO root fetch - main [MainThread]: End processing [DataExtractorOEG]: success
+[2024-04-29 14:44:00] INFO root fetch - processPackages [udi-interface]: Remove: archive file [/home/abi/fetcher/tmp/udi_interface-3.3.4.tar.gz]
+[2024-04-29 14:44:00] INFO root fetch - processPackages [udi-interface]: Remove: archive file [/home/abi/fetcher/tmp/udi_interface-3.3.5.tar.gz]
+[2024-04-29 14:44:00] INFO root fetch - main [MainThread]: End processing [udi-interface]: success
+[2024-04-29 14:44:00] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2024-04-29 14:44:00] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2024-04-29 14:44:00] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2024-04-29 14:44:01] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2024-04-29 14:44:01] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.6.9.tar.gz tmp/cdk-sops-secrets-1.7.0.tar.gz --markdown 20240429/c/cdk-sops-secrets/1.6.9-1.7.0/README.md --exclude *.pyd
+[2024-04-29 14:44:02] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.6.9.tar.gz]
+[2024-04-29 14:44:02] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.7.0.tar.gz]
+[2024-04-29 14:44:02] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2024-04-29 14:44:02] INFO root fetch - main [MainThread]: Store serial: [22983521]
