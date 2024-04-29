@@ -22418,3 +22418,127 @@ EOFError: EOF read where object expected
 [2024-04-29 15:56:13] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.83.2.tar.gz]
 [2024-04-29 15:56:13] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
 [2024-04-29 15:56:13] INFO root fetch - main [MainThread]: Store serial: [22984740]
+[2024-04-29 15:58:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22984740]
+[2024-04-29 15:58:22] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-04-29 15:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netsome
+[2024-04-29 15:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llmbot_plugin_bilisearch
+[2024-04-29 15:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deeporigin
+[2024-04-29 15:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: threedi-modelchecker
+[2024-04-29 15:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pseudonymizer
+[2024-04-29 15:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fbgemm-gpu-nightly
+[2024-04-29 15:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tsk-monster
+[2024-04-29 15:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: secretvalidate
+[2024-04-29 15:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torch-sparse-tensor
+[2024-04-29 15:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: blackfire
+[2024-04-29 15:58:22] INFO root fetch - processPackages [secretvalidate]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-04-29 15:58:22] WARNING root fetch - processPackages [torch-sparse-tensor]: Skipping, unable to determine old version
+[2024-04-29 15:58:22] INFO root fetch - processPackages [torch-sparse-tensor]: Start processing: jupyterlab-sql-explorer
+[2024-04-29 15:58:22] INFO root fetch - main [MainThread]: End processing [torch-sparse-tensor] error
+[2024-04-29 15:58:22] INFO root fetch - processPackages [netsome]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-29 15:58:22] INFO root fetch - processPackages [jupyterlab-sql-explorer]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-29 15:58:22] INFO root fetch - processPackages [pseudonymizer]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-29 15:58:22] INFO root fetch - processPackages [threedi-modelchecker]: New version: [2.7.2] Old Version: [2.7.1.dev1]
+[2024-04-29 15:58:22] INFO root fetch - processPackages [llmbot_plugin_bilisearch]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-04-29 15:58:22] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/2a/74/f1fedcd5b126c4af0184fc7bc616c4941f414eb51cc2fc523514708f3cae/secretvalidate-0.0.1a8.tar.gz
+[2024-04-29 15:58:22] INFO root fetch - processPackages [deeporigin]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-29 15:58:22] INFO root fetch - processPackages [tsk-monster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 15:58:22] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2024.4.29] Old Version: [2024.4.28]
+[2024-04-29 15:58:22] INFO root fetch - processPackages [jupyterlab-sql-explorer]: Downloading https://files.pythonhosted.org/packages/d4/d8/840eec2d442196d59be0314f6dd43355443cb4349abde5ea588492205e8b/jupyterlab_sql_explorer-0.1.2.tar.gz
+[2024-04-29 15:58:22] INFO root fetch - processPackages [pseudonymizer]: Downloading https://files.pythonhosted.org/packages/30/6f/dcc26f092ed2138f10e89d7483741c7e49087725cbe8f578a0708fab677e/pseudonymizer-0.1.3-py3-none-any.whl
+[2024-04-29 15:58:22] INFO root fetch - processPackages [threedi-modelchecker]: Downloading https://files.pythonhosted.org/packages/3c/7c/330853297f7991048d5b62f720c28186e6c993fdef7292d7b64d8fade65d/threedi_modelchecker-2.7.1.dev1.tar.gz
+[2024-04-29 15:58:22] INFO root fetch - processPackages [netsome]: Downloading https://files.pythonhosted.org/packages/b6/68/34b1910e814a591d91823868460c838b3db8b5feddc0ca7777d4763054a1/netsome-0.3.5.tar.gz
+[2024-04-29 15:58:23] INFO root fetch - processPackages [blackfire]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-29 15:58:23] INFO root fetch - processPackages [deeporigin]: Downloading https://files.pythonhosted.org/packages/90/d2/3b1b1ec399b2a581aad74d2102ae077a360f5c7b84ebe831d9701e0cdfb3/deeporigin-0.0.3.tar.gz
+[2024-04-29 15:58:23] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/37/1d/909d8d90bce691193ba9c7cbab6edfe8ef434db7e5b38dd2520121d4e483/tsk_monster-0.0.8.tar.gz
+[2024-04-29 15:58:23] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/57/86/54b1f11aebe768d2014fd8f4bb1e90e29a764014e1104c5ccf64e6433d48/secretvalidate-0.0.1a9.tar.gz
+[2024-04-29 15:58:23] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/2e/d4/3d432dd06ed46c2177c24a4f40ca0b6b868f36faf7f7068d7b003e65b0f1/fbgemm_gpu_nightly-2024.4.28-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-29 15:58:23] INFO root fetch - processPackages [llmbot_plugin_bilisearch]: Downloading https://files.pythonhosted.org/packages/e7/cf/970607c3afa59139a164961ad5b0e31f642fc2a5cec26dc3c72f5a84c166/llmbot_plugin_bilisearch-0.1.5.tar.gz
+[2024-04-29 15:58:23] INFO root fetch - processPackages [blackfire]: Downloading https://files.pythonhosted.org/packages/64/65/c3cdb7e4097093b1a2bddd6fa2147b88c0d2018fe1cb7ffbbe75a79213c1/blackfire-1.9.0-cp39-cp39-win_amd64.whl
+[2024-04-29 15:58:23] INFO root fetch - processPackages [netsome]: Downloading https://files.pythonhosted.org/packages/7d/d1/0894ff8534619d0fe2513e92b5c2395e140d070d943cc3ece44897de1914/netsome-0.3.6.tar.gz
+[2024-04-29 15:58:23] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 209018789>=10485760
+[2024-04-29 15:58:23] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: bmsdna-sql-utils
+[2024-04-29 15:58:23] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2024-04-29 15:58:23] INFO root fetch - processPackages [threedi-modelchecker]: Downloading https://files.pythonhosted.org/packages/cd/1e/f072fbf97a3e5f3cf5ecc0c56b85bf779e7246735eb2b9dff5b152082158/threedi_modelchecker-2.7.2.tar.gz
+[2024-04-29 15:58:23] INFO root fetch - processPackages [secretvalidate]: executing diffoscope
+[2024-04-29 15:58:23] INFO root fetch - processPackages [secretvalidate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretvalidate-0.0.1a8.tar.gz tmp/secretvalidate-0.0.1a9.tar.gz --markdown 20240429/s/secretvalidate/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-04-29 15:58:23] INFO root fetch - processPackages [bmsdna-sql-utils]: New version: [0.11.8] Old Version: [0.11.7]
+[2024-04-29 15:58:23] INFO root fetch - processPackages [jupyterlab-sql-explorer]: Downloading https://files.pythonhosted.org/packages/b6/a2/1681b7453b6eb687dfbeaee0b341f0c073e15a4395c24980b9a695f3e1a0/jupyterlab_sql_explorer-0.2.0.tar.gz
+[2024-04-29 15:58:23] INFO root fetch - processPackages [pseudonymizer]: Downloading https://files.pythonhosted.org/packages/e6/6c/e810b58292b96ef12e388102aec1c6c27ef878d233b2730ff06551e592ca/pseudonymizer-0.1.4.tar.gz
+[2024-04-29 15:58:23] INFO root fetch - processPackages [netsome]: executing diffoscope
+[2024-04-29 15:58:23] INFO root fetch - processPackages [netsome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netsome-0.3.5.tar.gz tmp/netsome-0.3.6.tar.gz --markdown 20240429/n/netsome/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-04-29 15:58:23] INFO root fetch - processPackages [threedi-modelchecker]: executing diffoscope
+[2024-04-29 15:58:23] INFO root fetch - processPackages [threedi-modelchecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threedi_modelchecker-2.7.1.dev1.tar.gz tmp/threedi_modelchecker-2.7.2.tar.gz --markdown 20240429/t/threedi-modelchecker/2.7.1.dev1-2.7.2/README.md --exclude *.pyd
+[2024-04-29 15:58:23] INFO root fetch - processPackages [deeporigin]: Downloading https://files.pythonhosted.org/packages/fb/98/8ec737accea0a6ff088952e43bbafd97c62ecc33f054c3763dfbb2273690/deeporigin-0.0.4.tar.gz
+[2024-04-29 15:58:23] INFO root fetch - processPackages [pseudonymizer]: executing diffoscope
+[2024-04-29 15:58:23] INFO root fetch - processPackages [pseudonymizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pseudonymizer-0.1.3-py3-none-any.whl.zip tmp/pseudonymizer-0.1.4.tar.gz --markdown 20240429/p/pseudonymizer/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-29 15:58:23] INFO root fetch - processPackages [llmbot_plugin_bilisearch]: Downloading https://files.pythonhosted.org/packages/fd/03/73982565e6ee6f3e9382a06de1d2999259764cd042ab45672d3cd9f10d4b/llmbot_plugin_bilisearch-0.2.0.tar.gz
+[2024-04-29 15:58:23] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/bd/0d/76bc9f0c428722f67988b8db745d256aefb82e1f9e36269eee144c2705f1/tsk_monster-0.0.9.tar.gz
+[2024-04-29 15:58:23] INFO root fetch - processPackages [bmsdna-sql-utils]: Downloading https://files.pythonhosted.org/packages/e2/82/5b38a14f043f71324e56fb5fc19e27d40c7a8f846d3fa892b29380add040/bmsdna_sql_utils-0.11.7.tar.gz
+[2024-04-29 15:58:23] INFO root fetch - processPackages [jupyterlab-sql-explorer]: executing diffoscope
+[2024-04-29 15:58:23] INFO root fetch - processPackages [jupyterlab-sql-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_sql_explorer-0.1.2.tar.gz tmp/jupyterlab_sql_explorer-0.2.0.tar.gz --markdown 20240429/j/jupyterlab-sql-explorer/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-04-29 15:58:23] INFO root fetch - processPackages [deeporigin]: executing diffoscope
+[2024-04-29 15:58:23] INFO root fetch - processPackages [deeporigin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deeporigin-0.0.3.tar.gz tmp/deeporigin-0.0.4.tar.gz --markdown 20240429/d/deeporigin/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-29 15:58:23] INFO root fetch - processPackages [blackfire]: Downloading https://files.pythonhosted.org/packages/f1/2f/c549ec10aabd1e91b0f61f993249914c2e2876bcbecbe0475d78319d32ab/blackfire-1.9.1-cp39-cp39-win_amd64.whl
+[2024-04-29 15:58:23] INFO root fetch - processPackages [llmbot_plugin_bilisearch]: executing diffoscope
+[2024-04-29 15:58:23] INFO root fetch - processPackages [llmbot_plugin_bilisearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmbot_plugin_bilisearch-0.1.5.tar.gz tmp/llmbot_plugin_bilisearch-0.2.0.tar.gz --markdown 20240429/l/llmbot_plugin_bilisearch/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-04-29 15:58:23] INFO root fetch - processPackages [tsk-monster]: executing diffoscope
+[2024-04-29 15:58:23] INFO root fetch - processPackages [tsk-monster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsk_monster-0.0.8.tar.gz tmp/tsk_monster-0.0.9.tar.gz --markdown 20240429/t/tsk-monster/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 15:58:23] INFO root fetch - processPackages [blackfire]: executing diffoscope
+[2024-04-29 15:58:23] INFO root fetch - processPackages [blackfire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackfire-1.9.0-cp39-cp39-win_amd64.whl.zip tmp/blackfire-1.9.1-cp39-cp39-win_amd64.whl.zip --markdown 20240429/b/blackfire/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-29 15:58:24] INFO root fetch - processPackages [bmsdna-sql-utils]: Downloading https://files.pythonhosted.org/packages/15/b0/fa049880a84982df414c33bd1a4e5743bea44ab196056e548026f10f09b5/bmsdna_sql_utils-0.11.8.tar.gz
+[2024-04-29 15:58:24] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a8.tar.gz]
+[2024-04-29 15:58:24] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a9.tar.gz]
+[2024-04-29 15:58:24] INFO root fetch - processPackages [secretvalidate]: Start processing: glpic
+[2024-04-29 15:58:24] INFO root fetch - main [MainThread]: End processing [secretvalidate]: success
+[2024-04-29 15:58:24] INFO root fetch - processPackages [bmsdna-sql-utils]: executing diffoscope
+[2024-04-29 15:58:24] INFO root fetch - processPackages [bmsdna-sql-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_sql_utils-0.11.7.tar.gz tmp/bmsdna_sql_utils-0.11.8.tar.gz --markdown 20240429/b/bmsdna-sql-utils/0.11.7-0.11.8/README.md --exclude *.pyd
+[2024-04-29 15:58:24] INFO root fetch - processPackages [glpic]: New version: [99.0.202404290910] Old Version: [99.0.202404260959]
+[2024-04-29 15:58:24] INFO root fetch - processPackages [glpic]: Downloading https://files.pythonhosted.org/packages/3a/f7/c0d784e1d0c9850e7780aae12268142926050d80df8472060996730870a3/glpic-99.0.202404260959.tar.gz
+[2024-04-29 15:58:24] INFO root fetch - processPackages [netsome]: Remove: archive file [/home/abi/fetcher/tmp/netsome-0.3.5.tar.gz]
+[2024-04-29 15:58:24] INFO root fetch - processPackages [netsome]: Remove: archive file [/home/abi/fetcher/tmp/netsome-0.3.6.tar.gz]
+[2024-04-29 15:58:24] INFO root fetch - processPackages [netsome]: Start processing: rok4
+[2024-04-29 15:58:24] INFO root fetch - main [MainThread]: End processing [netsome]: success
+[2024-04-29 15:58:24] INFO root fetch - processPackages [rok4]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-04-29 15:58:24] INFO root fetch - processPackages [llmbot_plugin_bilisearch]: Remove: archive file [/home/abi/fetcher/tmp/llmbot_plugin_bilisearch-0.1.5.tar.gz]
+[2024-04-29 15:58:24] INFO root fetch - processPackages [llmbot_plugin_bilisearch]: Remove: archive file [/home/abi/fetcher/tmp/llmbot_plugin_bilisearch-0.2.0.tar.gz]
+[2024-04-29 15:58:24] INFO root fetch - processPackages [llmbot_plugin_bilisearch]: Start processing: flipt-client
+[2024-04-29 15:58:24] INFO root fetch - main [MainThread]: End processing [llmbot_plugin_bilisearch]: success
+[2024-04-29 15:58:24] INFO root fetch - processPackages [glpic]: Downloading https://files.pythonhosted.org/packages/9f/f3/5a9fb821c335b990444345f57654acbf131644dfdf8e981ea587fa989213/glpic-99.0.202404290910.tar.gz
+[2024-04-29 15:58:24] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.8.tar.gz]
+[2024-04-29 15:58:24] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.9.tar.gz]
+[2024-04-29 15:58:24] INFO root fetch - main [MainThread]: End processing [tsk-monster]: success
+[2024-04-29 15:58:24] INFO root fetch - processPackages [rok4]: Downloading https://files.pythonhosted.org/packages/37/65/706599caeeed0c3529b156a5de88175d8ffe844fe23e019a988703cf3cac/rok4-2.1.4.tar.gz
+[2024-04-29 15:58:24] INFO root fetch - processPackages [flipt-client]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-29 15:58:24] INFO root fetch - processPackages [glpic]: executing diffoscope
+[2024-04-29 15:58:24] INFO root fetch - processPackages [glpic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glpic-99.0.202404260959.tar.gz tmp/glpic-99.0.202404290910.tar.gz --markdown 20240429/g/glpic/99.0.202404260959-99.0.202404290910/README.md --exclude *.pyd
+[2024-04-29 15:58:25] INFO root fetch - processPackages [deeporigin]: Remove: archive file [/home/abi/fetcher/tmp/deeporigin-0.0.3.tar.gz]
+[2024-04-29 15:58:25] INFO root fetch - processPackages [deeporigin]: Remove: archive file [/home/abi/fetcher/tmp/deeporigin-0.0.4.tar.gz]
+[2024-04-29 15:58:25] INFO root fetch - main [MainThread]: End processing [deeporigin]: success
+[2024-04-29 15:58:25] INFO root fetch - processPackages [pseudonymizer]: Remove: archive file [/home/abi/fetcher/tmp/pseudonymizer-0.1.3-py3-none-any.whl.zip]
+[2024-04-29 15:58:25] INFO root fetch - processPackages [pseudonymizer]: Remove: archive file [/home/abi/fetcher/tmp/pseudonymizer-0.1.4.tar.gz]
+[2024-04-29 15:58:25] INFO root fetch - main [MainThread]: End processing [pseudonymizer]: success
+[2024-04-29 15:58:25] INFO root fetch - processPackages [blackfire]: Remove: archive file [/home/abi/fetcher/tmp/blackfire-1.9.0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-29 15:58:25] INFO root fetch - processPackages [blackfire]: Remove: archive file [/home/abi/fetcher/tmp/blackfire-1.9.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-29 15:58:25] INFO root fetch - main [MainThread]: End processing [blackfire]: success
+[2024-04-29 15:58:25] INFO root fetch - processPackages [flipt-client]: Downloading https://files.pythonhosted.org/packages/0e/33/4edb1f7364bc361a0ee9c9f970f7c9d54f88811772b9a637b3a7eb9d40cf/flipt_client-0.6.0.tar.gz
+[2024-04-29 15:58:25] INFO root fetch - processPackages [bmsdna-sql-utils]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_sql_utils-0.11.7.tar.gz]
+[2024-04-29 15:58:25] INFO root fetch - processPackages [bmsdna-sql-utils]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_sql_utils-0.11.8.tar.gz]
+[2024-04-29 15:58:25] INFO root fetch - main [MainThread]: End processing [bmsdna-sql-utils]: success
+[2024-04-29 15:58:25] INFO root fetch - processPackages [rok4]: Downloading https://files.pythonhosted.org/packages/04/08/adc66fd5d8caa8158f46743ca9d008a8743ce5a38b1ffa46443217486dbe/rok4-2.1.5.tar.gz
+[2024-04-29 15:58:25] INFO root fetch - processPackages [jupyterlab-sql-explorer]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_sql_explorer-0.1.2.tar.gz]
+[2024-04-29 15:58:25] INFO root fetch - processPackages [jupyterlab-sql-explorer]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_sql_explorer-0.2.0.tar.gz]
+[2024-04-29 15:58:25] INFO root fetch - main [MainThread]: End processing [jupyterlab-sql-explorer]: success
+[2024-04-29 15:58:25] WARNING root fetch - processPackages [flipt-client]: Skipping package: exceeds size limit 16092538>=10485760
+[2024-04-29 15:58:25] INFO root fetch - main [MainThread]: End processing [flipt-client] error
+[2024-04-29 15:58:25] INFO root fetch - processPackages [rok4]: executing diffoscope
+[2024-04-29 15:58:25] INFO root fetch - processPackages [rok4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rok4-2.1.4.tar.gz tmp/rok4-2.1.5.tar.gz --markdown 20240429/r/rok4/2.1.4-2.1.5/README.md --exclude *.pyd
+[2024-04-29 15:58:25] INFO root fetch - processPackages [glpic]: Remove: archive file [/home/abi/fetcher/tmp/glpic-99.0.202404260959.tar.gz]
+[2024-04-29 15:58:25] INFO root fetch - processPackages [glpic]: Remove: archive file [/home/abi/fetcher/tmp/glpic-99.0.202404290910.tar.gz]
+[2024-04-29 15:58:25] INFO root fetch - main [MainThread]: End processing [glpic]: success
+[2024-04-29 15:58:25] INFO root fetch - processPackages [threedi-modelchecker]: Remove: archive file [/home/abi/fetcher/tmp/threedi_modelchecker-2.7.1.dev1.tar.gz]
+[2024-04-29 15:58:25] INFO root fetch - processPackages [threedi-modelchecker]: Remove: archive file [/home/abi/fetcher/tmp/threedi_modelchecker-2.7.2.tar.gz]
+[2024-04-29 15:58:25] INFO root fetch - main [MainThread]: End processing [threedi-modelchecker]: success
+[2024-04-29 15:58:26] INFO root fetch - processPackages [rok4]: Remove: archive file [/home/abi/fetcher/tmp/rok4-2.1.4.tar.gz]
+[2024-04-29 15:58:26] INFO root fetch - processPackages [rok4]: Remove: archive file [/home/abi/fetcher/tmp/rok4-2.1.5.tar.gz]
+[2024-04-29 15:58:26] INFO root fetch - main [MainThread]: End processing [rok4]: success
+[2024-04-29 15:58:26] INFO root fetch - main [MainThread]: Store serial: [22984819]
