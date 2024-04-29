@@ -18762,3 +18762,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 14:28:23] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-04-29 14:28:23] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-04-29 14:28:23] INFO root fetch - main [MainThread]: Store serial: [22983312]
+[2024-04-29 14:30:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22983312]
+[2024-04-29 14:30:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-29 14:30:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autotrain-advanced
+[2024-04-29 14:30:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libsonata
+[2024-04-29 14:30:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iterative-ensemble-smoother
+[2024-04-29 14:30:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simo
+[2024-04-29 14:30:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: msal_streamlit_t2
+[2024-04-29 14:30:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: algodojo
+[2024-04-29 14:30:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opencti-excel-uploader
+[2024-04-29 14:30:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mizdb-watchlist
+[2024-04-29 14:30:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyguiadapter
+[2024-04-29 14:30:32] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-29 14:30:32] INFO root fetch - processPackages [mizdb-watchlist]: New version: [1.0.0] Old Version: [0.1.8]
+[2024-04-29 14:30:32] INFO root fetch - processPackages [algodojo]: New version: [0.2.4] Old Version: [0.2.2]
+[2024-04-29 14:30:32] INFO root fetch - processPackages [opencti-excel-uploader]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-29 14:30:32] INFO root fetch - processPackages [simo]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-29 14:30:32] INFO root fetch - processPackages [iterative-ensemble-smoother]: New version: [0.2.6] Old Version: [0.2.5b0]
+[2024-04-29 14:30:32] WARNING root fetch - processPackages [msal_streamlit_t2]: Skipping, unable to determine old version
+[2024-04-29 14:30:32] INFO root fetch - main [MainThread]: End processing [msal_streamlit_t2] error
+[2024-04-29 14:30:32] INFO root fetch - processPackages [libsonata]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 14:30:32] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/f7/32/d4134f2d2283aafd5d82db1b47031a6025f7f458bf7dc07ef8389a35fab9/autotrain-advanced-0.7.8.tar.gz
+[2024-04-29 14:30:32] INFO root fetch - processPackages [algodojo]: Downloading https://files.pythonhosted.org/packages/e5/a4/d3b30a3aaf79f8ab2c69b23236f4d08fbf3169f7e660f7026ad1c933a405/algodojo-0.2.2.tar.gz
+[2024-04-29 14:30:32] INFO root fetch - processPackages [opencti-excel-uploader]: Downloading https://files.pythonhosted.org/packages/c9/ff/034936320c7e44049ccf5b25d932a02bae74f07278dde7c749d8dfa1e35f/opencti_excel_uploader-0.2.4.tar.gz
+[2024-04-29 14:30:32] INFO root fetch - processPackages [simo]: Downloading https://files.pythonhosted.org/packages/9c/3e/85c97e5462a3125c0189f179fa275e8a0cf69dce695c9a637286581a09a0/simo-2.0.8.tar.gz
+[2024-04-29 14:30:32] INFO root fetch - processPackages [mizdb-watchlist]: Downloading https://files.pythonhosted.org/packages/42/41/09d870dff082d3fe2cc55494176adde9266cf7e4f13101906c4d5fcb12e1/mizdb_watchlist-0.1.8.tar.gz
+[2024-04-29 14:30:32] INFO root fetch - processPackages [pyguiadapter]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-29 14:30:32] WARNING root fetch - processPackages [simo]: Skipping package: exceeds size limit 20582813>=10485760
+[2024-04-29 14:30:32] INFO root fetch - main [MainThread]: End processing [simo] error
+[2024-04-29 14:30:33] INFO root fetch - processPackages [libsonata]: Downloading https://files.pythonhosted.org/packages/b8/ae/3cfce7392d868bd3230ead7aa290c3e20cd5ed77bcf47c80e66ec5c1d901/libsonata-0.1.8.tar.gz
+[2024-04-29 14:30:33] INFO root fetch - processPackages [iterative-ensemble-smoother]: Downloading https://files.pythonhosted.org/packages/14/04/c7a2b26e8bffda1c4d742147725824a5c535b22630d3c608ea25d8a85277/iterative_ensemble_smoother-0.2.5b0.tar.gz
+[2024-04-29 14:30:33] INFO root fetch - processPackages [mizdb-watchlist]: Downloading https://files.pythonhosted.org/packages/e4/98/7339ea4fac59f848f14cb78e9069e70de233d7ae7e33300bae540fdf843f/mizdb_watchlist-1.0.0.tar.gz
+[2024-04-29 14:30:33] INFO root fetch - processPackages [pyguiadapter]: Downloading https://files.pythonhosted.org/packages/55/dd/22c03dfe0e03626b3e588b698cf1726cbcf5fa73f1728ab227deb054b8f1/pyguiadapter-0.3.3.tar.gz
+[2024-04-29 14:30:33] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/95/9e/ee31433cc0bd82c907dd180918e1072f54bcd0139421e0ab4df0c9f3f919/autotrain-advanced-0.7.9.tar.gz
+[2024-04-29 14:30:33] INFO root fetch - processPackages [opencti-excel-uploader]: Downloading https://files.pythonhosted.org/packages/63/17/9da1124aed187cf7b3142d68b3361a1184cba5899c640e0ae8e540d49713/opencti_excel_uploader-0.2.5.tar.gz
+[2024-04-29 14:30:33] INFO root fetch - processPackages [mizdb-watchlist]: executing diffoscope
+[2024-04-29 14:30:33] INFO root fetch - processPackages [mizdb-watchlist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mizdb_watchlist-0.1.8.tar.gz tmp/mizdb_watchlist-1.0.0.tar.gz --markdown 20240429/m/mizdb-watchlist/0.1.8-1.0.0/README.md --exclude *.pyd
+[2024-04-29 14:30:33] INFO root fetch - processPackages [opencti-excel-uploader]: executing diffoscope
+[2024-04-29 14:30:33] INFO root fetch - processPackages [opencti-excel-uploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencti_excel_uploader-0.2.4.tar.gz tmp/opencti_excel_uploader-0.2.5.tar.gz --markdown 20240429/o/opencti-excel-uploader/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-29 14:30:33] INFO root fetch - processPackages [algodojo]: Downloading https://files.pythonhosted.org/packages/15/d5/54c59a5f779c926fd4e3dcdba6752910d468affc17e1ac5b6abb325163e8/algodojo-0.2.4.tar.gz
+[2024-04-29 14:30:33] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2024-04-29 14:30:33] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.7.8.tar.gz tmp/autotrain-advanced-0.7.9.tar.gz --markdown 20240429/a/autotrain-advanced/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-29 14:30:33] INFO root fetch - processPackages [iterative-ensemble-smoother]: Downloading https://files.pythonhosted.org/packages/e8/2e/a7881c8e9cdb8882baf821c7c568430add85631214f32eba230b19aa3a7d/iterative_ensemble_smoother-0.2.6.tar.gz
+[2024-04-29 14:30:33] INFO root fetch - processPackages [libsonata]: Downloading https://files.pythonhosted.org/packages/7a/c3/24ccfb78d07a142d919d9aaa0d7e45892d75ba0fdcb4a07d79b6160700e0/libsonata-0.1.9.tar.gz
+[2024-04-29 14:30:33] INFO root fetch - processPackages [algodojo]: executing diffoscope
+[2024-04-29 14:30:33] INFO root fetch - processPackages [algodojo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algodojo-0.2.2.tar.gz tmp/algodojo-0.2.4.tar.gz --markdown 20240429/a/algodojo/0.2.2-0.2.4/README.md --exclude *.pyd
+[2024-04-29 14:30:33] INFO root fetch - processPackages [pyguiadapter]: Downloading https://files.pythonhosted.org/packages/73/61/debcc3ae088d3e3acb576d221c3bd7e3e71c1c0b7a9f36178df5970a4e32/pyguiadapter-0.3.4-py3-none-any.whl
+[2024-04-29 14:30:33] INFO root fetch - processPackages [iterative-ensemble-smoother]: executing diffoscope
+[2024-04-29 14:30:33] INFO root fetch - processPackages [iterative-ensemble-smoother]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iterative_ensemble_smoother-0.2.5b0.tar.gz tmp/iterative_ensemble_smoother-0.2.6.tar.gz --markdown 20240429/i/iterative-ensemble-smoother/0.2.5b0-0.2.6/README.md --exclude *.pyd
+[2024-04-29 14:30:33] INFO root fetch - processPackages [libsonata]: executing diffoscope
+[2024-04-29 14:30:33] INFO root fetch - processPackages [libsonata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsonata-0.1.8.tar.gz tmp/libsonata-0.1.9.tar.gz --markdown 20240429/l/libsonata/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 14:30:33] INFO root fetch - processPackages [pyguiadapter]: executing diffoscope
+[2024-04-29 14:30:33] INFO root fetch - processPackages [pyguiadapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyguiadapter-0.3.3.tar.gz tmp/pyguiadapter-0.3.4-py3-none-any.whl.zip --markdown 20240429/p/pyguiadapter/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-04-29 14:30:33] INFO root fetch - processPackages [opencti-excel-uploader]: Remove: archive file [/home/abi/fetcher/tmp/opencti_excel_uploader-0.2.4.tar.gz]
+[2024-04-29 14:30:33] INFO root fetch - processPackages [opencti-excel-uploader]: Remove: archive file [/home/abi/fetcher/tmp/opencti_excel_uploader-0.2.5.tar.gz]
+[2024-04-29 14:30:33] INFO root fetch - main [MainThread]: End processing [opencti-excel-uploader]: success
+[2024-04-29 14:30:34] INFO root fetch - processPackages [mizdb-watchlist]: Remove: archive file [/home/abi/fetcher/tmp/mizdb_watchlist-0.1.8.tar.gz]
+[2024-04-29 14:30:34] INFO root fetch - processPackages [mizdb-watchlist]: Remove: archive file [/home/abi/fetcher/tmp/mizdb_watchlist-1.0.0.tar.gz]
+[2024-04-29 14:30:34] INFO root fetch - main [MainThread]: End processing [mizdb-watchlist]: success
+[2024-04-29 14:30:34] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.8.tar.gz]
+[2024-04-29 14:30:34] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.9.tar.gz]
+[2024-04-29 14:30:34] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2024-04-29 14:30:34] INFO root fetch - processPackages [algodojo]: Remove: archive file [/home/abi/fetcher/tmp/algodojo-0.2.2.tar.gz]
+[2024-04-29 14:30:34] INFO root fetch - processPackages [algodojo]: Remove: archive file [/home/abi/fetcher/tmp/algodojo-0.2.4.tar.gz]
+[2024-04-29 14:30:34] INFO root fetch - main [MainThread]: End processing [algodojo]: success
+[2024-04-29 14:30:34] INFO root fetch - processPackages [iterative-ensemble-smoother]: Remove: archive file [/home/abi/fetcher/tmp/iterative_ensemble_smoother-0.2.5b0.tar.gz]
+[2024-04-29 14:30:34] INFO root fetch - processPackages [iterative-ensemble-smoother]: Remove: archive file [/home/abi/fetcher/tmp/iterative_ensemble_smoother-0.2.6.tar.gz]
+[2024-04-29 14:30:34] INFO root fetch - main [MainThread]: End processing [iterative-ensemble-smoother]: success
+[2024-04-29 14:30:34] INFO root fetch - processPackages [pyguiadapter]: Remove: archive file [/home/abi/fetcher/tmp/pyguiadapter-0.3.3.tar.gz]
+[2024-04-29 14:30:34] INFO root fetch - processPackages [pyguiadapter]: Remove: archive file [/home/abi/fetcher/tmp/pyguiadapter-0.3.4-py3-none-any.whl.zip]
+[2024-04-29 14:30:34] INFO root fetch - main [MainThread]: End processing [pyguiadapter]: success
+[2024-04-29 14:30:35] INFO root fetch - processPackages [libsonata]: Remove: archive file [/home/abi/fetcher/tmp/libsonata-0.1.8.tar.gz]
+[2024-04-29 14:30:35] INFO root fetch - processPackages [libsonata]: Remove: archive file [/home/abi/fetcher/tmp/libsonata-0.1.9.tar.gz]
+[2024-04-29 14:30:35] INFO root fetch - main [MainThread]: End processing [libsonata]: success
+[2024-04-29 14:30:35] INFO root fetch - main [MainThread]: Store serial: [22983358]
