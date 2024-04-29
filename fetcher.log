@@ -6998,3 +6998,30 @@
 [2024-04-29 04:49:51] WARNING root fetch - processPackages [qusi]: Skipping package: exceeds size limit 24152424>=10485760
 [2024-04-29 04:49:51] INFO root fetch - main [MainThread]: End processing [qusi] error
 [2024-04-29 04:49:51] INFO root fetch - main [MainThread]: Store serial: [22978197]
+[2024-04-29 04:51:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978197]
+[2024-04-29 04:52:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 04:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plush-fabric
+[2024-04-29 04:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: packmetric
+[2024-04-29 04:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dataframe-short
+[2024-04-29 04:52:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unleashed-chat
+[2024-04-29 04:52:00] WARNING root fetch - processPackages [packmetric]: Skipping, unable to determine old version
+[2024-04-29 04:52:00] INFO root fetch - processPackages [unleashed-chat]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-29 04:52:00] INFO root fetch - main [MainThread]: End processing [packmetric] error
+[2024-04-29 04:52:00] WARNING root fetch - processPackages [dataframe-short]: Skipping, unable to determine old version
+[2024-04-29 04:52:00] INFO root fetch - main [MainThread]: End processing [dataframe-short] error
+[2024-04-29 04:52:00] INFO root fetch - processPackages [plush-fabric]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-29 04:52:00] INFO root fetch - processPackages [unleashed-chat]: Downloading https://files.pythonhosted.org/packages/ec/9c/98ca7dfb739c5aac10803478e2a6b6f4a96b96a9461c8281ace1869c8620/unleashed_chat-0.1.1-py3-none-any.whl
+[2024-04-29 04:52:00] INFO root fetch - processPackages [plush-fabric]: Downloading https://files.pythonhosted.org/packages/30/c5/37aef832cd3a1ab6daa7024e80128b4083d3cba3e19d630bd6d21984fa90/plush-fabric-0.5.8.tar.gz
+[2024-04-29 04:52:00] INFO root fetch - processPackages [plush-fabric]: Downloading https://files.pythonhosted.org/packages/47/dd/d9e91f6ac73dce2d7ddcb57faa1779d3671bb6725cd8881088f9e32a0af4/plush-fabric-0.5.9.tar.gz
+[2024-04-29 04:52:00] INFO root fetch - processPackages [plush-fabric]: executing diffoscope
+[2024-04-29 04:52:00] INFO root fetch - processPackages [plush-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plush-fabric-0.5.8.tar.gz tmp/plush-fabric-0.5.9.tar.gz --markdown 20240429/p/plush-fabric/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-29 04:52:00] INFO root fetch - processPackages [unleashed-chat]: Downloading https://files.pythonhosted.org/packages/19/f4/617389d2e92916b15ce59f7bf43150c59f5ab55119d8346ac091c0ed2cff/unleashed_chat-0.1.2.tar.gz
+[2024-04-29 04:52:00] INFO root fetch - processPackages [unleashed-chat]: executing diffoscope
+[2024-04-29 04:52:00] INFO root fetch - processPackages [unleashed-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unleashed_chat-0.1.1-py3-none-any.whl.zip tmp/unleashed_chat-0.1.2.tar.gz --markdown 20240429/u/unleashed-chat/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-29 04:52:01] INFO root fetch - processPackages [plush-fabric]: Remove: archive file [/home/abi/fetcher/tmp/plush-fabric-0.5.8.tar.gz]
+[2024-04-29 04:52:01] INFO root fetch - processPackages [plush-fabric]: Remove: archive file [/home/abi/fetcher/tmp/plush-fabric-0.5.9.tar.gz]
+[2024-04-29 04:52:01] INFO root fetch - main [MainThread]: End processing [plush-fabric]: success
+[2024-04-29 04:52:01] INFO root fetch - processPackages [unleashed-chat]: Remove: archive file [/home/abi/fetcher/tmp/unleashed_chat-0.1.1-py3-none-any.whl.zip]
+[2024-04-29 04:52:01] INFO root fetch - processPackages [unleashed-chat]: Remove: archive file [/home/abi/fetcher/tmp/unleashed_chat-0.1.2.tar.gz]
+[2024-04-29 04:52:01] INFO root fetch - main [MainThread]: End processing [unleashed-chat]: success
+[2024-04-29 04:52:01] INFO root fetch - main [MainThread]: Store serial: [22978209]
