@@ -11240,3 +11240,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 09:41:27] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.4.6.tar.gz]
 [2024-04-29 09:41:27] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-29 09:41:27] INFO root fetch - main [MainThread]: Store serial: [22980171]
+[2024-04-29 09:43:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980171]
+[2024-04-29 09:43:36] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-29 09:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fractal-server
+[2024-04-29 09:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qontract-reconcile
+[2024-04-29 09:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eis_toolkit
+[2024-04-29 09:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hdx-cli-toolkit
+[2024-04-29 09:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: my-deribit-api
+[2024-04-29 09:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agent_path
+[2024-04-29 09:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wizata-dsapi
+[2024-04-29 09:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: esanom
+[2024-04-29 09:43:36] INFO root fetch - processPackages [agent_path]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-29 09:43:36] WARNING root fetch - processPackages [esanom]: Skipping, unable to determine old version
+[2024-04-29 09:43:36] INFO root fetch - main [MainThread]: End processing [esanom] error
+[2024-04-29 09:43:36] INFO root fetch - processPackages [eis_toolkit]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-29 09:43:36] INFO root fetch - processPackages [hdx-cli-toolkit]: New version: [2024.4.4] Old Version: [2024.4.3]
+[2024-04-29 09:43:36] INFO root fetch - processPackages [agent_path]: Downloading https://files.pythonhosted.org/packages/8b/71/cf5f53cc4e781fa496002c3432ec91c102dec7d4271478c26d1761ddb0e4/agent_path-0.1.0-py3-none-any.whl
+[2024-04-29 09:43:36] INFO root fetch - processPackages [my-deribit-api]: New version: [1.0.0] Old Version: [0.0.1]
+[2024-04-29 09:43:36] INFO root fetch - processPackages [fractal-server]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2024-04-29 09:43:36] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.4.9] Old Version: [0.4.81]
+[2024-04-29 09:43:36] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-29 09:43:36] INFO root fetch - processPackages [eis_toolkit]: Downloading https://files.pythonhosted.org/packages/36/2c/69f5522ac55fb709d37d6c1f78f1ce0c28e7e3be9d13dd07b83e7b489af1/eis_toolkit-0.4.0.tar.gz
+[2024-04-29 09:43:36] INFO root fetch - processPackages [agent_path]: Downloading https://files.pythonhosted.org/packages/48/83/f83b2820cb662f13bb96994ab560359b933dceefca195ce2e6e9e6a5f7df/agent_path-0.1.1.tar.gz
+[2024-04-29 09:43:36] INFO root fetch - processPackages [hdx-cli-toolkit]: Downloading https://files.pythonhosted.org/packages/13/60/f9138d36e281e6cf1e1fc38fe68fe3dab4f6a6c2a792eeec4f0e0642abb7/hdx_cli_toolkit-2024.4.3.tar.gz
+[2024-04-29 09:43:36] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/f2/91/5a7bfe90036a2a91c7b859ec889ce3bdc5420ed239d1bf8cd7dd65f28cf5/wizata-dsapi-0.4.81.tar.gz
+[2024-04-29 09:43:36] INFO root fetch - processPackages [my-deribit-api]: Downloading https://files.pythonhosted.org/packages/f1/19/28731347bc2c8090954d0b58495e3416e7fad812dfa21342153e85e8f2d4/my_deribit_api-0.0.1.tar.gz
+[2024-04-29 09:43:36] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/f8/12/2335911669aec79c0cce439c399ad2e0c9d58f6b47d866cbef3122364b97/fractal_server-2.0.0a8.tar.gz
+[2024-04-29 09:43:36] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-29 09:43:37] INFO root fetch - processPackages [agent_path]: executing diffoscope
+[2024-04-29 09:43:37] INFO root fetch - processPackages [agent_path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agent_path-0.1.0-py3-none-any.whl.zip tmp/agent_path-0.1.1.tar.gz --markdown 20240429/a/agent_path/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-29 09:43:37] INFO root fetch - processPackages [hdx-cli-toolkit]: Downloading https://files.pythonhosted.org/packages/13/75/15598b6bc672f28848aeac77c475637341370d3f621ce4e238464c29c883/hdx_cli_toolkit-2024.4.4.tar.gz
+[2024-04-29 09:43:37] INFO root fetch - processPackages [my-deribit-api]: Downloading https://files.pythonhosted.org/packages/d8/5d/144871fa29203165032a8b7fa7530ea6c1d8d72bc06308b4231e5dd2d6d2/my_deribit_api-1.0.0.tar.gz
+[2024-04-29 09:43:37] INFO root fetch - processPackages [eis_toolkit]: Downloading https://files.pythonhosted.org/packages/4d/51/9d4facddfadfda0cc71a8dbe9788a58aabf1bfbc518fc4b06609c6ae95dc/eis_toolkit-0.4.1.tar.gz
+[2024-04-29 09:43:37] INFO root fetch - processPackages [my-deribit-api]: executing diffoscope
+[2024-04-29 09:43:37] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/8d/db/a0ae202d1e8bb1b56d320058ac8bef6d9f6ec02eb54e2cc69f637e04a601/wizata-dsapi-0.4.9.tar.gz
+[2024-04-29 09:43:37] INFO root fetch - processPackages [my-deribit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_deribit_api-0.0.1.tar.gz tmp/my_deribit_api-1.0.0.tar.gz --markdown 20240429/m/my-deribit-api/0.0.1-1.0.0/README.md --exclude *.pyd
+[2024-04-29 09:43:37] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/ef/ad/58405ebb44f6559aefa712288e9ea086594faec7a4f37e2c8eaf19359168/fractal_server-2.0.0a9.tar.gz
+[2024-04-29 09:43:37] INFO root fetch - processPackages [hdx-cli-toolkit]: executing diffoscope
+[2024-04-29 09:43:37] INFO root fetch - processPackages [hdx-cli-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx_cli_toolkit-2024.4.3.tar.gz tmp/hdx_cli_toolkit-2024.4.4.tar.gz --markdown 20240429/h/hdx-cli-toolkit/2024.4.3-2024.4.4/README.md --exclude *.pyd
+[2024-04-29 09:43:37] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-29 09:43:37] INFO root fetch - processPackages [eis_toolkit]: executing diffoscope
+[2024-04-29 09:43:37] INFO root fetch - processPackages [eis_toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eis_toolkit-0.4.0.tar.gz tmp/eis_toolkit-0.4.1.tar.gz --markdown 20240429/e/eis_toolkit/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-29 09:43:37] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2024-04-29 09:43:37] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.4.81.tar.gz tmp/wizata-dsapi-0.4.9.tar.gz --markdown 20240429/w/wizata-dsapi/0.4.81-0.4.9/README.md --exclude *.pyd
+[2024-04-29 09:43:37] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2024-04-29 09:43:37] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-2.0.0a8.tar.gz tmp/fractal_server-2.0.0a9.tar.gz --markdown 20240429/f/fractal-server/2.0.0a8-2.0.0a9/README.md --exclude *.pyd
+[2024-04-29 09:43:37] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-29 09:43:37] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240429/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-29 09:43:37] INFO root fetch - processPackages [agent_path]: Remove: archive file [/home/abi/fetcher/tmp/agent_path-0.1.0-py3-none-any.whl.zip]
+[2024-04-29 09:43:37] INFO root fetch - processPackages [agent_path]: Remove: archive file [/home/abi/fetcher/tmp/agent_path-0.1.1.tar.gz]
+[2024-04-29 09:43:37] INFO root fetch - main [MainThread]: End processing [agent_path]: success
+[2024-04-29 09:43:38] INFO root fetch - processPackages [my-deribit-api]: Remove: archive file [/home/abi/fetcher/tmp/my_deribit_api-0.0.1.tar.gz]
+[2024-04-29 09:43:38] INFO root fetch - processPackages [my-deribit-api]: Remove: archive file [/home/abi/fetcher/tmp/my_deribit_api-1.0.0.tar.gz]
+[2024-04-29 09:43:38] INFO root fetch - main [MainThread]: End processing [my-deribit-api]: success
+[2024-04-29 09:43:38] INFO root fetch - processPackages [hdx-cli-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/hdx_cli_toolkit-2024.4.3.tar.gz]
+[2024-04-29 09:43:38] INFO root fetch - processPackages [hdx-cli-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/hdx_cli_toolkit-2024.4.4.tar.gz]
+[2024-04-29 09:43:38] INFO root fetch - main [MainThread]: End processing [hdx-cli-toolkit]: success
+[2024-04-29 09:43:38] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.4.81.tar.gz]
+[2024-04-29 09:43:38] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.4.9.tar.gz]
+[2024-04-29 09:43:38] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2024-04-29 09:43:38] INFO root fetch - processPackages [eis_toolkit]: Remove: archive file [/home/abi/fetcher/tmp/eis_toolkit-0.4.0.tar.gz]
+[2024-04-29 09:43:38] INFO root fetch - processPackages [eis_toolkit]: Remove: archive file [/home/abi/fetcher/tmp/eis_toolkit-0.4.1.tar.gz]
+[2024-04-29 09:43:38] INFO root fetch - main [MainThread]: End processing [eis_toolkit]: success
+[2024-04-29 09:43:38] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.0a8.tar.gz]
+[2024-04-29 09:43:38] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.0a9.tar.gz]
+[2024-04-29 09:43:38] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2024-04-29 09:43:39] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-29 09:43:39] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-29 09:43:39] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-29 09:43:39] INFO root fetch - main [MainThread]: Store serial: [22980197]
