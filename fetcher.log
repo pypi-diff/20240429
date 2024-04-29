@@ -17455,3 +17455,13 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 13:35:02] INFO root fetch - processPackages [pymilvus]: Remove: archive file [/home/abi/fetcher/tmp/pymilvus-2.4.1.tar.gz]
 [2024-04-29 13:35:02] INFO root fetch - main [MainThread]: End processing [pymilvus]: success
 [2024-04-29 13:35:02] INFO root fetch - main [MainThread]: Store serial: [22982739]
+[2024-04-29 13:37:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982739]
+[2024-04-29 13:37:11] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-29 13:39:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982740]
+[2024-04-29 13:39:16] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-29 13:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pySAXS
+[2024-04-29 13:39:16] INFO root fetch - processPackages [pySAXS]: New version: [3.280] Old Version: [3.279]
+[2024-04-29 13:39:17] INFO root fetch - processPackages [pySAXS]: Downloading https://files.pythonhosted.org/packages/d9/37/4e6b78386988cd6134b0d21f19bac5d5d3e7ee5ab9fafbad71bcdd3a351e/pySAXS-3.279.tar.gz
+[2024-04-29 13:39:17] WARNING root fetch - processPackages [pySAXS]: Skipping package: exceeds size limit 12652264>=10485760
+[2024-04-29 13:39:17] INFO root fetch - main [MainThread]: End processing [pySAXS] error
+[2024-04-29 13:39:17] INFO root fetch - main [MainThread]: Store serial: [22982744]
