@@ -19099,3 +19099,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 14:37:27] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
 [2024-04-29 14:37:27] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
 [2024-04-29 14:37:27] INFO root fetch - main [MainThread]: Store serial: [22983453]
+[2024-04-29 14:39:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22983453]
+[2024-04-29 14:39:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 14:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opencti-excel-uploader
+[2024-04-29 14:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qosst-core
+[2024-04-29 14:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: allowed
+[2024-04-29 14:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: senpy-sensei
+[2024-04-29 14:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: issx
+[2024-04-29 14:39:36] INFO root fetch - processPackages [opencti-excel-uploader]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-29 14:39:36] INFO root fetch - processPackages [opencti-excel-uploader]: Downloading https://files.pythonhosted.org/packages/63/17/9da1124aed187cf7b3142d68b3361a1184cba5899c640e0ae8e540d49713/opencti_excel_uploader-0.2.5.tar.gz
+[2024-04-29 14:39:36] WARNING root fetch - processPackages [qosst-core]: Skipping, unable to determine old version
+[2024-04-29 14:39:36] INFO root fetch - main [MainThread]: End processing [qosst-core] error
+[2024-04-29 14:39:36] WARNING root fetch - processPackages [senpy-sensei]: Skipping, unable to determine old version
+[2024-04-29 14:39:36] INFO root fetch - main [MainThread]: End processing [senpy-sensei] error
+[2024-04-29 14:39:36] INFO root fetch - processPackages [allowed]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-29 14:39:37] INFO root fetch - processPackages [issx]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-29 14:39:37] INFO root fetch - processPackages [allowed]: Downloading https://files.pythonhosted.org/packages/9d/57/251749331c2f0e8deae5840d0f149c19c26198e956a47241857a55988844/allowed-1.3.0.tar.gz
+[2024-04-29 14:39:37] INFO root fetch - processPackages [issx]: Downloading https://files.pythonhosted.org/packages/43/ad/fb1c962022a10b0416716197d5d3698e683c9abda4d8505b4d897a77fd97/issx-0.4.0.tar.gz
+[2024-04-29 14:39:37] INFO root fetch - processPackages [opencti-excel-uploader]: Downloading https://files.pythonhosted.org/packages/87/73/ac0e92aab5cd77669c551615796ab750807d8425e25a9485d0db7a7d8203/opencti_excel_uploader-0.2.6.tar.gz
+[2024-04-29 14:39:37] INFO root fetch - processPackages [opencti-excel-uploader]: executing diffoscope
+[2024-04-29 14:39:37] INFO root fetch - processPackages [opencti-excel-uploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencti_excel_uploader-0.2.5.tar.gz tmp/opencti_excel_uploader-0.2.6.tar.gz --markdown 20240429/o/opencti-excel-uploader/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-29 14:39:37] INFO root fetch - processPackages [allowed]: Downloading https://files.pythonhosted.org/packages/bb/19/15e2e9f7480956d30610d17428dcbb40e466707b22d04f7befa7e0ab4691/allowed-1.4.0.tar.gz
+[2024-04-29 14:39:37] INFO root fetch - processPackages [issx]: Downloading https://files.pythonhosted.org/packages/29/0e/09624d9cc69fbcb60bf463176957f990a026a8ff14430679b605d73a9674/issx-0.5.0.tar.gz
+[2024-04-29 14:39:37] INFO root fetch - processPackages [allowed]: executing diffoscope
+[2024-04-29 14:39:37] INFO root fetch - processPackages [allowed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allowed-1.3.0.tar.gz tmp/allowed-1.4.0.tar.gz --markdown 20240429/a/allowed/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-04-29 14:39:37] INFO root fetch - processPackages [opencti-excel-uploader]: Remove: archive file [/home/abi/fetcher/tmp/opencti_excel_uploader-0.2.5.tar.gz]
+[2024-04-29 14:39:37] INFO root fetch - processPackages [opencti-excel-uploader]: Remove: archive file [/home/abi/fetcher/tmp/opencti_excel_uploader-0.2.6.tar.gz]
+[2024-04-29 14:39:38] INFO root fetch - main [MainThread]: End processing [opencti-excel-uploader]: success
+[2024-04-29 14:39:38] INFO root fetch - processPackages [issx]: executing diffoscope
+[2024-04-29 14:39:38] INFO root fetch - processPackages [issx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/issx-0.4.0.tar.gz tmp/issx-0.5.0.tar.gz --markdown 20240429/i/issx/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-29 14:39:38] INFO root fetch - processPackages [allowed]: Remove: archive file [/home/abi/fetcher/tmp/allowed-1.3.0.tar.gz]
+[2024-04-29 14:39:38] INFO root fetch - processPackages [allowed]: Remove: archive file [/home/abi/fetcher/tmp/allowed-1.4.0.tar.gz]
+[2024-04-29 14:39:38] INFO root fetch - main [MainThread]: End processing [allowed]: success
+[2024-04-29 14:39:38] INFO root fetch - processPackages [issx]: Remove: archive file [/home/abi/fetcher/tmp/issx-0.4.0.tar.gz]
+[2024-04-29 14:39:38] INFO root fetch - processPackages [issx]: Remove: archive file [/home/abi/fetcher/tmp/issx-0.5.0.tar.gz]
+[2024-04-29 14:39:38] INFO root fetch - main [MainThread]: End processing [issx]: success
+[2024-04-29 14:39:38] INFO root fetch - main [MainThread]: Store serial: [22983473]
