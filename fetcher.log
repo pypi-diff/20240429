@@ -11377,3 +11377,70 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 09:48:00] INFO root fetch - processPackages [knifes]: Remove: archive file [/home/abi/fetcher/tmp/knifes-0.9.9.tar.gz]
 [2024-04-29 09:48:00] INFO root fetch - main [MainThread]: End processing [knifes]: success
 [2024-04-29 09:48:00] INFO root fetch - main [MainThread]: Store serial: [22980223]
+[2024-04-29 09:50:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980223]
+[2024-04-29 09:50:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-29 09:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: th2-grpc-codec
+[2024-04-29 09:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: esanom
+[2024-04-29 09:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multiversx-sdk-wallet
+[2024-04-29 09:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tui-dsmt
+[2024-04-29 09:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tui-dsmt
+[2024-04-29 09:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vectice
+[2024-04-29 09:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: esanom
+[2024-04-29 09:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ChatGPTAutomation
+[2024-04-29 09:50:09] INFO root fetch - processPackages [tui-dsmt]: New version: [202404280846] Old Version: [202404280836]
+[2024-04-29 09:50:09] INFO root fetch - processPackages [esanom]: New version: [3.0.3.748842] Old Version: [3.0.3.748519]
+[2024-04-29 09:50:09] INFO root fetch - processPackages [th2-grpc-codec]: New version: [0.2.0.dev8874869400] Old Version: [0.2.0.dev8874114479]
+[2024-04-29 09:50:09] INFO root fetch - processPackages [tui-dsmt]: New version: [202404280846] Old Version: [202404280836]
+[2024-04-29 09:50:09] INFO root fetch - processPackages [esanom]: New version: [3.0.3.748842] Old Version: [3.0.3.748519]
+[2024-04-29 09:50:09] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/4c/ef/ffcedb84a35879d09252dcfee650ee1de29187962e8b73d8cb510aabbfc4/tui_dsmt-202404280836.tar.gz
+[2024-04-29 09:50:09] INFO root fetch - processPackages [th2-grpc-codec]: Downloading https://files.pythonhosted.org/packages/05/56/12305473eabf67979d7705ecd55540880d8373f5f3df3b3841bd9e51a4d2/th2_grpc_codec-0.2.0.dev8874114479.tar.gz
+[2024-04-29 09:50:09] INFO root fetch - processPackages [multiversx-sdk-wallet]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-29 09:50:09] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/4c/ef/ffcedb84a35879d09252dcfee650ee1de29187962e8b73d8cb510aabbfc4/tui_dsmt-202404280836.tar.gz
+[2024-04-29 09:50:09] INFO root fetch - processPackages [ChatGPTAutomation]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-29 09:50:09] INFO root fetch - processPackages [vectice]: New version: [24.2.3.0] Old Version: [24.2.2.0]
+[2024-04-29 09:50:09] INFO root fetch - processPackages [esanom]: Downloading https://files.pythonhosted.org/packages/bd/d0/4fb733a6433443a9ddc6bc3059048b2eedfbf266752556839cb4633e1f3e/esanom-3.0.3.748519.tar.gz
+[2024-04-29 09:50:09] INFO root fetch - processPackages [esanom]: Downloading https://files.pythonhosted.org/packages/bd/d0/4fb733a6433443a9ddc6bc3059048b2eedfbf266752556839cb4633e1f3e/esanom-3.0.3.748519.tar.gz
+[2024-04-29 09:50:09] INFO root fetch - processPackages [multiversx-sdk-wallet]: Downloading https://files.pythonhosted.org/packages/20/a4/4520b552111cd9159d1646fef04e394aae1cbcde758c746c9cc229c5601b/multiversx_sdk_wallet-0.9.2.tar.gz
+[2024-04-29 09:50:09] INFO root fetch - processPackages [ChatGPTAutomation]: Downloading https://files.pythonhosted.org/packages/c8/18/876f2c6cc3e6e98f08e02acf472679892d0bd7ed6818e265d5cfb3c289ed/ChatGPTAutomation-0.6.0.tar.gz
+[2024-04-29 09:50:09] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/44/42/af92471ab1d71827f326aaf8c5cd04bb30c83a41ce1ffd2a75dc22a103fb/vectice-24.2.2.0.tar.gz
+[2024-04-29 09:50:09] INFO root fetch - processPackages [th2-grpc-codec]: Downloading https://files.pythonhosted.org/packages/d7/fd/8770dffe4b6aede86e7cc3a462d96ab263915ce0f451f8fba14664e4468c/th2_grpc_codec-0.2.0.dev8874869400.tar.gz
+[2024-04-29 09:50:09] WARNING root fetch - processPackages [multiversx-sdk-wallet]: Skipping package: exceeds size limit 15863908>=10485760
+[2024-04-29 09:50:09] INFO root fetch - main [MainThread]: End processing [multiversx-sdk-wallet] error
+[2024-04-29 09:50:09] INFO root fetch - processPackages [esanom]: Downloading https://files.pythonhosted.org/packages/9f/1e/e40d30950f3cd47e2a60f912f1351413308e68bed0a6c43fe9179385fc89/esanom-3.0.3.748842.tar.gz
+[2024-04-29 09:50:09] INFO root fetch - processPackages [esanom]: Downloading https://files.pythonhosted.org/packages/9f/1e/e40d30950f3cd47e2a60f912f1351413308e68bed0a6c43fe9179385fc89/esanom-3.0.3.748842.tar.gz
+[2024-04-29 09:50:09] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/de/a4/abd436f96ff68695a86b2ac68d9c333c3ebcc1883ed6027e292061518888/tui_dsmt-202404280846.tar.gz
+[2024-04-29 09:50:09] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/de/a4/abd436f96ff68695a86b2ac68d9c333c3ebcc1883ed6027e292061518888/tui_dsmt-202404280846.tar.gz
+[2024-04-29 09:50:09] INFO root fetch - processPackages [th2-grpc-codec]: executing diffoscope
+[2024-04-29 09:50:09] INFO root fetch - processPackages [th2-grpc-codec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_codec-0.2.0.dev8874114479.tar.gz tmp/th2_grpc_codec-0.2.0.dev8874869400.tar.gz --markdown 20240429/t/th2-grpc-codec/0.2.0.dev8874114479-0.2.0.dev8874869400/README.md --exclude *.pyd
+[2024-04-29 09:50:10] INFO root fetch - processPackages [ChatGPTAutomation]: Downloading https://files.pythonhosted.org/packages/e6/1d/e573692ad383f75694449100d0bd2f573b1ef35d2ad70b54f0a9cdc8b4ae/chatgptautomation-0.6.1.tar.gz
+[2024-04-29 09:50:10] INFO root fetch - processPackages [esanom]: executing diffoscope
+[2024-04-29 09:50:10] INFO root fetch - processPackages [esanom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esanom-3.0.3.748519.tar.gz tmp/esanom-3.0.3.748842.tar.gz --markdown 20240429/e/esanom/3.0.3.748519-3.0.3.748842/README.md --exclude *.pyd
+[2024-04-29 09:50:10] INFO root fetch - processPackages [esanom]: executing diffoscope
+[2024-04-29 09:50:10] INFO root fetch - processPackages [esanom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esanom-3.0.3.748519.tar.gz tmp/esanom-3.0.3.748842.tar.gz --markdown 20240429/e/esanom/3.0.3.748519-3.0.3.748842/README.md --exclude *.pyd
+[2024-04-29 09:50:10] INFO root fetch - processPackages [tui-dsmt]: executing diffoscope
+[2024-04-29 09:50:10] INFO root fetch - processPackages [tui-dsmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsmt-202404280836.tar.gz tmp/tui_dsmt-202404280846.tar.gz --markdown 20240429/t/tui-dsmt/202404280836-202404280846/README.md --exclude *.pyd
+[2024-04-29 09:50:10] INFO root fetch - processPackages [tui-dsmt]: executing diffoscope
+[2024-04-29 09:50:10] INFO root fetch - processPackages [tui-dsmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsmt-202404280836.tar.gz tmp/tui_dsmt-202404280846.tar.gz --markdown 20240429/t/tui-dsmt/202404280836-202404280846/README.md --exclude *.pyd
+[2024-04-29 09:50:10] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/1b/23/c0fd1b5f85a6233a87dabd079368b42d7256429b8baeaf3f245c54000b71/vectice-24.2.3.0.tar.gz
+[2024-04-29 09:50:10] INFO root fetch - processPackages [ChatGPTAutomation]: executing diffoscope
+[2024-04-29 09:50:10] INFO root fetch - processPackages [ChatGPTAutomation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatGPTAutomation-0.6.0.tar.gz tmp/chatgptautomation-0.6.1.tar.gz --markdown 20240429/C/ChatGPTAutomation/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-29 09:50:10] INFO root fetch - processPackages [vectice]: executing diffoscope
+[2024-04-29 09:50:10] INFO root fetch - processPackages [vectice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectice-24.2.2.0.tar.gz tmp/vectice-24.2.3.0.tar.gz --markdown 20240429/v/vectice/24.2.2.0-24.2.3.0/README.md --exclude *.pyd
+[2024-04-29 09:50:10] INFO root fetch - processPackages [th2-grpc-codec]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_codec-0.2.0.dev8874114479.tar.gz]
+[2024-04-29 09:50:10] INFO root fetch - processPackages [th2-grpc-codec]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_codec-0.2.0.dev8874869400.tar.gz]
+[2024-04-29 09:50:10] INFO root fetch - main [MainThread]: End processing [th2-grpc-codec]: success
+[2024-04-29 09:50:10] INFO root fetch - processPackages [esanom]: Remove: archive file [/home/abi/fetcher/tmp/esanom-3.0.3.748519.tar.gz]
+[2024-04-29 09:50:10] INFO root fetch - processPackages [esanom]: Remove: archive file [/home/abi/fetcher/tmp/esanom-3.0.3.748842.tar.gz]
+[2024-04-29 09:50:10] INFO root fetch - main [MainThread]: End processing [esanom]: success
+[2024-04-29 09:50:10] INFO root fetch - main [MainThread]: End processing [esanom]: success
+[2024-04-29 09:50:10] INFO root fetch - processPackages [ChatGPTAutomation]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPTAutomation-0.6.0.tar.gz]
+[2024-04-29 09:50:10] INFO root fetch - processPackages [ChatGPTAutomation]: Remove: archive file [/home/abi/fetcher/tmp/chatgptautomation-0.6.1.tar.gz]
+[2024-04-29 09:50:10] INFO root fetch - main [MainThread]: End processing [ChatGPTAutomation]: success
+[2024-04-29 09:50:11] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404280836.tar.gz]
+[2024-04-29 09:50:11] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404280846.tar.gz]
+[2024-04-29 09:50:11] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
+[2024-04-29 09:50:11] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
+[2024-04-29 09:50:11] INFO root fetch - processPackages [vectice]: Remove: archive file [/home/abi/fetcher/tmp/vectice-24.2.2.0.tar.gz]
+[2024-04-29 09:50:11] INFO root fetch - processPackages [vectice]: Remove: archive file [/home/abi/fetcher/tmp/vectice-24.2.3.0.tar.gz]
+[2024-04-29 09:50:11] INFO root fetch - main [MainThread]: End processing [vectice]: success
+[2024-04-29 09:50:11] INFO root fetch - main [MainThread]: Store serial: [22980245]
