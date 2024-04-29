@@ -13053,3 +13053,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 10:59:34] INFO root fetch - processPackages [Xray-core]: Remove: archive file [/home/abi/fetcher/tmp/Xray-core-1.8.9.tar.gz]
 [2024-04-29 10:59:34] INFO root fetch - main [MainThread]: End processing [Xray-core]: success
 [2024-04-29 10:59:34] INFO root fetch - main [MainThread]: Store serial: [22980972]
+[2024-04-29 11:01:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980972]
+[2024-04-29 11:01:43] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-29 11:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ultralytics
+[2024-04-29 11:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plt-cli
+[2024-04-29 11:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gcp-pal
+[2024-04-29 11:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bzt
+[2024-04-29 11:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: paintcompiler
+[2024-04-29 11:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jetline
+[2024-04-29 11:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: avoca
+[2024-04-29 11:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prometheus-pve-sd
+[2024-04-29 11:01:43] INFO root fetch - processPackages [jetline]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 11:01:43] INFO root fetch - processPackages [ultralytics]: New version: [8.2.5] Old Version: [8.2.4]
+[2024-04-29 11:01:43] INFO root fetch - processPackages [plt-cli]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-29 11:01:43] INFO root fetch - processPackages [gcp-pal]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-29 11:01:43] INFO root fetch - processPackages [paintcompiler]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-29 11:01:43] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/14/d7/4b17ee6567b17ad4eec9a6e6ceded1190275544e45e07f7b10971d03dc9f/jetline-0.1.8.tar.gz
+[2024-04-29 11:01:43] INFO root fetch - processPackages [bzt]: New version: [1.9.6] Old Version: [1.9.5]
+[2024-04-29 11:01:43] INFO root fetch - processPackages [avoca]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-29 11:01:43] INFO root fetch - processPackages [gcp-pal]: Downloading https://files.pythonhosted.org/packages/6a/6d/6b0daa6525fd353cbcc6000e75fad8b2ea3492f884c043613aea7db39daf/gcp_pal-1.0.4.tar.gz
+[2024-04-29 11:01:43] INFO root fetch - processPackages [paintcompiler]: Downloading https://files.pythonhosted.org/packages/7a/9f/4cd1c90741c9554b38b1bd1f58e628e45d033d8a62ed847ac9a2e2f7a88c/paintcompiler-0.3.2.tar.gz
+[2024-04-29 11:01:43] INFO root fetch - processPackages [plt-cli]: Downloading https://files.pythonhosted.org/packages/41/2c/187bf87553b167f0e49287b2e1059b126351bcf0786ee0c394c138f3b64e/plt_cli-0.1.9-py3-none-any.whl
+[2024-04-29 11:01:43] INFO root fetch - processPackages [prometheus-pve-sd]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-04-29 11:01:43] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/6f/d4/4dcaf4d4b4b8d69aec41e4576242695c8b154ed816597e330f3a049f4c04/ultralytics-8.2.4.tar.gz
+[2024-04-29 11:01:43] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/e3/52/ee8efe5ee3940966b4c7e8b471dd88336c2950833a0dd4b4854cce8f181b/jetline-0.1.9.tar.gz
+[2024-04-29 11:01:43] INFO root fetch - processPackages [bzt]: Downloading https://files.pythonhosted.org/packages/4f/85/3730bf6788e9d22a430324fef9dc81b7b65718ab1d6e2485d1eb12fc8d4f/bzt-1.9.5.tar.gz
+[2024-04-29 11:01:43] INFO root fetch - processPackages [avoca]: Downloading https://files.pythonhosted.org/packages/f6/58/7a560de5d21eb70c0eb260759a3b6dbe8f532c1ab02040a92546ba89bc81/avoca-0.2.0.tar.gz
+[2024-04-29 11:01:43] INFO root fetch - processPackages [gcp-pal]: Downloading https://files.pythonhosted.org/packages/47/53/acda58f870fb8c9aed4f166fdb2683b5ee65b99e92f6f8ee739bbe3dc2d3/gcp_pal-1.0.5.tar.gz
+[2024-04-29 11:01:43] INFO root fetch - processPackages [prometheus-pve-sd]: Downloading https://files.pythonhosted.org/packages/1c/a2/76ab229ba55dd4584627135142fdc0c3ea5f745c492eeacb7942b339f4a9/prometheus_pve_sd-3.2.8.tar.gz
+[2024-04-29 11:01:43] INFO root fetch - processPackages [paintcompiler]: Downloading https://files.pythonhosted.org/packages/6b/a2/866824b5b31c5955837f2a348383b9fc39092fffdeff8b80850b646061eb/paintcompiler-0.3.3.tar.gz
+[2024-04-29 11:01:44] INFO root fetch - processPackages [jetline]: executing diffoscope
+[2024-04-29 11:01:44] INFO root fetch - processPackages [jetline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetline-0.1.8.tar.gz tmp/jetline-0.1.9.tar.gz --markdown 20240429/j/jetline/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 11:01:44] INFO root fetch - processPackages [plt-cli]: Downloading https://files.pythonhosted.org/packages/cd/1f/18111fc92a305792afafaff54351caadef0086ea69eddc51e09383170cf4/plt_cli-0.2.0-py3-none-any.whl
+[2024-04-29 11:01:44] INFO root fetch - processPackages [gcp-pal]: executing diffoscope
+[2024-04-29 11:01:44] INFO root fetch - processPackages [gcp-pal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcp_pal-1.0.4.tar.gz tmp/gcp_pal-1.0.5.tar.gz --markdown 20240429/g/gcp-pal/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-29 11:01:44] INFO root fetch - processPackages [paintcompiler]: executing diffoscope
+[2024-04-29 11:01:44] INFO root fetch - processPackages [paintcompiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paintcompiler-0.3.2.tar.gz tmp/paintcompiler-0.3.3.tar.gz --markdown 20240429/p/paintcompiler/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-29 11:01:44] INFO root fetch - processPackages [plt-cli]: executing diffoscope
+[2024-04-29 11:01:44] INFO root fetch - processPackages [plt-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plt_cli-0.1.9-py3-none-any.whl.zip tmp/plt_cli-0.2.0-py3-none-any.whl.zip --markdown 20240429/p/plt-cli/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-29 11:01:44] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/2c/f4/3ba32f6e940d0f56e33a9248b03b8b85a26e6082435f4c25de0848ade247/ultralytics-8.2.5.tar.gz
+[2024-04-29 11:01:44] INFO root fetch - processPackages [avoca]: Downloading https://files.pythonhosted.org/packages/ed/b2/ee9412b120507de177ca10343f06a5c1e81dc59e6fa2377298c06c1445ae/avoca-0.3.0.tar.gz
+[2024-04-29 11:01:44] INFO root fetch - processPackages [prometheus-pve-sd]: Downloading https://files.pythonhosted.org/packages/d5/8d/ddec2d08512ac65064d52f8c663493ddc000c5b269603bce6c337d29c3ea/prometheus_pve_sd-3.2.9.tar.gz
+[2024-04-29 11:01:44] INFO root fetch - processPackages [bzt]: Downloading https://files.pythonhosted.org/packages/76/3f/b2005924277461ac74c83a6ae6ec9235dcf2374c551d3494a6866139dfb8/bzt-1.9.6.tar.gz
+[2024-04-29 11:01:44] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2024-04-29 11:01:44] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.2.4.tar.gz tmp/ultralytics-8.2.5.tar.gz --markdown 20240429/u/ultralytics/8.2.4-8.2.5/README.md --exclude *.pyd
+[2024-04-29 11:01:44] INFO root fetch - processPackages [avoca]: executing diffoscope
+[2024-04-29 11:01:44] INFO root fetch - processPackages [avoca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avoca-0.2.0.tar.gz tmp/avoca-0.3.0.tar.gz --markdown 20240429/a/avoca/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-29 11:01:44] INFO root fetch - processPackages [prometheus-pve-sd]: executing diffoscope
+[2024-04-29 11:01:44] INFO root fetch - processPackages [prometheus-pve-sd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometheus_pve_sd-3.2.8.tar.gz tmp/prometheus_pve_sd-3.2.9.tar.gz --markdown 20240429/p/prometheus-pve-sd/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-04-29 11:01:44] INFO root fetch - processPackages [bzt]: executing diffoscope
+[2024-04-29 11:01:44] INFO root fetch - processPackages [bzt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bzt-1.9.5.tar.gz tmp/bzt-1.9.6.tar.gz --markdown 20240429/b/bzt/1.9.5-1.9.6/README.md --exclude *.pyd
+[2024-04-29 11:01:44] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.1.8.tar.gz]
+[2024-04-29 11:01:44] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.1.9.tar.gz]
+[2024-04-29 11:01:44] INFO root fetch - main [MainThread]: End processing [jetline]: success
+[2024-04-29 11:01:44] INFO root fetch - processPackages [paintcompiler]: Remove: archive file [/home/abi/fetcher/tmp/paintcompiler-0.3.2.tar.gz]
+[2024-04-29 11:01:44] INFO root fetch - processPackages [paintcompiler]: Remove: archive file [/home/abi/fetcher/tmp/paintcompiler-0.3.3.tar.gz]
+[2024-04-29 11:01:44] INFO root fetch - main [MainThread]: End processing [paintcompiler]: success
+[2024-04-29 11:01:45] INFO root fetch - processPackages [plt-cli]: Remove: archive file [/home/abi/fetcher/tmp/plt_cli-0.1.9-py3-none-any.whl.zip]
+[2024-04-29 11:01:45] INFO root fetch - processPackages [plt-cli]: Remove: archive file [/home/abi/fetcher/tmp/plt_cli-0.2.0-py3-none-any.whl.zip]
+[2024-04-29 11:01:45] INFO root fetch - main [MainThread]: End processing [plt-cli]: success
+[2024-04-29 11:01:45] INFO root fetch - processPackages [gcp-pal]: Remove: archive file [/home/abi/fetcher/tmp/gcp_pal-1.0.4.tar.gz]
+[2024-04-29 11:01:45] INFO root fetch - processPackages [gcp-pal]: Remove: archive file [/home/abi/fetcher/tmp/gcp_pal-1.0.5.tar.gz]
+[2024-04-29 11:01:45] INFO root fetch - main [MainThread]: End processing [gcp-pal]: success
+[2024-04-29 11:01:45] INFO root fetch - processPackages [avoca]: Remove: archive file [/home/abi/fetcher/tmp/avoca-0.2.0.tar.gz]
+[2024-04-29 11:01:45] INFO root fetch - processPackages [avoca]: Remove: archive file [/home/abi/fetcher/tmp/avoca-0.3.0.tar.gz]
+[2024-04-29 11:01:45] INFO root fetch - main [MainThread]: End processing [avoca]: success
+[2024-04-29 11:01:45] INFO root fetch - processPackages [prometheus-pve-sd]: Remove: archive file [/home/abi/fetcher/tmp/prometheus_pve_sd-3.2.8.tar.gz]
+[2024-04-29 11:01:45] INFO root fetch - processPackages [prometheus-pve-sd]: Remove: archive file [/home/abi/fetcher/tmp/prometheus_pve_sd-3.2.9.tar.gz]
+[2024-04-29 11:01:45] INFO root fetch - main [MainThread]: End processing [prometheus-pve-sd]: success
+[2024-04-29 11:01:45] INFO root fetch - processPackages [bzt]: Remove: archive file [/home/abi/fetcher/tmp/bzt-1.9.5.tar.gz]
+[2024-04-29 11:01:45] INFO root fetch - processPackages [bzt]: Remove: archive file [/home/abi/fetcher/tmp/bzt-1.9.6.tar.gz]
+[2024-04-29 11:01:45] INFO root fetch - main [MainThread]: End processing [bzt]: success
+[2024-04-29 11:01:45] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.2.4.tar.gz]
+[2024-04-29 11:01:45] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.2.5.tar.gz]
+[2024-04-29 11:01:45] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2024-04-29 11:01:45] INFO root fetch - main [MainThread]: Store serial: [22980999]
