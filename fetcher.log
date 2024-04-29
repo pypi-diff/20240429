@@ -15108,3 +15108,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 12:11:09] INFO root fetch - processPackages [resurfemg]: Remove: archive file [/home/abi/fetcher/tmp/resurfemg-0.2.2a0-py3-none-any.whl.zip]
 [2024-04-29 12:11:09] INFO root fetch - main [MainThread]: End processing [resurfemg]: success
 [2024-04-29 12:11:09] INFO root fetch - main [MainThread]: Store serial: [22981890]
+[2024-04-29 12:13:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22981890]
+[2024-04-29 12:13:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-29 12:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: envoy.code.check
+[2024-04-29 12:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nestipy-cli
+[2024-04-29 12:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ara-tools
+[2024-04-29 12:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: InsomGPT
+[2024-04-29 12:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: webdriver-browser
+[2024-04-29 12:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: phc-ingestion
+[2024-04-29 12:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: napari-SMLMLAB
+[2024-04-29 12:13:18] INFO root fetch - processPackages [phc-ingestion]: New version: [0.8.7] Old Version: [0.8.6]
+[2024-04-29 12:13:18] INFO root fetch - processPackages [napari-SMLMLAB]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-29 12:13:18] INFO root fetch - processPackages [ara-tools]: New version: [0.1.4.9] Old Version: [0.1.4.7]
+[2024-04-29 12:13:18] INFO root fetch - processPackages [envoy.code.check]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-29 12:13:18] INFO root fetch - processPackages [nestipy-cli]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-29 12:13:18] INFO root fetch - processPackages [webdriver-browser]: New version: [0.1.6.post1] Old Version: [0.1.6]
+[2024-04-29 12:13:18] WARNING root fetch - processPackages [InsomGPT]: Skipping, unable to determine old version
+[2024-04-29 12:13:18] INFO root fetch - main [MainThread]: End processing [InsomGPT] error
+[2024-04-29 12:13:18] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/61/ff/87f6c8756fba7f463f51f428592f0dc4209c5a4917f02cfa920a9b73d640/phc-ingestion-0.8.6.tar.gz
+[2024-04-29 12:13:18] INFO root fetch - processPackages [nestipy-cli]: Downloading https://files.pythonhosted.org/packages/37/3c/2728818aaccf78b9a45fda6edd0ed135e5ea450af5960b2c25f16bcb8895/nestipy_cli-0.2.1.tar.gz
+[2024-04-29 12:13:18] INFO root fetch - processPackages [envoy.code.check]: Downloading https://files.pythonhosted.org/packages/5a/5e/5ce2a0673bf1d8e20be565deb823c3026841019ac388b4dc6cfe10699264/envoy.code.check-0.5.8.tar.gz
+[2024-04-29 12:13:18] INFO root fetch - processPackages [ara-tools]: Downloading https://files.pythonhosted.org/packages/61/c2/1f3d69fc991264dd1e6328b3883195ba6fa6d5e6dfe12f30bfb63b1a821a/ara-tools-0.1.4.7.tar.gz
+[2024-04-29 12:13:18] INFO root fetch - processPackages [napari-SMLMLAB]: Downloading https://files.pythonhosted.org/packages/66/55/a14ba4d65609e1679999fdd44e3d76014734cc373b79ad868cd6a9facba6/napari_smlmlab-0.0.4.tar.gz
+[2024-04-29 12:13:18] INFO root fetch - processPackages [webdriver-browser]: Downloading https://files.pythonhosted.org/packages/14/a4/6bbab1d8d2c1cae703da3721cb18cdc0ab4ce1940bc773b55a3423027fe9/webdriver_browser-0.1.6.tar.gz
+[2024-04-29 12:13:18] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/5e/6f/967c2cf69f8aec2189994f34fd8de9ce6b4a392e65df9d2e663dfcc3d7f5/phc-ingestion-0.8.7.tar.gz
+[2024-04-29 12:13:18] INFO root fetch - processPackages [nestipy-cli]: Downloading https://files.pythonhosted.org/packages/8c/80/e918b1cde9778467c5f353211f5a848e9703a1bc2e2b9d3a226f4e473153/nestipy_cli-0.2.2.tar.gz
+[2024-04-29 12:13:18] INFO root fetch - processPackages [ara-tools]: Downloading https://files.pythonhosted.org/packages/7c/e1/03c26e41f4232ed77de9425e2c3c556446e754b88575d02b10b992988c26/ara-tools-0.1.4.9.tar.gz
+[2024-04-29 12:13:18] INFO root fetch - processPackages [phc-ingestion]: executing diffoscope
+[2024-04-29 12:13:18] INFO root fetch - processPackages [phc-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phc-ingestion-0.8.6.tar.gz tmp/phc-ingestion-0.8.7.tar.gz --markdown 20240429/p/phc-ingestion/0.8.6-0.8.7/README.md --exclude *.pyd
+[2024-04-29 12:13:18] INFO root fetch - processPackages [webdriver-browser]: Downloading https://files.pythonhosted.org/packages/bb/b1/f5bbcbc00b7d26667fae1ed55601cef40ccd0454e13149b2bcc4d13afcdd/webdriver_browser-0.1.6.post1.tar.gz
+[2024-04-29 12:13:19] INFO root fetch - processPackages [napari-SMLMLAB]: Downloading https://files.pythonhosted.org/packages/b4/80/63f3e61cf9839db59805b40c6da1768933cd1f4b87c495655102b6a2afb8/napari_smlmlab-0.0.5.tar.gz
+[2024-04-29 12:13:19] INFO root fetch - processPackages [envoy.code.check]: Downloading https://files.pythonhosted.org/packages/7f/65/9d66e3cff437151adb3a5ad9c3fbbfaed09964011e87cb08458d5425c8b3/envoy.code.check-0.5.9.tar.gz
+[2024-04-29 12:13:19] INFO root fetch - processPackages [nestipy-cli]: executing diffoscope
+[2024-04-29 12:13:19] INFO root fetch - processPackages [nestipy-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestipy_cli-0.2.1.tar.gz tmp/nestipy_cli-0.2.2.tar.gz --markdown 20240429/n/nestipy-cli/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-29 12:13:19] INFO root fetch - processPackages [ara-tools]: executing diffoscope
+[2024-04-29 12:13:19] INFO root fetch - processPackages [ara-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ara-tools-0.1.4.7.tar.gz tmp/ara-tools-0.1.4.9.tar.gz --markdown 20240429/a/ara-tools/0.1.4.7-0.1.4.9/README.md --exclude *.pyd
+[2024-04-29 12:13:19] INFO root fetch - processPackages [webdriver-browser]: executing diffoscope
+[2024-04-29 12:13:19] INFO root fetch - processPackages [webdriver-browser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webdriver_browser-0.1.6.tar.gz tmp/webdriver_browser-0.1.6.post1.tar.gz --markdown 20240429/w/webdriver-browser/0.1.6-0.1.6.post1/README.md --exclude *.pyd
+[2024-04-29 12:13:19] INFO root fetch - processPackages [envoy.code.check]: executing diffoscope
+[2024-04-29 12:13:19] INFO root fetch - processPackages [envoy.code.check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envoy.code.check-0.5.8.tar.gz tmp/envoy.code.check-0.5.9.tar.gz --markdown 20240429/e/envoy.code.check/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-29 12:13:19] INFO root fetch - processPackages [napari-SMLMLAB]: executing diffoscope
+[2024-04-29 12:13:19] INFO root fetch - processPackages [napari-SMLMLAB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari_smlmlab-0.0.4.tar.gz tmp/napari_smlmlab-0.0.5.tar.gz --markdown 20240429/n/napari-SMLMLAB/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-29 12:13:19] INFO root fetch - processPackages [nestipy-cli]: Remove: archive file [/home/abi/fetcher/tmp/nestipy_cli-0.2.1.tar.gz]
+[2024-04-29 12:13:19] INFO root fetch - processPackages [nestipy-cli]: Remove: archive file [/home/abi/fetcher/tmp/nestipy_cli-0.2.2.tar.gz]
+[2024-04-29 12:13:19] INFO root fetch - main [MainThread]: End processing [nestipy-cli]: success
+[2024-04-29 12:13:19] INFO root fetch - processPackages [webdriver-browser]: Remove: archive file [/home/abi/fetcher/tmp/webdriver_browser-0.1.6.tar.gz]
+[2024-04-29 12:13:19] INFO root fetch - processPackages [webdriver-browser]: Remove: archive file [/home/abi/fetcher/tmp/webdriver_browser-0.1.6.post1.tar.gz]
+[2024-04-29 12:13:19] INFO root fetch - main [MainThread]: End processing [webdriver-browser]: success
+[2024-04-29 12:13:19] INFO root fetch - processPackages [envoy.code.check]: Remove: archive file [/home/abi/fetcher/tmp/envoy.code.check-0.5.8.tar.gz]
+[2024-04-29 12:13:19] INFO root fetch - processPackages [envoy.code.check]: Remove: archive file [/home/abi/fetcher/tmp/envoy.code.check-0.5.9.tar.gz]
+[2024-04-29 12:13:19] INFO root fetch - main [MainThread]: End processing [envoy.code.check]: success
+[2024-04-29 12:13:19] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.8.6.tar.gz]
+[2024-04-29 12:13:19] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.8.7.tar.gz]
+[2024-04-29 12:13:19] INFO root fetch - main [MainThread]: End processing [phc-ingestion]: success
+[2024-04-29 12:13:19] INFO root fetch - processPackages [napari-SMLMLAB]: Remove: archive file [/home/abi/fetcher/tmp/napari_smlmlab-0.0.4.tar.gz]
+[2024-04-29 12:13:19] INFO root fetch - processPackages [napari-SMLMLAB]: Remove: archive file [/home/abi/fetcher/tmp/napari_smlmlab-0.0.5.tar.gz]
+[2024-04-29 12:13:19] INFO root fetch - main [MainThread]: End processing [napari-SMLMLAB]: success
+[2024-04-29 12:13:19] INFO root fetch - processPackages [ara-tools]: Remove: archive file [/home/abi/fetcher/tmp/ara-tools-0.1.4.7.tar.gz]
+[2024-04-29 12:13:19] INFO root fetch - processPackages [ara-tools]: Remove: archive file [/home/abi/fetcher/tmp/ara-tools-0.1.4.9.tar.gz]
+[2024-04-29 12:13:19] INFO root fetch - main [MainThread]: End processing [ara-tools]: success
+[2024-04-29 12:13:19] INFO root fetch - main [MainThread]: Store serial: [22981917]
