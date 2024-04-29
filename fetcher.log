@@ -22278,3 +22278,33 @@ EOFError: EOF read where object expected
 [2024-04-29 15:51:47] INFO root fetch - processPackages [pyjvcprojector]: Remove: archive file [/home/abi/fetcher/tmp/pyjvcprojector-1.0.9.tar.gz]
 [2024-04-29 15:51:47] INFO root fetch - main [MainThread]: End processing [pyjvcprojector]: success
 [2024-04-29 15:51:47] INFO root fetch - main [MainThread]: Store serial: [22984673]
+[2024-04-29 15:53:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22984673]
+[2024-04-29 15:53:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 15:53:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dodata
+[2024-04-29 15:53:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simple-aws-wrapper
+[2024-04-29 15:53:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: secretvalidate
+[2024-04-29 15:53:56] INFO root fetch - processPackages [simple-aws-wrapper]: New version: [2.8.0] Old Version: [2.7.5]
+[2024-04-29 15:53:56] INFO root fetch - processPackages [secretvalidate]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-04-29 15:53:56] INFO root fetch - processPackages [simple-aws-wrapper]: Downloading https://files.pythonhosted.org/packages/23/b8/d9b052e18f0f3de26a395f6e0c3468c3de2121890885b1c393827e6de864/simple_aws_wrapper-2.7.5.tar.gz
+[2024-04-29 15:53:56] INFO root fetch - processPackages [dodata]: New version: [0.5.0] Old Version: [0.4.9]
+[2024-04-29 15:53:56] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/2a/74/f1fedcd5b126c4af0184fc7bc616c4941f414eb51cc2fc523514708f3cae/secretvalidate-0.0.1a8.tar.gz
+[2024-04-29 15:53:57] INFO root fetch - processPackages [simple-aws-wrapper]: Downloading https://files.pythonhosted.org/packages/13/a1/f7177ea142cacb66fedf2b7f5668538732dcc419e23ff1aba5db3b578150/simple_aws_wrapper-2.8.0.tar.gz
+[2024-04-29 15:53:57] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/57/86/54b1f11aebe768d2014fd8f4bb1e90e29a764014e1104c5ccf64e6433d48/secretvalidate-0.0.1a9.tar.gz
+[2024-04-29 15:53:57] INFO root fetch - processPackages [dodata]: Downloading https://files.pythonhosted.org/packages/67/67/39d0e66b6fc73e5ef0b87a078396c1c56c783d7e8342eb4285684531d572/dodata-0.4.9.tar.gz
+[2024-04-29 15:53:57] INFO root fetch - processPackages [simple-aws-wrapper]: executing diffoscope
+[2024-04-29 15:53:57] INFO root fetch - processPackages [simple-aws-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_aws_wrapper-2.7.5.tar.gz tmp/simple_aws_wrapper-2.8.0.tar.gz --markdown 20240429/s/simple-aws-wrapper/2.7.5-2.8.0/README.md --exclude *.pyd
+[2024-04-29 15:53:57] INFO root fetch - processPackages [secretvalidate]: executing diffoscope
+[2024-04-29 15:53:57] INFO root fetch - processPackages [secretvalidate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretvalidate-0.0.1a8.tar.gz tmp/secretvalidate-0.0.1a9.tar.gz --markdown 20240429/s/secretvalidate/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-04-29 15:53:57] INFO root fetch - processPackages [dodata]: Downloading https://files.pythonhosted.org/packages/6c/a0/6899440698aabfe1062859d5718c669fb2fe93fb8ec9771a3097ed89d241/dodata-0.5.0.tar.gz
+[2024-04-29 15:53:57] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a8.tar.gz]
+[2024-04-29 15:53:57] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a9.tar.gz]
+[2024-04-29 15:53:57] INFO root fetch - main [MainThread]: End processing [secretvalidate]: success
+[2024-04-29 15:53:57] INFO root fetch - processPackages [dodata]: executing diffoscope
+[2024-04-29 15:53:57] INFO root fetch - processPackages [dodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dodata-0.4.9.tar.gz tmp/dodata-0.5.0.tar.gz --markdown 20240429/d/dodata/0.4.9-0.5.0/README.md --exclude *.pyd
+[2024-04-29 15:53:57] INFO root fetch - processPackages [simple-aws-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/simple_aws_wrapper-2.7.5.tar.gz]
+[2024-04-29 15:53:57] INFO root fetch - processPackages [simple-aws-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/simple_aws_wrapper-2.8.0.tar.gz]
+[2024-04-29 15:53:57] INFO root fetch - main [MainThread]: End processing [simple-aws-wrapper]: success
+[2024-04-29 15:53:59] INFO root fetch - processPackages [dodata]: Remove: archive file [/home/abi/fetcher/tmp/dodata-0.4.9.tar.gz]
+[2024-04-29 15:53:59] INFO root fetch - processPackages [dodata]: Remove: archive file [/home/abi/fetcher/tmp/dodata-0.5.0.tar.gz]
+[2024-04-29 15:53:59] INFO root fetch - main [MainThread]: End processing [dodata]: success
+[2024-04-29 15:53:59] INFO root fetch - main [MainThread]: Store serial: [22984684]
