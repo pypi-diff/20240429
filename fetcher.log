@@ -15678,3 +15678,38 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 12:33:05] INFO root fetch - processPackages [dockipy]: Remove: archive file [/home/abi/fetcher/tmp/dockipy-0.0.9.tar.gz]
 [2024-04-29 12:33:05] INFO root fetch - main [MainThread]: End processing [dockipy]: success
 [2024-04-29 12:33:05] INFO root fetch - main [MainThread]: Store serial: [22982087]
+[2024-04-29 12:35:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982087]
+[2024-04-29 12:35:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 12:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ixoncdkingress
+[2024-04-29 12:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aspose-barcode-for-python-via-java
+[2024-04-29 12:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Xray-core
+[2024-04-29 12:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swarmauri
+[2024-04-29 12:35:15] INFO root fetch - processPackages [ixoncdkingress]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 12:35:15] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.86]
+[2024-04-29 12:35:16] INFO root fetch - processPackages [ixoncdkingress]: Downloading https://files.pythonhosted.org/packages/b3/1b/2738933755f61b85947702010ca1d9403e64824e49dcdc082f1b61a07b4a/ixoncdkingress-0.0.8.tar.gz
+[2024-04-29 12:35:16] INFO root fetch - processPackages [Xray-core]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-29 12:35:16] INFO root fetch - processPackages [aspose-barcode-for-python-via-java]: New version: [24.4.0] Old Version: [24.3.0]
+[2024-04-29 12:35:16] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/3b/9e/86f83e7b0d6ff88fa009068d2da717769b496e8544e09939968eda0ec608/swarmauri-0.1.86.tar.gz
+[2024-04-29 12:35:16] INFO root fetch - processPackages [aspose-barcode-for-python-via-java]: Downloading https://files.pythonhosted.org/packages/77/17/3f5360655bd2ab16dcf42ffa6a7562f0c34cbf1d500277b1e026c388417c/aspose-barcode-for-python-via-java-24.3.0.tar.gz
+[2024-04-29 12:35:16] INFO root fetch - processPackages [ixoncdkingress]: Downloading https://files.pythonhosted.org/packages/81/5d/64486ddfc794e9b261c3c76607feaa76e92ecb01cd26ffd13bced3ecac65/ixoncdkingress-0.0.9.tar.gz
+[2024-04-29 12:35:16] INFO root fetch - processPackages [Xray-core]: Downloading https://files.pythonhosted.org/packages/1c/f3/ffda54f314c3f963c7f2568ac0cbb275a1d39e983bb49bfd9d8bf4cdee8c/Xray-core-1.8.8.tar.gz
+[2024-04-29 12:35:16] WARNING root fetch - processPackages [aspose-barcode-for-python-via-java]: Skipping package: exceeds size limit 14292459>=10485760
+[2024-04-29 12:35:16] INFO root fetch - main [MainThread]: End processing [aspose-barcode-for-python-via-java] error
+[2024-04-29 12:35:16] INFO root fetch - processPackages [ixoncdkingress]: executing diffoscope
+[2024-04-29 12:35:16] INFO root fetch - processPackages [ixoncdkingress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixoncdkingress-0.0.8.tar.gz tmp/ixoncdkingress-0.0.9.tar.gz --markdown 20240429/i/ixoncdkingress/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 12:35:16] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-29 12:35:16] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-29 12:35:16] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.86.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240429/s/swarmauri/0.1.86-0.1.9/README.md --exclude *.pyd
+[2024-04-29 12:35:16] INFO root fetch - processPackages [Xray-core]: Downloading https://files.pythonhosted.org/packages/b3/93/25581bc8060d22150a2af5f750a49bcd5c7d1b5c557bb0a22bcba5e6cb42/Xray-core-1.8.9.tar.gz
+[2024-04-29 12:35:16] INFO root fetch - processPackages [Xray-core]: executing diffoscope
+[2024-04-29 12:35:16] INFO root fetch - processPackages [Xray-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Xray-core-1.8.8.tar.gz tmp/Xray-core-1.8.9.tar.gz --markdown 20240429/X/Xray-core/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-04-29 12:35:17] INFO root fetch - processPackages [ixoncdkingress]: Remove: archive file [/home/abi/fetcher/tmp/ixoncdkingress-0.0.8.tar.gz]
+[2024-04-29 12:35:17] INFO root fetch - processPackages [ixoncdkingress]: Remove: archive file [/home/abi/fetcher/tmp/ixoncdkingress-0.0.9.tar.gz]
+[2024-04-29 12:35:17] INFO root fetch - main [MainThread]: End processing [ixoncdkingress]: success
+[2024-04-29 12:35:18] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.86.tar.gz]
+[2024-04-29 12:35:18] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-29 12:35:18] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-29 12:35:21] INFO root fetch - processPackages [Xray-core]: Remove: archive file [/home/abi/fetcher/tmp/Xray-core-1.8.8.tar.gz]
+[2024-04-29 12:35:21] INFO root fetch - processPackages [Xray-core]: Remove: archive file [/home/abi/fetcher/tmp/Xray-core-1.8.9.tar.gz]
+[2024-04-29 12:35:21] INFO root fetch - main [MainThread]: End processing [Xray-core]: success
+[2024-04-29 12:35:21] INFO root fetch - main [MainThread]: Store serial: [22982099]
