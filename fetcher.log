@@ -22059,3 +22059,117 @@ EOFError: EOF read where object expected
 [2024-04-29 15:45:11] INFO root fetch - processPackages [uvx]: Remove: archive file [/home/abi/fetcher/tmp/uvx-2.0.6.tar.gz]
 [2024-04-29 15:45:11] INFO root fetch - main [MainThread]: End processing [uvx]: success
 [2024-04-29 15:45:11] INFO root fetch - main [MainThread]: Store serial: [22984598]
+[2024-04-29 15:47:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22984598]
+[2024-04-29 15:47:20] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-29 15:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: secretvalidate
+[2024-04-29 15:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: viewser
+[2024-04-29 15:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyracf
+[2024-04-29 15:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DataExtractorOEG
+[2024-04-29 15:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: appdynamics-without-jre
+[2024-04-29 15:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gytrash
+[2024-04-29 15:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: appdynamics-alpine-without-jre
+[2024-04-29 15:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: simpeg-drivers
+[2024-04-29 15:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyguiadapter
+[2024-04-29 15:47:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mars-similarity-tools
+[2024-04-29 15:47:20] INFO root fetch - processPackages [DataExtractorOEG]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-04-29 15:47:20] INFO root fetch - processPackages [secretvalidate]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-04-29 15:47:20] INFO root fetch - processPackages [simpeg-drivers]: New version: [0.1.0b2] Old Version: [0.1.0b1]
+[2024-04-29 15:47:20] INFO root fetch - processPackages [pyguiadapter]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-29 15:47:20] INFO root fetch - processPackages [appdynamics-alpine-without-jre]: New version: [24.4.1.6770] Old Version: [24.2.0.6567]
+[2024-04-29 15:47:20] INFO root fetch - processPackages [mars-similarity-tools]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-29 15:47:20] INFO root fetch - processPackages [gytrash]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 15:47:20] INFO root fetch - processPackages [pyracf]: New version: [0.8.8] Old Version: [0.8.7]
+[2024-04-29 15:47:20] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/5e/a6/2858d3d0186a62c3fbf4930677b13df745c41a83977800fde3b4c0a72090/dataextractoroeg-0.3.6.tar.gz
+[2024-04-29 15:47:20] INFO root fetch - processPackages [pyguiadapter]: Downloading https://files.pythonhosted.org/packages/55/dd/22c03dfe0e03626b3e588b698cf1726cbcf5fa73f1728ab227deb054b8f1/pyguiadapter-0.3.3.tar.gz
+[2024-04-29 15:47:20] INFO root fetch - processPackages [appdynamics-without-jre]: New version: [24.4.1.6770] Old Version: [24.2.0.6567]
+[2024-04-29 15:47:20] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/2a/74/f1fedcd5b126c4af0184fc7bc616c4941f414eb51cc2fc523514708f3cae/secretvalidate-0.0.1a8.tar.gz
+[2024-04-29 15:47:20] INFO root fetch - processPackages [viewser]: New version: [6.5.0] Old Version: [6.4.2]
+[2024-04-29 15:47:20] INFO root fetch - processPackages [simpeg-drivers]: Downloading https://files.pythonhosted.org/packages/4c/26/f4e1cfd14ed795134454263e9cf2f726b75aa3e675dd26aec8720be5c68c/simpeg_drivers-0.1.0b1.tar.gz
+[2024-04-29 15:47:20] INFO root fetch - processPackages [mars-similarity-tools]: Downloading https://files.pythonhosted.org/packages/6b/29/0cebda5aa34f4d6fef786e5dd8b5eb24edabbc1b175094604476658fea22/mars_similarity_tools-0.2.0.tar.gz
+[2024-04-29 15:47:20] INFO root fetch - processPackages [viewser]: Downloading https://files.pythonhosted.org/packages/af/12/f817187ff902bf4a68683022a29bf3412a172a35898d0cfbb70e1f643fb5/viewser-6.4.2.tar.gz
+[2024-04-29 15:47:20] INFO root fetch - processPackages [appdynamics-alpine-without-jre]: Downloading https://files.pythonhosted.org/packages/f0/96/e097145e93618ab3ef49213ae84a7607f1561fce738fedff9b285504d953/appdynamics_alpine_without_jre-24.2.0.6567-py2.py3-none-any.whl
+[2024-04-29 15:47:20] INFO root fetch - processPackages [pyracf]: Downloading https://files.pythonhosted.org/packages/41/6e/e1da740f4e251f57d4503299af6f90f685c095c9a05a7a483b8bc057c41c/pyracf-0.8.7.tar.gz
+[2024-04-29 15:47:20] INFO root fetch - processPackages [gytrash]: Downloading https://files.pythonhosted.org/packages/ab/4f/011b223f6bbdf1145d97cfd70d971e92f6ebe0af53c54a4b8d9f29b4f3e9/gytrash-0.0.8.tar.gz
+[2024-04-29 15:47:20] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/57/86/54b1f11aebe768d2014fd8f4bb1e90e29a764014e1104c5ccf64e6433d48/secretvalidate-0.0.1a9.tar.gz
+[2024-04-29 15:47:20] INFO root fetch - processPackages [appdynamics-without-jre]: Downloading https://files.pythonhosted.org/packages/3b/33/dbf34ac985a705bbc60afe1f0f877e2c7af4a05f9717b4de4bf638686b9a/appdynamics_without_jre-24.2.0.6567-py2.py3-none-any.whl
+[2024-04-29 15:47:20] INFO root fetch - processPackages [pyguiadapter]: Downloading https://files.pythonhosted.org/packages/f9/ef/4842de493811ee10276375f6cce1773a8f80c0784ca01db4c7fb5da31ae1/pyguiadapter-0.3.4.tar.gz
+[2024-04-29 15:47:21] INFO root fetch - processPackages [secretvalidate]: executing diffoscope
+[2024-04-29 15:47:21] INFO root fetch - processPackages [secretvalidate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretvalidate-0.0.1a8.tar.gz tmp/secretvalidate-0.0.1a9.tar.gz --markdown 20240429/s/secretvalidate/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-04-29 15:47:21] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/3e/ed/24cd73051e6c06cfbabae5abe0303d4fb519df0b57b0f369831159ff3839/dataextractoroeg-0.3.7.tar.gz
+[2024-04-29 15:47:21] INFO root fetch - processPackages [pyguiadapter]: executing diffoscope
+[2024-04-29 15:47:21] INFO root fetch - processPackages [pyguiadapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyguiadapter-0.3.3.tar.gz tmp/pyguiadapter-0.3.4.tar.gz --markdown 20240429/p/pyguiadapter/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-04-29 15:47:21] INFO root fetch - processPackages [mars-similarity-tools]: Downloading https://files.pythonhosted.org/packages/83/da/292fc189d52bebc257611f124eb96676b39f338ebaef46480c9870a82469/mars_similarity_tools-0.2.1.tar.gz
+[2024-04-29 15:47:21] INFO root fetch - processPackages [DataExtractorOEG]: executing diffoscope
+[2024-04-29 15:47:21] INFO root fetch - processPackages [DataExtractorOEG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataextractoroeg-0.3.6.tar.gz tmp/dataextractoroeg-0.3.7.tar.gz --markdown 20240429/D/DataExtractorOEG/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-04-29 15:47:21] INFO root fetch - processPackages [viewser]: Downloading https://files.pythonhosted.org/packages/3c/68/2646629563221e993c3e330bcb6b49004f04eab4a8b2766ecf9ef1f8bbfb/viewser-6.5.0.tar.gz
+[2024-04-29 15:47:21] INFO root fetch - processPackages [pyracf]: Downloading https://files.pythonhosted.org/packages/62/e5/89da8c7191f445823626601de2c8c971968f26a8551fa1e775930a9e7fe1/pyracf-0.8.8.tar.gz
+[2024-04-29 15:47:21] INFO root fetch - processPackages [appdynamics-alpine-without-jre]: Downloading https://files.pythonhosted.org/packages/d0/7c/b9738e8697eabeefb86c86364e4916ac083d66b4f434e4d04aa0b5f26fe9/appdynamics_alpine_without_jre-24.4.1.6770-py2.py3-none-any.whl
+[2024-04-29 15:47:21] INFO root fetch - processPackages [simpeg-drivers]: Downloading https://files.pythonhosted.org/packages/5c/dc/2b529939bae9e63c7fc3355e94d51e36b2c76c8f36a1d89db1156dd6df2d/simpeg_drivers-0.1.0b2.tar.gz
+[2024-04-29 15:47:21] INFO root fetch - processPackages [mars-similarity-tools]: executing diffoscope
+[2024-04-29 15:47:21] INFO root fetch - processPackages [mars-similarity-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mars_similarity_tools-0.2.0.tar.gz tmp/mars_similarity_tools-0.2.1.tar.gz --markdown 20240429/m/mars-similarity-tools/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-29 15:47:21] INFO root fetch - processPackages [appdynamics-without-jre]: Downloading https://files.pythonhosted.org/packages/9d/8e/979c6b0a2ac38ab22bb874cb440d967ed0c8afa3e0273d654d017895fdff/appdynamics_without_jre-24.4.1.6770-py2.py3-none-any.whl
+[2024-04-29 15:47:21] INFO root fetch - processPackages [gytrash]: Downloading https://files.pythonhosted.org/packages/b0/d2/98e720c9b099844ce6e0a2fefea66da1e4047fa30be12ed6b427a97ab7fd/gytrash-0.0.9.tar.gz
+[2024-04-29 15:47:21] INFO root fetch - processPackages [viewser]: executing diffoscope
+[2024-04-29 15:47:21] INFO root fetch - processPackages [viewser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viewser-6.4.2.tar.gz tmp/viewser-6.5.0.tar.gz --markdown 20240429/v/viewser/6.4.2-6.5.0/README.md --exclude *.pyd
+[2024-04-29 15:47:21] INFO root fetch - processPackages [pyracf]: executing diffoscope
+[2024-04-29 15:47:21] INFO root fetch - processPackages [pyracf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyracf-0.8.7.tar.gz tmp/pyracf-0.8.8.tar.gz --markdown 20240429/p/pyracf/0.8.7-0.8.8/README.md --exclude *.pyd
+[2024-04-29 15:47:21] INFO root fetch - processPackages [appdynamics-alpine-without-jre]: executing diffoscope
+[2024-04-29 15:47:21] INFO root fetch - processPackages [appdynamics-alpine-without-jre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appdynamics_alpine_without_jre-24.2.0.6567-py2.py3-none-any.whl.zip tmp/appdynamics_alpine_without_jre-24.4.1.6770-py2.py3-none-any.whl.zip --markdown 20240429/a/appdynamics-alpine-without-jre/24.2.0.6567-24.4.1.6770/README.md --exclude *.pyd
+[2024-04-29 15:47:21] INFO root fetch - processPackages [appdynamics-without-jre]: executing diffoscope
+[2024-04-29 15:47:21] INFO root fetch - processPackages [appdynamics-without-jre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appdynamics_without_jre-24.2.0.6567-py2.py3-none-any.whl.zip tmp/appdynamics_without_jre-24.4.1.6770-py2.py3-none-any.whl.zip --markdown 20240429/a/appdynamics-without-jre/24.2.0.6567-24.4.1.6770/README.md --exclude *.pyd
+[2024-04-29 15:47:21] INFO root fetch - processPackages [gytrash]: executing diffoscope
+[2024-04-29 15:47:21] INFO root fetch - processPackages [gytrash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gytrash-0.0.8.tar.gz tmp/gytrash-0.0.9.tar.gz --markdown 20240429/g/gytrash/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 15:47:21] INFO root fetch - processPackages [simpeg-drivers]: executing diffoscope
+[2024-04-29 15:47:21] INFO root fetch - processPackages [simpeg-drivers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpeg_drivers-0.1.0b1.tar.gz tmp/simpeg_drivers-0.1.0b2.tar.gz --markdown 20240429/s/simpeg-drivers/0.1.0b1-0.1.0b2/README.md --exclude *.pyd
+[2024-04-29 15:47:22] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a8.tar.gz]
+[2024-04-29 15:47:22] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a9.tar.gz]
+[2024-04-29 15:47:22] INFO root fetch - processPackages [secretvalidate]: Start processing: alibabacloud-gpdb20160503-py2
+[2024-04-29 15:47:22] INFO root fetch - main [MainThread]: End processing [secretvalidate]: success
+[2024-04-29 15:47:22] INFO root fetch - processPackages [mars-similarity-tools]: Remove: archive file [/home/abi/fetcher/tmp/mars_similarity_tools-0.2.0.tar.gz]
+[2024-04-29 15:47:22] INFO root fetch - processPackages [mars-similarity-tools]: Remove: archive file [/home/abi/fetcher/tmp/mars_similarity_tools-0.2.1.tar.gz]
+[2024-04-29 15:47:22] INFO root fetch - processPackages [mars-similarity-tools]: Start processing: techdom
+[2024-04-29 15:47:22] INFO root fetch - main [MainThread]: End processing [mars-similarity-tools]: success
+[2024-04-29 15:47:22] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: New version: [3.6.4] Old Version: [3.6.3]
+[2024-04-29 15:47:22] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.3.6.tar.gz]
+[2024-04-29 15:47:22] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.3.7.tar.gz]
+[2024-04-29 15:47:22] INFO root fetch - processPackages [DataExtractorOEG]: Start processing: bent
+[2024-04-29 15:47:22] INFO root fetch - main [MainThread]: End processing [DataExtractorOEG]: success
+[2024-04-29 15:47:22] INFO root fetch - processPackages [bent]: New version: [0.0.9] Old Version: [0.0.38]
+[2024-04-29 15:47:22] WARNING root fetch - processPackages [techdom]: Skipping, unable to determine old version
+[2024-04-29 15:47:22] INFO root fetch - main [MainThread]: End processing [techdom] error
+[2024-04-29 15:47:22] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: Downloading https://files.pythonhosted.org/packages/ee/5c/1996b6095f3edd4048b9122363015f712b58ac05b188ade79718a06b4901/alibabacloud_gpdb20160503_py2-3.6.3.tar.gz
+[2024-04-29 15:47:22] INFO root fetch - processPackages [bent]: Downloading https://files.pythonhosted.org/packages/9c/df/b5fc4cc4e7349aa2f0ce192734547a51cf187173e4dcb0c31e0b1be16cf6/bent-0.0.38.tar.gz
+[2024-04-29 15:47:22] INFO root fetch - processPackages [pyracf]: Remove: archive file [/home/abi/fetcher/tmp/pyracf-0.8.7.tar.gz]
+[2024-04-29 15:47:22] INFO root fetch - processPackages [pyracf]: Remove: archive file [/home/abi/fetcher/tmp/pyracf-0.8.8.tar.gz]
+[2024-04-29 15:47:22] INFO root fetch - main [MainThread]: End processing [pyracf]: success
+[2024-04-29 15:47:22] INFO root fetch - processPackages [gytrash]: Remove: archive file [/home/abi/fetcher/tmp/gytrash-0.0.8.tar.gz]
+[2024-04-29 15:47:22] INFO root fetch - processPackages [gytrash]: Remove: archive file [/home/abi/fetcher/tmp/gytrash-0.0.9.tar.gz]
+[2024-04-29 15:47:22] INFO root fetch - main [MainThread]: End processing [gytrash]: success
+[2024-04-29 15:47:22] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: Downloading https://files.pythonhosted.org/packages/2c/29/cded4b2b62dbd826ff8cc62883ec9ab5e71f7339e2f0236d2ecf05a826a9/alibabacloud_gpdb20160503_py2-3.6.4.tar.gz
+[2024-04-29 15:47:22] INFO root fetch - processPackages [bent]: Downloading https://files.pythonhosted.org/packages/90/0b/e90bc1c1cde3dc26fe2b1f4a0648bdbf77fa5cd447091e4accd93b6ce8bb/bent-0.0.9.tar.gz
+[2024-04-29 15:47:22] INFO root fetch - processPackages [pyguiadapter]: Remove: archive file [/home/abi/fetcher/tmp/pyguiadapter-0.3.3.tar.gz]
+[2024-04-29 15:47:22] INFO root fetch - processPackages [pyguiadapter]: Remove: archive file [/home/abi/fetcher/tmp/pyguiadapter-0.3.4.tar.gz]
+[2024-04-29 15:47:22] INFO root fetch - main [MainThread]: End processing [pyguiadapter]: success
+[2024-04-29 15:47:22] INFO root fetch - processPackages [viewser]: Remove: archive file [/home/abi/fetcher/tmp/viewser-6.4.2.tar.gz]
+[2024-04-29 15:47:22] INFO root fetch - processPackages [viewser]: Remove: archive file [/home/abi/fetcher/tmp/viewser-6.5.0.tar.gz]
+[2024-04-29 15:47:22] INFO root fetch - main [MainThread]: End processing [viewser]: success
+[2024-04-29 15:47:23] INFO root fetch - processPackages [bent]: executing diffoscope
+[2024-04-29 15:47:23] INFO root fetch - processPackages [bent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bent-0.0.38.tar.gz tmp/bent-0.0.9.tar.gz --markdown 20240429/b/bent/0.0.38-0.0.9/README.md --exclude *.pyd
+[2024-04-29 15:47:23] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: executing diffoscope
+[2024-04-29 15:47:23] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_gpdb20160503_py2-3.6.3.tar.gz tmp/alibabacloud_gpdb20160503_py2-3.6.4.tar.gz --markdown 20240429/a/alibabacloud-gpdb20160503-py2/3.6.3-3.6.4/README.md --exclude *.pyd
+[2024-04-29 15:47:23] INFO root fetch - processPackages [appdynamics-alpine-without-jre]: Remove: archive file [/home/abi/fetcher/tmp/appdynamics_alpine_without_jre-24.2.0.6567-py2.py3-none-any.whl.zip]
+[2024-04-29 15:47:23] INFO root fetch - processPackages [appdynamics-alpine-without-jre]: Remove: archive file [/home/abi/fetcher/tmp/appdynamics_alpine_without_jre-24.4.1.6770-py2.py3-none-any.whl.zip]
+[2024-04-29 15:47:23] INFO root fetch - main [MainThread]: End processing [appdynamics-alpine-without-jre]: success
+[2024-04-29 15:47:23] INFO root fetch - processPackages [appdynamics-without-jre]: Remove: archive file [/home/abi/fetcher/tmp/appdynamics_without_jre-24.2.0.6567-py2.py3-none-any.whl.zip]
+[2024-04-29 15:47:23] INFO root fetch - processPackages [appdynamics-without-jre]: Remove: archive file [/home/abi/fetcher/tmp/appdynamics_without_jre-24.4.1.6770-py2.py3-none-any.whl.zip]
+[2024-04-29 15:47:23] INFO root fetch - main [MainThread]: End processing [appdynamics-without-jre]: success
+[2024-04-29 15:47:23] INFO root fetch - processPackages [simpeg-drivers]: Remove: archive file [/home/abi/fetcher/tmp/simpeg_drivers-0.1.0b1.tar.gz]
+[2024-04-29 15:47:23] INFO root fetch - processPackages [simpeg-drivers]: Remove: archive file [/home/abi/fetcher/tmp/simpeg_drivers-0.1.0b2.tar.gz]
+[2024-04-29 15:47:23] INFO root fetch - main [MainThread]: End processing [simpeg-drivers]: success
+[2024-04-29 15:47:24] INFO root fetch - processPackages [bent]: Remove: archive file [/home/abi/fetcher/tmp/bent-0.0.38.tar.gz]
+[2024-04-29 15:47:24] INFO root fetch - processPackages [bent]: Remove: archive file [/home/abi/fetcher/tmp/bent-0.0.9.tar.gz]
+[2024-04-29 15:47:24] INFO root fetch - main [MainThread]: End processing [bent]: success
+[2024-04-29 15:47:24] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_gpdb20160503_py2-3.6.3.tar.gz]
+[2024-04-29 15:47:24] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_gpdb20160503_py2-3.6.4.tar.gz]
+[2024-04-29 15:47:24] INFO root fetch - main [MainThread]: End processing [alibabacloud-gpdb20160503-py2]: success
+[2024-04-29 15:47:24] INFO root fetch - main [MainThread]: Store serial: [22984640]
