@@ -16957,3 +16957,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 13:19:13] INFO root fetch - processPackages [rssbot]: Remove: archive file [/home/abi/fetcher/tmp/rssbot-555.tar.gz]
 [2024-04-29 13:19:13] INFO root fetch - main [MainThread]: End processing [rssbot]: success
 [2024-04-29 13:19:13] INFO root fetch - main [MainThread]: Store serial: [22982499]
+[2024-04-29 13:21:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982499]
+[2024-04-29 13:21:21] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-29 13:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: petitbonjour
+[2024-04-29 13:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: versioningit
+[2024-04-29 13:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepeline
+[2024-04-29 13:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oci
+[2024-04-29 13:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ckanext-wysiwyg
+[2024-04-29 13:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: isystem.connect
+[2024-04-29 13:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ndbioimage
+[2024-04-29 13:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: afeng-py-tools
+[2024-04-29 13:21:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tiledb-cloud
+[2024-04-29 13:21:21] WARNING root fetch - processPackages [petitbonjour]: Skipping, unable to determine old version
+[2024-04-29 13:21:21] INFO root fetch - main [MainThread]: End processing [petitbonjour] error
+[2024-04-29 13:21:22] INFO root fetch - processPackages [ckanext-wysiwyg]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-04-29 13:21:22] INFO root fetch - processPackages [versioningit]: New version: [3.1.1] Old Version: [3.1.0]
+[2024-04-29 13:21:22] INFO root fetch - processPackages [ckanext-wysiwyg]: Downloading https://files.pythonhosted.org/packages/04/69/b0b1a47b3f3137adbc3afe60ce73915ffb73707d9079acbb54689f1f329e/ckanext-wysiwyg-0.1.0.tar.gz
+[2024-04-29 13:21:22] INFO root fetch - processPackages [tiledb-cloud]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-29 13:21:22] INFO root fetch - processPackages [ndbioimage]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-04-29 13:21:22] INFO root fetch - processPackages [oci]: New version: [2.99.1] Old Version: [2.99.0]
+[2024-04-29 13:21:22] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-29 13:21:22] INFO root fetch - processPackages [pepeline]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-29 13:21:22] INFO root fetch - processPackages [isystem.connect]: New version: [9.21.99.0] Old Version: [9.21.98.0]
+[2024-04-29 13:21:22] INFO root fetch - processPackages [versioningit]: Downloading https://files.pythonhosted.org/packages/bd/cd/7a5ee8bb5a8c51632e51170bb125e439ae9d823239e88bffec08144418d4/versioningit-3.1.0.tar.gz
+[2024-04-29 13:21:22] INFO root fetch - processPackages [oci]: Downloading https://files.pythonhosted.org/packages/b7/50/166794801e82f1f65176a501f1451e6c542bd24f1b9bc4cae6e79a4bcd64/oci-2.99.0.tar.gz
+[2024-04-29 13:21:22] INFO root fetch - processPackages [tiledb-cloud]: Downloading https://files.pythonhosted.org/packages/4d/e2/38ce15b3fcb2200474c3f28f12ab07f8fedb6d754ec30860278cc1b550fd/tiledb_cloud-0.9.4-py3-none-any.whl
+[2024-04-29 13:21:22] INFO root fetch - processPackages [ndbioimage]: Downloading https://files.pythonhosted.org/packages/c2/40/181bd065db470e7022e2b0aa4730b5d0b6b6cf68daf00f9c372b58c79a8c/ndbioimage-2024.4.7.tar.gz
+[2024-04-29 13:21:22] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-04-29 13:21:22] INFO root fetch - processPackages [pepeline]: Downloading https://files.pythonhosted.org/packages/90/39/6ae7ae80b898bd0e66b1819b8b6040b410970d5a03c7c024d2aa11c1cc41/pepeline-0.2.7.tar.gz
+[2024-04-29 13:21:22] INFO root fetch - processPackages [ckanext-wysiwyg]: Downloading https://files.pythonhosted.org/packages/87/70/06f2cdb3f037d53555a646d039c21515d0d1166db8ea4d69299b68138afa/ckanext_wysiwyg-0.1.2.tar.gz
+[2024-04-29 13:21:22] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/5d/9f/30b1143a09e60e7a4ac2753bf53d1a1dd6b6de276c7b3b3141d9acc535c7/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl
+[2024-04-29 13:21:22] INFO root fetch - processPackages [ckanext-wysiwyg]: executing diffoscope
+[2024-04-29 13:21:22] INFO root fetch - processPackages [ckanext-wysiwyg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-wysiwyg-0.1.0.tar.gz tmp/ckanext_wysiwyg-0.1.2.tar.gz --markdown 20240429/c/ckanext-wysiwyg/0.1.0-0.1.2/README.md --exclude *.pyd
+[2024-04-29 13:21:22] INFO root fetch - processPackages [versioningit]: Downloading https://files.pythonhosted.org/packages/f3/9c/0c558fa01c06f77e2d650fab16fd49ff269a6f72e437286af6c2e6981e1b/versioningit-3.1.1.tar.gz
+[2024-04-29 13:21:22] INFO root fetch - processPackages [ndbioimage]: Downloading https://files.pythonhosted.org/packages/ae/66/cfa8e06e7f713b4459b30939158ad5ec487b8f5d21074e369f6d88ae0231/ndbioimage-2024.4.8.tar.gz
+[2024-04-29 13:21:22] INFO root fetch - processPackages [versioningit]: executing diffoscope
+[2024-04-29 13:21:22] INFO root fetch - processPackages [versioningit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/versioningit-3.1.0.tar.gz tmp/versioningit-3.1.1.tar.gz --markdown 20240429/v/versioningit/3.1.0-3.1.1/README.md --exclude *.pyd
+[2024-04-29 13:21:22] INFO root fetch - processPackages [pepeline]: Downloading https://files.pythonhosted.org/packages/a8/b9/2633d86d1b52c65f0b1395322a2cf9ff552710dabe078177f10ccebedb85/pepeline-0.2.8-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl
+[2024-04-29 13:21:22] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-04-29 13:21:22] INFO root fetch - processPackages [ndbioimage]: executing diffoscope
+[2024-04-29 13:21:22] INFO root fetch - processPackages [ndbioimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndbioimage-2024.4.7.tar.gz tmp/ndbioimage-2024.4.8.tar.gz --markdown 20240429/n/ndbioimage/2024.4.7-2024.4.8/README.md --exclude *.pyd
+[2024-04-29 13:21:22] INFO root fetch - processPackages [tiledb-cloud]: Downloading https://files.pythonhosted.org/packages/aa/55/f0fcd5db15793f389dfd3c37e59718e290812cc782a170f0e8e71ed01c95/tiledb_cloud-0.9.5-py3-none-any.whl
+[2024-04-29 13:21:23] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-04-29 13:21:23] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240429/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-29 13:21:23] INFO root fetch - processPackages [tiledb-cloud]: executing diffoscope
+[2024-04-29 13:21:23] INFO root fetch - processPackages [tiledb-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_cloud-0.9.4-py3-none-any.whl.zip tmp/tiledb_cloud-0.9.5-py3-none-any.whl.zip --markdown 20240429/t/tiledb-cloud/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-29 13:21:23] INFO root fetch - processPackages [ckanext-wysiwyg]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-wysiwyg-0.1.0.tar.gz]
+[2024-04-29 13:21:23] INFO root fetch - processPackages [ckanext-wysiwyg]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_wysiwyg-0.1.2.tar.gz]
+[2024-04-29 13:21:23] INFO root fetch - main [MainThread]: End processing [ckanext-wysiwyg]: success
+[2024-04-29 13:21:23] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/27/b1/d981879b837518117ae5b16714ad63be1c2b0214805deb0eac63c5cd22f9/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl
+[2024-04-29 13:21:23] INFO root fetch - processPackages [ndbioimage]: Remove: archive file [/home/abi/fetcher/tmp/ndbioimage-2024.4.7.tar.gz]
+[2024-04-29 13:21:23] INFO root fetch - processPackages [ndbioimage]: Remove: archive file [/home/abi/fetcher/tmp/ndbioimage-2024.4.8.tar.gz]
+[2024-04-29 13:21:23] INFO root fetch - main [MainThread]: End processing [ndbioimage]: success
+[2024-04-29 13:21:24] INFO root fetch - processPackages [versioningit]: Remove: archive file [/home/abi/fetcher/tmp/versioningit-3.1.0.tar.gz]
+[2024-04-29 13:21:24] INFO root fetch - processPackages [versioningit]: Remove: archive file [/home/abi/fetcher/tmp/versioningit-3.1.1.tar.gz]
+[2024-04-29 13:21:24] INFO root fetch - main [MainThread]: End processing [versioningit]: success
+[2024-04-29 13:21:24] INFO root fetch - processPackages [isystem.connect]: executing diffoscope
+[2024-04-29 13:21:24] INFO root fetch - processPackages [isystem.connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip --markdown 20240429/i/isystem.connect/9.21.98.0-9.21.99.0/README.md --exclude *.pyd
+[2024-04-29 13:21:24] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-04-29 13:21:24] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-04-29 13:21:24] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-04-29 13:21:24] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip]
+[2024-04-29 13:21:24] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip]
+[2024-04-29 13:21:24] INFO root fetch - main [MainThread]: End processing [isystem.connect]: success
+[2024-04-29 13:21:25] INFO root fetch - processPackages [tiledb-cloud]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_cloud-0.9.4-py3-none-any.whl.zip]
+[2024-04-29 13:21:25] INFO root fetch - processPackages [tiledb-cloud]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_cloud-0.9.5-py3-none-any.whl.zip]
+[2024-04-29 13:21:25] INFO root fetch - main [MainThread]: End processing [tiledb-cloud]: success
+[2024-04-29 13:21:25] INFO root fetch - processPackages [oci]: Downloading https://files.pythonhosted.org/packages/8f/3f/4d237aeedaa8d6cb488beefd362f4e0024342ac507be45fc223132c6f3a6/oci-2.99.1.tar.gz
+[2024-04-29 13:21:25] INFO root fetch - processPackages [pepeline]: executing diffoscope
+[2024-04-29 13:21:25] INFO root fetch - processPackages [pepeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepeline-0.2.7.tar.gz tmp/pepeline-0.2.8-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl.zip --markdown 20240429/p/pepeline/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-29 13:21:26] INFO root fetch - processPackages [pepeline]: Remove: archive file [/home/abi/fetcher/tmp/pepeline-0.2.7.tar.gz]
+[2024-04-29 13:21:26] INFO root fetch - processPackages [pepeline]: Remove: archive file [/home/abi/fetcher/tmp/pepeline-0.2.8-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl.zip]
+[2024-04-29 13:21:26] INFO root fetch - main [MainThread]: End processing [pepeline]: success
+[2024-04-29 13:21:27] INFO root fetch - processPackages [oci]: executing diffoscope
+[2024-04-29 13:21:27] INFO root fetch - processPackages [oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oci-2.99.0.tar.gz tmp/oci-2.99.1.tar.gz --markdown 20240429/o/oci/2.99.0-2.99.1/README.md --exclude *.pyd
+[2024-04-29 13:23:56] INFO root fetch - processPackages [oci]: Remove: archive file [/home/abi/fetcher/tmp/oci-2.99.0.tar.gz]
+[2024-04-29 13:23:56] INFO root fetch - processPackages [oci]: Remove: archive file [/home/abi/fetcher/tmp/oci-2.99.1.tar.gz]
+[2024-04-29 13:23:56] INFO root fetch - main [MainThread]: End processing [oci]: success
+[2024-04-29 13:23:56] INFO root fetch - main [MainThread]: Store serial: [22982575]
