@@ -21420,3 +21420,312 @@ EOFError: EOF read where object expected
 [2024-04-29 15:34:04] INFO root fetch - processPackages [opentelemetry-instrumentation-weaviate]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_weaviate-0.9.4.tar.gz]
 [2024-04-29 15:34:04] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-weaviate]: success
 [2024-04-29 15:34:04] INFO root fetch - main [MainThread]: Store serial: [22984399]
+[2024-04-29 15:36:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22984399]
+[2024-04-29 15:36:13] INFO root fetch - main [MainThread]: Found 34 changed packages
+[2024-04-29 15:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logprep
+[2024-04-29 15:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: girder
+[2024-04-29 15:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: girder-audit-logs
+[2024-04-29 15:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: girder-authorized-upload
+[2024-04-29 15:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: girder-autojoin
+[2024-04-29 15:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: girder-dicom-viewer
+[2024-04-29 15:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: secretvalidate
+[2024-04-29 15:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: girder-download-statistics
+[2024-04-29 15:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bent
+[2024-04-29 15:36:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: girder-google-analytics
+[2024-04-29 15:36:14] INFO root fetch - processPackages [bent]: New version: [0.0.9] Old Version: [0.0.37]
+[2024-04-29 15:36:14] INFO root fetch - processPackages [logprep]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-04-29 15:36:14] INFO root fetch - processPackages [girder-dicom-viewer]: New version: [3.2.4.dev9] Old Version: [3.2.4.dev7]
+[2024-04-29 15:36:14] INFO root fetch - processPackages [secretvalidate]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-04-29 15:36:14] INFO root fetch - processPackages [logprep]: Downloading https://files.pythonhosted.org/packages/b7/dd/b6e64a3f20c4983b74dc9863c3153f386d95293807969ea2c0d705c29d06/logprep-9.0.2.tar.gz
+[2024-04-29 15:36:14] INFO root fetch - processPackages [girder-google-analytics]: New version: [5.0.0a2] Old Version: [3.2.4.dev9]
+[2024-04-29 15:36:14] INFO root fetch - processPackages [girder-authorized-upload]: New version: [5.0.0a2] Old Version: [3.2.4.dev9]
+[2024-04-29 15:36:14] INFO root fetch - processPackages [girder-audit-logs]: New version: [5.0.0a2] Old Version: [3.2.4.dev9]
+[2024-04-29 15:36:14] INFO root fetch - processPackages [girder]: New version: [5.0.0a2.dev10] Old Version: [5.0.0a2]
+[2024-04-29 15:36:14] INFO root fetch - processPackages [girder-autojoin]: New version: [5.0.0a2] Old Version: [3.2.4.dev9]
+[2024-04-29 15:36:14] INFO root fetch - processPackages [girder-download-statistics]: New version: [5.0.0a2] Old Version: [3.2.4.dev9]
+[2024-04-29 15:36:14] INFO root fetch - processPackages [bent]: Downloading https://files.pythonhosted.org/packages/3c/55/33d09aaf1a28ed96b5d053f3ab42ff4e637224ae00dd2dcd5cfea372975f/bent-0.0.37.tar.gz
+[2024-04-29 15:36:14] INFO root fetch - processPackages [girder-google-analytics]: Downloading https://files.pythonhosted.org/packages/50/05/2b1e2e10a46fb3f866a6dfbdc184fbc659d0a4253586c651db5bd61a07fc/girder-google-analytics-3.2.4.dev9.tar.gz
+[2024-04-29 15:36:14] INFO root fetch - processPackages [girder-dicom-viewer]: Downloading https://files.pythonhosted.org/packages/78/38/dfdfc72ed3e597f5d02b1483f94ac2096f1d60e902c0392192eedce87f59/girder-dicom-viewer-3.2.4.dev7.tar.gz
+[2024-04-29 15:36:14] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/2a/74/f1fedcd5b126c4af0184fc7bc616c4941f414eb51cc2fc523514708f3cae/secretvalidate-0.0.1a8.tar.gz
+[2024-04-29 15:36:14] INFO root fetch - processPackages [girder]: Downloading https://files.pythonhosted.org/packages/ef/9b/62459b68373b048e70cbbdc24d74442b13bc15f9da67f6b4afd3a845edc6/girder-5.0.0a2.tar.gz
+[2024-04-29 15:36:14] INFO root fetch - processPackages [girder-authorized-upload]: Downloading https://files.pythonhosted.org/packages/73/0c/119bcb7f026dfc97c4926417c465373d38a7f74969633775fd0142b8a1d8/girder-authorized-upload-3.2.4.dev9.tar.gz
+[2024-04-29 15:36:14] INFO root fetch - processPackages [girder-audit-logs]: Downloading https://files.pythonhosted.org/packages/b6/4f/148f37bb1a39a825ac4469a61b64ce936225141e928d609af8be2018eafb/girder-audit-logs-3.2.4.dev9.tar.gz
+[2024-04-29 15:36:14] INFO root fetch - processPackages [girder-autojoin]: Downloading https://files.pythonhosted.org/packages/d1/83/80ecfe73488e5b691e2cda01085d4c87a302241598a2e0a6c9d992caf35c/girder-autojoin-3.2.4.dev9.tar.gz
+[2024-04-29 15:36:14] INFO root fetch - processPackages [girder-download-statistics]: Downloading https://files.pythonhosted.org/packages/3d/f0/83c969b21dc7ba09c7d46c6c54d579e539459bf7e9e3d7c50b07cc3525f0/girder-download-statistics-3.2.4.dev9.tar.gz
+[2024-04-29 15:36:14] INFO root fetch - processPackages [logprep]: Downloading https://files.pythonhosted.org/packages/94/cd/e89069de4cb8f48c0cad5adb1b7f61c8b9a3230aa17787ad56945151ff83/logprep-9.0.3.tar.gz
+[2024-04-29 15:36:14] INFO root fetch - processPackages [bent]: Downloading https://files.pythonhosted.org/packages/90/0b/e90bc1c1cde3dc26fe2b1f4a0648bdbf77fa5cd447091e4accd93b6ce8bb/bent-0.0.9.tar.gz
+[2024-04-29 15:36:14] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/57/86/54b1f11aebe768d2014fd8f4bb1e90e29a764014e1104c5ccf64e6433d48/secretvalidate-0.0.1a9.tar.gz
+[2024-04-29 15:36:14] INFO root fetch - processPackages [logprep]: executing diffoscope
+[2024-04-29 15:36:14] INFO root fetch - processPackages [logprep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logprep-9.0.2.tar.gz tmp/logprep-9.0.3.tar.gz --markdown 20240429/l/logprep/9.0.2-9.0.3/README.md --exclude *.pyd
+[2024-04-29 15:36:14] INFO root fetch - processPackages [bent]: executing diffoscope
+[2024-04-29 15:36:14] INFO root fetch - processPackages [bent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bent-0.0.37.tar.gz tmp/bent-0.0.9.tar.gz --markdown 20240429/b/bent/0.0.37-0.0.9/README.md --exclude *.pyd
+[2024-04-29 15:36:14] INFO root fetch - processPackages [girder-dicom-viewer]: Downloading https://files.pythonhosted.org/packages/7c/3d/3cf840e6bc0b748b5462d0c675294ae045b18d506c1e36d023a790c4c1b5/girder-dicom-viewer-3.2.4.dev9.tar.gz
+[2024-04-29 15:36:14] INFO root fetch - processPackages [secretvalidate]: executing diffoscope
+[2024-04-29 15:36:14] INFO root fetch - processPackages [secretvalidate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretvalidate-0.0.1a8.tar.gz tmp/secretvalidate-0.0.1a9.tar.gz --markdown 20240429/s/secretvalidate/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-04-29 15:36:14] INFO root fetch - processPackages [girder-google-analytics]: Downloading https://files.pythonhosted.org/packages/e8/97/28c4b16418762d465b9dd1b61e473a2160b7e175eeeab95b652bd0216122/girder-google-analytics-5.0.0a2.tar.gz
+[2024-04-29 15:36:15] INFO root fetch - processPackages [girder-audit-logs]: Downloading https://files.pythonhosted.org/packages/b2/e4/b40e9ca9dd18c4bf107754663e4e6c5bb78e2551619f6c81f459ee08ce02/girder-audit-logs-5.0.0a2.tar.gz
+[2024-04-29 15:36:15] INFO root fetch - processPackages [girder-authorized-upload]: Downloading https://files.pythonhosted.org/packages/09/41/0c0b702dad4b2b9bc377052ce046d65b9b11e25f0d852fe788566f6c5d4b/girder-authorized-upload-5.0.0a2.tar.gz
+[2024-04-29 15:36:15] INFO root fetch - processPackages [girder-download-statistics]: Downloading https://files.pythonhosted.org/packages/99/99/7517607136b84f848d67237b61baba0f33f4f9f457e87b18a0287770e003/girder-download-statistics-5.0.0a2.tar.gz
+[2024-04-29 15:36:15] INFO root fetch - processPackages [girder-dicom-viewer]: executing diffoscope
+[2024-04-29 15:36:15] INFO root fetch - processPackages [girder-dicom-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-dicom-viewer-3.2.4.dev7.tar.gz tmp/girder-dicom-viewer-3.2.4.dev9.tar.gz --markdown 20240429/g/girder-dicom-viewer/3.2.4.dev7-3.2.4.dev9/README.md --exclude *.pyd
+[2024-04-29 15:36:15] INFO root fetch - processPackages [girder-autojoin]: Downloading https://files.pythonhosted.org/packages/8c/33/c2ca02a2d533604882ab6ee46355a0b22923ed24425159475c8130c43285/girder-autojoin-5.0.0a2.tar.gz
+[2024-04-29 15:36:15] INFO root fetch - processPackages [girder-audit-logs]: executing diffoscope
+[2024-04-29 15:36:15] INFO root fetch - processPackages [girder-audit-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-audit-logs-3.2.4.dev9.tar.gz tmp/girder-audit-logs-5.0.0a2.tar.gz --markdown 20240429/g/girder-audit-logs/3.2.4.dev9-5.0.0a2/README.md --exclude *.pyd
+[2024-04-29 15:36:15] INFO root fetch - processPackages [girder-authorized-upload]: executing diffoscope
+[2024-04-29 15:36:15] INFO root fetch - processPackages [girder-authorized-upload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-authorized-upload-3.2.4.dev9.tar.gz tmp/girder-authorized-upload-5.0.0a2.tar.gz --markdown 20240429/g/girder-authorized-upload/3.2.4.dev9-5.0.0a2/README.md --exclude *.pyd
+[2024-04-29 15:36:15] INFO root fetch - processPackages [girder-autojoin]: executing diffoscope
+[2024-04-29 15:36:15] INFO root fetch - processPackages [girder-autojoin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-autojoin-3.2.4.dev9.tar.gz tmp/girder-autojoin-5.0.0a2.tar.gz --markdown 20240429/g/girder-autojoin/3.2.4.dev9-5.0.0a2/README.md --exclude *.pyd
+[2024-04-29 15:36:15] INFO root fetch - processPackages [girder-google-analytics]: executing diffoscope
+[2024-04-29 15:36:15] INFO root fetch - processPackages [girder-google-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-google-analytics-3.2.4.dev9.tar.gz tmp/girder-google-analytics-5.0.0a2.tar.gz --markdown 20240429/g/girder-google-analytics/3.2.4.dev9-5.0.0a2/README.md --exclude *.pyd
+[2024-04-29 15:36:15] INFO root fetch - processPackages [girder]: Downloading https://files.pythonhosted.org/packages/24/af/4aab2eb407d0077821000c3594fb3ff3c30be1c28965fb887a9adde419b7/girder-5.0.0a2.dev10.tar.gz
+[2024-04-29 15:36:15] INFO root fetch - processPackages [girder-download-statistics]: executing diffoscope
+[2024-04-29 15:36:15] INFO root fetch - processPackages [girder-download-statistics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-download-statistics-3.2.4.dev9.tar.gz tmp/girder-download-statistics-5.0.0a2.tar.gz --markdown 20240429/g/girder-download-statistics/3.2.4.dev9-5.0.0a2/README.md --exclude *.pyd
+[2024-04-29 15:36:15] INFO root fetch - processPackages [girder]: executing diffoscope
+[2024-04-29 15:36:15] INFO root fetch - processPackages [girder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-5.0.0a2.tar.gz tmp/girder-5.0.0a2.dev10.tar.gz --markdown 20240429/g/girder/5.0.0a2-5.0.0a2.dev10/README.md --exclude *.pyd
+[2024-04-29 15:36:16] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a8.tar.gz]
+[2024-04-29 15:36:16] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a9.tar.gz]
+[2024-04-29 15:36:16] INFO root fetch - processPackages [secretvalidate]: Start processing: pypipr
+[2024-04-29 15:36:16] INFO root fetch - main [MainThread]: End processing [secretvalidate]: success
+[2024-04-29 15:36:16] INFO root fetch - processPackages [pypipr]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-04-29 15:36:16] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/41/8e/296646c6a3d68ecf6c58c3ec52ece636443172c24750f76c7001939e52d3/pypipr-1.0.98.tar.gz
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-dicom-viewer]: Remove: archive file [/home/abi/fetcher/tmp/girder-dicom-viewer-3.2.4.dev7.tar.gz]
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-dicom-viewer]: Remove: archive file [/home/abi/fetcher/tmp/girder-dicom-viewer-3.2.4.dev9.tar.gz]
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-dicom-viewer]: Start processing: girder-gravatar
+[2024-04-29 15:36:16] INFO root fetch - main [MainThread]: End processing [girder-dicom-viewer]: success
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-google-analytics]: Remove: archive file [/home/abi/fetcher/tmp/girder-google-analytics-3.2.4.dev9.tar.gz]
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-google-analytics]: Remove: archive file [/home/abi/fetcher/tmp/girder-google-analytics-5.0.0a2.tar.gz]
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-google-analytics]: Start processing: girder-hashsum-download
+[2024-04-29 15:36:16] INFO root fetch - main [MainThread]: End processing [girder-google-analytics]: success
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-authorized-upload]: Remove: archive file [/home/abi/fetcher/tmp/girder-authorized-upload-3.2.4.dev9.tar.gz]
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-authorized-upload]: Remove: archive file [/home/abi/fetcher/tmp/girder-authorized-upload-5.0.0a2.tar.gz]
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-authorized-upload]: Start processing: girder-homepage
+[2024-04-29 15:36:16] INFO root fetch - main [MainThread]: End processing [girder-authorized-upload]: success
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-autojoin]: Remove: archive file [/home/abi/fetcher/tmp/girder-autojoin-3.2.4.dev9.tar.gz]
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-autojoin]: Remove: archive file [/home/abi/fetcher/tmp/girder-autojoin-5.0.0a2.tar.gz]
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-autojoin]: Start processing: girder-item-licenses
+[2024-04-29 15:36:16] INFO root fetch - main [MainThread]: End processing [girder-autojoin]: success
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-download-statistics]: Remove: archive file [/home/abi/fetcher/tmp/girder-download-statistics-3.2.4.dev9.tar.gz]
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-download-statistics]: Remove: archive file [/home/abi/fetcher/tmp/girder-download-statistics-5.0.0a2.tar.gz]
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-download-statistics]: Start processing: artistools
+[2024-04-29 15:36:16] INFO root fetch - main [MainThread]: End processing [girder-download-statistics]: success
+[2024-04-29 15:36:16] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/49/d0/c23afc67d1fa03531bbd97cc72ad024e79b8e25678a6a5674d469d19cdf9/pypipr-1.0.99.tar.gz
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-audit-logs]: Remove: archive file [/home/abi/fetcher/tmp/girder-audit-logs-3.2.4.dev9.tar.gz]
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-audit-logs]: Remove: archive file [/home/abi/fetcher/tmp/girder-audit-logs-5.0.0a2.tar.gz]
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-audit-logs]: Start processing: girder-jobs
+[2024-04-29 15:36:16] INFO root fetch - main [MainThread]: End processing [girder-audit-logs]: success
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-gravatar]: New version: [5.0.0a2] Old Version: [3.2.4.dev9]
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-hashsum-download]: New version: [5.0.0a2] Old Version: [3.2.4.dev9]
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-homepage]: New version: [5.0.0a2] Old Version: [3.2.4.dev9]
+[2024-04-29 15:36:16] INFO root fetch - processPackages [artistools]: New version: [2024.4.29] Old Version: [2024.4.23]
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-item-licenses]: New version: [5.0.0a2] Old Version: [3.2.4.dev9]
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-jobs]: New version: [5.0.0a2] Old Version: [3.2.4.dev9]
+[2024-04-29 15:36:16] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-04-29 15:36:16] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.98.tar.gz tmp/pypipr-1.0.99.tar.gz --markdown 20240429/p/pypipr/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-04-29 15:36:16] INFO root fetch - processPackages [bent]: Remove: archive file [/home/abi/fetcher/tmp/bent-0.0.37.tar.gz]
+[2024-04-29 15:36:16] INFO root fetch - processPackages [bent]: Remove: archive file [/home/abi/fetcher/tmp/bent-0.0.9.tar.gz]
+[2024-04-29 15:36:16] INFO root fetch - processPackages [bent]: Start processing: girder-ldap
+[2024-04-29 15:36:16] INFO root fetch - main [MainThread]: End processing [bent]: success
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-gravatar]: Downloading https://files.pythonhosted.org/packages/be/78/ad16d77fa036cc59daf7d8338f3ef953ab9eac0524ccbe5a9465629db838/girder-gravatar-3.2.4.dev9.tar.gz
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-hashsum-download]: Downloading https://files.pythonhosted.org/packages/e2/fc/af4c0e15db49a81a57ee3f6d5f0f8f69a2eca21fb6435f6b4be4b2eef01b/girder-hashsum-download-3.2.4.dev9.tar.gz
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-homepage]: Downloading https://files.pythonhosted.org/packages/9e/84/ae0fc1724e75ef8f3e2671d0ee957bd22e74e6652143b5f195fb956861f1/girder-homepage-3.2.4.dev9.tar.gz
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-jobs]: Downloading https://files.pythonhosted.org/packages/40/aa/b539fda245ddf678e5a95d2147ac5e3b45b08f78a84067f1e12c34e2cd5c/girder-jobs-3.2.4.dev9.tar.gz
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-ldap]: New version: [5.0.0a2] Old Version: [3.2.4.dev9]
+[2024-04-29 15:36:16] INFO root fetch - processPackages [girder-item-licenses]: Downloading https://files.pythonhosted.org/packages/9b/45/520425c60010769e2b3ad962d08771a00ce5a0777fcf9f5b3ccaaae64ac8/girder-item-licenses-3.2.4.dev9.tar.gz
+[2024-04-29 15:36:16] INFO root fetch - processPackages [artistools]: Downloading https://files.pythonhosted.org/packages/fd/67/0d71d9385e2ed6943f27d5174c930d3203008f93375d2af76f2922d060e7/artistools-2024.4.23.tar.gz
+[2024-04-29 15:36:17] INFO root fetch - processPackages [girder-ldap]: Downloading https://files.pythonhosted.org/packages/a4/90/dfd94e4a2122ecd74d1be61582baf21afbcd678d3900ebf21d470caad0f3/girder-ldap-3.2.4.dev9.tar.gz
+[2024-04-29 15:36:17] INFO root fetch - processPackages [girder-gravatar]: Downloading https://files.pythonhosted.org/packages/55/0d/69928988046ba3aa623a630c0d11418f9202cd3fc706a0cc50589216dbae/girder-gravatar-5.0.0a2.tar.gz
+[2024-04-29 15:36:17] INFO root fetch - processPackages [girder-hashsum-download]: Downloading https://files.pythonhosted.org/packages/9a/d1/94ec1097c2f0071443379ecdf5a803db3bc4df33c69dea213ce7d6e368e1/girder-hashsum-download-5.0.0a2.tar.gz
+[2024-04-29 15:36:17] INFO root fetch - processPackages [girder-jobs]: Downloading https://files.pythonhosted.org/packages/28/eb/bbd6488184f4002b7c421db3cc9bacbb1ac322ee0c43e319a3ac2c66ec7e/girder-jobs-5.0.0a2.tar.gz
+[2024-04-29 15:36:17] INFO root fetch - processPackages [girder-homepage]: Downloading https://files.pythonhosted.org/packages/2d/d1/f3f068e48be03d9a690953aa7efd6be8a90f058d9c86b716a138b02e8575/girder-homepage-5.0.0a2.tar.gz
+[2024-04-29 15:36:17] INFO root fetch - processPackages [girder-item-licenses]: Downloading https://files.pythonhosted.org/packages/47/37/83b7b01600eb3f4c816ee3cbc650365b437cba47be2e01940dce98ed9da7/girder-item-licenses-5.0.0a2.tar.gz
+[2024-04-29 15:36:17] INFO root fetch - processPackages [girder-gravatar]: executing diffoscope
+[2024-04-29 15:36:17] INFO root fetch - processPackages [girder-gravatar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-gravatar-3.2.4.dev9.tar.gz tmp/girder-gravatar-5.0.0a2.tar.gz --markdown 20240429/g/girder-gravatar/3.2.4.dev9-5.0.0a2/README.md --exclude *.pyd
+[2024-04-29 15:36:17] INFO root fetch - processPackages [girder-hashsum-download]: executing diffoscope
+[2024-04-29 15:36:17] INFO root fetch - processPackages [girder-hashsum-download]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-hashsum-download-3.2.4.dev9.tar.gz tmp/girder-hashsum-download-5.0.0a2.tar.gz --markdown 20240429/g/girder-hashsum-download/3.2.4.dev9-5.0.0a2/README.md --exclude *.pyd
+[2024-04-29 15:36:17] INFO root fetch - processPackages [girder-homepage]: executing diffoscope
+[2024-04-29 15:36:17] INFO root fetch - processPackages [girder-homepage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-homepage-3.2.4.dev9.tar.gz tmp/girder-homepage-5.0.0a2.tar.gz --markdown 20240429/g/girder-homepage/3.2.4.dev9-5.0.0a2/README.md --exclude *.pyd
+[2024-04-29 15:36:17] INFO root fetch - processPackages [girder-jobs]: executing diffoscope
+[2024-04-29 15:36:17] INFO root fetch - processPackages [girder-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-jobs-3.2.4.dev9.tar.gz tmp/girder-jobs-5.0.0a2.tar.gz --markdown 20240429/g/girder-jobs/3.2.4.dev9-5.0.0a2/README.md --exclude *.pyd
+[2024-04-29 15:36:17] INFO root fetch - processPackages [girder-item-licenses]: executing diffoscope
+[2024-04-29 15:36:17] INFO root fetch - processPackages [girder-item-licenses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-item-licenses-3.2.4.dev9.tar.gz tmp/girder-item-licenses-5.0.0a2.tar.gz --markdown 20240429/g/girder-item-licenses/3.2.4.dev9-5.0.0a2/README.md --exclude *.pyd
+[2024-04-29 15:36:17] INFO root fetch - processPackages [girder-ldap]: Downloading https://files.pythonhosted.org/packages/b3/c1/6b2d7a9d04249dcbb6dc99c6a5cebcf331cde36feb9adbc8f0cc21cd3111/girder-ldap-5.0.0a2.tar.gz
+[2024-04-29 15:36:17] INFO root fetch - processPackages [girder-ldap]: executing diffoscope
+[2024-04-29 15:36:17] INFO root fetch - processPackages [girder-ldap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-ldap-3.2.4.dev9.tar.gz tmp/girder-ldap-5.0.0a2.tar.gz --markdown 20240429/g/girder-ldap/3.2.4.dev9-5.0.0a2/README.md --exclude *.pyd
+[2024-04-29 15:36:17] INFO root fetch - processPackages [logprep]: Remove: archive file [/home/abi/fetcher/tmp/logprep-9.0.2.tar.gz]
+[2024-04-29 15:36:17] INFO root fetch - processPackages [logprep]: Remove: archive file [/home/abi/fetcher/tmp/logprep-9.0.3.tar.gz]
+[2024-04-29 15:36:17] INFO root fetch - processPackages [logprep]: Start processing: vios
+[2024-04-29 15:36:17] INFO root fetch - main [MainThread]: End processing [logprep]: success
+[2024-04-29 15:36:17] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.98.tar.gz]
+[2024-04-29 15:36:17] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.99.tar.gz]
+[2024-04-29 15:36:17] INFO root fetch - processPackages [pypipr]: Start processing: girder-oauth
+[2024-04-29 15:36:17] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-04-29 15:36:17] INFO root fetch - processPackages [vios]: New version: [2.3.6] Old Version: [2.3.5]
+[2024-04-29 15:36:18] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/44/29/0a183b196ab3782721320906a48f7426d26731afb2ef39dbad1c2f527cc1/vios-2.3.5-py3-none-any.whl
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-oauth]: New version: [5.0.0a2] Old Version: [3.2.4.dev9]
+[2024-04-29 15:36:18] INFO root fetch - processPackages [artistools]: Downloading https://files.pythonhosted.org/packages/1e/36/fb7196d2fd574fd6663cba65d64bde4185820c2ac7636b09643b00145786/artistools-2024.4.29.tar.gz
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-hashsum-download]: Remove: archive file [/home/abi/fetcher/tmp/girder-hashsum-download-3.2.4.dev9.tar.gz]
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-hashsum-download]: Remove: archive file [/home/abi/fetcher/tmp/girder-hashsum-download-5.0.0a2.tar.gz]
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-hashsum-download]: Start processing: girder-readme
+[2024-04-29 15:36:18] INFO root fetch - main [MainThread]: End processing [girder-hashsum-download]: success
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-oauth]: Downloading https://files.pythonhosted.org/packages/eb/d4/decebe08dcd255e7397948733542db5547d79aeac15bb537c5814e6a5fd8/girder-oauth-3.2.4.dev9.tar.gz
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-homepage]: Remove: archive file [/home/abi/fetcher/tmp/girder-homepage-3.2.4.dev9.tar.gz]
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-homepage]: Remove: archive file [/home/abi/fetcher/tmp/girder-homepage-5.0.0a2.tar.gz]
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-homepage]: Start processing: model-hub
+[2024-04-29 15:36:18] INFO root fetch - main [MainThread]: End processing [girder-homepage]: success
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-gravatar]: Remove: archive file [/home/abi/fetcher/tmp/girder-gravatar-3.2.4.dev9.tar.gz]
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-gravatar]: Remove: archive file [/home/abi/fetcher/tmp/girder-gravatar-5.0.0a2.tar.gz]
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-gravatar]: Start processing: girder-sentry
+[2024-04-29 15:36:18] INFO root fetch - main [MainThread]: End processing [girder-gravatar]: success
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-item-licenses]: Remove: archive file [/home/abi/fetcher/tmp/girder-item-licenses-3.2.4.dev9.tar.gz]
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-item-licenses]: Remove: archive file [/home/abi/fetcher/tmp/girder-item-licenses-5.0.0a2.tar.gz]
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-item-licenses]: Start processing: determined
+[2024-04-29 15:36:18] INFO root fetch - main [MainThread]: End processing [girder-item-licenses]: success
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-readme]: New version: [5.0.0a2] Old Version: [3.2.4.dev9]
+[2024-04-29 15:36:18] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/8c/58/64b508f9a99beacf521b9f028fa067eccc6b2fdc5c14db6f8c7c6d7a14ac/vios-2.3.6-py3-none-any.whl
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-jobs]: Remove: archive file [/home/abi/fetcher/tmp/girder-jobs-3.2.4.dev9.tar.gz]
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-jobs]: Remove: archive file [/home/abi/fetcher/tmp/girder-jobs-5.0.0a2.tar.gz]
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-jobs]: Start processing: basiclingua
+[2024-04-29 15:36:18] INFO root fetch - main [MainThread]: End processing [girder-jobs]: success
+[2024-04-29 15:36:18] INFO root fetch - processPackages [model-hub]: New version: [0.32.0rc4] Old Version: [0.32.0rc3]
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-ldap]: Remove: archive file [/home/abi/fetcher/tmp/girder-ldap-3.2.4.dev9.tar.gz]
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-ldap]: Remove: archive file [/home/abi/fetcher/tmp/girder-ldap-5.0.0a2.tar.gz]
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-ldap]: Start processing: girder-terms
+[2024-04-29 15:36:18] INFO root fetch - main [MainThread]: End processing [girder-ldap]: success
+[2024-04-29 15:36:18] INFO root fetch - processPackages [vios]: executing diffoscope
+[2024-04-29 15:36:18] INFO root fetch - processPackages [vios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vios-2.3.5-py3-none-any.whl.zip tmp/vios-2.3.6-py3-none-any.whl.zip --markdown 20240429/v/vios/2.3.5-2.3.6/README.md --exclude *.pyd
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-sentry]: New version: [5.0.0a2] Old Version: [3.2.4.dev9]
+[2024-04-29 15:36:18] INFO root fetch - processPackages [determined]: New version: [0.32.0rc4] Old Version: [0.32.0rc3]
+[2024-04-29 15:36:18] INFO root fetch - processPackages [basiclingua]: New version: [2.0.0] Old Version: [1.0.0]
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-readme]: Downloading https://files.pythonhosted.org/packages/20/2f/64ace2a8ea707c85644d3a5fa250245d36502fbb5fefb824c98b1f6f5fee/girder-readme-3.2.4.dev9.tar.gz
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-oauth]: Downloading https://files.pythonhosted.org/packages/fa/73/a16f104df68d0ca61a37ac0065e54aa19759121e8657fa407a5f307c9d2a/girder-oauth-5.0.0a2.tar.gz
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-terms]: New version: [5.0.0a2] Old Version: [3.2.4.dev9]
+[2024-04-29 15:36:18] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/99/26/34a975ab62ae87b2f9e5a0e4f3c0bf1bbd93dc70b6368483e46a5672126d/model_hub-0.32.0rc3-py3-none-any.whl
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-sentry]: Downloading https://files.pythonhosted.org/packages/dd/f0/ce6dcd5daf58dc475785a67e09385afa9947f86f55e9d3d3c96ae78bc80d/girder-sentry-3.2.4.dev9.tar.gz
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-oauth]: executing diffoscope
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-oauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-oauth-3.2.4.dev9.tar.gz tmp/girder-oauth-5.0.0a2.tar.gz --markdown 20240429/g/girder-oauth/3.2.4.dev9-5.0.0a2/README.md --exclude *.pyd
+[2024-04-29 15:36:18] INFO root fetch - processPackages [basiclingua]: Downloading https://files.pythonhosted.org/packages/28/3f/5dae26c36dd4cdcd4d75597e9ad8092813cc7811925e181b72765a5be4a1/basiclingua-1.0.0.tar.gz
+[2024-04-29 15:36:18] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/60/7c/1a9eef5cf0174c6148bca3ef80f227b378956dc7a89638c9ee7f47e70699/determined-0.32.0rc3-py3-none-any.whl
+[2024-04-29 15:36:18] INFO root fetch - processPackages [girder-terms]: Downloading https://files.pythonhosted.org/packages/9d/09/ecd70493333dbe8df079e094dfd9cd97782918dacbca16ea58edaa31d51d/girder-terms-3.2.4.dev9.tar.gz
+[2024-04-29 15:36:19] INFO root fetch - processPackages [girder-readme]: Downloading https://files.pythonhosted.org/packages/df/53/ebd71e04a4297a236c1286e517e561f1cfea2e878fec357e734e18306fb8/girder-readme-5.0.0a2.tar.gz
+[2024-04-29 15:36:19] INFO root fetch - processPackages [girder]: Remove: archive file [/home/abi/fetcher/tmp/girder-5.0.0a2.tar.gz]
+[2024-04-29 15:36:19] INFO root fetch - processPackages [girder]: Remove: archive file [/home/abi/fetcher/tmp/girder-5.0.0a2.dev10.tar.gz]
+[2024-04-29 15:36:19] INFO root fetch - processPackages [girder]: Start processing: girder-thumbnails
+[2024-04-29 15:36:19] INFO root fetch - main [MainThread]: End processing [girder]: success
+[2024-04-29 15:36:19] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/51/0f/41e5816f224e716afcb3b9e4b1fac588fc2dfbb5b25d1e70c07ea30ff46f/model_hub-0.32.0rc4-py3-none-any.whl
+[2024-04-29 15:36:19] INFO root fetch - processPackages [girder-readme]: executing diffoscope
+[2024-04-29 15:36:19] INFO root fetch - processPackages [girder-readme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-readme-3.2.4.dev9.tar.gz tmp/girder-readme-5.0.0a2.tar.gz --markdown 20240429/g/girder-readme/3.2.4.dev9-5.0.0a2/README.md --exclude *.pyd
+[2024-04-29 15:36:19] INFO root fetch - processPackages [girder-sentry]: Downloading https://files.pythonhosted.org/packages/e5/03/13f0d43cc2dfa3b97d9b3caa9bf2c2f3eed346e774300e8676b049029250/girder-sentry-5.0.0a2.tar.gz
+[2024-04-29 15:36:19] INFO root fetch - processPackages [basiclingua]: Downloading https://files.pythonhosted.org/packages/85/99/00cbb949a423d691e964a07b2e8748b43b41004a8b20dc9d629316dd4875/basiclingua-2.0.0.tar.gz
+[2024-04-29 15:36:19] INFO root fetch - processPackages [girder-thumbnails]: New version: [5.0.0a2] Old Version: [3.2.4.dev9]
+[2024-04-29 15:36:19] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-2.3.5-py3-none-any.whl.zip]
+[2024-04-29 15:36:19] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-2.3.6-py3-none-any.whl.zip]
+[2024-04-29 15:36:19] INFO root fetch - processPackages [vios]: Start processing: girder-user-quota
+[2024-04-29 15:36:19] INFO root fetch - main [MainThread]: End processing [vios]: success
+[2024-04-29 15:36:19] INFO root fetch - processPackages [girder-sentry]: executing diffoscope
+[2024-04-29 15:36:19] INFO root fetch - processPackages [girder-sentry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-sentry-3.2.4.dev9.tar.gz tmp/girder-sentry-5.0.0a2.tar.gz --markdown 20240429/g/girder-sentry/3.2.4.dev9-5.0.0a2/README.md --exclude *.pyd
+[2024-04-29 15:36:19] INFO root fetch - processPackages [basiclingua]: executing diffoscope
+[2024-04-29 15:36:19] INFO root fetch - processPackages [basiclingua]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basiclingua-1.0.0.tar.gz tmp/basiclingua-2.0.0.tar.gz --markdown 20240429/b/basiclingua/1.0.0-2.0.0/README.md --exclude *.pyd
+[2024-04-29 15:36:19] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/da/07/6256b993129d5c0d895ba00ad3308de83eac9fd09c0fa25ba9fecf7c8f60/determined-0.32.0rc4-py3-none-any.whl
+[2024-04-29 15:36:19] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2024-04-29 15:36:19] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.32.0rc3-py3-none-any.whl.zip tmp/model_hub-0.32.0rc4-py3-none-any.whl.zip --markdown 20240429/m/model-hub/0.32.0rc3-0.32.0rc4/README.md --exclude *.pyd
+[2024-04-29 15:36:19] INFO root fetch - processPackages [girder-user-quota]: New version: [5.0.0a2] Old Version: [3.2.4.dev9]
+[2024-04-29 15:36:19] INFO root fetch - processPackages [girder-thumbnails]: Downloading https://files.pythonhosted.org/packages/37/10/62ee6c8bac715af542049284e139717e9e1439327444d5a555973acbf558/girder-thumbnails-3.2.4.dev9.tar.gz
+[2024-04-29 15:36:19] INFO root fetch - processPackages [girder-terms]: Downloading https://files.pythonhosted.org/packages/16/e0/28a0261884219606a27e9ddb026d8139434ae9de075ea7bcdb2f60b48a5e/girder-terms-5.0.0a2.tar.gz
+[2024-04-29 15:36:19] INFO root fetch - processPackages [artistools]: executing diffoscope
+[2024-04-29 15:36:19] INFO root fetch - processPackages [artistools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artistools-2024.4.23.tar.gz tmp/artistools-2024.4.29.tar.gz --markdown 20240429/a/artistools/2024.4.23-2024.4.29/README.md --exclude *.pyd
+[2024-04-29 15:36:19] INFO root fetch - processPackages [girder-oauth]: Remove: archive file [/home/abi/fetcher/tmp/girder-oauth-3.2.4.dev9.tar.gz]
+[2024-04-29 15:36:19] INFO root fetch - processPackages [girder-oauth]: Remove: archive file [/home/abi/fetcher/tmp/girder-oauth-5.0.0a2.tar.gz]
+[2024-04-29 15:36:19] INFO root fetch - processPackages [girder-oauth]: Start processing: tina4-python
+[2024-04-29 15:36:19] INFO root fetch - main [MainThread]: End processing [girder-oauth]: success
+[2024-04-29 15:36:19] INFO root fetch - processPackages [girder-user-quota]: Downloading https://files.pythonhosted.org/packages/ec/41/22b9ebd06ca459abf4d7e18a5f8a4cebfcdacc131e9f96db17689ad34b31/girder-user-quota-3.2.4.dev9.tar.gz
+[2024-04-29 15:36:19] INFO root fetch - processPackages [tina4-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 15:36:19] INFO root fetch - processPackages [girder-terms]: executing diffoscope
+[2024-04-29 15:36:19] INFO root fetch - processPackages [girder-terms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-terms-3.2.4.dev9.tar.gz tmp/girder-terms-5.0.0a2.tar.gz --markdown 20240429/g/girder-terms/3.2.4.dev9-5.0.0a2/README.md --exclude *.pyd
+[2024-04-29 15:36:19] INFO root fetch - processPackages [tina4-python]: Downloading https://files.pythonhosted.org/packages/61/79/4a27baf2c4da4707b63d581b639414c73fb68a3d702236356a9929e6ff99/tina4_python-0.1.8.tar.gz
+[2024-04-29 15:36:19] INFO root fetch - processPackages [girder-thumbnails]: Downloading https://files.pythonhosted.org/packages/20/3a/0a948e25e8c929e5c087109349aad89e93edde122d0f073c7df8319797d8/girder_thumbnails-5a2.tar.gz
+[2024-04-29 15:36:19] INFO root fetch - processPackages [determined]: executing diffoscope
+[2024-04-29 15:36:19] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.32.0rc3-py3-none-any.whl.zip tmp/determined-0.32.0rc4-py3-none-any.whl.zip --markdown 20240429/d/determined/0.32.0rc3-0.32.0rc4/README.md --exclude *.pyd
+[2024-04-29 15:36:20] INFO root fetch - processPackages [girder-thumbnails]: executing diffoscope
+[2024-04-29 15:36:20] INFO root fetch - processPackages [girder-thumbnails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-thumbnails-3.2.4.dev9.tar.gz tmp/girder_thumbnails-5a2.tar.gz --markdown 20240429/g/girder-thumbnails/3.2.4.dev9-5.0.0a2/README.md --exclude *.pyd
+[2024-04-29 15:36:20] INFO root fetch - processPackages [girder-user-quota]: Downloading https://files.pythonhosted.org/packages/ac/6d/27686cc6a5fe36aa31f327bc47ca84594b2ce0b10533d42a5fa71ee9f607/girder_user_quota-5a2.tar.gz
+[2024-04-29 15:36:20] INFO root fetch - processPackages [girder-readme]: Remove: archive file [/home/abi/fetcher/tmp/girder-readme-3.2.4.dev9.tar.gz]
+[2024-04-29 15:36:20] INFO root fetch - processPackages [girder-readme]: Remove: archive file [/home/abi/fetcher/tmp/girder-readme-5.0.0a2.tar.gz]
+[2024-04-29 15:36:20] INFO root fetch - processPackages [girder-readme]: Start processing: girder-virtual-folders
+[2024-04-29 15:36:20] INFO root fetch - main [MainThread]: End processing [girder-readme]: success
+[2024-04-29 15:36:20] INFO root fetch - processPackages [tina4-python]: Downloading https://files.pythonhosted.org/packages/24/2e/2593f1dbdfcf6fb7c1c21b890b7f8e264fcee760b48d5ceb7680112de137/tina4_python-0.1.9.tar.gz
+[2024-04-29 15:36:20] INFO root fetch - processPackages [girder-sentry]: Remove: archive file [/home/abi/fetcher/tmp/girder-sentry-3.2.4.dev9.tar.gz]
+[2024-04-29 15:36:20] INFO root fetch - processPackages [girder-sentry]: Remove: archive file [/home/abi/fetcher/tmp/girder-sentry-5.0.0a2.tar.gz]
+[2024-04-29 15:36:20] INFO root fetch - processPackages [girder-sentry]: Start processing: pytest-girder
+[2024-04-29 15:36:20] INFO root fetch - main [MainThread]: End processing [girder-sentry]: success
+[2024-04-29 15:36:20] INFO root fetch - processPackages [basiclingua]: Remove: archive file [/home/abi/fetcher/tmp/basiclingua-1.0.0.tar.gz]
+[2024-04-29 15:36:20] INFO root fetch - processPackages [basiclingua]: Remove: archive file [/home/abi/fetcher/tmp/basiclingua-2.0.0.tar.gz]
+[2024-04-29 15:36:20] INFO root fetch - processPackages [basiclingua]: Start processing: oarepo-vocabularies
+[2024-04-29 15:36:20] INFO root fetch - main [MainThread]: End processing [basiclingua]: success
+[2024-04-29 15:36:20] INFO root fetch - processPackages [girder-user-quota]: executing diffoscope
+[2024-04-29 15:36:20] INFO root fetch - processPackages [girder-user-quota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-user-quota-3.2.4.dev9.tar.gz tmp/girder_user_quota-5a2.tar.gz --markdown 20240429/g/girder-user-quota/3.2.4.dev9-5.0.0a2/README.md --exclude *.pyd
+[2024-04-29 15:36:20] INFO root fetch - processPackages [girder-virtual-folders]: New version: [5.0.0a2] Old Version: [3.2.4.dev9]
+[2024-04-29 15:36:20] INFO root fetch - processPackages [tina4-python]: executing diffoscope
+[2024-04-29 15:36:20] INFO root fetch - processPackages [tina4-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tina4_python-0.1.8.tar.gz tmp/tina4_python-0.1.9.tar.gz --markdown 20240429/t/tina4-python/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 15:36:20] INFO root fetch - processPackages [pytest-girder]: New version: [5.0.0a2] Old Version: [3.2.4.dev9]
+[2024-04-29 15:36:20] INFO root fetch - processPackages [oarepo-vocabularies]: New version: [2.0.87] Old Version: [2.0.86]
+[2024-04-29 15:36:20] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.32.0rc3-py3-none-any.whl.zip]
+[2024-04-29 15:36:20] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.32.0rc4-py3-none-any.whl.zip]
+[2024-04-29 15:36:20] INFO root fetch - processPackages [model-hub]: Start processing: TCutility
+[2024-04-29 15:36:20] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2024-04-29 15:36:20] INFO root fetch - processPackages [girder-virtual-folders]: Downloading https://files.pythonhosted.org/packages/4f/5d/65cf474a6c23fb5f22c0fa1ccbf20e1eb5676b53cd78c384fad22e4e1395/girder-virtual-folders-3.2.4.dev9.tar.gz
+[2024-04-29 15:36:20] INFO root fetch - processPackages [pytest-girder]: Downloading https://files.pythonhosted.org/packages/3e/5a/05e9b283f5832679a88b8605d610a529e8c864151f6b559f4e7eb4f08a30/pytest-girder-3.2.4.dev9.tar.gz
+[2024-04-29 15:36:20] INFO root fetch - processPackages [girder-terms]: Remove: archive file [/home/abi/fetcher/tmp/girder-terms-3.2.4.dev9.tar.gz]
+[2024-04-29 15:36:20] INFO root fetch - processPackages [girder-terms]: Remove: archive file [/home/abi/fetcher/tmp/girder-terms-5.0.0a2.tar.gz]
+[2024-04-29 15:36:20] INFO root fetch - processPackages [girder-terms]: Start processing: girder-client
+[2024-04-29 15:36:20] INFO root fetch - main [MainThread]: End processing [girder-terms]: success
+[2024-04-29 15:36:20] INFO root fetch - processPackages [oarepo-vocabularies]: Downloading https://files.pythonhosted.org/packages/29/71/a9378f300911600954564c7baf48d0d9dc67319bc83f8659fb511610627f/oarepo_vocabularies-2.0.86.tar.gz
+[2024-04-29 15:36:20] INFO root fetch - processPackages [TCutility]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-29 15:36:20] INFO root fetch - processPackages [girder-client]: New version: [5.0.0a2] Old Version: [3.2.4.dev9]
+[2024-04-29 15:36:20] INFO root fetch - processPackages [girder-virtual-folders]: Downloading https://files.pythonhosted.org/packages/cc/b6/3114fc50a9e5803c6af25c0c5850ee1f314ccb674580811e3d5a7cf71775/girder_virtual_folders-5a2.tar.gz
+[2024-04-29 15:36:20] INFO root fetch - processPackages [TCutility]: Downloading https://files.pythonhosted.org/packages/42/d9/8253bf76faf9fbea5ddf425f5f68dfa934470a9314252457a5a2ec7684a5/TCutility-0.9.1.tar.gz
+[2024-04-29 15:36:20] INFO root fetch - processPackages [oarepo-vocabularies]: Downloading https://files.pythonhosted.org/packages/37/b2/d00b779b33592573283e5f7b2812682a4acaaa6e9d96f260d3b7521268c8/oarepo_vocabularies-2.0.87.tar.gz
+[2024-04-29 15:36:20] INFO root fetch - processPackages [tina4-python]: Remove: archive file [/home/abi/fetcher/tmp/tina4_python-0.1.8.tar.gz]
+[2024-04-29 15:36:20] INFO root fetch - processPackages [tina4-python]: Remove: archive file [/home/abi/fetcher/tmp/tina4_python-0.1.9.tar.gz]
+[2024-04-29 15:36:20] INFO root fetch - main [MainThread]: End processing [tina4-python]: success
+[2024-04-29 15:36:20] INFO root fetch - processPackages [pytest-girder]: Downloading https://files.pythonhosted.org/packages/47/7d/71df3b928aa70dd946042cf0f335965d55c45ef3ed6c5c30ce39b2630914/pytest_girder-5a2.tar.gz
+[2024-04-29 15:36:20] INFO root fetch - processPackages [girder-client]: Downloading https://files.pythonhosted.org/packages/12/50/b8555aa8e90254e4bad5d32ca22e089aab44bf96cd5a76a232c93e5186d5/girder-client-3.2.4.dev9.tar.gz
+[2024-04-29 15:36:20] INFO root fetch - processPackages [girder-virtual-folders]: executing diffoscope
+[2024-04-29 15:36:20] INFO root fetch - processPackages [girder-virtual-folders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-virtual-folders-3.2.4.dev9.tar.gz tmp/girder_virtual_folders-5a2.tar.gz --markdown 20240429/g/girder-virtual-folders/3.2.4.dev9-5.0.0a2/README.md --exclude *.pyd
+[2024-04-29 15:36:21] INFO root fetch - processPackages [girder-thumbnails]: Remove: archive file [/home/abi/fetcher/tmp/girder-thumbnails-3.2.4.dev9.tar.gz]
+[2024-04-29 15:36:21] INFO root fetch - processPackages [girder-thumbnails]: Remove: archive file [/home/abi/fetcher/tmp/girder_thumbnails-5a2.tar.gz]
+[2024-04-29 15:36:21] INFO root fetch - main [MainThread]: End processing [girder-thumbnails]: success
+[2024-04-29 15:36:21] INFO root fetch - processPackages [girder-user-quota]: Remove: archive file [/home/abi/fetcher/tmp/girder-user-quota-3.2.4.dev9.tar.gz]
+[2024-04-29 15:36:21] INFO root fetch - processPackages [girder-user-quota]: Remove: archive file [/home/abi/fetcher/tmp/girder_user_quota-5a2.tar.gz]
+[2024-04-29 15:36:21] INFO root fetch - main [MainThread]: End processing [girder-user-quota]: success
+[2024-04-29 15:36:21] INFO root fetch - processPackages [pytest-girder]: executing diffoscope
+[2024-04-29 15:36:21] INFO root fetch - processPackages [pytest-girder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-girder-3.2.4.dev9.tar.gz tmp/pytest_girder-5a2.tar.gz --markdown 20240429/p/pytest-girder/3.2.4.dev9-5.0.0a2/README.md --exclude *.pyd
+[2024-04-29 15:36:21] INFO root fetch - processPackages [oarepo-vocabularies]: executing diffoscope
+[2024-04-29 15:36:21] INFO root fetch - processPackages [oarepo-vocabularies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo_vocabularies-2.0.86.tar.gz tmp/oarepo_vocabularies-2.0.87.tar.gz --markdown 20240429/o/oarepo-vocabularies/2.0.86-2.0.87/README.md --exclude *.pyd
+[2024-04-29 15:36:21] INFO root fetch - processPackages [TCutility]: Downloading https://files.pythonhosted.org/packages/b0/00/589d8a035c602b1ada53461669f21e9229351319c62604698deb1b9c7095/TCutility-0.9.2.tar.gz
+[2024-04-29 15:36:21] INFO root fetch - processPackages [girder-client]: Downloading https://files.pythonhosted.org/packages/6d/29/d7fdbb34674919d871869e31d92e430f1cc62c601b4b6f19cdabd3f3e910/girder_client-5a2.tar.gz
+[2024-04-29 15:36:21] INFO root fetch - processPackages [TCutility]: executing diffoscope
+[2024-04-29 15:36:21] INFO root fetch - processPackages [TCutility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TCutility-0.9.1.tar.gz tmp/TCutility-0.9.2.tar.gz --markdown 20240429/T/TCutility/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-29 15:36:21] INFO root fetch - processPackages [girder-client]: executing diffoscope
+[2024-04-29 15:36:21] INFO root fetch - processPackages [girder-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-client-3.2.4.dev9.tar.gz tmp/girder_client-5a2.tar.gz --markdown 20240429/g/girder-client/3.2.4.dev9-5.0.0a2/README.md --exclude *.pyd
+[2024-04-29 15:36:21] INFO root fetch - processPackages [girder-virtual-folders]: Remove: archive file [/home/abi/fetcher/tmp/girder-virtual-folders-3.2.4.dev9.tar.gz]
+[2024-04-29 15:36:21] INFO root fetch - processPackages [girder-virtual-folders]: Remove: archive file [/home/abi/fetcher/tmp/girder_virtual_folders-5a2.tar.gz]
+[2024-04-29 15:36:21] INFO root fetch - main [MainThread]: End processing [girder-virtual-folders]: success
+[2024-04-29 15:36:21] INFO root fetch - processPackages [pytest-girder]: Remove: archive file [/home/abi/fetcher/tmp/pytest-girder-3.2.4.dev9.tar.gz]
+[2024-04-29 15:36:21] INFO root fetch - processPackages [pytest-girder]: Remove: archive file [/home/abi/fetcher/tmp/pytest_girder-5a2.tar.gz]
+[2024-04-29 15:36:21] INFO root fetch - main [MainThread]: End processing [pytest-girder]: success
+[2024-04-29 15:36:22] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.32.0rc3-py3-none-any.whl.zip]
+[2024-04-29 15:36:22] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.32.0rc4-py3-none-any.whl.zip]
+[2024-04-29 15:36:22] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2024-04-29 15:36:22] INFO root fetch - processPackages [girder-client]: Remove: archive file [/home/abi/fetcher/tmp/girder-client-3.2.4.dev9.tar.gz]
+[2024-04-29 15:36:22] INFO root fetch - processPackages [girder-client]: Remove: archive file [/home/abi/fetcher/tmp/girder_client-5a2.tar.gz]
+[2024-04-29 15:36:22] INFO root fetch - main [MainThread]: End processing [girder-client]: success
+[2024-04-29 15:36:22] INFO root fetch - processPackages [artistools]: Remove: archive file [/home/abi/fetcher/tmp/artistools-2024.4.23.tar.gz]
+[2024-04-29 15:36:22] INFO root fetch - processPackages [artistools]: Remove: archive file [/home/abi/fetcher/tmp/artistools-2024.4.29.tar.gz]
+[2024-04-29 15:36:22] INFO root fetch - main [MainThread]: End processing [artistools]: success
+[2024-04-29 15:36:22] INFO root fetch - processPackages [TCutility]: Remove: archive file [/home/abi/fetcher/tmp/TCutility-0.9.1.tar.gz]
+[2024-04-29 15:36:22] INFO root fetch - processPackages [TCutility]: Remove: archive file [/home/abi/fetcher/tmp/TCutility-0.9.2.tar.gz]
+[2024-04-29 15:36:22] INFO root fetch - main [MainThread]: End processing [TCutility]: success
+[2024-04-29 15:36:22] INFO root fetch - processPackages [oarepo-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/oarepo_vocabularies-2.0.86.tar.gz]
+[2024-04-29 15:36:22] INFO root fetch - processPackages [oarepo-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/oarepo_vocabularies-2.0.87.tar.gz]
+[2024-04-29 15:36:22] INFO root fetch - main [MainThread]: End processing [oarepo-vocabularies]: success
+[2024-04-29 15:36:22] INFO root fetch - main [MainThread]: Store serial: [22984479]
