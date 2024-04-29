@@ -23516,3 +23516,66 @@ EOFError: EOF read where object expected
 [2024-04-29 16:25:09] INFO root fetch - processPackages [modern-treasury]: Remove: archive file [/home/abi/fetcher/tmp/modern_treasury-1.9.0.tar.gz]
 [2024-04-29 16:25:09] INFO root fetch - main [MainThread]: End processing [modern-treasury]: success
 [2024-04-29 16:25:09] INFO root fetch - main [MainThread]: Store serial: [22985296]
+[2024-04-29 16:27:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22985296]
+[2024-04-29 16:27:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-29 16:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flickr-photos-api
+[2024-04-29 16:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tapsage-client
+[2024-04-29 16:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: laser-mind-client
+[2024-04-29 16:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coveralls
+[2024-04-29 16:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: falcon-challenge
+[2024-04-29 16:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libpss-aws
+[2024-04-29 16:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: blar-graph
+[2024-04-29 16:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: json-advanced
+[2024-04-29 16:27:19] INFO root fetch - processPackages [flickr-photos-api]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-29 16:27:19] INFO root fetch - processPackages [libpss-aws]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-29 16:27:19] INFO root fetch - processPackages [falcon-challenge]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-29 16:27:19] INFO root fetch - processPackages [tapsage-client]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-29 16:27:19] WARNING root fetch - processPackages [json-advanced]: Skipping, unable to determine old version
+[2024-04-29 16:27:19] INFO root fetch - main [MainThread]: End processing [json-advanced] error
+[2024-04-29 16:27:19] WARNING root fetch - processPackages [laser-mind-client]: Skipping, unable to determine old version
+[2024-04-29 16:27:19] INFO root fetch - main [MainThread]: End processing [laser-mind-client] error
+[2024-04-29 16:27:19] INFO root fetch - processPackages [blar-graph]: New version: [0.0.9a0] Old Version: [0.0.8]
+[2024-04-29 16:27:19] INFO root fetch - processPackages [libpss-aws]: Downloading https://files.pythonhosted.org/packages/23/56/739833178cb5202ef7ee12c0b6b560ecb0926df7484a0bc3560ad94e8bd3/libpss_aws-0.2.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-29 16:27:19] INFO root fetch - processPackages [flickr-photos-api]: Downloading https://files.pythonhosted.org/packages/29/d2/dfaa2d9faa31a88f1c421f4b58a0d4ba312aa191495033ea3f8aac37a200/flickr-photos-api-1.9.1.tar.gz
+[2024-04-29 16:27:19] INFO root fetch - processPackages [falcon-challenge]: Downloading https://files.pythonhosted.org/packages/53/e3/9d185f6149b6448ca117dee55c56063077688509664269f20fd5f66f0e8a/falcon_challenge-0.2.8.tar.gz
+[2024-04-29 16:27:19] INFO root fetch - processPackages [coveralls]: New version: [4.0.0] Old Version: [3.4.0a1]
+[2024-04-29 16:27:19] INFO root fetch - processPackages [tapsage-client]: Downloading https://files.pythonhosted.org/packages/8e/39/84abe0106cfb09b07ab7525381441162cb31f1320e9bab8680c47cd56d19/tapsage_client-0.4.0.tar.gz
+[2024-04-29 16:27:19] INFO root fetch - processPackages [blar-graph]: Downloading https://files.pythonhosted.org/packages/43/c9/222901972a41b1e279d8429d4441be683af4bee8ec7b3181bef2c5079833/blar_graph-0.0.8.tar.gz
+[2024-04-29 16:27:19] INFO root fetch - processPackages [coveralls]: Downloading https://files.pythonhosted.org/packages/dd/2b/4d4154390485e48dcc16d230c629b5ff4ebd228e7402f03e58dfca5c82fb/coveralls-3.4.0a1.tar.gz
+[2024-04-29 16:27:19] INFO root fetch - processPackages [flickr-photos-api]: Downloading https://files.pythonhosted.org/packages/38/ac/07447b6ae1d72699cff5c06fed59a01c0e90667034da3f730eacfbc3a77f/flickr-photos-api-1.9.2.tar.gz
+[2024-04-29 16:27:19] INFO root fetch - processPackages [falcon-challenge]: Downloading https://files.pythonhosted.org/packages/70/39/289ac647333f796983e8f9f4fea739a7549c7f93f85b76049604117def43/falcon_challenge-0.2.9.tar.gz
+[2024-04-29 16:27:19] INFO root fetch - processPackages [flickr-photos-api]: executing diffoscope
+[2024-04-29 16:27:19] INFO root fetch - processPackages [flickr-photos-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flickr-photos-api-1.9.1.tar.gz tmp/flickr-photos-api-1.9.2.tar.gz --markdown 20240429/f/flickr-photos-api/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-29 16:27:19] INFO root fetch - processPackages [tapsage-client]: Downloading https://files.pythonhosted.org/packages/70/df/4787c5871840faae3b56074373b17f795acb7f0f7d0aea3c6395ce9bd7b0/tapsage_client-0.5.0.tar.gz
+[2024-04-29 16:27:19] INFO root fetch - processPackages [falcon-challenge]: executing diffoscope
+[2024-04-29 16:27:19] INFO root fetch - processPackages [falcon-challenge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/falcon_challenge-0.2.8.tar.gz tmp/falcon_challenge-0.2.9.tar.gz --markdown 20240429/f/falcon-challenge/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-29 16:27:19] INFO root fetch - processPackages [coveralls]: Downloading https://files.pythonhosted.org/packages/97/14/7906489e8b225cfd9e667da2d424cdf92e4f93a19358587cf83960c80a25/coveralls-4.0.0.tar.gz
+[2024-04-29 16:27:19] INFO root fetch - processPackages [tapsage-client]: executing diffoscope
+[2024-04-29 16:27:19] INFO root fetch - processPackages [tapsage-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tapsage_client-0.4.0.tar.gz tmp/tapsage_client-0.5.0.tar.gz --markdown 20240429/t/tapsage-client/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-29 16:27:19] INFO root fetch - processPackages [blar-graph]: Downloading https://files.pythonhosted.org/packages/1d/ed/d05270d9939f1168d4cd9cef98cf914164b71fdce1d378a959f3f946fa16/blar_graph-0.0.9a0.tar.gz
+[2024-04-29 16:27:19] INFO root fetch - processPackages [libpss-aws]: Downloading https://files.pythonhosted.org/packages/4b/de/95a8d9d71bea4c9da5a15d74dc9d2440f60733173bee6758e05073f6921c/libpss_aws-0.2.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-29 16:27:20] INFO root fetch - processPackages [coveralls]: executing diffoscope
+[2024-04-29 16:27:20] INFO root fetch - processPackages [coveralls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coveralls-3.4.0a1.tar.gz tmp/coveralls-4.0.0.tar.gz --markdown 20240429/c/coveralls/3.4.0a1-4.0.0/README.md --exclude *.pyd
+[2024-04-29 16:27:20] INFO root fetch - processPackages [blar-graph]: executing diffoscope
+[2024-04-29 16:27:20] INFO root fetch - processPackages [blar-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blar_graph-0.0.8.tar.gz tmp/blar_graph-0.0.9a0.tar.gz --markdown 20240429/b/blar-graph/0.0.8-0.0.9a0/README.md --exclude *.pyd
+[2024-04-29 16:27:20] INFO root fetch - processPackages [libpss-aws]: executing diffoscope
+[2024-04-29 16:27:20] INFO root fetch - processPackages [libpss-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libpss_aws-0.2.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/libpss_aws-0.2.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240429/l/libpss-aws/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-29 16:27:20] INFO root fetch - processPackages [tapsage-client]: Remove: archive file [/home/abi/fetcher/tmp/tapsage_client-0.4.0.tar.gz]
+[2024-04-29 16:27:20] INFO root fetch - processPackages [flickr-photos-api]: Remove: archive file [/home/abi/fetcher/tmp/flickr-photos-api-1.9.1.tar.gz]
+[2024-04-29 16:27:20] INFO root fetch - processPackages [flickr-photos-api]: Remove: archive file [/home/abi/fetcher/tmp/flickr-photos-api-1.9.2.tar.gz]
+[2024-04-29 16:27:20] INFO root fetch - processPackages [tapsage-client]: Remove: archive file [/home/abi/fetcher/tmp/tapsage_client-0.5.0.tar.gz]
+[2024-04-29 16:27:20] INFO root fetch - main [MainThread]: End processing [flickr-photos-api]: success
+[2024-04-29 16:27:20] INFO root fetch - main [MainThread]: End processing [tapsage-client]: success
+[2024-04-29 16:27:20] INFO root fetch - processPackages [falcon-challenge]: Remove: archive file [/home/abi/fetcher/tmp/falcon_challenge-0.2.8.tar.gz]
+[2024-04-29 16:27:20] INFO root fetch - processPackages [falcon-challenge]: Remove: archive file [/home/abi/fetcher/tmp/falcon_challenge-0.2.9.tar.gz]
+[2024-04-29 16:27:20] INFO root fetch - main [MainThread]: End processing [falcon-challenge]: success
+[2024-04-29 16:27:20] INFO root fetch - processPackages [coveralls]: Remove: archive file [/home/abi/fetcher/tmp/coveralls-3.4.0a1.tar.gz]
+[2024-04-29 16:27:20] INFO root fetch - processPackages [coveralls]: Remove: archive file [/home/abi/fetcher/tmp/coveralls-4.0.0.tar.gz]
+[2024-04-29 16:27:20] INFO root fetch - main [MainThread]: End processing [coveralls]: success
+[2024-04-29 16:27:20] INFO root fetch - processPackages [blar-graph]: Remove: archive file [/home/abi/fetcher/tmp/blar_graph-0.0.8.tar.gz]
+[2024-04-29 16:27:20] INFO root fetch - processPackages [blar-graph]: Remove: archive file [/home/abi/fetcher/tmp/blar_graph-0.0.9a0.tar.gz]
+[2024-04-29 16:27:20] INFO root fetch - main [MainThread]: End processing [blar-graph]: success
+[2024-04-29 16:28:40] INFO root fetch - processPackages [libpss-aws]: Remove: archive file [/home/abi/fetcher/tmp/libpss_aws-0.2.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-29 16:28:40] INFO root fetch - processPackages [libpss-aws]: Remove: archive file [/home/abi/fetcher/tmp/libpss_aws-0.2.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-29 16:28:40] INFO root fetch - main [MainThread]: End processing [libpss-aws]: success
+[2024-04-29 16:28:40] INFO root fetch - main [MainThread]: Store serial: [22985322]
