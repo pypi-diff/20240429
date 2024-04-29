@@ -7078,3 +7078,33 @@
 [2024-04-29 05:00:38] INFO root fetch - processPackages [fog-x]: Remove: archive file [/home/abi/fetcher/tmp/fog_x-0.1.0b3.tar.gz]
 [2024-04-29 05:00:38] INFO root fetch - main [MainThread]: End processing [fog-x]: success
 [2024-04-29 05:00:38] INFO root fetch - main [MainThread]: Store serial: [22978266]
+[2024-04-29 05:02:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978266]
+[2024-04-29 05:02:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 05:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xagent
+[2024-04-29 05:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudpss-hydrogen
+[2024-04-29 05:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moraine
+[2024-04-29 05:02:47] INFO root fetch - processPackages [moraine]: New version: [0.5.1] Old Version: [0.0.1]
+[2024-04-29 05:02:47] INFO root fetch - processPackages [moraine]: Downloading https://files.pythonhosted.org/packages/ff/13/1d77ba04cd54b18cffbe05cd184b9a9f2ac36e3a3ba50bd6829448bece63/moraine-0.0.1.tar.gz
+[2024-04-29 05:02:47] INFO root fetch - processPackages [xagent]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-29 05:02:47] INFO root fetch - processPackages [cloudpss-hydrogen]: New version: [4.0.0a8] Old Version: [4.0.0a7]
+[2024-04-29 05:02:47] INFO root fetch - processPackages [xagent]: Downloading https://files.pythonhosted.org/packages/39/a8/17dc2e03545bd393c5c22dfdd7b3de9bc578de6c2ecbe61e36e552c92994/xagent-0.0.7.tar.gz
+[2024-04-29 05:02:47] INFO root fetch - processPackages [cloudpss-hydrogen]: Downloading https://files.pythonhosted.org/packages/6f/a3/358a385dc542998a6205347822b85dbe49a43386e2bb4fb1661d7f19a432/cloudpss-hydrogen-4.0.0a7.tar.gz
+[2024-04-29 05:02:47] INFO root fetch - processPackages [moraine]: Downloading https://files.pythonhosted.org/packages/19/a1/04947aba2fc6dfa89603a66a6e5a38650e4313091cdc31bb7a1249741f7e/moraine-0.5.1.tar.gz
+[2024-04-29 05:02:47] INFO root fetch - processPackages [moraine]: executing diffoscope
+[2024-04-29 05:02:47] INFO root fetch - processPackages [moraine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moraine-0.0.1.tar.gz tmp/moraine-0.5.1.tar.gz --markdown 20240429/m/moraine/0.0.1-0.5.1/README.md --exclude *.pyd
+[2024-04-29 05:02:47] INFO root fetch - processPackages [xagent]: Downloading https://files.pythonhosted.org/packages/93/12/db43042e5f677d839fad9c12e2749f5dd216b5e216ec8a48eb4a10ce2b8d/xagent-0.0.8.tar.gz
+[2024-04-29 05:02:47] INFO root fetch - processPackages [cloudpss-hydrogen]: Downloading https://files.pythonhosted.org/packages/f9/66/05c88e60cbb85081ea11044f4befc5da7224e3d8c9226e9a90d81f0e81df/cloudpss-hydrogen-4.0.0a8.tar.gz
+[2024-04-29 05:02:47] INFO root fetch - processPackages [xagent]: executing diffoscope
+[2024-04-29 05:02:47] INFO root fetch - processPackages [xagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xagent-0.0.7.tar.gz tmp/xagent-0.0.8.tar.gz --markdown 20240429/x/xagent/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-29 05:02:47] INFO root fetch - processPackages [cloudpss-hydrogen]: executing diffoscope
+[2024-04-29 05:02:47] INFO root fetch - processPackages [cloudpss-hydrogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudpss-hydrogen-4.0.0a7.tar.gz tmp/cloudpss-hydrogen-4.0.0a8.tar.gz --markdown 20240429/c/cloudpss-hydrogen/4.0.0a7-4.0.0a8/README.md --exclude *.pyd
+[2024-04-29 05:02:48] INFO root fetch - processPackages [moraine]: Remove: archive file [/home/abi/fetcher/tmp/moraine-0.0.1.tar.gz]
+[2024-04-29 05:02:48] INFO root fetch - processPackages [moraine]: Remove: archive file [/home/abi/fetcher/tmp/moraine-0.5.1.tar.gz]
+[2024-04-29 05:02:48] INFO root fetch - main [MainThread]: End processing [moraine]: success
+[2024-04-29 05:02:48] INFO root fetch - processPackages [cloudpss-hydrogen]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-hydrogen-4.0.0a7.tar.gz]
+[2024-04-29 05:02:48] INFO root fetch - processPackages [cloudpss-hydrogen]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-hydrogen-4.0.0a8.tar.gz]
+[2024-04-29 05:02:48] INFO root fetch - main [MainThread]: End processing [cloudpss-hydrogen]: success
+[2024-04-29 05:02:48] INFO root fetch - processPackages [xagent]: Remove: archive file [/home/abi/fetcher/tmp/xagent-0.0.7.tar.gz]
+[2024-04-29 05:02:48] INFO root fetch - processPackages [xagent]: Remove: archive file [/home/abi/fetcher/tmp/xagent-0.0.8.tar.gz]
+[2024-04-29 05:02:48] INFO root fetch - main [MainThread]: End processing [xagent]: success
+[2024-04-29 05:02:48] INFO root fetch - main [MainThread]: Store serial: [22978278]
