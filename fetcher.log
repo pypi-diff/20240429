@@ -8072,3 +8072,42 @@
 [2024-04-29 06:29:41] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
 [2024-04-29 06:29:41] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
 [2024-04-29 06:29:41] INFO root fetch - main [MainThread]: Store serial: [22978639]
+[2024-04-29 06:31:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978639]
+[2024-04-29 06:31:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 06:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: avsub
+[2024-04-29 06:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-semantic-release
+[2024-04-29 06:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: magnum-opus
+[2024-04-29 06:31:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Way2DSSAT
+[2024-04-29 06:31:49] INFO root fetch - processPackages [magnum-opus]: New version: [3.0] Old Version: [2.3]
+[2024-04-29 06:31:49] INFO root fetch - processPackages [Way2DSSAT]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-29 06:31:50] INFO root fetch - processPackages [magnum-opus]: Downloading https://files.pythonhosted.org/packages/37/aa/2e8eabf2810f9f86acf9efc808328551c3b28575f83ffc61456374e319a5/magnum_opus-2.3.tar.gz
+[2024-04-29 06:31:50] INFO root fetch - processPackages [avsub]: New version: [0.0.14] Old Version: [0.0.13]
+[2024-04-29 06:31:50] INFO root fetch - processPackages [python-semantic-release]: New version: [9.6.0] Old Version: [9.5.0]
+[2024-04-29 06:31:50] INFO root fetch - processPackages [Way2DSSAT]: Downloading https://files.pythonhosted.org/packages/d8/dd/42fab0d1db1619d30093a0a48dedc7eb1d190ff9f1a7eb69a32c33ed5480/way2dssat-0.0.2.tar.gz
+[2024-04-29 06:31:50] INFO root fetch - processPackages [avsub]: Downloading https://files.pythonhosted.org/packages/3b/02/62d93aea9d2a1191f8f7d82c903164ef6f6fe3888c57215838ce592a602b/avsub-0.0.13.tar.gz
+[2024-04-29 06:31:50] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/bc/5d/e5f7964e68efe723c4e572c4f9520701013e989c79a187f7adde451e1302/python_semantic_release-9.5.0.tar.gz
+[2024-04-29 06:31:50] INFO root fetch - processPackages [magnum-opus]: Downloading https://files.pythonhosted.org/packages/8c/38/c101d4120e115d6e6a95d4ecd1d819d0ba7237294ed497014a8ee60c6012/magnum_opus-3.0.tar.gz
+[2024-04-29 06:31:50] INFO root fetch - processPackages [magnum-opus]: executing diffoscope
+[2024-04-29 06:31:50] INFO root fetch - processPackages [magnum-opus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnum_opus-2.3.tar.gz tmp/magnum_opus-3.0.tar.gz --markdown 20240429/m/magnum-opus/2.3-3.0/README.md --exclude *.pyd
+[2024-04-29 06:31:50] INFO root fetch - processPackages [avsub]: Downloading https://files.pythonhosted.org/packages/68/ab/49fc5af8e373f37b1296ee74ca4771cba204e5da08d993372097b1cd2bd4/avsub-0.0.14.tar.gz
+[2024-04-29 06:31:50] INFO root fetch - processPackages [Way2DSSAT]: Downloading https://files.pythonhosted.org/packages/63/87/d83a1c69b97a4b784d3320361894d491eec1519cc266c19708459e9805fa/way2dssat-0.0.3.tar.gz
+[2024-04-29 06:31:50] INFO root fetch - processPackages [python-semantic-release]: Downloading https://files.pythonhosted.org/packages/ac/bc/db70ddf9ea5fbee0ab53e2d688aa877d9e737fc0bb99c059394153368918/python_semantic_release-9.6.0.tar.gz
+[2024-04-29 06:31:50] INFO root fetch - processPackages [Way2DSSAT]: executing diffoscope
+[2024-04-29 06:31:50] INFO root fetch - processPackages [Way2DSSAT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/way2dssat-0.0.2.tar.gz tmp/way2dssat-0.0.3.tar.gz --markdown 20240429/W/Way2DSSAT/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-29 06:31:50] INFO root fetch - processPackages [avsub]: executing diffoscope
+[2024-04-29 06:31:50] INFO root fetch - processPackages [avsub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avsub-0.0.13.tar.gz tmp/avsub-0.0.14.tar.gz --markdown 20240429/a/avsub/0.0.13-0.0.14/README.md --exclude *.pyd
+[2024-04-29 06:31:50] INFO root fetch - processPackages [python-semantic-release]: executing diffoscope
+[2024-04-29 06:31:50] INFO root fetch - processPackages [python-semantic-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_semantic_release-9.5.0.tar.gz tmp/python_semantic_release-9.6.0.tar.gz --markdown 20240429/p/python-semantic-release/9.5.0-9.6.0/README.md --exclude *.pyd
+[2024-04-29 06:31:51] INFO root fetch - processPackages [magnum-opus]: Remove: archive file [/home/abi/fetcher/tmp/magnum_opus-2.3.tar.gz]
+[2024-04-29 06:31:51] INFO root fetch - processPackages [magnum-opus]: Remove: archive file [/home/abi/fetcher/tmp/magnum_opus-3.0.tar.gz]
+[2024-04-29 06:31:51] INFO root fetch - main [MainThread]: End processing [magnum-opus]: success
+[2024-04-29 06:31:51] INFO root fetch - processPackages [Way2DSSAT]: Remove: archive file [/home/abi/fetcher/tmp/way2dssat-0.0.2.tar.gz]
+[2024-04-29 06:31:51] INFO root fetch - processPackages [Way2DSSAT]: Remove: archive file [/home/abi/fetcher/tmp/way2dssat-0.0.3.tar.gz]
+[2024-04-29 06:31:51] INFO root fetch - main [MainThread]: End processing [Way2DSSAT]: success
+[2024-04-29 06:31:51] INFO root fetch - processPackages [avsub]: Remove: archive file [/home/abi/fetcher/tmp/avsub-0.0.13.tar.gz]
+[2024-04-29 06:31:51] INFO root fetch - processPackages [avsub]: Remove: archive file [/home/abi/fetcher/tmp/avsub-0.0.14.tar.gz]
+[2024-04-29 06:31:51] INFO root fetch - main [MainThread]: End processing [avsub]: success
+[2024-04-29 06:31:52] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python_semantic_release-9.5.0.tar.gz]
+[2024-04-29 06:31:52] INFO root fetch - processPackages [python-semantic-release]: Remove: archive file [/home/abi/fetcher/tmp/python_semantic_release-9.6.0.tar.gz]
+[2024-04-29 06:31:52] INFO root fetch - main [MainThread]: End processing [python-semantic-release]: success
+[2024-04-29 06:31:52] INFO root fetch - main [MainThread]: Store serial: [22978654]
