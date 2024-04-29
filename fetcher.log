@@ -1769,3 +1769,18 @@
 [2024-04-29 02:36:42] INFO root fetch - processPackages [YoutubeUser]: Remove: archive file [/home/abi/fetcher/tmp/youtubeuser-0.0.7.tar.gz]
 [2024-04-29 02:36:42] INFO root fetch - main [MainThread]: End processing [YoutubeUser]: success
 [2024-04-29 02:36:42] INFO root fetch - main [MainThread]: Store serial: [22971911]
+[2024-04-29 02:38:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971911]
+[2024-04-29 02:38:50] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-29 02:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: labequipment
+[2024-04-29 02:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mo-kwargs
+[2024-04-29 02:38:50] WARNING root fetch - processPackages [labequipment]: Skipping, unable to determine old version
+[2024-04-29 02:38:50] INFO root fetch - main [MainThread]: End processing [labequipment] error
+[2024-04-29 02:38:50] INFO root fetch - processPackages [mo-kwargs]: New version: [7.611.24120] Old Version: [7.606.24115]
+[2024-04-29 02:38:51] INFO root fetch - processPackages [mo-kwargs]: Downloading https://files.pythonhosted.org/packages/6e/ca/9efb56d1afdf03028d7fb484dfeba482f08a7b24780e2d10680e3df2d0fd/mo_kwargs-7.606.24115.tar.gz
+[2024-04-29 02:38:51] INFO root fetch - processPackages [mo-kwargs]: Downloading https://files.pythonhosted.org/packages/45/b1/8c0cdc0084c1aaaf98fdbfd5d74ce08c3a107f9cff4d86ca39405dd118fb/mo_kwargs-7.611.24120.tar.gz
+[2024-04-29 02:38:51] INFO root fetch - processPackages [mo-kwargs]: executing diffoscope
+[2024-04-29 02:38:51] INFO root fetch - processPackages [mo-kwargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_kwargs-7.606.24115.tar.gz tmp/mo_kwargs-7.611.24120.tar.gz --markdown 20240429/m/mo-kwargs/7.606.24115-7.611.24120/README.md --exclude *.pyd
+[2024-04-29 02:38:51] INFO root fetch - processPackages [mo-kwargs]: Remove: archive file [/home/abi/fetcher/tmp/mo_kwargs-7.606.24115.tar.gz]
+[2024-04-29 02:38:51] INFO root fetch - processPackages [mo-kwargs]: Remove: archive file [/home/abi/fetcher/tmp/mo_kwargs-7.611.24120.tar.gz]
+[2024-04-29 02:38:51] INFO root fetch - main [MainThread]: End processing [mo-kwargs]: success
+[2024-04-29 02:38:51] INFO root fetch - main [MainThread]: Store serial: [22971920]
