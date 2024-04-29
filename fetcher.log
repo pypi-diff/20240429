@@ -14794,3 +14794,81 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 11:59:58] INFO root fetch - main [MainThread]: End processing [chocolate_app]: success
 [2024-04-29 11:59:58] INFO root fetch - main [MainThread]: End processing [chocolate_app]: success
 [2024-04-29 11:59:58] INFO root fetch - main [MainThread]: Store serial: [22981765]
+[2024-04-29 12:02:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22981765]
+[2024-04-29 12:02:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-29 12:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sbcli-jm
+[2024-04-29 12:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aau-ais-dipaal
+[2024-04-29 12:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mailslurp-client
+[2024-04-29 12:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LinguAligner
+[2024-04-29 12:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: u
+[2024-04-29 12:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adani
+[2024-04-29 12:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bykml
+[2024-04-29 12:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: paladium
+[2024-04-29 12:02:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: templated-setup
+[2024-04-29 12:02:13] INFO root fetch - processPackages [sbcli-jm]: New version: [4.1.0] Old Version: [4.0.9]
+[2024-04-29 12:02:13] INFO root fetch - processPackages [aau-ais-dipaal]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-29 12:02:13] INFO root fetch - processPackages [LinguAligner]: New version: [0.9] Old Version: [0.8]
+[2024-04-29 12:02:13] INFO root fetch - processPackages [mailslurp-client]: New version: [9.0.0] Old Version: [8.7.1]
+[2024-04-29 12:02:13] INFO root fetch - processPackages [templated-setup]: New version: [0.8] Old Version: [0.7]
+[2024-04-29 12:02:14] INFO root fetch - processPackages [bykml]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-04-29 12:02:14] INFO root fetch - processPackages [paladium]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-29 12:02:14] WARNING root fetch - processPackages [u]: Skipping, unable to determine old version
+[2024-04-29 12:02:14] INFO root fetch - main [MainThread]: End processing [u] error
+[2024-04-29 12:02:14] INFO root fetch - processPackages [sbcli-jm]: Downloading https://files.pythonhosted.org/packages/de/e8/3703685148c040331fe9911e56d30f81c99bc7f95e3668af7f6b3411bb5e/sbcli_jm-4.0.9.zip
+[2024-04-29 12:02:14] INFO root fetch - processPackages [adani]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-29 12:02:14] INFO root fetch - processPackages [aau-ais-dipaal]: Downloading https://files.pythonhosted.org/packages/29/f1/e7f6532e4c83d33124ab405544a858e145e0df15783367ddf033dfdeb87b/aau_ais_dipaal-0.1.1.tar.gz
+[2024-04-29 12:02:14] INFO root fetch - processPackages [LinguAligner]: Downloading https://files.pythonhosted.org/packages/63/1f/fc1941e3d878f8643898c07bd958b932dd36b3b074928145bb430dfe0a04/lingualigner-0.8.tar.gz
+[2024-04-29 12:02:14] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/3e/2a/b8cce2427a43d1e16d56cf7c0cb6846aa65ef693d53c602b86cc1b3e2dda/mailslurp-client-8.7.1.tar.gz
+[2024-04-29 12:02:14] INFO root fetch - processPackages [bykml]: Downloading https://files.pythonhosted.org/packages/5f/d6/ff26e17e7634df96452adeeaf1b092fd652b17b6dce710c2577d69e13a72/bykml-1.4.0.tar.gz
+[2024-04-29 12:02:14] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/82/bc/cd1c04083000b9a7208222f2e089cd18a6217a84a7e650301002ffb9a22c/templated_setup-0.7.tar.gz
+[2024-04-29 12:02:14] INFO root fetch - processPackages [adani]: Downloading https://files.pythonhosted.org/packages/7c/18/df25418c9942463fd313a64af350919a52b38c4ed5716fb763bdde56f31f/adani-1.0.2.tar.gz
+[2024-04-29 12:02:14] INFO root fetch - processPackages [paladium]: Downloading https://files.pythonhosted.org/packages/10/bd/25e518d861be4aa99f70a594b7ea269993fa2bbe4f69d4379af07a57c737/paladium-1.0.6.tar.gz
+[2024-04-29 12:02:15] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/01/d9/2509603c731df895dbecf80066b199f2b72cb740d3900594486b1869bda3/mailslurp-client-9.0.0.tar.gz
+[2024-04-29 12:02:15] INFO root fetch - processPackages [LinguAligner]: Downloading https://files.pythonhosted.org/packages/73/fb/3cad932ad4847785cbae099a96fb2ae5367c5b788dac0deece75b60a9254/lingualigner-0.9.tar.gz
+[2024-04-29 12:02:15] INFO root fetch - processPackages [sbcli-jm]: Downloading https://files.pythonhosted.org/packages/c8/2b/d74baecf3913c1c7417f84863f4273f736e29b8f670e2ff6eefebe847c2d/sbcli_jm-4.1.0.zip
+[2024-04-29 12:02:15] INFO root fetch - processPackages [bykml]: Downloading https://files.pythonhosted.org/packages/38/10/a34676a565041d043eaa11d328e6491414faaf345d4a6b52c93e3a941009/bykml-1.5.0.tar.gz
+[2024-04-29 12:02:15] INFO root fetch - processPackages [aau-ais-dipaal]: Downloading https://files.pythonhosted.org/packages/92/41/0bc2d79d3277eef3701f41308810d726f68a8640cae60b2dee5e3b561775/aau_ais_dipaal-0.1.2.tar.gz
+[2024-04-29 12:02:15] INFO root fetch - processPackages [paladium]: Downloading https://files.pythonhosted.org/packages/93/6e/55c91efe4558bb34e529057e20e9bf817f1bf8f0ef98976866a46b8a856b/paladium-1.0.7.tar.gz
+[2024-04-29 12:02:15] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/8f/c8/247712c7a1ed3cb017fbd1c295e1e38c978bdb8c38e4bacba9d9ba71c7ca/templated_setup-0.8.tar.gz
+[2024-04-29 12:02:15] INFO root fetch - processPackages [mailslurp-client]: executing diffoscope
+[2024-04-29 12:02:15] INFO root fetch - processPackages [mailslurp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailslurp-client-8.7.1.tar.gz tmp/mailslurp-client-9.0.0.tar.gz --markdown 20240429/m/mailslurp-client/8.7.1-9.0.0/README.md --exclude *.pyd
+[2024-04-29 12:02:15] INFO root fetch - processPackages [sbcli-jm]: executing diffoscope
+[2024-04-29 12:02:15] INFO root fetch - processPackages [sbcli-jm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_jm-4.0.9.zip tmp/sbcli_jm-4.1.0.zip --markdown 20240429/s/sbcli-jm/4.0.9-4.1.0/README.md --exclude *.pyd
+[2024-04-29 12:02:15] INFO root fetch - processPackages [bykml]: executing diffoscope
+[2024-04-29 12:02:15] INFO root fetch - processPackages [bykml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bykml-1.4.0.tar.gz tmp/bykml-1.5.0.tar.gz --markdown 20240429/b/bykml/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-04-29 12:02:15] INFO root fetch - processPackages [aau-ais-dipaal]: executing diffoscope
+[2024-04-29 12:02:15] INFO root fetch - processPackages [aau-ais-dipaal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aau_ais_dipaal-0.1.1.tar.gz tmp/aau_ais_dipaal-0.1.2.tar.gz --markdown 20240429/a/aau-ais-dipaal/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-29 12:02:15] INFO root fetch - processPackages [LinguAligner]: executing diffoscope
+[2024-04-29 12:02:15] INFO root fetch - processPackages [LinguAligner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lingualigner-0.8.tar.gz tmp/lingualigner-0.9.tar.gz --markdown 20240429/L/LinguAligner/0.8-0.9/README.md --exclude *.pyd
+[2024-04-29 12:02:15] INFO root fetch - processPackages [paladium]: executing diffoscope
+[2024-04-29 12:02:15] INFO root fetch - processPackages [paladium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paladium-1.0.6.tar.gz tmp/paladium-1.0.7.tar.gz --markdown 20240429/p/paladium/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-29 12:02:15] INFO root fetch - processPackages [templated-setup]: executing diffoscope
+[2024-04-29 12:02:15] INFO root fetch - processPackages [templated-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templated_setup-0.7.tar.gz tmp/templated_setup-0.8.tar.gz --markdown 20240429/t/templated-setup/0.7-0.8/README.md --exclude *.pyd
+[2024-04-29 12:02:15] INFO root fetch - processPackages [adani]: Downloading https://files.pythonhosted.org/packages/41/e0/443a561ab9ededef3817d254ee5745ac07668071a58afea95c09e7731f3f/adani-1.0.3.tar.gz
+[2024-04-29 12:02:16] INFO root fetch - processPackages [adani]: executing diffoscope
+[2024-04-29 12:02:16] INFO root fetch - processPackages [adani]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adani-1.0.2.tar.gz tmp/adani-1.0.3.tar.gz --markdown 20240429/a/adani/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-29 12:02:16] INFO root fetch - processPackages [LinguAligner]: Remove: archive file [/home/abi/fetcher/tmp/lingualigner-0.8.tar.gz]
+[2024-04-29 12:02:16] INFO root fetch - processPackages [LinguAligner]: Remove: archive file [/home/abi/fetcher/tmp/lingualigner-0.9.tar.gz]
+[2024-04-29 12:02:16] INFO root fetch - main [MainThread]: End processing [LinguAligner]: success
+[2024-04-29 12:02:16] INFO root fetch - processPackages [aau-ais-dipaal]: Remove: archive file [/home/abi/fetcher/tmp/aau_ais_dipaal-0.1.1.tar.gz]
+[2024-04-29 12:02:16] INFO root fetch - processPackages [aau-ais-dipaal]: Remove: archive file [/home/abi/fetcher/tmp/aau_ais_dipaal-0.1.2.tar.gz]
+[2024-04-29 12:02:16] INFO root fetch - main [MainThread]: End processing [aau-ais-dipaal]: success
+[2024-04-29 12:02:16] INFO root fetch - processPackages [bykml]: Remove: archive file [/home/abi/fetcher/tmp/bykml-1.4.0.tar.gz]
+[2024-04-29 12:02:16] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.7.tar.gz]
+[2024-04-29 12:02:16] INFO root fetch - processPackages [bykml]: Remove: archive file [/home/abi/fetcher/tmp/bykml-1.5.0.tar.gz]
+[2024-04-29 12:02:16] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.8.tar.gz]
+[2024-04-29 12:02:16] INFO root fetch - main [MainThread]: End processing [bykml]: success
+[2024-04-29 12:02:16] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
+[2024-04-29 12:02:16] INFO root fetch - processPackages [paladium]: Remove: archive file [/home/abi/fetcher/tmp/paladium-1.0.6.tar.gz]
+[2024-04-29 12:02:16] INFO root fetch - processPackages [paladium]: Remove: archive file [/home/abi/fetcher/tmp/paladium-1.0.7.tar.gz]
+[2024-04-29 12:02:16] INFO root fetch - main [MainThread]: End processing [paladium]: success
+[2024-04-29 12:02:17] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_jm-4.0.9.zip]
+[2024-04-29 12:02:17] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_jm-4.1.0.zip]
+[2024-04-29 12:02:17] INFO root fetch - main [MainThread]: End processing [sbcli-jm]: success
+[2024-04-29 12:02:17] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-8.7.1.tar.gz]
+[2024-04-29 12:02:17] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-9.0.0.tar.gz]
+[2024-04-29 12:02:17] INFO root fetch - main [MainThread]: End processing [mailslurp-client]: success
+[2024-04-29 12:02:17] INFO root fetch - processPackages [adani]: Remove: archive file [/home/abi/fetcher/tmp/adani-1.0.2.tar.gz]
+[2024-04-29 12:02:17] INFO root fetch - processPackages [adani]: Remove: archive file [/home/abi/fetcher/tmp/adani-1.0.3.tar.gz]
+[2024-04-29 12:02:17] INFO root fetch - main [MainThread]: End processing [adani]: success
+[2024-04-29 12:02:17] INFO root fetch - main [MainThread]: Store serial: [22981808]
