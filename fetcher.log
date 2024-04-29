@@ -15645,3 +15645,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 12:30:55] INFO root fetch - processPackages [qg_toolkit]: Remove: archive file [/home/abi/fetcher/tmp/qg_toolkit-1.0.14.tar.gz]
 [2024-04-29 12:30:55] INFO root fetch - main [MainThread]: End processing [qg_toolkit]: success
 [2024-04-29 12:30:55] INFO root fetch - main [MainThread]: Store serial: [22982071]
+[2024-04-29 12:32:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982071]
+[2024-04-29 12:33:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 12:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dockipy
+[2024-04-29 12:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: benchbench
+[2024-04-29 12:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uk-std-libraries
+[2024-04-29 12:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pykwl
+[2024-04-29 12:33:03] INFO root fetch - processPackages [uk-std-libraries]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-29 12:33:03] INFO root fetch - processPackages [dockipy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 12:33:03] INFO root fetch - processPackages [uk-std-libraries]: Downloading https://files.pythonhosted.org/packages/be/d2/1a20f404c683029a5b85eff111cc2eb544c6a896a7d9fa551c0fca7149ec/uk_std_libraries-0.0.7.tar.gz
+[2024-04-29 12:33:04] WARNING root fetch - processPackages [benchbench]: Skipping, unable to determine old version
+[2024-04-29 12:33:04] INFO root fetch - main [MainThread]: End processing [benchbench] error
+[2024-04-29 12:33:04] INFO root fetch - processPackages [pykwl]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-29 12:33:04] INFO root fetch - processPackages [dockipy]: Downloading https://files.pythonhosted.org/packages/53/78/5a8313f4b73f6dd85bc028e698161305fc679614fd0f5f8db2b83056a016/dockipy-0.0.8.tar.gz
+[2024-04-29 12:33:04] INFO root fetch - processPackages [uk-std-libraries]: Downloading https://files.pythonhosted.org/packages/f7/b3/d58b29d8d93e6dab402471fa195c6a699b0fcd057ff8640907b16bec2895/uk_std_libraries-0.0.8.tar.gz
+[2024-04-29 12:33:04] INFO root fetch - processPackages [pykwl]: Downloading https://files.pythonhosted.org/packages/8f/f3/c1dc3fa88a8d279198e8bdbb0e565312c2f748611fa90b922f7446ef82d3/pykwl-0.0.6.tar.gz
+[2024-04-29 12:33:04] INFO root fetch - processPackages [dockipy]: Downloading https://files.pythonhosted.org/packages/20/dd/5a84aa032c0ed0c2e1fcecc40431ec7787625dad7b044cbc47cc0f04f1eb/dockipy-0.0.9.tar.gz
+[2024-04-29 12:33:04] INFO root fetch - processPackages [uk-std-libraries]: executing diffoscope
+[2024-04-29 12:33:04] INFO root fetch - processPackages [uk-std-libraries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uk_std_libraries-0.0.7.tar.gz tmp/uk_std_libraries-0.0.8.tar.gz --markdown 20240429/u/uk-std-libraries/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-29 12:33:04] INFO root fetch - processPackages [dockipy]: executing diffoscope
+[2024-04-29 12:33:04] INFO root fetch - processPackages [dockipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockipy-0.0.8.tar.gz tmp/dockipy-0.0.9.tar.gz --markdown 20240429/d/dockipy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 12:33:04] INFO root fetch - processPackages [pykwl]: Downloading https://files.pythonhosted.org/packages/27/f5/abc8b4de21c8fbfbf4feb9dbe774f956d066e26b10ede292a132c6378b08/pykwl-0.0.7.tar.gz
+[2024-04-29 12:33:04] INFO root fetch - processPackages [pykwl]: executing diffoscope
+[2024-04-29 12:33:04] INFO root fetch - processPackages [pykwl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykwl-0.0.6.tar.gz tmp/pykwl-0.0.7.tar.gz --markdown 20240429/p/pykwl/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-29 12:33:05] INFO root fetch - processPackages [uk-std-libraries]: Remove: archive file [/home/abi/fetcher/tmp/uk_std_libraries-0.0.7.tar.gz]
+[2024-04-29 12:33:05] INFO root fetch - processPackages [uk-std-libraries]: Remove: archive file [/home/abi/fetcher/tmp/uk_std_libraries-0.0.8.tar.gz]
+[2024-04-29 12:33:05] INFO root fetch - main [MainThread]: End processing [uk-std-libraries]: success
+[2024-04-29 12:33:05] INFO root fetch - processPackages [pykwl]: Remove: archive file [/home/abi/fetcher/tmp/pykwl-0.0.6.tar.gz]
+[2024-04-29 12:33:05] INFO root fetch - processPackages [pykwl]: Remove: archive file [/home/abi/fetcher/tmp/pykwl-0.0.7.tar.gz]
+[2024-04-29 12:33:05] INFO root fetch - main [MainThread]: End processing [pykwl]: success
+[2024-04-29 12:33:05] INFO root fetch - processPackages [dockipy]: Remove: archive file [/home/abi/fetcher/tmp/dockipy-0.0.8.tar.gz]
+[2024-04-29 12:33:05] INFO root fetch - processPackages [dockipy]: Remove: archive file [/home/abi/fetcher/tmp/dockipy-0.0.9.tar.gz]
+[2024-04-29 12:33:05] INFO root fetch - main [MainThread]: End processing [dockipy]: success
+[2024-04-29 12:33:05] INFO root fetch - main [MainThread]: Store serial: [22982087]
