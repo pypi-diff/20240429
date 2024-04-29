@@ -8730,3 +8730,42 @@
 [2024-04-29 07:15:50] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.2.8.tar.gz]
 [2024-04-29 07:15:50] INFO root fetch - main [MainThread]: End processing [pyneople]: success
 [2024-04-29 07:15:50] INFO root fetch - main [MainThread]: Store serial: [22978996]
+[2024-04-29 07:17:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978996]
+[2024-04-29 07:18:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 07:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: milvus-api
+[2024-04-29 07:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sched2
+[2024-04-29 07:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapidpe-rift-pipe
+[2024-04-29 07:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bihyung
+[2024-04-29 07:18:01] INFO root fetch - processPackages [milvus-api]: New version: [0.2.1.1] Old Version: [0.2.0]
+[2024-04-29 07:18:01] INFO root fetch - processPackages [bihyung]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-29 07:18:01] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.6.9.dev20240319] Old Version: [0.6.9.dev20240318]
+[2024-04-29 07:18:01] INFO root fetch - processPackages [sched2]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-29 07:18:01] INFO root fetch - processPackages [milvus-api]: Downloading https://files.pythonhosted.org/packages/fd/25/11b57ac198a113cee3e4fedcb15d045291f7c8badcba738282bf89bdc0b6/milvus_api-0.2.0.tar.gz
+[2024-04-29 07:18:01] INFO root fetch - processPackages [bihyung]: Downloading https://files.pythonhosted.org/packages/c3/07/68e681f10abd0994cf8cbde8d87de3a0ba3fa114495ba4a5929c1b2ca3c9/bihyung-0.2.0.tar.gz
+[2024-04-29 07:18:01] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/e0/d8/d7b88a4aebe9c66f5be7749976ca4a5d90c4c1f76b8309b2528f7d696fc2/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz
+[2024-04-29 07:18:01] INFO root fetch - processPackages [sched2]: Downloading https://files.pythonhosted.org/packages/b0/92/108ae3bb45f187928258d315e9729cf89c30d5c31527151715e22299dfeb/sched2-0.8.0.tar.gz
+[2024-04-29 07:18:02] INFO root fetch - processPackages [milvus-api]: Downloading https://files.pythonhosted.org/packages/e0/8b/531dbfe779ed074c22ad554b391dfae005708b1403ebe11f7a2e47fde8b7/milvus_api-0.2.1.1.tar.gz
+[2024-04-29 07:18:02] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/57/73/f8f8961db2f4ad6df9b52d6fc88b6fc134a86d378de28ab14ee4105baea4/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz
+[2024-04-29 07:18:02] INFO root fetch - processPackages [milvus-api]: executing diffoscope
+[2024-04-29 07:18:02] INFO root fetch - processPackages [milvus-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/milvus_api-0.2.0.tar.gz tmp/milvus_api-0.2.1.1.tar.gz --markdown 20240429/m/milvus-api/0.2.0-0.2.1.1/README.md --exclude *.pyd
+[2024-04-29 07:18:02] INFO root fetch - processPackages [bihyung]: Downloading https://files.pythonhosted.org/packages/4e/0d/5b0d050339c4c248bc62ab12d5959455dbc9ad5e99b35fb5225e2495befa/bihyung-0.2.1.tar.gz
+[2024-04-29 07:18:02] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2024-04-29 07:18:02] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz --markdown 20240429/r/rapidpe-rift-pipe/0.6.9.dev20240318-0.6.9.dev20240319/README.md --exclude *.pyd
+[2024-04-29 07:18:02] INFO root fetch - processPackages [bihyung]: executing diffoscope
+[2024-04-29 07:18:02] INFO root fetch - processPackages [bihyung]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bihyung-0.2.0.tar.gz tmp/bihyung-0.2.1.tar.gz --markdown 20240429/b/bihyung/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-29 07:18:02] INFO root fetch - processPackages [sched2]: Downloading https://files.pythonhosted.org/packages/a7/5e/7ef9313e1a896e1b34cd5173da3eda0d3bddd23fb64e1a5722b530f24bd6/sched2-0.8.1.tar.gz
+[2024-04-29 07:18:02] INFO root fetch - processPackages [sched2]: executing diffoscope
+[2024-04-29 07:18:02] INFO root fetch - processPackages [sched2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sched2-0.8.0.tar.gz tmp/sched2-0.8.1.tar.gz --markdown 20240429/s/sched2/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-04-29 07:18:02] INFO root fetch - processPackages [milvus-api]: Remove: archive file [/home/abi/fetcher/tmp/milvus_api-0.2.0.tar.gz]
+[2024-04-29 07:18:02] INFO root fetch - processPackages [milvus-api]: Remove: archive file [/home/abi/fetcher/tmp/milvus_api-0.2.1.1.tar.gz]
+[2024-04-29 07:18:02] INFO root fetch - main [MainThread]: End processing [milvus-api]: success
+[2024-04-29 07:18:02] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz]
+[2024-04-29 07:18:02] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz]
+[2024-04-29 07:18:02] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2024-04-29 07:18:02] INFO root fetch - processPackages [bihyung]: Remove: archive file [/home/abi/fetcher/tmp/bihyung-0.2.0.tar.gz]
+[2024-04-29 07:18:02] INFO root fetch - processPackages [bihyung]: Remove: archive file [/home/abi/fetcher/tmp/bihyung-0.2.1.tar.gz]
+[2024-04-29 07:18:02] INFO root fetch - main [MainThread]: End processing [bihyung]: success
+[2024-04-29 07:18:02] INFO root fetch - processPackages [sched2]: Remove: archive file [/home/abi/fetcher/tmp/sched2-0.8.0.tar.gz]
+[2024-04-29 07:18:02] INFO root fetch - processPackages [sched2]: Remove: archive file [/home/abi/fetcher/tmp/sched2-0.8.1.tar.gz]
+[2024-04-29 07:18:02] INFO root fetch - main [MainThread]: End processing [sched2]: success
+[2024-04-29 07:18:02] INFO root fetch - main [MainThread]: Store serial: [22979005]
