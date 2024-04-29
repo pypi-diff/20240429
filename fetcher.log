@@ -11659,3 +11659,86 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 09:59:06] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.4.7.tar.gz]
 [2024-04-29 09:59:06] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-29 09:59:06] INFO root fetch - main [MainThread]: Store serial: [22980324]
+[2024-04-29 10:01:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980324]
+[2024-04-29 10:01:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-29 10:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: databricks-connect
+[2024-04-29 10:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arclet-alconna-ariadne
+[2024-04-29 10:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: retack-sdk-django
+[2024-04-29 10:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cubed
+[2024-04-29 10:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aliyun-python-sdk-live
+[2024-04-29 10:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cg-hermes
+[2024-04-29 10:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fast-version
+[2024-04-29 10:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arclet-alconna-avilla
+[2024-04-29 10:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arclet-alconna-graia
+[2024-04-29 10:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pycheckers
+[2024-04-29 10:01:16] INFO root fetch - processPackages [pycheckers]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-29 10:01:16] WARNING root fetch - processPackages [retack-sdk-django]: Skipping, unable to determine old version
+[2024-04-29 10:01:16] INFO root fetch - main [MainThread]: End processing [retack-sdk-django] error
+[2024-04-29 10:01:16] INFO root fetch - processPackages [fast-version]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-29 10:01:16] INFO root fetch - processPackages [aliyun-python-sdk-live]: New version: [3.9.9] Old Version: [3.9.8]
+[2024-04-29 10:01:16] INFO root fetch - processPackages [cubed]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-29 10:01:16] INFO root fetch - processPackages [cg-hermes]: New version: [4.4.1] Old Version: [4.4.0]
+[2024-04-29 10:01:16] INFO root fetch - processPackages [arclet-alconna-ariadne]: New version: [0.18.2] Old Version: [0.18.1]
+[2024-04-29 10:01:16] INFO root fetch - processPackages [arclet-alconna-avilla]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-29 10:01:16] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.61] Old Version: [9.1.60]
+[2024-04-29 10:01:16] INFO root fetch - processPackages [arclet-alconna-graia]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-29 10:01:16] INFO root fetch - processPackages [pycheckers]: Downloading https://files.pythonhosted.org/packages/ea/c8/70ee9367865c282f3a4d36d4ac54f5839e83b96ad9e290188370935bd164/pycheckers-0.0.1.tar.gz
+[2024-04-29 10:01:16] INFO root fetch - processPackages [cubed]: Downloading https://files.pythonhosted.org/packages/8e/15/3bb624b77fa4faae61f3f297cb9d74a43494e09b77f4008070c12898480d/cubed-0.8.0.tar.gz
+[2024-04-29 10:01:16] INFO root fetch - processPackages [aliyun-python-sdk-live]: Downloading https://files.pythonhosted.org/packages/31/65/4f6a896045410caad0fb1072937d98a415358d05f026fcc623fc7b574676/aliyun-python-sdk-live-3.9.8.tar.gz
+[2024-04-29 10:01:16] INFO root fetch - processPackages [fast-version]: Downloading https://files.pythonhosted.org/packages/fa/b1/ee834e8dba087b76a54a222b24441fac34b5c83f1af96b35b494f85abf0d/fast_version-1.0.1.tar.gz
+[2024-04-29 10:01:16] INFO root fetch - processPackages [cg-hermes]: Downloading https://files.pythonhosted.org/packages/4c/be/77eb6de6fdb1286c4292c626a33b38d0a05f92c78f9cf23eb9156fc2afd2/cg_hermes-4.4.0.tar.gz
+[2024-04-29 10:01:17] INFO root fetch - processPackages [arclet-alconna-ariadne]: Downloading https://files.pythonhosted.org/packages/fa/f5/e0fe0541bc602c049fad34872aab175e1ba739ef79fcc0a9cbe2fa514ce5/arclet_alconna_ariadne-0.18.1.tar.gz
+[2024-04-29 10:01:17] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/65/2a/1910d32760133d3e5316a1f137d5531bf07376a48d19ca159e2b81c48641/databricks-connect-9.1.60.tar.gz
+[2024-04-29 10:01:17] INFO root fetch - processPackages [arclet-alconna-avilla]: Downloading https://files.pythonhosted.org/packages/71/1b/b06f39dfa4b73497f68d84cfacc42f0cb0e49dc08bbc18b4706059ffaadc/arclet-alconna-avilla-0.2.0.tar.gz
+[2024-04-29 10:01:17] INFO root fetch - processPackages [arclet-alconna-graia]: Downloading https://files.pythonhosted.org/packages/81/33/d4915aeae59920c0f2ed22afcc7ded2a9a7758f6a2732921f67476ad60af/arclet-alconna-graia-0.9.0.tar.gz
+[2024-04-29 10:01:17] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257323249>=10485760
+[2024-04-29 10:01:17] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2024-04-29 10:01:17] INFO root fetch - processPackages [pycheckers]: Downloading https://files.pythonhosted.org/packages/30/59/70fee3d0d9d31c21a9bf2561e339b0a335589ddc52595181ca452abe49e0/pycheckers-0.0.2.tar.gz
+[2024-04-29 10:01:17] INFO root fetch - processPackages [fast-version]: Downloading https://files.pythonhosted.org/packages/db/1b/50adfdcfd860dc4f6c5954432372a6b9d02b6151e9b72c1db8246f347f8d/fast_version-1.1.0.tar.gz
+[2024-04-29 10:01:17] INFO root fetch - processPackages [arclet-alconna-ariadne]: Downloading https://files.pythonhosted.org/packages/8e/04/98d37dbf634ef544a78fe191c337bbfa90bb26beaec548bb020ac5ef7b53/arclet_alconna_ariadne-0.18.2.tar.gz
+[2024-04-29 10:01:17] INFO root fetch - processPackages [cubed]: Downloading https://files.pythonhosted.org/packages/df/b7/a7b5ccd8c50f461a78dc131c98a62fefe9d8dca1d3a92d3f83959d4899c3/cubed-0.9.0.tar.gz
+[2024-04-29 10:01:17] INFO root fetch - processPackages [aliyun-python-sdk-live]: Downloading https://files.pythonhosted.org/packages/c9/c2/cab5cf2ebd2f262d29f54860eed7fac4412fa50e6388b0053c4dd76ae3ad/aliyun-python-sdk-live-3.9.9.tar.gz
+[2024-04-29 10:01:17] INFO root fetch - processPackages [cg-hermes]: Downloading https://files.pythonhosted.org/packages/2f/6c/99d4acc902c7ea610ba34db4c4638d17259b16b1214ac6a919d0257a810f/cg_hermes-4.4.1.tar.gz
+[2024-04-29 10:01:17] INFO root fetch - processPackages [pycheckers]: executing diffoscope
+[2024-04-29 10:01:17] INFO root fetch - processPackages [pycheckers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycheckers-0.0.1.tar.gz tmp/pycheckers-0.0.2.tar.gz --markdown 20240429/p/pycheckers/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-29 10:01:17] INFO root fetch - processPackages [arclet-alconna-avilla]: Downloading https://files.pythonhosted.org/packages/56/a1/7cb5ff9f274fdb76460249eba125a3125af806bc273601be741f982aaf8c/arclet-alconna-avilla-0.3.0.tar.gz
+[2024-04-29 10:01:17] INFO root fetch - processPackages [arclet-alconna-graia]: Downloading https://files.pythonhosted.org/packages/dc/96/d3e155e743ed52df7ba0ccbfae61b3bd016965286eea7f049d5455905674/arclet-alconna-graia-0.9.1.tar.gz
+[2024-04-29 10:01:17] INFO root fetch - processPackages [fast-version]: executing diffoscope
+[2024-04-29 10:01:17] INFO root fetch - processPackages [fast-version]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_version-1.0.1.tar.gz tmp/fast_version-1.1.0.tar.gz --markdown 20240429/f/fast-version/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-04-29 10:01:17] INFO root fetch - processPackages [arclet-alconna-ariadne]: executing diffoscope
+[2024-04-29 10:01:17] INFO root fetch - processPackages [arclet-alconna-ariadne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet_alconna_ariadne-0.18.1.tar.gz tmp/arclet_alconna_ariadne-0.18.2.tar.gz --markdown 20240429/a/arclet-alconna-ariadne/0.18.1-0.18.2/README.md --exclude *.pyd
+[2024-04-29 10:01:17] INFO root fetch - processPackages [aliyun-python-sdk-live]: executing diffoscope
+[2024-04-29 10:01:17] INFO root fetch - processPackages [aliyun-python-sdk-live]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-live-3.9.8.tar.gz tmp/aliyun-python-sdk-live-3.9.9.tar.gz --markdown 20240429/a/aliyun-python-sdk-live/3.9.8-3.9.9/README.md --exclude *.pyd
+[2024-04-29 10:01:17] INFO root fetch - processPackages [cg-hermes]: executing diffoscope
+[2024-04-29 10:01:17] INFO root fetch - processPackages [cg-hermes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg_hermes-4.4.0.tar.gz tmp/cg_hermes-4.4.1.tar.gz --markdown 20240429/c/cg-hermes/4.4.0-4.4.1/README.md --exclude *.pyd
+[2024-04-29 10:01:17] INFO root fetch - processPackages [cubed]: executing diffoscope
+[2024-04-29 10:01:17] INFO root fetch - processPackages [cubed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubed-0.8.0.tar.gz tmp/cubed-0.9.0.tar.gz --markdown 20240429/c/cubed/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-29 10:01:17] INFO root fetch - processPackages [arclet-alconna-avilla]: executing diffoscope
+[2024-04-29 10:01:17] INFO root fetch - processPackages [arclet-alconna-avilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet-alconna-avilla-0.2.0.tar.gz tmp/arclet-alconna-avilla-0.3.0.tar.gz --markdown 20240429/a/arclet-alconna-avilla/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-29 10:01:17] INFO root fetch - processPackages [arclet-alconna-graia]: executing diffoscope
+[2024-04-29 10:01:17] INFO root fetch - processPackages [arclet-alconna-graia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet-alconna-graia-0.9.0.tar.gz tmp/arclet-alconna-graia-0.9.1.tar.gz --markdown 20240429/a/arclet-alconna-graia/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-29 10:01:18] INFO root fetch - processPackages [pycheckers]: Remove: archive file [/home/abi/fetcher/tmp/pycheckers-0.0.1.tar.gz]
+[2024-04-29 10:01:18] INFO root fetch - processPackages [pycheckers]: Remove: archive file [/home/abi/fetcher/tmp/pycheckers-0.0.2.tar.gz]
+[2024-04-29 10:01:18] INFO root fetch - main [MainThread]: End processing [pycheckers]: success
+[2024-04-29 10:01:18] INFO root fetch - processPackages [fast-version]: Remove: archive file [/home/abi/fetcher/tmp/fast_version-1.0.1.tar.gz]
+[2024-04-29 10:01:18] INFO root fetch - processPackages [fast-version]: Remove: archive file [/home/abi/fetcher/tmp/fast_version-1.1.0.tar.gz]
+[2024-04-29 10:01:18] INFO root fetch - main [MainThread]: End processing [fast-version]: success
+[2024-04-29 10:01:18] INFO root fetch - processPackages [arclet-alconna-ariadne]: Remove: archive file [/home/abi/fetcher/tmp/arclet_alconna_ariadne-0.18.1.tar.gz]
+[2024-04-29 10:01:18] INFO root fetch - processPackages [arclet-alconna-ariadne]: Remove: archive file [/home/abi/fetcher/tmp/arclet_alconna_ariadne-0.18.2.tar.gz]
+[2024-04-29 10:01:18] INFO root fetch - main [MainThread]: End processing [arclet-alconna-ariadne]: success
+[2024-04-29 10:01:18] INFO root fetch - processPackages [arclet-alconna-avilla]: Remove: archive file [/home/abi/fetcher/tmp/arclet-alconna-avilla-0.2.0.tar.gz]
+[2024-04-29 10:01:18] INFO root fetch - processPackages [arclet-alconna-avilla]: Remove: archive file [/home/abi/fetcher/tmp/arclet-alconna-avilla-0.3.0.tar.gz]
+[2024-04-29 10:01:18] INFO root fetch - main [MainThread]: End processing [arclet-alconna-avilla]: success
+[2024-04-29 10:01:18] INFO root fetch - processPackages [cg-hermes]: Remove: archive file [/home/abi/fetcher/tmp/cg_hermes-4.4.0.tar.gz]
+[2024-04-29 10:01:18] INFO root fetch - processPackages [cg-hermes]: Remove: archive file [/home/abi/fetcher/tmp/cg_hermes-4.4.1.tar.gz]
+[2024-04-29 10:01:18] INFO root fetch - main [MainThread]: End processing [cg-hermes]: success
+[2024-04-29 10:01:18] INFO root fetch - processPackages [arclet-alconna-graia]: Remove: archive file [/home/abi/fetcher/tmp/arclet-alconna-graia-0.9.0.tar.gz]
+[2024-04-29 10:01:18] INFO root fetch - processPackages [arclet-alconna-graia]: Remove: archive file [/home/abi/fetcher/tmp/arclet-alconna-graia-0.9.1.tar.gz]
+[2024-04-29 10:01:18] INFO root fetch - main [MainThread]: End processing [arclet-alconna-graia]: success
+[2024-04-29 10:01:18] INFO root fetch - processPackages [cubed]: Remove: archive file [/home/abi/fetcher/tmp/cubed-0.8.0.tar.gz]
+[2024-04-29 10:01:18] INFO root fetch - processPackages [cubed]: Remove: archive file [/home/abi/fetcher/tmp/cubed-0.9.0.tar.gz]
+[2024-04-29 10:01:18] INFO root fetch - main [MainThread]: End processing [cubed]: success
+[2024-04-29 10:01:19] INFO root fetch - processPackages [aliyun-python-sdk-live]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-live-3.9.8.tar.gz]
+[2024-04-29 10:01:19] INFO root fetch - processPackages [aliyun-python-sdk-live]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-live-3.9.9.tar.gz]
+[2024-04-29 10:01:19] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-live]: success
+[2024-04-29 10:01:19] INFO root fetch - main [MainThread]: Store serial: [22980357]
