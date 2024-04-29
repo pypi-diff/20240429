@@ -10836,3 +10836,126 @@
 [2024-04-29 09:23:55] INFO root fetch - processPackages [synrbl]: Remove: archive file [/home/abi/fetcher/tmp/synrbl-0.0.9.tar.gz]
 [2024-04-29 09:23:55] INFO root fetch - main [MainThread]: End processing [synrbl]: success
 [2024-04-29 09:23:55] INFO root fetch - main [MainThread]: Store serial: [22979986]
+[2024-04-29 09:25:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979986]
+[2024-04-29 09:26:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 09:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlforge
+[2024-04-29 09:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: siat
+[2024-04-29 09:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plotgen
+[2024-04-29 09:26:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-sqids
+[2024-04-29 09:26:04] INFO root fetch - processPackages [mlforge]: New version: [0.1.1a0] Old Version: [0.1.0a0]
+[2024-04-29 09:26:04] INFO root fetch - processPackages [django-sqids]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-29 09:26:04] INFO root fetch - processPackages [plotgen]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-29 09:26:04] INFO root fetch - processPackages [siat]: New version: [3.0.4] Old Version: [3.0.35]
+[2024-04-29 09:26:04] INFO root fetch - processPackages [mlforge]: Downloading https://files.pythonhosted.org/packages/17/f1/5dd9cae57052181e6c0ae08e956d8d446dc09c8c2a209047c0324f4f58f5/mlforge-0.1.0a0.tar.gz
+[2024-04-29 09:26:04] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/6c/8b/ad9fa4a105e80c1527b231e4d1f261070ad973fdfbcfd7871915227c624c/siat-3.0.35-py3-none-any.whl
+[2024-04-29 09:26:04] INFO root fetch - processPackages [django-sqids]: Downloading https://files.pythonhosted.org/packages/b5/66/1eb71ff18da088eb088620fbc79731e1486cee226f05bc3be9d2c3c6484c/django_sqids-0.1.1.tar.gz
+[2024-04-29 09:26:04] INFO root fetch - processPackages [plotgen]: Downloading https://files.pythonhosted.org/packages/82/a0/8dbe948c2fd349d77a62892d410fadf6c8effd60e1a68c9ddc585d34cc15/plotgen-0.8.8-py3-none-any.whl
+[2024-04-29 09:26:05] INFO root fetch - processPackages [mlforge]: Downloading https://files.pythonhosted.org/packages/81/86/83de90936eed23b9d84c641c5ef35e85ea260041dfa228d6d1772a928ee8/mlforge-0.1.1a0.tar.gz
+[2024-04-29 09:26:05] INFO root fetch - processPackages [django-sqids]: Downloading https://files.pythonhosted.org/packages/e0/c4/b04c2707fe3a2709a5b616b1f74eff8df0de57a10ecc4f323eaa0c48b842/django_sqids-0.2.0.tar.gz
+[2024-04-29 09:26:05] INFO root fetch - processPackages [mlforge]: executing diffoscope
+[2024-04-29 09:26:05] INFO root fetch - processPackages [mlforge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlforge-0.1.0a0.tar.gz tmp/mlforge-0.1.1a0.tar.gz --markdown 20240429/m/mlforge/0.1.0a0-0.1.1a0/README.md --exclude *.pyd
+[2024-04-29 09:26:05] INFO root fetch - processPackages [django-sqids]: executing diffoscope
+[2024-04-29 09:26:05] INFO root fetch - processPackages [django-sqids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sqids-0.1.1.tar.gz tmp/django_sqids-0.2.0.tar.gz --markdown 20240429/d/django-sqids/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-04-29 09:26:05] INFO root fetch - processPackages [siat]: executing diffoscope
+[2024-04-29 09:26:05] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-3.0.35-py3-none-any.whl.zip tmp/siat-3.0.4-py3-none-any.whl.zip --markdown 20240429/s/siat/3.0.35-3.0.4/README.md --exclude *.pyd
+[2024-04-29 09:26:05] INFO root fetch - processPackages [plotgen]: Downloading https://files.pythonhosted.org/packages/fc/01/b63cc63fb60f02349d59c48b26db7629ae04b5023d7a3ce1c60efc7b268e/plotgen-0.8.9-py3-none-any.whl
+[2024-04-29 09:26:05] INFO root fetch - processPackages [plotgen]: executing diffoscope
+[2024-04-29 09:26:05] INFO root fetch - processPackages [plotgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotgen-0.8.8-py3-none-any.whl.zip tmp/plotgen-0.8.9-py3-none-any.whl.zip --markdown 20240429/p/plotgen/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-29 09:26:06] INFO root fetch - processPackages [django-sqids]: Remove: archive file [/home/abi/fetcher/tmp/django_sqids-0.1.1.tar.gz]
+[2024-04-29 09:26:06] INFO root fetch - processPackages [django-sqids]: Remove: archive file [/home/abi/fetcher/tmp/django_sqids-0.2.0.tar.gz]
+[2024-04-29 09:26:06] INFO root fetch - main [MainThread]: End processing [django-sqids]: success
+[2024-04-29 09:26:06] ERROR root fetch - processPackages [siat]: Diffoscope failed: time="2024-04-29T09:26:05+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid continuation byte
+
+[2024-04-29 09:26:06] INFO root fetch - main [MainThread]: End processing [siat] error
+[2024-04-29 09:26:06] INFO root fetch - processPackages [mlforge]: Remove: archive file [/home/abi/fetcher/tmp/mlforge-0.1.0a0.tar.gz]
+[2024-04-29 09:26:06] INFO root fetch - processPackages [mlforge]: Remove: archive file [/home/abi/fetcher/tmp/mlforge-0.1.1a0.tar.gz]
+[2024-04-29 09:26:06] INFO root fetch - main [MainThread]: End processing [mlforge]: success
+[2024-04-29 09:26:06] INFO root fetch - processPackages [plotgen]: Remove: archive file [/home/abi/fetcher/tmp/plotgen-0.8.8-py3-none-any.whl.zip]
+[2024-04-29 09:26:06] INFO root fetch - processPackages [plotgen]: Remove: archive file [/home/abi/fetcher/tmp/plotgen-0.8.9-py3-none-any.whl.zip]
+[2024-04-29 09:26:06] INFO root fetch - main [MainThread]: End processing [plotgen]: success
+[2024-04-29 09:26:06] INFO root fetch - main [MainThread]: Store serial: [22979996]
