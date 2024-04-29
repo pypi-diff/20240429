@@ -12891,3 +12891,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 10:52:55] INFO root fetch - processPackages [ampform-dpd]: Remove: archive file [/home/abi/fetcher/tmp/ampform_dpd-0.1.7.tar.gz]
 [2024-04-29 10:52:55] INFO root fetch - main [MainThread]: End processing [ampform-dpd]: success
 [2024-04-29 10:52:55] INFO root fetch - main [MainThread]: Store serial: [22980914]
+[2024-04-29 10:54:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980914]
+[2024-04-29 10:55:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-29 10:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: diffforms
+[2024-04-29 10:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sws-api-client
+[2024-04-29 10:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mteb
+[2024-04-29 10:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llmkira
+[2024-04-29 10:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: healthsageai
+[2024-04-29 10:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: paintcompiler
+[2024-04-29 10:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jupyterlab-courselevels
+[2024-04-29 10:55:04] INFO root fetch - processPackages [diffforms]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-29 10:55:04] INFO root fetch - processPackages [sws-api-client]: New version: [0.0.9.dev0] Old Version: [0.0.8.dev0]
+[2024-04-29 10:55:04] INFO root fetch - processPackages [mteb]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-04-29 10:55:04] INFO root fetch - processPackages [diffforms]: Downloading https://files.pythonhosted.org/packages/14/20/6fe101f8a8386acf1e8871ddba5a13006178f2e9370c3766b618b7c7e5d2/diffforms-0.0.1.tar.gz
+[2024-04-29 10:55:04] INFO root fetch - processPackages [jupyterlab-courselevels]: New version: [0.8.1] Old Version: [0.6.4]
+[2024-04-29 10:55:04] INFO root fetch - processPackages [healthsageai]: New version: [0.1.7] Old Version: [0.1.4]
+[2024-04-29 10:55:04] INFO root fetch - processPackages [sws-api-client]: Downloading https://files.pythonhosted.org/packages/66/d6/29d7aebbe593b7caf4d621e7396c79fb3ed5b4119bf0ae89b0745c8dd1f4/sws_api_client-0.0.8.dev0.tar.gz
+[2024-04-29 10:55:04] INFO root fetch - processPackages [paintcompiler]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-29 10:55:04] INFO root fetch - processPackages [llmkira]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-29 10:55:04] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/b5/e7/1ffcd000a118bd6a4b183610de5d0891ab9c767ccabb6c7e3f63ba9edb45/mteb-1.7.8.tar.gz
+[2024-04-29 10:55:04] INFO root fetch - processPackages [diffforms]: Downloading https://files.pythonhosted.org/packages/5b/c5/0f4558cd6ca5eed1e977381bccca73e72544fac7abdc6bc1c8b42a0a137f/diffforms-0.0.2.tar.gz
+[2024-04-29 10:55:04] INFO root fetch - processPackages [healthsageai]: Downloading https://files.pythonhosted.org/packages/8b/2b/dddeea64eb5303cbd0db1aa52a5dc8e171b6f14093b0517b575b48f80445/healthsageai-0.1.4.tar.gz
+[2024-04-29 10:55:04] INFO root fetch - processPackages [llmkira]: Downloading https://files.pythonhosted.org/packages/5a/8f/e282a591acc51fe999ecf77954098df9211d8d989df17ff8baf4455e799a/llmkira-1.0.4.tar.gz
+[2024-04-29 10:55:04] INFO root fetch - processPackages [jupyterlab-courselevels]: Downloading https://files.pythonhosted.org/packages/a5/73/2c4f563650e824a22fbeac7265c7719969d90059b33bbc1755aec4946df3/jupyterlab_courselevels-0.6.4.tar.gz
+[2024-04-29 10:55:04] INFO root fetch - processPackages [paintcompiler]: Downloading https://files.pythonhosted.org/packages/7a/9f/4cd1c90741c9554b38b1bd1f58e628e45d033d8a62ed847ac9a2e2f7a88c/paintcompiler-0.3.2.tar.gz
+[2024-04-29 10:55:04] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/eb/d9/b925270f0a2467b3204b0f467cc702668d24bd9a8e876306ea7e3da17507/mteb-1.7.9.tar.gz
+[2024-04-29 10:55:04] INFO root fetch - processPackages [sws-api-client]: Downloading https://files.pythonhosted.org/packages/aa/6e/a3a319d3e67124e362889ab902225c5648ac908f8400394a52606d909f84/sws_api_client-0.0.9.dev0.tar.gz
+[2024-04-29 10:55:04] INFO root fetch - processPackages [diffforms]: executing diffoscope
+[2024-04-29 10:55:04] INFO root fetch - processPackages [diffforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffforms-0.0.1.tar.gz tmp/diffforms-0.0.2.tar.gz --markdown 20240429/d/diffforms/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-29 10:55:04] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-29 10:55:04] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.7.8.tar.gz tmp/mteb-1.7.9.tar.gz --markdown 20240429/m/mteb/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-04-29 10:55:04] INFO root fetch - processPackages [sws-api-client]: executing diffoscope
+[2024-04-29 10:55:04] INFO root fetch - processPackages [sws-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sws_api_client-0.0.8.dev0.tar.gz tmp/sws_api_client-0.0.9.dev0.tar.gz --markdown 20240429/s/sws-api-client/0.0.8.dev0-0.0.9.dev0/README.md --exclude *.pyd
+[2024-04-29 10:55:05] INFO root fetch - processPackages [healthsageai]: Downloading https://files.pythonhosted.org/packages/c0/10/7fbf53917848d674800769914958d1ab1be6dbe90759b4beda56c45bc9a1/healthsageai-0.1.7.tar.gz
+[2024-04-29 10:55:05] INFO root fetch - processPackages [jupyterlab-courselevels]: Downloading https://files.pythonhosted.org/packages/94/85/f21678fd1f7b379087f95aed173bcfdc155b9d75c0e333aa8989d209ea1b/jupyterlab_courselevels-0.8.1.tar.gz
+[2024-04-29 10:55:05] INFO root fetch - processPackages [paintcompiler]: Downloading https://files.pythonhosted.org/packages/6b/a2/866824b5b31c5955837f2a348383b9fc39092fffdeff8b80850b646061eb/paintcompiler-0.3.3.tar.gz
+[2024-04-29 10:55:05] INFO root fetch - processPackages [llmkira]: Downloading https://files.pythonhosted.org/packages/9d/3f/3a52a56dba60412852e2373c09f27e51f31b0cf6f21d9a42f4cda61e0bb9/llmkira-1.0.5.tar.gz
+[2024-04-29 10:55:05] INFO root fetch - processPackages [healthsageai]: executing diffoscope
+[2024-04-29 10:55:05] INFO root fetch - processPackages [healthsageai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/healthsageai-0.1.4.tar.gz tmp/healthsageai-0.1.7.tar.gz --markdown 20240429/h/healthsageai/0.1.4-0.1.7/README.md --exclude *.pyd
+[2024-04-29 10:55:05] INFO root fetch - processPackages [llmkira]: executing diffoscope
+[2024-04-29 10:55:05] INFO root fetch - processPackages [llmkira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmkira-1.0.4.tar.gz tmp/llmkira-1.0.5.tar.gz --markdown 20240429/l/llmkira/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-29 10:55:05] INFO root fetch - processPackages [paintcompiler]: executing diffoscope
+[2024-04-29 10:55:05] INFO root fetch - processPackages [paintcompiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paintcompiler-0.3.2.tar.gz tmp/paintcompiler-0.3.3.tar.gz --markdown 20240429/p/paintcompiler/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-29 10:55:05] INFO root fetch - processPackages [jupyterlab-courselevels]: executing diffoscope
+[2024-04-29 10:55:05] INFO root fetch - processPackages [jupyterlab-courselevels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_courselevels-0.6.4.tar.gz tmp/jupyterlab_courselevels-0.8.1.tar.gz --markdown 20240429/j/jupyterlab-courselevels/0.6.4-0.8.1/README.md --exclude *.pyd
+[2024-04-29 10:55:05] INFO root fetch - processPackages [diffforms]: Remove: archive file [/home/abi/fetcher/tmp/diffforms-0.0.1.tar.gz]
+[2024-04-29 10:55:05] INFO root fetch - processPackages [diffforms]: Remove: archive file [/home/abi/fetcher/tmp/diffforms-0.0.2.tar.gz]
+[2024-04-29 10:55:05] INFO root fetch - main [MainThread]: End processing [diffforms]: success
+[2024-04-29 10:55:05] INFO root fetch - processPackages [sws-api-client]: Remove: archive file [/home/abi/fetcher/tmp/sws_api_client-0.0.8.dev0.tar.gz]
+[2024-04-29 10:55:05] INFO root fetch - processPackages [sws-api-client]: Remove: archive file [/home/abi/fetcher/tmp/sws_api_client-0.0.9.dev0.tar.gz]
+[2024-04-29 10:55:05] INFO root fetch - main [MainThread]: End processing [sws-api-client]: success
+[2024-04-29 10:55:06] INFO root fetch - processPackages [healthsageai]: Remove: archive file [/home/abi/fetcher/tmp/healthsageai-0.1.4.tar.gz]
+[2024-04-29 10:55:06] INFO root fetch - processPackages [healthsageai]: Remove: archive file [/home/abi/fetcher/tmp/healthsageai-0.1.7.tar.gz]
+[2024-04-29 10:55:06] INFO root fetch - main [MainThread]: End processing [healthsageai]: success
+[2024-04-29 10:55:06] INFO root fetch - processPackages [llmkira]: Remove: archive file [/home/abi/fetcher/tmp/llmkira-1.0.4.tar.gz]
+[2024-04-29 10:55:06] INFO root fetch - processPackages [llmkira]: Remove: archive file [/home/abi/fetcher/tmp/llmkira-1.0.5.tar.gz]
+[2024-04-29 10:55:06] INFO root fetch - main [MainThread]: End processing [llmkira]: success
+[2024-04-29 10:55:06] INFO root fetch - processPackages [jupyterlab-courselevels]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_courselevels-0.6.4.tar.gz]
+[2024-04-29 10:55:06] INFO root fetch - processPackages [jupyterlab-courselevels]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_courselevels-0.8.1.tar.gz]
+[2024-04-29 10:55:06] INFO root fetch - main [MainThread]: End processing [jupyterlab-courselevels]: success
+[2024-04-29 10:55:06] INFO root fetch - processPackages [paintcompiler]: Remove: archive file [/home/abi/fetcher/tmp/paintcompiler-0.3.2.tar.gz]
+[2024-04-29 10:55:06] INFO root fetch - processPackages [paintcompiler]: Remove: archive file [/home/abi/fetcher/tmp/paintcompiler-0.3.3.tar.gz]
+[2024-04-29 10:55:06] INFO root fetch - main [MainThread]: End processing [paintcompiler]: success
+[2024-04-29 10:55:06] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.8.tar.gz]
+[2024-04-29 10:55:06] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
+[2024-04-29 10:55:06] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-29 10:55:06] INFO root fetch - main [MainThread]: Store serial: [22980934]
