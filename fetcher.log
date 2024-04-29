@@ -6885,3 +6885,33 @@
 [2024-04-29 04:41:03] INFO root fetch - processPackages [feffery-leaflet-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_leaflet_components-0.1.0rc4.tar.gz]
 [2024-04-29 04:41:03] INFO root fetch - main [MainThread]: End processing [feffery-leaflet-components]: success
 [2024-04-29 04:41:03] INFO root fetch - main [MainThread]: Store serial: [22978144]
+[2024-04-29 04:43:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978144]
+[2024-04-29 04:43:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 04:43:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swiftest
+[2024-04-29 04:43:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: discord-data
+[2024-04-29 04:43:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clouddrift
+[2024-04-29 04:43:12] INFO root fetch - processPackages [discord-data]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-29 04:43:12] INFO root fetch - processPackages [clouddrift]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-29 04:43:12] INFO root fetch - processPackages [swiftest]: New version: [2024.4.3] Old Version: [2024.4.2]
+[2024-04-29 04:43:12] INFO root fetch - processPackages [clouddrift]: Downloading https://files.pythonhosted.org/packages/61/a9/16e0aeafcb93211e4a2712d92d3acae9bd421980399cb1f070a0a3a9304f/clouddrift-0.8.0.tar.gz
+[2024-04-29 04:43:12] INFO root fetch - processPackages [swiftest]: Downloading https://files.pythonhosted.org/packages/29/0f/29c135fdde60ea18cf5c3f444e9c73baf7364a8066da1096feb6fe724792/swiftest-2024.4.2.tar.gz
+[2024-04-29 04:43:12] INFO root fetch - processPackages [discord-data]: Downloading https://files.pythonhosted.org/packages/55/2e/ec520cc4e5924e9e354a6607f1a4d21399d13c313c32fe236d4907a7a953/discord_data-0.2.1.tar.gz
+[2024-04-29 04:43:13] INFO root fetch - processPackages [clouddrift]: Downloading https://files.pythonhosted.org/packages/1f/18/b2984ef3cdb516b0cf8d568f3b526266929412695fbf43538a73b5f82bac/clouddrift-0.9.0.tar.gz
+[2024-04-29 04:43:13] INFO root fetch - processPackages [discord-data]: Downloading https://files.pythonhosted.org/packages/24/d2/6c27854ee6d1d29e9cc296d61a9228f4c84b9f4bc6955e17a3fca0e3b37e/discord_data-0.2.2.tar.gz
+[2024-04-29 04:43:13] INFO root fetch - processPackages [clouddrift]: executing diffoscope
+[2024-04-29 04:43:13] INFO root fetch - processPackages [clouddrift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clouddrift-0.8.0.tar.gz tmp/clouddrift-0.9.0.tar.gz --markdown 20240429/c/clouddrift/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-29 04:43:13] INFO root fetch - processPackages [swiftest]: Downloading https://files.pythonhosted.org/packages/af/93/20537cb2f6d6f2c664893937b2af0aa47833efe6c404aeec60a28409cfb1/swiftest-2024.4.3.tar.gz
+[2024-04-29 04:43:13] INFO root fetch - processPackages [discord-data]: executing diffoscope
+[2024-04-29 04:43:13] INFO root fetch - processPackages [discord-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord_data-0.2.1.tar.gz tmp/discord_data-0.2.2.tar.gz --markdown 20240429/d/discord-data/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-29 04:43:13] INFO root fetch - processPackages [swiftest]: executing diffoscope
+[2024-04-29 04:43:13] INFO root fetch - processPackages [swiftest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swiftest-2024.4.2.tar.gz tmp/swiftest-2024.4.3.tar.gz --markdown 20240429/s/swiftest/2024.4.2-2024.4.3/README.md --exclude *.pyd
+[2024-04-29 04:43:13] INFO root fetch - processPackages [discord-data]: Remove: archive file [/home/abi/fetcher/tmp/discord_data-0.2.1.tar.gz]
+[2024-04-29 04:43:13] INFO root fetch - processPackages [discord-data]: Remove: archive file [/home/abi/fetcher/tmp/discord_data-0.2.2.tar.gz]
+[2024-04-29 04:43:13] INFO root fetch - main [MainThread]: End processing [discord-data]: success
+[2024-04-29 04:43:13] INFO root fetch - processPackages [clouddrift]: Remove: archive file [/home/abi/fetcher/tmp/clouddrift-0.8.0.tar.gz]
+[2024-04-29 04:43:13] INFO root fetch - processPackages [clouddrift]: Remove: archive file [/home/abi/fetcher/tmp/clouddrift-0.9.0.tar.gz]
+[2024-04-29 04:43:14] INFO root fetch - main [MainThread]: End processing [clouddrift]: success
+[2024-04-29 04:43:15] INFO root fetch - processPackages [swiftest]: Remove: archive file [/home/abi/fetcher/tmp/swiftest-2024.4.2.tar.gz]
+[2024-04-29 04:43:15] INFO root fetch - processPackages [swiftest]: Remove: archive file [/home/abi/fetcher/tmp/swiftest-2024.4.3.tar.gz]
+[2024-04-29 04:43:15] INFO root fetch - main [MainThread]: End processing [swiftest]: success
+[2024-04-29 04:43:15] INFO root fetch - main [MainThread]: Store serial: [22978168]
