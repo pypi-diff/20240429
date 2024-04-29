@@ -8951,3 +8951,66 @@
 [2024-04-29 07:34:25] INFO root fetch - processPackages [deepnccl]: Remove: archive file [/home/abi/fetcher/tmp/deepnccl-2.1.0rc3.tar.gz]
 [2024-04-29 07:34:25] INFO root fetch - main [MainThread]: End processing [deepnccl]: success
 [2024-04-29 07:34:25] INFO root fetch - main [MainThread]: Store serial: [22979092]
+[2024-04-29 07:36:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979092]
+[2024-04-29 07:36:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-29 07:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepnccl
+[2024-04-29 07:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opyls
+[2024-04-29 07:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Fr1997v011
+[2024-04-29 07:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dj_component_view
+[2024-04-29 07:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: upgini
+[2024-04-29 07:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moyopy
+[2024-04-29 07:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tflite-runtime-nightly
+[2024-04-29 07:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jz3
+[2024-04-29 07:36:33] INFO root fetch - processPackages [jz3]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-29 07:36:33] WARNING root fetch - processPackages [dj_component_view]: Skipping, unable to determine old version
+[2024-04-29 07:36:33] INFO root fetch - main [MainThread]: End processing [dj_component_view] error
+[2024-04-29 07:36:33] INFO root fetch - processPackages [deepnccl]: New version: [2.1.0rc3] Old Version: [2.1.0rc2]
+[2024-04-29 07:36:33] INFO root fetch - processPackages [Fr1997v011]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-29 07:36:34] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-04-29 07:36:34] WARNING root fetch - processPackages [opyls]: Skipping, unable to determine old version
+[2024-04-29 07:36:34] INFO root fetch - main [MainThread]: End processing [opyls] error
+[2024-04-29 07:36:34] INFO root fetch - processPackages [moyopy]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-29 07:36:34] INFO root fetch - processPackages [deepnccl]: Downloading https://files.pythonhosted.org/packages/be/42/eafb1fb65e387807621b3365fd8f0201be24c4d3cb3a9528017d8cde8533/deepnccl-2.1.0rc2.tar.gz
+[2024-04-29 07:36:34] INFO root fetch - processPackages [jz3]: Downloading https://files.pythonhosted.org/packages/1a/26/dd93501816bc2add3957ea5592b6b66f63b582e3b47663ff04099c2d0c8a/jz3-0.1.6.tar.gz
+[2024-04-29 07:36:34] INFO root fetch - processPackages [Fr1997v011]: Downloading https://files.pythonhosted.org/packages/b8/4b/dfc6112033c54c27deeb2036e1b889c3aa6abd90f5d8407adb7d41d0430a/Fr1997v011-1.4.0.tar.gz
+[2024-04-29 07:36:34] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.17.0.dev20240428] Old Version: [2.17.0.dev20240426]
+[2024-04-29 07:36:34] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2024-04-29 07:36:34] INFO root fetch - processPackages [moyopy]: Downloading https://files.pythonhosted.org/packages/a3/b5/ea40ddb9032de173f79eb0c0f836115d52f01b7a203498e7672526475ed5/moyopy-0.1.7.tar.gz
+[2024-04-29 07:36:34] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/9d/7d/cbde471f5b52f1db9637f2e4ba9b33818d20a9beed6960721ff534f50ef4/tflite_runtime_nightly-2.17.0.dev20240426-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-04-29 07:36:34] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2024-04-29 07:36:34] INFO root fetch - processPackages [deepnccl]: Downloading https://files.pythonhosted.org/packages/60/6f/8270acbcccd34305c11880b97feb1962a41076a3278589e5a323702536dd/deepnccl-2.1.0rc3.tar.gz
+[2024-04-29 07:36:34] INFO root fetch - processPackages [Fr1997v011]: Downloading https://files.pythonhosted.org/packages/c6/90/616a2731f68f5324a09fe234261253ec507ae74d38432d12b6b33dddceb9/Fr1997v011-1.4.1.tar.gz
+[2024-04-29 07:36:34] INFO root fetch - processPackages [deepnccl]: executing diffoscope
+[2024-04-29 07:36:34] INFO root fetch - processPackages [deepnccl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepnccl-2.1.0rc2.tar.gz tmp/deepnccl-2.1.0rc3.tar.gz --markdown 20240429/d/deepnccl/2.1.0rc2-2.1.0rc3/README.md --exclude *.pyd
+[2024-04-29 07:36:34] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2024-04-29 07:36:34] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20240429/u/upgini/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-04-29 07:36:34] INFO root fetch - processPackages [Fr1997v011]: executing diffoscope
+[2024-04-29 07:36:34] INFO root fetch - processPackages [Fr1997v011]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fr1997v011-1.4.0.tar.gz tmp/Fr1997v011-1.4.1.tar.gz --markdown 20240429/F/Fr1997v011/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-04-29 07:36:34] INFO root fetch - processPackages [moyopy]: Downloading https://files.pythonhosted.org/packages/20/c6/3f2754c9e2704db96b117a99c93c329b39596a13b04f6dbdf76d705ec310/moyopy-0.1.8.tar.gz
+[2024-04-29 07:36:34] INFO root fetch - processPackages [jz3]: Downloading https://files.pythonhosted.org/packages/66/4d/f6f6ad8002ecd2de26c5f90887b018ea02439f5a8f3250c74732b8d365af/jz3-0.1.7.tar.gz
+[2024-04-29 07:36:34] INFO root fetch - processPackages [moyopy]: executing diffoscope
+[2024-04-29 07:36:34] INFO root fetch - processPackages [moyopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moyopy-0.1.7.tar.gz tmp/moyopy-0.1.8.tar.gz --markdown 20240429/m/moyopy/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-29 07:36:35] INFO root fetch - processPackages [deepnccl]: Remove: archive file [/home/abi/fetcher/tmp/deepnccl-2.1.0rc2.tar.gz]
+[2024-04-29 07:36:35] INFO root fetch - processPackages [deepnccl]: Remove: archive file [/home/abi/fetcher/tmp/deepnccl-2.1.0rc3.tar.gz]
+[2024-04-29 07:36:35] INFO root fetch - main [MainThread]: End processing [deepnccl]: success
+[2024-04-29 07:36:35] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/e9/9e/176001497f709bf59257ae5313239e69440bc35dca0bf3441cc7394d5115/tflite_runtime_nightly-2.17.0.dev20240428-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-04-29 07:36:35] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.4.0.tar.gz]
+[2024-04-29 07:36:35] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.4.1.tar.gz]
+[2024-04-29 07:36:35] INFO root fetch - main [MainThread]: End processing [Fr1997v011]: success
+[2024-04-29 07:36:35] INFO root fetch - processPackages [jz3]: executing diffoscope
+[2024-04-29 07:36:35] INFO root fetch - processPackages [jz3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jz3-0.1.6.tar.gz tmp/jz3-0.1.7.tar.gz --markdown 20240429/j/jz3/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-29 07:36:35] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2024-04-29 07:36:35] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2024-04-29 07:36:35] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2024-04-29 07:36:35] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2024-04-29 07:36:35] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.17.0.dev20240426-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.17.0.dev20240428-cp39-cp39-manylinux_2_34_armv7l.whl.zip --markdown 20240429/t/tflite-runtime-nightly/2.17.0.dev20240426-2.17.0.dev20240428/README.md --exclude *.pyd
+[2024-04-29 07:36:35] INFO root fetch - processPackages [moyopy]: Remove: archive file [/home/abi/fetcher/tmp/moyopy-0.1.7.tar.gz]
+[2024-04-29 07:36:35] INFO root fetch - processPackages [moyopy]: Remove: archive file [/home/abi/fetcher/tmp/moyopy-0.1.8.tar.gz]
+[2024-04-29 07:36:35] INFO root fetch - main [MainThread]: End processing [moyopy]: success
+[2024-04-29 07:36:36] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240426-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-04-29 07:36:36] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240428-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-04-29 07:36:36] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2024-04-29 07:36:37] INFO root fetch - processPackages [jz3]: Remove: archive file [/home/abi/fetcher/tmp/jz3-0.1.6.tar.gz]
+[2024-04-29 07:36:37] INFO root fetch - processPackages [jz3]: Remove: archive file [/home/abi/fetcher/tmp/jz3-0.1.7.tar.gz]
+[2024-04-29 07:36:37] INFO root fetch - main [MainThread]: End processing [jz3]: success
+[2024-04-29 07:36:37] INFO root fetch - main [MainThread]: Store serial: [22979132]
