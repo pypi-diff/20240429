@@ -7271,3 +7271,54 @@
 [2024-04-29 05:22:15] INFO root fetch - processPackages [dknovautils]: Remove: archive file [/home/abi/fetcher/tmp/dknovautils-0.2.7.tar.gz]
 [2024-04-29 05:22:15] INFO root fetch - main [MainThread]: End processing [dknovautils]: success
 [2024-04-29 05:22:15] INFO root fetch - main [MainThread]: Store serial: [22978346]
+[2024-04-29 05:24:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978346]
+[2024-04-29 05:24:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-29 05:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azure-mgmt-azurelargeinstance
+[2024-04-29 05:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keras-nightly
+[2024-04-29 05:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: devopsdriver
+[2024-04-29 05:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coredumpy
+[2024-04-29 05:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rlanutils
+[2024-04-29 05:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sw-sql-udtfs
+[2024-04-29 05:24:23] INFO root fetch - processPackages [rlanutils]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-29 05:24:23] INFO root fetch - processPackages [keras-nightly]: New version: [3.3.3.dev2024042803] Old Version: [3.3.3.dev2024042703]
+[2024-04-29 05:24:23] INFO root fetch - processPackages [rlanutils]: Downloading https://files.pythonhosted.org/packages/b3/9e/c69392ef22116e330e0968ded522641c0906e7a91a9b72580acc7ddcd821/rlanutils-0.1.4.tar.gz
+[2024-04-29 05:24:24] INFO root fetch - processPackages [coredumpy]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-29 05:24:24] INFO root fetch - processPackages [azure-mgmt-azurelargeinstance]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2024-04-29 05:24:24] INFO root fetch - processPackages [devopsdriver]: New version: [0.1.45] Old Version: [0.1.44]
+[2024-04-29 05:24:24] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/65/99/634fc6d3dd818531b50788454ca108912451e13b2c98f9b54aac5e1e257b/keras_nightly-3.3.3.dev2024042703.tar.gz
+[2024-04-29 05:24:24] WARNING root fetch - processPackages [sw-sql-udtfs]: Skipping, unable to determine old version
+[2024-04-29 05:24:24] INFO root fetch - main [MainThread]: End processing [sw-sql-udtfs] error
+[2024-04-29 05:24:24] INFO root fetch - processPackages [coredumpy]: Downloading https://files.pythonhosted.org/packages/26/44/e023550cf38ebfbc672f07c8aeac93431b5b8aefcc317b45338aceaf3942/coredumpy-0.0.1.tar.gz
+[2024-04-29 05:24:24] INFO root fetch - processPackages [azure-mgmt-azurelargeinstance]: Downloading https://files.pythonhosted.org/packages/3c/eb/43fccf9ed4feab5e7703901fda886b15a0a9c67f008711ed59b28a53ff33/azure-mgmt-azurelargeinstance-1.0.0b1.tar.gz
+[2024-04-29 05:24:24] INFO root fetch - processPackages [devopsdriver]: Downloading https://files.pythonhosted.org/packages/b1/bb/9d0c96eb1d362398cd6b59eb1300658667617a8c8fcecf7974fa367a09b1/devopsdriver-0.1.44.tar.gz
+[2024-04-29 05:24:24] INFO root fetch - processPackages [rlanutils]: Downloading https://files.pythonhosted.org/packages/a7/22/ab9272eed97afd084e85ff0d97a9237481ddf41198c09a4296647ab2404f/rlanutils-0.1.5.tar.gz
+[2024-04-29 05:24:24] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/ea/31/12dd59039d221719d5f5825524bd045e633d3b0565ad9f20d3b78e1abd58/keras_nightly-3.3.3.dev2024042803.tar.gz
+[2024-04-29 05:24:24] INFO root fetch - processPackages [rlanutils]: executing diffoscope
+[2024-04-29 05:24:24] INFO root fetch - processPackages [rlanutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlanutils-0.1.4.tar.gz tmp/rlanutils-0.1.5.tar.gz --markdown 20240429/r/rlanutils/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-29 05:24:24] INFO root fetch - processPackages [coredumpy]: Downloading https://files.pythonhosted.org/packages/60/62/da8c6c6d6eb65cb06949001a47f84e89e62c07db1508b2ff289bc8cdc778/coredumpy-0.1.0.tar.gz
+[2024-04-29 05:24:24] INFO root fetch - processPackages [azure-mgmt-azurelargeinstance]: Downloading https://files.pythonhosted.org/packages/b4/06/94f97d3412bcf97a59cff425e14c970fd17332586a5fc82d9918defe382e/azure-mgmt-azurelargeinstance-1.0.0b2.tar.gz
+[2024-04-29 05:24:24] INFO root fetch - processPackages [devopsdriver]: Downloading https://files.pythonhosted.org/packages/c3/09/6296e8c8fd00c5dafde321c4caa7c1572d411a1d2766042eaf8319f65f75/devopsdriver-0.1.45.tar.gz
+[2024-04-29 05:24:24] INFO root fetch - processPackages [coredumpy]: executing diffoscope
+[2024-04-29 05:24:24] INFO root fetch - processPackages [coredumpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coredumpy-0.0.1.tar.gz tmp/coredumpy-0.1.0.tar.gz --markdown 20240429/c/coredumpy/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-04-29 05:24:24] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2024-04-29 05:24:24] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-3.3.3.dev2024042703.tar.gz tmp/keras_nightly-3.3.3.dev2024042803.tar.gz --markdown 20240429/k/keras-nightly/3.3.3.dev2024042703-3.3.3.dev2024042803/README.md --exclude *.pyd
+[2024-04-29 05:24:24] INFO root fetch - processPackages [azure-mgmt-azurelargeinstance]: executing diffoscope
+[2024-04-29 05:24:24] INFO root fetch - processPackages [azure-mgmt-azurelargeinstance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-azurelargeinstance-1.0.0b1.tar.gz tmp/azure-mgmt-azurelargeinstance-1.0.0b2.tar.gz --markdown 20240429/a/azure-mgmt-azurelargeinstance/1.0.0b1-1.0.0b2/README.md --exclude *.pyd
+[2024-04-29 05:24:24] INFO root fetch - processPackages [devopsdriver]: executing diffoscope
+[2024-04-29 05:24:24] INFO root fetch - processPackages [devopsdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devopsdriver-0.1.44.tar.gz tmp/devopsdriver-0.1.45.tar.gz --markdown 20240429/d/devopsdriver/0.1.44-0.1.45/README.md --exclude *.pyd
+[2024-04-29 05:24:25] INFO root fetch - processPackages [rlanutils]: Remove: archive file [/home/abi/fetcher/tmp/rlanutils-0.1.4.tar.gz]
+[2024-04-29 05:24:25] INFO root fetch - processPackages [rlanutils]: Remove: archive file [/home/abi/fetcher/tmp/rlanutils-0.1.5.tar.gz]
+[2024-04-29 05:24:25] INFO root fetch - main [MainThread]: End processing [rlanutils]: success
+[2024-04-29 05:24:25] INFO root fetch - processPackages [coredumpy]: Remove: archive file [/home/abi/fetcher/tmp/coredumpy-0.0.1.tar.gz]
+[2024-04-29 05:24:25] INFO root fetch - processPackages [coredumpy]: Remove: archive file [/home/abi/fetcher/tmp/coredumpy-0.1.0.tar.gz]
+[2024-04-29 05:24:25] INFO root fetch - main [MainThread]: End processing [coredumpy]: success
+[2024-04-29 05:24:25] INFO root fetch - processPackages [azure-mgmt-azurelargeinstance]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-azurelargeinstance-1.0.0b1.tar.gz]
+[2024-04-29 05:24:25] INFO root fetch - processPackages [azure-mgmt-azurelargeinstance]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-azurelargeinstance-1.0.0b2.tar.gz]
+[2024-04-29 05:24:25] INFO root fetch - main [MainThread]: End processing [azure-mgmt-azurelargeinstance]: success
+[2024-04-29 05:24:25] INFO root fetch - processPackages [devopsdriver]: Remove: archive file [/home/abi/fetcher/tmp/devopsdriver-0.1.44.tar.gz]
+[2024-04-29 05:24:25] INFO root fetch - processPackages [devopsdriver]: Remove: archive file [/home/abi/fetcher/tmp/devopsdriver-0.1.45.tar.gz]
+[2024-04-29 05:24:25] INFO root fetch - main [MainThread]: End processing [devopsdriver]: success
+[2024-04-29 05:24:26] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024042703.tar.gz]
+[2024-04-29 05:24:26] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024042803.tar.gz]
+[2024-04-29 05:24:26] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2024-04-29 05:24:26] INFO root fetch - main [MainThread]: Store serial: [22978365]
