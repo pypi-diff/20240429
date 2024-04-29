@@ -9131,3 +9131,33 @@
 [2024-04-29 07:46:03] INFO root fetch - processPackages [qg_toolkit]: Remove: archive file [/home/abi/fetcher/tmp/qg_toolkit-1.0.9.2.tar.gz]
 [2024-04-29 07:46:03] INFO root fetch - main [MainThread]: End processing [qg_toolkit]: success
 [2024-04-29 07:46:03] INFO root fetch - main [MainThread]: Store serial: [22979169]
+[2024-04-29 07:48:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979169]
+[2024-04-29 07:48:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 07:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: matricula-online-scraper
+[2024-04-29 07:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nova-sdk
+[2024-04-29 07:48:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: IslandSheds
+[2024-04-29 07:48:11] INFO root fetch - processPackages [IslandSheds]: New version: [0.0.19] Old Version: [0.0.18]
+[2024-04-29 07:48:11] INFO root fetch - processPackages [nova-sdk]: New version: [0.0.1] Old Version: [0.0.0.5]
+[2024-04-29 07:48:11] INFO root fetch - processPackages [matricula-online-scraper]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-04-29 07:48:11] INFO root fetch - processPackages [IslandSheds]: Downloading https://files.pythonhosted.org/packages/c4/11/0c5c664bba1efe56971a442b630646bdd2f8946568b4b4937b73ea047ed5/islandsheds-0.0.18.tar.gz
+[2024-04-29 07:48:11] INFO root fetch - processPackages [nova-sdk]: Downloading https://files.pythonhosted.org/packages/33/af/40d900f5f4491628448927aa9f5878a164364c00ae3d720da36bca694ccd/nova_sdk-0.0.0.5.tar.gz
+[2024-04-29 07:48:12] INFO root fetch - processPackages [matricula-online-scraper]: Downloading https://files.pythonhosted.org/packages/3c/74/a22bff7999652931bf15efae1afae6283d506db6e2749a97eafc402871b1/matricula_online_scraper-0.2.2.tar.gz
+[2024-04-29 07:48:12] INFO root fetch - processPackages [nova-sdk]: Downloading https://files.pythonhosted.org/packages/45/65/7c9db68a6365b9ab96baa86ab0ac5e4f54c038024885824b5be6e57d8a24/nova_sdk-0.0.1.tar.gz
+[2024-04-29 07:48:12] INFO root fetch - processPackages [nova-sdk]: executing diffoscope
+[2024-04-29 07:48:12] INFO root fetch - processPackages [nova-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nova_sdk-0.0.0.5.tar.gz tmp/nova_sdk-0.0.1.tar.gz --markdown 20240429/n/nova-sdk/0.0.0.5-0.0.1/README.md --exclude *.pyd
+[2024-04-29 07:48:12] INFO root fetch - processPackages [IslandSheds]: Downloading https://files.pythonhosted.org/packages/29/c2/83a0d463b2c00d0aeea198f8320627115346b852456ab98235d7d7570dc9/islandsheds-0.0.19.tar.gz
+[2024-04-29 07:48:12] INFO root fetch - processPackages [matricula-online-scraper]: Downloading https://files.pythonhosted.org/packages/fb/d1/769a5dc0e665769b832e13877fb808f939bde8329ac7018115a53e430f5e/matricula_online_scraper-0.3.0.tar.gz
+[2024-04-29 07:48:12] INFO root fetch - processPackages [IslandSheds]: executing diffoscope
+[2024-04-29 07:48:12] INFO root fetch - processPackages [IslandSheds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/islandsheds-0.0.18.tar.gz tmp/islandsheds-0.0.19.tar.gz --markdown 20240429/I/IslandSheds/0.0.18-0.0.19/README.md --exclude *.pyd
+[2024-04-29 07:48:12] INFO root fetch - processPackages [matricula-online-scraper]: executing diffoscope
+[2024-04-29 07:48:12] INFO root fetch - processPackages [matricula-online-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matricula_online_scraper-0.2.2.tar.gz tmp/matricula_online_scraper-0.3.0.tar.gz --markdown 20240429/m/matricula-online-scraper/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-04-29 07:48:12] INFO root fetch - processPackages [nova-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nova_sdk-0.0.0.5.tar.gz]
+[2024-04-29 07:48:12] INFO root fetch - processPackages [nova-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nova_sdk-0.0.1.tar.gz]
+[2024-04-29 07:48:12] INFO root fetch - main [MainThread]: End processing [nova-sdk]: success
+[2024-04-29 07:48:12] INFO root fetch - processPackages [IslandSheds]: Remove: archive file [/home/abi/fetcher/tmp/islandsheds-0.0.18.tar.gz]
+[2024-04-29 07:48:12] INFO root fetch - processPackages [IslandSheds]: Remove: archive file [/home/abi/fetcher/tmp/islandsheds-0.0.19.tar.gz]
+[2024-04-29 07:48:12] INFO root fetch - main [MainThread]: End processing [IslandSheds]: success
+[2024-04-29 07:48:12] INFO root fetch - processPackages [matricula-online-scraper]: Remove: archive file [/home/abi/fetcher/tmp/matricula_online_scraper-0.2.2.tar.gz]
+[2024-04-29 07:48:12] INFO root fetch - processPackages [matricula-online-scraper]: Remove: archive file [/home/abi/fetcher/tmp/matricula_online_scraper-0.3.0.tar.gz]
+[2024-04-29 07:48:12] INFO root fetch - main [MainThread]: End processing [matricula-online-scraper]: success
+[2024-04-29 07:48:12] INFO root fetch - main [MainThread]: Store serial: [22979178]
