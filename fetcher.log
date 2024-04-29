@@ -7872,3 +7872,56 @@
 [2024-04-29 06:14:30] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.3.tar.gz]
 [2024-04-29 06:14:30] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
 [2024-04-29 06:14:30] INFO root fetch - main [MainThread]: Store serial: [22978572]
+[2024-04-29 06:16:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978572]
+[2024-04-29 06:16:38] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-29 06:18:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978572]
+[2024-04-29 06:18:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-29 06:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-helpdesk-mgmt
+[2024-04-29 06:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moraine
+[2024-04-29 06:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cerc-hub
+[2024-04-29 06:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mensajes-caraldana2024
+[2024-04-29 06:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vegan
+[2024-04-29 06:18:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rcmpy
+[2024-04-29 06:18:45] INFO root fetch - processPackages [moraine]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-29 06:18:45] INFO root fetch - processPackages [vegan]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-04-29 06:18:45] WARNING root fetch - processPackages [mensajes-caraldana2024]: Skipping, unable to determine old version
+[2024-04-29 06:18:45] INFO root fetch - main [MainThread]: End processing [mensajes-caraldana2024] error
+[2024-04-29 06:18:45] INFO root fetch - processPackages [moraine]: Downloading https://files.pythonhosted.org/packages/c7/ea/fed10e635641bbbcf00750d55a90b0662a138756f949dda595492b2c140f/moraine-0.6.1.tar.gz
+[2024-04-29 06:18:45] INFO root fetch - processPackages [rcmpy]: New version: [1.5.4] Old Version: [1.5.3]
+[2024-04-29 06:18:45] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: New version: [16.0.2.2.2.2] Old Version: [16.0.2.2.2.1]
+[2024-04-29 06:18:45] INFO root fetch - processPackages [vegan]: Downloading https://files.pythonhosted.org/packages/d7/94/c9daaf8df6813fb0152f6637e8b251e122b8c159f9095994c0f547d62077/vegan-2.1.1.tar.gz
+[2024-04-29 06:18:45] INFO root fetch - processPackages [cerc-hub]: New version: [0.2.0.0] Old Version: [0.1.9.9]
+[2024-04-29 06:18:45] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/e1/7c/a19aba51ece9637c16bd9021d88ae80f5fd7a53f75cfad410c60a95279a0/odoo_addon_helpdesk_mgmt-16.0.2.2.2.1-py3-none-any.whl
+[2024-04-29 06:18:45] INFO root fetch - processPackages [rcmpy]: Downloading https://files.pythonhosted.org/packages/26/ee/ce7e9c786f61caac0e3a3e0b6a6188faa86cd1810f458f730cc16aa25bd6/rcmpy-1.5.3.tar.gz
+[2024-04-29 06:18:45] INFO root fetch - processPackages [cerc-hub]: Downloading https://files.pythonhosted.org/packages/60/0d/41cbbf1cb07ace96a0aebc37bec5e348188fc00bb5fc8fa8ca17d234ee25/cerc_hub-0.1.9.9.tar.gz
+[2024-04-29 06:18:45] INFO root fetch - processPackages [moraine]: Downloading https://files.pythonhosted.org/packages/bb/6f/625934292c9f0c23cab8c949aa4cd60cc4aa394175911cf38690da08ebb3/moraine-0.6.2.tar.gz
+[2024-04-29 06:18:45] INFO root fetch - processPackages [moraine]: executing diffoscope
+[2024-04-29 06:18:45] INFO root fetch - processPackages [moraine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moraine-0.6.1.tar.gz tmp/moraine-0.6.2.tar.gz --markdown 20240429/m/moraine/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-04-29 06:18:45] INFO root fetch - processPackages [vegan]: Downloading https://files.pythonhosted.org/packages/4c/b4/e76d5840f94d081df3f82aacd5da5f346411dc7e816a4e8c96328675bf0f/vegan-2.1.2.tar.gz
+[2024-04-29 06:18:46] INFO root fetch - processPackages [rcmpy]: Downloading https://files.pythonhosted.org/packages/ce/d0/06f93e8164271832386d414860024da40a005ef2fb4396fcef1845d71572/rcmpy-1.5.4.tar.gz
+[2024-04-29 06:18:46] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/a4/05/b1b18ae9fa75455882998bcff6abf7fc39a54411f70c06043a38aa920449/odoo_addon_helpdesk_mgmt-16.0.2.2.2.2-py3-none-any.whl
+[2024-04-29 06:18:46] INFO root fetch - processPackages [vegan]: executing diffoscope
+[2024-04-29 06:18:46] INFO root fetch - processPackages [vegan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vegan-2.1.1.tar.gz tmp/vegan-2.1.2.tar.gz --markdown 20240429/v/vegan/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-04-29 06:18:46] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: executing diffoscope
+[2024-04-29 06:18:46] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.2.1-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.2.2-py3-none-any.whl.zip --markdown 20240429/o/odoo-addon-helpdesk-mgmt/16.0.2.2.2.1-16.0.2.2.2.2/README.md --exclude *.pyd
+[2024-04-29 06:18:46] INFO root fetch - processPackages [rcmpy]: executing diffoscope
+[2024-04-29 06:18:46] INFO root fetch - processPackages [rcmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcmpy-1.5.3.tar.gz tmp/rcmpy-1.5.4.tar.gz --markdown 20240429/r/rcmpy/1.5.3-1.5.4/README.md --exclude *.pyd
+[2024-04-29 06:18:46] INFO root fetch - processPackages [cerc-hub]: Downloading https://files.pythonhosted.org/packages/35/b3/b41fb5fb1069b976aebf2bcc16deccea510a04e2c2154c602868753e324f/cerc_hub-0.2.0.0.tar.gz
+[2024-04-29 06:18:46] INFO root fetch - processPackages [moraine]: Remove: archive file [/home/abi/fetcher/tmp/moraine-0.6.1.tar.gz]
+[2024-04-29 06:18:46] INFO root fetch - processPackages [moraine]: Remove: archive file [/home/abi/fetcher/tmp/moraine-0.6.2.tar.gz]
+[2024-04-29 06:18:46] INFO root fetch - main [MainThread]: End processing [moraine]: success
+[2024-04-29 06:18:46] INFO root fetch - processPackages [cerc-hub]: executing diffoscope
+[2024-04-29 06:18:46] INFO root fetch - processPackages [cerc-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerc_hub-0.1.9.9.tar.gz tmp/cerc_hub-0.2.0.0.tar.gz --markdown 20240429/c/cerc-hub/0.1.9.9-0.2.0.0/README.md --exclude *.pyd
+[2024-04-29 06:18:46] INFO root fetch - processPackages [rcmpy]: Remove: archive file [/home/abi/fetcher/tmp/rcmpy-1.5.3.tar.gz]
+[2024-04-29 06:18:46] INFO root fetch - processPackages [rcmpy]: Remove: archive file [/home/abi/fetcher/tmp/rcmpy-1.5.4.tar.gz]
+[2024-04-29 06:18:46] INFO root fetch - main [MainThread]: End processing [rcmpy]: success
+[2024-04-29 06:18:46] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.2.1-py3-none-any.whl.zip]
+[2024-04-29 06:18:46] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.2.2-py3-none-any.whl.zip]
+[2024-04-29 06:18:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt]: success
+[2024-04-29 06:18:49] INFO root fetch - processPackages [vegan]: Remove: archive file [/home/abi/fetcher/tmp/vegan-2.1.1.tar.gz]
+[2024-04-29 06:18:49] INFO root fetch - processPackages [vegan]: Remove: archive file [/home/abi/fetcher/tmp/vegan-2.1.2.tar.gz]
+[2024-04-29 06:18:49] INFO root fetch - main [MainThread]: End processing [vegan]: success
+[2024-04-29 06:18:49] INFO root fetch - processPackages [cerc-hub]: Remove: archive file [/home/abi/fetcher/tmp/cerc_hub-0.1.9.9.tar.gz]
+[2024-04-29 06:18:49] INFO root fetch - processPackages [cerc-hub]: Remove: archive file [/home/abi/fetcher/tmp/cerc_hub-0.2.0.0.tar.gz]
+[2024-04-29 06:18:49] INFO root fetch - main [MainThread]: End processing [cerc-hub]: success
+[2024-04-29 06:18:49] INFO root fetch - main [MainThread]: Store serial: [22978589]
