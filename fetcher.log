@@ -13759,3 +13759,67 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 11:24:10] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
 [2024-04-29 11:24:10] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-04-29 11:24:10] INFO root fetch - main [MainThread]: Store serial: [22981351]
+[2024-04-29 11:26:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22981351]
+[2024-04-29 11:26:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-29 11:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sirji-agents
+[2024-04-29 11:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gov-uk-dashboards
+[2024-04-29 11:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: starlette-testclient
+[2024-04-29 11:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zato-apitest
+[2024-04-29 11:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: LinguAligner
+[2024-04-29 11:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: LinguAligner
+[2024-04-29 11:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-sync-env
+[2024-04-29 11:26:19] INFO root fetch - processPackages [zato-apitest]: New version: [24.1.24] Old Version: [24.1.23]
+[2024-04-29 11:26:19] INFO root fetch - processPackages [LinguAligner]: New version: [0.9] Old Version: [0.8]
+[2024-04-29 11:26:19] INFO root fetch - processPackages [LinguAligner]: New version: [0.9] Old Version: [0.8]
+[2024-04-29 11:26:19] INFO root fetch - processPackages [django-sync-env]: New version: [0.3.1a9] Old Version: [0.3.1a8]
+[2024-04-29 11:26:19] INFO root fetch - processPackages [sirji-agents]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 11:26:19] INFO root fetch - processPackages [starlette-testclient]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-29 11:26:19] INFO root fetch - processPackages [gov-uk-dashboards]: New version: [9.9.0] Old Version: [9.8.0]
+[2024-04-29 11:26:19] INFO root fetch - processPackages [zato-apitest]: Downloading https://files.pythonhosted.org/packages/c7/d6/49dd3e61d7ae040d12e0aae04a91bbf3da9d3d76daab29605a58075ee966/zato_apitest-24.1.23.tar.gz
+[2024-04-29 11:26:19] INFO root fetch - processPackages [LinguAligner]: Downloading https://files.pythonhosted.org/packages/63/1f/fc1941e3d878f8643898c07bd958b932dd36b3b074928145bb430dfe0a04/lingualigner-0.8.tar.gz
+[2024-04-29 11:26:19] INFO root fetch - processPackages [LinguAligner]: Downloading https://files.pythonhosted.org/packages/63/1f/fc1941e3d878f8643898c07bd958b932dd36b3b074928145bb430dfe0a04/lingualigner-0.8.tar.gz
+[2024-04-29 11:26:20] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/24/78/009e2f56d84d6eb849f08471c884f6aff8d021ec213adff24e1dfb5bc33e/django_sync_env-0.3.1a8.tar.gz
+[2024-04-29 11:26:20] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/b3/5f/e94cc45ff6ae73814ab9c995ecb3f23935035430ed12404c6869f3101639/sirji-agents-0.0.8.tar.gz
+[2024-04-29 11:26:20] INFO root fetch - processPackages [starlette-testclient]: Downloading https://files.pythonhosted.org/packages/6b/13/407b505994e1d40f1b903b1a6019b47b9cccb5456a8c10d7acb08f70c23d/starlette_testclient-0.3.0.tar.gz
+[2024-04-29 11:26:20] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/15/aa038ec0161f510bba1e81208b6b8fb48174839d812f78343601edd00197/gov_uk_dashboards-9.8.0.tar.gz
+[2024-04-29 11:26:20] INFO root fetch - processPackages [zato-apitest]: Downloading https://files.pythonhosted.org/packages/8e/99/2bb0f3f5fb5af450d11137b647db3c6e6c3f6465d999b55badb55c253811/zato_apitest-24.1.24.tar.gz
+[2024-04-29 11:26:20] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/09/f6/638f51a800edaadde68c64c67b668aae5d792eea2037d314f4dbea6565dd/django_sync_env-0.3.1a9.tar.gz
+[2024-04-29 11:26:20] INFO root fetch - processPackages [LinguAligner]: Downloading https://files.pythonhosted.org/packages/73/fb/3cad932ad4847785cbae099a96fb2ae5367c5b788dac0deece75b60a9254/lingualigner-0.9.tar.gz
+[2024-04-29 11:26:20] INFO root fetch - processPackages [LinguAligner]: Downloading https://files.pythonhosted.org/packages/73/fb/3cad932ad4847785cbae099a96fb2ae5367c5b788dac0deece75b60a9254/lingualigner-0.9.tar.gz
+[2024-04-29 11:26:20] INFO root fetch - processPackages [django-sync-env]: executing diffoscope
+[2024-04-29 11:26:20] INFO root fetch - processPackages [django-sync-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sync_env-0.3.1a8.tar.gz tmp/django_sync_env-0.3.1a9.tar.gz --markdown 20240429/d/django-sync-env/0.3.1a8-0.3.1a9/README.md --exclude *.pyd
+[2024-04-29 11:26:20] INFO root fetch - processPackages [zato-apitest]: executing diffoscope
+[2024-04-29 11:26:20] INFO root fetch - processPackages [zato-apitest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zato_apitest-24.1.23.tar.gz tmp/zato_apitest-24.1.24.tar.gz --markdown 20240429/z/zato-apitest/24.1.23-24.1.24/README.md --exclude *.pyd
+[2024-04-29 11:26:20] INFO root fetch - processPackages [LinguAligner]: executing diffoscope
+[2024-04-29 11:26:20] INFO root fetch - processPackages [LinguAligner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lingualigner-0.8.tar.gz tmp/lingualigner-0.9.tar.gz --markdown 20240429/L/LinguAligner/0.8-0.9/README.md --exclude *.pyd
+[2024-04-29 11:26:20] INFO root fetch - processPackages [LinguAligner]: executing diffoscope
+[2024-04-29 11:26:20] INFO root fetch - processPackages [LinguAligner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lingualigner-0.8.tar.gz tmp/lingualigner-0.9.tar.gz --markdown 20240429/L/LinguAligner/0.8-0.9/README.md --exclude *.pyd
+[2024-04-29 11:26:20] INFO root fetch - processPackages [starlette-testclient]: Downloading https://files.pythonhosted.org/packages/98/5a/7400d3b40775561b6ea59a270653bfa373a6c93fa4aed8089e8c468fc1f4/starlette_testclient-0.4.0.tar.gz
+[2024-04-29 11:26:20] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/2d/21/2f8f58a9460b37b13e4747c65a5e850216adf0cab4b50990fb72115eb4dd/sirji-agents-0.0.9.tar.gz
+[2024-04-29 11:26:20] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/ea/814247833cc4320a4963bc9588f46cb3725c05f6064d14ac066bbc574e6d/gov_uk_dashboards-9.9.0.tar.gz
+[2024-04-29 11:26:20] INFO root fetch - processPackages [starlette-testclient]: executing diffoscope
+[2024-04-29 11:26:20] INFO root fetch - processPackages [starlette-testclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starlette_testclient-0.3.0.tar.gz tmp/starlette_testclient-0.4.0.tar.gz --markdown 20240429/s/starlette-testclient/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-29 11:26:20] INFO root fetch - processPackages [sirji-agents]: executing diffoscope
+[2024-04-29 11:26:20] INFO root fetch - processPackages [sirji-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-agents-0.0.8.tar.gz tmp/sirji-agents-0.0.9.tar.gz --markdown 20240429/s/sirji-agents/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 11:26:20] INFO root fetch - processPackages [gov-uk-dashboards]: executing diffoscope
+[2024-04-29 11:26:20] INFO root fetch - processPackages [gov-uk-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gov_uk_dashboards-9.8.0.tar.gz tmp/gov_uk_dashboards-9.9.0.tar.gz --markdown 20240429/g/gov-uk-dashboards/9.8.0-9.9.0/README.md --exclude *.pyd
+[2024-04-29 11:26:21] INFO root fetch - processPackages [LinguAligner]: Remove: archive file [/home/abi/fetcher/tmp/lingualigner-0.8.tar.gz]
+[2024-04-29 11:26:21] INFO root fetch - processPackages [LinguAligner]: Remove: archive file [/home/abi/fetcher/tmp/lingualigner-0.9.tar.gz]
+[2024-04-29 11:26:21] INFO root fetch - main [MainThread]: End processing [LinguAligner]: success
+[2024-04-29 11:26:21] INFO root fetch - main [MainThread]: End processing [LinguAligner]: success
+[2024-04-29 11:26:21] INFO root fetch - processPackages [zato-apitest]: Remove: archive file [/home/abi/fetcher/tmp/zato_apitest-24.1.23.tar.gz]
+[2024-04-29 11:26:21] INFO root fetch - processPackages [zato-apitest]: Remove: archive file [/home/abi/fetcher/tmp/zato_apitest-24.1.24.tar.gz]
+[2024-04-29 11:26:21] INFO root fetch - main [MainThread]: End processing [zato-apitest]: success
+[2024-04-29 11:26:21] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.8.tar.gz]
+[2024-04-29 11:26:21] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.9.tar.gz]
+[2024-04-29 11:26:21] INFO root fetch - main [MainThread]: End processing [sirji-agents]: success
+[2024-04-29 11:26:21] INFO root fetch - processPackages [starlette-testclient]: Remove: archive file [/home/abi/fetcher/tmp/starlette_testclient-0.3.0.tar.gz]
+[2024-04-29 11:26:21] INFO root fetch - processPackages [starlette-testclient]: Remove: archive file [/home/abi/fetcher/tmp/starlette_testclient-0.4.0.tar.gz]
+[2024-04-29 11:26:21] INFO root fetch - main [MainThread]: End processing [starlette-testclient]: success
+[2024-04-29 11:26:21] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a8.tar.gz]
+[2024-04-29 11:26:21] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a9.tar.gz]
+[2024-04-29 11:26:21] INFO root fetch - main [MainThread]: End processing [django-sync-env]: success
+[2024-04-29 11:26:21] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.8.0.tar.gz]
+[2024-04-29 11:26:21] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.9.0.tar.gz]
+[2024-04-29 11:26:21] INFO root fetch - main [MainThread]: End processing [gov-uk-dashboards]: success
+[2024-04-29 11:26:21] INFO root fetch - main [MainThread]: Store serial: [22981372]
