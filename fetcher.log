@@ -14009,3 +14009,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 11:35:04] INFO root fetch - processPackages [ansys-optislang-core]: Remove: archive file [/home/abi/fetcher/tmp/ansys_optislang_core-0.7.0.tar.gz]
 [2024-04-29 11:35:04] INFO root fetch - main [MainThread]: End processing [ansys-optislang-core]: success
 [2024-04-29 11:35:04] INFO root fetch - main [MainThread]: Store serial: [22981463]
+[2024-04-29 11:37:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22981463]
+[2024-04-29 11:37:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-29 11:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-sync-env
+[2024-04-29 11:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hysteria2
+[2024-04-29 11:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jackdyeruktaxcalculator
+[2024-04-29 11:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: templated-setup
+[2024-04-29 11:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kostsample
+[2024-04-29 11:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anemoi-datasets
+[2024-04-29 11:37:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Encorsa-e-Factura
+[2024-04-29 11:37:14] INFO root fetch - processPackages [templated-setup]: New version: [0.5] Old Version: [0.4]
+[2024-04-29 11:37:14] INFO root fetch - processPackages [django-sync-env]: New version: [0.3.1a9] Old Version: [0.3.1a8]
+[2024-04-29 11:37:14] INFO root fetch - processPackages [jackdyeruktaxcalculator]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-29 11:37:14] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/09/95/2d134db5f6ebf157fd80f4b6566a367d24c6b3c133107d6396db17c19f22/templated_setup-0.4.tar.gz
+[2024-04-29 11:37:14] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/24/78/009e2f56d84d6eb849f08471c884f6aff8d021ec213adff24e1dfb5bc33e/django_sync_env-0.3.1a8.tar.gz
+[2024-04-29 11:37:14] INFO root fetch - processPackages [hysteria2]: New version: [2.4.3] Old Version: [2.3.0]
+[2024-04-29 11:37:14] INFO root fetch - processPackages [jackdyeruktaxcalculator]: Downloading https://files.pythonhosted.org/packages/10/9f/1bdeb8209c8b8a41348e75972e16fd1693b387690de713dfff9831e06e57/jackdyeruktaxcalculator-0.0.5.tar.gz
+[2024-04-29 11:37:14] INFO root fetch - processPackages [anemoi-datasets]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-04-29 11:37:14] INFO root fetch - processPackages [kostsample]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-29 11:37:14] INFO root fetch - processPackages [Encorsa-e-Factura]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-29 11:37:14] INFO root fetch - processPackages [hysteria2]: Downloading https://files.pythonhosted.org/packages/82/3a/13ae35121fb636c10011e41333d822abdde98b38ac139134603d73aa20d9/hysteria2-2.3.0.tar.gz
+[2024-04-29 11:37:14] INFO root fetch - processPackages [anemoi-datasets]: Downloading https://files.pythonhosted.org/packages/e9/3c/6282f2343ff00a935a383d8a179892be0f5f180fd8ef707c4a61d259fdb8/anemoi-datasets-0.1.2.tar.gz
+[2024-04-29 11:37:14] INFO root fetch - processPackages [kostsample]: Downloading https://files.pythonhosted.org/packages/b9/8c/f31716f3aec49361a1da7a2e572f9c9e8647808b87f39faa6f8376773a53/kostsample-1.0.1.tar.gz
+[2024-04-29 11:37:14] INFO root fetch - processPackages [Encorsa-e-Factura]: Downloading https://files.pythonhosted.org/packages/16/42/a1a7762d1aed18c99a87efd0b30b00c4fda7a6c345cb3c7be6c3f8a34f72/encorsa_e_factura-0.2.6.tar.gz
+[2024-04-29 11:37:14] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/89/d8/2a51c3397de02ed16ae19916f11ccf999fd0e8665acab0b8b8f48b0cbb62/templated_setup-0.5.tar.gz
+[2024-04-29 11:37:14] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/09/f6/638f51a800edaadde68c64c67b668aae5d792eea2037d314f4dbea6565dd/django_sync_env-0.3.1a9.tar.gz
+[2024-04-29 11:37:15] INFO root fetch - processPackages [jackdyeruktaxcalculator]: Downloading https://files.pythonhosted.org/packages/66/36/c4855fb020fde421e69657686e558a921e2d88f37b2c725a0d4a7f94b3fb/jackdyeruktaxcalculator-0.0.6.tar.gz
+[2024-04-29 11:37:15] INFO root fetch - processPackages [templated-setup]: executing diffoscope
+[2024-04-29 11:37:15] INFO root fetch - processPackages [templated-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templated_setup-0.4.tar.gz tmp/templated_setup-0.5.tar.gz --markdown 20240429/t/templated-setup/0.4-0.5/README.md --exclude *.pyd
+[2024-04-29 11:37:15] INFO root fetch - processPackages [django-sync-env]: executing diffoscope
+[2024-04-29 11:37:15] INFO root fetch - processPackages [django-sync-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sync_env-0.3.1a8.tar.gz tmp/django_sync_env-0.3.1a9.tar.gz --markdown 20240429/d/django-sync-env/0.3.1a8-0.3.1a9/README.md --exclude *.pyd
+[2024-04-29 11:37:15] INFO root fetch - processPackages [jackdyeruktaxcalculator]: executing diffoscope
+[2024-04-29 11:37:15] INFO root fetch - processPackages [jackdyeruktaxcalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jackdyeruktaxcalculator-0.0.5.tar.gz tmp/jackdyeruktaxcalculator-0.0.6.tar.gz --markdown 20240429/j/jackdyeruktaxcalculator/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-29 11:37:15] INFO root fetch - processPackages [kostsample]: Downloading https://files.pythonhosted.org/packages/5b/39/b809d61a9d2f96063190ad62b405cff6bf4e0530a0394de7c4acd3839131/kostsample-1.0.2.tar.gz
+[2024-04-29 11:37:15] INFO root fetch - processPackages [anemoi-datasets]: Downloading https://files.pythonhosted.org/packages/f6/a6/5edccd1786c7e47b7dbe93b9f8e0038d8ced00fe670e90036d0b34c38389/anemoi-datasets-0.1.4.tar.gz
+[2024-04-29 11:37:15] INFO root fetch - processPackages [Encorsa-e-Factura]: Downloading https://files.pythonhosted.org/packages/f5/3e/b7ef843d0c195776801e8ec149e6d32babc3277da9a997ef869d561e241c/encorsa_e_factura-0.2.7.tar.gz
+[2024-04-29 11:37:15] INFO root fetch - processPackages [kostsample]: executing diffoscope
+[2024-04-29 11:37:15] INFO root fetch - processPackages [kostsample]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kostsample-1.0.1.tar.gz tmp/kostsample-1.0.2.tar.gz --markdown 20240429/k/kostsample/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-29 11:37:15] INFO root fetch - processPackages [Encorsa-e-Factura]: executing diffoscope
+[2024-04-29 11:37:15] INFO root fetch - processPackages [Encorsa-e-Factura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encorsa_e_factura-0.2.6.tar.gz tmp/encorsa_e_factura-0.2.7.tar.gz --markdown 20240429/E/Encorsa-e-Factura/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-29 11:37:15] INFO root fetch - processPackages [anemoi-datasets]: executing diffoscope
+[2024-04-29 11:37:15] INFO root fetch - processPackages [anemoi-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anemoi-datasets-0.1.2.tar.gz tmp/anemoi-datasets-0.1.4.tar.gz --markdown 20240429/a/anemoi-datasets/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-04-29 11:37:15] INFO root fetch - processPackages [hysteria2]: Downloading https://files.pythonhosted.org/packages/bb/9e/5eea08f8f003f4ab892dc202d5631cc99f97f679aab0e150766553992219/hysteria2-2.4.3.tar.gz
+[2024-04-29 11:37:15] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.4.tar.gz]
+[2024-04-29 11:37:15] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.5.tar.gz]
+[2024-04-29 11:37:15] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
+[2024-04-29 11:37:15] INFO root fetch - processPackages [jackdyeruktaxcalculator]: Remove: archive file [/home/abi/fetcher/tmp/jackdyeruktaxcalculator-0.0.5.tar.gz]
+[2024-04-29 11:37:15] INFO root fetch - processPackages [jackdyeruktaxcalculator]: Remove: archive file [/home/abi/fetcher/tmp/jackdyeruktaxcalculator-0.0.6.tar.gz]
+[2024-04-29 11:37:15] INFO root fetch - main [MainThread]: End processing [jackdyeruktaxcalculator]: success
+[2024-04-29 11:37:15] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a8.tar.gz]
+[2024-04-29 11:37:15] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a9.tar.gz]
+[2024-04-29 11:37:15] INFO root fetch - main [MainThread]: End processing [django-sync-env]: success
+[2024-04-29 11:37:16] INFO root fetch - processPackages [hysteria2]: executing diffoscope
+[2024-04-29 11:37:16] INFO root fetch - processPackages [hysteria2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hysteria2-2.3.0.tar.gz tmp/hysteria2-2.4.3.tar.gz --markdown 20240429/h/hysteria2/2.3.0-2.4.3/README.md --exclude *.pyd
+[2024-04-29 11:37:16] INFO root fetch - processPackages [kostsample]: Remove: archive file [/home/abi/fetcher/tmp/kostsample-1.0.1.tar.gz]
+[2024-04-29 11:37:16] INFO root fetch - processPackages [kostsample]: Remove: archive file [/home/abi/fetcher/tmp/kostsample-1.0.2.tar.gz]
+[2024-04-29 11:37:16] INFO root fetch - main [MainThread]: End processing [kostsample]: success
+[2024-04-29 11:37:16] INFO root fetch - processPackages [Encorsa-e-Factura]: Remove: archive file [/home/abi/fetcher/tmp/encorsa_e_factura-0.2.6.tar.gz]
+[2024-04-29 11:37:16] INFO root fetch - processPackages [Encorsa-e-Factura]: Remove: archive file [/home/abi/fetcher/tmp/encorsa_e_factura-0.2.7.tar.gz]
+[2024-04-29 11:37:16] INFO root fetch - main [MainThread]: End processing [Encorsa-e-Factura]: success
+[2024-04-29 11:37:16] INFO root fetch - processPackages [anemoi-datasets]: Remove: archive file [/home/abi/fetcher/tmp/anemoi-datasets-0.1.2.tar.gz]
+[2024-04-29 11:37:16] INFO root fetch - processPackages [anemoi-datasets]: Remove: archive file [/home/abi/fetcher/tmp/anemoi-datasets-0.1.4.tar.gz]
+[2024-04-29 11:37:16] INFO root fetch - main [MainThread]: End processing [anemoi-datasets]: success
+[2024-04-29 11:37:18] INFO root fetch - processPackages [hysteria2]: Remove: archive file [/home/abi/fetcher/tmp/hysteria2-2.3.0.tar.gz]
+[2024-04-29 11:37:18] INFO root fetch - processPackages [hysteria2]: Remove: archive file [/home/abi/fetcher/tmp/hysteria2-2.4.3.tar.gz]
+[2024-04-29 11:37:18] INFO root fetch - main [MainThread]: End processing [hysteria2]: success
+[2024-04-29 11:37:18] INFO root fetch - main [MainThread]: Store serial: [22981492]
