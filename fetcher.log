@@ -20847,3 +20847,223 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 15:23:01] INFO root fetch - processPackages [peak-finder-app]: Remove: archive file [/home/abi/fetcher/tmp/peak_finder_app-0.1.0b1.tar.gz]
 [2024-04-29 15:23:01] INFO root fetch - main [MainThread]: End processing [peak-finder-app]: success
 [2024-04-29 15:23:01] INFO root fetch - main [MainThread]: Store serial: [22984187]
+[2024-04-29 15:25:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22984187]
+[2024-04-29 15:25:10] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2024-04-29 15:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: large-image-source-test
+[2024-04-29 15:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spark-metabase-api
+[2024-04-29 15:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pseudonymizer
+[2024-04-29 15:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: browserstack-sdk
+[2024-04-29 15:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: large-image-source-tiff
+[2024-04-29 15:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-asyncio
+[2024-04-29 15:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvidia-dali-tf-plugin-nightly-cuda110
+[2024-04-29 15:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: large-image-source-tifffile
+[2024-04-29 15:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ConnectedPapersExtractor
+[2024-04-29 15:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fcs-core-model-engine
+[2024-04-29 15:25:10] INFO root fetch - processPackages [spark-metabase-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 15:25:10] INFO root fetch - processPackages [ConnectedPapersExtractor]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-29 15:25:10] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: New version: [1.38.0.dev20240426] Old Version: [1.37.0.dev20240410]
+[2024-04-29 15:25:10] INFO root fetch - processPackages [pytest-asyncio]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-29 15:25:10] INFO root fetch - processPackages [spark-metabase-api]: Downloading https://files.pythonhosted.org/packages/b7/c5/708e66a9a521398570782cce4314c59a3915732b618b76fb7c20d60853d2/spark-metabase-api-0.1.8.tar.gz
+[2024-04-29 15:25:10] INFO root fetch - processPackages [pseudonymizer]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-29 15:25:10] INFO root fetch - processPackages [ConnectedPapersExtractor]: Downloading https://files.pythonhosted.org/packages/69/9f/3ed7382c7acddfb78d241297cc8ebd53da6e9e10fa539f8f011affa4004e/connectedpapersextractor-0.1.2.tar.gz
+[2024-04-29 15:25:10] INFO root fetch - processPackages [large-image-source-tiff]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-29 15:25:10] INFO root fetch - processPackages [browserstack-sdk]: New version: [1.9.2] Old Version: [1.8.1]
+[2024-04-29 15:25:10] INFO root fetch - processPackages [fcs-core-model-engine]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-29 15:25:10] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/0b/ed/424bef11840cab7ac1ab7a761026c0a222266f0fd4174ff630856f53ee19/nvidia_dali_tf_plugin_nightly_cuda110-1.37.0.dev20240410.tar.gz
+[2024-04-29 15:25:10] INFO root fetch - processPackages [large-image-source-test]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-29 15:25:10] INFO root fetch - processPackages [large-image-source-tifffile]: New version: [1.28.2.dev8] Old Version: [1.28.2.dev6]
+[2024-04-29 15:25:11] INFO root fetch - processPackages [spark-metabase-api]: Downloading https://files.pythonhosted.org/packages/85/48/5c6eacbacc9f67e4eced50608629c3a1d667281d94488ce0c2c9acbb06c5/spark_metabase_api-0.1.9.tar.gz
+[2024-04-29 15:25:11] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/0b/e1/8f8f38959c1cb4ae260908bf07303ecb5f3a11f722ea7cf9405ec33f24e1/nvidia_dali_tf_plugin_nightly_cuda110-1.38.0.dev20240426.tar.gz
+[2024-04-29 15:25:11] INFO root fetch - processPackages [pytest-asyncio]: Downloading https://files.pythonhosted.org/packages/c9/28/032baa7ba981928ec31faeb700b19fd7d3434bedff6aaff30b2e630dd82d/pytest-asyncio-0.8.0.tar.gz
+[2024-04-29 15:25:11] INFO root fetch - processPackages [large-image-source-tiff]: Downloading https://files.pythonhosted.org/packages/de/d8/11a04e7da12bfb1cea85e4c0ff3b470f2d1e1b4f18bdbc908482765c9bef/large-image-source-tiff-1.9.1.dev6.tar.gz
+[2024-04-29 15:25:11] INFO root fetch - processPackages [fcs-core-model-engine]: Downloading https://files.pythonhosted.org/packages/7e/f9/1496645d453c467390cfa27343335ce693a6b250aa9c467623ec5deee71d/fcs_core_model_engine-0.8.3-py3-none-win_amd64.whl
+[2024-04-29 15:25:11] INFO root fetch - processPackages [pseudonymizer]: Downloading https://files.pythonhosted.org/packages/46/da/74a3ea26f185540c890f3d6ff997530ca56a993c27c5f7da2dda435d8e35/pseudonymizer-0.1.1.tar.gz
+[2024-04-29 15:25:11] INFO root fetch - processPackages [large-image-source-test]: Downloading https://files.pythonhosted.org/packages/8d/5f/0655a339ab1bb6dda15d0c4e174a5c2f0eae690a497018f912f490f67c26/large-image-source-test-1.9.1.dev6.tar.gz
+[2024-04-29 15:25:11] INFO root fetch - processPackages [browserstack-sdk]: Downloading https://files.pythonhosted.org/packages/8f/f6/ebeb5204570d76f86be6985afe10789f1b21d91816239c06b11f19bfbb72/browserstack_sdk-1.8.1.tar.gz
+[2024-04-29 15:25:11] INFO root fetch - processPackages [spark-metabase-api]: executing diffoscope
+[2024-04-29 15:25:11] INFO root fetch - processPackages [spark-metabase-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark-metabase-api-0.1.8.tar.gz tmp/spark_metabase_api-0.1.9.tar.gz --markdown 20240429/s/spark-metabase-api/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 15:25:11] INFO root fetch - processPackages [ConnectedPapersExtractor]: Downloading https://files.pythonhosted.org/packages/26/5e/001b61d7c41aa5dfab965485ab974e51b08abe2b8cf5c4b00dbf7a45b725/connectedpapersextractor-0.1.3.tar.gz
+[2024-04-29 15:25:11] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: executing diffoscope
+[2024-04-29 15:25:11] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.37.0.dev20240410.tar.gz tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.38.0.dev20240426.tar.gz --markdown 20240429/n/nvidia-dali-tf-plugin-nightly-cuda110/1.37.0.dev20240410-1.38.0.dev20240426/README.md --exclude *.pyd
+[2024-04-29 15:25:11] INFO root fetch - processPackages [large-image-source-tifffile]: Downloading https://files.pythonhosted.org/packages/b3/50/0904b61d25b001b1fb17b19c9296bcbdd673e2165c2089735bdfa3047fd3/large-image-source-tifffile-1.28.2.dev6.tar.gz
+[2024-04-29 15:25:11] WARNING root fetch - processPackages [fcs-core-model-engine]: Skipping package: exceeds size limit 25242775>=10485760
+[2024-04-29 15:25:11] INFO root fetch - processPackages [fcs-core-model-engine]: Start processing: large-image-source-vips
+[2024-04-29 15:25:11] INFO root fetch - main [MainThread]: End processing [fcs-core-model-engine] error
+[2024-04-29 15:25:11] INFO root fetch - processPackages [ConnectedPapersExtractor]: executing diffoscope
+[2024-04-29 15:25:11] INFO root fetch - processPackages [ConnectedPapersExtractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connectedpapersextractor-0.1.2.tar.gz tmp/connectedpapersextractor-0.1.3.tar.gz --markdown 20240429/C/ConnectedPapersExtractor/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-29 15:25:11] INFO root fetch - processPackages [large-image-source-vips]: New version: [1.28.2.dev8] Old Version: [1.28.2.dev6]
+[2024-04-29 15:25:11] INFO root fetch - processPackages [large-image-source-test]: Downloading https://files.pythonhosted.org/packages/6c/52/b863313751b2cf1efc96557c639944027ef1db00dedd386ad79707764cfe/large-image-source-test-1.9.1.dev8.tar.gz
+[2024-04-29 15:25:11] INFO root fetch - processPackages [pytest-asyncio]: Downloading https://files.pythonhosted.org/packages/22/fd/6be59ed6eb49798d248730b8c2589e4f862a39b49775a1415972b31a3362/pytest-asyncio-0.9.0.tar.gz
+[2024-04-29 15:25:11] INFO root fetch - processPackages [large-image-source-tiff]: Downloading https://files.pythonhosted.org/packages/1d/e4/def78005a865fada3d6d1f1d1b45d1dc76a9ba074c2b7284b81717b67cea/large-image-source-tiff-1.9.1.dev8.tar.gz
+[2024-04-29 15:25:11] INFO root fetch - processPackages [pseudonymizer]: Downloading https://files.pythonhosted.org/packages/75/4d/48b25ae652b9a871f409549dc5a379efe11c7f42fa567a6000ac70d6e725/pseudonymizer-0.1.2-py3-none-any.whl
+[2024-04-29 15:25:11] INFO root fetch - processPackages [browserstack-sdk]: Downloading https://files.pythonhosted.org/packages/bf/46/3ee8b5068073adc3791ac682b7a8c14bc7a10d24e6da05a093fbf74efc9b/browserstack_sdk-1.9.2.tar.gz
+[2024-04-29 15:25:11] INFO root fetch - processPackages [large-image-source-test]: executing diffoscope
+[2024-04-29 15:25:11] INFO root fetch - processPackages [large-image-source-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-test-1.9.1.dev6.tar.gz tmp/large-image-source-test-1.9.1.dev8.tar.gz --markdown 20240429/l/large-image-source-test/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-29 15:25:11] INFO root fetch - processPackages [large-image-source-tifffile]: Downloading https://files.pythonhosted.org/packages/4b/ef/3b83e33732fe01b2734e93604ff381548526fd5e2e302e4e9677a6e6b2e7/large-image-source-tifffile-1.28.2.dev8.tar.gz
+[2024-04-29 15:25:11] INFO root fetch - processPackages [pytest-asyncio]: executing diffoscope
+[2024-04-29 15:25:11] INFO root fetch - processPackages [pytest-asyncio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-asyncio-0.8.0.tar.gz tmp/pytest-asyncio-0.9.0.tar.gz --markdown 20240429/p/pytest-asyncio/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-29 15:25:11] INFO root fetch - processPackages [large-image-source-tiff]: executing diffoscope
+[2024-04-29 15:25:11] INFO root fetch - processPackages [large-image-source-tiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tiff-1.9.1.dev6.tar.gz tmp/large-image-source-tiff-1.9.1.dev8.tar.gz --markdown 20240429/l/large-image-source-tiff/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-29 15:25:11] INFO root fetch - processPackages [pseudonymizer]: executing diffoscope
+[2024-04-29 15:25:11] INFO root fetch - processPackages [pseudonymizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pseudonymizer-0.1.1.tar.gz tmp/pseudonymizer-0.1.2-py3-none-any.whl.zip --markdown 20240429/p/pseudonymizer/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-29 15:25:11] INFO root fetch - processPackages [large-image-source-vips]: Downloading https://files.pythonhosted.org/packages/09/2b/f278f48b012978112ffee5ee9e4b95ccdcdad006241d95ad73d37298f9da/large-image-source-vips-1.28.2.dev6.tar.gz
+[2024-04-29 15:25:11] INFO root fetch - processPackages [browserstack-sdk]: executing diffoscope
+[2024-04-29 15:25:11] INFO root fetch - processPackages [browserstack-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browserstack_sdk-1.8.1.tar.gz tmp/browserstack_sdk-1.9.2.tar.gz --markdown 20240429/b/browserstack-sdk/1.8.1-1.9.2/README.md --exclude *.pyd
+[2024-04-29 15:25:11] INFO root fetch - processPackages [large-image-source-tifffile]: executing diffoscope
+[2024-04-29 15:25:11] INFO root fetch - processPackages [large-image-source-tifffile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tifffile-1.28.2.dev6.tar.gz tmp/large-image-source-tifffile-1.28.2.dev8.tar.gz --markdown 20240429/l/large-image-source-tifffile/1.28.2.dev6-1.28.2.dev8/README.md --exclude *.pyd
+[2024-04-29 15:25:12] INFO root fetch - processPackages [large-image-source-vips]: Downloading https://files.pythonhosted.org/packages/b8/6f/33da1232bb10fa806f9a6bccecad4df81c07a8914a3e3efe73220779c6f1/large-image-source-vips-1.28.2.dev8.tar.gz
+[2024-04-29 15:25:12] INFO root fetch - processPackages [spark-metabase-api]: Remove: archive file [/home/abi/fetcher/tmp/spark-metabase-api-0.1.8.tar.gz]
+[2024-04-29 15:25:12] INFO root fetch - processPackages [spark-metabase-api]: Remove: archive file [/home/abi/fetcher/tmp/spark_metabase_api-0.1.9.tar.gz]
+[2024-04-29 15:25:12] INFO root fetch - processPackages [spark-metabase-api]: Start processing: hestia-earth-validation
+[2024-04-29 15:25:12] INFO root fetch - main [MainThread]: End processing [spark-metabase-api]: success
+[2024-04-29 15:25:12] INFO root fetch - processPackages [large-image-source-vips]: executing diffoscope
+[2024-04-29 15:25:12] INFO root fetch - processPackages [large-image-source-vips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-vips-1.28.2.dev6.tar.gz tmp/large-image-source-vips-1.28.2.dev8.tar.gz --markdown 20240429/l/large-image-source-vips/1.28.2.dev6-1.28.2.dev8/README.md --exclude *.pyd
+[2024-04-29 15:25:12] INFO root fetch - processPackages [ConnectedPapersExtractor]: Remove: archive file [/home/abi/fetcher/tmp/connectedpapersextractor-0.1.2.tar.gz]
+[2024-04-29 15:25:12] INFO root fetch - processPackages [ConnectedPapersExtractor]: Remove: archive file [/home/abi/fetcher/tmp/connectedpapersextractor-0.1.3.tar.gz]
+[2024-04-29 15:25:12] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.37.0.dev20240410.tar.gz]
+[2024-04-29 15:25:12] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda110-1.38.0.dev20240426.tar.gz]
+[2024-04-29 15:25:12] INFO root fetch - processPackages [ConnectedPapersExtractor]: Start processing: large-image-source-zarr
+[2024-04-29 15:25:12] INFO root fetch - main [MainThread]: End processing [ConnectedPapersExtractor]: success
+[2024-04-29 15:25:12] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Start processing: gpt-all-star
+[2024-04-29 15:25:12] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda110]: success
+[2024-04-29 15:25:12] INFO root fetch - processPackages [hestia-earth-validation]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-29 15:25:12] INFO root fetch - processPackages [large-image-source-zarr]: New version: [1.28.2.dev8] Old Version: [1.28.2.dev6]
+[2024-04-29 15:25:12] INFO root fetch - processPackages [gpt-all-star]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-29 15:25:12] INFO root fetch - processPackages [hestia-earth-validation]: Downloading https://files.pythonhosted.org/packages/33/b1/1105a4e61f23c309958db8eb0a5c59b945e3291d912a253970b1cdb90f73/hestia-earth-validation-0.9.2.tar.gz
+[2024-04-29 15:25:13] INFO root fetch - processPackages [large-image-source-zarr]: Downloading https://files.pythonhosted.org/packages/df/66/91c5e4abb81e615d58e7e4074dd517b3214d45a13dba0bfd1cc1dd15409f/large-image-source-zarr-1.28.2.dev6.tar.gz
+[2024-04-29 15:25:13] INFO root fetch - processPackages [large-image-source-test]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-test-1.9.1.dev6.tar.gz]
+[2024-04-29 15:25:13] INFO root fetch - processPackages [large-image-source-test]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-test-1.9.1.dev8.tar.gz]
+[2024-04-29 15:25:13] INFO root fetch - processPackages [large-image-source-test]: Start processing: gradio-molecule2d
+[2024-04-29 15:25:13] INFO root fetch - main [MainThread]: End processing [large-image-source-test]: success
+[2024-04-29 15:25:13] INFO root fetch - processPackages [gpt-all-star]: Downloading https://files.pythonhosted.org/packages/95/00/47f2780dce549d1ce8aad7cb17a7c758209c4539c6f75dcdbe0e9322ce0e/gpt_all_star-0.0.7.tar.gz
+[2024-04-29 15:25:13] INFO root fetch - processPackages [pytest-asyncio]: Remove: archive file [/home/abi/fetcher/tmp/pytest-asyncio-0.8.0.tar.gz]
+[2024-04-29 15:25:13] INFO root fetch - processPackages [pytest-asyncio]: Remove: archive file [/home/abi/fetcher/tmp/pytest-asyncio-0.9.0.tar.gz]
+[2024-04-29 15:25:13] INFO root fetch - processPackages [pytest-asyncio]: Start processing: couchdb-client
+[2024-04-29 15:25:13] INFO root fetch - main [MainThread]: End processing [pytest-asyncio]: success
+[2024-04-29 15:25:13] WARNING root fetch - processPackages [gradio-molecule2d]: Skipping, unable to determine old version
+[2024-04-29 15:25:13] INFO root fetch - processPackages [gradio-molecule2d]: Start processing: rcwa-tlv
+[2024-04-29 15:25:13] INFO root fetch - main [MainThread]: End processing [gradio-molecule2d] error
+[2024-04-29 15:25:13] INFO root fetch - processPackages [large-image-source-tiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tiff-1.9.1.dev6.tar.gz]
+[2024-04-29 15:25:13] INFO root fetch - processPackages [large-image-source-tiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tiff-1.9.1.dev8.tar.gz]
+[2024-04-29 15:25:13] INFO root fetch - processPackages [large-image-source-tiff]: Start processing: unione
+[2024-04-29 15:25:13] INFO root fetch - main [MainThread]: End processing [large-image-source-tiff]: success
+[2024-04-29 15:25:13] INFO root fetch - processPackages [large-image-source-tifffile]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tifffile-1.28.2.dev6.tar.gz]
+[2024-04-29 15:25:13] INFO root fetch - processPackages [pseudonymizer]: Remove: archive file [/home/abi/fetcher/tmp/pseudonymizer-0.1.1.tar.gz]
+[2024-04-29 15:25:13] INFO root fetch - processPackages [large-image-source-tifffile]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tifffile-1.28.2.dev8.tar.gz]
+[2024-04-29 15:25:13] INFO root fetch - processPackages [pseudonymizer]: Remove: archive file [/home/abi/fetcher/tmp/pseudonymizer-0.1.2-py3-none-any.whl.zip]
+[2024-04-29 15:25:13] INFO root fetch - processPackages [large-image-source-tifffile]: Start processing: superu
+[2024-04-29 15:25:13] INFO root fetch - processPackages [pseudonymizer]: Start processing: exponent-server-sdk-async
+[2024-04-29 15:25:13] INFO root fetch - main [MainThread]: End processing [large-image-source-tifffile]: success
+[2024-04-29 15:25:13] INFO root fetch - main [MainThread]: End processing [pseudonymizer]: success
+[2024-04-29 15:25:13] WARNING root fetch - processPackages [couchdb-client]: Skipping, unable to determine old version
+[2024-04-29 15:25:13] INFO root fetch - processPackages [couchdb-client]: Start processing: nvidia-dali-nightly-cuda110
+[2024-04-29 15:25:13] INFO root fetch - main [MainThread]: End processing [couchdb-client] error
+[2024-04-29 15:25:13] INFO root fetch - processPackages [browserstack-sdk]: Remove: archive file [/home/abi/fetcher/tmp/browserstack_sdk-1.8.1.tar.gz]
+[2024-04-29 15:25:13] INFO root fetch - processPackages [browserstack-sdk]: Remove: archive file [/home/abi/fetcher/tmp/browserstack_sdk-1.9.2.tar.gz]
+[2024-04-29 15:25:13] INFO root fetch - processPackages [browserstack-sdk]: Start processing: gps-building-blocks
+[2024-04-29 15:25:13] INFO root fetch - main [MainThread]: End processing [browserstack-sdk]: success
+[2024-04-29 15:25:13] INFO root fetch - processPackages [rcwa-tlv]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-29 15:25:13] WARNING root fetch - processPackages [unione]: Skipping, unable to determine old version
+[2024-04-29 15:25:13] INFO root fetch - main [MainThread]: End processing [unione] error
+[2024-04-29 15:25:13] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: New version: [1.38.0.dev20240426] Old Version: [1.37.0.dev20240410]
+[2024-04-29 15:25:13] INFO root fetch - processPackages [exponent-server-sdk-async]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-04-29 15:25:13] INFO root fetch - processPackages [large-image-source-vips]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-vips-1.28.2.dev6.tar.gz]
+[2024-04-29 15:25:13] INFO root fetch - processPackages [large-image-source-vips]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-vips-1.28.2.dev8.tar.gz]
+[2024-04-29 15:25:13] INFO root fetch - main [MainThread]: End processing [large-image-source-vips]: success
+[2024-04-29 15:25:13] INFO root fetch - processPackages [large-image-source-zarr]: Downloading https://files.pythonhosted.org/packages/d5/26/9814d55d1fc88a245bb4a4916cb38d9706d3c080b021d79d2e7d1c4e2473/large-image-source-zarr-1.28.2.dev8.tar.gz
+[2024-04-29 15:25:13] INFO root fetch - processPackages [superu]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-29 15:25:13] INFO root fetch - processPackages [hestia-earth-validation]: Downloading https://files.pythonhosted.org/packages/b0/45/d5ba27a9ee459bf387b017277d998197192c37d8374146ae34a294f8a0af/hestia-earth-validation-0.9.3.tar.gz
+[2024-04-29 15:25:13] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/5f/cd/1e87bfbe9ec7043e4d8f12e86f2967e0f6d427c136872cc4ad6827bd1889/nvidia_dali_nightly_cuda110-1.37.0.dev20240410.tar.gz
+[2024-04-29 15:25:13] INFO root fetch - processPackages [gps-building-blocks]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-29 15:25:13] INFO root fetch - processPackages [large-image-source-zarr]: executing diffoscope
+[2024-04-29 15:25:13] INFO root fetch - processPackages [large-image-source-zarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-zarr-1.28.2.dev6.tar.gz tmp/large-image-source-zarr-1.28.2.dev8.tar.gz --markdown 20240429/l/large-image-source-zarr/1.28.2.dev6-1.28.2.dev8/README.md --exclude *.pyd
+[2024-04-29 15:25:13] INFO root fetch - processPackages [rcwa-tlv]: Downloading https://files.pythonhosted.org/packages/19/87/0c0c277fd4ebafa19da367e1a92dcdc2104ad44b07f3bf6c7c0b354ecf22/rcwa_tlv-0.0.1.tar.gz
+[2024-04-29 15:25:13] INFO root fetch - processPackages [exponent-server-sdk-async]: Downloading https://files.pythonhosted.org/packages/fb/fa/2cdcb04062ea1d276b90eb3a4a2c3a3bd0633f9247d523de86b35b9bb162/exponent_server_sdk_async-2.1.2.tar.gz
+[2024-04-29 15:25:13] INFO root fetch - processPackages [hestia-earth-validation]: executing diffoscope
+[2024-04-29 15:25:13] INFO root fetch - processPackages [hestia-earth-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-validation-0.9.2.tar.gz tmp/hestia-earth-validation-0.9.3.tar.gz --markdown 20240429/h/hestia-earth-validation/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-29 15:25:13] INFO root fetch - processPackages [superu]: Downloading https://files.pythonhosted.org/packages/b2/e5/094824b3e3f0e226161ed266b36150f363f00007a8fdd8b142132bc95046/superu-0.0.6.tar.gz
+[2024-04-29 15:25:13] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/94/0a/2f98950872776951af092a6b9e56dee5e5c1065333d12ea28ffd32d18cff/nvidia_dali_nightly_cuda110-1.38.0.dev20240426.tar.gz
+[2024-04-29 15:25:13] INFO root fetch - processPackages [gpt-all-star]: Downloading https://files.pythonhosted.org/packages/96/40/c6f6b9dc146ffbf8c97d68b1ad200a51bb0f5a239c5e4d11725f1fff5f45/gpt_all_star-0.0.9.tar.gz
+[2024-04-29 15:25:13] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: executing diffoscope
+[2024-04-29 15:25:13] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_nightly_cuda110-1.37.0.dev20240410.tar.gz tmp/nvidia_dali_nightly_cuda110-1.38.0.dev20240426.tar.gz --markdown 20240429/n/nvidia-dali-nightly-cuda110/1.37.0.dev20240410-1.38.0.dev20240426/README.md --exclude *.pyd
+[2024-04-29 15:25:13] INFO root fetch - processPackages [gpt-all-star]: executing diffoscope
+[2024-04-29 15:25:13] INFO root fetch - processPackages [gpt-all-star]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_all_star-0.0.7.tar.gz tmp/gpt_all_star-0.0.9.tar.gz --markdown 20240429/g/gpt-all-star/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-04-29 15:25:13] INFO root fetch - processPackages [rcwa-tlv]: Downloading https://files.pythonhosted.org/packages/1b/f2/523a9682c8b612f4bfb12b6b7460439a16f63304432210f28fa8cf921de5/rcwa_tlv-0.0.2.tar.gz
+[2024-04-29 15:25:14] INFO root fetch - processPackages [exponent-server-sdk-async]: Downloading https://files.pythonhosted.org/packages/7f/07/c56714101492f1cd61f72ca55c5e75db7568a46f23ef984b53636dcaf69e/exponent_server_sdk_async-2.1.3.tar.gz
+[2024-04-29 15:25:14] INFO root fetch - processPackages [gps-building-blocks]: executing diffoscope
+[2024-04-29 15:25:14] INFO root fetch - processPackages [gps-building-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gps_building_blocks-1.98.0-py3-none-any.whl.zip tmp/gps_building_blocks-1.99.0-py3-none-any.whl.zip --markdown 20240429/g/gps-building-blocks/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-29 15:25:14] INFO root fetch - processPackages [superu]: Downloading https://files.pythonhosted.org/packages/a6/a6/8e20562aa327a9800e654cd1d67cf595ef18b2f2c4bfecee21fed17cea68/superu-0.0.7.tar.gz
+[2024-04-29 15:25:14] INFO root fetch - processPackages [rcwa-tlv]: executing diffoscope
+[2024-04-29 15:25:14] INFO root fetch - processPackages [rcwa-tlv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcwa_tlv-0.0.1.tar.gz tmp/rcwa_tlv-0.0.2.tar.gz --markdown 20240429/r/rcwa-tlv/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-29 15:25:14] INFO root fetch - processPackages [exponent-server-sdk-async]: executing diffoscope
+[2024-04-29 15:25:14] INFO root fetch - processPackages [exponent-server-sdk-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exponent_server_sdk_async-2.1.2.tar.gz tmp/exponent_server_sdk_async-2.1.3.tar.gz --markdown 20240429/e/exponent-server-sdk-async/2.1.2-2.1.3/README.md --exclude *.pyd
+[2024-04-29 15:25:14] INFO root fetch - processPackages [superu]: executing diffoscope
+[2024-04-29 15:25:14] INFO root fetch - processPackages [superu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superu-0.0.6.tar.gz tmp/superu-0.0.7.tar.gz --markdown 20240429/s/superu/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-29 15:25:14] INFO root fetch - processPackages [large-image-source-zarr]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-zarr-1.28.2.dev6.tar.gz]
+[2024-04-29 15:25:14] INFO root fetch - processPackages [large-image-source-zarr]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-zarr-1.28.2.dev8.tar.gz]
+[2024-04-29 15:25:14] INFO root fetch - main [MainThread]: End processing [large-image-source-zarr]: success
+[2024-04-29 15:25:14] INFO root fetch - processPackages [hestia-earth-validation]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-validation-0.9.2.tar.gz]
+[2024-04-29 15:25:14] INFO root fetch - processPackages [hestia-earth-validation]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-validation-0.9.3.tar.gz]
+[2024-04-29 15:25:14] INFO root fetch - main [MainThread]: End processing [hestia-earth-validation]: success
+[2024-04-29 15:25:14] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda110-1.37.0.dev20240410.tar.gz]
+[2024-04-29 15:25:14] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda110-1.38.0.dev20240426.tar.gz]
+[2024-04-29 15:25:14] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda110]: success
+[2024-04-29 15:25:15] INFO root fetch - processPackages [rcwa-tlv]: Remove: archive file [/home/abi/fetcher/tmp/rcwa_tlv-0.0.1.tar.gz]
+[2024-04-29 15:25:15] INFO root fetch - processPackages [rcwa-tlv]: Remove: archive file [/home/abi/fetcher/tmp/rcwa_tlv-0.0.2.tar.gz]
+[2024-04-29 15:25:15] INFO root fetch - main [MainThread]: End processing [rcwa-tlv]: success
+[2024-04-29 15:25:15] INFO root fetch - processPackages [exponent-server-sdk-async]: Remove: archive file [/home/abi/fetcher/tmp/exponent_server_sdk_async-2.1.2.tar.gz]
+[2024-04-29 15:25:15] INFO root fetch - processPackages [exponent-server-sdk-async]: Remove: archive file [/home/abi/fetcher/tmp/exponent_server_sdk_async-2.1.3.tar.gz]
+[2024-04-29 15:25:15] INFO root fetch - main [MainThread]: End processing [exponent-server-sdk-async]: success
+[2024-04-29 15:25:15] INFO root fetch - processPackages [gpt-all-star]: Remove: archive file [/home/abi/fetcher/tmp/gpt_all_star-0.0.7.tar.gz]
+[2024-04-29 15:25:15] INFO root fetch - processPackages [gpt-all-star]: Remove: archive file [/home/abi/fetcher/tmp/gpt_all_star-0.0.9.tar.gz]
+[2024-04-29 15:25:15] INFO root fetch - main [MainThread]: End processing [gpt-all-star]: success
+[2024-04-29 15:25:15] INFO root fetch - processPackages [superu]: Remove: archive file [/home/abi/fetcher/tmp/superu-0.0.6.tar.gz]
+[2024-04-29 15:25:15] INFO root fetch - processPackages [superu]: Remove: archive file [/home/abi/fetcher/tmp/superu-0.0.7.tar.gz]
+[2024-04-29 15:25:15] INFO root fetch - main [MainThread]: End processing [superu]: success
+[2024-04-29 15:25:15] ERROR root fetch - processPackages [gps-building-blocks]: Diffoscope failed: time="2024-04-29T15:25:14+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2024-04-29 15:25:15] INFO root fetch - main [MainThread]: End processing [gps-building-blocks] error
+[2024-04-29 15:25:15] INFO root fetch - main [MainThread]: Store serial: [22984258]
