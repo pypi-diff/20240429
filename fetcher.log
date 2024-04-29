@@ -9468,3 +9468,36 @@
 [2024-04-29 08:10:44] INFO root fetch - processPackages [plumbum]: Remove: archive file [/home/abi/fetcher/tmp/plumbum-1.8.3.tar.gz]
 [2024-04-29 08:10:44] INFO root fetch - main [MainThread]: End processing [plumbum]: success
 [2024-04-29 08:10:44] INFO root fetch - main [MainThread]: Store serial: [22979359]
+[2024-04-29 08:12:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979359]
+[2024-04-29 08:12:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 08:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s
+[2024-04-29 08:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-environment-config
+[2024-04-29 08:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: silero-vad
+[2024-04-29 08:12:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyg-nightly
+[2024-04-29 08:12:55] INFO root fetch - processPackages [silero-vad]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-29 08:12:55] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240428] Old Version: [2.6.0.dev20240427]
+[2024-04-29 08:12:55] WARNING root fetch - processPackages [django-environment-config]: Skipping, unable to determine old version
+[2024-04-29 08:12:55] INFO root fetch - main [MainThread]: End processing [django-environment-config] error
+[2024-04-29 08:12:55] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/aa/00/949495f2a5570828c6daa034c7eb170054ec5c9b7a66d80555200535013a/pyg_nightly-2.6.0.dev20240427.tar.gz
+[2024-04-29 08:12:55] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-29 08:12:55] INFO root fetch - processPackages [silero-vad]: Downloading https://files.pythonhosted.org/packages/f0/63/622ba90b57b98e567bf3ad5dffbcfa28cd3a575db65e58695ba77d6f9df5/silero-vad-0.0.1.tar.gz
+[2024-04-29 08:12:55] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2024-04-29 08:12:55] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/3e/4a/eec3ba933c8eb281e19c9798dd173cd6a123cde23d71ecb07bd3235b6c45/pyg_nightly-2.6.0.dev20240428.tar.gz
+[2024-04-29 08:12:56] INFO root fetch - processPackages [silero-vad]: Downloading https://files.pythonhosted.org/packages/49/55/486b309b30bde1f25f20780559d6f14a79c046a577de0e7765f545470db7/silero-vad-0.0.2.tar.gz
+[2024-04-29 08:12:56] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-04-29 08:12:56] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240427.tar.gz tmp/pyg_nightly-2.6.0.dev20240428.tar.gz --markdown 20240429/p/pyg-nightly/2.6.0.dev20240427-2.6.0.dev20240428/README.md --exclude *.pyd
+[2024-04-29 08:12:56] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2024-04-29 08:12:56] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2024-04-29 08:12:56] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20240429/c/cdk8s/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-04-29 08:12:56] INFO root fetch - processPackages [silero-vad]: executing diffoscope
+[2024-04-29 08:12:56] INFO root fetch - processPackages [silero-vad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/silero-vad-0.0.1.tar.gz tmp/silero-vad-0.0.2.tar.gz --markdown 20240429/s/silero-vad/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-29 08:12:56] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2024-04-29 08:12:56] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2024-04-29 08:12:56] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2024-04-29 08:12:56] INFO root fetch - processPackages [silero-vad]: Remove: archive file [/home/abi/fetcher/tmp/silero-vad-0.0.1.tar.gz]
+[2024-04-29 08:12:56] INFO root fetch - processPackages [silero-vad]: Remove: archive file [/home/abi/fetcher/tmp/silero-vad-0.0.2.tar.gz]
+[2024-04-29 08:12:56] INFO root fetch - main [MainThread]: End processing [silero-vad]: success
+[2024-04-29 08:12:58] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240427.tar.gz]
+[2024-04-29 08:12:58] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240428.tar.gz]
+[2024-04-29 08:12:58] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-04-29 08:12:58] INFO root fetch - main [MainThread]: Store serial: [22979371]
