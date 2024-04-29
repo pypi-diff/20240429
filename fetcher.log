@@ -15770,3 +15770,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 12:37:32] INFO root fetch - processPackages [ckanext-wysiwyg]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_wysiwyg-0.1.2.tar.gz]
 [2024-04-29 12:37:32] INFO root fetch - main [MainThread]: End processing [ckanext-wysiwyg]: success
 [2024-04-29 12:37:32] INFO root fetch - main [MainThread]: Store serial: [22982114]
+[2024-04-29 12:39:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982114]
+[2024-04-29 12:39:40] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-29 12:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: akshare
+[2024-04-29 12:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jdtaxcalculator
+[2024-04-29 12:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imgio
+[2024-04-29 12:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skypilot-nightly
+[2024-04-29 12:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drlogger
+[2024-04-29 12:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rateLimitedQueues
+[2024-04-29 12:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymemgpt-nightly
+[2024-04-29 12:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: exoscale
+[2024-04-29 12:39:40] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240428] Old Version: [1.0.0.dev20240427]
+[2024-04-29 12:39:40] INFO root fetch - processPackages [rateLimitedQueues]: New version: [0.0.1a5] Old Version: [0.0.1a4]
+[2024-04-29 12:39:40] INFO root fetch - processPackages [jdtaxcalculator]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-29 12:39:40] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-04-29 12:39:40] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-04-29 12:39:40] INFO root fetch - processPackages [drlogger]: New version: [1.1.0] Old Version: [1.0.2a0]
+[2024-04-29 12:39:40] INFO root fetch - processPackages [imgio]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-04-29 12:39:41] INFO root fetch - processPackages [exoscale]: New version: [0.9.1] Old Version: [0.8.0]
+[2024-04-29 12:39:41] INFO root fetch - processPackages [jdtaxcalculator]: Downloading https://files.pythonhosted.org/packages/dc/39/04e27f70e3a70444f326dd3a31e7c9a973452250242e68aa625003c23ea2/jdtaxcalculator-0.0.2.tar.gz
+[2024-04-29 12:39:41] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/af/da/afd7e0f57762b32354deca3f304097c35ccaa45f2416cf51d275eba2f104/skypilot_nightly-1.0.0.dev20240427.tar.gz
+[2024-04-29 12:39:41] INFO root fetch - processPackages [rateLimitedQueues]: Downloading https://files.pythonhosted.org/packages/1b/ab/2f5849d94514fb146c76f0457a62ed00fa773f0f4c2561d8c349011e9115/ratelimitedqueues-0.0.1a4.tar.gz
+[2024-04-29 12:39:41] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-04-29 12:39:41] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-04-29 12:39:41] INFO root fetch - processPackages [drlogger]: Downloading https://files.pythonhosted.org/packages/9b/ff/af72f8d58c65e4b2957dc8449dffc55948ee78efa53bf8841479eaeb523a/drlogger-1.0.2a0.tar.gz
+[2024-04-29 12:39:41] INFO root fetch - processPackages [exoscale]: Downloading https://files.pythonhosted.org/packages/c7/48/470d19442d56b79a1f607bf84bff03c6802803d9399254c2350428820e4d/exoscale-0.8.0.tar.gz
+[2024-04-29 12:39:41] INFO root fetch - processPackages [imgio]: Downloading https://files.pythonhosted.org/packages/42/b0/e5d635470851c2725ca0a7fc78623453cf2ddafc8b28bd180964cdc466e3/imgio-1.4.1.tar.gz
+[2024-04-29 12:39:41] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-04-29 12:39:41] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-04-29 12:39:41] INFO root fetch - processPackages [jdtaxcalculator]: Downloading https://files.pythonhosted.org/packages/7a/2e/005a41c69e931e145bc340c465d0b6845101a48094df9356083c3519364a/jdtaxcalculator-0.0.3.tar.gz
+[2024-04-29 12:39:41] INFO root fetch - processPackages [rateLimitedQueues]: Downloading https://files.pythonhosted.org/packages/26/dd/10e2e0311aaa078bde3e9afd5de5b344f1cd753e97a399e73dde5db33427/ratelimitedqueues-0.0.1a5.tar.gz
+[2024-04-29 12:39:41] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/28/b1/9fef5e1a2b9aacff38e0ce8c925afe30e5804d8228eaa564bc5279c0baea/skypilot_nightly-1.0.0.dev20240428.tar.gz
+[2024-04-29 12:39:41] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-04-29 12:39:41] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240429/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-04-29 12:39:41] INFO root fetch - processPackages [jdtaxcalculator]: executing diffoscope
+[2024-04-29 12:39:41] INFO root fetch - processPackages [jdtaxcalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jdtaxcalculator-0.0.2.tar.gz tmp/jdtaxcalculator-0.0.3.tar.gz --markdown 20240429/j/jdtaxcalculator/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-29 12:39:41] INFO root fetch - processPackages [drlogger]: Downloading https://files.pythonhosted.org/packages/54/0e/dd09c7c01fc6f59031dbd57aa730927e27463d4465cfb564db3873f7a5aa/drlogger-1.1.0.tar.gz
+[2024-04-29 12:39:41] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-04-29 12:39:41] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240429/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-04-29 12:39:41] INFO root fetch - processPackages [rateLimitedQueues]: executing diffoscope
+[2024-04-29 12:39:41] INFO root fetch - processPackages [rateLimitedQueues]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ratelimitedqueues-0.0.1a4.tar.gz tmp/ratelimitedqueues-0.0.1a5.tar.gz --markdown 20240429/r/rateLimitedQueues/0.0.1a4-0.0.1a5/README.md --exclude *.pyd
+[2024-04-29 12:39:41] INFO root fetch - processPackages [drlogger]: executing diffoscope
+[2024-04-29 12:39:41] INFO root fetch - processPackages [drlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drlogger-1.0.2a0.tar.gz tmp/drlogger-1.1.0.tar.gz --markdown 20240429/d/drlogger/1.0.2a0-1.1.0/README.md --exclude *.pyd
+[2024-04-29 12:39:41] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-04-29 12:39:41] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot_nightly-1.0.0.dev20240427.tar.gz tmp/skypilot_nightly-1.0.0.dev20240428.tar.gz --markdown 20240429/s/skypilot-nightly/1.0.0.dev20240427-1.0.0.dev20240428/README.md --exclude *.pyd
+[2024-04-29 12:39:41] INFO root fetch - processPackages [exoscale]: Downloading https://files.pythonhosted.org/packages/1c/ed/2abcaebe49be17b4a2752357f483b5367fff0c54347a8732cf5ac022a6d6/exoscale-0.9.1.tar.gz
+[2024-04-29 12:39:41] INFO root fetch - processPackages [exoscale]: executing diffoscope
+[2024-04-29 12:39:41] INFO root fetch - processPackages [exoscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exoscale-0.8.0.tar.gz tmp/exoscale-0.9.1.tar.gz --markdown 20240429/e/exoscale/0.8.0-0.9.1/README.md --exclude *.pyd
+[2024-04-29 12:39:41] INFO root fetch - processPackages [imgio]: Downloading https://files.pythonhosted.org/packages/54/7b/8cdd6f46f87e824ebac3fee39d27a7ce71df932dc340c1d0fabb458f7919/imgio-1.4.2.tar.gz
+[2024-04-29 12:39:42] INFO root fetch - processPackages [imgio]: executing diffoscope
+[2024-04-29 12:39:42] INFO root fetch - processPackages [imgio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imgio-1.4.1.tar.gz tmp/imgio-1.4.2.tar.gz --markdown 20240429/i/imgio/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-04-29 12:39:42] INFO root fetch - processPackages [rateLimitedQueues]: Remove: archive file [/home/abi/fetcher/tmp/ratelimitedqueues-0.0.1a4.tar.gz]
+[2024-04-29 12:39:42] INFO root fetch - processPackages [rateLimitedQueues]: Remove: archive file [/home/abi/fetcher/tmp/ratelimitedqueues-0.0.1a5.tar.gz]
+[2024-04-29 12:39:42] INFO root fetch - main [MainThread]: End processing [rateLimitedQueues]: success
+[2024-04-29 12:39:42] INFO root fetch - processPackages [drlogger]: Remove: archive file [/home/abi/fetcher/tmp/drlogger-1.0.2a0.tar.gz]
+[2024-04-29 12:39:42] INFO root fetch - processPackages [drlogger]: Remove: archive file [/home/abi/fetcher/tmp/drlogger-1.1.0.tar.gz]
+[2024-04-29 12:39:42] INFO root fetch - main [MainThread]: End processing [drlogger]: success
+[2024-04-29 12:39:42] INFO root fetch - processPackages [jdtaxcalculator]: Remove: archive file [/home/abi/fetcher/tmp/jdtaxcalculator-0.0.2.tar.gz]
+[2024-04-29 12:39:42] INFO root fetch - processPackages [jdtaxcalculator]: Remove: archive file [/home/abi/fetcher/tmp/jdtaxcalculator-0.0.3.tar.gz]
+[2024-04-29 12:39:42] INFO root fetch - main [MainThread]: End processing [jdtaxcalculator]: success
+[2024-04-29 12:39:42] INFO root fetch - processPackages [exoscale]: Remove: archive file [/home/abi/fetcher/tmp/exoscale-0.8.0.tar.gz]
+[2024-04-29 12:39:42] INFO root fetch - processPackages [exoscale]: Remove: archive file [/home/abi/fetcher/tmp/exoscale-0.9.1.tar.gz]
+[2024-04-29 12:39:42] INFO root fetch - main [MainThread]: End processing [exoscale]: success
+[2024-04-29 12:39:43] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-04-29 12:39:43] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-04-29 12:39:43] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-04-29 12:39:43] INFO root fetch - processPackages [imgio]: Remove: archive file [/home/abi/fetcher/tmp/imgio-1.4.1.tar.gz]
+[2024-04-29 12:39:43] INFO root fetch - processPackages [imgio]: Remove: archive file [/home/abi/fetcher/tmp/imgio-1.4.2.tar.gz]
+[2024-04-29 12:39:43] INFO root fetch - main [MainThread]: End processing [imgio]: success
+[2024-04-29 12:39:43] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240427.tar.gz]
+[2024-04-29 12:39:43] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240428.tar.gz]
+[2024-04-29 12:39:43] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-04-29 12:39:44] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-04-29 12:39:44] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-04-29 12:39:44] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-04-29 12:39:44] INFO root fetch - main [MainThread]: Store serial: [22982139]
