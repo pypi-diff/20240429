@@ -11207,3 +11207,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 09:39:12] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240429073627.tar.gz]
 [2024-04-29 09:39:12] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-29 09:39:12] INFO root fetch - main [MainThread]: Store serial: [22980142]
+[2024-04-29 09:41:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980142]
+[2024-04-29 09:41:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 09:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: IslandSheds
+[2024-04-29 09:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qg_toolkit
+[2024-04-29 09:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-gemini-api
+[2024-04-29 09:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cg
+[2024-04-29 09:41:21] INFO root fetch - processPackages [IslandSheds]: New version: [0.0.25] Old Version: [0.0.24]
+[2024-04-29 09:41:21] INFO root fetch - processPackages [python-gemini-api]: New version: [2.4.8] Old Version: [2.4.7]
+[2024-04-29 09:41:21] INFO root fetch - processPackages [IslandSheds]: Downloading https://files.pythonhosted.org/packages/00/25/5fc4c6ac9921447eb034dd17cf0c928c9097eaf51c8aed25e9c16437cbf8/islandsheds-0.0.24.tar.gz
+[2024-04-29 09:41:21] WARNING root fetch - processPackages [qg_toolkit]: Skipping, unable to determine old version
+[2024-04-29 09:41:21] INFO root fetch - main [MainThread]: End processing [qg_toolkit] error
+[2024-04-29 09:41:21] INFO root fetch - processPackages [python-gemini-api]: Downloading https://files.pythonhosted.org/packages/88/a5/38a9b7a7f0733c0bfbe3fad690ef9ab517f469da6f579ceaceab6a9c5fae/python_gemini_api-2.4.7.tar.gz
+[2024-04-29 09:41:22] INFO root fetch - processPackages [cg]: New version: [60.4.6] Old Version: [60.4.5]
+[2024-04-29 09:41:22] INFO root fetch - processPackages [python-gemini-api]: Downloading https://files.pythonhosted.org/packages/df/92/933ff04cb3c679d643c1c60a056f42f9d700aa265c44d69427a5e8379850/python_gemini_api-2.4.8.tar.gz
+[2024-04-29 09:41:22] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/8e/33/dfe929f43a245526214649abb3bda11e98b531809a80d53f308e42567991/cg-60.4.5.tar.gz
+[2024-04-29 09:41:22] INFO root fetch - processPackages [IslandSheds]: Downloading https://files.pythonhosted.org/packages/1e/4e/f14441333c89207717cd701ac6101dacdbd1a63265b15a9aba69eab3d971/islandsheds-0.0.25.tar.gz
+[2024-04-29 09:41:22] INFO root fetch - processPackages [python-gemini-api]: executing diffoscope
+[2024-04-29 09:41:22] INFO root fetch - processPackages [python-gemini-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_gemini_api-2.4.7.tar.gz tmp/python_gemini_api-2.4.8.tar.gz --markdown 20240429/p/python-gemini-api/2.4.7-2.4.8/README.md --exclude *.pyd
+[2024-04-29 09:41:22] INFO root fetch - processPackages [IslandSheds]: executing diffoscope
+[2024-04-29 09:41:22] INFO root fetch - processPackages [IslandSheds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/islandsheds-0.0.24.tar.gz tmp/islandsheds-0.0.25.tar.gz --markdown 20240429/I/IslandSheds/0.0.24-0.0.25/README.md --exclude *.pyd
+[2024-04-29 09:41:22] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/66/d6/dbfddde54dc1ac0abb764eab75ef2410d882b4f8b5dbc15c04ea7d8c1c7e/cg-60.4.6.tar.gz
+[2024-04-29 09:41:22] INFO root fetch - processPackages [IslandSheds]: Remove: archive file [/home/abi/fetcher/tmp/islandsheds-0.0.24.tar.gz]
+[2024-04-29 09:41:22] INFO root fetch - processPackages [IslandSheds]: Remove: archive file [/home/abi/fetcher/tmp/islandsheds-0.0.25.tar.gz]
+[2024-04-29 09:41:22] INFO root fetch - main [MainThread]: End processing [IslandSheds]: success
+[2024-04-29 09:41:23] INFO root fetch - processPackages [python-gemini-api]: Remove: archive file [/home/abi/fetcher/tmp/python_gemini_api-2.4.7.tar.gz]
+[2024-04-29 09:41:23] INFO root fetch - processPackages [python-gemini-api]: Remove: archive file [/home/abi/fetcher/tmp/python_gemini_api-2.4.8.tar.gz]
+[2024-04-29 09:41:23] INFO root fetch - main [MainThread]: End processing [python-gemini-api]: success
+[2024-04-29 09:41:23] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-29 09:41:23] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.4.5.tar.gz tmp/cg-60.4.6.tar.gz --markdown 20240429/c/cg/60.4.5-60.4.6/README.md --exclude *.pyd
+[2024-04-29 09:41:27] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.4.5.tar.gz]
+[2024-04-29 09:41:27] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.4.6.tar.gz]
+[2024-04-29 09:41:27] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-29 09:41:27] INFO root fetch - main [MainThread]: Store serial: [22980171]
