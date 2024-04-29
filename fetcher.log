@@ -10359,3 +10359,47 @@
 [2024-04-29 08:59:29] INFO root fetch - processPackages [y0]: Remove: archive file [/home/abi/fetcher/tmp/y0-0.2.9.tar.gz]
 [2024-04-29 08:59:29] INFO root fetch - main [MainThread]: End processing [y0]: success
 [2024-04-29 08:59:29] INFO root fetch - main [MainThread]: Store serial: [22979738]
+[2024-04-29 09:01:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979738]
+[2024-04-29 09:01:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 09:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roma
+[2024-04-29 09:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ngstoolkits
+[2024-04-29 09:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: marvolo
+[2024-04-29 09:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bpm-ai-core
+[2024-04-29 09:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pear-ebi
+[2024-04-29 09:01:39] INFO root fetch - processPackages [bpm-ai-core]: New version: [2.6.0] Old Version: [2.5.0]
+[2024-04-29 09:01:39] INFO root fetch - processPackages [roma]: New version: [1.5.0] Old Version: [1.4.5]
+[2024-04-29 09:01:39] INFO root fetch - processPackages [marvolo]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-29 09:01:39] INFO root fetch - processPackages [ngstoolkits]: New version: [1.0.0rc1] Old Version: [0.0.0rc1]
+[2024-04-29 09:01:39] INFO root fetch - processPackages [pear-ebi]: New version: [0.1.84] Old Version: [0.1.83]
+[2024-04-29 09:01:39] INFO root fetch - processPackages [roma]: Downloading https://files.pythonhosted.org/packages/74/02/1b4dcbf2551b99b3ab3f54cea08fd4fef438f155bef9befbdf6a5598d3ac/roma-1.4.5.tar.gz
+[2024-04-29 09:01:39] INFO root fetch - processPackages [ngstoolkits]: Downloading https://files.pythonhosted.org/packages/e3/f4/86e808dc5e1805223d6e8a59990bdaedff11d9b7ba9d967e9d2fb2cf9092/ngstoolkits-0.0.0rc1.tar.gz
+[2024-04-29 09:01:39] INFO root fetch - processPackages [marvolo]: Downloading https://files.pythonhosted.org/packages/1e/4e/f3b393fdaa4578176bf3b2fec0d09b789ce7a133c1cabf01f7478e15e9a7/marvolo-0.1.6.tar.gz
+[2024-04-29 09:01:39] INFO root fetch - processPackages [bpm-ai-core]: Downloading https://files.pythonhosted.org/packages/4c/5e/5129c5374fbf01567523fdc6312e221a42436df577ee4b133d1a737f7d93/bpm_ai_core-2.5.0.tar.gz
+[2024-04-29 09:01:39] INFO root fetch - processPackages [pear-ebi]: Downloading https://files.pythonhosted.org/packages/5f/69/b14f90d6908f21ad036908faba31312201c8028f5b3123a0cb2542b459a6/pear_ebi-0.1.83.tar.gz
+[2024-04-29 09:01:39] WARNING root fetch - processPackages [pear-ebi]: Skipping package: exceeds size limit 11240631>=10485760
+[2024-04-29 09:01:39] INFO root fetch - main [MainThread]: End processing [pear-ebi] error
+[2024-04-29 09:01:40] INFO root fetch - processPackages [marvolo]: Downloading https://files.pythonhosted.org/packages/df/f5/8e06fce381c2d5361f3632414240af237586778e4e3d6df5f9bd96c16455/marvolo-0.1.7.tar.gz
+[2024-04-29 09:01:40] INFO root fetch - processPackages [roma]: Downloading https://files.pythonhosted.org/packages/fb/22/073568e2abe9b0a647a2b125b8230fa0fe32c4f6a4e0717a3e91d75dbe77/roma-1.5.0.tar.gz
+[2024-04-29 09:01:40] INFO root fetch - processPackages [ngstoolkits]: Downloading https://files.pythonhosted.org/packages/d8/70/5bf9066fe225a54b785da4016ba2a7fd1ecf8e9b04721fd89fe924de0da7/ngstoolkits-1.0.0rc1.tar.gz
+[2024-04-29 09:01:40] INFO root fetch - processPackages [bpm-ai-core]: Downloading https://files.pythonhosted.org/packages/35/af/04998f92470fc3e1d0a65463cbe55123eb9b4a4f9c6ad34296d0889b4dc0/bpm_ai_core-2.6.0.tar.gz
+[2024-04-29 09:01:40] INFO root fetch - processPackages [marvolo]: executing diffoscope
+[2024-04-29 09:01:40] INFO root fetch - processPackages [marvolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marvolo-0.1.6.tar.gz tmp/marvolo-0.1.7.tar.gz --markdown 20240429/m/marvolo/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-29 09:01:40] INFO root fetch - processPackages [ngstoolkits]: executing diffoscope
+[2024-04-29 09:01:40] INFO root fetch - processPackages [ngstoolkits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngstoolkits-0.0.0rc1.tar.gz tmp/ngstoolkits-1.0.0rc1.tar.gz --markdown 20240429/n/ngstoolkits/0.0.0rc1-1.0.0rc1/README.md --exclude *.pyd
+[2024-04-29 09:01:40] INFO root fetch - processPackages [roma]: executing diffoscope
+[2024-04-29 09:01:40] INFO root fetch - processPackages [roma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roma-1.4.5.tar.gz tmp/roma-1.5.0.tar.gz --markdown 20240429/r/roma/1.4.5-1.5.0/README.md --exclude *.pyd
+[2024-04-29 09:01:40] INFO root fetch - processPackages [bpm-ai-core]: executing diffoscope
+[2024-04-29 09:01:40] INFO root fetch - processPackages [bpm-ai-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpm_ai_core-2.5.0.tar.gz tmp/bpm_ai_core-2.6.0.tar.gz --markdown 20240429/b/bpm-ai-core/2.5.0-2.6.0/README.md --exclude *.pyd
+[2024-04-29 09:01:40] INFO root fetch - processPackages [marvolo]: Remove: archive file [/home/abi/fetcher/tmp/marvolo-0.1.6.tar.gz]
+[2024-04-29 09:01:40] INFO root fetch - processPackages [marvolo]: Remove: archive file [/home/abi/fetcher/tmp/marvolo-0.1.7.tar.gz]
+[2024-04-29 09:01:40] INFO root fetch - main [MainThread]: End processing [marvolo]: success
+[2024-04-29 09:01:41] INFO root fetch - processPackages [roma]: Remove: archive file [/home/abi/fetcher/tmp/roma-1.4.5.tar.gz]
+[2024-04-29 09:01:41] INFO root fetch - processPackages [roma]: Remove: archive file [/home/abi/fetcher/tmp/roma-1.5.0.tar.gz]
+[2024-04-29 09:01:41] INFO root fetch - main [MainThread]: End processing [roma]: success
+[2024-04-29 09:01:41] INFO root fetch - processPackages [ngstoolkits]: Remove: archive file [/home/abi/fetcher/tmp/ngstoolkits-0.0.0rc1.tar.gz]
+[2024-04-29 09:01:41] INFO root fetch - processPackages [ngstoolkits]: Remove: archive file [/home/abi/fetcher/tmp/ngstoolkits-1.0.0rc1.tar.gz]
+[2024-04-29 09:01:41] INFO root fetch - main [MainThread]: End processing [ngstoolkits]: success
+[2024-04-29 09:01:41] INFO root fetch - processPackages [bpm-ai-core]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai_core-2.5.0.tar.gz]
+[2024-04-29 09:01:41] INFO root fetch - processPackages [bpm-ai-core]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai_core-2.6.0.tar.gz]
+[2024-04-29 09:01:41] INFO root fetch - main [MainThread]: End processing [bpm-ai-core]: success
+[2024-04-29 09:01:41] INFO root fetch - main [MainThread]: Store serial: [22979754]
