@@ -11509,3 +11509,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 09:52:25] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.4.6.tar.gz]
 [2024-04-29 09:52:25] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-29 09:52:25] INFO root fetch - main [MainThread]: Store serial: [22980273]
+[2024-04-29 09:54:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980273]
+[2024-04-29 09:54:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-29 09:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kytest
+[2024-04-29 09:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlforge
+[2024-04-29 09:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: huojiweiguoba
+[2024-04-29 09:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: librus-apix
+[2024-04-29 09:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vclean
+[2024-04-29 09:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: garantipay-payment
+[2024-04-29 09:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: IslandSheds
+[2024-04-29 09:54:35] INFO root fetch - processPackages [huojiweiguoba]: New version: [9.0] Old Version: [8.0]
+[2024-04-29 09:54:35] INFO root fetch - processPackages [kytest]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 09:54:35] WARNING root fetch - processPackages [vclean]: Skipping, unable to determine old version
+[2024-04-29 09:54:35] INFO root fetch - main [MainThread]: End processing [vclean] error
+[2024-04-29 09:54:35] INFO root fetch - processPackages [IslandSheds]: New version: [0.0.27] Old Version: [0.0.26]
+[2024-04-29 09:54:35] INFO root fetch - processPackages [mlforge]: New version: [0.1.2a0] Old Version: [0.1.1a0]
+[2024-04-29 09:54:35] INFO root fetch - processPackages [huojiweiguoba]: Downloading https://files.pythonhosted.org/packages/9b/6f/b64a46e83d6bfc0f46bb336114ec9f43e3939f86a70108c310351b4f02b4/huojiweiguoba-8.0.tar.gz
+[2024-04-29 09:54:35] INFO root fetch - processPackages [garantipay-payment]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-29 09:54:35] INFO root fetch - processPackages [kytest]: Downloading https://files.pythonhosted.org/packages/38/b4/85e915d95e6d8ae6caae685be018b54adaadfcc88094c4b9a766af3f139c/kytest-0.0.8.tar.gz
+[2024-04-29 09:54:35] INFO root fetch - processPackages [librus-apix]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-04-29 09:54:35] INFO root fetch - processPackages [mlforge]: Downloading https://files.pythonhosted.org/packages/81/86/83de90936eed23b9d84c641c5ef35e85ea260041dfa228d6d1772a928ee8/mlforge-0.1.1a0.tar.gz
+[2024-04-29 09:54:35] INFO root fetch - processPackages [IslandSheds]: Downloading https://files.pythonhosted.org/packages/34/29/1579cfea023029baab4ceaf9a1a4226ec18169d55a7fbba5340193d867ac/islandsheds-0.0.26.tar.gz
+[2024-04-29 09:54:35] INFO root fetch - processPackages [garantipay-payment]: Downloading https://files.pythonhosted.org/packages/38/c3/6ed57af3c61e773d04e246220901dca51534858c492eceb2b1a29e562d23/garantipay_payment-1.0.0.tar.gz
+[2024-04-29 09:54:35] INFO root fetch - processPackages [huojiweiguoba]: Downloading https://files.pythonhosted.org/packages/3a/79/586f36e886e9e8dcfc4129b51554721e3019a3b5fc5ca074d349a5747db3/huojiweiguoba-9.0.tar.gz
+[2024-04-29 09:54:35] INFO root fetch - processPackages [librus-apix]: Downloading https://files.pythonhosted.org/packages/f0/38/7927667b150766266ac4986499b292e527a430d188c130eb620190494ff5/librus_apix-0.7.2.tar.gz
+[2024-04-29 09:54:35] INFO root fetch - processPackages [kytest]: Downloading https://files.pythonhosted.org/packages/36/f4/c3ebb11b933fe50ea919d941f19fdd760121247aa33dcca464e43242fc1c/kytest-0.0.9.tar.gz
+[2024-04-29 09:54:35] INFO root fetch - processPackages [mlforge]: Downloading https://files.pythonhosted.org/packages/51/79/26253f0659d8106f3b14f72721552c0cc31c5be6a774b48425c56fefa246/mlforge-0.1.2a0.tar.gz
+[2024-04-29 09:54:35] INFO root fetch - processPackages [huojiweiguoba]: executing diffoscope
+[2024-04-29 09:54:35] INFO root fetch - processPackages [huojiweiguoba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huojiweiguoba-8.0.tar.gz tmp/huojiweiguoba-9.0.tar.gz --markdown 20240429/h/huojiweiguoba/8.0-9.0/README.md --exclude *.pyd
+[2024-04-29 09:54:35] INFO root fetch - processPackages [IslandSheds]: Downloading https://files.pythonhosted.org/packages/24/0e/432e65e60ec015739860e8b407258a9aa3d6760add6a994761d98060a915/islandsheds-0.0.27.tar.gz
+[2024-04-29 09:54:35] INFO root fetch - processPackages [kytest]: executing diffoscope
+[2024-04-29 09:54:35] INFO root fetch - processPackages [kytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kytest-0.0.8.tar.gz tmp/kytest-0.0.9.tar.gz --markdown 20240429/k/kytest/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 09:54:35] INFO root fetch - processPackages [mlforge]: executing diffoscope
+[2024-04-29 09:54:35] INFO root fetch - processPackages [mlforge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlforge-0.1.1a0.tar.gz tmp/mlforge-0.1.2a0.tar.gz --markdown 20240429/m/mlforge/0.1.1a0-0.1.2a0/README.md --exclude *.pyd
+[2024-04-29 09:54:35] INFO root fetch - processPackages [garantipay-payment]: Downloading https://files.pythonhosted.org/packages/ff/e2/0e22e3b45c3d6a2a357852910689cd83f469211f88432fe0b59211b8bf80/garantipay_payment-1.0.1.tar.gz
+[2024-04-29 09:54:35] INFO root fetch - processPackages [IslandSheds]: executing diffoscope
+[2024-04-29 09:54:35] INFO root fetch - processPackages [IslandSheds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/islandsheds-0.0.26.tar.gz tmp/islandsheds-0.0.27.tar.gz --markdown 20240429/I/IslandSheds/0.0.26-0.0.27/README.md --exclude *.pyd
+[2024-04-29 09:54:35] INFO root fetch - processPackages [librus-apix]: Downloading https://files.pythonhosted.org/packages/3d/c3/a59be19c6505523134e87e9ae28f602245442aa74b87098bfc9f4c3252c2/librus_apix-0.7.3.tar.gz
+[2024-04-29 09:54:35] INFO root fetch - processPackages [garantipay-payment]: executing diffoscope
+[2024-04-29 09:54:35] INFO root fetch - processPackages [garantipay-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garantipay_payment-1.0.0.tar.gz tmp/garantipay_payment-1.0.1.tar.gz --markdown 20240429/g/garantipay-payment/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-29 09:54:35] INFO root fetch - processPackages [librus-apix]: executing diffoscope
+[2024-04-29 09:54:35] INFO root fetch - processPackages [librus-apix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/librus_apix-0.7.2.tar.gz tmp/librus_apix-0.7.3.tar.gz --markdown 20240429/l/librus-apix/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-04-29 09:54:36] INFO root fetch - processPackages [huojiweiguoba]: Remove: archive file [/home/abi/fetcher/tmp/huojiweiguoba-8.0.tar.gz]
+[2024-04-29 09:54:36] INFO root fetch - processPackages [huojiweiguoba]: Remove: archive file [/home/abi/fetcher/tmp/huojiweiguoba-9.0.tar.gz]
+[2024-04-29 09:54:36] INFO root fetch - main [MainThread]: End processing [huojiweiguoba]: success
+[2024-04-29 09:54:36] INFO root fetch - processPackages [kytest]: Remove: archive file [/home/abi/fetcher/tmp/kytest-0.0.8.tar.gz]
+[2024-04-29 09:54:36] INFO root fetch - processPackages [kytest]: Remove: archive file [/home/abi/fetcher/tmp/kytest-0.0.9.tar.gz]
+[2024-04-29 09:54:36] INFO root fetch - main [MainThread]: End processing [kytest]: success
+[2024-04-29 09:54:36] INFO root fetch - processPackages [mlforge]: Remove: archive file [/home/abi/fetcher/tmp/mlforge-0.1.1a0.tar.gz]
+[2024-04-29 09:54:36] INFO root fetch - processPackages [mlforge]: Remove: archive file [/home/abi/fetcher/tmp/mlforge-0.1.2a0.tar.gz]
+[2024-04-29 09:54:36] INFO root fetch - main [MainThread]: End processing [mlforge]: success
+[2024-04-29 09:54:36] INFO root fetch - processPackages [IslandSheds]: Remove: archive file [/home/abi/fetcher/tmp/islandsheds-0.0.26.tar.gz]
+[2024-04-29 09:54:36] INFO root fetch - processPackages [IslandSheds]: Remove: archive file [/home/abi/fetcher/tmp/islandsheds-0.0.27.tar.gz]
+[2024-04-29 09:54:36] INFO root fetch - main [MainThread]: End processing [IslandSheds]: success
+[2024-04-29 09:54:36] INFO root fetch - processPackages [garantipay-payment]: Remove: archive file [/home/abi/fetcher/tmp/garantipay_payment-1.0.0.tar.gz]
+[2024-04-29 09:54:36] INFO root fetch - processPackages [garantipay-payment]: Remove: archive file [/home/abi/fetcher/tmp/garantipay_payment-1.0.1.tar.gz]
+[2024-04-29 09:54:36] INFO root fetch - main [MainThread]: End processing [garantipay-payment]: success
+[2024-04-29 09:54:36] INFO root fetch - processPackages [librus-apix]: Remove: archive file [/home/abi/fetcher/tmp/librus_apix-0.7.2.tar.gz]
+[2024-04-29 09:54:36] INFO root fetch - processPackages [librus-apix]: Remove: archive file [/home/abi/fetcher/tmp/librus_apix-0.7.3.tar.gz]
+[2024-04-29 09:54:36] INFO root fetch - main [MainThread]: End processing [librus-apix]: success
+[2024-04-29 09:54:36] INFO root fetch - main [MainThread]: Store serial: [22980293]
