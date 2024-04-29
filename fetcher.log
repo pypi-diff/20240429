@@ -12144,3 +12144,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 10:19:35] INFO root fetch - processPackages [colrev]: Remove: archive file [/home/abi/fetcher/tmp/colrev-0.9.3.tar.gz]
 [2024-04-29 10:19:35] INFO root fetch - main [MainThread]: End processing [colrev]: success
 [2024-04-29 10:19:35] INFO root fetch - main [MainThread]: Store serial: [22980515]
+[2024-04-29 10:21:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980515]
+[2024-04-29 10:21:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 10:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-listing
+[2024-04-29 10:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GreenLightPlus
+[2024-04-29 10:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mkdocs-table-of-figures
+[2024-04-29 10:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: templated-setup
+[2024-04-29 10:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: automea
+[2024-04-29 10:21:46] WARNING root fetch - processPackages [templated-setup]: Skipping, unable to determine old version
+[2024-04-29 10:21:46] INFO root fetch - main [MainThread]: End processing [templated-setup] error
+[2024-04-29 10:21:46] INFO root fetch - processPackages [automea]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-29 10:21:46] INFO root fetch - processPackages [automea]: Downloading https://files.pythonhosted.org/packages/17/1d/5a049fa2fc33b6aeb3c06882bb9c336c65b377b82a1fc7d19df831d8ad9e/automea-0.0.4.tar.gz
+[2024-04-29 10:21:46] WARNING root fetch - processPackages [GreenLightPlus]: Skipping, unable to determine old version
+[2024-04-29 10:21:46] INFO root fetch - main [MainThread]: End processing [GreenLightPlus] error
+[2024-04-29 10:21:46] INFO root fetch - processPackages [mkdocs-table-of-figures]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-04-29 10:21:46] INFO root fetch - processPackages [django-listing]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-29 10:21:46] INFO root fetch - processPackages [automea]: Downloading https://files.pythonhosted.org/packages/c7/c9/aa13974bcb2c7a0a5d984093ecdc81f5a584ef5452b6b58022fc4b3e12b7/automea-0.0.5.tar.gz
+[2024-04-29 10:21:46] INFO root fetch - processPackages [mkdocs-table-of-figures]: Downloading https://files.pythonhosted.org/packages/ec/c2/c20e5246f9b76e5eef260dbe7db57a814c79b8ef7e458767c5f23206e8d5/mkdocs-table-of-figures-0.2.2.tar.gz
+[2024-04-29 10:21:46] INFO root fetch - processPackages [django-listing]: Downloading https://files.pythonhosted.org/packages/09/c8/26f5da6b956e0276700cb32085158a914277b8b81983a759ca438092704c/django-listing-0.7.8.tar.gz
+[2024-04-29 10:21:46] INFO root fetch - processPackages [automea]: executing diffoscope
+[2024-04-29 10:21:46] INFO root fetch - processPackages [automea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automea-0.0.4.tar.gz tmp/automea-0.0.5.tar.gz --markdown 20240429/a/automea/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-29 10:21:46] INFO root fetch - processPackages [mkdocs-table-of-figures]: Downloading https://files.pythonhosted.org/packages/ab/4b/6120e970787920a15ec80ab55e3f50255521dce3395f139d5f9bf8ff8eb7/mkdocs-table-of-figures-0.3.0.tar.gz
+[2024-04-29 10:21:46] INFO root fetch - processPackages [mkdocs-table-of-figures]: executing diffoscope
+[2024-04-29 10:21:46] INFO root fetch - processPackages [mkdocs-table-of-figures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-table-of-figures-0.2.2.tar.gz tmp/mkdocs-table-of-figures-0.3.0.tar.gz --markdown 20240429/m/mkdocs-table-of-figures/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-04-29 10:21:46] INFO root fetch - processPackages [django-listing]: Downloading https://files.pythonhosted.org/packages/c6/97/537d90a38c614b36afa1ce8885492729ee1347e18993887939e6e9cb14cc/django-listing-0.7.9.tar.gz
+[2024-04-29 10:21:47] INFO root fetch - processPackages [django-listing]: executing diffoscope
+[2024-04-29 10:21:47] INFO root fetch - processPackages [django-listing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-listing-0.7.8.tar.gz tmp/django-listing-0.7.9.tar.gz --markdown 20240429/d/django-listing/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-29 10:21:47] INFO root fetch - processPackages [automea]: Remove: archive file [/home/abi/fetcher/tmp/automea-0.0.4.tar.gz]
+[2024-04-29 10:21:47] INFO root fetch - processPackages [automea]: Remove: archive file [/home/abi/fetcher/tmp/automea-0.0.5.tar.gz]
+[2024-04-29 10:21:47] INFO root fetch - main [MainThread]: End processing [automea]: success
+[2024-04-29 10:21:47] INFO root fetch - processPackages [mkdocs-table-of-figures]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-table-of-figures-0.2.2.tar.gz]
+[2024-04-29 10:21:47] INFO root fetch - processPackages [mkdocs-table-of-figures]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-table-of-figures-0.3.0.tar.gz]
+[2024-04-29 10:21:47] INFO root fetch - main [MainThread]: End processing [mkdocs-table-of-figures]: success
+[2024-04-29 10:21:48] INFO root fetch - processPackages [django-listing]: Remove: archive file [/home/abi/fetcher/tmp/django-listing-0.7.8.tar.gz]
+[2024-04-29 10:21:48] INFO root fetch - processPackages [django-listing]: Remove: archive file [/home/abi/fetcher/tmp/django-listing-0.7.9.tar.gz]
+[2024-04-29 10:21:48] INFO root fetch - main [MainThread]: End processing [django-listing]: success
+[2024-04-29 10:21:48] INFO root fetch - main [MainThread]: Store serial: [22980534]
