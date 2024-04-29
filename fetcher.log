@@ -19294,3 +19294,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 14:46:15] INFO root fetch - processPackages [comet-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/comet_toolbox-0.3.6.tar.gz]
 [2024-04-29 14:46:15] INFO root fetch - main [MainThread]: End processing [comet-toolbox]: success
 [2024-04-29 14:46:15] INFO root fetch - main [MainThread]: Store serial: [22983550]
+[2024-04-29 14:48:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22983550]
+[2024-04-29 14:48:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-29 14:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: exponent-server-sdk-async
+[2024-04-29 14:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypipr
+[2024-04-29 14:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: paradime-io
+[2024-04-29 14:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: g3hardware
+[2024-04-29 14:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: medkit-lib
+[2024-04-29 14:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: threedi-schema
+[2024-04-29 14:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chellow
+[2024-04-29 14:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pre-commit-update
+[2024-04-29 14:48:24] INFO root fetch - processPackages [pypipr]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-04-29 14:48:24] INFO root fetch - processPackages [g3hardware]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-29 14:48:24] WARNING root fetch - processPackages [exponent-server-sdk-async]: Skipping, unable to determine old version
+[2024-04-29 14:48:24] INFO root fetch - main [MainThread]: End processing [exponent-server-sdk-async] error
+[2024-04-29 14:48:24] INFO root fetch - processPackages [paradime-io]: New version: [4.3.0] Old Version: [4.2.0]
+[2024-04-29 14:48:24] INFO root fetch - processPackages [threedi-schema]: New version: [0.222.dev1] Old Version: [0.222.dev0]
+[2024-04-29 14:48:24] INFO root fetch - processPackages [medkit-lib]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-29 14:48:24] INFO root fetch - processPackages [pre-commit-update]: New version: [0.3.1.post0] Old Version: [0.3.1]
+[2024-04-29 14:48:24] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/41/8e/296646c6a3d68ecf6c58c3ec52ece636443172c24750f76c7001939e52d3/pypipr-1.0.98.tar.gz
+[2024-04-29 14:48:24] INFO root fetch - processPackages [g3hardware]: Downloading https://files.pythonhosted.org/packages/d4/55/47f83e62ed045550b10c4788d05ce9e2920a5807522bc667daf1f3258b27/g3hardware-0.1.1.tar.gz
+[2024-04-29 14:48:24] INFO root fetch - processPackages [threedi-schema]: Downloading https://files.pythonhosted.org/packages/f8/1a/f8878173243c129fe29995a0c90b5124c3df01897dd4274c1e79a9515060/threedi-schema-0.222.dev0.tar.gz
+[2024-04-29 14:48:24] INFO root fetch - processPackages [paradime-io]: Downloading https://files.pythonhosted.org/packages/ee/b0/74995a458fb397b5948fad7498ee821027a37ae65dcf51d7031ef9f6011b/paradime_io-4.2.0.tar.gz
+[2024-04-29 14:48:24] INFO root fetch - processPackages [pre-commit-update]: Downloading https://files.pythonhosted.org/packages/57/ba/e8a47db7df0b871f472a03a78c58eba2e6dada0b86da0f44e0bd75123cf2/pre_commit_update-0.3.1.tar.gz
+[2024-04-29 14:48:24] INFO root fetch - processPackages [medkit-lib]: Downloading https://files.pythonhosted.org/packages/74/4b/30398372f26b3c1966e0269a882f2f47924913150928d4ad67a5a616e377/medkit_lib-0.9.1.tar.gz
+[2024-04-29 14:48:25] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/49/d0/c23afc67d1fa03531bbd97cc72ad024e79b8e25678a6a5674d469d19cdf9/pypipr-1.0.99.tar.gz
+[2024-04-29 14:48:25] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-04-29 14:48:25] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.98.tar.gz tmp/pypipr-1.0.99.tar.gz --markdown 20240429/p/pypipr/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-04-29 14:48:25] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2024-04-29 14:48:25] INFO root fetch - processPackages [g3hardware]: Downloading https://files.pythonhosted.org/packages/0c/ed/3043b4565f12059ed92649faf8d76c70f006cf96f107c0e449725ebd625c/g3hardware-0.2.0.tar.gz
+[2024-04-29 14:48:25] INFO root fetch - processPackages [pre-commit-update]: Downloading https://files.pythonhosted.org/packages/53/d9/19880b6f779be551fd7ff70ac493006af319a8f73672f137671713386778/pre_commit_update-0.3.1.post0.tar.gz
+[2024-04-29 14:48:25] INFO root fetch - processPackages [g3hardware]: executing diffoscope
+[2024-04-29 14:48:25] INFO root fetch - processPackages [g3hardware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g3hardware-0.1.1.tar.gz tmp/g3hardware-0.2.0.tar.gz --markdown 20240429/g/g3hardware/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-04-29 14:48:25] INFO root fetch - processPackages [paradime-io]: Downloading https://files.pythonhosted.org/packages/49/da/a4bb8b343df1268f62ff907fa19ef20cb607fcf041d319dfba809e281ad8/paradime_io-4.3.0.tar.gz
+[2024-04-29 14:48:25] INFO root fetch - processPackages [threedi-schema]: Downloading https://files.pythonhosted.org/packages/d0/e5/93aa48bea3e4fc58be7a5998f159840df82c4a8dbd0841898f7d5402ac36/threedi_schema-0.222.dev1.tar.gz
+[2024-04-29 14:48:25] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/53/7f/0c0b4c6862d01d54d05680973dafeac8063cadbc1558cc789060e11e064a/chellow-2826.tar.gz
+[2024-04-29 14:48:25] INFO root fetch - processPackages [paradime-io]: executing diffoscope
+[2024-04-29 14:48:25] INFO root fetch - processPackages [paradime-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paradime_io-4.2.0.tar.gz tmp/paradime_io-4.3.0.tar.gz --markdown 20240429/p/paradime-io/4.2.0-4.3.0/README.md --exclude *.pyd
+[2024-04-29 14:48:25] INFO root fetch - processPackages [medkit-lib]: Downloading https://files.pythonhosted.org/packages/70/f6/61a0acaf27d4fdaaca78a8cf0b5c78896e2916d091ef2560dc82c92f341f/medkit_lib-0.9.2.tar.gz
+[2024-04-29 14:48:25] INFO root fetch - processPackages [pre-commit-update]: executing diffoscope
+[2024-04-29 14:48:25] INFO root fetch - processPackages [pre-commit-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre_commit_update-0.3.1.tar.gz tmp/pre_commit_update-0.3.1.post0.tar.gz --markdown 20240429/p/pre-commit-update/0.3.1-0.3.1.post0/README.md --exclude *.pyd
+[2024-04-29 14:48:25] INFO root fetch - processPackages [threedi-schema]: executing diffoscope
+[2024-04-29 14:48:25] INFO root fetch - processPackages [threedi-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threedi-schema-0.222.dev0.tar.gz tmp/threedi_schema-0.222.dev1.tar.gz --markdown 20240429/t/threedi-schema/0.222.dev0-0.222.dev1/README.md --exclude *.pyd
+[2024-04-29 14:48:25] INFO root fetch - processPackages [medkit-lib]: executing diffoscope
+[2024-04-29 14:48:25] INFO root fetch - processPackages [medkit-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medkit_lib-0.9.1.tar.gz tmp/medkit_lib-0.9.2.tar.gz --markdown 20240429/m/medkit-lib/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-29 14:48:25] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/bc/64/ec72bd83957d5f6ad5cfc5f2b156b41dad4c98bee657040bbb6b98ac80b6/chellow-2827.tar.gz
+[2024-04-29 14:48:26] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2024-04-29 14:48:26] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20240429/c/chellow/2826-2827/README.md --exclude *.pyd
+[2024-04-29 14:48:26] INFO root fetch - processPackages [g3hardware]: Remove: archive file [/home/abi/fetcher/tmp/g3hardware-0.1.1.tar.gz]
+[2024-04-29 14:48:26] INFO root fetch - processPackages [g3hardware]: Remove: archive file [/home/abi/fetcher/tmp/g3hardware-0.2.0.tar.gz]
+[2024-04-29 14:48:26] INFO root fetch - main [MainThread]: End processing [g3hardware]: success
+[2024-04-29 14:48:26] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.98.tar.gz]
+[2024-04-29 14:48:26] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.99.tar.gz]
+[2024-04-29 14:48:26] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-04-29 14:48:26] INFO root fetch - processPackages [pre-commit-update]: Remove: archive file [/home/abi/fetcher/tmp/pre_commit_update-0.3.1.tar.gz]
+[2024-04-29 14:48:26] INFO root fetch - processPackages [pre-commit-update]: Remove: archive file [/home/abi/fetcher/tmp/pre_commit_update-0.3.1.post0.tar.gz]
+[2024-04-29 14:48:26] INFO root fetch - main [MainThread]: End processing [pre-commit-update]: success
+[2024-04-29 14:48:26] INFO root fetch - processPackages [paradime-io]: Remove: archive file [/home/abi/fetcher/tmp/paradime_io-4.2.0.tar.gz]
+[2024-04-29 14:48:26] INFO root fetch - processPackages [paradime-io]: Remove: archive file [/home/abi/fetcher/tmp/paradime_io-4.3.0.tar.gz]
+[2024-04-29 14:48:26] INFO root fetch - main [MainThread]: End processing [paradime-io]: success
+[2024-04-29 14:48:26] INFO root fetch - processPackages [threedi-schema]: Remove: archive file [/home/abi/fetcher/tmp/threedi-schema-0.222.dev0.tar.gz]
+[2024-04-29 14:48:26] INFO root fetch - processPackages [threedi-schema]: Remove: archive file [/home/abi/fetcher/tmp/threedi_schema-0.222.dev1.tar.gz]
+[2024-04-29 14:48:26] INFO root fetch - main [MainThread]: End processing [threedi-schema]: success
+[2024-04-29 14:48:26] INFO root fetch - processPackages [medkit-lib]: Remove: archive file [/home/abi/fetcher/tmp/medkit_lib-0.9.1.tar.gz]
+[2024-04-29 14:48:26] INFO root fetch - processPackages [medkit-lib]: Remove: archive file [/home/abi/fetcher/tmp/medkit_lib-0.9.2.tar.gz]
+[2024-04-29 14:48:26] INFO root fetch - main [MainThread]: End processing [medkit-lib]: success
+[2024-04-29 14:48:28] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2826.tar.gz]
+[2024-04-29 14:48:28] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
+[2024-04-29 14:48:28] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2024-04-29 14:48:28] INFO root fetch - main [MainThread]: Store serial: [22983581]
