@@ -6315,3 +6315,114 @@
 [2024-04-29 04:18:31] INFO root fetch - processPackages [winrt-Windows.UI.ViewManagement]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.UI.ViewManagement-2.0.1-cp312-cp312-win32.whl.zip]
 [2024-04-29 04:18:31] INFO root fetch - main [MainThread]: End processing [winrt-Windows.UI.ViewManagement]: success
 [2024-04-29 04:18:31] INFO root fetch - main [MainThread]: Store serial: [22977154]
+[2024-04-29 04:20:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22977154]
+[2024-04-29 04:20:41] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-29 04:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: winrt-Windows.UI.ViewManagement.Core
+[2024-04-29 04:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: winrt-Windows.UI.WebUI
+[2024-04-29 04:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eirStru
+[2024-04-29 04:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyqtgraph
+[2024-04-29 04:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: winrt-Windows.UI.WebUI.Core
+[2024-04-29 04:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: winrt-Windows.UI.WindowManagement
+[2024-04-29 04:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: winrt-Windows.UI.WindowManagement.Preview
+[2024-04-29 04:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: winrt-Windows.UI.Xaml
+[2024-04-29 04:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: winrt-Windows.UI.Xaml.Automation
+[2024-04-29 04:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: winrt-Windows.UI.Xaml.Automation.Peers
+[2024-04-29 04:20:41] INFO root fetch - processPackages [winrt-Windows.UI.ViewManagement.Core]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 04:20:41] INFO root fetch - processPackages [eirStru]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-29 04:20:41] INFO root fetch - processPackages [winrt-Windows.UI.WindowManagement]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 04:20:41] INFO root fetch - processPackages [pyqtgraph]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-29 04:20:41] INFO root fetch - processPackages [winrt-Windows.UI.Xaml.Automation]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 04:20:41] INFO root fetch - processPackages [winrt-Windows.UI.WebUI.Core]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 04:20:41] INFO root fetch - processPackages [winrt-Windows.UI.Xaml]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 04:20:41] INFO root fetch - processPackages [winrt-Windows.UI.WindowManagement.Preview]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 04:20:41] INFO root fetch - processPackages [winrt-Windows.UI.WebUI]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 04:20:41] INFO root fetch - processPackages [winrt-Windows.UI.Xaml.Automation.Peers]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 04:20:41] INFO root fetch - processPackages [winrt-Windows.UI.ViewManagement.Core]: Downloading https://files.pythonhosted.org/packages/a7/3a/9c5e3529387b154d2aaf35aca401762456c08ee356d977139f4512b7f55b/winrt-Windows.UI.ViewManagement.Core-2.0.0b2.tar.gz
+[2024-04-29 04:20:41] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/b5/2a/25fb95363a9110b32ccbc230c8a5f6207e35c7c5906b6f63320a4ca71535/eirStru-0.3.8.tar.gz
+[2024-04-29 04:20:41] INFO root fetch - processPackages [winrt-Windows.UI.WindowManagement]: Downloading https://files.pythonhosted.org/packages/57/de/63703aeae58789337f5e6ca3293dd96029794a9e48bd85a419c94fb18e1e/winrt-Windows.UI.WindowManagement-2.0.0b2.tar.gz
+[2024-04-29 04:20:42] INFO root fetch - processPackages [pyqtgraph]: Downloading https://files.pythonhosted.org/packages/ed/1e/6d130184f35c8c4aeb8488c7da0b06cbae239710648fc1086778391e32bf/pyqtgraph-0.9.7.tar.gz
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.WebUI.Core]: Downloading https://files.pythonhosted.org/packages/2c/43/3504a50785c1f0704ea0575d4e25cbed7f3a2d1c8a7b7d47eed0481548b2/winrt-Windows.UI.WebUI.Core-2.0.0b2.tar.gz
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.Xaml]: Downloading https://files.pythonhosted.org/packages/e6/24/e56f24e4f957da68a17cc9d24add2d500947a83faf1792574db2b36e9ece/winrt-Windows.UI.Xaml-2.0.0b2.tar.gz
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.WindowManagement.Preview]: Downloading https://files.pythonhosted.org/packages/06/aa/4ad7e51e0365a44af6d1292a314c0f9486944e372de7b0457ad378a1012e/winrt-Windows.UI.WindowManagement.Preview-2.0.0b2.tar.gz
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.WebUI]: Downloading https://files.pythonhosted.org/packages/d5/aa/96942915cb6ec17ac0e6e3dd4ae61a455db5176ee206ae17c791eb8d6631/winrt-Windows.UI.WebUI-2.0.0b2.tar.gz
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.Xaml.Automation]: Downloading https://files.pythonhosted.org/packages/46/e5/0a3e085f4c17efe99dcb03d23b0bd26aa7d37ff37551e21de9fa58616889/winrt-Windows.UI.Xaml.Automation-2.0.0b2.tar.gz
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.Xaml.Automation.Peers]: Downloading https://files.pythonhosted.org/packages/de/3b/98e14b66188d010813d5ec30b0548199b9a122486dc6c6bb303a670b429d/winrt-Windows.UI.Xaml.Automation.Peers-2.0.0b2.tar.gz
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.ViewManagement.Core]: Downloading https://files.pythonhosted.org/packages/d3/ce/c3c479fdadf4c7f317d6ef489d16427fee9263dac1abe398accbc694ab45/winrt_Windows.UI.ViewManagement.Core-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 04:20:42] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/26/ce/8cae1a6c9a510bd827a325862ceb832b9e593422dff66af06aa3bdda4f40/eirStru-0.3.9.tar.gz
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.WindowManagement]: Downloading https://files.pythonhosted.org/packages/22/e5/e8f448df85540eb89ced2eff14955d5a00e6ae86fc5e15848526d7bc0091/winrt_Windows.UI.WindowManagement-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.WebUI.Core]: Downloading https://files.pythonhosted.org/packages/9e/50/c1a76adc4a8433983bf139e4287e73df21a9b65c11cf6cd95e5ae93132e0/winrt_Windows.UI.WebUI.Core-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.WindowManagement.Preview]: Downloading https://files.pythonhosted.org/packages/39/dc/514cb8310fed0c8464a632087458f1fd44b8ea027e3a50ff4f0d5b1e5095/winrt_Windows.UI.WindowManagement.Preview-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.Xaml]: Downloading https://files.pythonhosted.org/packages/51/c9/51aa32e78b2b2dbf05d5235548084683550b1cc14c053c2deda980404287/winrt_Windows.UI.Xaml-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 04:20:42] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-29 04:20:42] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.3.8.tar.gz tmp/eirStru-0.3.9.tar.gz --markdown 20240429/e/eirStru/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.Xaml.Automation]: Downloading https://files.pythonhosted.org/packages/5a/a8/e710068244f0bb7e471174a54cc42a3e9ab438e321442649f1d9d930b717/winrt_Windows.UI.Xaml.Automation-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.WebUI]: Downloading https://files.pythonhosted.org/packages/9d/05/d8ddb9d0331f5bf119ca4f61dd93f0e85f6a41b71557771a5984e2812610/winrt_Windows.UI.WebUI-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 04:20:42] INFO root fetch - processPackages [pyqtgraph]: Downloading https://files.pythonhosted.org/packages/3c/ae/482ffc3f9c4a0e21502417cb0504acd8b91779ce0381018518a4173b36ab/pyqtgraph-0.9.8.tar.gz
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.ViewManagement.Core]: executing diffoscope
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.ViewManagement.Core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.UI.ViewManagement.Core-2.0.0b2.tar.gz tmp/winrt_Windows.UI.ViewManagement.Core-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.UI.ViewManagement.Core/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.WindowManagement]: executing diffoscope
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.WindowManagement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.UI.WindowManagement-2.0.0b2.tar.gz tmp/winrt_Windows.UI.WindowManagement-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.UI.WindowManagement/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.WebUI.Core]: executing diffoscope
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.WebUI.Core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.UI.WebUI.Core-2.0.0b2.tar.gz tmp/winrt_Windows.UI.WebUI.Core-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.UI.WebUI.Core/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.WindowManagement.Preview]: executing diffoscope
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.WindowManagement.Preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.UI.WindowManagement.Preview-2.0.0b2.tar.gz tmp/winrt_Windows.UI.WindowManagement.Preview-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.UI.WindowManagement.Preview/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.Xaml.Automation.Peers]: Downloading https://files.pythonhosted.org/packages/fc/89/e91cb4c8cc74dc8a15a3417da3163d225098d1ed8ec961afd8805947f6f8/winrt_Windows.UI.Xaml.Automation.Peers-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.Xaml]: executing diffoscope
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.Xaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.UI.Xaml-2.0.0b2.tar.gz tmp/winrt_Windows.UI.Xaml-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.UI.Xaml/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 04:20:42] INFO root fetch - processPackages [pyqtgraph]: executing diffoscope
+[2024-04-29 04:20:42] INFO root fetch - processPackages [pyqtgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqtgraph-0.9.7.tar.gz tmp/pyqtgraph-0.9.8.tar.gz --markdown 20240429/p/pyqtgraph/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.Xaml.Automation]: executing diffoscope
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.Xaml.Automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.UI.Xaml.Automation-2.0.0b2.tar.gz tmp/winrt_Windows.UI.Xaml.Automation-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.UI.Xaml.Automation/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.WebUI]: executing diffoscope
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.WebUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.UI.WebUI-2.0.0b2.tar.gz tmp/winrt_Windows.UI.WebUI-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.UI.WebUI/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.Xaml.Automation.Peers]: executing diffoscope
+[2024-04-29 04:20:42] INFO root fetch - processPackages [winrt-Windows.UI.Xaml.Automation.Peers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.UI.Xaml.Automation.Peers-2.0.0b2.tar.gz tmp/winrt_Windows.UI.Xaml.Automation.Peers-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.UI.Xaml.Automation.Peers/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 04:20:43] INFO root fetch - processPackages [winrt-Windows.UI.ViewManagement.Core]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.UI.ViewManagement.Core-2.0.0b2.tar.gz]
+[2024-04-29 04:20:43] INFO root fetch - processPackages [winrt-Windows.UI.ViewManagement.Core]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.UI.ViewManagement.Core-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 04:20:43] INFO root fetch - processPackages [winrt-Windows.UI.ViewManagement.Core]: Start processing: bambot
+[2024-04-29 04:20:43] INFO root fetch - main [MainThread]: End processing [winrt-Windows.UI.ViewManagement.Core]: success
+[2024-04-29 04:20:43] INFO root fetch - processPackages [bambot]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-29 04:20:43] INFO root fetch - processPackages [bambot]: Downloading https://files.pythonhosted.org/packages/5a/88/018b8029d84dbe54f70fb584a96b6bc2fe2ba5a14b2ce3dcc217f3fc0aae/bambot-0.3.1.tar.gz
+[2024-04-29 04:20:43] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.8.tar.gz]
+[2024-04-29 04:20:43] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.9.tar.gz]
+[2024-04-29 04:20:43] INFO root fetch - processPackages [eirStru]: Start processing: winrt-Windows.UI.Xaml.Automation.Provider
+[2024-04-29 04:20:43] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-29 04:20:43] INFO root fetch - processPackages [winrt-Windows.UI.WebUI.Core]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.UI.WebUI.Core-2.0.0b2.tar.gz]
+[2024-04-29 04:20:43] INFO root fetch - processPackages [winrt-Windows.UI.WebUI.Core]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.UI.WebUI.Core-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 04:20:43] INFO root fetch - processPackages [winrt-Windows.UI.WindowManagement.Preview]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.UI.WindowManagement.Preview-2.0.0b2.tar.gz]
+[2024-04-29 04:20:43] INFO root fetch - main [MainThread]: End processing [winrt-Windows.UI.WebUI.Core]: success
+[2024-04-29 04:20:43] INFO root fetch - processPackages [winrt-Windows.UI.WindowManagement.Preview]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.UI.WindowManagement.Preview-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 04:20:43] INFO root fetch - main [MainThread]: End processing [winrt-Windows.UI.WindowManagement.Preview]: success
+[2024-04-29 04:20:43] INFO root fetch - processPackages [winrt-Windows.UI.Xaml]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.UI.Xaml-2.0.0b2.tar.gz]
+[2024-04-29 04:20:43] INFO root fetch - processPackages [winrt-Windows.UI.Xaml]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.UI.Xaml-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 04:20:43] INFO root fetch - main [MainThread]: End processing [winrt-Windows.UI.Xaml]: success
+[2024-04-29 04:20:43] INFO root fetch - processPackages [winrt-Windows.UI.WindowManagement]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.UI.WindowManagement-2.0.0b2.tar.gz]
+[2024-04-29 04:20:43] INFO root fetch - processPackages [winrt-Windows.UI.WindowManagement]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.UI.WindowManagement-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 04:20:43] INFO root fetch - main [MainThread]: End processing [winrt-Windows.UI.WindowManagement]: success
+[2024-04-29 04:20:43] INFO root fetch - processPackages [winrt-Windows.UI.Xaml.Automation]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.UI.Xaml.Automation-2.0.0b2.tar.gz]
+[2024-04-29 04:20:43] INFO root fetch - processPackages [winrt-Windows.UI.Xaml.Automation]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.UI.Xaml.Automation-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 04:20:43] INFO root fetch - main [MainThread]: End processing [winrt-Windows.UI.Xaml.Automation]: success
+[2024-04-29 04:20:43] INFO root fetch - processPackages [winrt-Windows.UI.Xaml.Automation.Provider]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 04:20:43] INFO root fetch - processPackages [winrt-Windows.UI.Xaml.Automation.Peers]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.UI.Xaml.Automation.Peers-2.0.0b2.tar.gz]
+[2024-04-29 04:20:43] INFO root fetch - processPackages [winrt-Windows.UI.Xaml.Automation.Peers]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.UI.Xaml.Automation.Peers-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 04:20:43] INFO root fetch - main [MainThread]: End processing [winrt-Windows.UI.Xaml.Automation.Peers]: success
+[2024-04-29 04:20:43] INFO root fetch - processPackages [bambot]: Downloading https://files.pythonhosted.org/packages/b9/7d/3c35b22912a632cf68479d57b286597689a39ad86dc20601abbd174856f5/bambot-0.3.2.tar.gz
+[2024-04-29 04:20:43] INFO root fetch - processPackages [winrt-Windows.UI.WebUI]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.UI.WebUI-2.0.0b2.tar.gz]
+[2024-04-29 04:20:43] INFO root fetch - processPackages [winrt-Windows.UI.WebUI]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.UI.WebUI-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 04:20:43] INFO root fetch - main [MainThread]: End processing [winrt-Windows.UI.WebUI]: success
+[2024-04-29 04:20:43] INFO root fetch - processPackages [bambot]: executing diffoscope
+[2024-04-29 04:20:43] INFO root fetch - processPackages [bambot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambot-0.3.1.tar.gz tmp/bambot-0.3.2.tar.gz --markdown 20240429/b/bambot/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-29 04:20:43] INFO root fetch - processPackages [winrt-Windows.UI.Xaml.Automation.Provider]: Downloading https://files.pythonhosted.org/packages/6e/8b/2eebbc9eeb2edae761e53292d0f3bca339caef137984f52d284d85807886/winrt-Windows.UI.Xaml.Automation.Provider-2.0.0b2.tar.gz
+[2024-04-29 04:20:44] INFO root fetch - processPackages [winrt-Windows.UI.Xaml.Automation.Provider]: Downloading https://files.pythonhosted.org/packages/f8/f2/a1c792f49d40b515ac4aa26d08d501d7eeeedd3c449541d10926c6438b86/winrt_Windows.UI.Xaml.Automation.Provider-2.0.1-cp311-cp311-win_amd64.whl
+[2024-04-29 04:20:44] INFO root fetch - processPackages [bambot]: Remove: archive file [/home/abi/fetcher/tmp/bambot-0.3.1.tar.gz]
+[2024-04-29 04:20:44] INFO root fetch - processPackages [bambot]: Remove: archive file [/home/abi/fetcher/tmp/bambot-0.3.2.tar.gz]
+[2024-04-29 04:20:44] INFO root fetch - main [MainThread]: End processing [bambot]: success
+[2024-04-29 04:20:44] INFO root fetch - processPackages [winrt-Windows.UI.Xaml.Automation.Provider]: executing diffoscope
+[2024-04-29 04:20:44] INFO root fetch - processPackages [winrt-Windows.UI.Xaml.Automation.Provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.UI.Xaml.Automation.Provider-2.0.0b2.tar.gz tmp/winrt_Windows.UI.Xaml.Automation.Provider-2.0.1-cp311-cp311-win_amd64.whl.zip --markdown 20240429/w/winrt-Windows.UI.Xaml.Automation.Provider/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 04:20:45] INFO root fetch - processPackages [winrt-Windows.UI.Xaml.Automation.Provider]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.UI.Xaml.Automation.Provider-2.0.0b2.tar.gz]
+[2024-04-29 04:20:45] INFO root fetch - processPackages [winrt-Windows.UI.Xaml.Automation.Provider]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.UI.Xaml.Automation.Provider-2.0.1-cp311-cp311-win_amd64.whl.zip]
+[2024-04-29 04:20:45] INFO root fetch - main [MainThread]: End processing [winrt-Windows.UI.Xaml.Automation.Provider]: success
+[2024-04-29 04:20:48] INFO root fetch - processPackages [pyqtgraph]: Remove: archive file [/home/abi/fetcher/tmp/pyqtgraph-0.9.7.tar.gz]
+[2024-04-29 04:20:48] INFO root fetch - processPackages [pyqtgraph]: Remove: archive file [/home/abi/fetcher/tmp/pyqtgraph-0.9.8.tar.gz]
+[2024-04-29 04:20:48] INFO root fetch - main [MainThread]: End processing [pyqtgraph]: success
+[2024-04-29 04:20:48] INFO root fetch - main [MainThread]: Store serial: [22977275]
