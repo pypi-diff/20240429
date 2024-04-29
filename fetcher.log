@@ -10070,3 +10070,38 @@
 [2024-04-29 08:46:15] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
 [2024-04-29 08:46:15] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
 [2024-04-29 08:46:15] INFO root fetch - main [MainThread]: Store serial: [22979592]
+[2024-04-29 08:48:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979592]
+[2024-04-29 08:48:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 08:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rho-store
+[2024-04-29 08:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: columnq-cli
+[2024-04-29 08:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cutseq
+[2024-04-29 08:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: IslandSheds
+[2024-04-29 08:48:24] INFO root fetch - processPackages [IslandSheds]: New version: [0.0.20] Old Version: [0.0.19]
+[2024-04-29 08:48:24] INFO root fetch - processPackages [columnq-cli]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-29 08:48:24] INFO root fetch - processPackages [columnq-cli]: Downloading https://files.pythonhosted.org/packages/f3/de/1b3f07dce4ff390f9cee077d2d93bfb809d8e077792c9f4afa4d314409d7/columnq_cli-0.4.0-py3-none-win_amd64.whl
+[2024-04-29 08:48:24] INFO root fetch - processPackages [rho-store]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 08:48:24] WARNING root fetch - processPackages [columnq-cli]: Skipping package: exceeds size limit 16239499>=10485760
+[2024-04-29 08:48:24] INFO root fetch - main [MainThread]: End processing [columnq-cli] error
+[2024-04-29 08:48:25] INFO root fetch - processPackages [IslandSheds]: Downloading https://files.pythonhosted.org/packages/29/c2/83a0d463b2c00d0aeea198f8320627115346b852456ab98235d7d7570dc9/islandsheds-0.0.19.tar.gz
+[2024-04-29 08:48:25] INFO root fetch - processPackages [cutseq]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 08:48:25] INFO root fetch - processPackages [rho-store]: Downloading https://files.pythonhosted.org/packages/8c/d7/d1ba0915e4b26fa83558ddb23d5bc3f9d4f5e195de3759fe1761344a392f/rho_store-0.1.8.tar.gz
+[2024-04-29 08:48:25] INFO root fetch - processPackages [cutseq]: Downloading https://files.pythonhosted.org/packages/95/33/6984c0732c17eb925be43f23c0c27167392d2900fcd21ebf93d9b68f6c2a/cutseq-0.0.8.tar.gz
+[2024-04-29 08:48:25] INFO root fetch - processPackages [IslandSheds]: Downloading https://files.pythonhosted.org/packages/8f/a1/d58e101e75f0c29f3debd2576487a52fe558f34dbd7539ff523c92169108/islandsheds-0.0.20.tar.gz
+[2024-04-29 08:48:25] INFO root fetch - processPackages [IslandSheds]: executing diffoscope
+[2024-04-29 08:48:25] INFO root fetch - processPackages [IslandSheds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/islandsheds-0.0.19.tar.gz tmp/islandsheds-0.0.20.tar.gz --markdown 20240429/I/IslandSheds/0.0.19-0.0.20/README.md --exclude *.pyd
+[2024-04-29 08:48:25] INFO root fetch - processPackages [rho-store]: Downloading https://files.pythonhosted.org/packages/53/49/0372d02960238feefcb5b4837c8e61a535923943dd4ae967ce2953157b26/rho_store-0.1.9.tar.gz
+[2024-04-29 08:48:25] INFO root fetch - processPackages [rho-store]: executing diffoscope
+[2024-04-29 08:48:25] INFO root fetch - processPackages [rho-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rho_store-0.1.8.tar.gz tmp/rho_store-0.1.9.tar.gz --markdown 20240429/r/rho-store/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 08:48:25] INFO root fetch - processPackages [cutseq]: Downloading https://files.pythonhosted.org/packages/e5/82/45b103e58b439dac0cf4c7f6ef6957633721ec0f4553abfabba5ed961a0f/cutseq-0.0.9.tar.gz
+[2024-04-29 08:48:25] INFO root fetch - processPackages [cutseq]: executing diffoscope
+[2024-04-29 08:48:25] INFO root fetch - processPackages [cutseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cutseq-0.0.8.tar.gz tmp/cutseq-0.0.9.tar.gz --markdown 20240429/c/cutseq/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 08:48:26] INFO root fetch - processPackages [IslandSheds]: Remove: archive file [/home/abi/fetcher/tmp/islandsheds-0.0.19.tar.gz]
+[2024-04-29 08:48:26] INFO root fetch - processPackages [IslandSheds]: Remove: archive file [/home/abi/fetcher/tmp/islandsheds-0.0.20.tar.gz]
+[2024-04-29 08:48:26] INFO root fetch - main [MainThread]: End processing [IslandSheds]: success
+[2024-04-29 08:48:26] INFO root fetch - processPackages [rho-store]: Remove: archive file [/home/abi/fetcher/tmp/rho_store-0.1.8.tar.gz]
+[2024-04-29 08:48:26] INFO root fetch - processPackages [rho-store]: Remove: archive file [/home/abi/fetcher/tmp/rho_store-0.1.9.tar.gz]
+[2024-04-29 08:48:26] INFO root fetch - main [MainThread]: End processing [rho-store]: success
+[2024-04-29 08:48:26] INFO root fetch - processPackages [cutseq]: Remove: archive file [/home/abi/fetcher/tmp/cutseq-0.0.8.tar.gz]
+[2024-04-29 08:48:26] INFO root fetch - processPackages [cutseq]: Remove: archive file [/home/abi/fetcher/tmp/cutseq-0.0.9.tar.gz]
+[2024-04-29 08:48:26] INFO root fetch - main [MainThread]: End processing [cutseq]: success
+[2024-04-29 08:48:26] INFO root fetch - main [MainThread]: Store serial: [22979607]
