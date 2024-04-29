@@ -1141,3 +1141,42 @@
 [2024-04-29 02:03:54] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240428.tar.gz]
 [2024-04-29 02:03:54] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
 [2024-04-29 02:03:54] INFO root fetch - main [MainThread]: Store serial: [22971668]
+[2024-04-29 02:05:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971668]
+[2024-04-29 02:06:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 02:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bambot
+[2024-04-29 02:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mct-nightly
+[2024-04-29 02:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaxkern-nightly
+[2024-04-29 02:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: notolog
+[2024-04-29 02:06:03] INFO root fetch - processPackages [notolog]: New version: [0.9.0b2] Old Version: [0.9.0b1]
+[2024-04-29 02:06:03] INFO root fetch - processPackages [bambot]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-04-29 02:06:03] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2024-04-29 02:06:03] INFO root fetch - processPackages [mct-nightly]: New version: [2.0.0.20240428.521] Old Version: [2.0.0.20240427.446]
+[2024-04-29 02:06:03] INFO root fetch - processPackages [notolog]: Downloading https://files.pythonhosted.org/packages/51/26/e950f32988c906d548c482ea0a68ed648cd998b79a105ceb4957ebc84e45/notolog-0.9.0b1.tar.gz
+[2024-04-29 02:06:03] INFO root fetch - processPackages [bambot]: Downloading https://files.pythonhosted.org/packages/2a/95/67f467f3cd52343c021703e26f081a8951a72c379e6af82240de0d9cc520/bambot-0.2.1.tar.gz
+[2024-04-29 02:06:03] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2024-04-29 02:06:03] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/a4/8b/d530a2b365e48951f93880f7feec0fbc479aa27bd8da3a9e2cfbfba9695f/mct-nightly-2.0.0.20240427.446.tar.gz
+[2024-04-29 02:06:04] INFO root fetch - processPackages [bambot]: Downloading https://files.pythonhosted.org/packages/ae/8d/2b007ae5bc3602869e13650b779cd3af63eebc65282218beb6e0145563fe/bambot-0.3.0.tar.gz
+[2024-04-29 02:06:04] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2024-04-29 02:06:04] INFO root fetch - processPackages [bambot]: executing diffoscope
+[2024-04-29 02:06:04] INFO root fetch - processPackages [bambot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambot-0.2.1.tar.gz tmp/bambot-0.3.0.tar.gz --markdown 20240429/b/bambot/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-04-29 02:06:04] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2024-04-29 02:06:04] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20240429/j/jaxkern-nightly/0.dev20221221-0.dev20221222/README.md --exclude *.pyd
+[2024-04-29 02:06:04] INFO root fetch - processPackages [notolog]: Downloading https://files.pythonhosted.org/packages/db/ab/34a5b21fb04cd40913853a523b247c1010911c7b82f4f24cde6e71639bce/notolog-0.9.0b2.tar.gz
+[2024-04-29 02:06:04] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/ae/26/e9b66259e84b2acf1561aa6e3f2b4882b1ba6477530775ed99bca0b779eb/mct-nightly-2.0.0.20240428.521.tar.gz
+[2024-04-29 02:06:04] INFO root fetch - processPackages [notolog]: executing diffoscope
+[2024-04-29 02:06:04] INFO root fetch - processPackages [notolog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notolog-0.9.0b1.tar.gz tmp/notolog-0.9.0b2.tar.gz --markdown 20240429/n/notolog/0.9.0b1-0.9.0b2/README.md --exclude *.pyd
+[2024-04-29 02:06:04] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-04-29 02:06:04] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-2.0.0.20240427.446.tar.gz tmp/mct-nightly-2.0.0.20240428.521.tar.gz --markdown 20240429/m/mct-nightly/2.0.0.20240427.446-2.0.0.20240428.521/README.md --exclude *.pyd
+[2024-04-29 02:06:04] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2024-04-29 02:06:04] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2024-04-29 02:06:04] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2024-04-29 02:06:05] INFO root fetch - processPackages [bambot]: Remove: archive file [/home/abi/fetcher/tmp/bambot-0.2.1.tar.gz]
+[2024-04-29 02:06:05] INFO root fetch - processPackages [bambot]: Remove: archive file [/home/abi/fetcher/tmp/bambot-0.3.0.tar.gz]
+[2024-04-29 02:06:05] INFO root fetch - main [MainThread]: End processing [bambot]: success
+[2024-04-29 02:06:05] INFO root fetch - processPackages [notolog]: Remove: archive file [/home/abi/fetcher/tmp/notolog-0.9.0b1.tar.gz]
+[2024-04-29 02:06:05] INFO root fetch - processPackages [notolog]: Remove: archive file [/home/abi/fetcher/tmp/notolog-0.9.0b2.tar.gz]
+[2024-04-29 02:06:05] INFO root fetch - main [MainThread]: End processing [notolog]: success
+[2024-04-29 02:06:06] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240427.446.tar.gz]
+[2024-04-29 02:06:06] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240428.521.tar.gz]
+[2024-04-29 02:06:06] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-04-29 02:06:06] INFO root fetch - main [MainThread]: Store serial: [22971680]
