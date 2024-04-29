@@ -15031,3 +15031,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 12:06:46] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
 [2024-04-29 12:06:46] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
 [2024-04-29 12:06:46] INFO root fetch - main [MainThread]: Store serial: [22981863]
+[2024-04-29 12:08:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22981863]
+[2024-04-29 12:08:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 12:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2024-04-29 12:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bagelML
+[2024-04-29 12:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: specklia
+[2024-04-29 12:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qg_toolkit
+[2024-04-29 12:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-keras-nightly
+[2024-04-29 12:08:55] WARNING root fetch - processPackages [qg_toolkit]: Skipping, unable to determine old version
+[2024-04-29 12:08:55] INFO root fetch - main [MainThread]: End processing [qg_toolkit] error
+[2024-04-29 12:08:55] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024042809] Old Version: [2.17.0.dev2024042709]
+[2024-04-29 12:08:55] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-29 12:08:55] INFO root fetch - processPackages [bagelML]: New version: [0.0.14] Old Version: [0.0.13]
+[2024-04-29 12:08:55] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/75/4c/a311156da952cc37d87adaac764ac3de289bd63d0c842c012290697d2677/tf_keras_nightly-2.17.0.dev2024042709.tar.gz
+[2024-04-29 12:08:55] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/a7/9f/4720917cb05f5cbc2f231e1f8046c023fc1f91d4aaefdae32d0a739be648/specklia-1.8.8.tar.gz
+[2024-04-29 12:08:55] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-04-29 12:08:55] INFO root fetch - processPackages [bagelML]: Downloading https://files.pythonhosted.org/packages/9b/2c/597926166dd30c7ab6d08489a09b59648ac4c4a2e057d009a576579279f8/bagelML-0.0.13.tar.gz
+[2024-04-29 12:08:55] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-04-29 12:08:55] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-04-29 12:08:55] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-04-29 12:08:55] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.8.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240429/s/specklia/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-04-29 12:08:55] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/aa/87/0aec164740dc8ad1c99134a969e89cbbb5ad09d4c3c797953884f437e437/tf_keras_nightly-2.17.0.dev2024042809.tar.gz
+[2024-04-29 12:08:56] INFO root fetch - processPackages [bagelML]: Downloading https://files.pythonhosted.org/packages/16/62/e08d74c63edbf7aa050fc193d85cb9177cf49bf705a53d5045b37fea4f8c/bagelML-0.0.14.tar.gz
+[2024-04-29 12:08:56] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-04-29 12:08:56] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras_nightly-2.17.0.dev2024042709.tar.gz tmp/tf_keras_nightly-2.17.0.dev2024042809.tar.gz --markdown 20240429/t/tf-keras-nightly/2.17.0.dev2024042709-2.17.0.dev2024042809/README.md --exclude *.pyd
+[2024-04-29 12:08:56] INFO root fetch - processPackages [bagelML]: executing diffoscope
+[2024-04-29 12:08:56] INFO root fetch - processPackages [bagelML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagelML-0.0.13.tar.gz tmp/bagelML-0.0.14.tar.gz --markdown 20240429/b/bagelML/0.0.13-0.0.14/README.md --exclude *.pyd
+[2024-04-29 12:08:56] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-04-29 12:08:56] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.8.tar.gz]
+[2024-04-29 12:08:56] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-04-29 12:08:56] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-04-29 12:08:56] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-29 12:08:56] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240429/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-29 12:08:56] INFO root fetch - processPackages [bagelML]: Remove: archive file [/home/abi/fetcher/tmp/bagelML-0.0.13.tar.gz]
+[2024-04-29 12:08:56] INFO root fetch - processPackages [bagelML]: Remove: archive file [/home/abi/fetcher/tmp/bagelML-0.0.14.tar.gz]
+[2024-04-29 12:08:56] INFO root fetch - main [MainThread]: End processing [bagelML]: success
+[2024-04-29 12:08:57] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-04-29 12:08:57] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-04-29 12:08:57] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-29 12:08:58] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024042709.tar.gz]
+[2024-04-29 12:08:58] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024042809.tar.gz]
+[2024-04-29 12:08:58] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-04-29 12:08:58] INFO root fetch - main [MainThread]: Store serial: [22981880]
