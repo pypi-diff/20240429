@@ -1180,3 +1180,54 @@
 [2024-04-29 02:06:06] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240428.521.tar.gz]
 [2024-04-29 02:06:06] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2024-04-29 02:06:06] INFO root fetch - main [MainThread]: Store serial: [22971680]
+[2024-04-29 02:08:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971680]
+[2024-04-29 02:08:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-29 02:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: WSI-PeruDB
+[2024-04-29 02:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxutils-nightly
+[2024-04-29 02:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bolt
+[2024-04-29 02:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: passive-honeypot
+[2024-04-29 02:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: notolog
+[2024-04-29 02:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-common
+[2024-04-29 02:08:14] INFO root fetch - processPackages [passive-honeypot]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-29 02:08:14] INFO root fetch - processPackages [notolog]: New version: [0.9.0b3] Old Version: [0.9.0b2]
+[2024-04-29 02:08:14] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240428] Old Version: [0.0.8.dev20240427]
+[2024-04-29 02:08:15] WARNING root fetch - processPackages [WSI-PeruDB]: Skipping, unable to determine old version
+[2024-04-29 02:08:15] INFO root fetch - main [MainThread]: End processing [WSI-PeruDB] error
+[2024-04-29 02:08:15] INFO root fetch - processPackages [notolog]: Downloading https://files.pythonhosted.org/packages/db/ab/34a5b21fb04cd40913853a523b247c1010911c7b82f4f24cde6e71639bce/notolog-0.9.0b2.tar.gz
+[2024-04-29 02:08:15] INFO root fetch - processPackages [bolt]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-29 02:08:15] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/3e/19/87a86a6088f7c459d0cc250012c760d60f5f19184756c864ca2d0cf95b41/jaxutils-nightly-0.0.8.dev20240427.tar.gz
+[2024-04-29 02:08:15] INFO root fetch - processPackages [passive-honeypot]: Downloading https://files.pythonhosted.org/packages/c7/b8/396a9691030f63d56c97dfd3db9f372c94cdc37cb0a6c3d35a6a102256eb/passive_honeypot-0.1.0.tar.gz
+[2024-04-29 02:08:15] INFO root fetch - processPackages [bolt]: Downloading https://files.pythonhosted.org/packages/b0/b9/aaddbe8ae8cc9a097a85c0711e9c6d9607fa4d7468dfd1ab2f800d929674/bolt-0.9.0.tar.gz
+[2024-04-29 02:08:15] INFO root fetch - processPackages [notolog]: Downloading https://files.pythonhosted.org/packages/9c/42/90bf102cbf4582ac874001580196a09685ed61b6ea423f7fbb193f9d841f/notolog-0.9.0b3.tar.gz
+[2024-04-29 02:08:15] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/02/0d/33291941622c97ef90b9445346022c6f19f26fbe5d8a6d8a2c9bf76705a4/jaxutils-nightly-0.0.8.dev20240428.tar.gz
+[2024-04-29 02:08:15] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-29 02:08:15] INFO root fetch - processPackages [notolog]: executing diffoscope
+[2024-04-29 02:08:15] INFO root fetch - processPackages [notolog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notolog-0.9.0b2.tar.gz tmp/notolog-0.9.0b3.tar.gz --markdown 20240429/n/notolog/0.9.0b2-0.9.0b3/README.md --exclude *.pyd
+[2024-04-29 02:08:15] INFO root fetch - processPackages [passive-honeypot]: Downloading https://files.pythonhosted.org/packages/63/a8/86bc3a4bf5a7d589ebc10ae959815fd220fd43d3ad06b619f39c18d39109/passive_honeypot-0.1.1.tar.gz
+[2024-04-29 02:08:15] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-04-29 02:08:15] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240427.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240428.tar.gz --markdown 20240429/j/jaxutils-nightly/0.0.8.dev20240427-0.0.8.dev20240428/README.md --exclude *.pyd
+[2024-04-29 02:08:15] INFO root fetch - processPackages [bolt]: Downloading https://files.pythonhosted.org/packages/44/fb/099c90357e45099a47c6020a63bb445ee8cf608b319120018d3bcb6b4640/bolt-0.9.1.tar.gz
+[2024-04-29 02:08:15] INFO root fetch - processPackages [passive-honeypot]: executing diffoscope
+[2024-04-29 02:08:15] INFO root fetch - processPackages [passive-honeypot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passive_honeypot-0.1.0.tar.gz tmp/passive_honeypot-0.1.1.tar.gz --markdown 20240429/p/passive-honeypot/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-29 02:08:15] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-04-29 02:08:15] INFO root fetch - processPackages [bolt]: executing diffoscope
+[2024-04-29 02:08:15] INFO root fetch - processPackages [bolt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bolt-0.9.0.tar.gz tmp/bolt-0.9.1.tar.gz --markdown 20240429/b/bolt/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-29 02:08:16] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240427.tar.gz]
+[2024-04-29 02:08:16] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240428.tar.gz]
+[2024-04-29 02:08:16] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-04-29 02:08:16] INFO root fetch - processPackages [notolog]: Remove: archive file [/home/abi/fetcher/tmp/notolog-0.9.0b2.tar.gz]
+[2024-04-29 02:08:16] INFO root fetch - processPackages [notolog]: Remove: archive file [/home/abi/fetcher/tmp/notolog-0.9.0b3.tar.gz]
+[2024-04-29 02:08:16] INFO root fetch - main [MainThread]: End processing [notolog]: success
+[2024-04-29 02:08:16] INFO root fetch - processPackages [passive-honeypot]: Remove: archive file [/home/abi/fetcher/tmp/passive_honeypot-0.1.0.tar.gz]
+[2024-04-29 02:08:16] INFO root fetch - processPackages [passive-honeypot]: Remove: archive file [/home/abi/fetcher/tmp/passive_honeypot-0.1.1.tar.gz]
+[2024-04-29 02:08:16] INFO root fetch - main [MainThread]: End processing [passive-honeypot]: success
+[2024-04-29 02:08:16] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-04-29 02:08:16] INFO root fetch - processPackages [bolt]: Remove: archive file [/home/abi/fetcher/tmp/bolt-0.9.0.tar.gz]
+[2024-04-29 02:08:16] INFO root fetch - processPackages [bolt]: Remove: archive file [/home/abi/fetcher/tmp/bolt-0.9.1.tar.gz]
+[2024-04-29 02:08:16] INFO root fetch - main [MainThread]: End processing [bolt]: success
+[2024-04-29 02:08:16] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-04-29 02:08:16] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240429/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-29 02:08:17] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-04-29 02:08:17] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-04-29 02:08:17] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-04-29 02:08:17] INFO root fetch - main [MainThread]: Store serial: [22971698]
