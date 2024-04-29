@@ -10795,3 +10795,44 @@
 [2024-04-29 09:21:42] INFO root fetch - processPackages [kytest]: Remove: archive file [/home/abi/fetcher/tmp/kytest-0.0.9.tar.gz]
 [2024-04-29 09:21:42] INFO root fetch - main [MainThread]: End processing [kytest]: success
 [2024-04-29 09:21:42] INFO root fetch - main [MainThread]: Store serial: [22979963]
+[2024-04-29 09:23:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979963]
+[2024-04-29 09:23:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-29 09:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: synrbl
+[2024-04-29 09:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jetline
+[2024-04-29 09:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crtomo-tools
+[2024-04-29 09:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wherobots-python-dbapi
+[2024-04-29 09:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: robotsparse
+[2024-04-29 09:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: guanin
+[2024-04-29 09:23:52] INFO root fetch - processPackages [jetline]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 09:23:52] INFO root fetch - processPackages [guanin]: New version: [1.2.9.1] Old Version: [1.2.9]
+[2024-04-29 09:23:52] INFO root fetch - processPackages [synrbl]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 09:23:52] WARNING root fetch - processPackages [robotsparse]: Skipping, unable to determine old version
+[2024-04-29 09:23:52] INFO root fetch - main [MainThread]: End processing [robotsparse] error
+[2024-04-29 09:23:52] INFO root fetch - processPackages [crtomo-tools]: New version: [0.3.0] Old Version: [0.2.2.dev0]
+[2024-04-29 09:23:52] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/14/d7/4b17ee6567b17ad4eec9a6e6ceded1190275544e45e07f7b10971d03dc9f/jetline-0.1.8.tar.gz
+[2024-04-29 09:23:52] INFO root fetch - processPackages [guanin]: Downloading https://files.pythonhosted.org/packages/d0/9c/9e30cd358039ba922c8133878ac612ad62124ad92623358294612873d69a/guanin-1.2.9.tar.gz
+[2024-04-29 09:23:52] WARNING root fetch - processPackages [wherobots-python-dbapi]: Skipping, unable to determine old version
+[2024-04-29 09:23:52] INFO root fetch - main [MainThread]: End processing [wherobots-python-dbapi] error
+[2024-04-29 09:23:52] WARNING root fetch - processPackages [guanin]: Skipping package: exceeds size limit 10883390>=10485760
+[2024-04-29 09:23:52] INFO root fetch - main [MainThread]: End processing [guanin] error
+[2024-04-29 09:23:52] INFO root fetch - processPackages [crtomo-tools]: Downloading https://files.pythonhosted.org/packages/85/31/e03f3720d0af856d081952097d6cd06b2e217c9b311aa25e86257d37883b/crtomo_tools-0.2.2.dev0.tar.gz
+[2024-04-29 09:23:52] INFO root fetch - processPackages [synrbl]: Downloading https://files.pythonhosted.org/packages/28/86/082dee5389753c8bd486879e55d26d3f2185a225fadf2f1fe4bb9beb9d85/synrbl-0.0.8.tar.gz
+[2024-04-29 09:23:52] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/e3/52/ee8efe5ee3940966b4c7e8b471dd88336c2950833a0dd4b4854cce8f181b/jetline-0.1.9.tar.gz
+[2024-04-29 09:23:52] INFO root fetch - processPackages [jetline]: executing diffoscope
+[2024-04-29 09:23:52] INFO root fetch - processPackages [jetline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetline-0.1.8.tar.gz tmp/jetline-0.1.9.tar.gz --markdown 20240429/j/jetline/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 09:23:53] INFO root fetch - processPackages [crtomo-tools]: Downloading https://files.pythonhosted.org/packages/7c/2e/04621f71ca7f34ca7fc565de1d58a7913b575a5ae70f1b1c9da6ad2b32d2/crtomo_tools-0.3.0.tar.gz
+[2024-04-29 09:23:53] INFO root fetch - processPackages [crtomo-tools]: executing diffoscope
+[2024-04-29 09:23:53] INFO root fetch - processPackages [crtomo-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crtomo_tools-0.2.2.dev0.tar.gz tmp/crtomo_tools-0.3.0.tar.gz --markdown 20240429/c/crtomo-tools/0.2.2.dev0-0.3.0/README.md --exclude *.pyd
+[2024-04-29 09:23:53] INFO root fetch - processPackages [synrbl]: Downloading https://files.pythonhosted.org/packages/5c/22/f5f6d1874b599ff46d6155b4de52df7c7f58286b82037d3db18c4cb84902/synrbl-0.0.9.tar.gz
+[2024-04-29 09:23:53] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.1.8.tar.gz]
+[2024-04-29 09:23:53] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.1.9.tar.gz]
+[2024-04-29 09:23:53] INFO root fetch - main [MainThread]: End processing [jetline]: success
+[2024-04-29 09:23:53] INFO root fetch - processPackages [synrbl]: executing diffoscope
+[2024-04-29 09:23:53] INFO root fetch - processPackages [synrbl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synrbl-0.0.8.tar.gz tmp/synrbl-0.0.9.tar.gz --markdown 20240429/s/synrbl/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 09:23:54] INFO root fetch - processPackages [crtomo-tools]: Remove: archive file [/home/abi/fetcher/tmp/crtomo_tools-0.2.2.dev0.tar.gz]
+[2024-04-29 09:23:54] INFO root fetch - processPackages [crtomo-tools]: Remove: archive file [/home/abi/fetcher/tmp/crtomo_tools-0.3.0.tar.gz]
+[2024-04-29 09:23:54] INFO root fetch - main [MainThread]: End processing [crtomo-tools]: success
+[2024-04-29 09:23:55] INFO root fetch - processPackages [synrbl]: Remove: archive file [/home/abi/fetcher/tmp/synrbl-0.0.8.tar.gz]
+[2024-04-29 09:23:55] INFO root fetch - processPackages [synrbl]: Remove: archive file [/home/abi/fetcher/tmp/synrbl-0.0.9.tar.gz]
+[2024-04-29 09:23:55] INFO root fetch - main [MainThread]: End processing [synrbl]: success
+[2024-04-29 09:23:55] INFO root fetch - main [MainThread]: Store serial: [22979986]
