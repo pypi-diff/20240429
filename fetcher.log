@@ -16928,3 +16928,11 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 
 [2024-04-29 13:14:54] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21] error
 [2024-04-29 13:14:54] INFO root fetch - main [MainThread]: Store serial: [22982483]
+[2024-04-29 13:16:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982483]
+[2024-04-29 13:17:02] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-29 13:17:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webviewpy
+[2024-04-29 13:17:02] INFO root fetch - processPackages [webviewpy]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-29 13:17:02] INFO root fetch - processPackages [webviewpy]: Downloading https://files.pythonhosted.org/packages/b7/d1/eda35ba81cbe85e83d60de3090b1a5d5092316c5cf11d87574124fb8a408/webviewpy-1.0.2.tar.gz
+[2024-04-29 13:17:03] ERROR root fetch - processPackages [webviewpy]: Unable to fetch info: No such project/version 'webviewpy' 1.0.3
+[2024-04-29 13:17:03] INFO root fetch - main [MainThread]: End processing [webviewpy] error
+[2024-04-29 13:17:03] INFO root fetch - main [MainThread]: Store serial: [22982490]
