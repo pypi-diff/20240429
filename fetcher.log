@@ -16268,3 +16268,66 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 12:57:17] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.38-py3-none-any.whl.zip]
 [2024-04-29 12:57:17] INFO root fetch - main [MainThread]: End processing [everai]: success
 [2024-04-29 12:57:17] INFO root fetch - main [MainThread]: Store serial: [22982298]
+[2024-04-29 12:59:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982298]
+[2024-04-29 12:59:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-29 12:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: figaro
+[2024-04-29 12:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iSparrowRecord
+[2024-04-29 12:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: collective.contactformprotection
+[2024-04-29 12:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: djrender
+[2024-04-29 12:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-pip
+[2024-04-29 12:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ods-tools
+[2024-04-29 12:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MeMeST
+[2024-04-29 12:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: decoutilities
+[2024-04-29 12:59:26] WARNING root fetch - processPackages [iSparrowRecord]: Skipping, unable to determine old version
+[2024-04-29 12:59:26] INFO root fetch - main [MainThread]: End processing [iSparrowRecord] error
+[2024-04-29 12:59:26] INFO root fetch - processPackages [decoutilities]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-29 12:59:26] INFO root fetch - processPackages [MeMeST]: New version: [2024.4.9.212528] Old Version: [2024.4.9.212527]
+[2024-04-29 12:59:26] INFO root fetch - processPackages [djrender]: New version: [0.1b4] Old Version: [0.1b3]
+[2024-04-29 12:59:26] INFO root fetch - processPackages [figaro]: New version: [1.6.4] Old Version: [1.6.3]
+[2024-04-29 12:59:26] INFO root fetch - processPackages [py-pip]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 12:59:26] WARNING root fetch - processPackages [collective.contactformprotection]: Skipping, unable to determine old version
+[2024-04-29 12:59:26] INFO root fetch - main [MainThread]: End processing [collective.contactformprotection] error
+[2024-04-29 12:59:26] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/c7/f8/06a6b16a92478425f10419fced163609a359da2a317e7944daa8f7ef9d62/MeMeST-2024.4.9.212527.tar.gz
+[2024-04-29 12:59:26] INFO root fetch - processPackages [ods-tools]: New version: [3.2.3] Old Version: [3.2.2]
+[2024-04-29 12:59:26] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/d6/66/99f8c2fbb5585bc413f980d28be23c4c675a87bf077c7688fac0cdfb045e/decoutilities-0.1.4.tar.gz
+[2024-04-29 12:59:26] INFO root fetch - processPackages [djrender]: Downloading https://files.pythonhosted.org/packages/15/1b/a773ae36b8d986489b25286e8597cfd9ccb024061aa9fde889996a8df05c/djrender-0.1b3.tar.gz
+[2024-04-29 12:59:26] INFO root fetch - processPackages [figaro]: Downloading https://files.pythonhosted.org/packages/6c/62/300bf9a48311fde4ffe07ce1f460c0ef3fd4eab47635b5b4cdc84b3b87eb/figaro-1.6.3.tar.gz
+[2024-04-29 12:59:26] INFO root fetch - processPackages [ods-tools]: Downloading https://files.pythonhosted.org/packages/60/b3/c7271ee5a421367aec5fe82ebb167f71fbe59da18e594d0c40daf81a0a40/ods_tools-3.2.2.tar.gz
+[2024-04-29 12:59:26] INFO root fetch - processPackages [py-pip]: Downloading https://files.pythonhosted.org/packages/42/ff/abd87d8dc717b5b66793a17621c6b7088f1bf60121da689ef60ba9316e4f/py-pip-0.0.8.tar.gz
+[2024-04-29 12:59:26] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/ba/4c/b40475a9d3097469d49458c79404aa15cc8c79a220ea3b85fc1d2b8895bc/MeMeST-2024.4.9.212528-py3-none-any.whl
+[2024-04-29 12:59:27] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/9c/62/62fe95c9410c22d1507ba5dadf2d35b132a4d8cc5885632c154fbb13efc9/decoutilities-0.1.5.tar.gz
+[2024-04-29 12:59:27] INFO root fetch - processPackages [MeMeST]: executing diffoscope
+[2024-04-29 12:59:27] INFO root fetch - processPackages [MeMeST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeMeST-2024.4.9.212527.tar.gz tmp/MeMeST-2024.4.9.212528-py3-none-any.whl.zip --markdown 20240429/M/MeMeST/2024.4.9.212527-2024.4.9.212528/README.md --exclude *.pyd
+[2024-04-29 12:59:27] INFO root fetch - processPackages [decoutilities]: executing diffoscope
+[2024-04-29 12:59:27] INFO root fetch - processPackages [decoutilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decoutilities-0.1.4.tar.gz tmp/decoutilities-0.1.5.tar.gz --markdown 20240429/d/decoutilities/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-29 12:59:27] INFO root fetch - processPackages [figaro]: Downloading https://files.pythonhosted.org/packages/f1/5b/13c0c2666952cbcc1e466337c538fa789fc9c1fade261e95d3a443c3a3b3/figaro-1.6.4.tar.gz
+[2024-04-29 12:59:27] INFO root fetch - processPackages [ods-tools]: Downloading https://files.pythonhosted.org/packages/dd/0f/21c9f44b68a18c216cb3d690071808384cf8a8de5e95ce4da1911a8659d0/ods_tools-3.2.3.tar.gz
+[2024-04-29 12:59:27] INFO root fetch - processPackages [py-pip]: Downloading https://files.pythonhosted.org/packages/42/65/dc347b9345fa3363a58909fc636e891ff030e4eee19aa0f7ca8facd57d46/py-pip-0.0.9.tar.gz
+[2024-04-29 12:59:27] INFO root fetch - processPackages [ods-tools]: executing diffoscope
+[2024-04-29 12:59:27] INFO root fetch - processPackages [ods-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ods_tools-3.2.2.tar.gz tmp/ods_tools-3.2.3.tar.gz --markdown 20240429/o/ods-tools/3.2.2-3.2.3/README.md --exclude *.pyd
+[2024-04-29 12:59:27] INFO root fetch - processPackages [figaro]: executing diffoscope
+[2024-04-29 12:59:27] INFO root fetch - processPackages [figaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/figaro-1.6.3.tar.gz tmp/figaro-1.6.4.tar.gz --markdown 20240429/f/figaro/1.6.3-1.6.4/README.md --exclude *.pyd
+[2024-04-29 12:59:27] INFO root fetch - processPackages [djrender]: Downloading https://files.pythonhosted.org/packages/d5/4b/6b39d7b7ea181935ed09b10c1026d4d89de3807d9dc773f676010fd67546/djrender-0.1b4.tar.gz
+[2024-04-29 12:59:27] INFO root fetch - processPackages [py-pip]: executing diffoscope
+[2024-04-29 12:59:27] INFO root fetch - processPackages [py-pip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-pip-0.0.8.tar.gz tmp/py-pip-0.0.9.tar.gz --markdown 20240429/p/py-pip/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 12:59:27] INFO root fetch - processPackages [djrender]: executing diffoscope
+[2024-04-29 12:59:27] INFO root fetch - processPackages [djrender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djrender-0.1b3.tar.gz tmp/djrender-0.1b4.tar.gz --markdown 20240429/d/djrender/0.1b3-0.1b4/README.md --exclude *.pyd
+[2024-04-29 12:59:27] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-2024.4.9.212527.tar.gz]
+[2024-04-29 12:59:27] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-2024.4.9.212528-py3-none-any.whl.zip]
+[2024-04-29 12:59:27] INFO root fetch - main [MainThread]: End processing [MeMeST]: success
+[2024-04-29 12:59:27] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.1.4.tar.gz]
+[2024-04-29 12:59:27] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.1.5.tar.gz]
+[2024-04-29 12:59:27] INFO root fetch - main [MainThread]: End processing [decoutilities]: success
+[2024-04-29 12:59:28] INFO root fetch - processPackages [py-pip]: Remove: archive file [/home/abi/fetcher/tmp/py-pip-0.0.8.tar.gz]
+[2024-04-29 12:59:28] INFO root fetch - processPackages [py-pip]: Remove: archive file [/home/abi/fetcher/tmp/py-pip-0.0.9.tar.gz]
+[2024-04-29 12:59:28] INFO root fetch - main [MainThread]: End processing [py-pip]: success
+[2024-04-29 12:59:28] INFO root fetch - processPackages [ods-tools]: Remove: archive file [/home/abi/fetcher/tmp/ods_tools-3.2.2.tar.gz]
+[2024-04-29 12:59:28] INFO root fetch - processPackages [ods-tools]: Remove: archive file [/home/abi/fetcher/tmp/ods_tools-3.2.3.tar.gz]
+[2024-04-29 12:59:28] INFO root fetch - main [MainThread]: End processing [ods-tools]: success
+[2024-04-29 12:59:28] INFO root fetch - processPackages [djrender]: Remove: archive file [/home/abi/fetcher/tmp/djrender-0.1b3.tar.gz]
+[2024-04-29 12:59:28] INFO root fetch - processPackages [djrender]: Remove: archive file [/home/abi/fetcher/tmp/djrender-0.1b4.tar.gz]
+[2024-04-29 12:59:28] INFO root fetch - main [MainThread]: End processing [djrender]: success
+[2024-04-29 12:59:28] INFO root fetch - processPackages [figaro]: Remove: archive file [/home/abi/fetcher/tmp/figaro-1.6.3.tar.gz]
+[2024-04-29 12:59:28] INFO root fetch - processPackages [figaro]: Remove: archive file [/home/abi/fetcher/tmp/figaro-1.6.4.tar.gz]
+[2024-04-29 12:59:28] INFO root fetch - main [MainThread]: End processing [figaro]: success
+[2024-04-29 12:59:28] INFO root fetch - main [MainThread]: Store serial: [22982328]
