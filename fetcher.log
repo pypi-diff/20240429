@@ -7606,3 +7606,27 @@
 [2024-04-29 05:50:32] INFO root fetch - processPackages [rlbot-flatbuffers]: Remove: archive file [/home/abi/fetcher/tmp/rlbot_flatbuffers-0.3.3.tar.gz]
 [2024-04-29 05:50:32] INFO root fetch - main [MainThread]: End processing [rlbot-flatbuffers]: success
 [2024-04-29 05:50:32] INFO root fetch - main [MainThread]: Store serial: [22978473]
+[2024-04-29 05:52:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978473]
+[2024-04-29 05:52:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 05:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: magnum-opus
+[2024-04-29 05:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: feed2json
+[2024-04-29 05:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py50
+[2024-04-29 05:52:40] INFO root fetch - processPackages [magnum-opus]: New version: [3.0] Old Version: [2.3]
+[2024-04-29 05:52:40] WARNING root fetch - processPackages [feed2json]: Skipping, unable to determine old version
+[2024-04-29 05:52:40] INFO root fetch - processPackages [py50]: New version: [1.0.0] Old Version: [0.3.6]
+[2024-04-29 05:52:40] INFO root fetch - main [MainThread]: End processing [feed2json] error
+[2024-04-29 05:52:41] INFO root fetch - processPackages [magnum-opus]: Downloading https://files.pythonhosted.org/packages/37/aa/2e8eabf2810f9f86acf9efc808328551c3b28575f83ffc61456374e319a5/magnum_opus-2.3.tar.gz
+[2024-04-29 05:52:41] INFO root fetch - processPackages [py50]: Downloading https://files.pythonhosted.org/packages/14/f3/579e5c19b8d4189835e9ec904688ac187018eafc593d32d9cadfd8b72f7a/py50-0.3.6.tar.gz
+[2024-04-29 05:52:41] INFO root fetch - processPackages [magnum-opus]: Downloading https://files.pythonhosted.org/packages/8c/38/c101d4120e115d6e6a95d4ecd1d819d0ba7237294ed497014a8ee60c6012/magnum_opus-3.0.tar.gz
+[2024-04-29 05:52:41] INFO root fetch - processPackages [py50]: Downloading https://files.pythonhosted.org/packages/2c/ef/4debc54babdd7812aecc599a002fd6340c5f017fcf9931d542155a600b2c/py50-1.0.0.tar.gz
+[2024-04-29 05:52:41] INFO root fetch - processPackages [magnum-opus]: executing diffoscope
+[2024-04-29 05:52:41] INFO root fetch - processPackages [magnum-opus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnum_opus-2.3.tar.gz tmp/magnum_opus-3.0.tar.gz --markdown 20240429/m/magnum-opus/2.3-3.0/README.md --exclude *.pyd
+[2024-04-29 05:52:41] INFO root fetch - processPackages [py50]: executing diffoscope
+[2024-04-29 05:52:41] INFO root fetch - processPackages [py50]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py50-0.3.6.tar.gz tmp/py50-1.0.0.tar.gz --markdown 20240429/p/py50/0.3.6-1.0.0/README.md --exclude *.pyd
+[2024-04-29 05:52:42] INFO root fetch - processPackages [py50]: Remove: archive file [/home/abi/fetcher/tmp/py50-0.3.6.tar.gz]
+[2024-04-29 05:52:42] INFO root fetch - processPackages [py50]: Remove: archive file [/home/abi/fetcher/tmp/py50-1.0.0.tar.gz]
+[2024-04-29 05:52:42] INFO root fetch - main [MainThread]: End processing [py50]: success
+[2024-04-29 05:52:42] INFO root fetch - processPackages [magnum-opus]: Remove: archive file [/home/abi/fetcher/tmp/magnum_opus-2.3.tar.gz]
+[2024-04-29 05:52:42] INFO root fetch - processPackages [magnum-opus]: Remove: archive file [/home/abi/fetcher/tmp/magnum_opus-3.0.tar.gz]
+[2024-04-29 05:52:42] INFO root fetch - main [MainThread]: End processing [magnum-opus]: success
+[2024-04-29 05:52:42] INFO root fetch - main [MainThread]: Store serial: [22978485]
