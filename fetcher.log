@@ -11076,3 +11076,48 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 09:32:38] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.99.tar.gz]
 [2024-04-29 09:32:38] INFO root fetch - main [MainThread]: End processing [daktari]: success
 [2024-04-29 09:32:38] INFO root fetch - main [MainThread]: Store serial: [22980054]
+[2024-04-29 09:34:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980054]
+[2024-04-29 09:34:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-29 09:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zzd-cli
+[2024-04-29 09:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyecm
+[2024-04-29 09:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudpss-hydrogen
+[2024-04-29 09:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyzjr
+[2024-04-29 09:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: th-influx-sdk
+[2024-04-29 09:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lazyqml
+[2024-04-29 09:34:47] INFO root fetch - processPackages [cloudpss-hydrogen]: New version: [4.0.0a8] Old Version: [4.0.0a7]
+[2024-04-29 09:34:47] INFO root fetch - processPackages [th-influx-sdk]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-29 09:34:47] INFO root fetch - processPackages [cloudpss-hydrogen]: Downloading https://files.pythonhosted.org/packages/6f/a3/358a385dc542998a6205347822b85dbe49a43386e2bb4fb1661d7f19a432/cloudpss-hydrogen-4.0.0a7.tar.gz
+[2024-04-29 09:34:47] WARNING root fetch - processPackages [pyecm]: Skipping, unable to determine old version
+[2024-04-29 09:34:47] INFO root fetch - main [MainThread]: End processing [pyecm] error
+[2024-04-29 09:34:47] INFO root fetch - processPackages [th-influx-sdk]: Downloading https://files.pythonhosted.org/packages/1d/4b/0d7e77417b541732192091b9b3ca86cff0ef49c535f135653057096b9612/th-influx-sdk-1.0.5.tar.gz
+[2024-04-29 09:34:47] INFO root fetch - processPackages [zzd-cli]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-29 09:34:47] WARNING root fetch - processPackages [lazyqml]: Skipping, unable to determine old version
+[2024-04-29 09:34:47] INFO root fetch - main [MainThread]: End processing [lazyqml] error
+[2024-04-29 09:34:47] INFO root fetch - processPackages [pyzjr]: New version: [1.3.6] Old Version: [1.3.5]
+[2024-04-29 09:34:47] INFO root fetch - processPackages [zzd-cli]: Downloading https://files.pythonhosted.org/packages/44/7c/c3b73ce1c30196f3151a3da7da93cc6e4a8366ab0f33552f1f7546305f8a/zzd-cli-0.1.0.tar.gz
+[2024-04-29 09:34:47] INFO root fetch - processPackages [pyzjr]: Downloading https://files.pythonhosted.org/packages/90/7b/91c5ec5f83212b6ac0c33f681f66ab365ee0b75468f946574c4094c14459/pyzjr-1.3.5.tar.gz
+[2024-04-29 09:34:47] INFO root fetch - processPackages [cloudpss-hydrogen]: Downloading https://files.pythonhosted.org/packages/f9/66/05c88e60cbb85081ea11044f4befc5da7224e3d8c9226e9a90d81f0e81df/cloudpss-hydrogen-4.0.0a8.tar.gz
+[2024-04-29 09:34:47] INFO root fetch - processPackages [th-influx-sdk]: Downloading https://files.pythonhosted.org/packages/07/04/736bbbd53f2ac4d43a827f19029f40e801046244abcae11133e55f1d7ad9/th-influx-sdk-1.0.6.tar.gz
+[2024-04-29 09:34:47] INFO root fetch - processPackages [cloudpss-hydrogen]: executing diffoscope
+[2024-04-29 09:34:47] INFO root fetch - processPackages [cloudpss-hydrogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudpss-hydrogen-4.0.0a7.tar.gz tmp/cloudpss-hydrogen-4.0.0a8.tar.gz --markdown 20240429/c/cloudpss-hydrogen/4.0.0a7-4.0.0a8/README.md --exclude *.pyd
+[2024-04-29 09:34:47] INFO root fetch - processPackages [th-influx-sdk]: executing diffoscope
+[2024-04-29 09:34:47] INFO root fetch - processPackages [th-influx-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th-influx-sdk-1.0.5.tar.gz tmp/th-influx-sdk-1.0.6.tar.gz --markdown 20240429/t/th-influx-sdk/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-29 09:34:47] INFO root fetch - processPackages [zzd-cli]: Downloading https://files.pythonhosted.org/packages/0a/3b/1ebd2da2fdf1406d7e60842f3d17a3fe846584505b835b20a3221c7ce665/zzd-cli-0.2.0.tar.gz
+[2024-04-29 09:34:47] INFO root fetch - processPackages [pyzjr]: Downloading https://files.pythonhosted.org/packages/a5/f7/54109b0538c330d10580e84350d11802c2ed0b353af31bacb057823896b2/pyzjr-1.3.6.tar.gz
+[2024-04-29 09:34:47] INFO root fetch - processPackages [zzd-cli]: executing diffoscope
+[2024-04-29 09:34:47] INFO root fetch - processPackages [zzd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zzd-cli-0.1.0.tar.gz tmp/zzd-cli-0.2.0.tar.gz --markdown 20240429/z/zzd-cli/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-29 09:34:48] INFO root fetch - processPackages [pyzjr]: executing diffoscope
+[2024-04-29 09:34:48] INFO root fetch - processPackages [pyzjr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzjr-1.3.5.tar.gz tmp/pyzjr-1.3.6.tar.gz --markdown 20240429/p/pyzjr/1.3.5-1.3.6/README.md --exclude *.pyd
+[2024-04-29 09:34:48] INFO root fetch - processPackages [th-influx-sdk]: Remove: archive file [/home/abi/fetcher/tmp/th-influx-sdk-1.0.5.tar.gz]
+[2024-04-29 09:34:48] INFO root fetch - processPackages [th-influx-sdk]: Remove: archive file [/home/abi/fetcher/tmp/th-influx-sdk-1.0.6.tar.gz]
+[2024-04-29 09:34:48] INFO root fetch - main [MainThread]: End processing [th-influx-sdk]: success
+[2024-04-29 09:34:48] INFO root fetch - processPackages [cloudpss-hydrogen]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-hydrogen-4.0.0a7.tar.gz]
+[2024-04-29 09:34:48] INFO root fetch - processPackages [cloudpss-hydrogen]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-hydrogen-4.0.0a8.tar.gz]
+[2024-04-29 09:34:48] INFO root fetch - main [MainThread]: End processing [cloudpss-hydrogen]: success
+[2024-04-29 09:34:48] INFO root fetch - processPackages [zzd-cli]: Remove: archive file [/home/abi/fetcher/tmp/zzd-cli-0.1.0.tar.gz]
+[2024-04-29 09:34:48] INFO root fetch - processPackages [zzd-cli]: Remove: archive file [/home/abi/fetcher/tmp/zzd-cli-0.2.0.tar.gz]
+[2024-04-29 09:34:48] INFO root fetch - main [MainThread]: End processing [zzd-cli]: success
+[2024-04-29 09:34:49] INFO root fetch - processPackages [pyzjr]: Remove: archive file [/home/abi/fetcher/tmp/pyzjr-1.3.5.tar.gz]
+[2024-04-29 09:34:49] INFO root fetch - processPackages [pyzjr]: Remove: archive file [/home/abi/fetcher/tmp/pyzjr-1.3.6.tar.gz]
+[2024-04-29 09:34:49] INFO root fetch - main [MainThread]: End processing [pyzjr]: success
+[2024-04-29 09:34:49] INFO root fetch - main [MainThread]: Store serial: [22980094]
