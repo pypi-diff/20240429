@@ -9897,3 +9897,41 @@
 [2024-04-29 08:37:16] INFO root fetch - processPackages [cynetdiff]: Remove: archive file [/home/abi/fetcher/tmp/cynetdiff-0.1.9.tar.gz]
 [2024-04-29 08:37:16] INFO root fetch - main [MainThread]: End processing [cynetdiff]: success
 [2024-04-29 08:37:16] INFO root fetch - main [MainThread]: Store serial: [22979513]
+[2024-04-29 08:39:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979513]
+[2024-04-29 08:39:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 08:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jcvi
+[2024-04-29 08:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opgg.py
+[2024-04-29 08:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mountaineer
+[2024-04-29 08:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MaixPy
+[2024-04-29 08:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: video-toolkit
+[2024-04-29 08:39:26] INFO root fetch - processPackages [MaixPy]: New version: [4.0.7] Old Version: [4.0.6]
+[2024-04-29 08:39:26] WARNING root fetch - processPackages [video-toolkit]: Skipping, unable to determine old version
+[2024-04-29 08:39:26] INFO root fetch - main [MainThread]: End processing [video-toolkit] error
+[2024-04-29 08:39:26] INFO root fetch - processPackages [opgg.py]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-29 08:39:26] INFO root fetch - processPackages [jcvi]: New version: [1.4.5] Old Version: [1.4.4]
+[2024-04-29 08:39:26] INFO root fetch - processPackages [mountaineer]: New version: [0.4.2.dev3] Old Version: [0.4.2.dev2]
+[2024-04-29 08:39:26] INFO root fetch - processPackages [opgg.py]: Downloading https://files.pythonhosted.org/packages/99/e7/3f8c8b2c70c3fdf00728ee2914a6f1412bf080a9f961164779f05b1c4fa5/opgg.py-1.2.0-py3-none-any.whl
+[2024-04-29 08:39:26] INFO root fetch - processPackages [mountaineer]: Downloading https://files.pythonhosted.org/packages/44/52/afc823109784afac548e56945d95bf940f6935a7ae88cd07dd0a0955ada7/mountaineer-0.4.2.dev2.tar.gz
+[2024-04-29 08:39:26] INFO root fetch - processPackages [jcvi]: Downloading https://files.pythonhosted.org/packages/da/24/23424b89cdac6c1c0157ccb8a65d8a48a8229b5a729fb37631c6b20e66bf/jcvi-1.4.4.tar.gz
+[2024-04-29 08:39:26] INFO root fetch - processPackages [MaixPy]: Downloading https://files.pythonhosted.org/packages/a6/3d/883ed15f91fd8ea15620bb8b9d885912bf5b6f27cf635c60ab79ff461c71/MaixPy-4.0.6-py3-none-any.whl
+[2024-04-29 08:39:26] INFO root fetch - processPackages [opgg.py]: Downloading https://files.pythonhosted.org/packages/c5/d8/a35926c9960993e84c49d93f1a1953aa03cb31f0a0e940b2f5602148a30e/opgg_py-1.3.0.tar.gz
+[2024-04-29 08:39:26] INFO root fetch - processPackages [opgg.py]: executing diffoscope
+[2024-04-29 08:39:26] INFO root fetch - processPackages [opgg.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opgg.py-1.2.0-py3-none-any.whl.zip tmp/opgg_py-1.3.0.tar.gz --markdown 20240429/o/opgg.py/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-04-29 08:39:26] INFO root fetch - processPackages [jcvi]: Downloading https://files.pythonhosted.org/packages/3b/c7/8f87e09c1bc53218c88e3cbd40b736a113062e49e0ba98afc3c204ac19b0/jcvi-1.4.5.tar.gz
+[2024-04-29 08:39:27] WARNING root fetch - processPackages [MaixPy]: Skipping package: exceeds size limit 14829601>=10485760
+[2024-04-29 08:39:27] INFO root fetch - main [MainThread]: End processing [MaixPy] error
+[2024-04-29 08:39:27] INFO root fetch - processPackages [jcvi]: executing diffoscope
+[2024-04-29 08:39:27] INFO root fetch - processPackages [jcvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcvi-1.4.4.tar.gz tmp/jcvi-1.4.5.tar.gz --markdown 20240429/j/jcvi/1.4.4-1.4.5/README.md --exclude *.pyd
+[2024-04-29 08:39:27] INFO root fetch - processPackages [mountaineer]: Downloading https://files.pythonhosted.org/packages/6a/16/34df3feaadf8b907b9e1341c5a2476074600dad432c14f1f6d7d770c66cc/mountaineer-0.4.2.dev3.tar.gz
+[2024-04-29 08:39:27] INFO root fetch - processPackages [opgg.py]: Remove: archive file [/home/abi/fetcher/tmp/opgg.py-1.2.0-py3-none-any.whl.zip]
+[2024-04-29 08:39:27] INFO root fetch - processPackages [opgg.py]: Remove: archive file [/home/abi/fetcher/tmp/opgg_py-1.3.0.tar.gz]
+[2024-04-29 08:39:27] INFO root fetch - main [MainThread]: End processing [opgg.py]: success
+[2024-04-29 08:39:27] INFO root fetch - processPackages [mountaineer]: executing diffoscope
+[2024-04-29 08:39:27] INFO root fetch - processPackages [mountaineer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mountaineer-0.4.2.dev2.tar.gz tmp/mountaineer-0.4.2.dev3.tar.gz --markdown 20240429/m/mountaineer/0.4.2.dev2-0.4.2.dev3/README.md --exclude *.pyd
+[2024-04-29 08:39:28] INFO root fetch - processPackages [jcvi]: Remove: archive file [/home/abi/fetcher/tmp/jcvi-1.4.4.tar.gz]
+[2024-04-29 08:39:28] INFO root fetch - processPackages [jcvi]: Remove: archive file [/home/abi/fetcher/tmp/jcvi-1.4.5.tar.gz]
+[2024-04-29 08:39:28] INFO root fetch - main [MainThread]: End processing [jcvi]: success
+[2024-04-29 08:39:29] INFO root fetch - processPackages [mountaineer]: Remove: archive file [/home/abi/fetcher/tmp/mountaineer-0.4.2.dev2.tar.gz]
+[2024-04-29 08:39:29] INFO root fetch - processPackages [mountaineer]: Remove: archive file [/home/abi/fetcher/tmp/mountaineer-0.4.2.dev3.tar.gz]
+[2024-04-29 08:39:29] INFO root fetch - main [MainThread]: End processing [mountaineer]: success
+[2024-04-29 08:39:29] INFO root fetch - main [MainThread]: Store serial: [22979541]
