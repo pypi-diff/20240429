@@ -8021,3 +8021,54 @@
 [2024-04-29 06:27:30] INFO root fetch - processPackages [ex-cd]: Remove: archive file [/home/abi/fetcher/tmp/ex_cd-1.9.4.tar.gz]
 [2024-04-29 06:27:30] INFO root fetch - main [MainThread]: End processing [ex-cd]: success
 [2024-04-29 06:27:30] INFO root fetch - main [MainThread]: Store serial: [22978622]
+[2024-04-29 06:29:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978622]
+[2024-04-29 06:29:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-29 06:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sbcli-mig
+[2024-04-29 06:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moraine
+[2024-04-29 06:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trex-conf
+[2024-04-29 06:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pragmatic-business-rules
+[2024-04-29 06:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-civo
+[2024-04-29 06:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: setuptools-wrapper
+[2024-04-29 06:29:39] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-29 06:29:39] INFO root fetch - processPackages [moraine]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-04-29 06:29:39] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/06/2f/2b2f1cfa7b91365cf5cd645c5967a8e8a8bd7f1c8e89f91d7e43e2aefc87/sbcli-mig-1.0.8.zip
+[2024-04-29 06:29:39] INFO root fetch - processPackages [pragmatic-business-rules]: New version: [0.4.0] Old Version: [0.3.5]
+[2024-04-29 06:29:39] INFO root fetch - processPackages [setuptools-wrapper]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-29 06:29:39] INFO root fetch - processPackages [moraine]: Downloading https://files.pythonhosted.org/packages/bb/6f/625934292c9f0c23cab8c949aa4cd60cc4aa394175911cf38690da08ebb3/moraine-0.6.2.tar.gz
+[2024-04-29 06:29:39] WARNING root fetch - processPackages [trex-conf]: Skipping, unable to determine old version
+[2024-04-29 06:29:39] INFO root fetch - main [MainThread]: End processing [trex-conf] error
+[2024-04-29 06:29:39] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1714363963] Old Version: [2.4.0a1714108777]
+[2024-04-29 06:29:40] INFO root fetch - processPackages [pragmatic-business-rules]: Downloading https://files.pythonhosted.org/packages/6a/3e/e33f107c1d11c8f3204b656a90633061bb91a59def32ee64604dcdad49e4/pragmatic-business-rules-0.3.5.tar.gz
+[2024-04-29 06:29:40] INFO root fetch - processPackages [setuptools-wrapper]: Downloading https://files.pythonhosted.org/packages/8a/30/8afbd06548d5080df4627cd97c228c61e040527b04f0a97cbbc4cc40c3a3/setuptools-wrapper-0.2.6.tar.gz
+[2024-04-29 06:29:40] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/4b/15/9c1afe915f08547ce582aeae079f597b2a173df003109bcd1d0f0bbf037e/sbcli-mig-1.0.9.zip
+[2024-04-29 06:29:40] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/ea/17/d56ee840be7fa683e89cba2ce16ae7d522a3a55650503f0c761ace505cf2/pulumi_civo-2.4.0a1714108777.tar.gz
+[2024-04-29 06:29:40] INFO root fetch - processPackages [moraine]: Downloading https://files.pythonhosted.org/packages/1a/96/9b5595ec20543116a953c41b855f492f8b0852e73d921ce67fbbfae1705f/moraine-0.6.3.tar.gz
+[2024-04-29 06:29:40] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-04-29 06:29:40] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-mig-1.0.8.zip tmp/sbcli-mig-1.0.9.zip --markdown 20240429/s/sbcli-mig/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-29 06:29:40] INFO root fetch - processPackages [moraine]: executing diffoscope
+[2024-04-29 06:29:40] INFO root fetch - processPackages [moraine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moraine-0.6.2.tar.gz tmp/moraine-0.6.3.tar.gz --markdown 20240429/m/moraine/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-04-29 06:29:40] INFO root fetch - processPackages [pragmatic-business-rules]: Downloading https://files.pythonhosted.org/packages/0b/db/f29dd90b12bde78a4867b6896ab47e0f9fa225bd7c6d96571420f408aaa5/pragmatic_business_rules-0.4.0.tar.gz
+[2024-04-29 06:29:40] INFO root fetch - processPackages [setuptools-wrapper]: Downloading https://files.pythonhosted.org/packages/58/b5/4efe9955da250c001960eed82b545c24d530d1dbc0fe5d3486f51cef9bfd/setuptools_wrapper-0.2.7.tar.gz
+[2024-04-29 06:29:40] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/4a/e9/5f1a917ff6e8a4e7a12322e8fc1f005876e74547a1b7c58c9ff92a8a0daa/pulumi_civo-2.4.0a1714363963.tar.gz
+[2024-04-29 06:29:40] INFO root fetch - processPackages [pragmatic-business-rules]: executing diffoscope
+[2024-04-29 06:29:40] INFO root fetch - processPackages [pragmatic-business-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pragmatic-business-rules-0.3.5.tar.gz tmp/pragmatic_business_rules-0.4.0.tar.gz --markdown 20240429/p/pragmatic-business-rules/0.3.5-0.4.0/README.md --exclude *.pyd
+[2024-04-29 06:29:40] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2024-04-29 06:29:40] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1714108777.tar.gz tmp/pulumi_civo-2.4.0a1714363963.tar.gz --markdown 20240429/p/pulumi-civo/2.4.0a1714108777-2.4.0a1714363963/README.md --exclude *.pyd
+[2024-04-29 06:29:40] INFO root fetch - processPackages [setuptools-wrapper]: executing diffoscope
+[2024-04-29 06:29:40] INFO root fetch - processPackages [setuptools-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setuptools-wrapper-0.2.6.tar.gz tmp/setuptools_wrapper-0.2.7.tar.gz --markdown 20240429/s/setuptools-wrapper/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-29 06:29:41] INFO root fetch - processPackages [moraine]: Remove: archive file [/home/abi/fetcher/tmp/moraine-0.6.2.tar.gz]
+[2024-04-29 06:29:41] INFO root fetch - processPackages [moraine]: Remove: archive file [/home/abi/fetcher/tmp/moraine-0.6.3.tar.gz]
+[2024-04-29 06:29:41] INFO root fetch - main [MainThread]: End processing [moraine]: success
+[2024-04-29 06:29:41] INFO root fetch - processPackages [pragmatic-business-rules]: Remove: archive file [/home/abi/fetcher/tmp/pragmatic-business-rules-0.3.5.tar.gz]
+[2024-04-29 06:29:41] INFO root fetch - processPackages [pragmatic-business-rules]: Remove: archive file [/home/abi/fetcher/tmp/pragmatic_business_rules-0.4.0.tar.gz]
+[2024-04-29 06:29:41] INFO root fetch - main [MainThread]: End processing [pragmatic-business-rules]: success
+[2024-04-29 06:29:41] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1714108777.tar.gz]
+[2024-04-29 06:29:41] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1714363963.tar.gz]
+[2024-04-29 06:29:41] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2024-04-29 06:29:41] INFO root fetch - processPackages [setuptools-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/setuptools-wrapper-0.2.6.tar.gz]
+[2024-04-29 06:29:41] INFO root fetch - processPackages [setuptools-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/setuptools_wrapper-0.2.7.tar.gz]
+[2024-04-29 06:29:41] INFO root fetch - main [MainThread]: End processing [setuptools-wrapper]: success
+[2024-04-29 06:29:41] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.8.zip]
+[2024-04-29 06:29:41] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
+[2024-04-29 06:29:41] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-04-29 06:29:41] INFO root fetch - main [MainThread]: Store serial: [22978639]
