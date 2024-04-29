@@ -23453,3 +23453,66 @@ EOFError: EOF read where object expected
 [2024-04-29 16:22:57] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.5.1.dev99.tar.gz]
 [2024-04-29 16:22:57] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
 [2024-04-29 16:22:57] INFO root fetch - main [MainThread]: Store serial: [22985268]
+[2024-04-29 16:25:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22985268]
+[2024-04-29 16:25:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-29 16:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metalarchivist
+[2024-04-29 16:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stopwords-tr
+[2024-04-29 16:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cc-0708
+[2024-04-29 16:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: graphxplore
+[2024-04-29 16:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GreenLightPlus
+[2024-04-29 16:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modern-treasury
+[2024-04-29 16:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: great-expectations-cloud
+[2024-04-29 16:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyslth
+[2024-04-29 16:25:06] INFO root fetch - processPackages [metalarchivist]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-29 16:25:06] WARNING root fetch - processPackages [stopwords-tr]: Skipping, unable to determine old version
+[2024-04-29 16:25:06] INFO root fetch - main [MainThread]: End processing [stopwords-tr] error
+[2024-04-29 16:25:06] INFO root fetch - processPackages [GreenLightPlus]: New version: [1.4] Old Version: [1.3]
+[2024-04-29 16:25:06] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/7c/da/ecfe01db8b7ff64066420eb5dd17a37176b3408bfed21432f2d0002500dc/metalarchivist-0.2.8.tar.gz
+[2024-04-29 16:25:06] WARNING root fetch - processPackages [cc-0708]: Skipping, unable to determine old version
+[2024-04-29 16:25:06] INFO root fetch - main [MainThread]: End processing [cc-0708] error
+[2024-04-29 16:25:06] INFO root fetch - processPackages [GreenLightPlus]: Downloading https://files.pythonhosted.org/packages/5d/9d/3f662da8ff61789f28413f0d128eb17cc3155521c53039b17cd0ffb2335b/greenlightplus-1.3.tar.gz
+[2024-04-29 16:25:06] INFO root fetch - processPackages [graphxplore]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-29 16:25:06] INFO root fetch - processPackages [pyslth]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-29 16:25:06] INFO root fetch - processPackages [great-expectations-cloud]: New version: [20240429.0.dev0] Old Version: [20240426.0]
+[2024-04-29 16:25:06] INFO root fetch - processPackages [modern-treasury]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-29 16:25:07] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/9f/99/abd55a94a4990d7a874c8a172958515f3e1b215742eb53cacebc7e77d4bc/metalarchivist-0.2.9.tar.gz
+[2024-04-29 16:25:07] INFO root fetch - processPackages [graphxplore]: Downloading https://files.pythonhosted.org/packages/c6/bc/24ca09438e9aeaa34d8aa2a1a176bb7e41c456998a39807dce394b6728e3/graphxplore-0.9.0.tar.gz
+[2024-04-29 16:25:07] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/41/71/6809b3f0c86adc515495112ebeb61110c73774b8885389f4b3a771cc4b76/pyslth-0.2.0.tar.gz
+[2024-04-29 16:25:07] INFO root fetch - processPackages [great-expectations-cloud]: Downloading https://files.pythonhosted.org/packages/d0/81/3285a23932594ce91186f6857422a25f2b95d54ee765ad526b0c11d5d20c/great_expectations_cloud-20240426.0.tar.gz
+[2024-04-29 16:25:07] INFO root fetch - processPackages [modern-treasury]: Downloading https://files.pythonhosted.org/packages/43/17/6f2f5ec99209044af902a28e2442c90f90bf7c31409a3a71c5cf4b562526/modern_treasury-1.8.0.tar.gz
+[2024-04-29 16:25:07] INFO root fetch - processPackages [metalarchivist]: executing diffoscope
+[2024-04-29 16:25:07] INFO root fetch - processPackages [metalarchivist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metalarchivist-0.2.8.tar.gz tmp/metalarchivist-0.2.9.tar.gz --markdown 20240429/m/metalarchivist/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-29 16:25:07] INFO root fetch - processPackages [GreenLightPlus]: Downloading https://files.pythonhosted.org/packages/33/ec/b2455c6f550b323205ea80b707a39f4088f2bf654d901aa764c8affa3328/greenlightplus-1.4.tar.gz
+[2024-04-29 16:25:07] INFO root fetch - processPackages [GreenLightPlus]: executing diffoscope
+[2024-04-29 16:25:07] INFO root fetch - processPackages [GreenLightPlus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greenlightplus-1.3.tar.gz tmp/greenlightplus-1.4.tar.gz --markdown 20240429/G/GreenLightPlus/1.3-1.4/README.md --exclude *.pyd
+[2024-04-29 16:25:07] INFO root fetch - processPackages [graphxplore]: Downloading https://files.pythonhosted.org/packages/16/f2/1d0e7bb7d0b222a4f2b6c4b4fa9309b2b06983c8d0b79cf07e9bf45f661b/graphxplore-0.9.1.tar.gz
+[2024-04-29 16:25:07] INFO root fetch - processPackages [great-expectations-cloud]: Downloading https://files.pythonhosted.org/packages/cf/e6/7ec71690f94c10e0d2f0f001f4ec6a247ec977c466769488e2b42b762215/great_expectations_cloud-20240429.0.dev0.tar.gz
+[2024-04-29 16:25:07] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/39/71/73f4a5433b0b9a7330695aabbc0e8547be166747e8f087f60395d34ee629/pyslth-0.2.1.tar.gz
+[2024-04-29 16:25:07] INFO root fetch - processPackages [modern-treasury]: Downloading https://files.pythonhosted.org/packages/ff/26/6a0d123f9af264c97fa6055f4662c13f7d4afb030d10ae147a6afb3896b8/modern_treasury-1.9.0.tar.gz
+[2024-04-29 16:25:07] INFO root fetch - processPackages [great-expectations-cloud]: executing diffoscope
+[2024-04-29 16:25:07] INFO root fetch - processPackages [great-expectations-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_expectations_cloud-20240426.0.tar.gz tmp/great_expectations_cloud-20240429.0.dev0.tar.gz --markdown 20240429/g/great-expectations-cloud/20240426.0-20240429.0.dev0/README.md --exclude *.pyd
+[2024-04-29 16:25:07] INFO root fetch - processPackages [graphxplore]: executing diffoscope
+[2024-04-29 16:25:07] INFO root fetch - processPackages [graphxplore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphxplore-0.9.0.tar.gz tmp/graphxplore-0.9.1.tar.gz --markdown 20240429/g/graphxplore/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-29 16:25:07] INFO root fetch - processPackages [pyslth]: executing diffoscope
+[2024-04-29 16:25:07] INFO root fetch - processPackages [pyslth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyslth-0.2.0.tar.gz tmp/pyslth-0.2.1.tar.gz --markdown 20240429/p/pyslth/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-29 16:25:08] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.2.8.tar.gz]
+[2024-04-29 16:25:08] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.2.9.tar.gz]
+[2024-04-29 16:25:08] INFO root fetch - main [MainThread]: End processing [metalarchivist]: success
+[2024-04-29 16:25:08] INFO root fetch - processPackages [GreenLightPlus]: Remove: archive file [/home/abi/fetcher/tmp/greenlightplus-1.3.tar.gz]
+[2024-04-29 16:25:08] INFO root fetch - processPackages [GreenLightPlus]: Remove: archive file [/home/abi/fetcher/tmp/greenlightplus-1.4.tar.gz]
+[2024-04-29 16:25:08] INFO root fetch - main [MainThread]: End processing [GreenLightPlus]: success
+[2024-04-29 16:25:08] INFO root fetch - processPackages [modern-treasury]: executing diffoscope
+[2024-04-29 16:25:08] INFO root fetch - processPackages [modern-treasury]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modern_treasury-1.8.0.tar.gz tmp/modern_treasury-1.9.0.tar.gz --markdown 20240429/m/modern-treasury/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-29 16:25:08] INFO root fetch - processPackages [great-expectations-cloud]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_cloud-20240426.0.tar.gz]
+[2024-04-29 16:25:08] INFO root fetch - processPackages [great-expectations-cloud]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_cloud-20240429.0.dev0.tar.gz]
+[2024-04-29 16:25:08] INFO root fetch - main [MainThread]: End processing [great-expectations-cloud]: success
+[2024-04-29 16:25:08] INFO root fetch - processPackages [graphxplore]: Remove: archive file [/home/abi/fetcher/tmp/graphxplore-0.9.0.tar.gz]
+[2024-04-29 16:25:08] INFO root fetch - processPackages [graphxplore]: Remove: archive file [/home/abi/fetcher/tmp/graphxplore-0.9.1.tar.gz]
+[2024-04-29 16:25:08] INFO root fetch - main [MainThread]: End processing [graphxplore]: success
+[2024-04-29 16:25:09] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.2.0.tar.gz]
+[2024-04-29 16:25:09] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.2.1.tar.gz]
+[2024-04-29 16:25:09] INFO root fetch - main [MainThread]: End processing [pyslth]: success
+[2024-04-29 16:25:09] INFO root fetch - processPackages [modern-treasury]: Remove: archive file [/home/abi/fetcher/tmp/modern_treasury-1.8.0.tar.gz]
+[2024-04-29 16:25:09] INFO root fetch - processPackages [modern-treasury]: Remove: archive file [/home/abi/fetcher/tmp/modern_treasury-1.9.0.tar.gz]
+[2024-04-29 16:25:09] INFO root fetch - main [MainThread]: End processing [modern-treasury]: success
+[2024-04-29 16:25:09] INFO root fetch - main [MainThread]: Store serial: [22985296]
