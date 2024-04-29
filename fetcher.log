@@ -14655,3 +14655,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 11:55:17] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1216.tar.gz]
 [2024-04-29 11:55:17] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
 [2024-04-29 11:55:17] INFO root fetch - main [MainThread]: Store serial: [22981723]
+[2024-04-29 11:57:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22981723]
+[2024-04-29 11:57:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-29 11:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-adapter-satori
+[2024-04-29 11:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codedepot-depot
+[2024-04-29 11:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydyf
+[2024-04-29 11:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nestipy-dynamic-module
+[2024-04-29 11:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aau-ais-utilities
+[2024-04-29 11:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: colorful-logging
+[2024-04-29 11:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aau-ais-dipaal
+[2024-04-29 11:57:26] INFO root fetch - processPackages [aau-ais-dipaal]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-29 11:57:26] INFO root fetch - processPackages [codedepot-depot]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-29 11:57:26] INFO root fetch - processPackages [pydyf]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-29 11:57:26] INFO root fetch - processPackages [nestipy-dynamic-module]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-29 11:57:26] INFO root fetch - processPackages [colorful-logging]: New version: [0.9] Old Version: [0.8]
+[2024-04-29 11:57:26] INFO root fetch - processPackages [nonebot-adapter-satori]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-29 11:57:26] INFO root fetch - processPackages [aau-ais-utilities]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-29 11:57:26] INFO root fetch - processPackages [aau-ais-dipaal]: Downloading https://files.pythonhosted.org/packages/74/28/5570e096acb1e8c29779d402fdf12dd91b6ec264578d41ec1ffd2a6f34d7/aau_ais_dipaal-0.1.0.tar.gz
+[2024-04-29 11:57:26] INFO root fetch - processPackages [codedepot-depot]: Downloading https://files.pythonhosted.org/packages/0f/58/47f67a84801a08909255b13d87ae6de6091d6cd9d75da21ec694514b1357/codedepot_depot-0.0.7.tar.gz
+[2024-04-29 11:57:26] INFO root fetch - processPackages [pydyf]: Downloading https://files.pythonhosted.org/packages/18/dc/b607bbc7c15327c5d5ec25681a3707c847906134925d21a26ec6e7416a4a/pydyf-0.8.0.tar.gz
+[2024-04-29 11:57:26] INFO root fetch - processPackages [colorful-logging]: Downloading https://files.pythonhosted.org/packages/ff/bb/788aa8dca75584a75eb3731e9623f95dd3c0365b087af02f0abe45f4148e/colorful_logging-0.8.tar.gz
+[2024-04-29 11:57:26] INFO root fetch - processPackages [aau-ais-utilities]: Downloading https://files.pythonhosted.org/packages/26/6c/703cb8fb73936c3c92ce9933e497ccf6ef1baa4ec335f0628b6c2b1b7b25/aau_ais_utilities-0.1.0.tar.gz
+[2024-04-29 11:57:26] INFO root fetch - processPackages [aau-ais-dipaal]: Downloading https://files.pythonhosted.org/packages/29/f1/e7f6532e4c83d33124ab405544a858e145e0df15783367ddf033dfdeb87b/aau_ais_dipaal-0.1.1.tar.gz
+[2024-04-29 11:57:26] INFO root fetch - processPackages [nestipy-dynamic-module]: Downloading https://files.pythonhosted.org/packages/ae/cf/a311de95231f28cd7aafdf368f1eef259e2134d037db02f360a1a97797f1/nestipy_dynamic_module-0.1.4.tar.gz
+[2024-04-29 11:57:26] INFO root fetch - processPackages [codedepot-depot]: Downloading https://files.pythonhosted.org/packages/4e/02/82d5dc03168143e31a13edfe21344444d2e7e75b3a7fa5e93a229cbdbd25/codedepot_depot-0.0.8.tar.gz
+[2024-04-29 11:57:26] INFO root fetch - processPackages [nonebot-adapter-satori]: Downloading https://files.pythonhosted.org/packages/38/9e/332ff095f0a58b1f2f01a556c59f3eb43d514cbd5de0e528f6566e765f8d/nonebot_adapter_satori-0.9.2.tar.gz
+[2024-04-29 11:57:27] INFO root fetch - processPackages [aau-ais-dipaal]: executing diffoscope
+[2024-04-29 11:57:27] INFO root fetch - processPackages [aau-ais-dipaal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aau_ais_dipaal-0.1.0.tar.gz tmp/aau_ais_dipaal-0.1.1.tar.gz --markdown 20240429/a/aau-ais-dipaal/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-29 11:57:27] INFO root fetch - processPackages [codedepot-depot]: executing diffoscope
+[2024-04-29 11:57:27] INFO root fetch - processPackages [codedepot-depot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_depot-0.0.7.tar.gz tmp/codedepot_depot-0.0.8.tar.gz --markdown 20240429/c/codedepot-depot/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-29 11:57:27] INFO root fetch - processPackages [pydyf]: Downloading https://files.pythonhosted.org/packages/b5/f1/bf85e09977a5c98799337272e3675894bfb71c391f617911eca83ef2937e/pydyf-0.9.0.tar.gz
+[2024-04-29 11:57:27] INFO root fetch - processPackages [colorful-logging]: Downloading https://files.pythonhosted.org/packages/47/02/92555aa8146cf2bbdfad22fa5386959d7edce615739eb6495399946da0ee/colorful_logging-0.9.tar.gz
+[2024-04-29 11:57:27] INFO root fetch - processPackages [pydyf]: executing diffoscope
+[2024-04-29 11:57:27] INFO root fetch - processPackages [pydyf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydyf-0.8.0.tar.gz tmp/pydyf-0.9.0.tar.gz --markdown 20240429/p/pydyf/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-29 11:57:27] INFO root fetch - processPackages [aau-ais-utilities]: Downloading https://files.pythonhosted.org/packages/18/60/c4e154a34f60e3ca9b1740389a1d419e3ad8b28fd06995268cbe25328941/aau_ais_utilities-0.1.1.tar.gz
+[2024-04-29 11:57:27] INFO root fetch - processPackages [nestipy-dynamic-module]: Downloading https://files.pythonhosted.org/packages/d7/85/742ab44f7dec58a8bde8c69f1ad800408cc6272731e8c52819753c90658b/nestipy_dynamic_module-0.1.5.tar.gz
+[2024-04-29 11:57:27] INFO root fetch - processPackages [nonebot-adapter-satori]: Downloading https://files.pythonhosted.org/packages/b4/63/45cf90e98509d6081103ac32e520e3fd73306f9f2d7ead8be5ece0680e16/nonebot_adapter_satori-0.9.3.tar.gz
+[2024-04-29 11:57:27] INFO root fetch - processPackages [nestipy-dynamic-module]: executing diffoscope
+[2024-04-29 11:57:27] INFO root fetch - processPackages [nestipy-dynamic-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestipy_dynamic_module-0.1.4.tar.gz tmp/nestipy_dynamic_module-0.1.5.tar.gz --markdown 20240429/n/nestipy-dynamic-module/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-29 11:57:27] INFO root fetch - processPackages [aau-ais-utilities]: executing diffoscope
+[2024-04-29 11:57:27] INFO root fetch - processPackages [aau-ais-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aau_ais_utilities-0.1.0.tar.gz tmp/aau_ais_utilities-0.1.1.tar.gz --markdown 20240429/a/aau-ais-utilities/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-29 11:57:27] INFO root fetch - processPackages [colorful-logging]: executing diffoscope
+[2024-04-29 11:57:27] INFO root fetch - processPackages [colorful-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colorful_logging-0.8.tar.gz tmp/colorful_logging-0.9.tar.gz --markdown 20240429/c/colorful-logging/0.8-0.9/README.md --exclude *.pyd
+[2024-04-29 11:57:27] INFO root fetch - processPackages [nonebot-adapter-satori]: executing diffoscope
+[2024-04-29 11:57:27] INFO root fetch - processPackages [nonebot-adapter-satori]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_satori-0.9.2.tar.gz tmp/nonebot_adapter_satori-0.9.3.tar.gz --markdown 20240429/n/nonebot-adapter-satori/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-29 11:57:27] INFO root fetch - processPackages [codedepot-depot]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_depot-0.0.7.tar.gz]
+[2024-04-29 11:57:27] INFO root fetch - processPackages [codedepot-depot]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_depot-0.0.8.tar.gz]
+[2024-04-29 11:57:27] INFO root fetch - main [MainThread]: End processing [codedepot-depot]: success
+[2024-04-29 11:57:27] INFO root fetch - processPackages [aau-ais-dipaal]: Remove: archive file [/home/abi/fetcher/tmp/aau_ais_dipaal-0.1.0.tar.gz]
+[2024-04-29 11:57:27] INFO root fetch - processPackages [aau-ais-dipaal]: Remove: archive file [/home/abi/fetcher/tmp/aau_ais_dipaal-0.1.1.tar.gz]
+[2024-04-29 11:57:27] INFO root fetch - main [MainThread]: End processing [aau-ais-dipaal]: success
+[2024-04-29 11:57:28] INFO root fetch - processPackages [nestipy-dynamic-module]: Remove: archive file [/home/abi/fetcher/tmp/nestipy_dynamic_module-0.1.4.tar.gz]
+[2024-04-29 11:57:28] INFO root fetch - processPackages [nestipy-dynamic-module]: Remove: archive file [/home/abi/fetcher/tmp/nestipy_dynamic_module-0.1.5.tar.gz]
+[2024-04-29 11:57:28] INFO root fetch - main [MainThread]: End processing [nestipy-dynamic-module]: success
+[2024-04-29 11:57:28] INFO root fetch - processPackages [aau-ais-utilities]: Remove: archive file [/home/abi/fetcher/tmp/aau_ais_utilities-0.1.0.tar.gz]
+[2024-04-29 11:57:28] INFO root fetch - processPackages [aau-ais-utilities]: Remove: archive file [/home/abi/fetcher/tmp/aau_ais_utilities-0.1.1.tar.gz]
+[2024-04-29 11:57:28] INFO root fetch - main [MainThread]: End processing [aau-ais-utilities]: success
+[2024-04-29 11:57:28] INFO root fetch - processPackages [pydyf]: Remove: archive file [/home/abi/fetcher/tmp/pydyf-0.8.0.tar.gz]
+[2024-04-29 11:57:28] INFO root fetch - processPackages [pydyf]: Remove: archive file [/home/abi/fetcher/tmp/pydyf-0.9.0.tar.gz]
+[2024-04-29 11:57:28] INFO root fetch - main [MainThread]: End processing [pydyf]: success
+[2024-04-29 11:57:28] INFO root fetch - processPackages [colorful-logging]: Remove: archive file [/home/abi/fetcher/tmp/colorful_logging-0.8.tar.gz]
+[2024-04-29 11:57:28] INFO root fetch - processPackages [colorful-logging]: Remove: archive file [/home/abi/fetcher/tmp/colorful_logging-0.9.tar.gz]
+[2024-04-29 11:57:28] INFO root fetch - main [MainThread]: End processing [colorful-logging]: success
+[2024-04-29 11:57:28] INFO root fetch - processPackages [nonebot-adapter-satori]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_satori-0.9.2.tar.gz]
+[2024-04-29 11:57:28] INFO root fetch - processPackages [nonebot-adapter-satori]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_satori-0.9.3.tar.gz]
+[2024-04-29 11:57:28] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-satori]: success
+[2024-04-29 11:57:28] INFO root fetch - main [MainThread]: Store serial: [22981745]
