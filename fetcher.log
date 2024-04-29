@@ -22672,3 +22672,105 @@ EOFError: EOF read where object expected
 [2024-04-29 16:02:54] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-29 16:02:54] INFO root fetch - main [MainThread]: End processing [ert]: success
 [2024-04-29 16:02:54] INFO root fetch - main [MainThread]: Store serial: [22984909]
+[2024-04-29 16:04:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22984909]
+[2024-04-29 16:05:03] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-29 16:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omaslib
+[2024-04-29 16:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metalarchivist
+[2024-04-29 16:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hotsos
+[2024-04-29 16:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: textual-fspicker
+[2024-04-29 16:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: secretvalidate
+[2024-04-29 16:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: snakemake
+[2024-04-29 16:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: morphonet
+[2024-04-29 16:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-bilichat
+[2024-04-29 16:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aeroterra-ds
+[2024-04-29 16:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: typon
+[2024-04-29 16:05:04] INFO root fetch - processPackages [secretvalidate]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-04-29 16:05:04] INFO root fetch - processPackages [aeroterra-ds]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-29 16:05:04] INFO root fetch - processPackages [hotsos]: New version: [1.17.0.post9] Old Version: [1.17.0.post8]
+[2024-04-29 16:05:04] INFO root fetch - processPackages [textual-fspicker]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 16:05:04] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/2a/74/f1fedcd5b126c4af0184fc7bc616c4941f414eb51cc2fc523514708f3cae/secretvalidate-0.0.1a8.tar.gz
+[2024-04-29 16:05:04] INFO root fetch - processPackages [snakemake]: New version: [8.9.0] Old Version: [8.8.0]
+[2024-04-29 16:05:04] INFO root fetch - processPackages [omaslib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 16:05:04] INFO root fetch - processPackages [typon]: New version: [0.3] Old Version: [0.0.1]
+[2024-04-29 16:05:04] INFO root fetch - processPackages [aeroterra-ds]: Downloading https://files.pythonhosted.org/packages/ba/b1/3a99297ffcf64498604031fbfe5f7bd77eb9e82535bcc04134866b539665/aeroterra_ds-1.0.8.tar.gz
+[2024-04-29 16:05:04] INFO root fetch - processPackages [nonebot-plugin-bilichat]: New version: [5.7.1] Old Version: [5.7.0]
+[2024-04-29 16:05:04] INFO root fetch - processPackages [metalarchivist]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-29 16:05:04] INFO root fetch - processPackages [morphonet]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-04-29 16:05:04] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/a7/57/15e4fe4e4dbc4381d9bf00a81267a7c13df4ca3f2dc3b2afa7db65518860/hotsos-1.17.0.post8.tar.gz
+[2024-04-29 16:05:04] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/57/86/54b1f11aebe768d2014fd8f4bb1e90e29a764014e1104c5ccf64e6433d48/secretvalidate-0.0.1a9.tar.gz
+[2024-04-29 16:05:04] INFO root fetch - processPackages [textual-fspicker]: Downloading https://files.pythonhosted.org/packages/98/36/254cdef493fee47c1f96a1828856845a89941e707044f178997ed98e50c1/textual_fspicker-0.0.8-py3-none-any.whl
+[2024-04-29 16:05:04] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/f0/3e/3386739ee49f841cc84f08989fb924917414aa0438c4559d48674a8c920b/snakemake-8.8.0.tar.gz
+[2024-04-29 16:05:04] INFO root fetch - processPackages [typon]: Downloading https://files.pythonhosted.org/packages/2b/0d/92c50b2c179737e3d42ed101b28e5ce653e3771d0c05df33d3a000431fbd/typon-0.0.1.tar.gz
+[2024-04-29 16:05:04] INFO root fetch - processPackages [omaslib]: Downloading https://files.pythonhosted.org/packages/05/06/738db6fadc8e88517e586a3896c341104d5ce27f780914d11579da69b7a7/omaslib-0.1.8.tar.gz
+[2024-04-29 16:05:04] INFO root fetch - processPackages [aeroterra-ds]: Downloading https://files.pythonhosted.org/packages/5b/68/aaa8e502a3d00d0cf6ffc68cdd9599605601abff8e12de5fd50b45beac5c/aeroterra_ds-1.0.9.tar.gz
+[2024-04-29 16:05:04] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/31/b0/1c6f939a91ba3f0f11b0f90d79e7a555c94281612e14134f6afbd32bfc54/nonebot_plugin_bilichat-5.7.0.tar.gz
+[2024-04-29 16:05:04] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/7c/da/ecfe01db8b7ff64066420eb5dd17a37176b3408bfed21432f2d0002500dc/metalarchivist-0.2.8.tar.gz
+[2024-04-29 16:05:04] INFO root fetch - processPackages [morphonet]: Downloading https://files.pythonhosted.org/packages/1f/ac/45537d79109368f9f697b508730bca22bf6ad797f965a0b84efa19b38ec3/morphonet-2.2.8.tar.gz
+[2024-04-29 16:05:04] INFO root fetch - processPackages [secretvalidate]: executing diffoscope
+[2024-04-29 16:05:04] INFO root fetch - processPackages [secretvalidate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretvalidate-0.0.1a8.tar.gz tmp/secretvalidate-0.0.1a9.tar.gz --markdown 20240429/s/secretvalidate/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-04-29 16:05:04] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/7f/57/f6a4fc3900f977e567bcf108bd2787ce8624445d42b84c26b710b18c7c3d/hotsos-1.17.0.post9.tar.gz
+[2024-04-29 16:05:04] INFO root fetch - processPackages [aeroterra-ds]: executing diffoscope
+[2024-04-29 16:05:04] INFO root fetch - processPackages [aeroterra-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeroterra_ds-1.0.8.tar.gz tmp/aeroterra_ds-1.0.9.tar.gz --markdown 20240429/a/aeroterra-ds/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-29 16:05:04] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-04-29 16:05:04] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.17.0.post8.tar.gz tmp/hotsos-1.17.0.post9.tar.gz --markdown 20240429/h/hotsos/1.17.0.post8-1.17.0.post9/README.md --exclude *.pyd
+[2024-04-29 16:05:05] INFO root fetch - processPackages [typon]: Downloading https://files.pythonhosted.org/packages/a9/c3/73eaa2e59b91dccf7c59e98f94a70b4a1d16c27ed39e56e93a63177048e8/typon-0.3.tar.gz
+[2024-04-29 16:05:05] INFO root fetch - processPackages [textual-fspicker]: Downloading https://files.pythonhosted.org/packages/98/8c/5d54046e790ab8f570ae843c5f73ae7169ec571fee6e0816ea3ab7a579c2/textual_fspicker-0.0.9-py3-none-any.whl
+[2024-04-29 16:05:05] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/bb/35/4201a323ff269aedcd71b1edc79202352a20a72c9aa5891906cfb7687d5b/nonebot_plugin_bilichat-5.7.1.tar.gz
+[2024-04-29 16:05:05] INFO root fetch - processPackages [omaslib]: Downloading https://files.pythonhosted.org/packages/65/06/18313d4c7928d792ab1ad8bcfcc450ca0319a9fd0308af6704047ec9ff82/omaslib-0.1.9.tar.gz
+[2024-04-29 16:05:05] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/9f/99/abd55a94a4990d7a874c8a172958515f3e1b215742eb53cacebc7e77d4bc/metalarchivist-0.2.9.tar.gz
+[2024-04-29 16:05:05] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/be/07/0040ab91da28bcd9077a8762748deba3b02dd8f7613e14589e4ec0f25aab/snakemake-8.9.0.tar.gz
+[2024-04-29 16:05:05] INFO root fetch - processPackages [typon]: executing diffoscope
+[2024-04-29 16:05:05] INFO root fetch - processPackages [typon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typon-0.0.1.tar.gz tmp/typon-0.3.tar.gz --markdown 20240429/t/typon/0.0.1-0.3/README.md --exclude *.pyd
+[2024-04-29 16:05:05] INFO root fetch - processPackages [omaslib]: executing diffoscope
+[2024-04-29 16:05:05] INFO root fetch - processPackages [omaslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omaslib-0.1.8.tar.gz tmp/omaslib-0.1.9.tar.gz --markdown 20240429/o/omaslib/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 16:05:05] INFO root fetch - processPackages [metalarchivist]: executing diffoscope
+[2024-04-29 16:05:05] INFO root fetch - processPackages [metalarchivist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metalarchivist-0.2.8.tar.gz tmp/metalarchivist-0.2.9.tar.gz --markdown 20240429/m/metalarchivist/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-29 16:05:05] INFO root fetch - processPackages [textual-fspicker]: executing diffoscope
+[2024-04-29 16:05:05] INFO root fetch - processPackages [textual-fspicker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual_fspicker-0.0.8-py3-none-any.whl.zip tmp/textual_fspicker-0.0.9-py3-none-any.whl.zip --markdown 20240429/t/textual-fspicker/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 16:05:05] INFO root fetch - processPackages [nonebot-plugin-bilichat]: executing diffoscope
+[2024-04-29 16:05:05] INFO root fetch - processPackages [nonebot-plugin-bilichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bilichat-5.7.0.tar.gz tmp/nonebot_plugin_bilichat-5.7.1.tar.gz --markdown 20240429/n/nonebot-plugin-bilichat/5.7.0-5.7.1/README.md --exclude *.pyd
+[2024-04-29 16:05:05] INFO root fetch - processPackages [snakemake]: executing diffoscope
+[2024-04-29 16:05:05] INFO root fetch - processPackages [snakemake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake-8.8.0.tar.gz tmp/snakemake-8.9.0.tar.gz --markdown 20240429/s/snakemake/8.8.0-8.9.0/README.md --exclude *.pyd
+[2024-04-29 16:05:05] INFO root fetch - processPackages [aeroterra-ds]: Remove: archive file [/home/abi/fetcher/tmp/aeroterra_ds-1.0.8.tar.gz]
+[2024-04-29 16:05:05] INFO root fetch - processPackages [aeroterra-ds]: Remove: archive file [/home/abi/fetcher/tmp/aeroterra_ds-1.0.9.tar.gz]
+[2024-04-29 16:05:05] INFO root fetch - processPackages [aeroterra-ds]: Start processing: aeroterra-ds
+[2024-04-29 16:05:05] INFO root fetch - main [MainThread]: End processing [aeroterra-ds]: success
+[2024-04-29 16:05:05] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a8.tar.gz]
+[2024-04-29 16:05:05] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a9.tar.gz]
+[2024-04-29 16:05:05] INFO root fetch - main [MainThread]: End processing [secretvalidate]: success
+[2024-04-29 16:05:05] INFO root fetch - processPackages [aeroterra-ds]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-29 16:05:05] INFO root fetch - processPackages [aeroterra-ds]: Downloading https://files.pythonhosted.org/packages/ba/b1/3a99297ffcf64498604031fbfe5f7bd77eb9e82535bcc04134866b539665/aeroterra_ds-1.0.8.tar.gz
+[2024-04-29 16:05:06] INFO root fetch - processPackages [aeroterra-ds]: Downloading https://files.pythonhosted.org/packages/5b/68/aaa8e502a3d00d0cf6ffc68cdd9599605601abff8e12de5fd50b45beac5c/aeroterra_ds-1.0.9.tar.gz
+[2024-04-29 16:05:06] INFO root fetch - processPackages [aeroterra-ds]: executing diffoscope
+[2024-04-29 16:05:06] INFO root fetch - processPackages [aeroterra-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeroterra_ds-1.0.8.tar.gz tmp/aeroterra_ds-1.0.9.tar.gz --markdown 20240429/a/aeroterra-ds/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-29 16:05:06] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.2.8.tar.gz]
+[2024-04-29 16:05:06] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.2.9.tar.gz]
+[2024-04-29 16:05:06] INFO root fetch - main [MainThread]: End processing [metalarchivist]: success
+[2024-04-29 16:05:06] INFO root fetch - processPackages [textual-fspicker]: Remove: archive file [/home/abi/fetcher/tmp/textual_fspicker-0.0.8-py3-none-any.whl.zip]
+[2024-04-29 16:05:06] INFO root fetch - processPackages [textual-fspicker]: Remove: archive file [/home/abi/fetcher/tmp/textual_fspicker-0.0.9-py3-none-any.whl.zip]
+[2024-04-29 16:05:06] INFO root fetch - main [MainThread]: End processing [textual-fspicker]: success
+[2024-04-29 16:05:06] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-5.7.0.tar.gz]
+[2024-04-29 16:05:06] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-5.7.1.tar.gz]
+[2024-04-29 16:05:06] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
+[2024-04-29 16:05:06] INFO root fetch - processPackages [typon]: Remove: archive file [/home/abi/fetcher/tmp/typon-0.0.1.tar.gz]
+[2024-04-29 16:05:06] INFO root fetch - processPackages [typon]: Remove: archive file [/home/abi/fetcher/tmp/typon-0.3.tar.gz]
+[2024-04-29 16:05:06] INFO root fetch - main [MainThread]: End processing [typon]: success
+[2024-04-29 16:05:07] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-8.8.0.tar.gz]
+[2024-04-29 16:05:07] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-8.9.0.tar.gz]
+[2024-04-29 16:05:07] INFO root fetch - main [MainThread]: End processing [snakemake]: success
+[2024-04-29 16:05:07] INFO root fetch - processPackages [omaslib]: Remove: archive file [/home/abi/fetcher/tmp/omaslib-0.1.8.tar.gz]
+[2024-04-29 16:05:07] INFO root fetch - processPackages [omaslib]: Remove: archive file [/home/abi/fetcher/tmp/omaslib-0.1.9.tar.gz]
+[2024-04-29 16:05:07] INFO root fetch - main [MainThread]: End processing [omaslib]: success
+[2024-04-29 16:05:07] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post8.tar.gz]
+[2024-04-29 16:05:07] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
+[2024-04-29 16:05:07] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-04-29 16:05:07] INFO root fetch - processPackages [morphonet]: Downloading https://files.pythonhosted.org/packages/78/75/96953054c70825b0f8b2e11d63e1aa68c1bb0556fcd2355fafcf0296d196/morphonet-2.2.9.tar.gz
+[2024-04-29 16:05:07] INFO root fetch - processPackages [aeroterra-ds]: Remove: archive file [/home/abi/fetcher/tmp/aeroterra_ds-1.0.8.tar.gz]
+[2024-04-29 16:05:07] INFO root fetch - processPackages [aeroterra-ds]: Remove: archive file [/home/abi/fetcher/tmp/aeroterra_ds-1.0.9.tar.gz]
+[2024-04-29 16:05:07] INFO root fetch - main [MainThread]: End processing [aeroterra-ds]: success
+[2024-04-29 16:05:09] INFO root fetch - processPackages [morphonet]: executing diffoscope
+[2024-04-29 16:05:09] INFO root fetch - processPackages [morphonet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphonet-2.2.8.tar.gz tmp/morphonet-2.2.9.tar.gz --markdown 20240429/m/morphonet/2.2.8-2.2.9/README.md --exclude *.pyd
+[2024-04-29 16:05:11] INFO root fetch - processPackages [morphonet]: Remove: archive file [/home/abi/fetcher/tmp/morphonet-2.2.8.tar.gz]
+[2024-04-29 16:05:11] INFO root fetch - processPackages [morphonet]: Remove: archive file [/home/abi/fetcher/tmp/morphonet-2.2.9.tar.gz]
+[2024-04-29 16:05:11] INFO root fetch - main [MainThread]: End processing [morphonet]: success
+[2024-04-29 16:05:11] INFO root fetch - main [MainThread]: Store serial: [22984938]
