@@ -15216,3 +15216,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 12:15:31] INFO root fetch - processPackages [tqsdk]: Remove: archive file [/home/abi/fetcher/tmp/tqsdk-3.5.8.tar.gz]
 [2024-04-29 12:15:31] INFO root fetch - main [MainThread]: End processing [tqsdk]: success
 [2024-04-29 12:15:31] INFO root fetch - main [MainThread]: Store serial: [22981932]
+[2024-04-29 12:17:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22981932]
+[2024-04-29 12:17:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-29 12:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MeMeST
+[2024-04-29 12:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-criteria
+[2024-04-29 12:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arcaflow-plugin-sdk
+[2024-04-29 12:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: templated-setup
+[2024-04-29 12:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sd-mecha
+[2024-04-29 12:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eis1600
+[2024-04-29 12:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qg_toolkit
+[2024-04-29 12:17:40] INFO root fetch - processPackages [python-criteria]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-29 12:17:40] INFO root fetch - processPackages [qg_toolkit]: New version: [1.0.13] Old Version: [1.0.12]
+[2024-04-29 12:17:40] INFO root fetch - processPackages [MeMeST]: New version: [2024.4.9.212528] Old Version: [2024.4.9.212527]
+[2024-04-29 12:17:40] INFO root fetch - processPackages [eis1600]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-04-29 12:17:40] INFO root fetch - processPackages [sd-mecha]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 12:17:40] INFO root fetch - processPackages [python-criteria]: Downloading https://files.pythonhosted.org/packages/9f/b6/4a00174bcea13ede1b44c23db8302e8ea1e0d5ea83c23d6b3ebfdab5189e/python_criteria-0.5.0.tar.gz
+[2024-04-29 12:17:40] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/c7/f8/06a6b16a92478425f10419fced163609a359da2a317e7944daa8f7ef9d62/MeMeST-2024.4.9.212527.tar.gz
+[2024-04-29 12:17:40] INFO root fetch - processPackages [templated-setup]: New version: [0.9] Old Version: [0.8]
+[2024-04-29 12:17:40] INFO root fetch - processPackages [arcaflow-plugin-sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-29 12:17:40] INFO root fetch - processPackages [qg_toolkit]: Downloading https://files.pythonhosted.org/packages/a2/49/4720387b9abe39cfaa8160aec04b2a276fe7ff26da95662460838bc001e9/qg_toolkit-1.0.12.tar.gz
+[2024-04-29 12:17:40] INFO root fetch - processPackages [eis1600]: Downloading https://files.pythonhosted.org/packages/74/8a/fe6ff25e46ed1d6cf1b134c903f9312775ec8f2cc89614f618d3f87bd191/eis1600-1.6.2.tar.gz
+[2024-04-29 12:17:40] INFO root fetch - processPackages [arcaflow-plugin-sdk]: Downloading https://files.pythonhosted.org/packages/89/06/0b16e3cd47e34cb635507647f5ff038bb7fb6db3ae0ac1f3e8bc227969c4/arcaflow_plugin_sdk-0.8.0.tar.gz
+[2024-04-29 12:17:40] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/8f/c8/247712c7a1ed3cb017fbd1c295e1e38c978bdb8c38e4bacba9d9ba71c7ca/templated_setup-0.8.tar.gz
+[2024-04-29 12:17:40] INFO root fetch - processPackages [sd-mecha]: Downloading https://files.pythonhosted.org/packages/e6/d1/c32853afdf56556df9398617cafd161e560f54b1cfb01562d80da47dac4b/sd-mecha-0.0.8.tar.gz
+[2024-04-29 12:17:40] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/ba/4c/b40475a9d3097469d49458c79404aa15cc8c79a220ea3b85fc1d2b8895bc/MeMeST-2024.4.9.212528-py3-none-any.whl
+[2024-04-29 12:17:40] INFO root fetch - processPackages [python-criteria]: Downloading https://files.pythonhosted.org/packages/60/37/c36c3d38cf0e7328be6fcc24dc2c99bd2b2fb9ed51f4ded5b9fd7a5e46e8/python_criteria-0.5.1.tar.gz
+[2024-04-29 12:17:40] INFO root fetch - processPackages [MeMeST]: executing diffoscope
+[2024-04-29 12:17:40] INFO root fetch - processPackages [MeMeST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeMeST-2024.4.9.212527.tar.gz tmp/MeMeST-2024.4.9.212528-py3-none-any.whl.zip --markdown 20240429/M/MeMeST/2024.4.9.212527-2024.4.9.212528/README.md --exclude *.pyd
+[2024-04-29 12:17:41] INFO root fetch - processPackages [qg_toolkit]: Downloading https://files.pythonhosted.org/packages/24/fe/0fcc8c50442e45b9ba88b25195736610731d63a66b041c9099f00c74ce04/qg_toolkit-1.0.13.tar.gz
+[2024-04-29 12:17:41] INFO root fetch - processPackages [python-criteria]: executing diffoscope
+[2024-04-29 12:17:41] INFO root fetch - processPackages [python-criteria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_criteria-0.5.0.tar.gz tmp/python_criteria-0.5.1.tar.gz --markdown 20240429/p/python-criteria/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-29 12:17:41] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/b2/11/fd0a3fde9b37635737412cf3660b7edf0e7e02d2cc02dcf162575f6499fe/templated_setup-0.9.tar.gz
+[2024-04-29 12:17:41] INFO root fetch - processPackages [arcaflow-plugin-sdk]: Downloading https://files.pythonhosted.org/packages/34/ff/e5c7764cc02b70be082a9b0d2affccc12a5ed687dd884c7e8b1daa2f8b8e/arcaflow_plugin_sdk-0.9.0.tar.gz
+[2024-04-29 12:17:41] INFO root fetch - processPackages [sd-mecha]: Downloading https://files.pythonhosted.org/packages/a7/22/16d6f86ae331ca6190bddbaf2c31fdb2747f6dbacd42f3e90578e762c4a7/sd-mecha-0.0.9.tar.gz
+[2024-04-29 12:17:41] INFO root fetch - processPackages [eis1600]: Downloading https://files.pythonhosted.org/packages/25/29/50ebdab6e442cec1e7f4b2f06d9cbd88567cf6e15100102513e504e80fb1/eis1600-1.6.3.tar.gz
+[2024-04-29 12:17:41] INFO root fetch - processPackages [qg_toolkit]: executing diffoscope
+[2024-04-29 12:17:41] INFO root fetch - processPackages [qg_toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qg_toolkit-1.0.12.tar.gz tmp/qg_toolkit-1.0.13.tar.gz --markdown 20240429/q/qg_toolkit/1.0.12-1.0.13/README.md --exclude *.pyd
+[2024-04-29 12:17:41] INFO root fetch - processPackages [templated-setup]: executing diffoscope
+[2024-04-29 12:17:41] INFO root fetch - processPackages [templated-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templated_setup-0.8.tar.gz tmp/templated_setup-0.9.tar.gz --markdown 20240429/t/templated-setup/0.8-0.9/README.md --exclude *.pyd
+[2024-04-29 12:17:41] INFO root fetch - processPackages [arcaflow-plugin-sdk]: executing diffoscope
+[2024-04-29 12:17:41] INFO root fetch - processPackages [arcaflow-plugin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcaflow_plugin_sdk-0.8.0.tar.gz tmp/arcaflow_plugin_sdk-0.9.0.tar.gz --markdown 20240429/a/arcaflow-plugin-sdk/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-29 12:17:41] INFO root fetch - processPackages [sd-mecha]: executing diffoscope
+[2024-04-29 12:17:41] INFO root fetch - processPackages [sd-mecha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sd-mecha-0.0.8.tar.gz tmp/sd-mecha-0.0.9.tar.gz --markdown 20240429/s/sd-mecha/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 12:17:41] INFO root fetch - processPackages [eis1600]: executing diffoscope
+[2024-04-29 12:17:41] INFO root fetch - processPackages [eis1600]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eis1600-1.6.2.tar.gz tmp/eis1600-1.6.3.tar.gz --markdown 20240429/e/eis1600/1.6.2-1.6.3/README.md --exclude *.pyd
+[2024-04-29 12:17:41] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-2024.4.9.212527.tar.gz]
+[2024-04-29 12:17:41] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-2024.4.9.212528-py3-none-any.whl.zip]
+[2024-04-29 12:17:41] INFO root fetch - main [MainThread]: End processing [MeMeST]: success
+[2024-04-29 12:17:41] INFO root fetch - processPackages [python-criteria]: Remove: archive file [/home/abi/fetcher/tmp/python_criteria-0.5.0.tar.gz]
+[2024-04-29 12:17:41] INFO root fetch - processPackages [python-criteria]: Remove: archive file [/home/abi/fetcher/tmp/python_criteria-0.5.1.tar.gz]
+[2024-04-29 12:17:41] INFO root fetch - main [MainThread]: End processing [python-criteria]: success
+[2024-04-29 12:17:41] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.8.tar.gz]
+[2024-04-29 12:17:41] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.9.tar.gz]
+[2024-04-29 12:17:41] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
+[2024-04-29 12:17:42] INFO root fetch - processPackages [sd-mecha]: Remove: archive file [/home/abi/fetcher/tmp/sd-mecha-0.0.8.tar.gz]
+[2024-04-29 12:17:42] INFO root fetch - processPackages [sd-mecha]: Remove: archive file [/home/abi/fetcher/tmp/sd-mecha-0.0.9.tar.gz]
+[2024-04-29 12:17:42] INFO root fetch - main [MainThread]: End processing [sd-mecha]: success
+[2024-04-29 12:17:42] INFO root fetch - processPackages [arcaflow-plugin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/arcaflow_plugin_sdk-0.8.0.tar.gz]
+[2024-04-29 12:17:42] INFO root fetch - processPackages [arcaflow-plugin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/arcaflow_plugin_sdk-0.9.0.tar.gz]
+[2024-04-29 12:17:42] INFO root fetch - main [MainThread]: End processing [arcaflow-plugin-sdk]: success
+[2024-04-29 12:17:42] INFO root fetch - processPackages [qg_toolkit]: Remove: archive file [/home/abi/fetcher/tmp/qg_toolkit-1.0.12.tar.gz]
+[2024-04-29 12:17:42] INFO root fetch - processPackages [qg_toolkit]: Remove: archive file [/home/abi/fetcher/tmp/qg_toolkit-1.0.13.tar.gz]
+[2024-04-29 12:17:42] INFO root fetch - main [MainThread]: End processing [qg_toolkit]: success
+[2024-04-29 12:17:42] INFO root fetch - processPackages [eis1600]: Remove: archive file [/home/abi/fetcher/tmp/eis1600-1.6.2.tar.gz]
+[2024-04-29 12:17:42] INFO root fetch - processPackages [eis1600]: Remove: archive file [/home/abi/fetcher/tmp/eis1600-1.6.3.tar.gz]
+[2024-04-29 12:17:42] INFO root fetch - main [MainThread]: End processing [eis1600]: success
+[2024-04-29 12:17:42] INFO root fetch - main [MainThread]: Store serial: [22981952]
