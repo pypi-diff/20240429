@@ -16476,3 +16476,52 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 
 [2024-04-29 13:01:41] INFO root fetch - main [MainThread]: End processing [pyzswagcl] error
 [2024-04-29 13:01:41] INFO root fetch - main [MainThread]: Store serial: [22982359]
+[2024-04-29 13:03:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982359]
+[2024-04-29 13:03:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-29 13:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygpt-net
+[2024-04-29 13:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aspose-3d
+[2024-04-29 13:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sourcery-nightly
+[2024-04-29 13:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keelson
+[2024-04-29 13:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: uav-collision-avoidance
+[2024-04-29 13:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fixcloudutils
+[2024-04-29 13:03:50] INFO root fetch - processPackages [pygpt-net]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-04-29 13:03:50] INFO root fetch - processPackages [aspose-3d]: New version: [24.4.0] Old Version: [24.2.0]
+[2024-04-29 13:03:50] INFO root fetch - processPackages [fixcloudutils]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-29 13:03:50] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-29 13:03:50] INFO root fetch - processPackages [uav-collision-avoidance]: New version: [0.6.6] Old Version: [0.6.4]
+[2024-04-29 13:03:50] INFO root fetch - processPackages [keelson]: New version: [0.3.1rc9] Old Version: [0.3.1rc8]
+[2024-04-29 13:03:50] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/67/d4/f233a0aaf07cfb08f095e2046604d4c0958c09815ad6d22dd3625d836f4f/pygpt_net-2.2.1.tar.gz
+[2024-04-29 13:03:50] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/53/c3/6633071e69f9b7c9fa4dc3fd942df526a00564a3b06fde4e568a9d207143/sourcery_nightly-1.8.0-py2.py3-none-win_amd64.whl
+[2024-04-29 13:03:50] INFO root fetch - processPackages [uav-collision-avoidance]: Downloading https://files.pythonhosted.org/packages/68/71/87343cd485a83c430bcf62c585f12d388ec930551554677e3bb57d18d7e7/uav_collision_avoidance-0.6.4-py3-none-any.whl
+[2024-04-29 13:03:50] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/c6/e7/74deb2f4692ca724892622c48d5c9a3300000f59c46ecd7f1ca9fbf2937f/keelson-0.3.1rc8-py3-none-any.whl
+[2024-04-29 13:03:50] INFO root fetch - processPackages [aspose-3d]: Downloading https://files.pythonhosted.org/packages/b5/0e/a4f058c4a92ea7827fbc06fa5f496534e7f64e8a9e5906fdd9a6b3fd856e/aspose_3d-24.2.0-py3-none-win_amd64.whl
+[2024-04-29 13:03:50] INFO root fetch - processPackages [fixcloudutils]: Downloading https://files.pythonhosted.org/packages/46/b3/43b1d2ef3ca6d2111b4b734e496ae84497a6b764c5cd5724da945efdc97b/fixcloudutils-1.8.0.tar.gz
+[2024-04-29 13:03:50] WARNING root fetch - processPackages [aspose-3d]: Skipping package: exceeds size limit 40714993>=10485760
+[2024-04-29 13:03:50] INFO root fetch - main [MainThread]: End processing [aspose-3d] error
+[2024-04-29 13:03:50] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/5a/55/904d60df0fa86066f64c1c47f590bd2119d5d0ca24ce6386c8bfd44f7d0d/pygpt_net-2.2.2.tar.gz
+[2024-04-29 13:03:51] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/d3/ac/b73a3ad73043384f594b9564cff3200eead0fca16963d71069905057ba4e/keelson-0.3.1rc9-py3-none-any.whl
+[2024-04-29 13:03:51] INFO root fetch - processPackages [uav-collision-avoidance]: Downloading https://files.pythonhosted.org/packages/28/72/b2c5496597a96322a39276f186f6185b5727ae5542a51f265e112e8c6512/uav_collision_avoidance-0.6.6-py3-none-any.whl
+[2024-04-29 13:03:51] INFO root fetch - processPackages [fixcloudutils]: Downloading https://files.pythonhosted.org/packages/38/04/99a6a0618deb1632f415fdc3493db0d71e60ecf1fb7356fa35d10f379a8d/fixcloudutils-1.9.0.tar.gz
+[2024-04-29 13:03:51] INFO root fetch - processPackages [uav-collision-avoidance]: executing diffoscope
+[2024-04-29 13:03:51] INFO root fetch - processPackages [uav-collision-avoidance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uav_collision_avoidance-0.6.4-py3-none-any.whl.zip tmp/uav_collision_avoidance-0.6.6-py3-none-any.whl.zip --markdown 20240429/u/uav-collision-avoidance/0.6.4-0.6.6/README.md --exclude *.pyd
+[2024-04-29 13:03:51] INFO root fetch - processPackages [pygpt-net]: executing diffoscope
+[2024-04-29 13:03:51] INFO root fetch - processPackages [pygpt-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygpt_net-2.2.1.tar.gz tmp/pygpt_net-2.2.2.tar.gz --markdown 20240429/p/pygpt-net/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-04-29 13:03:51] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-04-29 13:03:51] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.3.1rc8-py3-none-any.whl.zip tmp/keelson-0.3.1rc9-py3-none-any.whl.zip --markdown 20240429/k/keelson/0.3.1rc8-0.3.1rc9/README.md --exclude *.pyd
+[2024-04-29 13:03:51] INFO root fetch - processPackages [fixcloudutils]: executing diffoscope
+[2024-04-29 13:03:51] INFO root fetch - processPackages [fixcloudutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixcloudutils-1.8.0.tar.gz tmp/fixcloudutils-1.9.0.tar.gz --markdown 20240429/f/fixcloudutils/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-29 13:03:51] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 68491059>=10485760
+[2024-04-29 13:03:51] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2024-04-29 13:03:52] INFO root fetch - processPackages [fixcloudutils]: Remove: archive file [/home/abi/fetcher/tmp/fixcloudutils-1.8.0.tar.gz]
+[2024-04-29 13:03:52] INFO root fetch - processPackages [fixcloudutils]: Remove: archive file [/home/abi/fetcher/tmp/fixcloudutils-1.9.0.tar.gz]
+[2024-04-29 13:03:52] INFO root fetch - main [MainThread]: End processing [fixcloudutils]: success
+[2024-04-29 13:03:52] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.1rc8-py3-none-any.whl.zip]
+[2024-04-29 13:03:52] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.1rc9-py3-none-any.whl.zip]
+[2024-04-29 13:03:52] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-04-29 13:03:52] INFO root fetch - processPackages [uav-collision-avoidance]: Remove: archive file [/home/abi/fetcher/tmp/uav_collision_avoidance-0.6.4-py3-none-any.whl.zip]
+[2024-04-29 13:03:52] INFO root fetch - processPackages [uav-collision-avoidance]: Remove: archive file [/home/abi/fetcher/tmp/uav_collision_avoidance-0.6.6-py3-none-any.whl.zip]
+[2024-04-29 13:03:52] INFO root fetch - main [MainThread]: End processing [uav-collision-avoidance]: success
+[2024-04-29 13:03:55] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.2.1.tar.gz]
+[2024-04-29 13:03:55] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.2.2.tar.gz]
+[2024-04-29 13:03:55] INFO root fetch - main [MainThread]: End processing [pygpt-net]: success
+[2024-04-29 13:03:55] INFO root fetch - main [MainThread]: Store serial: [22982378]
