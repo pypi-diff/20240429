@@ -11569,3 +11569,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 09:54:36] INFO root fetch - processPackages [librus-apix]: Remove: archive file [/home/abi/fetcher/tmp/librus_apix-0.7.3.tar.gz]
 [2024-04-29 09:54:36] INFO root fetch - main [MainThread]: End processing [librus-apix]: success
 [2024-04-29 09:54:36] INFO root fetch - main [MainThread]: Store serial: [22980293]
+[2024-04-29 09:56:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980293]
+[2024-04-29 09:56:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 09:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: automea
+[2024-04-29 09:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: muko
+[2024-04-29 09:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drfexts
+[2024-04-29 09:56:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: g2p_nb
+[2024-04-29 09:56:45] INFO root fetch - processPackages [muko]: New version: [2.34] Old Version: [2.33]
+[2024-04-29 09:56:45] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/7e/8f/a64659a4c15c1c7dd918706618ed9d789669b7de3a91b3ffe19c2b706f5a/muko-2.33-py3-none-any.whl
+[2024-04-29 09:56:45] INFO root fetch - processPackages [automea]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-29 09:56:45] INFO root fetch - processPackages [g2p_nb]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-29 09:56:45] INFO root fetch - processPackages [drfexts]: New version: [3.9.0] Old Version: [3.8.4]
+[2024-04-29 09:56:46] INFO root fetch - processPackages [automea]: Downloading https://files.pythonhosted.org/packages/17/1d/5a049fa2fc33b6aeb3c06882bb9c336c65b377b82a1fc7d19df831d8ad9e/automea-0.0.4.tar.gz
+[2024-04-29 09:56:46] INFO root fetch - processPackages [g2p_nb]: Downloading https://files.pythonhosted.org/packages/2b/50/5a038241251358715296c2dd8feff6e7ffcb4e81c7585828bbd6339e367c/g2p_nb-0.1.0.tar.gz
+[2024-04-29 09:56:46] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/fd/33/e7a316b64739a3ea2e242828dd7de259d559a5ad1dc707d07dc766d78112/muko-2.34-py3-none-any.whl
+[2024-04-29 09:56:46] INFO root fetch - processPackages [drfexts]: Downloading https://files.pythonhosted.org/packages/da/02/1fa71a9b1b5ef9bfb70bc36c8916618b9a7a850b7e9fad8d03d377714704/drfexts-3.8.4.tar.gz
+[2024-04-29 09:56:46] INFO root fetch - processPackages [automea]: Downloading https://files.pythonhosted.org/packages/c7/c9/aa13974bcb2c7a0a5d984093ecdc81f5a584ef5452b6b58022fc4b3e12b7/automea-0.0.5.tar.gz
+[2024-04-29 09:56:46] INFO root fetch - processPackages [muko]: executing diffoscope
+[2024-04-29 09:56:46] INFO root fetch - processPackages [muko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muko-2.33-py3-none-any.whl.zip tmp/muko-2.34-py3-none-any.whl.zip --markdown 20240429/m/muko/2.33-2.34/README.md --exclude *.pyd
+[2024-04-29 09:56:46] INFO root fetch - processPackages [drfexts]: Downloading https://files.pythonhosted.org/packages/85/84/ff91612e0c29de31c44d713a44f152b5c2bd7edb8fd521a023119627d9e0/drfexts-3.9.0.tar.gz
+[2024-04-29 09:56:46] INFO root fetch - processPackages [g2p_nb]: Downloading https://files.pythonhosted.org/packages/aa/77/a6fd8bcece6eb19740589d340032f4fa49b7fbf3de9086cb80862fbe209c/g2p_nb-0.1.1.tar.gz
+[2024-04-29 09:56:46] INFO root fetch - processPackages [automea]: executing diffoscope
+[2024-04-29 09:56:46] INFO root fetch - processPackages [automea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automea-0.0.4.tar.gz tmp/automea-0.0.5.tar.gz --markdown 20240429/a/automea/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-29 09:56:46] INFO root fetch - processPackages [drfexts]: executing diffoscope
+[2024-04-29 09:56:46] INFO root fetch - processPackages [drfexts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drfexts-3.8.4.tar.gz tmp/drfexts-3.9.0.tar.gz --markdown 20240429/d/drfexts/3.8.4-3.9.0/README.md --exclude *.pyd
+[2024-04-29 09:56:46] INFO root fetch - processPackages [g2p_nb]: executing diffoscope
+[2024-04-29 09:56:46] INFO root fetch - processPackages [g2p_nb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g2p_nb-0.1.0.tar.gz tmp/g2p_nb-0.1.1.tar.gz --markdown 20240429/g/g2p_nb/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-29 09:56:47] INFO root fetch - processPackages [automea]: Remove: archive file [/home/abi/fetcher/tmp/automea-0.0.4.tar.gz]
+[2024-04-29 09:56:47] INFO root fetch - processPackages [automea]: Remove: archive file [/home/abi/fetcher/tmp/automea-0.0.5.tar.gz]
+[2024-04-29 09:56:47] INFO root fetch - main [MainThread]: End processing [automea]: success
+[2024-04-29 09:56:47] INFO root fetch - processPackages [drfexts]: Remove: archive file [/home/abi/fetcher/tmp/drfexts-3.8.4.tar.gz]
+[2024-04-29 09:56:47] INFO root fetch - processPackages [drfexts]: Remove: archive file [/home/abi/fetcher/tmp/drfexts-3.9.0.tar.gz]
+[2024-04-29 09:56:47] INFO root fetch - main [MainThread]: End processing [drfexts]: success
+[2024-04-29 09:56:47] INFO root fetch - processPackages [g2p_nb]: Remove: archive file [/home/abi/fetcher/tmp/g2p_nb-0.1.0.tar.gz]
+[2024-04-29 09:56:47] INFO root fetch - processPackages [g2p_nb]: Remove: archive file [/home/abi/fetcher/tmp/g2p_nb-0.1.1.tar.gz]
+[2024-04-29 09:56:47] INFO root fetch - main [MainThread]: End processing [g2p_nb]: success
+[2024-04-29 09:56:50] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.33-py3-none-any.whl.zip]
+[2024-04-29 09:56:50] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.34-py3-none-any.whl.zip]
+[2024-04-29 09:56:50] INFO root fetch - main [MainThread]: End processing [muko]: success
+[2024-04-29 09:56:50] INFO root fetch - main [MainThread]: Store serial: [22980305]
