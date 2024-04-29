@@ -12396,3 +12396,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 10:32:53] INFO root fetch - processPackages [libusbsio]: Remove: archive file [/home/abi/fetcher/tmp/libusbsio-2.1.9.tar.gz]
 [2024-04-29 10:32:53] INFO root fetch - main [MainThread]: End processing [libusbsio]: success
 [2024-04-29 10:32:53] INFO root fetch - main [MainThread]: Store serial: [22980668]
+[2024-04-29 10:34:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980668]
+[2024-04-29 10:35:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-29 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: icoc
+[2024-04-29 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: retack-sdk-django
+[2024-04-29 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: templated-setup
+[2024-04-29 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PACMANCharge
+[2024-04-29 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RsInstrument
+[2024-04-29 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: middleware-help-python
+[2024-04-29 10:35:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ood_detectors
+[2024-04-29 10:35:05] INFO root fetch - processPackages [RsInstrument]: New version: [1.9.0.52] Old Version: [1.8.4.49]
+[2024-04-29 10:35:05] INFO root fetch - processPackages [PACMANCharge]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-29 10:35:05] INFO root fetch - processPackages [middleware-help-python]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-29 10:35:05] INFO root fetch - processPackages [icoc]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-29 10:35:05] INFO root fetch - processPackages [ood_detectors]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-29 10:35:05] INFO root fetch - processPackages [templated-setup]: New version: [0.4] Old Version: [0.3]
+[2024-04-29 10:35:05] WARNING root fetch - processPackages [retack-sdk-django]: Skipping, unable to determine old version
+[2024-04-29 10:35:05] INFO root fetch - main [MainThread]: End processing [retack-sdk-django] error
+[2024-04-29 10:35:05] INFO root fetch - processPackages [PACMANCharge]: Downloading https://files.pythonhosted.org/packages/68/05/cc84dbbfebdcaf4b66856f50741fe9889cdd21a087835dfa4eec5e500701/PACMANCharge-0.0.6.tar.gz
+[2024-04-29 10:35:05] INFO root fetch - processPackages [middleware-help-python]: Downloading https://files.pythonhosted.org/packages/f1/02/895664afe85c4fed5004538731e6f277a1780d171b5e7b3fa4d5ff5fc4c8/middleware-help-python-0.0.3.tar.gz
+[2024-04-29 10:35:05] INFO root fetch - processPackages [RsInstrument]: Downloading https://files.pythonhosted.org/packages/b5/d4/352c0dc87ef785740538fa936b183b746a8d7d4600490036e59cfe688ec1/RsInstrument-1.8.4.49.tar.gz
+[2024-04-29 10:35:05] INFO root fetch - processPackages [icoc]: Downloading https://files.pythonhosted.org/packages/0e/73/d314379840e02834dbfc97de22e2587f5d466094c37690fe9739eb3db7e9/icoc-1.8.0.tar.gz
+[2024-04-29 10:35:05] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/05/33/59bdd092c7b0d4ba200336199f8c33b2ca350c65b61b8169388cf719c8c6/templated_setup-0.3.tar.gz
+[2024-04-29 10:35:05] INFO root fetch - processPackages [middleware-help-python]: Downloading https://files.pythonhosted.org/packages/6d/6a/af0483a934d33a1a2aaf1ea26a277f37f5811cd25f80c72da543aa4c9205/middleware-help-python-0.0.4.tar.gz
+[2024-04-29 10:35:05] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/c2/01/e72e2c4d1fb75470a9a3a19e29d0cb8f83ad28af90e18ef6e4c772fbcaab/ood_detectors-0.0.1.tar.gz
+[2024-04-29 10:35:05] INFO root fetch - processPackages [middleware-help-python]: executing diffoscope
+[2024-04-29 10:35:05] INFO root fetch - processPackages [middleware-help-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/middleware-help-python-0.0.3.tar.gz tmp/middleware-help-python-0.0.4.tar.gz --markdown 20240429/m/middleware-help-python/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-29 10:35:05] INFO root fetch - processPackages [PACMANCharge]: Downloading https://files.pythonhosted.org/packages/1f/ec/7aa0cec53b5dbbcc1cafd4ff1add33b9b0c4616aa6ffadd0cfd625904055/PACMANCharge-0.0.7.tar.gz
+[2024-04-29 10:35:05] INFO root fetch - processPackages [RsInstrument]: Downloading https://files.pythonhosted.org/packages/b3/cc/13072420e94a08441746681aa10a9f46eda1e235b29be7aad25b8f2b41aa/RsInstrument-1.9.0.52.tar.gz
+[2024-04-29 10:35:05] INFO root fetch - processPackages [icoc]: Downloading https://files.pythonhosted.org/packages/b0/d2/57ee612acd464d218ebdc4b5ffddc36511ad6c1f92b2195828de80c5901a/icoc-1.9.0.tar.gz
+[2024-04-29 10:35:05] INFO root fetch - processPackages [PACMANCharge]: executing diffoscope
+[2024-04-29 10:35:05] INFO root fetch - processPackages [PACMANCharge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PACMANCharge-0.0.6.tar.gz tmp/PACMANCharge-0.0.7.tar.gz --markdown 20240429/P/PACMANCharge/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-29 10:35:05] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/09/95/2d134db5f6ebf157fd80f4b6566a367d24c6b3c133107d6396db17c19f22/templated_setup-0.4.tar.gz
+[2024-04-29 10:35:05] INFO root fetch - processPackages [RsInstrument]: executing diffoscope
+[2024-04-29 10:35:05] INFO root fetch - processPackages [RsInstrument]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RsInstrument-1.8.4.49.tar.gz tmp/RsInstrument-1.9.0.52.tar.gz --markdown 20240429/R/RsInstrument/1.8.4.49-1.9.0.52/README.md --exclude *.pyd
+[2024-04-29 10:35:05] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/31/44/9af4780586d05c08004f2bdf8337fd36b925ab1ae72703acde760673e5ea/ood_detectors-0.0.2.tar.gz
+[2024-04-29 10:35:05] INFO root fetch - processPackages [icoc]: executing diffoscope
+[2024-04-29 10:35:05] INFO root fetch - processPackages [icoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icoc-1.8.0.tar.gz tmp/icoc-1.9.0.tar.gz --markdown 20240429/i/icoc/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-29 10:35:05] INFO root fetch - processPackages [templated-setup]: executing diffoscope
+[2024-04-29 10:35:05] INFO root fetch - processPackages [templated-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templated_setup-0.3.tar.gz tmp/templated_setup-0.4.tar.gz --markdown 20240429/t/templated-setup/0.3-0.4/README.md --exclude *.pyd
+[2024-04-29 10:35:05] INFO root fetch - processPackages [ood_detectors]: executing diffoscope
+[2024-04-29 10:35:05] INFO root fetch - processPackages [ood_detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ood_detectors-0.0.1.tar.gz tmp/ood_detectors-0.0.2.tar.gz --markdown 20240429/o/ood_detectors/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-29 10:35:06] INFO root fetch - processPackages [middleware-help-python]: Remove: archive file [/home/abi/fetcher/tmp/middleware-help-python-0.0.3.tar.gz]
+[2024-04-29 10:35:06] INFO root fetch - processPackages [middleware-help-python]: Remove: archive file [/home/abi/fetcher/tmp/middleware-help-python-0.0.4.tar.gz]
+[2024-04-29 10:35:06] INFO root fetch - main [MainThread]: End processing [middleware-help-python]: success
+[2024-04-29 10:35:06] INFO root fetch - processPackages [PACMANCharge]: Remove: archive file [/home/abi/fetcher/tmp/PACMANCharge-0.0.6.tar.gz]
+[2024-04-29 10:35:06] INFO root fetch - processPackages [PACMANCharge]: Remove: archive file [/home/abi/fetcher/tmp/PACMANCharge-0.0.7.tar.gz]
+[2024-04-29 10:35:06] INFO root fetch - main [MainThread]: End processing [PACMANCharge]: success
+[2024-04-29 10:35:06] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.1.tar.gz]
+[2024-04-29 10:35:06] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.2.tar.gz]
+[2024-04-29 10:35:06] INFO root fetch - main [MainThread]: End processing [ood_detectors]: success
+[2024-04-29 10:35:06] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.3.tar.gz]
+[2024-04-29 10:35:06] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.4.tar.gz]
+[2024-04-29 10:35:06] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
+[2024-04-29 10:35:06] INFO root fetch - processPackages [RsInstrument]: Remove: archive file [/home/abi/fetcher/tmp/RsInstrument-1.8.4.49.tar.gz]
+[2024-04-29 10:35:06] INFO root fetch - processPackages [RsInstrument]: Remove: archive file [/home/abi/fetcher/tmp/RsInstrument-1.9.0.52.tar.gz]
+[2024-04-29 10:35:06] INFO root fetch - main [MainThread]: End processing [RsInstrument]: success
+[2024-04-29 10:35:07] INFO root fetch - processPackages [icoc]: Remove: archive file [/home/abi/fetcher/tmp/icoc-1.8.0.tar.gz]
+[2024-04-29 10:35:07] INFO root fetch - processPackages [icoc]: Remove: archive file [/home/abi/fetcher/tmp/icoc-1.9.0.tar.gz]
+[2024-04-29 10:35:07] INFO root fetch - main [MainThread]: End processing [icoc]: success
+[2024-04-29 10:35:07] INFO root fetch - main [MainThread]: Store serial: [22980689]
