@@ -17153,3 +17153,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 13:26:13] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.4.3-cp39-cp39-win_amd64.whl.zip]
 [2024-04-29 13:26:13] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
 [2024-04-29 13:26:13] INFO root fetch - main [MainThread]: Store serial: [22982639]
+[2024-04-29 13:28:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982639]
+[2024-04-29 13:28:23] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-29 13:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: few-shot-priming
+[2024-04-29 13:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lpcML
+[2024-04-29 13:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: napari-SMLMLAB
+[2024-04-29 13:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: get-holiday-cn
+[2024-04-29 13:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nestipy
+[2024-04-29 13:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchx-nightly
+[2024-04-29 13:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: keelson
+[2024-04-29 13:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: inferless
+[2024-04-29 13:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: venty
+[2024-04-29 13:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: peutils
+[2024-04-29 13:28:24] INFO root fetch - processPackages [nestipy]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-29 13:28:24] INFO root fetch - processPackages [napari-SMLMLAB]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-29 13:28:24] INFO root fetch - processPackages [keelson]: New version: [0.3.1rc9] Old Version: [0.3.1rc8]
+[2024-04-29 13:28:24] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-29 13:28:24] INFO root fetch - processPackages [get-holiday-cn]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-29 13:28:24] INFO root fetch - processPackages [torchx-nightly]: New version: [2024.4.28] Old Version: [2024.4.27]
+[2024-04-29 13:28:24] WARNING root fetch - processPackages [lpcML]: Skipping, unable to determine old version
+[2024-04-29 13:28:24] INFO root fetch - main [MainThread]: End processing [lpcML] error
+[2024-04-29 13:28:24] INFO root fetch - processPackages [inferless]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 13:28:24] INFO root fetch - processPackages [nestipy]: Downloading https://files.pythonhosted.org/packages/3d/2d/18bad437c9ad215f778cec83a53c6d895a9e31c6a0b86b050f576587476b/nestipy-0.2.3.tar.gz
+[2024-04-29 13:28:24] INFO root fetch - processPackages [venty]: New version: [8.1.0] Old Version: [8.0.1]
+[2024-04-29 13:28:24] INFO root fetch - processPackages [napari-SMLMLAB]: Downloading https://files.pythonhosted.org/packages/66/55/a14ba4d65609e1679999fdd44e3d76014734cc373b79ad868cd6a9facba6/napari_smlmlab-0.0.4.tar.gz
+[2024-04-29 13:28:24] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/c6/e7/74deb2f4692ca724892622c48d5c9a3300000f59c46ecd7f1ca9fbf2937f/keelson-0.3.1rc8-py3-none-any.whl
+[2024-04-29 13:28:24] INFO root fetch - processPackages [peutils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-29 13:28:24] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-29 13:28:24] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/31/80/0ebe641b178f76b51865447b390f4cd87650df1cd843739d0308b1d532ab/torchx_nightly-2024.4.27-py3-none-any.whl
+[2024-04-29 13:28:24] INFO root fetch - processPackages [get-holiday-cn]: Downloading https://files.pythonhosted.org/packages/d5/e6/64f323b30bed1a5f2c14d5c3e29950336e8efdc096e7e694865819ff3102/get_holiday_cn-1.0.5.tar.gz
+[2024-04-29 13:28:24] INFO root fetch - processPackages [venty]: Downloading https://files.pythonhosted.org/packages/83/7c/de4be19293fbb01bc68f05013257f2d0f82004358c678682f002baff282b/venty-8.0.1.tar.gz
+[2024-04-29 13:28:24] INFO root fetch - processPackages [inferless]: Downloading https://files.pythonhosted.org/packages/45/42/bd7dea0ed1791f0505955dfaf2c40ab25b4ea8f763d81dc3c1112f4fec5d/inferless-0.1.8.tar.gz
+[2024-04-29 13:28:24] INFO root fetch - processPackages [napari-SMLMLAB]: Downloading https://files.pythonhosted.org/packages/b4/80/63f3e61cf9839db59805b40c6da1768933cd1f4b87c495655102b6a2afb8/napari_smlmlab-0.0.5.tar.gz
+[2024-04-29 13:28:24] INFO root fetch - processPackages [peutils]: Downloading https://files.pythonhosted.org/packages/86/56/fc38c0e7cb317b1857f035c575fbf769b42801fd4ebbac8e63455b682efc/peutils-0.0.98.tar.gz
+[2024-04-29 13:28:24] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/d3/ac/b73a3ad73043384f594b9564cff3200eead0fca16963d71069905057ba4e/keelson-0.3.1rc9-py3-none-any.whl
+[2024-04-29 13:28:24] INFO root fetch - processPackages [nestipy]: Downloading https://files.pythonhosted.org/packages/11/f3/03b19e5dfe51d8a7266bb8c65920fda07cca562775438b489cbe8c07f890/nestipy-0.2.4.tar.gz
+[2024-04-29 13:28:24] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/da/57/8a4c56d6cd54fe0d6c7147a76596c526f05045fd0a6fb086457cebce3f30/torchx_nightly-2024.4.28-py3-none-any.whl
+[2024-04-29 13:28:24] INFO root fetch - processPackages [napari-SMLMLAB]: executing diffoscope
+[2024-04-29 13:28:24] INFO root fetch - processPackages [napari-SMLMLAB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari_smlmlab-0.0.4.tar.gz tmp/napari_smlmlab-0.0.5.tar.gz --markdown 20240429/n/napari-SMLMLAB/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-29 13:28:24] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-04-29 13:28:24] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.3.1rc8-py3-none-any.whl.zip tmp/keelson-0.3.1rc9-py3-none-any.whl.zip --markdown 20240429/k/keelson/0.3.1rc8-0.3.1rc9/README.md --exclude *.pyd
+[2024-04-29 13:28:24] INFO root fetch - processPackages [get-holiday-cn]: Downloading https://files.pythonhosted.org/packages/fa/7d/13c9608f77aa450f2f37cad92a71805d43e594c4642a3d7d97a7f7025f3d/get_holiday_cn-1.0.6.tar.gz
+[2024-04-29 13:28:24] INFO root fetch - processPackages [nestipy]: executing diffoscope
+[2024-04-29 13:28:24] INFO root fetch - processPackages [nestipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestipy-0.2.3.tar.gz tmp/nestipy-0.2.4.tar.gz --markdown 20240429/n/nestipy/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-29 13:28:24] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-29 13:28:24] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2024-04-29 13:28:24] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2024.4.27-py3-none-any.whl.zip tmp/torchx_nightly-2024.4.28-py3-none-any.whl.zip --markdown 20240429/t/torchx-nightly/2024.4.27-2024.4.28/README.md --exclude *.pyd
+[2024-04-29 13:28:24] INFO root fetch - processPackages [inferless]: Downloading https://files.pythonhosted.org/packages/4a/df/6743ecf2bc88a6728ebba459efeb0587be8be087e8efc73cee3456898463/inferless-0.1.9.tar.gz
+[2024-04-29 13:28:24] INFO root fetch - processPackages [venty]: Downloading https://files.pythonhosted.org/packages/94/b0/017e2d0bf8683c6578ea7b717e4c468ce319db07c7e31c78205d7acbce5c/venty-8.1.0.tar.gz
+[2024-04-29 13:28:24] INFO root fetch - processPackages [get-holiday-cn]: executing diffoscope
+[2024-04-29 13:28:24] INFO root fetch - processPackages [get-holiday-cn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get_holiday_cn-1.0.5.tar.gz tmp/get_holiday_cn-1.0.6.tar.gz --markdown 20240429/g/get-holiday-cn/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-29 13:28:24] INFO root fetch - processPackages [inferless]: executing diffoscope
+[2024-04-29 13:28:24] INFO root fetch - processPackages [inferless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inferless-0.1.8.tar.gz tmp/inferless-0.1.9.tar.gz --markdown 20240429/i/inferless/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 13:28:24] INFO root fetch - processPackages [peutils]: Downloading https://files.pythonhosted.org/packages/ba/fe/8c48c448fd9667ae84b126cee4f1683e818dc74524c954a888b5bc50330a/peutils-0.0.99.tar.gz
+[2024-04-29 13:28:25] INFO root fetch - processPackages [venty]: executing diffoscope
+[2024-04-29 13:28:25] INFO root fetch - processPackages [venty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venty-8.0.1.tar.gz tmp/venty-8.1.0.tar.gz --markdown 20240429/v/venty/8.0.1-8.1.0/README.md --exclude *.pyd
+[2024-04-29 13:28:25] INFO root fetch - processPackages [peutils]: executing diffoscope
+[2024-04-29 13:28:25] INFO root fetch - processPackages [peutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peutils-0.0.98.tar.gz tmp/peutils-0.0.99.tar.gz --markdown 20240429/p/peutils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-29 13:28:25] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-29 13:28:25] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240429/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-04-29 13:28:25] INFO root fetch - processPackages [get-holiday-cn]: Remove: archive file [/home/abi/fetcher/tmp/get_holiday_cn-1.0.5.tar.gz]
+[2024-04-29 13:28:25] INFO root fetch - processPackages [get-holiday-cn]: Remove: archive file [/home/abi/fetcher/tmp/get_holiday_cn-1.0.6.tar.gz]
+[2024-04-29 13:28:25] INFO root fetch - processPackages [napari-SMLMLAB]: Remove: archive file [/home/abi/fetcher/tmp/napari_smlmlab-0.0.4.tar.gz]
+[2024-04-29 13:28:25] INFO root fetch - main [MainThread]: End processing [get-holiday-cn]: success
+[2024-04-29 13:28:25] INFO root fetch - processPackages [napari-SMLMLAB]: Remove: archive file [/home/abi/fetcher/tmp/napari_smlmlab-0.0.5.tar.gz]
+[2024-04-29 13:28:25] INFO root fetch - main [MainThread]: End processing [napari-SMLMLAB]: success
+[2024-04-29 13:28:25] INFO root fetch - processPackages [inferless]: Remove: archive file [/home/abi/fetcher/tmp/inferless-0.1.8.tar.gz]
+[2024-04-29 13:28:25] INFO root fetch - processPackages [inferless]: Remove: archive file [/home/abi/fetcher/tmp/inferless-0.1.9.tar.gz]
+[2024-04-29 13:28:26] INFO root fetch - main [MainThread]: End processing [inferless]: success
+[2024-04-29 13:28:26] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.1rc8-py3-none-any.whl.zip]
+[2024-04-29 13:28:26] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.1rc9-py3-none-any.whl.zip]
+[2024-04-29 13:28:26] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-04-29 13:28:26] INFO root fetch - processPackages [nestipy]: Remove: archive file [/home/abi/fetcher/tmp/nestipy-0.2.3.tar.gz]
+[2024-04-29 13:28:26] INFO root fetch - processPackages [nestipy]: Remove: archive file [/home/abi/fetcher/tmp/nestipy-0.2.4.tar.gz]
+[2024-04-29 13:28:26] INFO root fetch - main [MainThread]: End processing [nestipy]: success
+[2024-04-29 13:28:26] INFO root fetch - processPackages [venty]: Remove: archive file [/home/abi/fetcher/tmp/venty-8.0.1.tar.gz]
+[2024-04-29 13:28:26] INFO root fetch - processPackages [venty]: Remove: archive file [/home/abi/fetcher/tmp/venty-8.1.0.tar.gz]
+[2024-04-29 13:28:26] INFO root fetch - main [MainThread]: End processing [venty]: success
+[2024-04-29 13:28:26] INFO root fetch - processPackages [peutils]: Remove: archive file [/home/abi/fetcher/tmp/peutils-0.0.98.tar.gz]
+[2024-04-29 13:28:26] INFO root fetch - processPackages [peutils]: Remove: archive file [/home/abi/fetcher/tmp/peutils-0.0.99.tar.gz]
+[2024-04-29 13:28:26] INFO root fetch - main [MainThread]: End processing [peutils]: success
+[2024-04-29 13:28:26] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.4.27-py3-none-any.whl.zip]
+[2024-04-29 13:28:26] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.4.28-py3-none-any.whl.zip]
+[2024-04-29 13:28:26] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2024-04-29 13:28:26] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-29 13:28:26] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-29 13:28:26] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-29 13:28:26] INFO root fetch - main [MainThread]: Store serial: [22982674]
