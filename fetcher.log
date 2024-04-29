@@ -15282,3 +15282,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 12:17:42] INFO root fetch - processPackages [eis1600]: Remove: archive file [/home/abi/fetcher/tmp/eis1600-1.6.3.tar.gz]
 [2024-04-29 12:17:42] INFO root fetch - main [MainThread]: End processing [eis1600]: success
 [2024-04-29 12:17:42] INFO root fetch - main [MainThread]: Store serial: [22981952]
+[2024-04-29 12:19:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22981952]
+[2024-04-29 12:19:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-29 12:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zodchy
+[2024-04-29 12:19:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uk-std-libraries
+[2024-04-29 12:19:51] INFO root fetch - processPackages [zodchy]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-29 12:19:51] INFO root fetch - processPackages [uk-std-libraries]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-29 12:19:51] INFO root fetch - processPackages [zodchy]: Downloading https://files.pythonhosted.org/packages/ef/92/40c973657610e30e859a75013bfec0e0dfa36878aeff710e3d1a8ccd80f8/zodchy-0.2.1.tar.gz
+[2024-04-29 12:19:51] INFO root fetch - processPackages [uk-std-libraries]: Downloading https://files.pythonhosted.org/packages/be/d2/1a20f404c683029a5b85eff111cc2eb544c6a896a7d9fa551c0fca7149ec/uk_std_libraries-0.0.7.tar.gz
+[2024-04-29 12:19:52] INFO root fetch - processPackages [zodchy]: Downloading https://files.pythonhosted.org/packages/ec/2c/62f33d274b533994b05ff739361dce2c9882f5c3d99b6c7eb6d7c4f403b7/zodchy-0.2.2.tar.gz
+[2024-04-29 12:19:52] INFO root fetch - processPackages [uk-std-libraries]: Downloading https://files.pythonhosted.org/packages/f7/b3/d58b29d8d93e6dab402471fa195c6a699b0fcd057ff8640907b16bec2895/uk_std_libraries-0.0.8.tar.gz
+[2024-04-29 12:19:52] INFO root fetch - processPackages [zodchy]: executing diffoscope
+[2024-04-29 12:19:52] INFO root fetch - processPackages [zodchy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zodchy-0.2.1.tar.gz tmp/zodchy-0.2.2.tar.gz --markdown 20240429/z/zodchy/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-29 12:19:52] INFO root fetch - processPackages [uk-std-libraries]: executing diffoscope
+[2024-04-29 12:19:52] INFO root fetch - processPackages [uk-std-libraries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uk_std_libraries-0.0.7.tar.gz tmp/uk_std_libraries-0.0.8.tar.gz --markdown 20240429/u/uk-std-libraries/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-29 12:19:52] INFO root fetch - processPackages [zodchy]: Remove: archive file [/home/abi/fetcher/tmp/zodchy-0.2.1.tar.gz]
+[2024-04-29 12:19:52] INFO root fetch - processPackages [zodchy]: Remove: archive file [/home/abi/fetcher/tmp/zodchy-0.2.2.tar.gz]
+[2024-04-29 12:19:52] INFO root fetch - main [MainThread]: End processing [zodchy]: success
+[2024-04-29 12:19:52] INFO root fetch - processPackages [uk-std-libraries]: Remove: archive file [/home/abi/fetcher/tmp/uk_std_libraries-0.0.7.tar.gz]
+[2024-04-29 12:19:52] INFO root fetch - processPackages [uk-std-libraries]: Remove: archive file [/home/abi/fetcher/tmp/uk_std_libraries-0.0.8.tar.gz]
+[2024-04-29 12:19:52] INFO root fetch - main [MainThread]: End processing [uk-std-libraries]: success
+[2024-04-29 12:19:52] INFO root fetch - main [MainThread]: Store serial: [22981958]
