@@ -1728,3 +1728,24 @@
 [2024-04-29 02:32:18] INFO root fetch - processPackages [passive-honeypot]: Remove: archive file [/home/abi/fetcher/tmp/passive_honeypot-0.1.6.tar.gz]
 [2024-04-29 02:32:18] INFO root fetch - main [MainThread]: End processing [passive-honeypot]: success
 [2024-04-29 02:32:18] INFO root fetch - main [MainThread]: Store serial: [22971895]
+[2024-04-29 02:34:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971895]
+[2024-04-29 02:34:27] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-29 02:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polars-ds
+[2024-04-29 02:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mo-dots
+[2024-04-29 02:34:28] INFO root fetch - processPackages [polars-ds]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-29 02:34:28] INFO root fetch - processPackages [mo-dots]: New version: [9.606.24115] Old Version: [9.605.24115]
+[2024-04-29 02:34:28] INFO root fetch - processPackages [polars-ds]: Downloading https://files.pythonhosted.org/packages/e8/35/94269b744f9bbadf942b156e29adfeb623a4addcfe6e5b6def7b88218b45/polars_ds-0.4.2.tar.gz
+[2024-04-29 02:34:28] INFO root fetch - processPackages [mo-dots]: Downloading https://files.pythonhosted.org/packages/c1/78/500bc80bd2febc9c1dd08390617553bf8eb583859830968121d99c41760a/mo_dots-9.605.24115.tar.gz
+[2024-04-29 02:34:28] INFO root fetch - processPackages [polars-ds]: Downloading https://files.pythonhosted.org/packages/c7/49/cfa2ac3bafbeb0d9527e17155190bda9c119a8838f36c43af0e6aaaf018b/polars_ds-0.4.3.tar.gz
+[2024-04-29 02:34:28] INFO root fetch - processPackages [mo-dots]: Downloading https://files.pythonhosted.org/packages/62/60/27b3dbfd973f17e5e448be2a9a9d96cea0e25479810b1ba253056fa3f295/mo_dots-9.606.24115.tar.gz
+[2024-04-29 02:34:29] INFO root fetch - processPackages [mo-dots]: executing diffoscope
+[2024-04-29 02:34:29] INFO root fetch - processPackages [mo-dots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_dots-9.605.24115.tar.gz tmp/mo_dots-9.606.24115.tar.gz --markdown 20240429/m/mo-dots/9.605.24115-9.606.24115/README.md --exclude *.pyd
+[2024-04-29 02:34:29] INFO root fetch - processPackages [polars-ds]: executing diffoscope
+[2024-04-29 02:34:29] INFO root fetch - processPackages [polars-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_ds-0.4.2.tar.gz tmp/polars_ds-0.4.3.tar.gz --markdown 20240429/p/polars-ds/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-04-29 02:34:29] INFO root fetch - processPackages [mo-dots]: Remove: archive file [/home/abi/fetcher/tmp/mo_dots-9.605.24115.tar.gz]
+[2024-04-29 02:34:29] INFO root fetch - processPackages [mo-dots]: Remove: archive file [/home/abi/fetcher/tmp/mo_dots-9.606.24115.tar.gz]
+[2024-04-29 02:34:29] INFO root fetch - main [MainThread]: End processing [mo-dots]: success
+[2024-04-29 02:34:31] INFO root fetch - processPackages [polars-ds]: Remove: archive file [/home/abi/fetcher/tmp/polars_ds-0.4.2.tar.gz]
+[2024-04-29 02:34:31] INFO root fetch - processPackages [polars-ds]: Remove: archive file [/home/abi/fetcher/tmp/polars_ds-0.4.3.tar.gz]
+[2024-04-29 02:34:31] INFO root fetch - main [MainThread]: End processing [polars-ds]: success
+[2024-04-29 02:34:31] INFO root fetch - main [MainThread]: Store serial: [22971905]
