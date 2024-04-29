@@ -12180,3 +12180,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 10:21:48] INFO root fetch - processPackages [django-listing]: Remove: archive file [/home/abi/fetcher/tmp/django-listing-0.7.9.tar.gz]
 [2024-04-29 10:21:48] INFO root fetch - main [MainThread]: End processing [django-listing]: success
 [2024-04-29 10:21:48] INFO root fetch - main [MainThread]: Store serial: [22980534]
+[2024-04-29 10:23:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980534]
+[2024-04-29 10:23:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 10:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rateLimitedQueues
+[2024-04-29 10:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testsolar-testtool-sdk
+[2024-04-29 10:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: usearch
+[2024-04-29 10:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reactpy-table
+[2024-04-29 10:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: middleware-help-python
+[2024-04-29 10:23:57] INFO root fetch - processPackages [testsolar-testtool-sdk]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-29 10:23:57] INFO root fetch - processPackages [rateLimitedQueues]: New version: [0.0.1a4] Old Version: [0.0.1a3]
+[2024-04-29 10:23:57] INFO root fetch - processPackages [testsolar-testtool-sdk]: Downloading https://files.pythonhosted.org/packages/47/86/bccf1bb132d9252440e3861854f8e3ed5738242294632662472cd5eb3f30/testsolar_testtool_sdk-0.1.9.tar.gz
+[2024-04-29 10:23:57] INFO root fetch - processPackages [rateLimitedQueues]: Downloading https://files.pythonhosted.org/packages/e5/40/5fdf6b4f2afa82e84970c05859c013b8aa8eef5dfb284cb25d50a4698a29/ratelimitedqueues-0.0.1a3.tar.gz
+[2024-04-29 10:23:57] INFO root fetch - processPackages [middleware-help-python]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-29 10:23:57] INFO root fetch - processPackages [reactpy-table]: New version: [0.0.14] Old Version: [0.0.13]
+[2024-04-29 10:23:57] INFO root fetch - processPackages [reactpy-table]: Downloading https://files.pythonhosted.org/packages/c6/62/1ed21559c9e7853feb9cd08eb61ca95102fec87a5e0959ca42f5b6d376b0/reactpy_table-0.0.13.tar.gz
+[2024-04-29 10:23:57] INFO root fetch - processPackages [testsolar-testtool-sdk]: Downloading https://files.pythonhosted.org/packages/5a/67/de7dd0c7c885d8b315179128ba200477ca19208d6182ecf5b35d4fd83a23/testsolar-testtool-sdk-0.2.0.tar.gz
+[2024-04-29 10:23:57] INFO root fetch - processPackages [middleware-help-python]: Downloading https://files.pythonhosted.org/packages/f1/02/895664afe85c4fed5004538731e6f277a1780d171b5e7b3fa4d5ff5fc4c8/middleware-help-python-0.0.3.tar.gz
+[2024-04-29 10:23:57] INFO root fetch - processPackages [rateLimitedQueues]: Downloading https://files.pythonhosted.org/packages/1b/ab/2f5849d94514fb146c76f0457a62ed00fa773f0f4c2561d8c349011e9115/ratelimitedqueues-0.0.1a4.tar.gz
+[2024-04-29 10:23:57] INFO root fetch - processPackages [testsolar-testtool-sdk]: executing diffoscope
+[2024-04-29 10:23:57] INFO root fetch - processPackages [testsolar-testtool-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testsolar_testtool_sdk-0.1.9.tar.gz tmp/testsolar-testtool-sdk-0.2.0.tar.gz --markdown 20240429/t/testsolar-testtool-sdk/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-29 10:23:57] INFO root fetch - processPackages [rateLimitedQueues]: executing diffoscope
+[2024-04-29 10:23:57] INFO root fetch - processPackages [rateLimitedQueues]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ratelimitedqueues-0.0.1a3.tar.gz tmp/ratelimitedqueues-0.0.1a4.tar.gz --markdown 20240429/r/rateLimitedQueues/0.0.1a3-0.0.1a4/README.md --exclude *.pyd
+[2024-04-29 10:23:57] INFO root fetch - processPackages [usearch]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-29 10:23:57] INFO root fetch - processPackages [middleware-help-python]: Downloading https://files.pythonhosted.org/packages/6d/6a/af0483a934d33a1a2aaf1ea26a277f37f5811cd25f80c72da543aa4c9205/middleware-help-python-0.0.4.tar.gz
+[2024-04-29 10:23:57] INFO root fetch - processPackages [reactpy-table]: Downloading https://files.pythonhosted.org/packages/b6/25/5d9131d498a35afe0139f54e106c31461d675d36c2babd9588cde5adc2f0/reactpy_table-0.0.14.tar.gz
+[2024-04-29 10:23:57] INFO root fetch - processPackages [reactpy-table]: executing diffoscope
+[2024-04-29 10:23:57] INFO root fetch - processPackages [reactpy-table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactpy_table-0.0.13.tar.gz tmp/reactpy_table-0.0.14.tar.gz --markdown 20240429/r/reactpy-table/0.0.13-0.0.14/README.md --exclude *.pyd
+[2024-04-29 10:23:57] INFO root fetch - processPackages [middleware-help-python]: executing diffoscope
+[2024-04-29 10:23:57] INFO root fetch - processPackages [middleware-help-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/middleware-help-python-0.0.3.tar.gz tmp/middleware-help-python-0.0.4.tar.gz --markdown 20240429/m/middleware-help-python/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-29 10:23:58] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/8b/43/c2558bc9415bc56b51c565ab35e885b8daff8ba0b8e920a001aa71f9fa44/usearch-2.9.1-cp39-cp39-win_amd64.whl
+[2024-04-29 10:23:58] INFO root fetch - processPackages [testsolar-testtool-sdk]: Remove: archive file [/home/abi/fetcher/tmp/testsolar_testtool_sdk-0.1.9.tar.gz]
+[2024-04-29 10:23:58] INFO root fetch - processPackages [testsolar-testtool-sdk]: Remove: archive file [/home/abi/fetcher/tmp/testsolar-testtool-sdk-0.2.0.tar.gz]
+[2024-04-29 10:23:58] INFO root fetch - main [MainThread]: End processing [testsolar-testtool-sdk]: success
+[2024-04-29 10:23:58] INFO root fetch - processPackages [rateLimitedQueues]: Remove: archive file [/home/abi/fetcher/tmp/ratelimitedqueues-0.0.1a3.tar.gz]
+[2024-04-29 10:23:58] INFO root fetch - processPackages [rateLimitedQueues]: Remove: archive file [/home/abi/fetcher/tmp/ratelimitedqueues-0.0.1a4.tar.gz]
+[2024-04-29 10:23:58] INFO root fetch - main [MainThread]: End processing [rateLimitedQueues]: success
+[2024-04-29 10:23:58] INFO root fetch - processPackages [middleware-help-python]: Remove: archive file [/home/abi/fetcher/tmp/middleware-help-python-0.0.3.tar.gz]
+[2024-04-29 10:23:58] INFO root fetch - processPackages [middleware-help-python]: Remove: archive file [/home/abi/fetcher/tmp/middleware-help-python-0.0.4.tar.gz]
+[2024-04-29 10:23:58] INFO root fetch - main [MainThread]: End processing [middleware-help-python]: success
+[2024-04-29 10:23:58] INFO root fetch - processPackages [reactpy-table]: Remove: archive file [/home/abi/fetcher/tmp/reactpy_table-0.0.13.tar.gz]
+[2024-04-29 10:23:58] INFO root fetch - processPackages [reactpy-table]: Remove: archive file [/home/abi/fetcher/tmp/reactpy_table-0.0.14.tar.gz]
+[2024-04-29 10:23:58] INFO root fetch - main [MainThread]: End processing [reactpy-table]: success
+[2024-04-29 10:23:58] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/d6/35/835356907691f8adc22f60e729aeeaeaef9b81bf07a96079c9ed33a94b4b/usearch-2.9.2-cp39-cp39-win_amd64.whl
+[2024-04-29 10:23:58] INFO root fetch - processPackages [usearch]: executing diffoscope
+[2024-04-29 10:23:58] INFO root fetch - processPackages [usearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usearch-2.9.1-cp39-cp39-win_amd64.whl.zip tmp/usearch-2.9.2-cp39-cp39-win_amd64.whl.zip --markdown 20240429/u/usearch/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-04-29 10:23:59] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-2.9.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-29 10:23:59] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-2.9.2-cp39-cp39-win_amd64.whl.zip]
+[2024-04-29 10:23:59] INFO root fetch - main [MainThread]: End processing [usearch]: success
+[2024-04-29 10:23:59] INFO root fetch - main [MainThread]: Store serial: [22980598]
