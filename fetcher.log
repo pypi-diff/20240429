@@ -8829,3 +8829,27 @@
 [2024-04-29 07:22:28] INFO root fetch - processPackages [moraine]: Remove: archive file [/home/abi/fetcher/tmp/moraine-0.6.5.tar.gz]
 [2024-04-29 07:22:28] INFO root fetch - main [MainThread]: End processing [moraine]: success
 [2024-04-29 07:22:28] INFO root fetch - main [MainThread]: Store serial: [22979036]
+[2024-04-29 07:24:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979036]
+[2024-04-29 07:24:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 07:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bib-dedupe
+[2024-04-29 07:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bihyung
+[2024-04-29 07:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fast-psq
+[2024-04-29 07:24:37] INFO root fetch - processPackages [bihyung]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-29 07:24:37] WARNING root fetch - processPackages [fast-psq]: Skipping, unable to determine old version
+[2024-04-29 07:24:37] INFO root fetch - main [MainThread]: End processing [fast-psq] error
+[2024-04-29 07:24:37] INFO root fetch - processPackages [bib-dedupe]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-04-29 07:24:37] INFO root fetch - processPackages [bihyung]: Downloading https://files.pythonhosted.org/packages/4e/0d/5b0d050339c4c248bc62ab12d5959455dbc9ad5e99b35fb5225e2495befa/bihyung-0.2.1.tar.gz
+[2024-04-29 07:24:37] INFO root fetch - processPackages [bib-dedupe]: Downloading https://files.pythonhosted.org/packages/ca/64/d6279d7aefe613ed6bc77b8c3d527e2c8f1504b8009590bd2b9c590db46f/bib_dedupe-0.7.3.tar.gz
+[2024-04-29 07:24:37] INFO root fetch - processPackages [bihyung]: Downloading https://files.pythonhosted.org/packages/cb/a8/ae27f780224a2617080f00f24ea50537f17af9b6fc5c93c77c4384150095/bihyung-0.2.2.tar.gz
+[2024-04-29 07:24:38] INFO root fetch - processPackages [bihyung]: executing diffoscope
+[2024-04-29 07:24:38] INFO root fetch - processPackages [bihyung]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bihyung-0.2.1.tar.gz tmp/bihyung-0.2.2.tar.gz --markdown 20240429/b/bihyung/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-29 07:24:38] INFO root fetch - processPackages [bib-dedupe]: Downloading https://files.pythonhosted.org/packages/a7/f2/8420fb98142716259dbb61ff6217e263ad8508ee5a44a7f998ff4f851c39/bib_dedupe-0.7.4.tar.gz
+[2024-04-29 07:24:38] INFO root fetch - processPackages [bib-dedupe]: executing diffoscope
+[2024-04-29 07:24:38] INFO root fetch - processPackages [bib-dedupe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bib_dedupe-0.7.3.tar.gz tmp/bib_dedupe-0.7.4.tar.gz --markdown 20240429/b/bib-dedupe/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-04-29 07:24:38] INFO root fetch - processPackages [bihyung]: Remove: archive file [/home/abi/fetcher/tmp/bihyung-0.2.1.tar.gz]
+[2024-04-29 07:24:38] INFO root fetch - processPackages [bihyung]: Remove: archive file [/home/abi/fetcher/tmp/bihyung-0.2.2.tar.gz]
+[2024-04-29 07:24:38] INFO root fetch - main [MainThread]: End processing [bihyung]: success
+[2024-04-29 07:24:38] INFO root fetch - processPackages [bib-dedupe]: Remove: archive file [/home/abi/fetcher/tmp/bib_dedupe-0.7.3.tar.gz]
+[2024-04-29 07:24:38] INFO root fetch - processPackages [bib-dedupe]: Remove: archive file [/home/abi/fetcher/tmp/bib_dedupe-0.7.4.tar.gz]
+[2024-04-29 07:24:38] INFO root fetch - main [MainThread]: End processing [bib-dedupe]: success
+[2024-04-29 07:24:38] INFO root fetch - main [MainThread]: Store serial: [22979060]
