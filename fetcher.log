@@ -9436,3 +9436,35 @@
 [2024-04-29 08:06:26] INFO root fetch - processPackages [easylogger4dev-alpha]: Remove: archive file [/home/abi/fetcher/tmp/easylogger4dev_alpha-0.1.3.tar.gz]
 [2024-04-29 08:06:26] INFO root fetch - main [MainThread]: End processing [easylogger4dev-alpha]: success
 [2024-04-29 08:06:26] INFO root fetch - main [MainThread]: Store serial: [22979351]
+[2024-04-29 08:08:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979351]
+[2024-04-29 08:08:35] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-29 08:10:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979351]
+[2024-04-29 08:10:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 08:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opyls
+[2024-04-29 08:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: th2-grpc-codec
+[2024-04-29 08:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plumbum
+[2024-04-29 08:10:42] INFO root fetch - processPackages [opyls]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-29 08:10:42] INFO root fetch - processPackages [opyls]: Downloading https://files.pythonhosted.org/packages/e0/7e/cb585cf3e030ed8eac46b7815af2834d2d65335ba004ad16b5dee0148edf/opyls-0.0.2.tar.gz
+[2024-04-29 08:10:42] INFO root fetch - processPackages [th2-grpc-codec]: New version: [0.2.0.dev8874066649] Old Version: [0.1.0.dev6122158072]
+[2024-04-29 08:10:42] INFO root fetch - processPackages [plumbum]: New version: [1.8.3] Old Version: [1.8.2]
+[2024-04-29 08:10:42] INFO root fetch - processPackages [th2-grpc-codec]: Downloading https://files.pythonhosted.org/packages/7e/3c/de1796eeeede966c4ceedebabe7cdc4661e10b702d56f175b3cdd63707ac/th2_grpc_codec-0.1.0.dev6122158072.tar.gz
+[2024-04-29 08:10:42] INFO root fetch - processPackages [plumbum]: Downloading https://files.pythonhosted.org/packages/8e/3d/6bbc1b93fd394f6cc9fbe098d8e2740063d58c36dd8da876f790458ded46/plumbum-1.8.2.tar.gz
+[2024-04-29 08:10:42] INFO root fetch - processPackages [opyls]: Downloading https://files.pythonhosted.org/packages/6a/4e/4d750884e043d0082ca0d1f7e3b5d3eb68e55d0a8cd5b9636244601a7197/opyls-0.0.3.tar.gz
+[2024-04-29 08:10:42] INFO root fetch - processPackages [opyls]: executing diffoscope
+[2024-04-29 08:10:42] INFO root fetch - processPackages [opyls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opyls-0.0.2.tar.gz tmp/opyls-0.0.3.tar.gz --markdown 20240429/o/opyls/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-29 08:10:42] INFO root fetch - processPackages [th2-grpc-codec]: Downloading https://files.pythonhosted.org/packages/62/31/b814dde696f9dab661da154a9d470e9a0c133873e05f559b72698fe02c9d/th2_grpc_codec-0.2.0.dev8874066649.tar.gz
+[2024-04-29 08:10:42] INFO root fetch - processPackages [plumbum]: Downloading https://files.pythonhosted.org/packages/23/62/06260ec9f1f5a8c04418f8c8c7c2877c80cac4ead97224fc14d92f0db6b4/plumbum-1.8.3.tar.gz
+[2024-04-29 08:10:43] INFO root fetch - processPackages [th2-grpc-codec]: executing diffoscope
+[2024-04-29 08:10:43] INFO root fetch - processPackages [th2-grpc-codec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_codec-0.1.0.dev6122158072.tar.gz tmp/th2_grpc_codec-0.2.0.dev8874066649.tar.gz --markdown 20240429/t/th2-grpc-codec/0.1.0.dev6122158072-0.2.0.dev8874066649/README.md --exclude *.pyd
+[2024-04-29 08:10:43] INFO root fetch - processPackages [plumbum]: executing diffoscope
+[2024-04-29 08:10:43] INFO root fetch - processPackages [plumbum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plumbum-1.8.2.tar.gz tmp/plumbum-1.8.3.tar.gz --markdown 20240429/p/plumbum/1.8.2-1.8.3/README.md --exclude *.pyd
+[2024-04-29 08:10:43] INFO root fetch - processPackages [opyls]: Remove: archive file [/home/abi/fetcher/tmp/opyls-0.0.2.tar.gz]
+[2024-04-29 08:10:43] INFO root fetch - processPackages [opyls]: Remove: archive file [/home/abi/fetcher/tmp/opyls-0.0.3.tar.gz]
+[2024-04-29 08:10:43] INFO root fetch - main [MainThread]: End processing [opyls]: success
+[2024-04-29 08:10:43] INFO root fetch - processPackages [th2-grpc-codec]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_codec-0.1.0.dev6122158072.tar.gz]
+[2024-04-29 08:10:43] INFO root fetch - processPackages [th2-grpc-codec]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_codec-0.2.0.dev8874066649.tar.gz]
+[2024-04-29 08:10:43] INFO root fetch - main [MainThread]: End processing [th2-grpc-codec]: success
+[2024-04-29 08:10:44] INFO root fetch - processPackages [plumbum]: Remove: archive file [/home/abi/fetcher/tmp/plumbum-1.8.2.tar.gz]
+[2024-04-29 08:10:44] INFO root fetch - processPackages [plumbum]: Remove: archive file [/home/abi/fetcher/tmp/plumbum-1.8.3.tar.gz]
+[2024-04-29 08:10:44] INFO root fetch - main [MainThread]: End processing [plumbum]: success
+[2024-04-29 08:10:44] INFO root fetch - main [MainThread]: Store serial: [22979359]
