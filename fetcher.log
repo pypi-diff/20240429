@@ -8376,3 +8376,18 @@
 [2024-04-29 06:49:11] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
 [2024-04-29 06:49:11] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
 [2024-04-29 06:49:11] INFO root fetch - main [MainThread]: Store serial: [22978784]
+[2024-04-29 06:51:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978784]
+[2024-04-29 06:51:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-29 06:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auto-coder
+[2024-04-29 06:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phone-number-validator-test-thing-i-guess
+[2024-04-29 06:51:20] INFO root fetch - processPackages [auto-coder]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 06:51:20] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/d1/69/520c5552e42e8901e930364867dc863b8beb917b52544194a46c864a7385/auto-coder-0.1.8.tar.gz
+[2024-04-29 06:51:20] WARNING root fetch - processPackages [phone-number-validator-test-thing-i-guess]: Skipping, unable to determine old version
+[2024-04-29 06:51:20] INFO root fetch - main [MainThread]: End processing [phone-number-validator-test-thing-i-guess] error
+[2024-04-29 06:51:20] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/4d/9a/1bad03fbe8fd6d47cd359f857b05e28efaa8cba07c33aa029696a40dd646/auto-coder-0.1.9.tar.gz
+[2024-04-29 06:51:20] INFO root fetch - processPackages [auto-coder]: executing diffoscope
+[2024-04-29 06:51:20] INFO root fetch - processPackages [auto-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-coder-0.1.8.tar.gz tmp/auto-coder-0.1.9.tar.gz --markdown 20240429/a/auto-coder/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 06:51:21] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.8.tar.gz]
+[2024-04-29 06:51:21] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
+[2024-04-29 06:51:21] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
+[2024-04-29 06:51:21] INFO root fetch - main [MainThread]: Store serial: [22978794]
