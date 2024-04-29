@@ -8391,3 +8391,36 @@
 [2024-04-29 06:51:21] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
 [2024-04-29 06:51:21] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
 [2024-04-29 06:51:21] INFO root fetch - main [MainThread]: Store serial: [22978794]
+[2024-04-29 06:53:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978794]
+[2024-04-29 06:53:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 06:53:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Viseme-Lipsync
+[2024-04-29 06:53:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grepsr-cli
+[2024-04-29 06:53:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: volstreet
+[2024-04-29 06:53:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: enconnect
+[2024-04-29 06:53:29] INFO root fetch - processPackages [volstreet]: New version: [8.1.0] Old Version: [8.0.1]
+[2024-04-29 06:53:29] WARNING root fetch - processPackages [Viseme-Lipsync]: Skipping, unable to determine old version
+[2024-04-29 06:53:29] INFO root fetch - main [MainThread]: End processing [Viseme-Lipsync] error
+[2024-04-29 06:53:29] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/51/66/430517f00d1b2fccce0765b4928ad25151f38ed716347ccccf907aedeb94/volstreet-8.0.1.tar.gz
+[2024-04-29 06:53:29] INFO root fetch - processPackages [enconnect]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-04-29 06:53:29] INFO root fetch - processPackages [grepsr-cli]: New version: [0.7.6] Old Version: [0.7.5]
+[2024-04-29 06:53:30] INFO root fetch - processPackages [grepsr-cli]: Downloading https://files.pythonhosted.org/packages/be/5c/eec01d2d1d0096b733f410aad2598e3f9b6481f3a0d03eca4c4d4d25533e/grepsr-cli-0.7.5.tar.gz
+[2024-04-29 06:53:30] INFO root fetch - processPackages [enconnect]: Downloading https://files.pythonhosted.org/packages/0f/69/938410f2bbbced202758a2e996ebb24c791ba34bece4f585ed50d887cd65/enconnect-0.2.3.tar.gz
+[2024-04-29 06:53:30] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/87/88/9b9055e4aa535a992d2dc0a72a24f0968cfb0ca0147e442f0338c4177a09/volstreet-8.1.0.tar.gz
+[2024-04-29 06:53:30] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2024-04-29 06:53:30] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-8.0.1.tar.gz tmp/volstreet-8.1.0.tar.gz --markdown 20240429/v/volstreet/8.0.1-8.1.0/README.md --exclude *.pyd
+[2024-04-29 06:53:30] INFO root fetch - processPackages [grepsr-cli]: Downloading https://files.pythonhosted.org/packages/18/73/d86c46f363ff78939136e8d224edba5814ecd3c1253303a6bd671a660200/grepsr_cli-0.7.6.tar.gz
+[2024-04-29 06:53:30] INFO root fetch - processPackages [grepsr-cli]: executing diffoscope
+[2024-04-29 06:53:30] INFO root fetch - processPackages [grepsr-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grepsr-cli-0.7.5.tar.gz tmp/grepsr_cli-0.7.6.tar.gz --markdown 20240429/g/grepsr-cli/0.7.5-0.7.6/README.md --exclude *.pyd
+[2024-04-29 06:53:30] INFO root fetch - processPackages [enconnect]: Downloading https://files.pythonhosted.org/packages/f0/fe/3af9cb1539e546ae521ab34ccf914bbaae97e285b698aba7408539aa64e0/enconnect-0.3.0.tar.gz
+[2024-04-29 06:53:30] INFO root fetch - processPackages [enconnect]: executing diffoscope
+[2024-04-29 06:53:30] INFO root fetch - processPackages [enconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enconnect-0.2.3.tar.gz tmp/enconnect-0.3.0.tar.gz --markdown 20240429/e/enconnect/0.2.3-0.3.0/README.md --exclude *.pyd
+[2024-04-29 06:53:31] INFO root fetch - processPackages [grepsr-cli]: Remove: archive file [/home/abi/fetcher/tmp/grepsr-cli-0.7.5.tar.gz]
+[2024-04-29 06:53:31] INFO root fetch - processPackages [grepsr-cli]: Remove: archive file [/home/abi/fetcher/tmp/grepsr_cli-0.7.6.tar.gz]
+[2024-04-29 06:53:31] INFO root fetch - main [MainThread]: End processing [grepsr-cli]: success
+[2024-04-29 06:53:31] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-8.0.1.tar.gz]
+[2024-04-29 06:53:31] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-8.1.0.tar.gz]
+[2024-04-29 06:53:31] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2024-04-29 06:53:31] INFO root fetch - processPackages [enconnect]: Remove: archive file [/home/abi/fetcher/tmp/enconnect-0.2.3.tar.gz]
+[2024-04-29 06:53:31] INFO root fetch - processPackages [enconnect]: Remove: archive file [/home/abi/fetcher/tmp/enconnect-0.3.0.tar.gz]
+[2024-04-29 06:53:31] INFO root fetch - main [MainThread]: End processing [enconnect]: success
+[2024-04-29 06:53:31] INFO root fetch - main [MainThread]: Store serial: [22978810]
