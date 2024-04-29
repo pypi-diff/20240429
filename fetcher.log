@@ -9247,3 +9247,24 @@
 [2024-04-29 07:53:17] INFO root fetch - processPackages [jupyter-kernels]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_kernels-1.1.0-py3-none-any.whl.zip]
 [2024-04-29 07:53:17] INFO root fetch - main [MainThread]: End processing [jupyter-kernels]: success
 [2024-04-29 07:53:17] INFO root fetch - main [MainThread]: Store serial: [22979209]
+[2024-04-29 07:55:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979209]
+[2024-04-29 07:55:26] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-29 07:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agent_path
+[2024-04-29 07:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smtp-proxy
+[2024-04-29 07:55:26] INFO root fetch - processPackages [smtp-proxy]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-29 07:55:26] INFO root fetch - processPackages [agent_path]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-29 07:55:26] INFO root fetch - processPackages [smtp-proxy]: Downloading https://files.pythonhosted.org/packages/b9/10/168ff59727f738e938352a2e1d8ef28ae7928c6e46305597d77b7b9e982b/smtp_proxy-0.1.6.tar.gz
+[2024-04-29 07:55:26] INFO root fetch - processPackages [agent_path]: Downloading https://files.pythonhosted.org/packages/8b/71/cf5f53cc4e781fa496002c3432ec91c102dec7d4271478c26d1761ddb0e4/agent_path-0.1.0-py3-none-any.whl
+[2024-04-29 07:55:26] INFO root fetch - processPackages [smtp-proxy]: Downloading https://files.pythonhosted.org/packages/b2/8d/1ca520b4be756db4ecbb27e68dda48331fd9d36b05f50d2aec497efc7a98/smtp_proxy-0.1.7.tar.gz
+[2024-04-29 07:55:27] INFO root fetch - processPackages [agent_path]: Downloading https://files.pythonhosted.org/packages/48/83/f83b2820cb662f13bb96994ab560359b933dceefca195ce2e6e9e6a5f7df/agent_path-0.1.1.tar.gz
+[2024-04-29 07:55:27] INFO root fetch - processPackages [smtp-proxy]: executing diffoscope
+[2024-04-29 07:55:27] INFO root fetch - processPackages [smtp-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smtp_proxy-0.1.6.tar.gz tmp/smtp_proxy-0.1.7.tar.gz --markdown 20240429/s/smtp-proxy/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-29 07:55:27] INFO root fetch - processPackages [agent_path]: executing diffoscope
+[2024-04-29 07:55:27] INFO root fetch - processPackages [agent_path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agent_path-0.1.0-py3-none-any.whl.zip tmp/agent_path-0.1.1.tar.gz --markdown 20240429/a/agent_path/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-29 07:55:27] INFO root fetch - processPackages [agent_path]: Remove: archive file [/home/abi/fetcher/tmp/agent_path-0.1.0-py3-none-any.whl.zip]
+[2024-04-29 07:55:27] INFO root fetch - processPackages [agent_path]: Remove: archive file [/home/abi/fetcher/tmp/agent_path-0.1.1.tar.gz]
+[2024-04-29 07:55:27] INFO root fetch - main [MainThread]: End processing [agent_path]: success
+[2024-04-29 07:55:27] INFO root fetch - processPackages [smtp-proxy]: Remove: archive file [/home/abi/fetcher/tmp/smtp_proxy-0.1.6.tar.gz]
+[2024-04-29 07:55:27] INFO root fetch - processPackages [smtp-proxy]: Remove: archive file [/home/abi/fetcher/tmp/smtp_proxy-0.1.7.tar.gz]
+[2024-04-29 07:55:27] INFO root fetch - main [MainThread]: End processing [smtp-proxy]: success
+[2024-04-29 07:55:27] INFO root fetch - main [MainThread]: Store serial: [22979215]
