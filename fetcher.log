@@ -1749,3 +1749,23 @@
 [2024-04-29 02:34:31] INFO root fetch - processPackages [polars-ds]: Remove: archive file [/home/abi/fetcher/tmp/polars_ds-0.4.3.tar.gz]
 [2024-04-29 02:34:31] INFO root fetch - main [MainThread]: End processing [polars-ds]: success
 [2024-04-29 02:34:31] INFO root fetch - main [MainThread]: Store serial: [22971905]
+[2024-04-29 02:36:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971905]
+[2024-04-29 02:36:40] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-29 02:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: YoutubeUser
+[2024-04-29 02:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: notolog
+[2024-04-29 02:36:40] INFO root fetch - processPackages [YoutubeUser]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-29 02:36:40] INFO root fetch - processPackages [notolog]: New version: [0.9.0b6] Old Version: [0.9.0b0]
+[2024-04-29 02:36:40] INFO root fetch - processPackages [YoutubeUser]: Downloading https://files.pythonhosted.org/packages/51/3b/a3209ccd548da28ac7615d0cc139f1dda745f7c67686e6739e77604c721d/youtubeuser-0.0.6.tar.gz
+[2024-04-29 02:36:41] INFO root fetch - processPackages [notolog]: Downloading https://files.pythonhosted.org/packages/d9/01/c7aa453fe5b1e782c906006a10446c80119702f39ef4ae69b61030b74c32/notolog-0.9.0b6.tar.gz
+[2024-04-29 02:36:41] INFO root fetch - processPackages [notolog]: executing diffoscope
+[2024-04-29 02:36:41] INFO root fetch - processPackages [notolog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notolog-0.9.0b0.tar.gz tmp/notolog-0.9.0b6.tar.gz --markdown 20240429/n/notolog/0.9.0b0-0.9.0b6/README.md --exclude *.pyd
+[2024-04-29 02:36:41] INFO root fetch - processPackages [YoutubeUser]: Downloading https://files.pythonhosted.org/packages/0d/f1/0c6ccfb99b46bbf8b4fec34441ddf5edbf7285925aa852159b703e853137/youtubeuser-0.0.7.tar.gz
+[2024-04-29 02:36:41] INFO root fetch - processPackages [YoutubeUser]: executing diffoscope
+[2024-04-29 02:36:41] INFO root fetch - processPackages [YoutubeUser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youtubeuser-0.0.6.tar.gz tmp/youtubeuser-0.0.7.tar.gz --markdown 20240429/Y/YoutubeUser/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-29 02:36:41] INFO root fetch - processPackages [notolog]: Remove: archive file [/home/abi/fetcher/tmp/notolog-0.9.0b0.tar.gz]
+[2024-04-29 02:36:41] INFO root fetch - processPackages [notolog]: Remove: archive file [/home/abi/fetcher/tmp/notolog-0.9.0b6.tar.gz]
+[2024-04-29 02:36:41] INFO root fetch - main [MainThread]: End processing [notolog]: success
+[2024-04-29 02:36:42] INFO root fetch - processPackages [YoutubeUser]: Remove: archive file [/home/abi/fetcher/tmp/youtubeuser-0.0.6.tar.gz]
+[2024-04-29 02:36:42] INFO root fetch - processPackages [YoutubeUser]: Remove: archive file [/home/abi/fetcher/tmp/youtubeuser-0.0.7.tar.gz]
+[2024-04-29 02:36:42] INFO root fetch - main [MainThread]: End processing [YoutubeUser]: success
+[2024-04-29 02:36:42] INFO root fetch - main [MainThread]: Store serial: [22971911]
