@@ -7642,3 +7642,60 @@
 [2024-04-29 05:54:54] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.9.tar.gz]
 [2024-04-29 05:54:54] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
 [2024-04-29 05:54:54] INFO root fetch - main [MainThread]: Store serial: [22978488]
+[2024-04-29 05:56:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978488]
+[2024-04-29 05:57:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-29 05:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yplib
+[2024-04-29 05:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-cfd
+[2024-04-29 05:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-website-sale-hide-price
+[2024-04-29 05:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: npc_sessions
+[2024-04-29 05:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypomes-logging
+[2024-04-29 05:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pybaseutils
+[2024-04-29 05:57:04] INFO root fetch - processPackages [pybaseutils]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-29 05:57:04] INFO root fetch - processPackages [pypomes-logging]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-29 05:57:04] INFO root fetch - processPackages [npc_sessions]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-29 05:57:04] INFO root fetch - processPackages [pybaseutils]: Downloading https://files.pythonhosted.org/packages/4e/e7/e2d544bd4c1e1ddd185e5e0711b9c7552cd7609f3c82498968adc261402c/pybaseutils-1.0.5.tar.gz
+[2024-04-29 05:57:04] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.3]
+[2024-04-29 05:57:04] INFO root fetch - processPackages [pypomes-logging]: Downloading https://files.pythonhosted.org/packages/35/ad/0da1c4452aa831ca65b91e0e8a8ee0c057252122d8f7a64acbfe0595e81e/pypomes_logging-0.0.2.tar.gz
+[2024-04-29 05:57:04] INFO root fetch - processPackages [torch-cfd]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-29 05:57:04] INFO root fetch - processPackages [npc_sessions]: Downloading https://files.pythonhosted.org/packages/b8/93/bc9b7a7dd0ef6f49e1a89dbd69042819d6a945d3ccc9906feb172a29ba15/npc_sessions-0.0.98.tar.gz
+[2024-04-29 05:57:04] INFO root fetch - processPackages [yplib]: New version: [5.6.4] Old Version: [5.6.3]
+[2024-04-29 05:57:04] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: Downloading https://files.pythonhosted.org/packages/9c/20/a23a773608da1acd965a2b545fcefe2b9958e4402487077cd0e7346c652e/odoo_addon_website_sale_hide_price-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-29 05:57:04] INFO root fetch - processPackages [torch-cfd]: Downloading https://files.pythonhosted.org/packages/d9/92/4ce97ef44b5fd7c53b337cce16433396c1f9325c547b00c4e00b853b324a/torch_cfd-0.0.2.tar.gz
+[2024-04-29 05:57:04] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/7f/27/c66dbf03edcccfc414e1204b3e5869c24c9100fcdbe48148d612ecc7fe55/yplib-5.6.3.tar.gz
+[2024-04-29 05:57:04] INFO root fetch - processPackages [pypomes-logging]: Downloading https://files.pythonhosted.org/packages/33/d2/c4a18b19feaf87260fe0949b97f1ea438d520d9dfad7657884bf780a33aa/pypomes_logging-0.0.3.tar.gz
+[2024-04-29 05:57:04] INFO root fetch - processPackages [npc_sessions]: Downloading https://files.pythonhosted.org/packages/1b/65/bf57b9c6ee648973d846c99ebd5e2954d44af7aee6a3272e3710494205b1/npc_sessions-0.0.99.tar.gz
+[2024-04-29 05:57:04] INFO root fetch - processPackages [pybaseutils]: Downloading https://files.pythonhosted.org/packages/6c/c3/e6379f68a1e64b74d87a1a3e33020bcb894b90f5f7b188e557bf628f28c1/pybaseutils-1.0.6.tar.gz
+[2024-04-29 05:57:04] INFO root fetch - processPackages [pypomes-logging]: executing diffoscope
+[2024-04-29 05:57:04] INFO root fetch - processPackages [pypomes-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_logging-0.0.2.tar.gz tmp/pypomes_logging-0.0.3.tar.gz --markdown 20240429/p/pypomes-logging/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-29 05:57:04] INFO root fetch - processPackages [npc_sessions]: executing diffoscope
+[2024-04-29 05:57:04] INFO root fetch - processPackages [npc_sessions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npc_sessions-0.0.98.tar.gz tmp/npc_sessions-0.0.99.tar.gz --markdown 20240429/n/npc_sessions/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-29 05:57:04] INFO root fetch - processPackages [pybaseutils]: executing diffoscope
+[2024-04-29 05:57:04] INFO root fetch - processPackages [pybaseutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybaseutils-1.0.5.tar.gz tmp/pybaseutils-1.0.6.tar.gz --markdown 20240429/p/pybaseutils/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-29 05:57:04] INFO root fetch - processPackages [torch-cfd]: Downloading https://files.pythonhosted.org/packages/35/da/8f53168ab092bed130e2efc814baa37b65202d2b0268011f02ec09138ccb/torch_cfd-0.0.3.tar.gz
+[2024-04-29 05:57:04] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: Downloading https://files.pythonhosted.org/packages/81/dd/581f513e3babf0bac6cbadf3e432b53f541be3ebeff747100ad568faf3a3/odoo_addon_website_sale_hide_price-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-29 05:57:04] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/6d/5d/28e793eb5191f4fe7c4d55d1a2b411065ad0d75cda758899e63966d4a3be/yplib-5.6.4.tar.gz
+[2024-04-29 05:57:04] INFO root fetch - processPackages [torch-cfd]: executing diffoscope
+[2024-04-29 05:57:04] INFO root fetch - processPackages [torch-cfd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_cfd-0.0.2.tar.gz tmp/torch_cfd-0.0.3.tar.gz --markdown 20240429/t/torch-cfd/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-29 05:57:04] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: executing diffoscope
+[2024-04-29 05:57:04] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_sale_hide_price-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_website_sale_hide_price-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240429/o/odoo-addon-website-sale-hide-price/17.0.1.0.0.3-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-29 05:57:04] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2024-04-29 05:57:04] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-5.6.3.tar.gz tmp/yplib-5.6.4.tar.gz --markdown 20240429/y/yplib/5.6.3-5.6.4/README.md --exclude *.pyd
+[2024-04-29 05:57:05] INFO root fetch - processPackages [pypomes-logging]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_logging-0.0.2.tar.gz]
+[2024-04-29 05:57:05] INFO root fetch - processPackages [pypomes-logging]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_logging-0.0.3.tar.gz]
+[2024-04-29 05:57:05] INFO root fetch - main [MainThread]: End processing [pypomes-logging]: success
+[2024-04-29 05:57:05] INFO root fetch - processPackages [npc_sessions]: Remove: archive file [/home/abi/fetcher/tmp/npc_sessions-0.0.98.tar.gz]
+[2024-04-29 05:57:05] INFO root fetch - processPackages [npc_sessions]: Remove: archive file [/home/abi/fetcher/tmp/npc_sessions-0.0.99.tar.gz]
+[2024-04-29 05:57:05] INFO root fetch - main [MainThread]: End processing [npc_sessions]: success
+[2024-04-29 05:57:05] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.6.3.tar.gz]
+[2024-04-29 05:57:05] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.6.4.tar.gz]
+[2024-04-29 05:57:05] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2024-04-29 05:57:05] INFO root fetch - processPackages [torch-cfd]: Remove: archive file [/home/abi/fetcher/tmp/torch_cfd-0.0.2.tar.gz]
+[2024-04-29 05:57:05] INFO root fetch - processPackages [torch-cfd]: Remove: archive file [/home/abi/fetcher/tmp/torch_cfd-0.0.3.tar.gz]
+[2024-04-29 05:57:05] INFO root fetch - main [MainThread]: End processing [torch-cfd]: success
+[2024-04-29 05:57:05] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_hide_price-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-29 05:57:05] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_hide_price-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-29 05:57:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-hide-price]: success
+[2024-04-29 05:57:05] INFO root fetch - processPackages [pybaseutils]: Remove: archive file [/home/abi/fetcher/tmp/pybaseutils-1.0.5.tar.gz]
+[2024-04-29 05:57:05] INFO root fetch - processPackages [pybaseutils]: Remove: archive file [/home/abi/fetcher/tmp/pybaseutils-1.0.6.tar.gz]
+[2024-04-29 05:57:05] INFO root fetch - main [MainThread]: End processing [pybaseutils]: success
+[2024-04-29 05:57:05] INFO root fetch - main [MainThread]: Store serial: [22978505]
