@@ -22812,3 +22812,117 @@ EOFError: EOF read where object expected
 [2024-04-29 16:07:22] INFO root fetch - processPackages [bioomics]: Remove: archive file [/home/abi/fetcher/tmp/bioomics-0.2.5.tar.gz]
 [2024-04-29 16:07:22] INFO root fetch - main [MainThread]: End processing [bioomics]: success
 [2024-04-29 16:07:22] INFO root fetch - main [MainThread]: Store serial: [22984996]
+[2024-04-29 16:09:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22984996]
+[2024-04-29 16:09:30] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-29 16:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ultralytics-rknn
+[2024-04-29 16:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RenewablesAutomate
+[2024-04-29 16:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lightning-extensions
+[2024-04-29 16:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odp-sdk-python-ingest
+[2024-04-29 16:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opperai
+[2024-04-29 16:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: amulet-map-editor
+[2024-04-29 16:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anthropic
+[2024-04-29 16:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ecr-scan-notifier
+[2024-04-29 16:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: druida
+[2024-04-29 16:09:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bpm-ai-inference
+[2024-04-29 16:09:30] INFO root fetch - processPackages [odp-sdk-python-ingest]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-29 16:09:30] INFO root fetch - processPackages [ultralytics-rknn]: New version: [8.0.152] Old Version: [8.0.151]
+[2024-04-29 16:09:30] INFO root fetch - processPackages [bpm-ai-inference]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-04-29 16:09:30] INFO root fetch - processPackages [lightning-extensions]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-29 16:09:31] WARNING root fetch - processPackages [RenewablesAutomate]: Skipping, unable to determine old version
+[2024-04-29 16:09:31] INFO root fetch - processPackages [RenewablesAutomate]: Start processing: inoopa_utils
+[2024-04-29 16:09:31] INFO root fetch - main [MainThread]: End processing [RenewablesAutomate] error
+[2024-04-29 16:09:31] INFO root fetch - processPackages [druida]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 16:09:31] INFO root fetch - processPackages [anthropic]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-29 16:09:31] INFO root fetch - processPackages [ecr-scan-notifier]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 16:09:31] INFO root fetch - processPackages [odp-sdk-python-ingest]: Downloading https://files.pythonhosted.org/packages/5d/0e/f9afd54a77824088abaaca0cfcd51ff6548c81c144895026889904c1c641/odp_sdk_python_ingest-0.4.8.tar.gz
+[2024-04-29 16:09:31] INFO root fetch - processPackages [opperai]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-29 16:09:31] INFO root fetch - processPackages [ultralytics-rknn]: Downloading https://files.pythonhosted.org/packages/6f/8a/8a45793b77f92eadf4608ab85c62e0c7cea9ffde85e459d7a81d5ee5d5fc/ultralytics_rknn-8.0.151-py3-none-any.whl
+[2024-04-29 16:09:31] INFO root fetch - processPackages [lightning-extensions]: Downloading https://files.pythonhosted.org/packages/63/2a/b1916875fdd39708d5076a7f97e208020cc9415f6368941fe8686dc5e63e/lightning_extensions-0.0.7.tar.gz
+[2024-04-29 16:09:31] INFO root fetch - processPackages [amulet-map-editor]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-29 16:09:31] INFO root fetch - processPackages [druida]: Downloading https://files.pythonhosted.org/packages/54/4a/598451ade8bde7f369deba69feb62cde24693585acb81aed1eb62547c114/druida-0.0.8.tar.gz
+[2024-04-29 16:09:31] INFO root fetch - processPackages [bpm-ai-inference]: Downloading https://files.pythonhosted.org/packages/c9/9a/34312efaf64c90be170726e2660048c9f7ed14b7313abbc360de72d5844c/bpm_ai_inference-0.2.9.tar.gz
+[2024-04-29 16:09:31] INFO root fetch - processPackages [inoopa_utils]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-04-29 16:09:31] INFO root fetch - processPackages [anthropic]: Downloading https://files.pythonhosted.org/packages/b7/41/dcf60daedd5b67efd47c8798679c797fe6150fea55287dc207c8d59c19b2/anthropic-0.8.1.tar.gz
+[2024-04-29 16:09:31] INFO root fetch - processPackages [ecr-scan-notifier]: Downloading https://files.pythonhosted.org/packages/40/4d/1a1d0d9bc892c0dfb4d791a0884a59a8914a10d1e7da04c6b59517cf273f/ecr-scan-notifier-0.0.8.tar.gz
+[2024-04-29 16:09:31] INFO root fetch - processPackages [opperai]: Downloading https://files.pythonhosted.org/packages/f8/2e/44d8db52939cc6feb722ffb52c57f4bcf154d203f8004d3b768a1b3838a0/opperai-0.3.3.tar.gz
+[2024-04-29 16:09:31] INFO root fetch - processPackages [odp-sdk-python-ingest]: Downloading https://files.pythonhosted.org/packages/01/62/746ccaf558bd8d1acd3b8664ec29d268638a163fdb3748dce63c4d890463/odp_sdk_python_ingest-0.4.9.tar.gz
+[2024-04-29 16:09:31] INFO root fetch - processPackages [lightning-extensions]: Downloading https://files.pythonhosted.org/packages/ec/19/979424f82665c27e0f4ade9d3c49a019d99654d0ac1df85e12134cb8fb8f/lightning_extensions-0.0.9.tar.gz
+[2024-04-29 16:09:31] INFO root fetch - processPackages [amulet-map-editor]: Downloading https://files.pythonhosted.org/packages/3f/22/fe3c93fbda35d1cdacc4caca6d416247cf754bced7899f75801286234efd/amulet-map-editor-0.9.5.tar.gz
+[2024-04-29 16:09:31] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/aa/39/aee5fec834159e2d49a72c6e1add5abfe1a794fc2dc0c60be44070220105/inoopa_utils-2.9.5.tar.gz
+[2024-04-29 16:09:31] INFO root fetch - processPackages [druida]: Downloading https://files.pythonhosted.org/packages/c2/fc/04f7092cb544ce2c35e3be2dd5ff20bee19fcc5ba5378898e0f03e15b8a9/druida-0.0.9.tar.gz
+[2024-04-29 16:09:31] INFO root fetch - processPackages [bpm-ai-inference]: Downloading https://files.pythonhosted.org/packages/1a/9c/7a360e0c6efc3710a9e3133b8aa622e19260dd3a73136e72bc02475c486f/bpm_ai_inference-0.3.0.tar.gz
+[2024-04-29 16:09:31] INFO root fetch - processPackages [ultralytics-rknn]: Downloading https://files.pythonhosted.org/packages/9d/21/844392f227b7b049b89a1d52be3ba67d2547956a9d8a0a81e3e8704c1fbd/ultralytics_rknn-8.0.152-py3-none-any.whl
+[2024-04-29 16:09:31] INFO root fetch - processPackages [lightning-extensions]: executing diffoscope
+[2024-04-29 16:09:31] INFO root fetch - processPackages [lightning-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning_extensions-0.0.7.tar.gz tmp/lightning_extensions-0.0.9.tar.gz --markdown 20240429/l/lightning-extensions/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-04-29 16:09:31] INFO root fetch - processPackages [odp-sdk-python-ingest]: executing diffoscope
+[2024-04-29 16:09:31] INFO root fetch - processPackages [odp-sdk-python-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odp_sdk_python_ingest-0.4.8.tar.gz tmp/odp_sdk_python_ingest-0.4.9.tar.gz --markdown 20240429/o/odp-sdk-python-ingest/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-29 16:09:31] INFO root fetch - processPackages [druida]: executing diffoscope
+[2024-04-29 16:09:31] INFO root fetch - processPackages [druida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/druida-0.0.8.tar.gz tmp/druida-0.0.9.tar.gz --markdown 20240429/d/druida/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 16:09:31] INFO root fetch - processPackages [bpm-ai-inference]: executing diffoscope
+[2024-04-29 16:09:31] INFO root fetch - processPackages [bpm-ai-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpm_ai_inference-0.2.9.tar.gz tmp/bpm_ai_inference-0.3.0.tar.gz --markdown 20240429/b/bpm-ai-inference/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-04-29 16:09:31] INFO root fetch - processPackages [ultralytics-rknn]: executing diffoscope
+[2024-04-29 16:09:31] INFO root fetch - processPackages [ultralytics-rknn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics_rknn-8.0.151-py3-none-any.whl.zip tmp/ultralytics_rknn-8.0.152-py3-none-any.whl.zip --markdown 20240429/u/ultralytics-rknn/8.0.151-8.0.152/README.md --exclude *.pyd
+[2024-04-29 16:09:31] INFO root fetch - processPackages [anthropic]: Downloading https://files.pythonhosted.org/packages/25/20/cfba3d21f5057796d49ebf34e8046705348996a464bdd06b9c3678d9ae70/anthropic-0.9.0.tar.gz
+[2024-04-29 16:09:31] INFO root fetch - processPackages [opperai]: Downloading https://files.pythonhosted.org/packages/81/fe/798a41eed1fccd32034d7df68edda2c8fbaf5dfc87b7a03f4dac877cf648/opperai-0.3.4.tar.gz
+[2024-04-29 16:09:31] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/58/a2/5546b9c9876ce58a633cfd7c0abfd10f3182f59be2bce15d0040cff0a80a/inoopa_utils-2.9.6.tar.gz
+[2024-04-29 16:09:31] INFO root fetch - processPackages [ecr-scan-notifier]: Downloading https://files.pythonhosted.org/packages/d1/00/57fd90da8640eba9f4ecd18284a84eab9858fbc02e1cde2695b5c20f9967/ecr-scan-notifier-0.0.9.tar.gz
+[2024-04-29 16:09:32] INFO root fetch - processPackages [opperai]: executing diffoscope
+[2024-04-29 16:09:32] INFO root fetch - processPackages [opperai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opperai-0.3.3.tar.gz tmp/opperai-0.3.4.tar.gz --markdown 20240429/o/opperai/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-04-29 16:09:32] INFO root fetch - processPackages [amulet-map-editor]: Downloading https://files.pythonhosted.org/packages/3f/6c/53a1a90d5583a066d8244e345ab522afff85e8fd5acd593d8195f9fcb7b7/amulet-map-editor-0.9.6.tar.gz
+[2024-04-29 16:09:32] INFO root fetch - processPackages [anthropic]: executing diffoscope
+[2024-04-29 16:09:32] INFO root fetch - processPackages [anthropic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anthropic-0.8.1.tar.gz tmp/anthropic-0.9.0.tar.gz --markdown 20240429/a/anthropic/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-29 16:09:32] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-04-29 16:09:32] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.9.5.tar.gz tmp/inoopa_utils-2.9.6.tar.gz --markdown 20240429/i/inoopa_utils/2.9.5-2.9.6/README.md --exclude *.pyd
+[2024-04-29 16:09:32] INFO root fetch - processPackages [ecr-scan-notifier]: executing diffoscope
+[2024-04-29 16:09:32] INFO root fetch - processPackages [ecr-scan-notifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecr-scan-notifier-0.0.8.tar.gz tmp/ecr-scan-notifier-0.0.9.tar.gz --markdown 20240429/e/ecr-scan-notifier/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 16:09:32] INFO root fetch - processPackages [amulet-map-editor]: executing diffoscope
+[2024-04-29 16:09:32] INFO root fetch - processPackages [amulet-map-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amulet-map-editor-0.9.5.tar.gz tmp/amulet-map-editor-0.9.6.tar.gz --markdown 20240429/a/amulet-map-editor/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-04-29 16:09:32] INFO root fetch - processPackages [lightning-extensions]: Remove: archive file [/home/abi/fetcher/tmp/lightning_extensions-0.0.7.tar.gz]
+[2024-04-29 16:09:32] INFO root fetch - processPackages [lightning-extensions]: Remove: archive file [/home/abi/fetcher/tmp/lightning_extensions-0.0.9.tar.gz]
+[2024-04-29 16:09:32] INFO root fetch - processPackages [lightning-extensions]: Start processing: xformers
+[2024-04-29 16:09:32] INFO root fetch - main [MainThread]: End processing [lightning-extensions]: success
+[2024-04-29 16:09:32] INFO root fetch - processPackages [druida]: Remove: archive file [/home/abi/fetcher/tmp/druida-0.0.8.tar.gz]
+[2024-04-29 16:09:32] INFO root fetch - processPackages [druida]: Remove: archive file [/home/abi/fetcher/tmp/druida-0.0.9.tar.gz]
+[2024-04-29 16:09:32] INFO root fetch - processPackages [druida]: Start processing: pyodide-mkdocs-theme
+[2024-04-29 16:09:32] INFO root fetch - main [MainThread]: End processing [druida]: success
+[2024-04-29 16:09:32] INFO root fetch - processPackages [xformers]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 16:09:33] INFO root fetch - processPackages [odp-sdk-python-ingest]: Remove: archive file [/home/abi/fetcher/tmp/odp_sdk_python_ingest-0.4.8.tar.gz]
+[2024-04-29 16:09:33] INFO root fetch - processPackages [odp-sdk-python-ingest]: Remove: archive file [/home/abi/fetcher/tmp/odp_sdk_python_ingest-0.4.9.tar.gz]
+[2024-04-29 16:09:33] INFO root fetch - main [MainThread]: End processing [odp-sdk-python-ingest]: success
+[2024-04-29 16:09:33] INFO root fetch - processPackages [xformers]: Downloading https://files.pythonhosted.org/packages/81/d6/709a1f765f8ecb6217ecd010e71f23c871a6cacdf837e1186c057eb0372f/xformers-0.0.8.tar.gz
+[2024-04-29 16:09:33] INFO root fetch - processPackages [pyodide-mkdocs-theme]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-29 16:09:33] INFO root fetch - processPackages [bpm-ai-inference]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai_inference-0.2.9.tar.gz]
+[2024-04-29 16:09:33] INFO root fetch - processPackages [bpm-ai-inference]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai_inference-0.3.0.tar.gz]
+[2024-04-29 16:09:33] INFO root fetch - main [MainThread]: End processing [bpm-ai-inference]: success
+[2024-04-29 16:09:33] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.5.tar.gz]
+[2024-04-29 16:09:33] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.6.tar.gz]
+[2024-04-29 16:09:33] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-04-29 16:09:33] INFO root fetch - processPackages [pyodide-mkdocs-theme]: Downloading https://files.pythonhosted.org/packages/ab/6d/93f850dd52162c3e0d4af24bbd366f8c7ea2e9e72cdc20fa423269095622/pyodide_mkdocs_theme-0.6.0.tar.gz
+[2024-04-29 16:09:33] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.8.tar.gz]
+[2024-04-29 16:09:33] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.9.tar.gz]
+[2024-04-29 16:09:33] INFO root fetch - main [MainThread]: End processing [ecr-scan-notifier]: success
+[2024-04-29 16:09:33] INFO root fetch - processPackages [xformers]: Downloading https://files.pythonhosted.org/packages/8f/c2/9cfed3bb83e46be252b4a2e9a75ebb4c8a0f9df6cbb228b3646048a7d3c4/xformers-0.0.9.tar.gz
+[2024-04-29 16:09:33] INFO root fetch - processPackages [opperai]: Remove: archive file [/home/abi/fetcher/tmp/opperai-0.3.3.tar.gz]
+[2024-04-29 16:09:33] INFO root fetch - processPackages [opperai]: Remove: archive file [/home/abi/fetcher/tmp/opperai-0.3.4.tar.gz]
+[2024-04-29 16:09:33] INFO root fetch - main [MainThread]: End processing [opperai]: success
+[2024-04-29 16:09:33] INFO root fetch - processPackages [xformers]: executing diffoscope
+[2024-04-29 16:09:33] INFO root fetch - processPackages [xformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xformers-0.0.8.tar.gz tmp/xformers-0.0.9.tar.gz --markdown 20240429/x/xformers/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 16:09:34] INFO root fetch - processPackages [pyodide-mkdocs-theme]: Downloading https://files.pythonhosted.org/packages/12/38/8ad775cef6196cecf8296d49b5f4a96bbbcbda05ce4ab82e082207b0485c/pyodide_mkdocs_theme-0.6.1.tar.gz
+[2024-04-29 16:09:34] INFO root fetch - processPackages [ultralytics-rknn]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics_rknn-8.0.151-py3-none-any.whl.zip]
+[2024-04-29 16:09:34] INFO root fetch - processPackages [ultralytics-rknn]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics_rknn-8.0.152-py3-none-any.whl.zip]
+[2024-04-29 16:09:34] INFO root fetch - main [MainThread]: End processing [ultralytics-rknn]: success
+[2024-04-29 16:09:34] INFO root fetch - processPackages [pyodide-mkdocs-theme]: executing diffoscope
+[2024-04-29 16:09:34] INFO root fetch - processPackages [pyodide-mkdocs-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodide_mkdocs_theme-0.6.0.tar.gz tmp/pyodide_mkdocs_theme-0.6.1.tar.gz --markdown 20240429/p/pyodide-mkdocs-theme/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-29 16:09:34] INFO root fetch - processPackages [anthropic]: Remove: archive file [/home/abi/fetcher/tmp/anthropic-0.8.1.tar.gz]
+[2024-04-29 16:09:34] INFO root fetch - processPackages [anthropic]: Remove: archive file [/home/abi/fetcher/tmp/anthropic-0.9.0.tar.gz]
+[2024-04-29 16:09:34] INFO root fetch - main [MainThread]: End processing [anthropic]: success
+[2024-04-29 16:09:35] INFO root fetch - processPackages [xformers]: Remove: archive file [/home/abi/fetcher/tmp/xformers-0.0.8.tar.gz]
+[2024-04-29 16:09:35] INFO root fetch - processPackages [xformers]: Remove: archive file [/home/abi/fetcher/tmp/xformers-0.0.9.tar.gz]
+[2024-04-29 16:09:35] INFO root fetch - main [MainThread]: End processing [xformers]: success
+[2024-04-29 16:09:36] INFO root fetch - processPackages [amulet-map-editor]: Remove: archive file [/home/abi/fetcher/tmp/amulet-map-editor-0.9.5.tar.gz]
+[2024-04-29 16:09:36] INFO root fetch - processPackages [amulet-map-editor]: Remove: archive file [/home/abi/fetcher/tmp/amulet-map-editor-0.9.6.tar.gz]
+[2024-04-29 16:09:36] INFO root fetch - main [MainThread]: End processing [amulet-map-editor]: success
+[2024-04-29 16:09:38] INFO root fetch - processPackages [pyodide-mkdocs-theme]: Remove: archive file [/home/abi/fetcher/tmp/pyodide_mkdocs_theme-0.6.0.tar.gz]
+[2024-04-29 16:09:38] INFO root fetch - processPackages [pyodide-mkdocs-theme]: Remove: archive file [/home/abi/fetcher/tmp/pyodide_mkdocs_theme-0.6.1.tar.gz]
+[2024-04-29 16:09:38] INFO root fetch - main [MainThread]: End processing [pyodide-mkdocs-theme]: success
+[2024-04-29 16:09:38] INFO root fetch - main [MainThread]: Store serial: [22985034]
