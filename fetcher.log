@@ -16199,3 +16199,72 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 12:55:04] INFO root fetch - processPackages [sonar-tools]: Remove: archive file [/home/abi/fetcher/tmp/sonar_tools-2.9-py3-none-any.whl.zip]
 [2024-04-29 12:55:04] INFO root fetch - main [MainThread]: End processing [sonar-tools]: success
 [2024-04-29 12:55:04] INFO root fetch - main [MainThread]: Store serial: [22982267]
+[2024-04-29 12:57:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982267]
+[2024-04-29 12:57:14] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-29 12:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: everai
+[2024-04-29 12:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ood_detectors
+[2024-04-29 12:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iSparrowRecord
+[2024-04-29 12:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jdtaxcalculator
+[2024-04-29 12:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lukasdata
+[2024-04-29 12:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zato-apitest
+[2024-04-29 12:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: geney
+[2024-04-29 12:57:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Pseudovisium
+[2024-04-29 12:57:14] INFO root fetch - processPackages [ood_detectors]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-29 12:57:14] INFO root fetch - processPackages [jdtaxcalculator]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-29 12:57:14] INFO root fetch - processPackages [zato-apitest]: New version: [24.1.26] Old Version: [24.1.25]
+[2024-04-29 12:57:14] INFO root fetch - processPackages [jdtaxcalculator]: Downloading https://files.pythonhosted.org/packages/b7/c7/4e666ecafa04ec4f5be5de3840d7d9a670d475c6cf7d5d07936fa0193bde/jdtaxcalculator-0.0.4.tar.gz
+[2024-04-29 12:57:14] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/31/44/9af4780586d05c08004f2bdf8337fd36b925ab1ae72703acde760673e5ea/ood_detectors-0.0.2.tar.gz
+[2024-04-29 12:57:14] INFO root fetch - processPackages [everai]: New version: [0.1.38] Old Version: [0.1.37]
+[2024-04-29 12:57:14] INFO root fetch - processPackages [Pseudovisium]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-29 12:57:14] INFO root fetch - processPackages [zato-apitest]: Downloading https://files.pythonhosted.org/packages/42/8b/ffb2d0c4b82abb1ff78e3152d93512a5a0b821cddaf99211050cc3c8a76d/zato_apitest-24.1.25.tar.gz
+[2024-04-29 12:57:14] INFO root fetch - processPackages [lukasdata]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-04-29 12:57:14] WARNING root fetch - processPackages [iSparrowRecord]: Skipping, unable to determine old version
+[2024-04-29 12:57:14] INFO root fetch - main [MainThread]: End processing [iSparrowRecord] error
+[2024-04-29 12:57:14] INFO root fetch - processPackages [geney]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-29 12:57:14] INFO root fetch - processPackages [lukasdata]: Downloading https://files.pythonhosted.org/packages/0f/c7/a92a05e9877169913c84d5df13a9b3670241600667426a0586a5d5dfb6ac/lukasdata-1.2.3.tar.gz
+[2024-04-29 12:57:14] INFO root fetch - processPackages [Pseudovisium]: Downloading https://files.pythonhosted.org/packages/04/e6/3731880c9a0b5a5f066568922f14fa94bc6aa07ed155b9a4c4408fcc3b10/Pseudovisium-0.0.6.tar.gz
+[2024-04-29 12:57:14] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/e3/05/b9140bd1c66510324e9b77edf14c7668ba00d900bc411132e2e14a023b71/everai-0.1.37-py3-none-any.whl
+[2024-04-29 12:57:14] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/0b/04/1e1f3a6f2e6ae396242853b6f763a195684eb200b55ad963c81872c34036/ood_detectors-0.0.3.tar.gz
+[2024-04-29 12:57:14] INFO root fetch - processPackages [geney]: Downloading https://files.pythonhosted.org/packages/86/69/f454f5ac5f613df1df91f7d3810b657a32c755e5ebd5101a039113e99531/geney-1.0.8-py2.py3-none-any.whl
+[2024-04-29 12:57:14] INFO root fetch - processPackages [jdtaxcalculator]: Downloading https://files.pythonhosted.org/packages/b4/4c/2a84bc4f8998f16ee9e170779e7809c13006015ccf4f50dd066788e8e1e9/jdtaxcalculator-0.0.5.tar.gz
+[2024-04-29 12:57:14] INFO root fetch - processPackages [zato-apitest]: Downloading https://files.pythonhosted.org/packages/41/27/613e47662113813b53d4115a0a0cbb816311d430e8a2e406099cd6a0d347/zato_apitest-24.1.26.tar.gz
+[2024-04-29 12:57:14] INFO root fetch - processPackages [ood_detectors]: executing diffoscope
+[2024-04-29 12:57:14] INFO root fetch - processPackages [ood_detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ood_detectors-0.0.2.tar.gz tmp/ood_detectors-0.0.3.tar.gz --markdown 20240429/o/ood_detectors/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-29 12:57:14] INFO root fetch - processPackages [jdtaxcalculator]: executing diffoscope
+[2024-04-29 12:57:14] INFO root fetch - processPackages [jdtaxcalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jdtaxcalculator-0.0.4.tar.gz tmp/jdtaxcalculator-0.0.5.tar.gz --markdown 20240429/j/jdtaxcalculator/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-29 12:57:14] INFO root fetch - processPackages [zato-apitest]: executing diffoscope
+[2024-04-29 12:57:14] INFO root fetch - processPackages [zato-apitest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zato_apitest-24.1.25.tar.gz tmp/zato_apitest-24.1.26.tar.gz --markdown 20240429/z/zato-apitest/24.1.25-24.1.26/README.md --exclude *.pyd
+[2024-04-29 12:57:14] INFO root fetch - processPackages [lukasdata]: Downloading https://files.pythonhosted.org/packages/2c/de/9e2cdd7d6ea871fae07e23ac6b6ea9fd5683a180087ec5a219a3c0a8568f/lukasdata-1.2.4.tar.gz
+[2024-04-29 12:57:14] INFO root fetch - processPackages [Pseudovisium]: Downloading https://files.pythonhosted.org/packages/7b/47/6ae9ccc848afdab3cc995d114f229657ce709b8369debcd920ac8aa5e977/Pseudovisium-0.0.7.tar.gz
+[2024-04-29 12:57:15] INFO root fetch - processPackages [lukasdata]: executing diffoscope
+[2024-04-29 12:57:15] INFO root fetch - processPackages [lukasdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lukasdata-1.2.3.tar.gz tmp/lukasdata-1.2.4.tar.gz --markdown 20240429/l/lukasdata/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-04-29 12:57:15] INFO root fetch - processPackages [everai]: Downloading https://files.pythonhosted.org/packages/07/d7/110ebcb3e8df3808921a14189b9c103990ba6f91c3db5fe3b9bd6ba3ab03/everai-0.1.38-py3-none-any.whl
+[2024-04-29 12:57:15] INFO root fetch - processPackages [Pseudovisium]: executing diffoscope
+[2024-04-29 12:57:15] INFO root fetch - processPackages [Pseudovisium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pseudovisium-0.0.6.tar.gz tmp/Pseudovisium-0.0.7.tar.gz --markdown 20240429/P/Pseudovisium/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-29 12:57:15] INFO root fetch - processPackages [geney]: Downloading https://files.pythonhosted.org/packages/34/86/60fc17a2b2955b83e373a1f8ca2da5d0597a952d8898650ffcf62c408742/geney-1.0.9-py2.py3-none-any.whl
+[2024-04-29 12:57:15] INFO root fetch - processPackages [everai]: executing diffoscope
+[2024-04-29 12:57:15] INFO root fetch - processPackages [everai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everai-0.1.37-py3-none-any.whl.zip tmp/everai-0.1.38-py3-none-any.whl.zip --markdown 20240429/e/everai/0.1.37-0.1.38/README.md --exclude *.pyd
+[2024-04-29 12:57:15] INFO root fetch - processPackages [geney]: executing diffoscope
+[2024-04-29 12:57:15] INFO root fetch - processPackages [geney]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geney-1.0.8-py2.py3-none-any.whl.zip tmp/geney-1.0.9-py2.py3-none-any.whl.zip --markdown 20240429/g/geney/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-29 12:57:16] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.2.tar.gz]
+[2024-04-29 12:57:16] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.3.tar.gz]
+[2024-04-29 12:57:16] INFO root fetch - main [MainThread]: End processing [ood_detectors]: success
+[2024-04-29 12:57:16] INFO root fetch - processPackages [jdtaxcalculator]: Remove: archive file [/home/abi/fetcher/tmp/jdtaxcalculator-0.0.4.tar.gz]
+[2024-04-29 12:57:16] INFO root fetch - processPackages [jdtaxcalculator]: Remove: archive file [/home/abi/fetcher/tmp/jdtaxcalculator-0.0.5.tar.gz]
+[2024-04-29 12:57:16] INFO root fetch - main [MainThread]: End processing [jdtaxcalculator]: success
+[2024-04-29 12:57:16] INFO root fetch - processPackages [lukasdata]: Remove: archive file [/home/abi/fetcher/tmp/lukasdata-1.2.3.tar.gz]
+[2024-04-29 12:57:16] INFO root fetch - processPackages [lukasdata]: Remove: archive file [/home/abi/fetcher/tmp/lukasdata-1.2.4.tar.gz]
+[2024-04-29 12:57:16] INFO root fetch - main [MainThread]: End processing [lukasdata]: success
+[2024-04-29 12:57:16] INFO root fetch - processPackages [zato-apitest]: Remove: archive file [/home/abi/fetcher/tmp/zato_apitest-24.1.25.tar.gz]
+[2024-04-29 12:57:16] INFO root fetch - processPackages [zato-apitest]: Remove: archive file [/home/abi/fetcher/tmp/zato_apitest-24.1.26.tar.gz]
+[2024-04-29 12:57:16] INFO root fetch - main [MainThread]: End processing [zato-apitest]: success
+[2024-04-29 12:57:16] INFO root fetch - processPackages [Pseudovisium]: Remove: archive file [/home/abi/fetcher/tmp/Pseudovisium-0.0.6.tar.gz]
+[2024-04-29 12:57:16] INFO root fetch - processPackages [Pseudovisium]: Remove: archive file [/home/abi/fetcher/tmp/Pseudovisium-0.0.7.tar.gz]
+[2024-04-29 12:57:16] INFO root fetch - main [MainThread]: End processing [Pseudovisium]: success
+[2024-04-29 12:57:16] INFO root fetch - processPackages [geney]: Remove: archive file [/home/abi/fetcher/tmp/geney-1.0.8-py2.py3-none-any.whl.zip]
+[2024-04-29 12:57:16] INFO root fetch - processPackages [geney]: Remove: archive file [/home/abi/fetcher/tmp/geney-1.0.9-py2.py3-none-any.whl.zip]
+[2024-04-29 12:57:16] INFO root fetch - main [MainThread]: End processing [geney]: success
+[2024-04-29 12:57:17] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.37-py3-none-any.whl.zip]
+[2024-04-29 12:57:17] INFO root fetch - processPackages [everai]: Remove: archive file [/home/abi/fetcher/tmp/everai-0.1.38-py3-none-any.whl.zip]
+[2024-04-29 12:57:17] INFO root fetch - main [MainThread]: End processing [everai]: success
+[2024-04-29 12:57:17] INFO root fetch - main [MainThread]: Store serial: [22982298]
