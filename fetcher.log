@@ -13128,3 +13128,62 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 11:01:45] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.2.5.tar.gz]
 [2024-04-29 11:01:45] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
 [2024-04-29 11:01:45] INFO root fetch - main [MainThread]: Store serial: [22980999]
+[2024-04-29 11:03:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980999]
+[2024-04-29 11:03:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-29 11:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: numerous
+[2024-04-29 11:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataaetherscan
+[2024-04-29 11:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: songtradr-api-client-python
+[2024-04-29 11:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: liquid-earth-api
+[2024-04-29 11:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-environment-config
+[2024-04-29 11:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-sync-env
+[2024-04-29 11:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nwp-consumer
+[2024-04-29 11:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ampform-dpd
+[2024-04-29 11:03:55] INFO root fetch - processPackages [django-sync-env]: New version: [0.3.1a9] Old Version: [0.3.1a8]
+[2024-04-29 11:03:55] WARNING root fetch - processPackages [django-environment-config]: Skipping, unable to determine old version
+[2024-04-29 11:03:55] INFO root fetch - main [MainThread]: End processing [django-environment-config] error
+[2024-04-29 11:03:55] INFO root fetch - processPackages [ampform-dpd]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-29 11:03:55] INFO root fetch - processPackages [numerous]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 11:03:55] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/24/78/009e2f56d84d6eb849f08471c884f6aff8d021ec213adff24e1dfb5bc33e/django_sync_env-0.3.1a8.tar.gz
+[2024-04-29 11:03:55] WARNING root fetch - processPackages [liquid-earth-api]: Skipping, unable to determine old version
+[2024-04-29 11:03:55] INFO root fetch - main [MainThread]: End processing [liquid-earth-api] error
+[2024-04-29 11:03:55] INFO root fetch - processPackages [dataaetherscan]: New version: [1.0.0] Old Version: [0.0.1]
+[2024-04-29 11:03:55] INFO root fetch - processPackages [nwp-consumer]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-29 11:03:55] INFO root fetch - processPackages [songtradr-api-client-python]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-29 11:03:55] INFO root fetch - processPackages [ampform-dpd]: Downloading https://files.pythonhosted.org/packages/06/57/7601144c7b2e24caf9dc5adc9c192e532ad6e8c963e4b377fa1411c51496/ampform-dpd-0.1.6.tar.gz
+[2024-04-29 11:03:55] INFO root fetch - processPackages [django-sync-env]: Downloading https://files.pythonhosted.org/packages/09/f6/638f51a800edaadde68c64c67b668aae5d792eea2037d314f4dbea6565dd/django_sync_env-0.3.1a9.tar.gz
+[2024-04-29 11:03:55] INFO root fetch - processPackages [numerous]: Downloading https://files.pythonhosted.org/packages/77/6b/96d48ee9e315541e9d856fc6a93ffd7c7a217dc9f817f2da1ff2f37c5d0f/numerous-0.0.8.tar.gz
+[2024-04-29 11:03:55] INFO root fetch - processPackages [ampform-dpd]: Downloading https://files.pythonhosted.org/packages/0e/0e/765edc8113634aea2202e31f2dc2c1acee456b15b96a181bede11f5efb3f/ampform_dpd-0.1.7.tar.gz
+[2024-04-29 11:03:55] INFO root fetch - processPackages [songtradr-api-client-python]: Downloading https://files.pythonhosted.org/packages/24/81/a20d2941078870f70406c01f332a59ab36b8900355a392227cc1114f24ab/songtradr-api-client-python-2.0.0.tar.gz
+[2024-04-29 11:03:55] INFO root fetch - processPackages [dataaetherscan]: Downloading https://files.pythonhosted.org/packages/48/28/3de526ded7bb720125606b1c19a0ac3bc567632b1b989edd01e6e07ab117/dataaetherscan-0.0.1.tar.gz
+[2024-04-29 11:03:55] INFO root fetch - processPackages [nwp-consumer]: Downloading https://files.pythonhosted.org/packages/f0/be/b7326c16b635a23600259efe56bda17a4a0807169d9321572a9c524d8628/nwp_consumer-0.5.8-py3-none-any.whl
+[2024-04-29 11:03:55] INFO root fetch - processPackages [django-sync-env]: executing diffoscope
+[2024-04-29 11:03:55] INFO root fetch - processPackages [django-sync-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sync_env-0.3.1a8.tar.gz tmp/django_sync_env-0.3.1a9.tar.gz --markdown 20240429/d/django-sync-env/0.3.1a8-0.3.1a9/README.md --exclude *.pyd
+[2024-04-29 11:03:55] INFO root fetch - processPackages [ampform-dpd]: executing diffoscope
+[2024-04-29 11:03:55] INFO root fetch - processPackages [ampform-dpd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ampform-dpd-0.1.6.tar.gz tmp/ampform_dpd-0.1.7.tar.gz --markdown 20240429/a/ampform-dpd/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-29 11:03:55] INFO root fetch - processPackages [dataaetherscan]: Downloading https://files.pythonhosted.org/packages/79/75/aad985223b3963e26162a10644dbc69dd078fc2d8d2ced22c223aa155d2a/dataaetherscan-1.0.0.tar.gz
+[2024-04-29 11:03:55] INFO root fetch - processPackages [songtradr-api-client-python]: Downloading https://files.pythonhosted.org/packages/49/07/ecc3492a723e6c3f5d90f55c63bac30569646d1e6c24fb2aa8b04a841a0a/songtradr_api_client_python-2.1.0.tar.gz
+[2024-04-29 11:03:55] WARNING root fetch - processPackages [numerous]: Skipping package: exceeds size limit 34528401>=10485760
+[2024-04-29 11:03:55] INFO root fetch - main [MainThread]: End processing [numerous] error
+[2024-04-29 11:03:55] INFO root fetch - processPackages [nwp-consumer]: Downloading https://files.pythonhosted.org/packages/51/2f/98db8452a3f580ab054d3b295a69ef6fd50a63d39a6b504aff608bc56a3c/nwp_consumer-0.5.9-py3-none-any.whl
+[2024-04-29 11:03:55] INFO root fetch - processPackages [dataaetherscan]: executing diffoscope
+[2024-04-29 11:03:55] INFO root fetch - processPackages [dataaetherscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataaetherscan-0.0.1.tar.gz tmp/dataaetherscan-1.0.0.tar.gz --markdown 20240429/d/dataaetherscan/0.0.1-1.0.0/README.md --exclude *.pyd
+[2024-04-29 11:03:55] INFO root fetch - processPackages [songtradr-api-client-python]: executing diffoscope
+[2024-04-29 11:03:55] INFO root fetch - processPackages [songtradr-api-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/songtradr-api-client-python-2.0.0.tar.gz tmp/songtradr_api_client_python-2.1.0.tar.gz --markdown 20240429/s/songtradr-api-client-python/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-04-29 11:03:56] INFO root fetch - processPackages [nwp-consumer]: executing diffoscope
+[2024-04-29 11:03:56] INFO root fetch - processPackages [nwp-consumer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwp_consumer-0.5.8-py3-none-any.whl.zip tmp/nwp_consumer-0.5.9-py3-none-any.whl.zip --markdown 20240429/n/nwp-consumer/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-29 11:03:56] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a8.tar.gz]
+[2024-04-29 11:03:56] INFO root fetch - processPackages [django-sync-env]: Remove: archive file [/home/abi/fetcher/tmp/django_sync_env-0.3.1a9.tar.gz]
+[2024-04-29 11:03:56] INFO root fetch - main [MainThread]: End processing [django-sync-env]: success
+[2024-04-29 11:03:56] INFO root fetch - processPackages [dataaetherscan]: Remove: archive file [/home/abi/fetcher/tmp/dataaetherscan-0.0.1.tar.gz]
+[2024-04-29 11:03:56] INFO root fetch - processPackages [dataaetherscan]: Remove: archive file [/home/abi/fetcher/tmp/dataaetherscan-1.0.0.tar.gz]
+[2024-04-29 11:03:56] INFO root fetch - main [MainThread]: End processing [dataaetherscan]: success
+[2024-04-29 11:03:56] INFO root fetch - processPackages [nwp-consumer]: Remove: archive file [/home/abi/fetcher/tmp/nwp_consumer-0.5.8-py3-none-any.whl.zip]
+[2024-04-29 11:03:56] INFO root fetch - processPackages [nwp-consumer]: Remove: archive file [/home/abi/fetcher/tmp/nwp_consumer-0.5.9-py3-none-any.whl.zip]
+[2024-04-29 11:03:56] INFO root fetch - main [MainThread]: End processing [nwp-consumer]: success
+[2024-04-29 11:03:57] INFO root fetch - processPackages [songtradr-api-client-python]: Remove: archive file [/home/abi/fetcher/tmp/songtradr-api-client-python-2.0.0.tar.gz]
+[2024-04-29 11:03:57] INFO root fetch - processPackages [songtradr-api-client-python]: Remove: archive file [/home/abi/fetcher/tmp/songtradr_api_client_python-2.1.0.tar.gz]
+[2024-04-29 11:03:57] INFO root fetch - main [MainThread]: End processing [songtradr-api-client-python]: success
+[2024-04-29 11:03:57] INFO root fetch - processPackages [ampform-dpd]: Remove: archive file [/home/abi/fetcher/tmp/ampform-dpd-0.1.6.tar.gz]
+[2024-04-29 11:03:57] INFO root fetch - processPackages [ampform-dpd]: Remove: archive file [/home/abi/fetcher/tmp/ampform_dpd-0.1.7.tar.gz]
+[2024-04-29 11:03:57] INFO root fetch - main [MainThread]: End processing [ampform-dpd]: success
+[2024-04-29 11:03:57] INFO root fetch - main [MainThread]: Store serial: [22981026]
