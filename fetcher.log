@@ -19237,3 +19237,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 14:44:02] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.7.0.tar.gz]
 [2024-04-29 14:44:02] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
 [2024-04-29 14:44:02] INFO root fetch - main [MainThread]: Store serial: [22983521]
+[2024-04-29 14:46:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22983521]
+[2024-04-29 14:46:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-29 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tracebloc-package-dev
+[2024-04-29 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aideml
+[2024-04-29 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jsz
+[2024-04-29 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: comet-toolbox
+[2024-04-29 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: capeditor
+[2024-04-29 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qosst-sim
+[2024-04-29 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ezside
+[2024-04-29 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: couchdb-client
+[2024-04-29 14:46:11] INFO root fetch - processPackages [aideml]: New version: [0.1.3] Old Version: [0.1.1]
+[2024-04-29 14:46:11] INFO root fetch - processPackages [ezside]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 14:46:11] INFO root fetch - processPackages [tracebloc-package-dev]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-29 14:46:11] INFO root fetch - processPackages [comet-toolbox]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-29 14:46:11] WARNING root fetch - processPackages [qosst-sim]: Skipping, unable to determine old version
+[2024-04-29 14:46:11] INFO root fetch - main [MainThread]: End processing [qosst-sim] error
+[2024-04-29 14:46:11] WARNING root fetch - processPackages [jsz]: Skipping, unable to determine old version
+[2024-04-29 14:46:11] INFO root fetch - main [MainThread]: End processing [jsz] error
+[2024-04-29 14:46:11] INFO root fetch - processPackages [capeditor]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-04-29 14:46:11] INFO root fetch - processPackages [aideml]: Downloading https://files.pythonhosted.org/packages/d7/ae/80111218cd7aa7bd5847a8bcbe57e48ad343ecf569288b1085e2a56e5645/aideml-0.1.1.tar.gz
+[2024-04-29 14:46:11] WARNING root fetch - processPackages [couchdb-client]: Skipping, unable to determine old version
+[2024-04-29 14:46:11] INFO root fetch - main [MainThread]: End processing [couchdb-client] error
+[2024-04-29 14:46:11] INFO root fetch - processPackages [ezside]: Downloading https://files.pythonhosted.org/packages/5a/d4/1810386c07f848c78c2e8b15144f22482295b4040d1283a67e6675563952/ezside-0.1.8.tar.gz
+[2024-04-29 14:46:11] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/f5/c8/13a696d72bb172c25134ff8497e2a33abae28952aaf6027b69f19e6020ba/tracebloc_package-dev-0.5.8.tar.gz
+[2024-04-29 14:46:11] INFO root fetch - processPackages [comet-toolbox]: Downloading https://files.pythonhosted.org/packages/bd/ae/aba44c122d6478cf694160a11749422e4b60768a6f240498e80b7ccff56a/comet_toolbox-0.3.5.tar.gz
+[2024-04-29 14:46:11] INFO root fetch - processPackages [capeditor]: Downloading https://files.pythonhosted.org/packages/86/53/88171229df3af03d42b83e138e84abd17ce8a3de5349d69f9153762d3c9b/capeditor-0.5.2.tar.gz
+[2024-04-29 14:46:11] INFO root fetch - processPackages [tracebloc-package-dev]: Downloading https://files.pythonhosted.org/packages/29/74/ba081cbca75b4aef7de5e023ed946f224d93c52d8874131c97fc1c3a2682/tracebloc_package-dev-0.5.9.tar.gz
+[2024-04-29 14:46:11] INFO root fetch - processPackages [ezside]: Downloading https://files.pythonhosted.org/packages/f1/e0/2cae952d702515bb0e82f0bacbe379367f4a416b2a3928f33850e21ae823/ezside-0.1.9.tar.gz
+[2024-04-29 14:46:11] INFO root fetch - processPackages [aideml]: Downloading https://files.pythonhosted.org/packages/6c/dd/22e44a1618af956810572c327087c475ff32bba88f6977107256d88f7297/aideml-0.1.3.tar.gz
+[2024-04-29 14:46:12] INFO root fetch - processPackages [ezside]: executing diffoscope
+[2024-04-29 14:46:12] INFO root fetch - processPackages [ezside]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezside-0.1.8.tar.gz tmp/ezside-0.1.9.tar.gz --markdown 20240429/e/ezside/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 14:46:12] INFO root fetch - processPackages [tracebloc-package-dev]: executing diffoscope
+[2024-04-29 14:46:12] INFO root fetch - processPackages [tracebloc-package-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracebloc_package-dev-0.5.8.tar.gz tmp/tracebloc_package-dev-0.5.9.tar.gz --markdown 20240429/t/tracebloc-package-dev/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-29 14:46:12] INFO root fetch - processPackages [aideml]: executing diffoscope
+[2024-04-29 14:46:12] INFO root fetch - processPackages [aideml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aideml-0.1.1.tar.gz tmp/aideml-0.1.3.tar.gz --markdown 20240429/a/aideml/0.1.1-0.1.3/README.md --exclude *.pyd
+[2024-04-29 14:46:12] INFO root fetch - processPackages [capeditor]: Downloading https://files.pythonhosted.org/packages/81/cb/fd41eeffc2d387de2bc80fa0e57b95e2a782232207cfa1ad59b6b41059d4/capeditor-0.5.3.tar.gz
+[2024-04-29 14:46:12] INFO root fetch - processPackages [comet-toolbox]: Downloading https://files.pythonhosted.org/packages/92/25/565ccca09ae4d1554db2046b706192b2d0ea2b467164234085057a5d9827/comet_toolbox-0.3.6.tar.gz
+[2024-04-29 14:46:12] INFO root fetch - processPackages [capeditor]: executing diffoscope
+[2024-04-29 14:46:12] INFO root fetch - processPackages [capeditor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capeditor-0.5.2.tar.gz tmp/capeditor-0.5.3.tar.gz --markdown 20240429/c/capeditor/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-04-29 14:46:12] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.8.tar.gz]
+[2024-04-29 14:46:12] INFO root fetch - processPackages [tracebloc-package-dev]: Remove: archive file [/home/abi/fetcher/tmp/tracebloc_package-dev-0.5.9.tar.gz]
+[2024-04-29 14:46:12] INFO root fetch - main [MainThread]: End processing [tracebloc-package-dev]: success
+[2024-04-29 14:46:12] INFO root fetch - processPackages [ezside]: Remove: archive file [/home/abi/fetcher/tmp/ezside-0.1.8.tar.gz]
+[2024-04-29 14:46:12] INFO root fetch - processPackages [ezside]: Remove: archive file [/home/abi/fetcher/tmp/ezside-0.1.9.tar.gz]
+[2024-04-29 14:46:12] INFO root fetch - main [MainThread]: End processing [ezside]: success
+[2024-04-29 14:46:13] INFO root fetch - processPackages [aideml]: Remove: archive file [/home/abi/fetcher/tmp/aideml-0.1.1.tar.gz]
+[2024-04-29 14:46:13] INFO root fetch - processPackages [aideml]: Remove: archive file [/home/abi/fetcher/tmp/aideml-0.1.3.tar.gz]
+[2024-04-29 14:46:13] INFO root fetch - main [MainThread]: End processing [aideml]: success
+[2024-04-29 14:46:13] INFO root fetch - processPackages [comet-toolbox]: executing diffoscope
+[2024-04-29 14:46:13] INFO root fetch - processPackages [comet-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comet_toolbox-0.3.5.tar.gz tmp/comet_toolbox-0.3.6.tar.gz --markdown 20240429/c/comet-toolbox/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-04-29 14:46:14] INFO root fetch - processPackages [capeditor]: Remove: archive file [/home/abi/fetcher/tmp/capeditor-0.5.2.tar.gz]
+[2024-04-29 14:46:14] INFO root fetch - processPackages [capeditor]: Remove: archive file [/home/abi/fetcher/tmp/capeditor-0.5.3.tar.gz]
+[2024-04-29 14:46:14] INFO root fetch - main [MainThread]: End processing [capeditor]: success
+[2024-04-29 14:46:15] INFO root fetch - processPackages [comet-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/comet_toolbox-0.3.5.tar.gz]
+[2024-04-29 14:46:15] INFO root fetch - processPackages [comet-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/comet_toolbox-0.3.6.tar.gz]
+[2024-04-29 14:46:15] INFO root fetch - main [MainThread]: End processing [comet-toolbox]: success
+[2024-04-29 14:46:15] INFO root fetch - main [MainThread]: Store serial: [22983550]
