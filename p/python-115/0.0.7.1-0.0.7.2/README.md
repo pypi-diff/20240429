@@ -1,0 +1,241 @@
+# Comparing `tmp/python_115-0.0.7.1.tar.gz` & `tmp/python_115-0.0.7.2.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "python_115-0.0.7.1.tar", max compression
++gzip compressed data, was "python_115-0.0.7.2.tar", max compression
+```
+
+## Comparing `python_115-0.0.7.1.tar` & `python_115-0.0.7.2.tar`
+
+### file list
+
+```diff
+@@ -1,30 +1,35 @@
+--rwxr-xr-x   0        0        0     1100 2023-10-11 13:48:41.987287 python_115-0.0.7.1/LICENSE
+--rwxr-xr-x   0        0        0   287500 2024-04-28 16:00:30.281254 python_115-0.0.7.1/p115/__init__.py
+--rwxr-xr-x   0        0        0      169 2024-04-27 09:40:13.488720 python_115-0.0.7.1/p115/__main__.py
+--rwxr-xr-x   0        0        0      161 2024-04-19 14:59:47.539120 python_115-0.0.7.1/p115/cmd/__init__.py
+--rwxr-xr-x   0        0        0      326 2024-04-27 09:40:34.029692 python_115-0.0.7.1/p115/cmd/init.py
+--rwxr-xr-x   0        0        0     7038 2024-04-28 15:59:13.863161 python_115-0.0.7.1/p115/cmd/iterdir.py
+--rwxr-xr-x   0        0        0     1837 2024-04-27 13:03:42.950016 python_115-0.0.7.1/p115/cmd/qrcode.py
+--rw-r--r--   0        0        0      179 2023-12-22 08:44:22.766732 python_115-0.0.7.1/p115/exception.py
+--rw-r--r--   0        0        0        0 2024-01-30 04:55:37.590943 python_115-0.0.7.1/p115/py.typed
+--rwxr-xr-x   0        0        0     3070 2024-04-27 13:16:27.994546 python_115-0.0.7.1/p115/tool/__init__.py
+--rw-r--r--   0        0        0       87 2023-12-19 14:25:03.149217 python_115-0.0.7.1/p115/util/__init__.py
+--rw-r--r--   0        0        0     4329 2023-11-24 07:50:22.455279 python_115-0.0.7.1/p115/util/_init_mimetypes.py
+--rwxr-xr-x   0        0        0      360 2024-04-22 14:19:39.864074 python_115-0.0.7.1/p115/util/args.py
+--rw-r--r--   0        0        0     7920 2023-12-14 11:02:29.316261 python_115-0.0.7.1/p115/util/cipher.py
+--rw-r--r--   0        0        0     5671 2024-04-03 04:46:18.484632 python_115-0.0.7.1/p115/util/concurrent.py
+--rwxr-xr-x   0        0        0    12230 2024-04-25 02:39:02.864829 python_115-0.0.7.1/p115/util/download.py
+--rw-r--r--   0        0        0    15103 2024-04-03 05:18:09.304611 python_115-0.0.7.1/p115/util/file.py
+--rw-r--r--   0        0        0     4507 2023-12-08 06:07:31.193403 python_115-0.0.7.1/p115/util/hash.py
+--rw-r--r--   0        0        0    10070 2024-01-12 05:37:18.775493 python_115-0.0.7.1/p115/util/ignore.py
+--rw-r--r--   0        0        0     2822 2024-02-13 03:37:52.593362 python_115-0.0.7.1/p115/util/iter.py
+--rw-r--r--   0        0        0     4562 2024-01-16 05:10:10.057134 python_115-0.0.7.1/p115/util/path.py
+--rwxr-xr-x   0        0        0     1846 2024-04-24 15:33:36.222174 python_115-0.0.7.1/p115/util/property.py
+--rw-r--r--   0        0        0     3190 2024-01-29 10:59:02.879730 python_115-0.0.7.1/p115/util/response.py
+--rwxr-xr-x   0        0        0     6150 2024-04-24 16:05:44.697816 python_115-0.0.7.1/p115/util/retry.py
+--rw-r--r--   0        0        0     6785 2024-02-09 07:54:09.097617 python_115-0.0.7.1/p115/util/text.py
+--rw-r--r--   0        0        0       43 2024-04-03 05:08:27.538028 python_115-0.0.7.1/p115/util/upload.py
+--rw-r--r--   0        0        0    10029 2024-01-29 10:52:22.271824 python_115-0.0.7.1/p115/util/urlopen.py
+--rw-r--r--   0        0        0     1272 2024-04-28 16:00:46.494910 python_115-0.0.7.1/pyproject.toml
+--rw-r--r--   0        0        0    34641 2024-01-05 10:56:58.191328 python_115-0.0.7.1/readme.md
+--rw-r--r--   0        0        0    35896 1970-01-01 00:00:00.000000 python_115-0.0.7.1/PKG-INFO
++-rwxr-xr-x   0        0        0     1100 2023-10-11 13:48:41.987287 python_115-0.0.7.2/LICENSE
++-rwxr-xr-x   0        0        0   287661 2024-04-29 01:47:06.716348 python_115-0.0.7.2/p115/__init__.py
++-rwxr-xr-x   0        0        0      169 2024-04-27 09:40:13.488720 python_115-0.0.7.2/p115/__main__.py
++-rwxr-xr-x   0        0        0      161 2024-04-19 14:59:47.539120 python_115-0.0.7.2/p115/cmd/__init__.py
++-rwxr-xr-x   0        0        0       41 2024-04-28 16:16:41.957216 python_115-0.0.7.2/p115/cmd/fuse.py
++-rwxr-xr-x   0        0        0       41 2024-04-28 16:16:41.957216 python_115-0.0.7.2/p115/cmd/fuse_share.py
++-rwxr-xr-x   0        0        0      326 2024-04-27 09:40:34.029692 python_115-0.0.7.2/p115/cmd/init.py
++-rwxr-xr-x   0        0        0     7038 2024-04-28 15:59:13.863161 python_115-0.0.7.2/p115/cmd/iterdir.py
++-rwxr-xr-x   0        0        0     1837 2024-04-27 13:03:42.950016 python_115-0.0.7.2/p115/cmd/qrcode.py
++-rwxr-xr-x   0        0        0       41 2024-04-28 16:16:41.957216 python_115-0.0.7.2/p115/cmd/shell.py
++-rwxr-xr-x   0        0        0       41 2024-04-28 16:16:41.957216 python_115-0.0.7.2/p115/cmd/webdav.py
++-rwxr-xr-x   0        0        0       41 2024-04-28 16:16:41.957216 python_115-0.0.7.2/p115/cmd/webdav_share.py
++-rw-r--r--   0        0        0      179 2023-12-22 08:44:22.766732 python_115-0.0.7.2/p115/exception.py
++-rw-r--r--   0        0        0        0 2024-01-30 04:55:37.590943 python_115-0.0.7.2/p115/py.typed
++-rwxr-xr-x   0        0        0     3070 2024-04-27 13:16:27.994546 python_115-0.0.7.2/p115/tool/__init__.py
++-rw-r--r--   0        0        0       87 2023-12-19 14:25:03.149217 python_115-0.0.7.2/p115/util/__init__.py
++-rw-r--r--   0        0        0     4329 2023-11-24 07:50:22.455279 python_115-0.0.7.2/p115/util/_init_mimetypes.py
++-rwxr-xr-x   0        0        0      360 2024-04-22 14:19:39.864074 python_115-0.0.7.2/p115/util/args.py
++-rw-r--r--   0        0        0     7920 2023-12-14 11:02:29.316261 python_115-0.0.7.2/p115/util/cipher.py
++-rw-r--r--   0        0        0     5671 2024-04-03 04:46:18.484632 python_115-0.0.7.2/p115/util/concurrent.py
++-rwxr-xr-x   0        0        0    12230 2024-04-25 02:39:02.864829 python_115-0.0.7.2/p115/util/download.py
++-rw-r--r--   0        0        0    15103 2024-04-03 05:18:09.304611 python_115-0.0.7.2/p115/util/file.py
++-rw-r--r--   0        0        0     4507 2023-12-08 06:07:31.193403 python_115-0.0.7.2/p115/util/hash.py
++-rw-r--r--   0        0        0    10070 2024-01-12 05:37:18.775493 python_115-0.0.7.2/p115/util/ignore.py
++-rw-r--r--   0        0        0     2822 2024-02-13 03:37:52.593362 python_115-0.0.7.2/p115/util/iter.py
++-rw-r--r--   0        0        0     4562 2024-01-16 05:10:10.057134 python_115-0.0.7.2/p115/util/path.py
++-rwxr-xr-x   0        0        0     1846 2024-04-24 15:33:36.222174 python_115-0.0.7.2/p115/util/property.py
++-rw-r--r--   0        0        0     3190 2024-01-29 10:59:02.879730 python_115-0.0.7.2/p115/util/response.py
++-rwxr-xr-x   0        0        0     6150 2024-04-24 16:05:44.697816 python_115-0.0.7.2/p115/util/retry.py
++-rw-r--r--   0        0        0     6785 2024-02-09 07:54:09.097617 python_115-0.0.7.2/p115/util/text.py
++-rw-r--r--   0        0        0       43 2024-04-03 05:08:27.538028 python_115-0.0.7.2/p115/util/upload.py
++-rw-r--r--   0        0        0    10029 2024-01-29 10:52:22.271824 python_115-0.0.7.2/p115/util/urlopen.py
++-rw-r--r--   0        0        0     1272 2024-04-29 01:47:40.043085 python_115-0.0.7.2/pyproject.toml
++-rw-r--r--   0        0        0    34641 2024-01-05 10:56:58.191328 python_115-0.0.7.2/readme.md
++-rw-r--r--   0        0        0    35896 1970-01-01 00:00:00.000000 python_115-0.0.7.2/PKG-INFO
+```
+
+### Comparing `python_115-0.0.7.1/LICENSE` & `python_115-0.0.7.2/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.7.1/p115/__init__.py` & `python_115-0.0.7.2/p115/__init__.py`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -6227,14 +6227,19 @@
+         self, 
+         path: str | PathLike[str] | Sequence[str], 
+         /, 
+         pid: Optional[int] = None, 
+     )  -> AttrDict:
+         if isinstance(path, PathLike):
+             path = fspath(path)
++        if isinstance(path, str):
++            if path.startswith("/"):
++                pid = 0
++        elif path and path[0] == "":
++            pid = 0
+         if pid is None:
+             pid = self.cid
+         if not path or path == ".":
+             return self._attr(pid)
+         patht = self.get_patht(path, pid)
+         fullpath = joins(patht)
+         path_to_id = self.path_to_id
+@@ -6247,15 +6252,15 @@
+             except FileNotFoundError:
+                 pass
+             try:
+                 del path_to_id[fullpath]
+             except:
+                 pass
+         attr = self._attr(pid)
+-        for name in patht[len(self.get_patht(pid)):]:
++        for name in patht[len(self.get_patht(attr["path"])):]:
+             if not attr["is_directory"]:
+                 raise NotADirectoryError(
+                     errno.ENOTDIR, f"`pid` does not point to a directory: {pid!r}")
+             for attr in self.iterdir(pid):
+                 if attr["name"] == name:
+                     pid = cast(int, attr["id"])
+                     break
+```
+
+### Comparing `python_115-0.0.7.1/p115/cmd/iterdir.py` & `python_115-0.0.7.2/p115/cmd/iterdir.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.7.1/p115/cmd/qrcode.py` & `python_115-0.0.7.2/p115/cmd/qrcode.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.7.1/p115/tool/__init__.py` & `python_115-0.0.7.2/p115/tool/__init__.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.7.1/p115/util/_init_mimetypes.py` & `python_115-0.0.7.2/p115/util/_init_mimetypes.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.7.1/p115/util/cipher.py` & `python_115-0.0.7.2/p115/util/cipher.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.7.1/p115/util/concurrent.py` & `python_115-0.0.7.2/p115/util/concurrent.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.7.1/p115/util/download.py` & `python_115-0.0.7.2/p115/util/download.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.7.1/p115/util/file.py` & `python_115-0.0.7.2/p115/util/file.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.7.1/p115/util/hash.py` & `python_115-0.0.7.2/p115/util/hash.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.7.1/p115/util/ignore.py` & `python_115-0.0.7.2/p115/util/ignore.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.7.1/p115/util/iter.py` & `python_115-0.0.7.2/p115/util/iter.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.7.1/p115/util/path.py` & `python_115-0.0.7.2/p115/util/path.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.7.1/p115/util/property.py` & `python_115-0.0.7.2/p115/util/property.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.7.1/p115/util/response.py` & `python_115-0.0.7.2/p115/util/response.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.7.1/p115/util/retry.py` & `python_115-0.0.7.2/p115/util/retry.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.7.1/p115/util/text.py` & `python_115-0.0.7.2/p115/util/text.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.7.1/p115/util/urlopen.py` & `python_115-0.0.7.2/p115/util/urlopen.py`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.7.1/pyproject.toml` & `python_115-0.0.7.2/pyproject.toml`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ [tool.poetry]
+ name = "python-115"
+-version = "0.0.7.1"
++version = "0.0.7.2"
+ description = "Python wrapper for 115 webdisk."
+ authors = ["ChenyangGao <wosiwujm@gmail.com>"]
+ license = "MIT"
+ readme = "readme.md"
+ homepage = "https://github.com/ChenyangGao/web-mount-packs/tree/main/python-115-client"
+ repository = "https://github.com/ChenyangGao/web-mount-packs/tree/main/python-115-client"
+ keywords = ["nas", "115"]
+```
+
+### Comparing `python_115-0.0.7.1/readme.md` & `python_115-0.0.7.2/readme.md`
+
+ * *Files identical despite different names*
+
+### Comparing `python_115-0.0.7.1/PKG-INFO` & `python_115-0.0.7.2/PKG-INFO`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: python-115
+-Version: 0.0.7.1
++Version: 0.0.7.2
+ Summary: Python wrapper for 115 webdisk.
+ Home-page: https://github.com/ChenyangGao/web-mount-packs/tree/main/python-115-client
+ License: MIT
+ Keywords: nas,115
+ Author: ChenyangGao
+ Author-email: wosiwujm@gmail.com
+ Requires-Python: >=3.11,<4.0
+```
+

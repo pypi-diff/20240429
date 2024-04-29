@@ -7813,3 +7813,20 @@
 [2024-04-29 06:07:58] INFO root fetch - processPackages [notolog]: Remove: archive file [/home/abi/fetcher/tmp/notolog-0.9.0b9.tar.gz]
 [2024-04-29 06:07:58] INFO root fetch - main [MainThread]: End processing [notolog]: success
 [2024-04-29 06:07:58] INFO root fetch - main [MainThread]: Store serial: [22978546]
+[2024-04-29 06:10:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978546]
+[2024-04-29 06:10:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-29 06:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-115
+[2024-04-29 06:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PACMANCharge
+[2024-04-29 06:10:08] INFO root fetch - processPackages [python-115]: New version: [0.0.7.2] Old Version: [0.0.7.1]
+[2024-04-29 06:10:08] INFO root fetch - processPackages [PACMANCharge]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-29 06:10:08] INFO root fetch - processPackages [PACMANCharge]: Downloading https://files.pythonhosted.org/packages/fa/17/d2804c3826d3ab0fb076c90aaf565f4cd84b1eab411f2228b57b25c6ade8/PACMANCharge-0.0.4.tar.gz
+[2024-04-29 06:10:08] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/3f/bc/6a1d98a59ab37acacff87abe8a591b286979ca5079fdc8739462579380a6/python_115-0.0.7.1.tar.gz
+[2024-04-29 06:10:08] WARNING root fetch - processPackages [PACMANCharge]: Skipping package: exceeds size limit 72188902>=10485760
+[2024-04-29 06:10:08] INFO root fetch - main [MainThread]: End processing [PACMANCharge] error
+[2024-04-29 06:10:08] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/6d/24/6303d5a4e955ed0b62c094e085252ff41090dc134d6f36896845e12469bf/python_115-0.0.7.2.tar.gz
+[2024-04-29 06:10:08] INFO root fetch - processPackages [python-115]: executing diffoscope
+[2024-04-29 06:10:08] INFO root fetch - processPackages [python-115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_115-0.0.7.1.tar.gz tmp/python_115-0.0.7.2.tar.gz --markdown 20240429/p/python-115/0.0.7.1-0.0.7.2/README.md --exclude *.pyd
+[2024-04-29 06:10:09] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.7.1.tar.gz]
+[2024-04-29 06:10:09] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.7.2.tar.gz]
+[2024-04-29 06:10:09] INFO root fetch - main [MainThread]: End processing [python-115]: success
+[2024-04-29 06:10:09] INFO root fetch - main [MainThread]: Store serial: [22978553]
