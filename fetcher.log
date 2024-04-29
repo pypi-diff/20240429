@@ -15073,3 +15073,38 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 12:08:58] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024042809.tar.gz]
 [2024-04-29 12:08:58] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
 [2024-04-29 12:08:58] INFO root fetch - main [MainThread]: Store serial: [22981880]
+[2024-04-29 12:11:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22981880]
+[2024-04-29 12:11:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 12:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-azure-native
+[2024-04-29 12:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansys-geometry-core
+[2024-04-29 12:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dictrule
+[2024-04-29 12:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: resurfemg
+[2024-04-29 12:11:07] INFO root fetch - processPackages [ansys-geometry-core]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-29 12:11:07] INFO root fetch - processPackages [ansys-geometry-core]: Downloading https://files.pythonhosted.org/packages/c3/5e/58aa7d8b52f3087b832a4220827a0d415c928e953b3263191e9b4cf6dd24/ansys_geometry_core-0.5.1.tar.gz
+[2024-04-29 12:11:07] INFO root fetch - processPackages [dictrule]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-29 12:11:07] INFO root fetch - processPackages [resurfemg]: New version: [0.2.2a0] Old Version: [0.2.1]
+[2024-04-29 12:11:07] INFO root fetch - processPackages [pulumi-azure-native]: New version: [2.9.1a1696416212] Old Version: [2.9.1a1696411987]
+[2024-04-29 12:11:08] INFO root fetch - processPackages [ansys-geometry-core]: Downloading https://files.pythonhosted.org/packages/3d/bc/6577ce457aeac1815de3515fa96c5adb104543da69348c09304bfc0dc5d4/ansys_geometry_core-0.5.2.tar.gz
+[2024-04-29 12:11:08] INFO root fetch - processPackages [resurfemg]: Downloading https://files.pythonhosted.org/packages/99/0b/cb4574749a5f4101facc51233b83ae138d4bc7bc3098240bd7717ccaec8e/resurfemg-0.2.1-py3-none-any.whl
+[2024-04-29 12:11:08] INFO root fetch - processPackages [dictrule]: Downloading https://files.pythonhosted.org/packages/b0/4e/6b05170e005cfd5c796d7c879caff82652f48407369d79eb98e2843a43e0/dictrule-0.4.1.tar.gz
+[2024-04-29 12:11:08] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/7c/39/23e88d5a9a544cb9a75a9c0b077f73c9c90cb756d8e32766dfffb90f8833/pulumi_azure_native-2.9.1a1696411987.tar.gz
+[2024-04-29 12:11:08] INFO root fetch - processPackages [ansys-geometry-core]: executing diffoscope
+[2024-04-29 12:11:08] INFO root fetch - processPackages [ansys-geometry-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_geometry_core-0.5.1.tar.gz tmp/ansys_geometry_core-0.5.2.tar.gz --markdown 20240429/a/ansys-geometry-core/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-29 12:11:08] INFO root fetch - processPackages [resurfemg]: Downloading https://files.pythonhosted.org/packages/7f/d0/21dcceef09d4369ee0b3a5e6fda305e4c5b503ba06cc7c9276ba18f6b81b/resurfemg-0.2.2a0-py3-none-any.whl
+[2024-04-29 12:11:08] INFO root fetch - processPackages [dictrule]: Downloading https://files.pythonhosted.org/packages/00/33/f632df22c318c28562075cb1b75cf743f501567d8d0351b5d390d4d06bcd/dictrule-0.4.2.tar.gz
+[2024-04-29 12:11:08] INFO root fetch - processPackages [resurfemg]: executing diffoscope
+[2024-04-29 12:11:08] INFO root fetch - processPackages [resurfemg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resurfemg-0.2.1-py3-none-any.whl.zip tmp/resurfemg-0.2.2a0-py3-none-any.whl.zip --markdown 20240429/r/resurfemg/0.2.1-0.2.2a0/README.md --exclude *.pyd
+[2024-04-29 12:11:08] INFO root fetch - processPackages [dictrule]: executing diffoscope
+[2024-04-29 12:11:08] INFO root fetch - processPackages [dictrule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dictrule-0.4.1.tar.gz tmp/dictrule-0.4.2.tar.gz --markdown 20240429/d/dictrule/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-29 12:11:08] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 27430128>=10485760
+[2024-04-29 12:11:08] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2024-04-29 12:11:09] INFO root fetch - processPackages [dictrule]: Remove: archive file [/home/abi/fetcher/tmp/dictrule-0.4.1.tar.gz]
+[2024-04-29 12:11:09] INFO root fetch - processPackages [dictrule]: Remove: archive file [/home/abi/fetcher/tmp/dictrule-0.4.2.tar.gz]
+[2024-04-29 12:11:09] INFO root fetch - main [MainThread]: End processing [dictrule]: success
+[2024-04-29 12:11:09] INFO root fetch - processPackages [ansys-geometry-core]: Remove: archive file [/home/abi/fetcher/tmp/ansys_geometry_core-0.5.1.tar.gz]
+[2024-04-29 12:11:09] INFO root fetch - processPackages [ansys-geometry-core]: Remove: archive file [/home/abi/fetcher/tmp/ansys_geometry_core-0.5.2.tar.gz]
+[2024-04-29 12:11:09] INFO root fetch - main [MainThread]: End processing [ansys-geometry-core]: success
+[2024-04-29 12:11:09] INFO root fetch - processPackages [resurfemg]: Remove: archive file [/home/abi/fetcher/tmp/resurfemg-0.2.1-py3-none-any.whl.zip]
+[2024-04-29 12:11:09] INFO root fetch - processPackages [resurfemg]: Remove: archive file [/home/abi/fetcher/tmp/resurfemg-0.2.2a0-py3-none-any.whl.zip]
+[2024-04-29 12:11:09] INFO root fetch - main [MainThread]: End processing [resurfemg]: success
+[2024-04-29 12:11:09] INFO root fetch - main [MainThread]: Store serial: [22981890]
