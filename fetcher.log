@@ -7328,3 +7328,33 @@
 [2024-04-29 05:26:35] WARNING root fetch - processPackages [STMiner]: Skipping, unable to determine old version
 [2024-04-29 05:26:35] INFO root fetch - main [MainThread]: End processing [STMiner] error
 [2024-04-29 05:26:35] INFO root fetch - main [MainThread]: Store serial: [22978368]
+[2024-04-29 05:28:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978368]
+[2024-04-29 05:28:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 05:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyneople
+[2024-04-29 05:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlfluff-common-conventions
+[2024-04-29 05:28:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zhijiang
+[2024-04-29 05:28:44] INFO root fetch - processPackages [zhijiang]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-29 05:28:44] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/26/2b/3b52e8f559267bad8b17821e8e89f41e2252b1ce785ab75849cedf0c7646/zhijiang-0.7.8-py3-none-any.whl
+[2024-04-29 05:28:44] INFO root fetch - processPackages [pyneople]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-29 05:28:44] INFO root fetch - processPackages [sqlfluff-common-conventions]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-29 05:28:44] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/b7/6b/e5a695dad22c8d7ecd6480417b8c6d3d8e6f8932f4053472785be3b66ff0/pyneople-0.2.7.tar.gz
+[2024-04-29 05:28:44] INFO root fetch - processPackages [sqlfluff-common-conventions]: Downloading https://files.pythonhosted.org/packages/b0/dd/fa9d757dd612deac94379a2dd6dc9a3dceb80963cabc8115a839089492f5/sqlfluff_common_conventions-0.0.1.tar.gz
+[2024-04-29 05:28:44] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/05/cf/ace85687f35b8c78491564744658a0392ee9c2b6187d7bd6d001fcc18b2c/zhijiang-0.7.9-py3-none-any.whl
+[2024-04-29 05:28:44] INFO root fetch - processPackages [zhijiang]: executing diffoscope
+[2024-04-29 05:28:44] INFO root fetch - processPackages [zhijiang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhijiang-0.7.8-py3-none-any.whl.zip tmp/zhijiang-0.7.9-py3-none-any.whl.zip --markdown 20240429/z/zhijiang/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-29 05:28:44] INFO root fetch - processPackages [sqlfluff-common-conventions]: Downloading https://files.pythonhosted.org/packages/0e/a3/d5e60ba2d595ff8476cfea619e21367a6628a914de2e45004a80039c4a5e/sqlfluff_common_conventions-0.1.0.tar.gz
+[2024-04-29 05:28:44] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/15/2f/e999d0c836ce55733eeba97c56d201c422e9424cedf767990b08049c8288/pyneople-0.2.8.tar.gz
+[2024-04-29 05:28:44] INFO root fetch - processPackages [sqlfluff-common-conventions]: executing diffoscope
+[2024-04-29 05:28:44] INFO root fetch - processPackages [sqlfluff-common-conventions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlfluff_common_conventions-0.0.1.tar.gz tmp/sqlfluff_common_conventions-0.1.0.tar.gz --markdown 20240429/s/sqlfluff-common-conventions/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-04-29 05:28:44] INFO root fetch - processPackages [pyneople]: executing diffoscope
+[2024-04-29 05:28:44] INFO root fetch - processPackages [pyneople]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneople-0.2.7.tar.gz tmp/pyneople-0.2.8.tar.gz --markdown 20240429/p/pyneople/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-29 05:28:45] INFO root fetch - processPackages [sqlfluff-common-conventions]: Remove: archive file [/home/abi/fetcher/tmp/sqlfluff_common_conventions-0.0.1.tar.gz]
+[2024-04-29 05:28:45] INFO root fetch - processPackages [sqlfluff-common-conventions]: Remove: archive file [/home/abi/fetcher/tmp/sqlfluff_common_conventions-0.1.0.tar.gz]
+[2024-04-29 05:28:45] INFO root fetch - main [MainThread]: End processing [sqlfluff-common-conventions]: success
+[2024-04-29 05:28:45] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.2.7.tar.gz]
+[2024-04-29 05:28:45] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.2.8.tar.gz]
+[2024-04-29 05:28:45] INFO root fetch - main [MainThread]: End processing [pyneople]: success
+[2024-04-29 05:28:45] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.8-py3-none-any.whl.zip]
+[2024-04-29 05:28:45] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
+[2024-04-29 05:28:45] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
+[2024-04-29 05:28:45] INFO root fetch - main [MainThread]: Store serial: [22978377]
