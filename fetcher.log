@@ -9212,3 +9212,38 @@
 [2024-04-29 07:50:24] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240428.304.tar.gz]
 [2024-04-29 07:50:24] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
 [2024-04-29 07:50:24] INFO root fetch - main [MainThread]: Store serial: [22979195]
+[2024-04-29 07:52:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979195]
+[2024-04-29 07:52:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 07:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alipai
+[2024-04-29 07:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyter-kernels
+[2024-04-29 07:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: greatlibrarian
+[2024-04-29 07:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyegeria
+[2024-04-29 07:52:33] INFO root fetch - processPackages [greatlibrarian]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 07:52:33] INFO root fetch - processPackages [pyegeria]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-29 07:52:33] INFO root fetch - processPackages [alipai]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-04-29 07:52:33] INFO root fetch - processPackages [jupyter-kernels]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-04-29 07:52:33] INFO root fetch - processPackages [greatlibrarian]: Downloading https://files.pythonhosted.org/packages/ee/b1/4207d4cad5434e162372102c68c6e8806c43c43649df12682cd4c8f2c7d8/greatlibrarian-0.0.8.tar.gz
+[2024-04-29 07:52:33] INFO root fetch - processPackages [pyegeria]: Downloading https://files.pythonhosted.org/packages/36/93/b02894b3d6b3b469daf8b449e151ec9f85d451ceda57f15a1df8c2741db1/pyegeria-0.3.4.tar.gz
+[2024-04-29 07:52:33] INFO root fetch - processPackages [alipai]: Downloading https://files.pythonhosted.org/packages/b2/85/0065f6ce4e3450a3f043f9f7d5071ff16e0c100aea1c806dff1d607c667a/alipai-0.4.6.tar.gz
+[2024-04-29 07:52:33] INFO root fetch - processPackages [jupyter-kernels]: Downloading https://files.pythonhosted.org/packages/8e/4d/4bba8daa6db685d3fbd0a50c930300d5d30d375afe1c594287cea0a01378/jupyter_kernels-1.0.9-py3-none-any.whl
+[2024-04-29 07:52:33] WARNING root fetch - processPackages [alipai]: Skipping package: exceeds size limit 11322557>=10485760
+[2024-04-29 07:52:33] INFO root fetch - main [MainThread]: End processing [alipai] error
+[2024-04-29 07:52:33] INFO root fetch - processPackages [greatlibrarian]: Downloading https://files.pythonhosted.org/packages/17/12/9aa96b276c6ca4b320e7720ab2bd0ba2b97bfe11fddc8edbd4bd74c70abc/greatlibrarian-0.0.9.tar.gz
+[2024-04-29 07:52:33] INFO root fetch - processPackages [pyegeria]: Downloading https://files.pythonhosted.org/packages/ec/82/0298f933f068038b58aaa0f1fe7857079706689c2266a4dacdbce7fa508c/pyegeria-0.3.5.tar.gz
+[2024-04-29 07:52:34] INFO root fetch - processPackages [greatlibrarian]: executing diffoscope
+[2024-04-29 07:52:34] INFO root fetch - processPackages [greatlibrarian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greatlibrarian-0.0.8.tar.gz tmp/greatlibrarian-0.0.9.tar.gz --markdown 20240429/g/greatlibrarian/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 07:52:34] INFO root fetch - processPackages [pyegeria]: executing diffoscope
+[2024-04-29 07:52:34] INFO root fetch - processPackages [pyegeria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyegeria-0.3.4.tar.gz tmp/pyegeria-0.3.5.tar.gz --markdown 20240429/p/pyegeria/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-04-29 07:52:34] INFO root fetch - processPackages [jupyter-kernels]: Downloading https://files.pythonhosted.org/packages/b1/97/80ba1fcfec42831c65e65fe114c6830759fd2dd7e643d022dd51be266d87/jupyter_kernels-1.1.0-py3-none-any.whl
+[2024-04-29 07:52:34] INFO root fetch - processPackages [jupyter-kernels]: executing diffoscope
+[2024-04-29 07:52:34] INFO root fetch - processPackages [jupyter-kernels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_kernels-1.0.9-py3-none-any.whl.zip tmp/jupyter_kernels-1.1.0-py3-none-any.whl.zip --markdown 20240429/j/jupyter-kernels/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-04-29 07:52:35] INFO root fetch - processPackages [pyegeria]: Remove: archive file [/home/abi/fetcher/tmp/pyegeria-0.3.4.tar.gz]
+[2024-04-29 07:52:35] INFO root fetch - processPackages [pyegeria]: Remove: archive file [/home/abi/fetcher/tmp/pyegeria-0.3.5.tar.gz]
+[2024-04-29 07:52:35] INFO root fetch - main [MainThread]: End processing [pyegeria]: success
+[2024-04-29 07:52:37] INFO root fetch - processPackages [greatlibrarian]: Remove: archive file [/home/abi/fetcher/tmp/greatlibrarian-0.0.8.tar.gz]
+[2024-04-29 07:52:37] INFO root fetch - processPackages [greatlibrarian]: Remove: archive file [/home/abi/fetcher/tmp/greatlibrarian-0.0.9.tar.gz]
+[2024-04-29 07:52:37] INFO root fetch - main [MainThread]: End processing [greatlibrarian]: success
+[2024-04-29 07:53:17] INFO root fetch - processPackages [jupyter-kernels]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_kernels-1.0.9-py3-none-any.whl.zip]
+[2024-04-29 07:53:17] INFO root fetch - processPackages [jupyter-kernels]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_kernels-1.1.0-py3-none-any.whl.zip]
+[2024-04-29 07:53:17] INFO root fetch - main [MainThread]: End processing [jupyter-kernels]: success
+[2024-04-29 07:53:17] INFO root fetch - main [MainThread]: Store serial: [22979209]
