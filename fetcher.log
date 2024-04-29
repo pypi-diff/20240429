@@ -12743,3 +12743,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 10:48:31] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev50-cp39-cp39-macosx_11_0_x86_64.whl.zip]
 [2024-04-29 10:48:31] INFO root fetch - main [MainThread]: End processing [kuzu]: success
 [2024-04-29 10:48:31] INFO root fetch - main [MainThread]: Store serial: [22980845]
+[2024-04-29 10:50:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980845]
+[2024-04-29 10:50:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-29 10:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gdata-vaas
+[2024-04-29 10:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wheelz-idp-validations
+[2024-04-29 10:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyphetools
+[2024-04-29 10:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hestia-earth-schema
+[2024-04-29 10:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hsml
+[2024-04-29 10:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: static-analysis-script
+[2024-04-29 10:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phonexia-enhanced-speech-to-text-built-on-whisper-client
+[2024-04-29 10:50:40] INFO root fetch - processPackages [static-analysis-script]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-29 10:50:40] INFO root fetch - processPackages [pyphetools]: New version: [0.9.9] Old Version: [0.9.81]
+[2024-04-29 10:50:40] INFO root fetch - processPackages [hsml]: New version: [3.7.0rc0] Old Version: [3.7.0]
+[2024-04-29 10:50:40] INFO root fetch - processPackages [wheelz-idp-validations]: New version: [2.0.1] Old Version: [2]
+[2024-04-29 10:50:40] INFO root fetch - processPackages [static-analysis-script]: Downloading https://files.pythonhosted.org/packages/bb/25/af9f9c2b62960eadfe80f01dcf422d3e562a83bc0470250c0a243b33de08/static_analysis_script-0.1.7.tar.gz
+[2024-04-29 10:50:40] INFO root fetch - processPackages [gdata-vaas]: New version: [5.0.0] Old Version: [4.4.0]
+[2024-04-29 10:50:40] INFO root fetch - processPackages [hestia-earth-schema]: New version: [9.7.1] Old Version: [9.7.0]
+[2024-04-29 10:50:40] WARNING root fetch - processPackages [phonexia-enhanced-speech-to-text-built-on-whisper-client]: Skipping, unable to determine old version
+[2024-04-29 10:50:40] INFO root fetch - main [MainThread]: End processing [phonexia-enhanced-speech-to-text-built-on-whisper-client] error
+[2024-04-29 10:50:40] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/ab/b6/6fe101b86a90f9570baf06b2ca04b8b5a12cff834c1a173a8fa1d0996956/pyphetools-0.9.81.tar.gz
+[2024-04-29 10:50:40] INFO root fetch - processPackages [wheelz-idp-validations]: Downloading https://files.pythonhosted.org/packages/df/28/5473584099d907d3934bf1df2ddfaaa1c13932e88d141d018ef4d90bfba6/wheelz_idp_validations-2.tar.gz
+[2024-04-29 10:50:40] INFO root fetch - processPackages [gdata-vaas]: Downloading https://files.pythonhosted.org/packages/e3/74/7cc74a0fd248ff29b5ccebaddc82f293d62dc038d2d93fc1f10414a911ab/gdata_vaas-4.4.0.tar.gz
+[2024-04-29 10:50:40] INFO root fetch - processPackages [hsml]: Downloading https://files.pythonhosted.org/packages/ae/54/cc97e26cd0167cd9c57146e48affdcd6c30074aae1afc943535d31865b85/hsml-3.7.0.tar.gz
+[2024-04-29 10:50:40] INFO root fetch - processPackages [hestia-earth-schema]: Downloading https://files.pythonhosted.org/packages/e6/3e/a15caed46aaac01f5d913cac837c10c0e9416414e3ab7a9a8cb34dacb62e/hestia-earth-schema-9.7.0.tar.gz
+[2024-04-29 10:50:40] INFO root fetch - processPackages [static-analysis-script]: Downloading https://files.pythonhosted.org/packages/08/d5/0d018da03a5a107c3f2f64f3ec0d7264a0c1ce46dc656d1afb59745d49dd/static_analysis_script-0.1.8.tar.gz
+[2024-04-29 10:50:40] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/21/0f/082981f834d44e19354002ae37884bb9cf87bb330242ae69908f6f893dcf/pyphetools-0.9.9.tar.gz
+[2024-04-29 10:50:40] INFO root fetch - processPackages [static-analysis-script]: executing diffoscope
+[2024-04-29 10:50:40] INFO root fetch - processPackages [static-analysis-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/static_analysis_script-0.1.7.tar.gz tmp/static_analysis_script-0.1.8.tar.gz --markdown 20240429/s/static-analysis-script/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-29 10:50:40] INFO root fetch - processPackages [gdata-vaas]: Downloading https://files.pythonhosted.org/packages/0a/1b/c71c19d941e240bf1c4d73bca9556eda919c4b952429b40006e18314bf05/gdata_vaas-5.0.0.tar.gz
+[2024-04-29 10:50:40] INFO root fetch - processPackages [wheelz-idp-validations]: Downloading https://files.pythonhosted.org/packages/62/ae/f22bf2e630028086e6dd97efa0feaf09d340bc1d985377ac91ed1cb20d89/wheelz_idp_validations-2.0.1.tar.gz
+[2024-04-29 10:50:41] INFO root fetch - processPackages [pyphetools]: executing diffoscope
+[2024-04-29 10:50:41] INFO root fetch - processPackages [pyphetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyphetools-0.9.81.tar.gz tmp/pyphetools-0.9.9.tar.gz --markdown 20240429/p/pyphetools/0.9.81-0.9.9/README.md --exclude *.pyd
+[2024-04-29 10:50:41] INFO root fetch - processPackages [hsml]: Downloading https://files.pythonhosted.org/packages/12/15/255b5abe3ab43fe5208398f841b98b3ec34e3986682092f0847ed81205ef/hsml-3.7.0rc0.tar.gz
+[2024-04-29 10:50:41] INFO root fetch - processPackages [gdata-vaas]: executing diffoscope
+[2024-04-29 10:50:41] INFO root fetch - processPackages [wheelz-idp-validations]: executing diffoscope
+[2024-04-29 10:50:41] INFO root fetch - processPackages [wheelz-idp-validations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wheelz_idp_validations-2.tar.gz tmp/wheelz_idp_validations-2.0.1.tar.gz --markdown 20240429/w/wheelz-idp-validations/2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 10:50:41] INFO root fetch - processPackages [gdata-vaas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdata_vaas-4.4.0.tar.gz tmp/gdata_vaas-5.0.0.tar.gz --markdown 20240429/g/gdata-vaas/4.4.0-5.0.0/README.md --exclude *.pyd
+[2024-04-29 10:50:41] INFO root fetch - processPackages [hestia-earth-schema]: Downloading https://files.pythonhosted.org/packages/0f/81/6f94ae24b6a664f1fcc563994b2094290de1bc13e07037870953260144e1/hestia-earth-schema-9.7.1.tar.gz
+[2024-04-29 10:50:41] INFO root fetch - processPackages [hsml]: executing diffoscope
+[2024-04-29 10:50:41] INFO root fetch - processPackages [hsml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsml-3.7.0.tar.gz tmp/hsml-3.7.0rc0.tar.gz --markdown 20240429/h/hsml/3.7.0-3.7.0rc0/README.md --exclude *.pyd
+[2024-04-29 10:50:41] INFO root fetch - processPackages [hestia-earth-schema]: executing diffoscope
+[2024-04-29 10:50:41] INFO root fetch - processPackages [hestia-earth-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-schema-9.7.0.tar.gz tmp/hestia-earth-schema-9.7.1.tar.gz --markdown 20240429/h/hestia-earth-schema/9.7.0-9.7.1/README.md --exclude *.pyd
+[2024-04-29 10:50:41] INFO root fetch - processPackages [static-analysis-script]: Remove: archive file [/home/abi/fetcher/tmp/static_analysis_script-0.1.7.tar.gz]
+[2024-04-29 10:50:41] INFO root fetch - processPackages [static-analysis-script]: Remove: archive file [/home/abi/fetcher/tmp/static_analysis_script-0.1.8.tar.gz]
+[2024-04-29 10:50:41] INFO root fetch - main [MainThread]: End processing [static-analysis-script]: success
+[2024-04-29 10:50:41] INFO root fetch - processPackages [gdata-vaas]: Remove: archive file [/home/abi/fetcher/tmp/gdata_vaas-4.4.0.tar.gz]
+[2024-04-29 10:50:41] INFO root fetch - processPackages [gdata-vaas]: Remove: archive file [/home/abi/fetcher/tmp/gdata_vaas-5.0.0.tar.gz]
+[2024-04-29 10:50:41] INFO root fetch - main [MainThread]: End processing [gdata-vaas]: success
+[2024-04-29 10:50:41] INFO root fetch - processPackages [wheelz-idp-validations]: Remove: archive file [/home/abi/fetcher/tmp/wheelz_idp_validations-2.tar.gz]
+[2024-04-29 10:50:41] INFO root fetch - processPackages [wheelz-idp-validations]: Remove: archive file [/home/abi/fetcher/tmp/wheelz_idp_validations-2.0.1.tar.gz]
+[2024-04-29 10:50:41] INFO root fetch - main [MainThread]: End processing [wheelz-idp-validations]: success
+[2024-04-29 10:50:42] INFO root fetch - processPackages [hestia-earth-schema]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-schema-9.7.0.tar.gz]
+[2024-04-29 10:50:42] INFO root fetch - processPackages [hestia-earth-schema]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-schema-9.7.1.tar.gz]
+[2024-04-29 10:50:42] INFO root fetch - main [MainThread]: End processing [hestia-earth-schema]: success
+[2024-04-29 10:50:42] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.9.81.tar.gz]
+[2024-04-29 10:50:42] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.9.9.tar.gz]
+[2024-04-29 10:50:42] INFO root fetch - main [MainThread]: End processing [pyphetools]: success
+[2024-04-29 10:50:42] INFO root fetch - processPackages [hsml]: Remove: archive file [/home/abi/fetcher/tmp/hsml-3.7.0.tar.gz]
+[2024-04-29 10:50:42] INFO root fetch - processPackages [hsml]: Remove: archive file [/home/abi/fetcher/tmp/hsml-3.7.0rc0.tar.gz]
+[2024-04-29 10:50:42] INFO root fetch - main [MainThread]: End processing [hsml]: success
+[2024-04-29 10:50:42] INFO root fetch - main [MainThread]: Store serial: [22980869]
