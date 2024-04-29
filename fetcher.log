@@ -10609,3 +10609,51 @@
 [2024-04-29 09:10:44] INFO root fetch - processPackages [jot-iris]: Remove: archive file [/home/abi/fetcher/tmp/jot_iris-1.9.1-py3-none-any.whl.zip]
 [2024-04-29 09:10:44] INFO root fetch - main [MainThread]: End processing [jot-iris]: success
 [2024-04-29 09:10:44] INFO root fetch - main [MainThread]: Store serial: [22979872]
+[2024-04-29 09:12:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979872]
+[2024-04-29 09:12:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 09:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-hub-nightly
+[2024-04-29 09:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sws-api-client
+[2024-04-29 09:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-models-nightly
+[2024-04-29 09:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dvtag
+[2024-04-29 09:12:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: First-pypi
+[2024-04-29 09:12:54] INFO root fetch - processPackages [dvtag]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-04-29 09:12:54] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2024-04-29 09:12:54] INFO root fetch - processPackages [First-pypi]: New version: [0.2] Old Version: [0.1]
+[2024-04-29 09:12:54] INFO root fetch - processPackages [sws-api-client]: New version: [0.0.8.dev0] Old Version: [0.0.7.dev0]
+[2024-04-29 09:12:54] INFO root fetch - processPackages [dvtag]: Downloading https://files.pythonhosted.org/packages/50/c9/007cc0e249e0bea7db9a21fd6072eba0be89191d5aa09d1b30e051cedd8f/dvtag-0.7.2.tar.gz
+[2024-04-29 09:12:54] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2024-04-29 09:12:54] INFO root fetch - processPackages [First-pypi]: Downloading https://files.pythonhosted.org/packages/94/56/8987bd1ef3b66392e56a7bef561baf752f65b4c1809f8eff72d24a3f89fd/First_pypi-0.1.tar.gz
+[2024-04-29 09:12:54] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2024-04-29 09:12:54] INFO root fetch - processPackages [sws-api-client]: Downloading https://files.pythonhosted.org/packages/96/a2/60e8fba00a71afb3ae77298d5ed415fff12c7833224e41c17ef3c94bd7c8/sws_api_client-0.0.7.dev0.tar.gz
+[2024-04-29 09:12:54] INFO root fetch - processPackages [First-pypi]: Downloading https://files.pythonhosted.org/packages/95/b1/d8e50155f0d299adc1f101d066aaa3c485945baea96d55fc4d7d7caf09a8/First_pypi-0.2.tar.gz
+[2024-04-29 09:12:54] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/73/e9/06af7a12cda1722ec668213b9e91a8a2e918011d3ef8e9a98146ee4f76ef/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl
+[2024-04-29 09:12:54] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2024-04-29 09:12:54] INFO root fetch - processPackages [dvtag]: Downloading https://files.pythonhosted.org/packages/3d/c4/64731f141f6649b44b688e47b78492330067196bfe0b459f52757fbdd6ff/dvtag-0.7.3.tar.gz
+[2024-04-29 09:12:54] INFO root fetch - processPackages [First-pypi]: executing diffoscope
+[2024-04-29 09:12:54] INFO root fetch - processPackages [First-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/First_pypi-0.1.tar.gz tmp/First_pypi-0.2.tar.gz --markdown 20240429/F/First-pypi/0.1-0.2/README.md --exclude *.pyd
+[2024-04-29 09:12:54] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2024-04-29 09:12:54] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20240429/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/README.md --exclude *.pyd
+[2024-04-29 09:12:54] INFO root fetch - processPackages [dvtag]: executing diffoscope
+[2024-04-29 09:12:54] INFO root fetch - processPackages [dvtag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvtag-0.7.2.tar.gz tmp/dvtag-0.7.3.tar.gz --markdown 20240429/d/dvtag/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-04-29 09:12:54] INFO root fetch - processPackages [sws-api-client]: Downloading https://files.pythonhosted.org/packages/66/d6/29d7aebbe593b7caf4d621e7396c79fb3ed5b4119bf0ae89b0745c8dd1f4/sws_api_client-0.0.8.dev0.tar.gz
+[2024-04-29 09:12:55] INFO root fetch - processPackages [sws-api-client]: executing diffoscope
+[2024-04-29 09:12:55] INFO root fetch - processPackages [sws-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sws_api_client-0.0.7.dev0.tar.gz tmp/sws_api_client-0.0.8.dev0.tar.gz --markdown 20240429/s/sws-api-client/0.0.7.dev0-0.0.8.dev0/README.md --exclude *.pyd
+[2024-04-29 09:12:55] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/e2/76/79c5fb2cd23f346ee912b9c289c2a9bab6fc8d178658f931ac9a023224c6/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl
+[2024-04-29 09:12:55] INFO root fetch - processPackages [First-pypi]: Remove: archive file [/home/abi/fetcher/tmp/First_pypi-0.1.tar.gz]
+[2024-04-29 09:12:55] INFO root fetch - processPackages [First-pypi]: Remove: archive file [/home/abi/fetcher/tmp/First_pypi-0.2.tar.gz]
+[2024-04-29 09:12:55] INFO root fetch - main [MainThread]: End processing [First-pypi]: success
+[2024-04-29 09:12:55] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2024-04-29 09:12:55] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2024-04-29 09:12:55] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2024-04-29 09:12:55] INFO root fetch - processPackages [dvtag]: Remove: archive file [/home/abi/fetcher/tmp/dvtag-0.7.2.tar.gz]
+[2024-04-29 09:12:55] INFO root fetch - processPackages [dvtag]: Remove: archive file [/home/abi/fetcher/tmp/dvtag-0.7.3.tar.gz]
+[2024-04-29 09:12:55] INFO root fetch - main [MainThread]: End processing [dvtag]: success
+[2024-04-29 09:12:55] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2024-04-29 09:12:55] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20240429/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/README.md --exclude *.pyd
+[2024-04-29 09:12:55] INFO root fetch - processPackages [sws-api-client]: Remove: archive file [/home/abi/fetcher/tmp/sws_api_client-0.0.7.dev0.tar.gz]
+[2024-04-29 09:12:55] INFO root fetch - processPackages [sws-api-client]: Remove: archive file [/home/abi/fetcher/tmp/sws_api_client-0.0.8.dev0.tar.gz]
+[2024-04-29 09:12:55] INFO root fetch - main [MainThread]: End processing [sws-api-client]: success
+[2024-04-29 09:12:58] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip]
+[2024-04-29 09:12:58] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
+[2024-04-29 09:12:58] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2024-04-29 09:12:58] INFO root fetch - main [MainThread]: Store serial: [22979916]
