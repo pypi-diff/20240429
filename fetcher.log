@@ -14721,3 +14721,76 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 11:57:28] INFO root fetch - processPackages [nonebot-adapter-satori]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_satori-0.9.3.tar.gz]
 [2024-04-29 11:57:28] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-satori]: success
 [2024-04-29 11:57:28] INFO root fetch - main [MainThread]: Store serial: [22981745]
+[2024-04-29 11:59:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22981745]
+[2024-04-29 11:59:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-29 11:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chocolate_app
+[2024-04-29 11:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: era5-torch
+[2024-04-29 11:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulser
+[2024-04-29 11:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulser-core
+[2024-04-29 11:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulser-pasqal
+[2024-04-29 11:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulser-simulation
+[2024-04-29 11:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chocolate_app
+[2024-04-29 11:59:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: useckit
+[2024-04-29 11:59:37] INFO root fetch - processPackages [chocolate_app]: New version: [8.0.0] Old Version: [7.1.9]
+[2024-04-29 11:59:37] INFO root fetch - processPackages [chocolate_app]: New version: [8.0.0] Old Version: [7.1.9]
+[2024-04-29 11:59:37] INFO root fetch - processPackages [pulser-core]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-29 11:59:37] INFO root fetch - processPackages [useckit]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-29 11:59:37] INFO root fetch - processPackages [era5-torch]: New version: [0.1.1] Old Version: [0.1]
+[2024-04-29 11:59:37] INFO root fetch - processPackages [pulser-pasqal]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-29 11:59:37] INFO root fetch - processPackages [pulser]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-29 11:59:37] INFO root fetch - processPackages [pulser-simulation]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-29 11:59:37] INFO root fetch - processPackages [chocolate_app]: Downloading https://files.pythonhosted.org/packages/ca/75/6665e9ffa2914ddf1349e444d009063232f9a594b31d8856639951dc1588/chocolate_app-7.1.9.tar.gz
+[2024-04-29 11:59:37] INFO root fetch - processPackages [chocolate_app]: Downloading https://files.pythonhosted.org/packages/ca/75/6665e9ffa2914ddf1349e444d009063232f9a594b31d8856639951dc1588/chocolate_app-7.1.9.tar.gz
+[2024-04-29 11:59:37] INFO root fetch - processPackages [pulser-core]: Downloading https://files.pythonhosted.org/packages/50/d8/f849379e24e8bb7f7ae7f008169e8d06b8d499f05ac7f799064dc520b62b/pulser_core-0.9.2-py3-none-any.whl
+[2024-04-29 11:59:37] INFO root fetch - processPackages [era5-torch]: Downloading https://files.pythonhosted.org/packages/4d/e0/99e67c16ab4f3435264b409a6ac892f6f5fc7371760aea8c6e58e75a07f6/era5_torch-0.1.tar.gz
+[2024-04-29 11:59:38] INFO root fetch - processPackages [pulser-simulation]: Downloading https://files.pythonhosted.org/packages/48/a5/5e5b94881cf8608659a1bac865530a27484b74446b05d4f1301ec14ee370/pulser_simulation-0.9.2-py3-none-any.whl
+[2024-04-29 11:59:38] INFO root fetch - processPackages [pulser]: Downloading https://files.pythonhosted.org/packages/7a/f5/dc3d2a7d7080c9ee2dfa9e08f20a258f502d81e6f5fa1af62208883a29f8/pulser-0.9.2-py3-none-any.whl
+[2024-04-29 11:59:38] INFO root fetch - processPackages [useckit]: Downloading https://files.pythonhosted.org/packages/21/3f/02f9bc3e1677b0aed390f643b5a60b041e4eae79a29da2109829105da412/useckit-0.4.8.tar.gz
+[2024-04-29 11:59:38] INFO root fetch - processPackages [pulser-pasqal]: Downloading https://files.pythonhosted.org/packages/e0/b1/5ac368dd1c0f3dfd390a168f8b38d93c34ad5d42087407f7a0aff2495046/pulser_pasqal-0.9.2-py3-none-any.whl
+[2024-04-29 11:59:38] INFO root fetch - processPackages [pulser-core]: Downloading https://files.pythonhosted.org/packages/b3/4c/e0c85f11a7c4b8348b4f084333258c0fe20e92304dc0c6753a72aeb52b40/pulser_core-0.9.3-py3-none-any.whl
+[2024-04-29 11:59:38] INFO root fetch - processPackages [chocolate_app]: Downloading https://files.pythonhosted.org/packages/72/0d/ab8c7171908bf492b3f32bc712380fe1dba37f478c7e4aee24c496e66460/chocolate_app-8.0.0.tar.gz
+[2024-04-29 11:59:38] INFO root fetch - processPackages [chocolate_app]: Downloading https://files.pythonhosted.org/packages/72/0d/ab8c7171908bf492b3f32bc712380fe1dba37f478c7e4aee24c496e66460/chocolate_app-8.0.0.tar.gz
+[2024-04-29 11:59:38] INFO root fetch - processPackages [era5-torch]: Downloading https://files.pythonhosted.org/packages/e0/1a/f8b7165000ed2577470ba7e912d978e884e43109e520068df690e32a3da8/era5_torch-0.1.1.tar.gz
+[2024-04-29 11:59:38] INFO root fetch - processPackages [pulser-pasqal]: Downloading https://files.pythonhosted.org/packages/40/e0/26ba4af7e7b6f15a07ada9d9d963b6148fe875b11eb195ff7468777a866a/pulser_pasqal-0.9.3-py3-none-any.whl
+[2024-04-29 11:59:38] INFO root fetch - processPackages [pulser]: Downloading https://files.pythonhosted.org/packages/9e/dd/b544014809726e9c26e1f6b4bc8b80bd057546b594270fa4bb6260415ad2/pulser-0.9.3-py3-none-any.whl
+[2024-04-29 11:59:38] INFO root fetch - processPackages [pulser-core]: executing diffoscope
+[2024-04-29 11:59:38] INFO root fetch - processPackages [pulser-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulser_core-0.9.2-py3-none-any.whl.zip tmp/pulser_core-0.9.3-py3-none-any.whl.zip --markdown 20240429/p/pulser-core/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-29 11:59:38] INFO root fetch - processPackages [pulser-simulation]: Downloading https://files.pythonhosted.org/packages/db/3e/198aea9df13043e681751c9e3c957c3df78c5621bc71fc10ffc264ee8d22/pulser_simulation-0.9.3-py3-none-any.whl
+[2024-04-29 11:59:38] INFO root fetch - processPackages [useckit]: Downloading https://files.pythonhosted.org/packages/f8/fb/e048f45ff71a8a12a8929eb93f76673a486344f37c7348758c5634f75b3d/useckit-0.4.9.tar.gz
+[2024-04-29 11:59:38] INFO root fetch - processPackages [era5-torch]: executing diffoscope
+[2024-04-29 11:59:38] INFO root fetch - processPackages [era5-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/era5_torch-0.1.tar.gz tmp/era5_torch-0.1.1.tar.gz --markdown 20240429/e/era5-torch/0.1-0.1.1/README.md --exclude *.pyd
+[2024-04-29 11:59:38] INFO root fetch - processPackages [pulser-pasqal]: executing diffoscope
+[2024-04-29 11:59:38] INFO root fetch - processPackages [pulser-pasqal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulser_pasqal-0.9.2-py3-none-any.whl.zip tmp/pulser_pasqal-0.9.3-py3-none-any.whl.zip --markdown 20240429/p/pulser-pasqal/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-29 11:59:38] INFO root fetch - processPackages [pulser-simulation]: executing diffoscope
+[2024-04-29 11:59:38] INFO root fetch - processPackages [pulser-simulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulser_simulation-0.9.2-py3-none-any.whl.zip tmp/pulser_simulation-0.9.3-py3-none-any.whl.zip --markdown 20240429/p/pulser-simulation/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-29 11:59:38] INFO root fetch - processPackages [useckit]: executing diffoscope
+[2024-04-29 11:59:38] INFO root fetch - processPackages [useckit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/useckit-0.4.8.tar.gz tmp/useckit-0.4.9.tar.gz --markdown 20240429/u/useckit/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-29 11:59:38] INFO root fetch - processPackages [pulser]: executing diffoscope
+[2024-04-29 11:59:38] INFO root fetch - processPackages [pulser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulser-0.9.2-py3-none-any.whl.zip tmp/pulser-0.9.3-py3-none-any.whl.zip --markdown 20240429/p/pulser/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-29 11:59:38] INFO root fetch - processPackages [chocolate_app]: executing diffoscope
+[2024-04-29 11:59:38] INFO root fetch - processPackages [chocolate_app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chocolate_app-7.1.9.tar.gz tmp/chocolate_app-8.0.0.tar.gz --markdown 20240429/c/chocolate_app/7.1.9-8.0.0/README.md --exclude *.pyd
+[2024-04-29 11:59:38] INFO root fetch - processPackages [chocolate_app]: executing diffoscope
+[2024-04-29 11:59:38] INFO root fetch - processPackages [chocolate_app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chocolate_app-7.1.9.tar.gz tmp/chocolate_app-8.0.0.tar.gz --markdown 20240429/c/chocolate_app/7.1.9-8.0.0/README.md --exclude *.pyd
+[2024-04-29 11:59:39] INFO root fetch - processPackages [era5-torch]: Remove: archive file [/home/abi/fetcher/tmp/era5_torch-0.1.tar.gz]
+[2024-04-29 11:59:39] INFO root fetch - processPackages [era5-torch]: Remove: archive file [/home/abi/fetcher/tmp/era5_torch-0.1.1.tar.gz]
+[2024-04-29 11:59:39] INFO root fetch - main [MainThread]: End processing [era5-torch]: success
+[2024-04-29 11:59:39] INFO root fetch - processPackages [pulser-core]: Remove: archive file [/home/abi/fetcher/tmp/pulser_core-0.9.2-py3-none-any.whl.zip]
+[2024-04-29 11:59:39] INFO root fetch - processPackages [pulser-core]: Remove: archive file [/home/abi/fetcher/tmp/pulser_core-0.9.3-py3-none-any.whl.zip]
+[2024-04-29 11:59:39] INFO root fetch - main [MainThread]: End processing [pulser-core]: success
+[2024-04-29 11:59:39] INFO root fetch - processPackages [pulser-simulation]: Remove: archive file [/home/abi/fetcher/tmp/pulser_simulation-0.9.2-py3-none-any.whl.zip]
+[2024-04-29 11:59:39] INFO root fetch - processPackages [pulser-simulation]: Remove: archive file [/home/abi/fetcher/tmp/pulser_simulation-0.9.3-py3-none-any.whl.zip]
+[2024-04-29 11:59:39] INFO root fetch - main [MainThread]: End processing [pulser-simulation]: success
+[2024-04-29 11:59:39] INFO root fetch - processPackages [pulser-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/pulser_pasqal-0.9.2-py3-none-any.whl.zip]
+[2024-04-29 11:59:39] INFO root fetch - processPackages [pulser-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/pulser_pasqal-0.9.3-py3-none-any.whl.zip]
+[2024-04-29 11:59:39] INFO root fetch - main [MainThread]: End processing [pulser-pasqal]: success
+[2024-04-29 11:59:39] INFO root fetch - processPackages [pulser]: Remove: archive file [/home/abi/fetcher/tmp/pulser-0.9.2-py3-none-any.whl.zip]
+[2024-04-29 11:59:39] INFO root fetch - processPackages [pulser]: Remove: archive file [/home/abi/fetcher/tmp/pulser-0.9.3-py3-none-any.whl.zip]
+[2024-04-29 11:59:39] INFO root fetch - main [MainThread]: End processing [pulser]: success
+[2024-04-29 11:59:39] INFO root fetch - processPackages [useckit]: Remove: archive file [/home/abi/fetcher/tmp/useckit-0.4.8.tar.gz]
+[2024-04-29 11:59:39] INFO root fetch - processPackages [useckit]: Remove: archive file [/home/abi/fetcher/tmp/useckit-0.4.9.tar.gz]
+[2024-04-29 11:59:39] INFO root fetch - main [MainThread]: End processing [useckit]: success
+[2024-04-29 11:59:58] INFO root fetch - processPackages [chocolate_app]: Remove: archive file [/home/abi/fetcher/tmp/chocolate_app-7.1.9.tar.gz]
+[2024-04-29 11:59:58] INFO root fetch - processPackages [chocolate_app]: Remove: archive file [/home/abi/fetcher/tmp/chocolate_app-8.0.0.tar.gz]
+[2024-04-29 11:59:58] INFO root fetch - main [MainThread]: End processing [chocolate_app]: success
+[2024-04-29 11:59:58] INFO root fetch - main [MainThread]: End processing [chocolate_app]: success
+[2024-04-29 11:59:58] INFO root fetch - main [MainThread]: Store serial: [22981765]
