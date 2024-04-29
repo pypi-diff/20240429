@@ -18836,3 +18836,122 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 14:30:35] INFO root fetch - processPackages [libsonata]: Remove: archive file [/home/abi/fetcher/tmp/libsonata-0.1.9.tar.gz]
 [2024-04-29 14:30:35] INFO root fetch - main [MainThread]: End processing [libsonata]: success
 [2024-04-29 14:30:35] INFO root fetch - main [MainThread]: Store serial: [22983358]
+[2024-04-29 14:32:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22983358]
+[2024-04-29 14:32:44] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-29 14:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyguiadapter
+[2024-04-29 14:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: timex-lca
+[2024-04-29 14:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyaqueduct
+[2024-04-29 14:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-ucan
+[2024-04-29 14:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wbx-cpl
+[2024-04-29 14:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jbd
+[2024-04-29 14:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: holytools
+[2024-04-29 14:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cumulus-fhir-support
+[2024-04-29 14:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openalex-analysis
+[2024-04-29 14:32:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: docassemble
+[2024-04-29 14:32:44] INFO root fetch - processPackages [pyguiadapter]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-29 14:32:44] INFO root fetch - processPackages [wbx-cpl]: New version: [1.3.1] Old Version: [1.2.2]
+[2024-04-29 14:32:44] INFO root fetch - processPackages [py-ucan]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-29 14:32:44] INFO root fetch - processPackages [pyguiadapter]: Downloading https://files.pythonhosted.org/packages/55/dd/22c03dfe0e03626b3e588b698cf1726cbcf5fa73f1728ab227deb054b8f1/pyguiadapter-0.3.3.tar.gz
+[2024-04-29 14:32:44] INFO root fetch - processPackages [cumulus-fhir-support]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-29 14:32:44] INFO root fetch - processPackages [holytools]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-29 14:32:44] WARNING root fetch - processPackages [jbd]: Skipping, unable to determine old version
+[2024-04-29 14:32:44] INFO root fetch - processPackages [jbd]: Start processing: deepset-cloud-sdk
+[2024-04-29 14:32:44] INFO root fetch - main [MainThread]: End processing [jbd] error
+[2024-04-29 14:32:44] INFO root fetch - processPackages [timex-lca]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-04-29 14:32:44] INFO root fetch - processPackages [openalex-analysis]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-04-29 14:32:44] INFO root fetch - processPackages [py-ucan]: Downloading https://files.pythonhosted.org/packages/38/fa/0af8f56c5c4be932731b62202b82fce6585bf3917f223f84db1186e22b4f/py_ucan-0.5.0.tar.gz
+[2024-04-29 14:32:44] INFO root fetch - processPackages [wbx-cpl]: Downloading https://files.pythonhosted.org/packages/a5/94/c157a4f9d6155132666b8e87cf80bb7c4c2ee622213c30fd84c5d9340e82/wbx_cpl-1.2.2.tar.gz
+[2024-04-29 14:32:44] INFO root fetch - processPackages [docassemble]: New version: [1.4.99] Old Version: [1.4.98]
+[2024-04-29 14:32:45] INFO root fetch - processPackages [deepset-cloud-sdk]: New version: [1.0.0] Old Version: [0.41]
+[2024-04-29 14:32:45] INFO root fetch - processPackages [pyaqueduct]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-29 14:32:45] INFO root fetch - processPackages [cumulus-fhir-support]: Downloading https://files.pythonhosted.org/packages/6f/7b/d65f9937708517c3a4a01145d80ca3d6d77bb0aa174825a2c9ff3925255d/cumulus_fhir_support-1.0.0.tar.gz
+[2024-04-29 14:32:45] INFO root fetch - processPackages [timex-lca]: Downloading https://files.pythonhosted.org/packages/38/86/f1871fc00ac285543a72a36524a6d7f55372d4a34d4554cb10a4c713c720/timex_lca-0.1.0.tar.gz
+[2024-04-29 14:32:45] INFO root fetch - processPackages [holytools]: Downloading https://files.pythonhosted.org/packages/b5/e7/33ead76c8b9d4f990b6fb5bf20dae4d85fc96b7b4e59500eccd25fbe6057/holytools-0.9.2.tar.gz
+[2024-04-29 14:32:45] INFO root fetch - processPackages [pyguiadapter]: Downloading https://files.pythonhosted.org/packages/73/61/debcc3ae088d3e3acb576d221c3bd7e3e71c1c0b7a9f36178df5970a4e32/pyguiadapter-0.3.4-py3-none-any.whl
+[2024-04-29 14:32:45] INFO root fetch - processPackages [wbx-cpl]: Downloading https://files.pythonhosted.org/packages/07/0f/34b3c78ff3b964b5967e32d92dce0cccd90e232d5c883fe35e2b9c527f55/wbx_cpl-1.3.1.tar.gz
+[2024-04-29 14:32:45] INFO root fetch - processPackages [docassemble]: Downloading https://files.pythonhosted.org/packages/f2/79/70f99e0f2d7ac441ba6078f72c2defa6de83c4996b43a1605d58db6cee9e/docassemble-1.4.98.tar.gz
+[2024-04-29 14:32:45] INFO root fetch - processPackages [openalex-analysis]: Downloading https://files.pythonhosted.org/packages/e1/6e/74f92a35daed4c255a81fd4e0374da06d45c4473783055603fa73ed4f725/openalex-analysis-0.8.2.tar.gz
+[2024-04-29 14:32:45] INFO root fetch - processPackages [py-ucan]: Downloading https://files.pythonhosted.org/packages/fe/ca/4be41d775da74095565df46501d94ab582bd72276ed2360e163e1d1aa8e1/py_ucan-0.5.1.tar.gz
+[2024-04-29 14:32:45] INFO root fetch - processPackages [pyaqueduct]: Downloading https://files.pythonhosted.org/packages/1d/9e/fb78d86d4fa459d5bf3b84c6c35fec33402c4350af804b48925a62e7cf1d/pyaqueduct-0.0.6.tar.gz
+[2024-04-29 14:32:45] INFO root fetch - processPackages [wbx-cpl]: executing diffoscope
+[2024-04-29 14:32:45] INFO root fetch - processPackages [wbx-cpl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wbx_cpl-1.2.2.tar.gz tmp/wbx_cpl-1.3.1.tar.gz --markdown 20240429/w/wbx-cpl/1.2.2-1.3.1/README.md --exclude *.pyd
+[2024-04-29 14:32:45] INFO root fetch - processPackages [deepset-cloud-sdk]: Downloading https://files.pythonhosted.org/packages/92/ad/8196141500fdde39c401e6af2255a58ed68dc843b999793d89b536c6e3ed/deepset_cloud_sdk-0.41.tar.gz
+[2024-04-29 14:32:45] INFO root fetch - processPackages [pyguiadapter]: executing diffoscope
+[2024-04-29 14:32:45] INFO root fetch - processPackages [pyguiadapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyguiadapter-0.3.3.tar.gz tmp/pyguiadapter-0.3.4-py3-none-any.whl.zip --markdown 20240429/p/pyguiadapter/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-04-29 14:32:45] INFO root fetch - processPackages [py-ucan]: executing diffoscope
+[2024-04-29 14:32:45] INFO root fetch - processPackages [py-ucan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_ucan-0.5.0.tar.gz tmp/py_ucan-0.5.1.tar.gz --markdown 20240429/p/py-ucan/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-29 14:32:45] INFO root fetch - processPackages [cumulus-fhir-support]: Downloading https://files.pythonhosted.org/packages/1f/25/e305d4ef5657a746ff3ca36e18bbcae04ec6bf8f7d463914f0371c50b2d6/cumulus_fhir_support-1.1.0.tar.gz
+[2024-04-29 14:32:45] INFO root fetch - processPackages [timex-lca]: Downloading https://files.pythonhosted.org/packages/a5/ae/ea482dbc3e7d7d4e60ed60be3607335edbeeeaf73b8b7aab078dc373e5ac/timex_lca-1.0.0.tar.gz
+[2024-04-29 14:32:45] INFO root fetch - processPackages [docassemble]: Downloading https://files.pythonhosted.org/packages/ab/f8/10651b6a66fb81041c9e56e6e5488e9df680f343eee09c7dce1d7d278d44/docassemble-1.4.99.tar.gz
+[2024-04-29 14:32:45] INFO root fetch - processPackages [pyaqueduct]: Downloading https://files.pythonhosted.org/packages/b7/1f/87ae04309b72b3afec91e1260c339c782e9da8b92dc85ae131ea8548f2bb/pyaqueduct-0.0.7.tar.gz
+[2024-04-29 14:32:45] INFO root fetch - processPackages [holytools]: Downloading https://files.pythonhosted.org/packages/42/e7/aa4e5a46752c170d39de0c63b4400791eba3044c3b989951248ce04f1254/holytools-0.9.3.tar.gz
+[2024-04-29 14:32:45] INFO root fetch - processPackages [timex-lca]: executing diffoscope
+[2024-04-29 14:32:45] INFO root fetch - processPackages [timex-lca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timex_lca-0.1.0.tar.gz tmp/timex_lca-1.0.0.tar.gz --markdown 20240429/t/timex-lca/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-04-29 14:32:45] INFO root fetch - processPackages [deepset-cloud-sdk]: Downloading https://files.pythonhosted.org/packages/8f/fc/c2ffe6f79088db9f800e42080e2931f26e71f666fe12f45daf5379cea58e/deepset_cloud_sdk-1.0.0.tar.gz
+[2024-04-29 14:32:45] INFO root fetch - processPackages [cumulus-fhir-support]: executing diffoscope
+[2024-04-29 14:32:45] INFO root fetch - processPackages [cumulus-fhir-support]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cumulus_fhir_support-1.0.0.tar.gz tmp/cumulus_fhir_support-1.1.0.tar.gz --markdown 20240429/c/cumulus-fhir-support/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-29 14:32:45] INFO root fetch - processPackages [pyaqueduct]: executing diffoscope
+[2024-04-29 14:32:45] INFO root fetch - processPackages [pyaqueduct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaqueduct-0.0.6.tar.gz tmp/pyaqueduct-0.0.7.tar.gz --markdown 20240429/p/pyaqueduct/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-29 14:32:45] INFO root fetch - processPackages [docassemble]: executing diffoscope
+[2024-04-29 14:32:45] INFO root fetch - processPackages [docassemble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble-1.4.98.tar.gz tmp/docassemble-1.4.99.tar.gz --markdown 20240429/d/docassemble/1.4.98-1.4.99/README.md --exclude *.pyd
+[2024-04-29 14:32:45] INFO root fetch - processPackages [holytools]: executing diffoscope
+[2024-04-29 14:32:45] INFO root fetch - processPackages [holytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holytools-0.9.2.tar.gz tmp/holytools-0.9.3.tar.gz --markdown 20240429/h/holytools/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-29 14:32:45] INFO root fetch - processPackages [deepset-cloud-sdk]: executing diffoscope
+[2024-04-29 14:32:45] INFO root fetch - processPackages [deepset-cloud-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepset_cloud_sdk-0.41.tar.gz tmp/deepset_cloud_sdk-1.0.0.tar.gz --markdown 20240429/d/deepset-cloud-sdk/0.41-1.0.0/README.md --exclude *.pyd
+[2024-04-29 14:32:46] INFO root fetch - processPackages [pyguiadapter]: Remove: archive file [/home/abi/fetcher/tmp/pyguiadapter-0.3.3.tar.gz]
+[2024-04-29 14:32:46] INFO root fetch - processPackages [pyguiadapter]: Remove: archive file [/home/abi/fetcher/tmp/pyguiadapter-0.3.4-py3-none-any.whl.zip]
+[2024-04-29 14:32:46] INFO root fetch - processPackages [pyguiadapter]: Start processing: docassemble.base
+[2024-04-29 14:32:46] INFO root fetch - main [MainThread]: End processing [pyguiadapter]: success
+[2024-04-29 14:32:46] INFO root fetch - processPackages [wbx-cpl]: Remove: archive file [/home/abi/fetcher/tmp/wbx_cpl-1.2.2.tar.gz]
+[2024-04-29 14:32:46] INFO root fetch - processPackages [wbx-cpl]: Remove: archive file [/home/abi/fetcher/tmp/wbx_cpl-1.3.1.tar.gz]
+[2024-04-29 14:32:46] INFO root fetch - processPackages [wbx-cpl]: Start processing: label-studio-tools
+[2024-04-29 14:32:46] INFO root fetch - main [MainThread]: End processing [wbx-cpl]: success
+[2024-04-29 14:32:46] INFO root fetch - processPackages [docassemble.base]: New version: [1.4.99] Old Version: [1.4.98]
+[2024-04-29 14:32:46] INFO root fetch - processPackages [label-studio-tools]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-29 14:32:46] INFO root fetch - processPackages [openalex-analysis]: Downloading https://files.pythonhosted.org/packages/a7/78/61ce9bcef0b413e9cc7b928053d44ee4f95e0fcd7bcdd4f1a53effb5fe57/openalex-analysis-0.9.0.tar.gz
+[2024-04-29 14:32:46] INFO root fetch - processPackages [py-ucan]: Remove: archive file [/home/abi/fetcher/tmp/py_ucan-0.5.0.tar.gz]
+[2024-04-29 14:32:46] INFO root fetch - processPackages [py-ucan]: Remove: archive file [/home/abi/fetcher/tmp/py_ucan-0.5.1.tar.gz]
+[2024-04-29 14:32:46] INFO root fetch - processPackages [py-ucan]: Start processing: pulumi-azure
+[2024-04-29 14:32:46] INFO root fetch - main [MainThread]: End processing [py-ucan]: success
+[2024-04-29 14:32:46] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2024-04-29 14:32:46] INFO root fetch - processPackages [pyaqueduct]: Remove: archive file [/home/abi/fetcher/tmp/pyaqueduct-0.0.6.tar.gz]
+[2024-04-29 14:32:46] INFO root fetch - processPackages [pyaqueduct]: Remove: archive file [/home/abi/fetcher/tmp/pyaqueduct-0.0.7.tar.gz]
+[2024-04-29 14:32:46] INFO root fetch - main [MainThread]: End processing [pyaqueduct]: success
+[2024-04-29 14:32:46] INFO root fetch - processPackages [cumulus-fhir-support]: Remove: archive file [/home/abi/fetcher/tmp/cumulus_fhir_support-1.0.0.tar.gz]
+[2024-04-29 14:32:46] INFO root fetch - processPackages [cumulus-fhir-support]: Remove: archive file [/home/abi/fetcher/tmp/cumulus_fhir_support-1.1.0.tar.gz]
+[2024-04-29 14:32:46] INFO root fetch - main [MainThread]: End processing [cumulus-fhir-support]: success
+[2024-04-29 14:32:46] INFO root fetch - processPackages [label-studio-tools]: Downloading https://files.pythonhosted.org/packages/f0/66/b9c9f61489b8c73b99436f875a356a0e120229bf58775990b497f3e19ba6/label-studio-tools-0.0.3.tar.gz
+[2024-04-29 14:32:46] INFO root fetch - processPackages [docassemble.base]: Downloading https://files.pythonhosted.org/packages/c6/97/6e8362248c76002539b0015c395a996f1a752b7e942e6e1d8c58bd011bde/docassemble.base-1.4.98.tar.gz
+[2024-04-29 14:32:46] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2024-04-29 14:32:46] INFO root fetch - processPackages [docassemble]: Remove: archive file [/home/abi/fetcher/tmp/docassemble-1.4.98.tar.gz]
+[2024-04-29 14:32:46] INFO root fetch - processPackages [docassemble]: Remove: archive file [/home/abi/fetcher/tmp/docassemble-1.4.99.tar.gz]
+[2024-04-29 14:32:46] INFO root fetch - main [MainThread]: End processing [docassemble]: success
+[2024-04-29 14:32:46] INFO root fetch - processPackages [timex-lca]: Remove: archive file [/home/abi/fetcher/tmp/timex_lca-0.1.0.tar.gz]
+[2024-04-29 14:32:46] INFO root fetch - processPackages [timex-lca]: Remove: archive file [/home/abi/fetcher/tmp/timex_lca-1.0.0.tar.gz]
+[2024-04-29 14:32:46] INFO root fetch - main [MainThread]: End processing [timex-lca]: success
+[2024-04-29 14:32:46] INFO root fetch - processPackages [label-studio-tools]: Downloading https://files.pythonhosted.org/packages/67/d7/4b5ff92f036548680994b3ed72e6d9bed9cce4b60ec46db4876de69c5ac0/label-studio-tools-0.0.4.tar.gz
+[2024-04-29 14:32:46] INFO root fetch - processPackages [holytools]: Remove: archive file [/home/abi/fetcher/tmp/holytools-0.9.2.tar.gz]
+[2024-04-29 14:32:46] INFO root fetch - processPackages [holytools]: Remove: archive file [/home/abi/fetcher/tmp/holytools-0.9.3.tar.gz]
+[2024-04-29 14:32:46] INFO root fetch - main [MainThread]: End processing [holytools]: success
+[2024-04-29 14:32:46] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2024-04-29 14:32:46] INFO root fetch - processPackages [deepset-cloud-sdk]: Remove: archive file [/home/abi/fetcher/tmp/deepset_cloud_sdk-0.41.tar.gz]
+[2024-04-29 14:32:46] INFO root fetch - processPackages [deepset-cloud-sdk]: Remove: archive file [/home/abi/fetcher/tmp/deepset_cloud_sdk-1.0.0.tar.gz]
+[2024-04-29 14:32:46] INFO root fetch - main [MainThread]: End processing [deepset-cloud-sdk]: success
+[2024-04-29 14:32:47] WARNING root fetch - processPackages [docassemble.base]: Skipping package: exceeds size limit 11016774>=10485760
+[2024-04-29 14:32:47] INFO root fetch - main [MainThread]: End processing [docassemble.base] error
+[2024-04-29 14:32:47] INFO root fetch - processPackages [label-studio-tools]: executing diffoscope
+[2024-04-29 14:32:47] INFO root fetch - processPackages [label-studio-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/label-studio-tools-0.0.3.tar.gz tmp/label-studio-tools-0.0.4.tar.gz --markdown 20240429/l/label-studio-tools/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-29 14:32:47] INFO root fetch - processPackages [openalex-analysis]: executing diffoscope
+[2024-04-29 14:32:47] INFO root fetch - processPackages [openalex-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openalex-analysis-0.8.2.tar.gz tmp/openalex-analysis-0.9.0.tar.gz --markdown 20240429/o/openalex-analysis/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-04-29 14:32:47] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2024-04-29 14:32:47] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20240429/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/README.md --exclude *.pyd
+[2024-04-29 14:32:47] INFO root fetch - processPackages [label-studio-tools]: Remove: archive file [/home/abi/fetcher/tmp/label-studio-tools-0.0.3.tar.gz]
+[2024-04-29 14:32:47] INFO root fetch - processPackages [label-studio-tools]: Remove: archive file [/home/abi/fetcher/tmp/label-studio-tools-0.0.4.tar.gz]
+[2024-04-29 14:32:47] INFO root fetch - main [MainThread]: End processing [label-studio-tools]: success
+[2024-04-29 14:32:47] INFO root fetch - processPackages [openalex-analysis]: Remove: archive file [/home/abi/fetcher/tmp/openalex-analysis-0.8.2.tar.gz]
+[2024-04-29 14:32:47] INFO root fetch - processPackages [openalex-analysis]: Remove: archive file [/home/abi/fetcher/tmp/openalex-analysis-0.9.0.tar.gz]
+[2024-04-29 14:32:47] INFO root fetch - main [MainThread]: End processing [openalex-analysis]: success
+[2024-04-29 14:32:56] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654274095.tar.gz]
+[2024-04-29 14:32:56] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
+[2024-04-29 14:32:56] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2024-04-29 14:32:56] INFO root fetch - main [MainThread]: Store serial: [22983401]
