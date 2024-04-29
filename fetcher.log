@@ -14563,3 +14563,95 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 11:53:00] INFO root fetch - processPackages [mkdocs-material]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_material-9.5.9.tar.gz]
 [2024-04-29 11:53:00] INFO root fetch - main [MainThread]: End processing [mkdocs-material]: success
 [2024-04-29 11:53:00] INFO root fetch - main [MainThread]: Store serial: [22981674]
+[2024-04-29 11:55:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22981674]
+[2024-04-29 11:55:14] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-29 11:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-node-binding
+[2024-04-29 11:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: msaexp
+[2024-04-29 11:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aau-ais-dipaal
+[2024-04-29 11:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uk-std-libraries
+[2024-04-29 11:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codedepot-depot
+[2024-04-29 11:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hotsos
+[2024-04-29 11:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ood_detectors
+[2024-04-29 11:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: LinguAligner
+[2024-04-29 11:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py2docfx
+[2024-04-29 11:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bpm-ai-core
+[2024-04-29 11:55:14] WARNING root fetch - processPackages [uk-std-libraries]: Skipping, unable to determine old version
+[2024-04-29 11:55:14] INFO root fetch - processPackages [uk-std-libraries]: Start processing: py-dbchat
+[2024-04-29 11:55:14] INFO root fetch - main [MainThread]: End processing [uk-std-libraries] error
+[2024-04-29 11:55:14] INFO root fetch - processPackages [py2docfx]: New version: [0.1.6.dev1710623] Old Version: [0.1.6.dev1710594]
+[2024-04-29 11:55:14] INFO root fetch - processPackages [LinguAligner]: New version: [0.9] Old Version: [0.8]
+[2024-04-29 11:55:14] INFO root fetch - processPackages [bpm-ai-core]: New version: [2.6.0] Old Version: [2.5.0]
+[2024-04-29 11:55:14] INFO root fetch - processPackages [hotsos]: New version: [1.17.0.post9] Old Version: [1.17.0.post8]
+[2024-04-29 11:55:14] INFO root fetch - processPackages [ood_detectors]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-29 11:55:14] INFO root fetch - processPackages [py-dbchat]: New version: [0.0.2rc99.post1] Old Version: [0.0.2rc98.post1]
+[2024-04-29 11:55:14] INFO root fetch - processPackages [aau-ais-dipaal]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-29 11:55:14] INFO root fetch - processPackages [msaexp]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-04-29 11:55:14] INFO root fetch - processPackages [codedepot-depot]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-29 11:55:14] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [3.0.3.post1216] Old Version: [3.0.3.post1215]
+[2024-04-29 11:55:14] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/a1/23/acf3fe3a69cc7948d297d52790f51ce65532bf02e5a89325088ba671d59f/py2docfx-0.1.6.dev1710594-py3-none-any.whl
+[2024-04-29 11:55:14] INFO root fetch - processPackages [bpm-ai-core]: Downloading https://files.pythonhosted.org/packages/4c/5e/5129c5374fbf01567523fdc6312e221a42436df577ee4b133d1a737f7d93/bpm_ai_core-2.5.0.tar.gz
+[2024-04-29 11:55:14] INFO root fetch - processPackages [LinguAligner]: Downloading https://files.pythonhosted.org/packages/63/1f/fc1941e3d878f8643898c07bd958b932dd36b3b074928145bb430dfe0a04/lingualigner-0.8.tar.gz
+[2024-04-29 11:55:14] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/31/44/9af4780586d05c08004f2bdf8337fd36b925ab1ae72703acde760673e5ea/ood_detectors-0.0.2.tar.gz
+[2024-04-29 11:55:14] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/a7/57/15e4fe4e4dbc4381d9bf00a81267a7c13df4ca3f2dc3b2afa7db65518860/hotsos-1.17.0.post8.tar.gz
+[2024-04-29 11:55:14] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/f6/18/1775d2217b34cf20972da457954b07826f8eee83addaf30cb9f9e56acda7/py_dbchat-0.0.2rc98.post1.tar.gz
+[2024-04-29 11:55:14] INFO root fetch - processPackages [aau-ais-dipaal]: Downloading https://files.pythonhosted.org/packages/74/28/5570e096acb1e8c29779d402fdf12dd91b6ec264578d41ec1ffd2a6f34d7/aau_ais_dipaal-0.1.0.tar.gz
+[2024-04-29 11:55:14] INFO root fetch - processPackages [msaexp]: Downloading https://files.pythonhosted.org/packages/9f/93/83485e242c492258b2b863c478975fb5bdd588435136ae420a507804039c/msaexp-0.7.4.tar.gz
+[2024-04-29 11:55:14] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/24/e8/56c0adffb8079a7dcb4459b96d7bc709a509864d297caae1711120c95b11/nucliadb_node_binding-3.0.3.post1215.tar.gz
+[2024-04-29 11:55:14] INFO root fetch - processPackages [codedepot-depot]: Downloading https://files.pythonhosted.org/packages/0f/58/47f67a84801a08909255b13d87ae6de6091d6cd9d75da21ec694514b1357/codedepot_depot-0.0.7.tar.gz
+[2024-04-29 11:55:14] WARNING root fetch - processPackages [msaexp]: Skipping package: exceeds size limit 15691601>=10485760
+[2024-04-29 11:55:14] INFO root fetch - main [MainThread]: End processing [msaexp] error
+[2024-04-29 11:55:14] INFO root fetch - processPackages [bpm-ai-core]: Downloading https://files.pythonhosted.org/packages/35/af/04998f92470fc3e1d0a65463cbe55123eb9b4a4f9c6ad34296d0889b4dc0/bpm_ai_core-2.6.0.tar.gz
+[2024-04-29 11:55:14] INFO root fetch - processPackages [LinguAligner]: Downloading https://files.pythonhosted.org/packages/73/fb/3cad932ad4847785cbae099a96fb2ae5367c5b788dac0deece75b60a9254/lingualigner-0.9.tar.gz
+[2024-04-29 11:55:14] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/68/e7/977bbcad76384c46a5a44cbb669e728d739d1af0f7e34af0942ebfc156d5/py2docfx-0.1.6.dev1710623-py3-none-any.whl
+[2024-04-29 11:55:14] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/7f/57/f6a4fc3900f977e567bcf108bd2787ce8624445d42b84c26b710b18c7c3d/hotsos-1.17.0.post9.tar.gz
+[2024-04-29 11:55:14] INFO root fetch - processPackages [py-dbchat]: Downloading https://files.pythonhosted.org/packages/73/d9/44b1e50b7a7349a8172af36226caa9ddf526c5c91c863ce32643ae416507/py_dbchat-0.0.2rc99.post1.tar.gz
+[2024-04-29 11:55:14] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/0b/04/1e1f3a6f2e6ae396242853b6f763a195684eb200b55ad963c81872c34036/ood_detectors-0.0.3.tar.gz
+[2024-04-29 11:55:15] INFO root fetch - processPackages [bpm-ai-core]: executing diffoscope
+[2024-04-29 11:55:15] INFO root fetch - processPackages [bpm-ai-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpm_ai_core-2.5.0.tar.gz tmp/bpm_ai_core-2.6.0.tar.gz --markdown 20240429/b/bpm-ai-core/2.5.0-2.6.0/README.md --exclude *.pyd
+[2024-04-29 11:55:15] INFO root fetch - processPackages [LinguAligner]: executing diffoscope
+[2024-04-29 11:55:15] INFO root fetch - processPackages [LinguAligner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lingualigner-0.8.tar.gz tmp/lingualigner-0.9.tar.gz --markdown 20240429/L/LinguAligner/0.8-0.9/README.md --exclude *.pyd
+[2024-04-29 11:55:15] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-04-29 11:55:15] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.6.dev1710594-py3-none-any.whl.zip tmp/py2docfx-0.1.6.dev1710623-py3-none-any.whl.zip --markdown 20240429/p/py2docfx/0.1.6.dev1710594-0.1.6.dev1710623/README.md --exclude *.pyd
+[2024-04-29 11:55:15] INFO root fetch - processPackages [aau-ais-dipaal]: Downloading https://files.pythonhosted.org/packages/29/f1/e7f6532e4c83d33124ab405544a858e145e0df15783367ddf033dfdeb87b/aau_ais_dipaal-0.1.1.tar.gz
+[2024-04-29 11:55:15] INFO root fetch - processPackages [ood_detectors]: executing diffoscope
+[2024-04-29 11:55:15] INFO root fetch - processPackages [ood_detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ood_detectors-0.0.2.tar.gz tmp/ood_detectors-0.0.3.tar.gz --markdown 20240429/o/ood_detectors/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-29 11:55:15] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-04-29 11:55:15] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.17.0.post8.tar.gz tmp/hotsos-1.17.0.post9.tar.gz --markdown 20240429/h/hotsos/1.17.0.post8-1.17.0.post9/README.md --exclude *.pyd
+[2024-04-29 11:55:15] INFO root fetch - processPackages [codedepot-depot]: Downloading https://files.pythonhosted.org/packages/4e/02/82d5dc03168143e31a13edfe21344444d2e7e75b3a7fa5e93a229cbdbd25/codedepot_depot-0.0.8.tar.gz
+[2024-04-29 11:55:15] INFO root fetch - processPackages [py-dbchat]: executing diffoscope
+[2024-04-29 11:55:15] INFO root fetch - processPackages [py-dbchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_dbchat-0.0.2rc98.post1.tar.gz tmp/py_dbchat-0.0.2rc99.post1.tar.gz --markdown 20240429/p/py-dbchat/0.0.2rc98.post1-0.0.2rc99.post1/README.md --exclude *.pyd
+[2024-04-29 11:55:15] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/05/2c/f4184a20926de08bbe6b984f908f979d873ba99cf1f966043b5d3b69b8aa/nucliadb_node_binding-3.0.3.post1216.tar.gz
+[2024-04-29 11:55:15] INFO root fetch - processPackages [aau-ais-dipaal]: executing diffoscope
+[2024-04-29 11:55:15] INFO root fetch - processPackages [aau-ais-dipaal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aau_ais_dipaal-0.1.0.tar.gz tmp/aau_ais_dipaal-0.1.1.tar.gz --markdown 20240429/a/aau-ais-dipaal/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-29 11:55:15] INFO root fetch - processPackages [codedepot-depot]: executing diffoscope
+[2024-04-29 11:55:15] INFO root fetch - processPackages [codedepot-depot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_depot-0.0.7.tar.gz tmp/codedepot_depot-0.0.8.tar.gz --markdown 20240429/c/codedepot-depot/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-29 11:55:15] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-04-29 11:55:15] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-3.0.3.post1215.tar.gz tmp/nucliadb_node_binding-3.0.3.post1216.tar.gz --markdown 20240429/n/nucliadb-node-binding/3.0.3.post1215-3.0.3.post1216/README.md --exclude *.pyd
+[2024-04-29 11:55:15] INFO root fetch - processPackages [LinguAligner]: Remove: archive file [/home/abi/fetcher/tmp/lingualigner-0.8.tar.gz]
+[2024-04-29 11:55:15] INFO root fetch - processPackages [LinguAligner]: Remove: archive file [/home/abi/fetcher/tmp/lingualigner-0.9.tar.gz]
+[2024-04-29 11:55:15] INFO root fetch - main [MainThread]: End processing [LinguAligner]: success
+[2024-04-29 11:55:16] INFO root fetch - processPackages [bpm-ai-core]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai_core-2.5.0.tar.gz]
+[2024-04-29 11:55:16] INFO root fetch - processPackages [bpm-ai-core]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai_core-2.6.0.tar.gz]
+[2024-04-29 11:55:16] INFO root fetch - main [MainThread]: End processing [bpm-ai-core]: success
+[2024-04-29 11:55:16] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.2.tar.gz]
+[2024-04-29 11:55:16] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.3.tar.gz]
+[2024-04-29 11:55:16] INFO root fetch - main [MainThread]: End processing [ood_detectors]: success
+[2024-04-29 11:55:16] INFO root fetch - processPackages [codedepot-depot]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_depot-0.0.7.tar.gz]
+[2024-04-29 11:55:16] INFO root fetch - processPackages [codedepot-depot]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_depot-0.0.8.tar.gz]
+[2024-04-29 11:55:16] INFO root fetch - main [MainThread]: End processing [codedepot-depot]: success
+[2024-04-29 11:55:16] INFO root fetch - processPackages [aau-ais-dipaal]: Remove: archive file [/home/abi/fetcher/tmp/aau_ais_dipaal-0.1.0.tar.gz]
+[2024-04-29 11:55:16] INFO root fetch - processPackages [aau-ais-dipaal]: Remove: archive file [/home/abi/fetcher/tmp/aau_ais_dipaal-0.1.1.tar.gz]
+[2024-04-29 11:55:16] INFO root fetch - main [MainThread]: End processing [aau-ais-dipaal]: success
+[2024-04-29 11:55:16] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc98.post1.tar.gz]
+[2024-04-29 11:55:16] INFO root fetch - processPackages [py-dbchat]: Remove: archive file [/home/abi/fetcher/tmp/py_dbchat-0.0.2rc99.post1.tar.gz]
+[2024-04-29 11:55:16] INFO root fetch - main [MainThread]: End processing [py-dbchat]: success
+[2024-04-29 11:55:16] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.6.dev1710594-py3-none-any.whl.zip]
+[2024-04-29 11:55:16] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.6.dev1710623-py3-none-any.whl.zip]
+[2024-04-29 11:55:16] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-04-29 11:55:16] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post8.tar.gz]
+[2024-04-29 11:55:16] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
+[2024-04-29 11:55:16] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-04-29 11:55:17] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1215.tar.gz]
+[2024-04-29 11:55:17] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1216.tar.gz]
+[2024-04-29 11:55:17] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-04-29 11:55:17] INFO root fetch - main [MainThread]: Store serial: [22981723]
