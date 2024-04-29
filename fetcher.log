@@ -18497,3 +18497,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 14:15:10] INFO root fetch - processPackages [osm-fieldwork]: Remove: archive file [/home/abi/fetcher/tmp/osm-fieldwork-0.9.2.tar.gz]
 [2024-04-29 14:15:10] INFO root fetch - main [MainThread]: End processing [osm-fieldwork]: success
 [2024-04-29 14:15:10] INFO root fetch - main [MainThread]: Store serial: [22983208]
+[2024-04-29 14:17:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22983208]
+[2024-04-29 14:17:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 14:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PACMAN-charge
+[2024-04-29 14:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-cdktf-resolver
+[2024-04-29 14:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: petitRADTRANS
+[2024-04-29 14:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tonkord.py
+[2024-04-29 14:17:20] INFO root fetch - processPackages [tonkord.py]: New version: [2.2.2] Old Version: [2.0]
+[2024-04-29 14:17:20] INFO root fetch - processPackages [petitRADTRANS]: New version: [3.0.0b1] Old Version: [2.7.7]
+[2024-04-29 14:17:20] WARNING root fetch - processPackages [PACMAN-charge]: Skipping, unable to determine old version
+[2024-04-29 14:17:20] INFO root fetch - main [MainThread]: End processing [PACMAN-charge] error
+[2024-04-29 14:17:20] INFO root fetch - processPackages [tonkord.py]: Downloading https://files.pythonhosted.org/packages/ba/c1/70d1ab966ef81b748099ca744bb7679cc0be9ee732264598f2b447463333/tonkord.py-2.0.tar.gz
+[2024-04-29 14:17:20] INFO root fetch - processPackages [petitRADTRANS]: Downloading https://files.pythonhosted.org/packages/5d/dc/88c2436295951956dea2e4344483ecd8b08784e835de1f6e4f4e248966a3/petitRADTRANS-2.7.7.tar.gz
+[2024-04-29 14:17:20] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 14:17:20] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Downloading https://files.pythonhosted.org/packages/d0/7b/6e241c141aee876e6231c607ad885acbb3d93f3e8d6215bf20ad4718a568/cdk8s-cdktf-resolver-0.0.8.tar.gz
+[2024-04-29 14:17:20] INFO root fetch - processPackages [petitRADTRANS]: Downloading https://files.pythonhosted.org/packages/4a/38/d3f1399166fc7168b665ce74c8b7e39d026f5f1f89f8801a77d232152793/petitradtrans-3.0.0b1.tar.gz
+[2024-04-29 14:17:20] WARNING root fetch - processPackages [petitRADTRANS]: Skipping package: exceeds size limit 18908315>=10485760
+[2024-04-29 14:17:20] INFO root fetch - main [MainThread]: End processing [petitRADTRANS] error
+[2024-04-29 14:17:20] INFO root fetch - processPackages [tonkord.py]: Downloading https://files.pythonhosted.org/packages/b0/8d/aed81991d917bd1bdc651eebb20168e070791da30adea0c3436c8c2073cc/tonkord.py-2.2.2.tar.gz
+[2024-04-29 14:17:20] INFO root fetch - processPackages [tonkord.py]: executing diffoscope
+[2024-04-29 14:17:20] INFO root fetch - processPackages [tonkord.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tonkord.py-2.0.tar.gz tmp/tonkord.py-2.2.2.tar.gz --markdown 20240429/t/tonkord.py/2.0-2.2.2/README.md --exclude *.pyd
+[2024-04-29 14:17:20] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Downloading https://files.pythonhosted.org/packages/17/4d/78b8350a2cb674183d85f673cae768cba8891cc6c1031b4c61aa54af2f42/cdk8s-cdktf-resolver-0.0.9.tar.gz
+[2024-04-29 14:17:20] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: executing diffoscope
+[2024-04-29 14:17:20] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-cdktf-resolver-0.0.8.tar.gz tmp/cdk8s-cdktf-resolver-0.0.9.tar.gz --markdown 20240429/c/cdk8s-cdktf-resolver/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 14:17:21] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-cdktf-resolver-0.0.8.tar.gz]
+[2024-04-29 14:17:21] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-cdktf-resolver-0.0.9.tar.gz]
+[2024-04-29 14:17:21] INFO root fetch - main [MainThread]: End processing [cdk8s-cdktf-resolver]: success
+[2024-04-29 14:17:22] INFO root fetch - processPackages [tonkord.py]: Remove: archive file [/home/abi/fetcher/tmp/tonkord.py-2.0.tar.gz]
+[2024-04-29 14:17:22] INFO root fetch - processPackages [tonkord.py]: Remove: archive file [/home/abi/fetcher/tmp/tonkord.py-2.2.2.tar.gz]
+[2024-04-29 14:17:22] INFO root fetch - main [MainThread]: End processing [tonkord.py]: success
+[2024-04-29 14:17:22] INFO root fetch - main [MainThread]: Store serial: [22983219]
