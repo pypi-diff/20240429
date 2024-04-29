@@ -7247,3 +7247,27 @@
 [2024-04-29 05:20:05] INFO root fetch - processPackages [wikidot]: Remove: archive file [/home/abi/fetcher/tmp/wikidot-3.0.5.tar.gz]
 [2024-04-29 05:20:05] INFO root fetch - main [MainThread]: End processing [wikidot]: success
 [2024-04-29 05:20:05] INFO root fetch - main [MainThread]: Store serial: [22978334]
+[2024-04-29 05:22:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978334]
+[2024-04-29 05:22:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 05:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdm-conda
+[2024-04-29 05:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simpeg-drivers
+[2024-04-29 05:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dknovautils
+[2024-04-29 05:22:13] INFO root fetch - processPackages [pdm-conda]: New version: [0.9.3b1] Old Version: [0.9.3b0]
+[2024-04-29 05:22:14] INFO root fetch - processPackages [pdm-conda]: Downloading https://files.pythonhosted.org/packages/5d/1b/dc1cb149f079d3d41db755870a003994c36588d5a196747c0b7e42194938/pdm_conda-0.9.3b0.tar.gz
+[2024-04-29 05:22:14] INFO root fetch - processPackages [dknovautils]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-29 05:22:14] WARNING root fetch - processPackages [simpeg-drivers]: Skipping, unable to determine old version
+[2024-04-29 05:22:14] INFO root fetch - main [MainThread]: End processing [simpeg-drivers] error
+[2024-04-29 05:22:14] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/4e/39/1eb81f8e300ed6373049718c5a57a694e6bee7a75801271a4a474bf6ed9f/dknovautils-0.2.6.tar.gz
+[2024-04-29 05:22:14] INFO root fetch - processPackages [pdm-conda]: Downloading https://files.pythonhosted.org/packages/23/ae/9ae2762f3341650d36462bc006fcb4de1bea93e1cf224fb94dc45f376d38/pdm_conda-0.9.3b1.tar.gz
+[2024-04-29 05:22:14] INFO root fetch - processPackages [pdm-conda]: executing diffoscope
+[2024-04-29 05:22:14] INFO root fetch - processPackages [pdm-conda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_conda-0.9.3b0.tar.gz tmp/pdm_conda-0.9.3b1.tar.gz --markdown 20240429/p/pdm-conda/0.9.3b0-0.9.3b1/README.md --exclude *.pyd
+[2024-04-29 05:22:14] INFO root fetch - processPackages [dknovautils]: Downloading https://files.pythonhosted.org/packages/73/18/329801f23af5911b600c33e50c225644b18ee24e29b641492f030534da12/dknovautils-0.2.7.tar.gz
+[2024-04-29 05:22:14] INFO root fetch - processPackages [dknovautils]: executing diffoscope
+[2024-04-29 05:22:14] INFO root fetch - processPackages [dknovautils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dknovautils-0.2.6.tar.gz tmp/dknovautils-0.2.7.tar.gz --markdown 20240429/d/dknovautils/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-29 05:22:15] INFO root fetch - processPackages [pdm-conda]: Remove: archive file [/home/abi/fetcher/tmp/pdm_conda-0.9.3b0.tar.gz]
+[2024-04-29 05:22:15] INFO root fetch - processPackages [pdm-conda]: Remove: archive file [/home/abi/fetcher/tmp/pdm_conda-0.9.3b1.tar.gz]
+[2024-04-29 05:22:15] INFO root fetch - main [MainThread]: End processing [pdm-conda]: success
+[2024-04-29 05:22:15] INFO root fetch - processPackages [dknovautils]: Remove: archive file [/home/abi/fetcher/tmp/dknovautils-0.2.6.tar.gz]
+[2024-04-29 05:22:15] INFO root fetch - processPackages [dknovautils]: Remove: archive file [/home/abi/fetcher/tmp/dknovautils-0.2.7.tar.gz]
+[2024-04-29 05:22:15] INFO root fetch - main [MainThread]: End processing [dknovautils]: success
+[2024-04-29 05:22:15] INFO root fetch - main [MainThread]: Store serial: [22978346]
