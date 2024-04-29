@@ -20676,3 +20676,174 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 15:20:43] INFO root fetch - processPackages [appsignal]: Remove: archive file [/home/abi/fetcher/tmp/appsignal-1.3.1-py3-none-musllinux_1_1_x86_64.whl.zip]
 [2024-04-29 15:20:43] INFO root fetch - main [MainThread]: End processing [appsignal]: success
 [2024-04-29 15:20:43] INFO root fetch - main [MainThread]: Store serial: [22984109]
+[2024-04-29 15:22:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22984109]
+[2024-04-29 15:22:55] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2024-04-29 15:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moodle-dl
+[2024-04-29 15:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: large-image-source-dicom
+[2024-04-29 15:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GermGenie
+[2024-04-29 15:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: large-image-source-dummy
+[2024-04-29 15:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: large-image-source-gdal
+[2024-04-29 15:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dataset-tools
+[2024-04-29 15:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: claroai
+[2024-04-29 15:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: large-image-source-mapnik
+[2024-04-29 15:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: amulet-core
+[2024-04-29 15:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: large-image-source-multi
+[2024-04-29 15:22:55] INFO root fetch - processPackages [GermGenie]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-29 15:22:55] INFO root fetch - processPackages [large-image-source-dicom]: New version: [1.28.2.dev8] Old Version: [1.28.2.dev6]
+[2024-04-29 15:22:55] WARNING root fetch - processPackages [claroai]: Skipping, unable to determine old version
+[2024-04-29 15:22:55] INFO root fetch - processPackages [claroai]: Start processing: large-image-source-nd2
+[2024-04-29 15:22:55] INFO root fetch - main [MainThread]: End processing [claroai] error
+[2024-04-29 15:22:55] INFO root fetch - processPackages [amulet-core]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-29 15:22:55] INFO root fetch - processPackages [dataset-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 15:22:55] INFO root fetch - processPackages [moodle-dl]: New version: [2.3.8] Old Version: [2.3.7]
+[2024-04-29 15:22:55] INFO root fetch - processPackages [large-image-source-multi]: New version: [1.28.2.dev8] Old Version: [1.28.2.dev6]
+[2024-04-29 15:22:56] INFO root fetch - processPackages [large-image-source-mapnik]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-29 15:22:56] INFO root fetch - processPackages [large-image-source-dummy]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-29 15:22:56] INFO root fetch - processPackages [large-image-source-gdal]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-29 15:22:56] INFO root fetch - processPackages [GermGenie]: Downloading https://files.pythonhosted.org/packages/97/c7/6da9a29a0697c4fedce52def61431146cebc48fd23adbe4cf9ec6ca7a81d/GermGenie-0.0.1.tar.gz
+[2024-04-29 15:22:56] INFO root fetch - processPackages [large-image-source-nd2]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-29 15:22:56] INFO root fetch - processPackages [large-image-source-dicom]: Downloading https://files.pythonhosted.org/packages/d0/79/e3da9b4de9a6fa4efb8ed085e7b9ce05c15e60887115faf689aa31dc0378/large-image-source-dicom-1.28.2.dev6.tar.gz
+[2024-04-29 15:22:56] INFO root fetch - processPackages [amulet-core]: Downloading https://files.pythonhosted.org/packages/30/be/243f4d3bb94fa7f8cee34e80aea3b5f860d3a6ac1dde297a71a40e42d4f3/amulet-core-1.9.8.tar.gz
+[2024-04-29 15:22:56] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/45/97/f8cfcb2381e26631dc0de064078e7012c0e84fe2bc5eb59bb6846009f169/dataset-tools-0.0.8.tar.gz
+[2024-04-29 15:22:56] INFO root fetch - processPackages [large-image-source-multi]: Downloading https://files.pythonhosted.org/packages/69/c0/c9094db434e5f7e905268769d6a2412c351b6e1da960ad8c09741f51a1ae/large-image-source-multi-1.28.2.dev6.tar.gz
+[2024-04-29 15:22:56] INFO root fetch - processPackages [large-image-source-mapnik]: Downloading https://files.pythonhosted.org/packages/ec/f8/40c5e595a0666f11af70b13b5528b91d61179bf3560aa54bf97025e81322/large-image-source-mapnik-1.9.1.dev6.tar.gz
+[2024-04-29 15:22:56] INFO root fetch - processPackages [large-image-source-gdal]: Downloading https://files.pythonhosted.org/packages/06/09/9cc15777a61a9746370b4445caa7d36d66ce0b1a197652f2c9da003e5e01/large-image-source-gdal-1.9.1.dev6.tar.gz
+[2024-04-29 15:22:56] INFO root fetch - processPackages [large-image-source-dummy]: Downloading https://files.pythonhosted.org/packages/a7/47/6a6b2735ef16d597973161650868769abbd88ca81aa572367cb13d00618e/large-image-source-dummy-1.9.1.dev6.tar.gz
+[2024-04-29 15:22:56] INFO root fetch - processPackages [moodle-dl]: Downloading https://files.pythonhosted.org/packages/84/1c/fb1ac031d78d8798c00e968c20a212d27f895b48fc031388ac96e74069e5/moodle_dl-2.3.7.tar.gz
+[2024-04-29 15:22:56] INFO root fetch - processPackages [large-image-source-nd2]: Downloading https://files.pythonhosted.org/packages/1a/29/7390d858dfa6f7980312cb40b7706fbad943f78bf477bf6315522dafc015/large-image-source-nd2-1.9.1.dev6.tar.gz
+[2024-04-29 15:22:56] INFO root fetch - processPackages [GermGenie]: Downloading https://files.pythonhosted.org/packages/eb/1d/6879f2f6f204a111f374b8faf89d445e273dc6bdb9b81b87a4ef3f4e8935/GermGenie-0.0.2.tar.gz
+[2024-04-29 15:22:56] INFO root fetch - processPackages [large-image-source-dicom]: Downloading https://files.pythonhosted.org/packages/0c/a6/5c9e2e7611fee745adc820c60a8c1048bdee373b6da1f5507e41779de11f/large-image-source-dicom-1.28.2.dev8.tar.gz
+[2024-04-29 15:22:56] INFO root fetch - processPackages [GermGenie]: executing diffoscope
+[2024-04-29 15:22:56] INFO root fetch - processPackages [GermGenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GermGenie-0.0.1.tar.gz tmp/GermGenie-0.0.2.tar.gz --markdown 20240429/G/GermGenie/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-29 15:22:56] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/b8/58/c030ec40cb92d73145fa4f9c8df9dc35360f48d85535390567bd984369b2/dataset-tools-0.0.9.tar.gz
+[2024-04-29 15:22:56] INFO root fetch - processPackages [large-image-source-mapnik]: Downloading https://files.pythonhosted.org/packages/cb/26/ae6c10f6388de2806ecc5e1ca9d5afad29ab6d5ac2e1d280a53970288577/large-image-source-mapnik-1.9.1.dev8.tar.gz
+[2024-04-29 15:22:56] INFO root fetch - processPackages [amulet-core]: Downloading https://files.pythonhosted.org/packages/72/2b/9003d9d8e39afb707fca275899069e5ddf79305bbab36e5213b81aaa4a0f/amulet-core-1.9.9.tar.gz
+[2024-04-29 15:22:56] INFO root fetch - processPackages [large-image-source-multi]: Downloading https://files.pythonhosted.org/packages/f8/09/34c636edef6d9c99bc485305e9509adb991576d3ac04f561f57f6da751e7/large-image-source-multi-1.28.2.dev8.tar.gz
+[2024-04-29 15:22:56] INFO root fetch - processPackages [large-image-source-dummy]: Downloading https://files.pythonhosted.org/packages/65/2c/392be6b06828c27c73b918dd280229b97af5bf7bdab89b8eb79ed22e60a4/large-image-source-dummy-1.9.1.dev8.tar.gz
+[2024-04-29 15:22:56] INFO root fetch - processPackages [large-image-source-gdal]: Downloading https://files.pythonhosted.org/packages/23/56/8a639012c8318fe32f5c437aac0a345ff997578582ba8e1c5e83d93e4d88/large-image-source-gdal-1.9.1.dev8.tar.gz
+[2024-04-29 15:22:56] INFO root fetch - processPackages [large-image-source-dicom]: executing diffoscope
+[2024-04-29 15:22:56] INFO root fetch - processPackages [large-image-source-dicom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-dicom-1.28.2.dev6.tar.gz tmp/large-image-source-dicom-1.28.2.dev8.tar.gz --markdown 20240429/l/large-image-source-dicom/1.28.2.dev6-1.28.2.dev8/README.md --exclude *.pyd
+[2024-04-29 15:22:56] INFO root fetch - processPackages [moodle-dl]: Downloading https://files.pythonhosted.org/packages/c0/0a/59a33c53036a48c680f8aaac1a942c5ca6418ff8c3d7ede5eddc35070bbc/moodle_dl-2.3.8.tar.gz
+[2024-04-29 15:22:56] INFO root fetch - processPackages [dataset-tools]: executing diffoscope
+[2024-04-29 15:22:56] INFO root fetch - processPackages [dataset-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset-tools-0.0.8.tar.gz tmp/dataset-tools-0.0.9.tar.gz --markdown 20240429/d/dataset-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 15:22:56] INFO root fetch - processPackages [amulet-core]: executing diffoscope
+[2024-04-29 15:22:56] INFO root fetch - processPackages [amulet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amulet-core-1.9.8.tar.gz tmp/amulet-core-1.9.9.tar.gz --markdown 20240429/a/amulet-core/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-04-29 15:22:56] INFO root fetch - processPackages [large-image-source-nd2]: Downloading https://files.pythonhosted.org/packages/e2/73/86ec6d93de63690b5e2a8a2f6fc98fce9a12e4da38b4cfc37f1188c0240c/large-image-source-nd2-1.9.1.dev8.tar.gz
+[2024-04-29 15:22:57] INFO root fetch - processPackages [large-image-source-multi]: executing diffoscope
+[2024-04-29 15:22:57] INFO root fetch - processPackages [large-image-source-multi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-multi-1.28.2.dev6.tar.gz tmp/large-image-source-multi-1.28.2.dev8.tar.gz --markdown 20240429/l/large-image-source-multi/1.28.2.dev6-1.28.2.dev8/README.md --exclude *.pyd
+[2024-04-29 15:22:57] INFO root fetch - processPackages [large-image-source-dummy]: executing diffoscope
+[2024-04-29 15:22:57] INFO root fetch - processPackages [large-image-source-dummy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-dummy-1.9.1.dev6.tar.gz tmp/large-image-source-dummy-1.9.1.dev8.tar.gz --markdown 20240429/l/large-image-source-dummy/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-29 15:22:57] INFO root fetch - processPackages [large-image-source-mapnik]: executing diffoscope
+[2024-04-29 15:22:57] INFO root fetch - processPackages [large-image-source-mapnik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-mapnik-1.9.1.dev6.tar.gz tmp/large-image-source-mapnik-1.9.1.dev8.tar.gz --markdown 20240429/l/large-image-source-mapnik/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-29 15:22:57] INFO root fetch - processPackages [large-image-source-gdal]: executing diffoscope
+[2024-04-29 15:22:57] INFO root fetch - processPackages [large-image-source-gdal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-gdal-1.9.1.dev6.tar.gz tmp/large-image-source-gdal-1.9.1.dev8.tar.gz --markdown 20240429/l/large-image-source-gdal/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-29 15:22:57] INFO root fetch - processPackages [large-image-source-nd2]: executing diffoscope
+[2024-04-29 15:22:57] INFO root fetch - processPackages [large-image-source-nd2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-nd2-1.9.1.dev6.tar.gz tmp/large-image-source-nd2-1.9.1.dev8.tar.gz --markdown 20240429/l/large-image-source-nd2/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-29 15:22:57] INFO root fetch - processPackages [moodle-dl]: executing diffoscope
+[2024-04-29 15:22:57] INFO root fetch - processPackages [moodle-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moodle_dl-2.3.7.tar.gz tmp/moodle_dl-2.3.8.tar.gz --markdown 20240429/m/moodle-dl/2.3.7-2.3.8/README.md --exclude *.pyd
+[2024-04-29 15:22:58] INFO root fetch - processPackages [GermGenie]: Remove: archive file [/home/abi/fetcher/tmp/GermGenie-0.0.1.tar.gz]
+[2024-04-29 15:22:58] INFO root fetch - processPackages [GermGenie]: Remove: archive file [/home/abi/fetcher/tmp/GermGenie-0.0.2.tar.gz]
+[2024-04-29 15:22:58] INFO root fetch - processPackages [GermGenie]: Start processing: opencti-excel-uploader
+[2024-04-29 15:22:58] INFO root fetch - main [MainThread]: End processing [GermGenie]: success
+[2024-04-29 15:22:58] INFO root fetch - processPackages [opencti-excel-uploader]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-29 15:22:58] INFO root fetch - processPackages [opencti-excel-uploader]: Downloading https://files.pythonhosted.org/packages/86/3f/db601217b8d79d29b290f404f2fe2ba019dc5b8665cdabc067dc15789b11/opencti_excel_uploader-0.2.7.tar.gz
+[2024-04-29 15:22:58] INFO root fetch - processPackages [large-image-source-gdal]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-gdal-1.9.1.dev6.tar.gz]
+[2024-04-29 15:22:58] INFO root fetch - processPackages [large-image-source-gdal]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-gdal-1.9.1.dev8.tar.gz]
+[2024-04-29 15:22:58] INFO root fetch - processPackages [large-image-source-dicom]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-dicom-1.28.2.dev6.tar.gz]
+[2024-04-29 15:22:58] INFO root fetch - processPackages [large-image-source-gdal]: Start processing: large-image-source-ometiff
+[2024-04-29 15:22:58] INFO root fetch - processPackages [large-image-source-dicom]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-dicom-1.28.2.dev8.tar.gz]
+[2024-04-29 15:22:58] INFO root fetch - processPackages [large-image-source-multi]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-multi-1.28.2.dev6.tar.gz]
+[2024-04-29 15:22:58] INFO root fetch - main [MainThread]: End processing [large-image-source-gdal]: success
+[2024-04-29 15:22:58] INFO root fetch - processPackages [large-image-source-multi]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-multi-1.28.2.dev8.tar.gz]
+[2024-04-29 15:22:58] INFO root fetch - processPackages [large-image-source-dicom]: Start processing: wsat
+[2024-04-29 15:22:58] INFO root fetch - main [MainThread]: End processing [large-image-source-dicom]: success
+[2024-04-29 15:22:58] INFO root fetch - processPackages [large-image-source-multi]: Start processing: large-image-source-openjpeg
+[2024-04-29 15:22:58] INFO root fetch - main [MainThread]: End processing [large-image-source-multi]: success
+[2024-04-29 15:22:58] INFO root fetch - processPackages [large-image-source-mapnik]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-mapnik-1.9.1.dev6.tar.gz]
+[2024-04-29 15:22:58] INFO root fetch - processPackages [large-image-source-mapnik]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-mapnik-1.9.1.dev8.tar.gz]
+[2024-04-29 15:22:58] INFO root fetch - processPackages [large-image-source-mapnik]: Start processing: large-image-source-openslide
+[2024-04-29 15:22:58] INFO root fetch - main [MainThread]: End processing [large-image-source-mapnik]: success
+[2024-04-29 15:22:58] INFO root fetch - processPackages [large-image-source-dummy]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-dummy-1.9.1.dev6.tar.gz]
+[2024-04-29 15:22:58] INFO root fetch - processPackages [large-image-source-dummy]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-dummy-1.9.1.dev8.tar.gz]
+[2024-04-29 15:22:58] INFO root fetch - processPackages [large-image-source-dummy]: Start processing: peak-finder-app
+[2024-04-29 15:22:58] INFO root fetch - main [MainThread]: End processing [large-image-source-dummy]: success
+[2024-04-29 15:22:58] INFO root fetch - processPackages [large-image-source-nd2]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-nd2-1.9.1.dev6.tar.gz]
+[2024-04-29 15:22:58] INFO root fetch - processPackages [large-image-source-nd2]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-nd2-1.9.1.dev8.tar.gz]
+[2024-04-29 15:22:58] INFO root fetch - processPackages [large-image-source-nd2]: Start processing: qosst-core
+[2024-04-29 15:22:58] INFO root fetch - main [MainThread]: End processing [large-image-source-nd2]: success
+[2024-04-29 15:22:58] INFO root fetch - processPackages [wsat]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-29 15:22:59] WARNING root fetch - processPackages [qosst-core]: Skipping, unable to determine old version
+[2024-04-29 15:22:59] INFO root fetch - processPackages [qosst-core]: Start processing: large-image-source-pil
+[2024-04-29 15:22:59] INFO root fetch - main [MainThread]: End processing [qosst-core] error
+[2024-04-29 15:22:59] INFO root fetch - processPackages [opencti-excel-uploader]: Downloading https://files.pythonhosted.org/packages/7f/77/1307e56cd776cfebb55636cb5f2cb15a52bcb22f66e00919d6285700ebb4/opencti_excel_uploader-0.2.8.tar.gz
+[2024-04-29 15:22:59] INFO root fetch - processPackages [peak-finder-app]: New version: [0.1.0b1] Old Version: [0.1.0a1]
+[2024-04-29 15:22:59] INFO root fetch - processPackages [wsat]: Downloading https://files.pythonhosted.org/packages/d7/90/fa6fda8403129f8b97aa8384b16238a11cf7e486ae899e21b086d7b1f529/wsat-0.1.1.tar.gz
+[2024-04-29 15:22:59] INFO root fetch - processPackages [large-image-source-openjpeg]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-29 15:22:59] INFO root fetch - processPackages [large-image-source-openslide]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-29 15:22:59] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.8.tar.gz]
+[2024-04-29 15:22:59] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.9.tar.gz]
+[2024-04-29 15:22:59] INFO root fetch - processPackages [dataset-tools]: Start processing: large-image-source-rasterio
+[2024-04-29 15:22:59] INFO root fetch - main [MainThread]: End processing [dataset-tools]: success
+[2024-04-29 15:22:59] INFO root fetch - processPackages [moodle-dl]: Remove: archive file [/home/abi/fetcher/tmp/moodle_dl-2.3.7.tar.gz]
+[2024-04-29 15:22:59] INFO root fetch - processPackages [moodle-dl]: Remove: archive file [/home/abi/fetcher/tmp/moodle_dl-2.3.8.tar.gz]
+[2024-04-29 15:22:59] INFO root fetch - main [MainThread]: End processing [moodle-dl]: success
+[2024-04-29 15:22:59] INFO root fetch - processPackages [opencti-excel-uploader]: executing diffoscope
+[2024-04-29 15:22:59] INFO root fetch - processPackages [opencti-excel-uploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencti_excel_uploader-0.2.7.tar.gz tmp/opencti_excel_uploader-0.2.8.tar.gz --markdown 20240429/o/opencti-excel-uploader/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-29 15:22:59] INFO root fetch - processPackages [large-image-source-ometiff]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-29 15:22:59] INFO root fetch - processPackages [amulet-core]: Remove: archive file [/home/abi/fetcher/tmp/amulet-core-1.9.8.tar.gz]
+[2024-04-29 15:22:59] INFO root fetch - processPackages [amulet-core]: Remove: archive file [/home/abi/fetcher/tmp/amulet-core-1.9.9.tar.gz]
+[2024-04-29 15:22:59] INFO root fetch - main [MainThread]: End processing [amulet-core]: success
+[2024-04-29 15:22:59] INFO root fetch - processPackages [peak-finder-app]: Downloading https://files.pythonhosted.org/packages/d1/44/6234883c1f4a855e2e1073b13ae41f151ca56516847bed93375581e06a85/peak_finder_app-0.1.0a1.tar.gz
+[2024-04-29 15:22:59] INFO root fetch - processPackages [wsat]: Downloading https://files.pythonhosted.org/packages/3c/5b/1f737504bcf2766d37742a833a0737d60959fb760b009e1af1adc549d6b9/wsat-0.1.2.tar.gz
+[2024-04-29 15:22:59] INFO root fetch - processPackages [large-image-source-openjpeg]: Downloading https://files.pythonhosted.org/packages/95/ea/1df84324de3d3648afee1380dfe201cc2df04f407dc2811e7244e4f911d8/large-image-source-openjpeg-1.9.1.dev6.tar.gz
+[2024-04-29 15:22:59] INFO root fetch - processPackages [large-image-source-openslide]: Downloading https://files.pythonhosted.org/packages/73/2c/cb5bcd12f494516af0965d8399bae2e5b62d6c0afc01da7b16b2ebef69c2/large-image-source-openslide-1.9.1.dev6.tar.gz
+[2024-04-29 15:22:59] INFO root fetch - processPackages [large-image-source-pil]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-29 15:22:59] INFO root fetch - processPackages [large-image-source-rasterio]: New version: [1.28.2.dev8] Old Version: [1.28.2.dev6]
+[2024-04-29 15:22:59] INFO root fetch - processPackages [large-image-source-ometiff]: Downloading https://files.pythonhosted.org/packages/e8/92/40431cff52dd08697018589d4cd716496dc3b1a45d50f232d8d37f735798/large-image-source-ometiff-1.9.1.dev6.tar.gz
+[2024-04-29 15:22:59] INFO root fetch - processPackages [wsat]: executing diffoscope
+[2024-04-29 15:22:59] INFO root fetch - processPackages [wsat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wsat-0.1.1.tar.gz tmp/wsat-0.1.2.tar.gz --markdown 20240429/w/wsat/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-29 15:22:59] INFO root fetch - processPackages [large-image-source-pil]: Downloading https://files.pythonhosted.org/packages/62/43/ee7dff22ed2010638ae04420c847d0eeeffd3ec95c15aef5dd78c0f9de79/large-image-source-pil-1.9.1.dev6.tar.gz
+[2024-04-29 15:22:59] INFO root fetch - processPackages [large-image-source-rasterio]: Downloading https://files.pythonhosted.org/packages/80/13/d86f3aada7fc82623749a39e5e3a4223afa07b9f3d0eaf3eb176f0134e49/large-image-source-rasterio-1.28.2.dev6.tar.gz
+[2024-04-29 15:22:59] INFO root fetch - processPackages [large-image-source-openjpeg]: Downloading https://files.pythonhosted.org/packages/b7/c9/95c7e2154104780b160e9968dd9863f2de88d77a5986bc280d05e4811ebd/large-image-source-openjpeg-1.9.1.dev8.tar.gz
+[2024-04-29 15:22:59] INFO root fetch - processPackages [large-image-source-openslide]: Downloading https://files.pythonhosted.org/packages/f0/7e/d45a7c8f1888ff585bf418622f627fb048aaa7ed8d8e2b8d7e97a3c27f8e/large-image-source-openslide-1.9.1.dev8.tar.gz
+[2024-04-29 15:22:59] INFO root fetch - processPackages [large-image-source-openjpeg]: executing diffoscope
+[2024-04-29 15:22:59] INFO root fetch - processPackages [large-image-source-openjpeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-openjpeg-1.9.1.dev6.tar.gz tmp/large-image-source-openjpeg-1.9.1.dev8.tar.gz --markdown 20240429/l/large-image-source-openjpeg/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-29 15:22:59] INFO root fetch - processPackages [large-image-source-ometiff]: Downloading https://files.pythonhosted.org/packages/8f/73/a25300dd64f045a5c3bad6c454d98e1d7dc0728d40536c8ec22fe913f92b/large-image-source-ometiff-1.9.1.dev8.tar.gz
+[2024-04-29 15:22:59] INFO root fetch - processPackages [opencti-excel-uploader]: Remove: archive file [/home/abi/fetcher/tmp/opencti_excel_uploader-0.2.7.tar.gz]
+[2024-04-29 15:22:59] INFO root fetch - processPackages [opencti-excel-uploader]: Remove: archive file [/home/abi/fetcher/tmp/opencti_excel_uploader-0.2.8.tar.gz]
+[2024-04-29 15:22:59] INFO root fetch - main [MainThread]: End processing [opencti-excel-uploader]: success
+[2024-04-29 15:23:00] INFO root fetch - processPackages [large-image-source-openslide]: executing diffoscope
+[2024-04-29 15:23:00] INFO root fetch - processPackages [large-image-source-openslide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-openslide-1.9.1.dev6.tar.gz tmp/large-image-source-openslide-1.9.1.dev8.tar.gz --markdown 20240429/l/large-image-source-openslide/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-29 15:23:00] INFO root fetch - processPackages [large-image-source-pil]: Downloading https://files.pythonhosted.org/packages/51/73/2b201201e4bd4d42037d602dc35d468eba8131dce691debda3e43e3817f7/large-image-source-pil-1.9.1.dev8.tar.gz
+[2024-04-29 15:23:00] INFO root fetch - processPackages [large-image-source-rasterio]: Downloading https://files.pythonhosted.org/packages/d4/f5/96a485bf833446de8cdb9774262342c3abd6ee647793ea3a3cd5bef4ffd6/large-image-source-rasterio-1.28.2.dev8.tar.gz
+[2024-04-29 15:23:00] INFO root fetch - processPackages [large-image-source-ometiff]: executing diffoscope
+[2024-04-29 15:23:00] INFO root fetch - processPackages [large-image-source-ometiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-ometiff-1.9.1.dev6.tar.gz tmp/large-image-source-ometiff-1.9.1.dev8.tar.gz --markdown 20240429/l/large-image-source-ometiff/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-29 15:23:00] INFO root fetch - processPackages [peak-finder-app]: Downloading https://files.pythonhosted.org/packages/05/36/358745083ec7886f5166a9852034e3c154fad323ca82eee5dc705cc2a4ce/peak_finder_app-0.1.0b1.tar.gz
+[2024-04-29 15:23:00] INFO root fetch - processPackages [large-image-source-pil]: executing diffoscope
+[2024-04-29 15:23:00] INFO root fetch - processPackages [large-image-source-pil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-pil-1.9.1.dev6.tar.gz tmp/large-image-source-pil-1.9.1.dev8.tar.gz --markdown 20240429/l/large-image-source-pil/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-29 15:23:00] INFO root fetch - processPackages [large-image-source-rasterio]: executing diffoscope
+[2024-04-29 15:23:00] INFO root fetch - processPackages [large-image-source-rasterio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-rasterio-1.28.2.dev6.tar.gz tmp/large-image-source-rasterio-1.28.2.dev8.tar.gz --markdown 20240429/l/large-image-source-rasterio/1.28.2.dev6-1.28.2.dev8/README.md --exclude *.pyd
+[2024-04-29 15:23:00] INFO root fetch - processPackages [wsat]: Remove: archive file [/home/abi/fetcher/tmp/wsat-0.1.1.tar.gz]
+[2024-04-29 15:23:00] INFO root fetch - processPackages [wsat]: Remove: archive file [/home/abi/fetcher/tmp/wsat-0.1.2.tar.gz]
+[2024-04-29 15:23:00] INFO root fetch - main [MainThread]: End processing [wsat]: success
+[2024-04-29 15:23:00] INFO root fetch - processPackages [peak-finder-app]: executing diffoscope
+[2024-04-29 15:23:00] INFO root fetch - processPackages [peak-finder-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peak_finder_app-0.1.0a1.tar.gz tmp/peak_finder_app-0.1.0b1.tar.gz --markdown 20240429/p/peak-finder-app/0.1.0a1-0.1.0b1/README.md --exclude *.pyd
+[2024-04-29 15:23:00] INFO root fetch - processPackages [large-image-source-openjpeg]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-openjpeg-1.9.1.dev6.tar.gz]
+[2024-04-29 15:23:00] INFO root fetch - processPackages [large-image-source-openjpeg]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-openjpeg-1.9.1.dev8.tar.gz]
+[2024-04-29 15:23:00] INFO root fetch - main [MainThread]: End processing [large-image-source-openjpeg]: success
+[2024-04-29 15:23:00] INFO root fetch - processPackages [large-image-source-openslide]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-openslide-1.9.1.dev6.tar.gz]
+[2024-04-29 15:23:00] INFO root fetch - processPackages [large-image-source-openslide]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-openslide-1.9.1.dev8.tar.gz]
+[2024-04-29 15:23:00] INFO root fetch - main [MainThread]: End processing [large-image-source-openslide]: success
+[2024-04-29 15:23:01] INFO root fetch - processPackages [large-image-source-ometiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-ometiff-1.9.1.dev6.tar.gz]
+[2024-04-29 15:23:01] INFO root fetch - processPackages [large-image-source-ometiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-ometiff-1.9.1.dev8.tar.gz]
+[2024-04-29 15:23:01] INFO root fetch - main [MainThread]: End processing [large-image-source-ometiff]: success
+[2024-04-29 15:23:01] INFO root fetch - processPackages [large-image-source-rasterio]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-rasterio-1.28.2.dev6.tar.gz]
+[2024-04-29 15:23:01] INFO root fetch - processPackages [large-image-source-rasterio]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-rasterio-1.28.2.dev8.tar.gz]
+[2024-04-29 15:23:01] INFO root fetch - main [MainThread]: End processing [large-image-source-rasterio]: success
+[2024-04-29 15:23:01] INFO root fetch - processPackages [large-image-source-pil]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-pil-1.9.1.dev6.tar.gz]
+[2024-04-29 15:23:01] INFO root fetch - processPackages [large-image-source-pil]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-pil-1.9.1.dev8.tar.gz]
+[2024-04-29 15:23:01] INFO root fetch - main [MainThread]: End processing [large-image-source-pil]: success
+[2024-04-29 15:23:01] INFO root fetch - processPackages [peak-finder-app]: Remove: archive file [/home/abi/fetcher/tmp/peak_finder_app-0.1.0a1.tar.gz]
+[2024-04-29 15:23:01] INFO root fetch - processPackages [peak-finder-app]: Remove: archive file [/home/abi/fetcher/tmp/peak_finder_app-0.1.0b1.tar.gz]
+[2024-04-29 15:23:01] INFO root fetch - main [MainThread]: End processing [peak-finder-app]: success
+[2024-04-29 15:23:01] INFO root fetch - main [MainThread]: Store serial: [22984187]
