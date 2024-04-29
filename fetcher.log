@@ -14356,3 +14356,117 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 11:46:35] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1215-cp310-cp310-macosx_11_0_arm64.whl.zip]
 [2024-04-29 11:46:35] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
 [2024-04-29 11:46:35] INFO root fetch - main [MainThread]: Store serial: [22981579]
+[2024-04-29 11:48:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22981579]
+[2024-04-29 11:48:44] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-29 11:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zodchy
+[2024-04-29 11:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mongodb-orm
+[2024-04-29 11:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py2docfx
+[2024-04-29 11:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: templated-setup
+[2024-04-29 11:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pppfy
+[2024-04-29 11:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: frontengine
+[2024-04-29 11:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: frontengine-dev
+[2024-04-29 11:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: petitRADTRANS
+[2024-04-29 11:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: frequenz-api-electricity-trading
+[2024-04-29 11:48:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: codedepot-git-ai
+[2024-04-29 11:48:44] INFO root fetch - processPackages [zodchy]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-29 11:48:44] INFO root fetch - processPackages [templated-setup]: New version: [0.6] Old Version: [0.5]
+[2024-04-29 11:48:44] WARNING root fetch - processPackages [pppfy]: Skipping, unable to determine old version
+[2024-04-29 11:48:44] INFO root fetch - processPackages [pppfy]: Start processing: LinguAligner
+[2024-04-29 11:48:44] INFO root fetch - main [MainThread]: End processing [pppfy] error
+[2024-04-29 11:48:44] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 11:48:44] INFO root fetch - processPackages [frontengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 11:48:44] INFO root fetch - processPackages [py2docfx]: New version: [0.1.6.dev1710594] Old Version: [0.1.5rc1710519]
+[2024-04-29 11:48:44] INFO root fetch - processPackages [petitRADTRANS]: New version: [2.7.7] Old Version: [2.7.6]
+[2024-04-29 11:48:44] INFO root fetch - processPackages [LinguAligner]: New version: [0.9] Old Version: [0.8]
+[2024-04-29 11:48:44] INFO root fetch - processPackages [mongodb-orm]: New version: [0.0.123] Old Version: [0.0.122]
+[2024-04-29 11:48:44] INFO root fetch - processPackages [frequenz-api-electricity-trading]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-29 11:48:44] INFO root fetch - processPackages [zodchy]: Downloading https://files.pythonhosted.org/packages/6c/bc/59641173ae54c0b8f2c863210ac045e28372cc67a7c4fe66e1c64b4fd234/zodchy-0.2.0.tar.gz
+[2024-04-29 11:48:44] INFO root fetch - processPackages [codedepot-git-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 11:48:44] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/89/d8/2a51c3397de02ed16ae19916f11ccf999fd0e8665acab0b8b8f48b0cbb62/templated_setup-0.5.tar.gz
+[2024-04-29 11:48:44] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/23/e2/01e0fe02ca6b73e163f3f0d080231bc0c783a63e766e5524eb246350518d/frontengine_dev-0.0.8.tar.gz
+[2024-04-29 11:48:44] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/9d/e7/fc64a3d25616a1da34c00b8fcd0d259b84e477e7ae978b1df279c511d716/py2docfx-0.1.5rc1710519-py3-none-any.whl
+[2024-04-29 11:48:44] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/62/88/6d99d7b463365da48db6f37c9bde41e7f7f20eeb1a13653a273586e81d3a/frontengine-0.0.8.tar.gz
+[2024-04-29 11:48:44] INFO root fetch - processPackages [LinguAligner]: Downloading https://files.pythonhosted.org/packages/63/1f/fc1941e3d878f8643898c07bd958b932dd36b3b074928145bb430dfe0a04/lingualigner-0.8.tar.gz
+[2024-04-29 11:48:44] INFO root fetch - processPackages [petitRADTRANS]: Downloading https://files.pythonhosted.org/packages/17/a5/a7d711219fe1876bbe87b9ac5e9774b39ea58cb091c117a02124e6fedc16/petitRADTRANS-2.7.6.tar.gz
+[2024-04-29 11:48:44] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/23/5d/f9fed0c3a6aa0957621728feae2911209e85ab414871ee1032d7ac783461/mongodb_orm-0.0.122.tar.gz
+[2024-04-29 11:48:44] INFO root fetch - processPackages [frequenz-api-electricity-trading]: Downloading https://files.pythonhosted.org/packages/ae/5a/7a9eea50b1e142acce3ace2e7d3513b12067d9bb968f34dd92a8bf535f87/frequenz-api-electricity-trading-0.2.0.tar.gz
+[2024-04-29 11:48:44] INFO root fetch - processPackages [codedepot-git-ai]: Downloading https://files.pythonhosted.org/packages/75/a0/d0e8b138cccd8f61da86fd40d4a8266353af6b5bfed4b3be48a89b58d840/codedepot_git_ai-0.0.8.tar.gz
+[2024-04-29 11:48:44] INFO root fetch - processPackages [zodchy]: Downloading https://files.pythonhosted.org/packages/ef/92/40c973657610e30e859a75013bfec0e0dfa36878aeff710e3d1a8ccd80f8/zodchy-0.2.1.tar.gz
+[2024-04-29 11:48:44] INFO root fetch - processPackages [frontengine]: Downloading https://files.pythonhosted.org/packages/a5/8e/4bb92b2db27649b96b46469f263e2fdd091c8283ff06a24534624c34be9d/frontengine-0.0.9.tar.gz
+[2024-04-29 11:48:44] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/bd/40/ac58f5e1633b3b2ea3574839a03ddc6a124459f3e721986a4208fbe06488/frontengine_dev-0.0.9.tar.gz
+[2024-04-29 11:48:45] INFO root fetch - processPackages [LinguAligner]: Downloading https://files.pythonhosted.org/packages/73/fb/3cad932ad4847785cbae099a96fb2ae5367c5b788dac0deece75b60a9254/lingualigner-0.9.tar.gz
+[2024-04-29 11:48:45] INFO root fetch - processPackages [zodchy]: executing diffoscope
+[2024-04-29 11:48:45] INFO root fetch - processPackages [zodchy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zodchy-0.2.0.tar.gz tmp/zodchy-0.2.1.tar.gz --markdown 20240429/z/zodchy/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-29 11:48:45] INFO root fetch - processPackages [templated-setup]: Downloading https://files.pythonhosted.org/packages/80/1c/3833d4ce6f12d88c7f3da101ae67d192d56b586bd9f21457b6fd654df28e/templated_setup-0.6.tar.gz
+[2024-04-29 11:48:45] INFO root fetch - processPackages [py2docfx]: Downloading https://files.pythonhosted.org/packages/a1/23/acf3fe3a69cc7948d297d52790f51ce65532bf02e5a89325088ba671d59f/py2docfx-0.1.6.dev1710594-py3-none-any.whl
+[2024-04-29 11:48:45] INFO root fetch - processPackages [frontengine]: executing diffoscope
+[2024-04-29 11:48:45] INFO root fetch - processPackages [frontengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine-0.0.8.tar.gz tmp/frontengine-0.0.9.tar.gz --markdown 20240429/f/frontengine/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 11:48:45] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2024-04-29 11:48:45] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20240429/f/frontengine-dev/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 11:48:45] INFO root fetch - processPackages [LinguAligner]: executing diffoscope
+[2024-04-29 11:48:45] INFO root fetch - processPackages [LinguAligner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lingualigner-0.8.tar.gz tmp/lingualigner-0.9.tar.gz --markdown 20240429/L/LinguAligner/0.8-0.9/README.md --exclude *.pyd
+[2024-04-29 11:48:45] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/d9/7a/b1384ca92e6fc4ae17152a59269d42eb2774885a46ca7c409700e429bc49/mongodb_orm-0.0.123.tar.gz
+[2024-04-29 11:48:45] INFO root fetch - processPackages [petitRADTRANS]: Downloading https://files.pythonhosted.org/packages/5d/dc/88c2436295951956dea2e4344483ecd8b08784e835de1f6e4f4e248966a3/petitRADTRANS-2.7.7.tar.gz
+[2024-04-29 11:48:45] INFO root fetch - processPackages [templated-setup]: executing diffoscope
+[2024-04-29 11:48:45] INFO root fetch - processPackages [templated-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templated_setup-0.5.tar.gz tmp/templated_setup-0.6.tar.gz --markdown 20240429/t/templated-setup/0.5-0.6/README.md --exclude *.pyd
+[2024-04-29 11:48:45] INFO root fetch - processPackages [py2docfx]: executing diffoscope
+[2024-04-29 11:48:45] INFO root fetch - processPackages [py2docfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2docfx-0.1.5rc1710519-py3-none-any.whl.zip tmp/py2docfx-0.1.6.dev1710594-py3-none-any.whl.zip --markdown 20240429/p/py2docfx/0.1.5rc1710519-0.1.6.dev1710594/README.md --exclude *.pyd
+[2024-04-29 11:48:45] INFO root fetch - processPackages [codedepot-git-ai]: Downloading https://files.pythonhosted.org/packages/1f/fb/3fcdaf99d6434aada4ea578dd2a3d046376dcc888a968c197445c5dd195b/codedepot_git_ai-0.0.9.tar.gz
+[2024-04-29 11:48:45] INFO root fetch - processPackages [mongodb-orm]: executing diffoscope
+[2024-04-29 11:48:45] INFO root fetch - processPackages [mongodb-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_orm-0.0.122.tar.gz tmp/mongodb_orm-0.0.123.tar.gz --markdown 20240429/m/mongodb-orm/0.0.122-0.0.123/README.md --exclude *.pyd
+[2024-04-29 11:48:45] INFO root fetch - processPackages [petitRADTRANS]: executing diffoscope
+[2024-04-29 11:48:45] INFO root fetch - processPackages [petitRADTRANS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petitRADTRANS-2.7.6.tar.gz tmp/petitRADTRANS-2.7.7.tar.gz --markdown 20240429/p/petitRADTRANS/2.7.6-2.7.7/README.md --exclude *.pyd
+[2024-04-29 11:48:45] INFO root fetch - processPackages [codedepot-git-ai]: executing diffoscope
+[2024-04-29 11:48:45] INFO root fetch - processPackages [codedepot-git-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_git_ai-0.0.8.tar.gz tmp/codedepot_git_ai-0.0.9.tar.gz --markdown 20240429/c/codedepot-git-ai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 11:48:45] INFO root fetch - processPackages [frequenz-api-electricity-trading]: Downloading https://files.pythonhosted.org/packages/13/4b/07fb087c4fba396af8c5f2c55545a8b10be9a727b3098433cdc267eeadf9/frequenz-api-electricity-trading-0.2.1.tar.gz
+[2024-04-29 11:48:45] INFO root fetch - processPackages [zodchy]: Remove: archive file [/home/abi/fetcher/tmp/zodchy-0.2.0.tar.gz]
+[2024-04-29 11:48:45] INFO root fetch - processPackages [zodchy]: Remove: archive file [/home/abi/fetcher/tmp/zodchy-0.2.1.tar.gz]
+[2024-04-29 11:48:45] INFO root fetch - processPackages [zodchy]: Start processing: cosmoplots
+[2024-04-29 11:48:45] INFO root fetch - main [MainThread]: End processing [zodchy]: success
+[2024-04-29 11:48:46] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.8.tar.gz]
+[2024-04-29 11:48:46] INFO root fetch - processPackages [frontengine]: Remove: archive file [/home/abi/fetcher/tmp/frontengine-0.0.9.tar.gz]
+[2024-04-29 11:48:46] INFO root fetch - processPackages [frontengine]: Start processing: pyslth
+[2024-04-29 11:48:46] INFO root fetch - main [MainThread]: End processing [frontengine]: success
+[2024-04-29 11:48:46] INFO root fetch - processPackages [pyslth]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 11:48:46] INFO root fetch - processPackages [cosmoplots]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-29 11:48:46] INFO root fetch - processPackages [LinguAligner]: Remove: archive file [/home/abi/fetcher/tmp/lingualigner-0.8.tar.gz]
+[2024-04-29 11:48:46] INFO root fetch - processPackages [LinguAligner]: Remove: archive file [/home/abi/fetcher/tmp/lingualigner-0.9.tar.gz]
+[2024-04-29 11:48:46] INFO root fetch - main [MainThread]: End processing [LinguAligner]: success
+[2024-04-29 11:48:46] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/c6/50/382555cac978540706a041de3e116c8a29ba2fee123d883e9487e4b6a327/pyslth-0.1.8.tar.gz
+[2024-04-29 11:48:46] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.0.122.tar.gz]
+[2024-04-29 11:48:46] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.0.123.tar.gz]
+[2024-04-29 11:48:46] INFO root fetch - main [MainThread]: End processing [mongodb-orm]: success
+[2024-04-29 11:48:46] INFO root fetch - processPackages [codedepot-git-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_git_ai-0.0.8.tar.gz]
+[2024-04-29 11:48:46] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.5.tar.gz]
+[2024-04-29 11:48:46] INFO root fetch - processPackages [codedepot-git-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_git_ai-0.0.9.tar.gz]
+[2024-04-29 11:48:46] INFO root fetch - processPackages [templated-setup]: Remove: archive file [/home/abi/fetcher/tmp/templated_setup-0.6.tar.gz]
+[2024-04-29 11:48:46] INFO root fetch - main [MainThread]: End processing [codedepot-git-ai]: success
+[2024-04-29 11:48:46] INFO root fetch - main [MainThread]: End processing [templated-setup]: success
+[2024-04-29 11:48:46] INFO root fetch - processPackages [cosmoplots]: Downloading https://files.pythonhosted.org/packages/e4/6c/3d7f15931103910db2be91155e0dfbf96b68140c50002d7de04b6af93713/cosmoplots-0.3.0.tar.gz
+[2024-04-29 11:48:46] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.8.tar.gz]
+[2024-04-29 11:48:46] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.9.tar.gz]
+[2024-04-29 11:48:46] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2024-04-29 11:48:46] INFO root fetch - processPackages [frequenz-api-electricity-trading]: executing diffoscope
+[2024-04-29 11:48:46] INFO root fetch - processPackages [frequenz-api-electricity-trading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequenz-api-electricity-trading-0.2.0.tar.gz tmp/frequenz-api-electricity-trading-0.2.1.tar.gz --markdown 20240429/f/frequenz-api-electricity-trading/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-29 11:48:46] INFO root fetch - processPackages [petitRADTRANS]: Remove: archive file [/home/abi/fetcher/tmp/petitRADTRANS-2.7.6.tar.gz]
+[2024-04-29 11:48:46] INFO root fetch - processPackages [petitRADTRANS]: Remove: archive file [/home/abi/fetcher/tmp/petitRADTRANS-2.7.7.tar.gz]
+[2024-04-29 11:48:46] INFO root fetch - main [MainThread]: End processing [petitRADTRANS]: success
+[2024-04-29 11:48:46] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.5rc1710519-py3-none-any.whl.zip]
+[2024-04-29 11:48:46] INFO root fetch - processPackages [py2docfx]: Remove: archive file [/home/abi/fetcher/tmp/py2docfx-0.1.6.dev1710594-py3-none-any.whl.zip]
+[2024-04-29 11:48:46] INFO root fetch - main [MainThread]: End processing [py2docfx]: success
+[2024-04-29 11:48:46] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/19/46/0f33dba113733a821d778e80ca401f2443b0dc0819462faf6ac74e632acb/pyslth-0.1.9.tar.gz
+[2024-04-29 11:48:46] INFO root fetch - processPackages [cosmoplots]: Downloading https://files.pythonhosted.org/packages/b7/42/8b9229577cc68c08d2e2e7e5d0119689ae3d610fc64d6a39efdd2807580d/cosmoplots-0.3.1.tar.gz
+[2024-04-29 11:48:46] INFO root fetch - processPackages [cosmoplots]: executing diffoscope
+[2024-04-29 11:48:46] INFO root fetch - processPackages [cosmoplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmoplots-0.3.0.tar.gz tmp/cosmoplots-0.3.1.tar.gz --markdown 20240429/c/cosmoplots/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-29 11:48:46] INFO root fetch - processPackages [pyslth]: executing diffoscope
+[2024-04-29 11:48:46] INFO root fetch - processPackages [pyslth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyslth-0.1.8.tar.gz tmp/pyslth-0.1.9.tar.gz --markdown 20240429/p/pyslth/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 11:48:47] INFO root fetch - processPackages [cosmoplots]: Remove: archive file [/home/abi/fetcher/tmp/cosmoplots-0.3.0.tar.gz]
+[2024-04-29 11:48:47] INFO root fetch - processPackages [cosmoplots]: Remove: archive file [/home/abi/fetcher/tmp/cosmoplots-0.3.1.tar.gz]
+[2024-04-29 11:48:47] INFO root fetch - main [MainThread]: End processing [cosmoplots]: success
+[2024-04-29 11:48:48] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.1.8.tar.gz]
+[2024-04-29 11:48:48] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.1.9.tar.gz]
+[2024-04-29 11:48:48] INFO root fetch - main [MainThread]: End processing [pyslth]: success
+[2024-04-29 11:49:45] INFO root fetch - processPackages [frequenz-api-electricity-trading]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-api-electricity-trading-0.2.0.tar.gz]
+[2024-04-29 11:49:45] INFO root fetch - processPackages [frequenz-api-electricity-trading]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-api-electricity-trading-0.2.1.tar.gz]
+[2024-04-29 11:49:45] INFO root fetch - main [MainThread]: End processing [frequenz-api-electricity-trading]: success
+[2024-04-29 11:49:45] INFO root fetch - main [MainThread]: Store serial: [22981632]
