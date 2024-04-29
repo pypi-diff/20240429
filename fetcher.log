@@ -1784,3 +1784,18 @@
 [2024-04-29 02:38:51] INFO root fetch - processPackages [mo-kwargs]: Remove: archive file [/home/abi/fetcher/tmp/mo_kwargs-7.611.24120.tar.gz]
 [2024-04-29 02:38:51] INFO root fetch - main [MainThread]: End processing [mo-kwargs]: success
 [2024-04-29 02:38:51] INFO root fetch - main [MainThread]: Store serial: [22971920]
+[2024-04-29 02:40:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971920]
+[2024-04-29 02:41:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-29 02:41:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: labequipment
+[2024-04-29 02:41:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mo-math
+[2024-04-29 02:41:00] WARNING root fetch - processPackages [labequipment]: Skipping, unable to determine old version
+[2024-04-29 02:41:00] INFO root fetch - main [MainThread]: End processing [labequipment] error
+[2024-04-29 02:41:00] INFO root fetch - processPackages [mo-math]: New version: [7.611.24120] Old Version: [7.606.24115]
+[2024-04-29 02:41:00] INFO root fetch - processPackages [mo-math]: Downloading https://files.pythonhosted.org/packages/94/4b/fdf6217c7286648e1fdf50a088485a08b34ae421adea2cf06967fdf56e77/mo_math-7.606.24115.tar.gz
+[2024-04-29 02:41:01] INFO root fetch - processPackages [mo-math]: Downloading https://files.pythonhosted.org/packages/b7/ee/1b295a1e538881024d6b9c3835fc8b436b39b37311e2ed7c7aa10d064144/mo_math-7.611.24120.tar.gz
+[2024-04-29 02:41:01] INFO root fetch - processPackages [mo-math]: executing diffoscope
+[2024-04-29 02:41:01] INFO root fetch - processPackages [mo-math]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_math-7.606.24115.tar.gz tmp/mo_math-7.611.24120.tar.gz --markdown 20240429/m/mo-math/7.606.24115-7.611.24120/README.md --exclude *.pyd
+[2024-04-29 02:41:01] INFO root fetch - processPackages [mo-math]: Remove: archive file [/home/abi/fetcher/tmp/mo_math-7.606.24115.tar.gz]
+[2024-04-29 02:41:01] INFO root fetch - processPackages [mo-math]: Remove: archive file [/home/abi/fetcher/tmp/mo_math-7.611.24120.tar.gz]
+[2024-04-29 02:41:01] INFO root fetch - main [MainThread]: End processing [mo-math]: success
+[2024-04-29 02:41:01] INFO root fetch - main [MainThread]: Store serial: [22971926]
