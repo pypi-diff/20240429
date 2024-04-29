@@ -12617,3 +12617,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 10:44:06] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1515-py3-none-any.whl.zip]
 [2024-04-29 10:44:06] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-04-29 10:44:06] INFO root fetch - main [MainThread]: Store serial: [22980748]
+[2024-04-29 10:46:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980748]
+[2024-04-29 10:46:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-29 10:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phringe
+[2024-04-29 10:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bank2ynab-limdingwen
+[2024-04-29 10:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrsistent-extras
+[2024-04-29 10:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quickstart-vdk
+[2024-04-29 10:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cesm
+[2024-04-29 10:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: subsurface
+[2024-04-29 10:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rov-collector
+[2024-04-29 10:46:15] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-29 10:46:15] INFO root fetch - processPackages [rov-collector]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-29 10:46:15] INFO root fetch - processPackages [subsurface]: New version: [2024.1.0] Old Version: [0.2.9]
+[2024-04-29 10:46:15] INFO root fetch - processPackages [cesm]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-29 10:46:15] WARNING root fetch - processPackages [bank2ynab-limdingwen]: Skipping, unable to determine old version
+[2024-04-29 10:46:15] INFO root fetch - processPackages [pyrsistent-extras]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-29 10:46:15] INFO root fetch - main [MainThread]: End processing [bank2ynab-limdingwen] error
+[2024-04-29 10:46:15] INFO root fetch - processPackages [phringe]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 10:46:15] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-29 10:46:15] INFO root fetch - processPackages [cesm]: Downloading https://files.pythonhosted.org/packages/cb/5d/e703210bd1fc5cd73e4919e7fb52e9183ff9d3a4e3070417d0144fd2d67d/cesm-0.0.6.tar.gz
+[2024-04-29 10:46:15] INFO root fetch - processPackages [phringe]: Downloading https://files.pythonhosted.org/packages/7a/6c/f071cba50885da2c0c38dd2f65e60b0b1a3d428c2bf4acc7a24115009243/phringe-0.0.8.tar.gz
+[2024-04-29 10:46:15] INFO root fetch - processPackages [pyrsistent-extras]: Downloading https://files.pythonhosted.org/packages/54/34/08f2975f8691625bbc06f002627cf2058e69e802e015251861018c9df9e3/pyrsistent-extras-0.1.0.tar.gz
+[2024-04-29 10:46:15] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-29 10:46:15] INFO root fetch - processPackages [rov-collector]: Downloading https://files.pythonhosted.org/packages/25/87/9002a978cc503676caf27875f54ddcd8febf84bce43d5b693f5a223bed75/rov_collector-1.1.5.tar.gz
+[2024-04-29 10:46:15] INFO root fetch - processPackages [subsurface]: Downloading https://files.pythonhosted.org/packages/31/d3/f95adf222b695ddd2b14161222f8dd68ad4213912ae3a8c58e4b9a8d7ed7/subsurface-0.2.9.tar.gz
+[2024-04-29 10:46:15] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-29 10:46:15] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240429/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-04-29 10:46:15] INFO root fetch - processPackages [cesm]: Downloading https://files.pythonhosted.org/packages/24/1a/9e6f19df4c7dd8a5844cc8f86e0cd765c6bfd06557389114185e0853630f/cesm-0.0.7.tar.gz
+[2024-04-29 10:46:15] INFO root fetch - processPackages [pyrsistent-extras]: Downloading https://files.pythonhosted.org/packages/77/33/a9564bcc441eb62c974ca556a31d7428f0e6b03098916186388f9ce6ee49/pyrsistent-extras-0.1.1.tar.gz
+[2024-04-29 10:46:15] INFO root fetch - processPackages [phringe]: Downloading https://files.pythonhosted.org/packages/a9/3f/4fae0af86d9be225260c4afd1c1b74017765456017b0dd091b57adba093b/phringe-0.0.9.tar.gz
+[2024-04-29 10:46:16] INFO root fetch - processPackages [rov-collector]: Downloading https://files.pythonhosted.org/packages/cf/04/5af06ca36c9c41d8f5af57dcde0f8574bfc63965b61094b2fdb2103735ed/rov_collector-1.1.6.tar.gz
+[2024-04-29 10:46:16] INFO root fetch - processPackages [cesm]: executing diffoscope
+[2024-04-29 10:46:16] INFO root fetch - processPackages [cesm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cesm-0.0.6.tar.gz tmp/cesm-0.0.7.tar.gz --markdown 20240429/c/cesm/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-29 10:46:16] INFO root fetch - processPackages [phringe]: executing diffoscope
+[2024-04-29 10:46:16] INFO root fetch - processPackages [phringe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phringe-0.0.8.tar.gz tmp/phringe-0.0.9.tar.gz --markdown 20240429/p/phringe/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 10:46:16] INFO root fetch - processPackages [pyrsistent-extras]: executing diffoscope
+[2024-04-29 10:46:16] INFO root fetch - processPackages [pyrsistent-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrsistent-extras-0.1.0.tar.gz tmp/pyrsistent-extras-0.1.1.tar.gz --markdown 20240429/p/pyrsistent-extras/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-29 10:46:16] INFO root fetch - processPackages [subsurface]: Downloading https://files.pythonhosted.org/packages/70/30/a718821685661b42cbbe3407c9a8607bba83c66b97a79e0607ba10f16fca/subsurface-2024.1.0.tar.gz
+[2024-04-29 10:46:16] INFO root fetch - processPackages [rov-collector]: executing diffoscope
+[2024-04-29 10:46:16] INFO root fetch - processPackages [rov-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rov_collector-1.1.5.tar.gz tmp/rov_collector-1.1.6.tar.gz --markdown 20240429/r/rov-collector/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-04-29 10:46:16] INFO root fetch - processPackages [subsurface]: executing diffoscope
+[2024-04-29 10:46:16] INFO root fetch - processPackages [subsurface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subsurface-0.2.9.tar.gz tmp/subsurface-2024.1.0.tar.gz --markdown 20240429/s/subsurface/0.2.9-2024.1.0/README.md --exclude *.pyd
+[2024-04-29 10:46:16] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-29 10:46:16] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-29 10:46:16] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-29 10:46:16] INFO root fetch - processPackages [cesm]: Remove: archive file [/home/abi/fetcher/tmp/cesm-0.0.6.tar.gz]
+[2024-04-29 10:46:16] INFO root fetch - processPackages [cesm]: Remove: archive file [/home/abi/fetcher/tmp/cesm-0.0.7.tar.gz]
+[2024-04-29 10:46:16] INFO root fetch - main [MainThread]: End processing [cesm]: success
+[2024-04-29 10:46:16] INFO root fetch - processPackages [rov-collector]: Remove: archive file [/home/abi/fetcher/tmp/rov_collector-1.1.5.tar.gz]
+[2024-04-29 10:46:16] INFO root fetch - processPackages [rov-collector]: Remove: archive file [/home/abi/fetcher/tmp/rov_collector-1.1.6.tar.gz]
+[2024-04-29 10:46:16] INFO root fetch - main [MainThread]: End processing [rov-collector]: success
+[2024-04-29 10:46:16] INFO root fetch - processPackages [pyrsistent-extras]: Remove: archive file [/home/abi/fetcher/tmp/pyrsistent-extras-0.1.0.tar.gz]
+[2024-04-29 10:46:16] INFO root fetch - processPackages [pyrsistent-extras]: Remove: archive file [/home/abi/fetcher/tmp/pyrsistent-extras-0.1.1.tar.gz]
+[2024-04-29 10:46:16] INFO root fetch - main [MainThread]: End processing [pyrsistent-extras]: success
+[2024-04-29 10:46:17] INFO root fetch - processPackages [phringe]: Remove: archive file [/home/abi/fetcher/tmp/phringe-0.0.8.tar.gz]
+[2024-04-29 10:46:17] INFO root fetch - processPackages [phringe]: Remove: archive file [/home/abi/fetcher/tmp/phringe-0.0.9.tar.gz]
+[2024-04-29 10:46:17] INFO root fetch - main [MainThread]: End processing [phringe]: success
+[2024-04-29 10:46:17] INFO root fetch - processPackages [subsurface]: Remove: archive file [/home/abi/fetcher/tmp/subsurface-0.2.9.tar.gz]
+[2024-04-29 10:46:17] INFO root fetch - processPackages [subsurface]: Remove: archive file [/home/abi/fetcher/tmp/subsurface-2024.1.0.tar.gz]
+[2024-04-29 10:46:17] INFO root fetch - main [MainThread]: End processing [subsurface]: success
+[2024-04-29 10:46:17] INFO root fetch - main [MainThread]: Store serial: [22980801]
