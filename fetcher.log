@@ -10403,3 +10403,33 @@
 [2024-04-29 09:01:41] INFO root fetch - processPackages [bpm-ai-core]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai_core-2.6.0.tar.gz]
 [2024-04-29 09:01:41] INFO root fetch - main [MainThread]: End processing [bpm-ai-core]: success
 [2024-04-29 09:01:41] INFO root fetch - main [MainThread]: Store serial: [22979754]
+[2024-04-29 09:03:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979754]
+[2024-04-29 09:03:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 09:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webviewpy
+[2024-04-29 09:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seqio-nightly
+[2024-04-29 09:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: loopquest
+[2024-04-29 09:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pykan
+[2024-04-29 09:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inspect-py
+[2024-04-29 09:03:51] WARNING root fetch - processPackages [webviewpy]: Skipping, unable to determine old version
+[2024-04-29 09:03:51] INFO root fetch - main [MainThread]: End processing [webviewpy] error
+[2024-04-29 09:03:51] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2024-04-29 09:03:51] INFO root fetch - processPackages [loopquest]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-29 09:03:51] WARNING root fetch - processPackages [pykan]: Skipping, unable to determine old version
+[2024-04-29 09:03:51] INFO root fetch - main [MainThread]: End processing [pykan] error
+[2024-04-29 09:03:51] WARNING root fetch - processPackages [inspect-py]: Skipping, unable to determine old version
+[2024-04-29 09:03:51] INFO root fetch - main [MainThread]: End processing [inspect-py] error
+[2024-04-29 09:03:51] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2024-04-29 09:03:51] INFO root fetch - processPackages [loopquest]: Downloading https://files.pythonhosted.org/packages/73/c4/d9e34b768efccdce8b2f277c14bb30ab5febc3ca183e8807a00278621fb7/loopquest-0.1.9.tar.gz
+[2024-04-29 09:03:51] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2024-04-29 09:03:51] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2024-04-29 09:03:51] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20240429/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/README.md --exclude *.pyd
+[2024-04-29 09:03:52] INFO root fetch - processPackages [loopquest]: Downloading https://files.pythonhosted.org/packages/6e/91/ed557936f2f369235d61527a2429b38cceb119d2c6f8b7c0c1925f30c800/loopquest-0.2.0.tar.gz
+[2024-04-29 09:03:52] INFO root fetch - processPackages [loopquest]: executing diffoscope
+[2024-04-29 09:03:52] INFO root fetch - processPackages [loopquest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loopquest-0.1.9.tar.gz tmp/loopquest-0.2.0.tar.gz --markdown 20240429/l/loopquest/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-29 09:03:52] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2024-04-29 09:03:52] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2024-04-29 09:03:52] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2024-04-29 09:03:52] INFO root fetch - processPackages [loopquest]: Remove: archive file [/home/abi/fetcher/tmp/loopquest-0.1.9.tar.gz]
+[2024-04-29 09:03:52] INFO root fetch - processPackages [loopquest]: Remove: archive file [/home/abi/fetcher/tmp/loopquest-0.2.0.tar.gz]
+[2024-04-29 09:03:52] INFO root fetch - main [MainThread]: End processing [loopquest]: success
+[2024-04-29 09:03:52] INFO root fetch - main [MainThread]: Store serial: [22979778]
