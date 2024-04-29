@@ -13418,3 +13418,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 11:11:00] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
 [2024-04-29 11:11:00] INFO root fetch - main [MainThread]: End processing [capellambse]: success
 [2024-04-29 11:11:00] INFO root fetch - main [MainThread]: Store serial: [22981138]
+[2024-04-29 11:13:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22981138]
+[2024-04-29 11:13:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 11:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: socket.d
+[2024-04-29 11:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xi-mzidentml-converter
+[2024-04-29 11:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pimsclient
+[2024-04-29 11:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dolphie
+[2024-04-29 11:13:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: era-5g-relay-network-application
+[2024-04-29 11:13:10] INFO root fetch - processPackages [xi-mzidentml-converter]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-04-29 11:13:10] INFO root fetch - processPackages [socket.d]: New version: [2.4.13] Old Version: [2.4.12]
+[2024-04-29 11:13:10] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/b6/4d/bf3e0be0cead76311426586cab8766be6ddb0564dc18fb467bb051580a0f/socket.d-2.4.12.tar.gz
+[2024-04-29 11:13:10] INFO root fetch - processPackages [era-5g-relay-network-application]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-29 11:13:10] INFO root fetch - processPackages [dolphie]: New version: [5.0.1] Old Version: [5.0.0]
+[2024-04-29 11:13:10] INFO root fetch - processPackages [pimsclient]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-04-29 11:13:10] INFO root fetch - processPackages [xi-mzidentml-converter]: Downloading https://files.pythonhosted.org/packages/28/0a/9480b05778a6b1f45e2cf7247a442ed3c572b2532795d1844f8963cf7f68/xi-mzidentml-converter-0.1.7.tar.gz
+[2024-04-29 11:13:10] INFO root fetch - processPackages [pimsclient]: Downloading https://files.pythonhosted.org/packages/4b/1c/2014146757e7c90376ab3043ea67376cb1dbd1862fe665f2919b060c1b6c/pimsclient-2.0.2.tar.gz
+[2024-04-29 11:13:10] INFO root fetch - processPackages [era-5g-relay-network-application]: Downloading https://files.pythonhosted.org/packages/64/d6/6d1525850c54f93b28c5d6ed3b3ef90fa996e684e59a3ed200ce4c9daa70/era_5g_relay_network_application-1.3.0.tar.gz
+[2024-04-29 11:13:10] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/5b/ec/6cf89506934e4ea6436e7a3c6f02c8f9d1f44954e80b5317a12160b9ade2/socket.d-2.4.13.tar.gz
+[2024-04-29 11:13:10] INFO root fetch - processPackages [xi-mzidentml-converter]: Downloading https://files.pythonhosted.org/packages/e0/43/70d669ba87d1a4353f3f88e7c0ca551d5b27b3085e7c3b20adde029eceef/xi-mzidentml-converter-0.1.9.tar.gz
+[2024-04-29 11:13:10] INFO root fetch - processPackages [dolphie]: Downloading https://files.pythonhosted.org/packages/54/e5/b0ddf45e478c278214acff7b21d26758e0bf8bf06eea9883f2d78a4df37e/dolphie-5.0.0.tar.gz
+[2024-04-29 11:13:10] INFO root fetch - processPackages [socket.d]: executing diffoscope
+[2024-04-29 11:13:10] INFO root fetch - processPackages [socket.d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socket.d-2.4.12.tar.gz tmp/socket.d-2.4.13.tar.gz --markdown 20240429/s/socket.d/2.4.12-2.4.13/README.md --exclude *.pyd
+[2024-04-29 11:13:10] INFO root fetch - processPackages [xi-mzidentml-converter]: executing diffoscope
+[2024-04-29 11:13:10] INFO root fetch - processPackages [xi-mzidentml-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xi-mzidentml-converter-0.1.7.tar.gz tmp/xi-mzidentml-converter-0.1.9.tar.gz --markdown 20240429/x/xi-mzidentml-converter/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-04-29 11:13:10] INFO root fetch - processPackages [pimsclient]: Downloading https://files.pythonhosted.org/packages/4c/79/0a2e7eddbd923a4aab1fb08a19933d7c977c93d7f7672bb59800028500fc/pimsclient-2.0.3.tar.gz
+[2024-04-29 11:13:10] INFO root fetch - processPackages [dolphie]: Downloading https://files.pythonhosted.org/packages/ed/3a/321824c6cfd3ff12be53116e1f2c263217dd090af9d9fc6d998dc4f50fef/dolphie-5.0.1.tar.gz
+[2024-04-29 11:13:10] INFO root fetch - processPackages [era-5g-relay-network-application]: Downloading https://files.pythonhosted.org/packages/1f/2e/d8b1b03a0f4f89bddbee44a903c0b0326a7a8d1ad452523a60768129b1ba/era_5g_relay_network_application-1.4.0.tar.gz
+[2024-04-29 11:13:11] INFO root fetch - processPackages [pimsclient]: executing diffoscope
+[2024-04-29 11:13:11] INFO root fetch - processPackages [pimsclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pimsclient-2.0.2.tar.gz tmp/pimsclient-2.0.3.tar.gz --markdown 20240429/p/pimsclient/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-04-29 11:13:11] INFO root fetch - processPackages [era-5g-relay-network-application]: executing diffoscope
+[2024-04-29 11:13:11] INFO root fetch - processPackages [era-5g-relay-network-application]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/era_5g_relay_network_application-1.3.0.tar.gz tmp/era_5g_relay_network_application-1.4.0.tar.gz --markdown 20240429/e/era-5g-relay-network-application/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-04-29 11:13:11] INFO root fetch - processPackages [dolphie]: executing diffoscope
+[2024-04-29 11:13:11] INFO root fetch - processPackages [dolphie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolphie-5.0.0.tar.gz tmp/dolphie-5.0.1.tar.gz --markdown 20240429/d/dolphie/5.0.0-5.0.1/README.md --exclude *.pyd
+[2024-04-29 11:13:11] INFO root fetch - processPackages [xi-mzidentml-converter]: Remove: archive file [/home/abi/fetcher/tmp/xi-mzidentml-converter-0.1.7.tar.gz]
+[2024-04-29 11:13:11] INFO root fetch - processPackages [xi-mzidentml-converter]: Remove: archive file [/home/abi/fetcher/tmp/xi-mzidentml-converter-0.1.9.tar.gz]
+[2024-04-29 11:13:11] INFO root fetch - main [MainThread]: End processing [xi-mzidentml-converter]: success
+[2024-04-29 11:13:11] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.12.tar.gz]
+[2024-04-29 11:13:11] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.13.tar.gz]
+[2024-04-29 11:13:11] INFO root fetch - main [MainThread]: End processing [socket.d]: success
+[2024-04-29 11:13:11] INFO root fetch - processPackages [pimsclient]: Remove: archive file [/home/abi/fetcher/tmp/pimsclient-2.0.2.tar.gz]
+[2024-04-29 11:13:11] INFO root fetch - processPackages [pimsclient]: Remove: archive file [/home/abi/fetcher/tmp/pimsclient-2.0.3.tar.gz]
+[2024-04-29 11:13:11] INFO root fetch - main [MainThread]: End processing [pimsclient]: success
+[2024-04-29 11:13:11] INFO root fetch - processPackages [era-5g-relay-network-application]: Remove: archive file [/home/abi/fetcher/tmp/era_5g_relay_network_application-1.3.0.tar.gz]
+[2024-04-29 11:13:11] INFO root fetch - processPackages [era-5g-relay-network-application]: Remove: archive file [/home/abi/fetcher/tmp/era_5g_relay_network_application-1.4.0.tar.gz]
+[2024-04-29 11:13:11] INFO root fetch - main [MainThread]: End processing [era-5g-relay-network-application]: success
+[2024-04-29 11:13:11] INFO root fetch - processPackages [dolphie]: Remove: archive file [/home/abi/fetcher/tmp/dolphie-5.0.0.tar.gz]
+[2024-04-29 11:13:11] INFO root fetch - processPackages [dolphie]: Remove: archive file [/home/abi/fetcher/tmp/dolphie-5.0.1.tar.gz]
+[2024-04-29 11:13:11] INFO root fetch - main [MainThread]: End processing [dolphie]: success
+[2024-04-29 11:13:11] INFO root fetch - main [MainThread]: Store serial: [22981160]
