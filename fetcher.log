@@ -11875,3 +11875,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 10:07:52] INFO root fetch - processPackages [fractal-tasks-core]: Remove: archive file [/home/abi/fetcher/tmp/fractal_tasks_core-1.0.0a3.tar.gz]
 [2024-04-29 10:07:52] INFO root fetch - main [MainThread]: End processing [fractal-tasks-core]: success
 [2024-04-29 10:07:52] INFO root fetch - main [MainThread]: Store serial: [22980409]
+[2024-04-29 10:09:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980409]
+[2024-04-29 10:10:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-29 10:10:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyglove
+[2024-04-29 10:10:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybankid
+[2024-04-29 10:10:01] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240428] Old Version: [0.4.5.dev20240427]
+[2024-04-29 10:10:02] INFO root fetch - processPackages [pybankid]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-29 10:10:02] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/40/92/289c7823b7eadf720fd03bf051ab8b805928824ec26a27705526d1d4539a/pyglove-0.4.5.dev20240427-py3-none-any.whl
+[2024-04-29 10:10:02] INFO root fetch - processPackages [pybankid]: Downloading https://files.pythonhosted.org/packages/b2/e4/0d7008ad11d98006cb7107efbc3fb0e21a073264e19270014a0ec6c5416e/pybankid-1.1.0.tar.gz
+[2024-04-29 10:10:02] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/ee/29/add85438d48279d1b7587982b48ef30086bdb63504e4fa1907ec89d1974d/pyglove-0.4.5.dev20240428.tar.gz
+[2024-04-29 10:10:02] INFO root fetch - processPackages [pybankid]: Downloading https://files.pythonhosted.org/packages/10/40/259326ac310861f2838bdee10320ec707f2d3bbef1e832fe76c37c1b7e8f/pybankid-1.2.0.tar.gz
+[2024-04-29 10:10:02] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-04-29 10:10:02] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240427-py3-none-any.whl.zip tmp/pyglove-0.4.5.dev20240428.tar.gz --markdown 20240429/p/pyglove/0.4.5.dev20240427-0.4.5.dev20240428/README.md --exclude *.pyd
+[2024-04-29 10:10:02] INFO root fetch - processPackages [pybankid]: executing diffoscope
+[2024-04-29 10:10:02] INFO root fetch - processPackages [pybankid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybankid-1.1.0.tar.gz tmp/pybankid-1.2.0.tar.gz --markdown 20240429/p/pybankid/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-29 10:10:03] INFO root fetch - processPackages [pybankid]: Remove: archive file [/home/abi/fetcher/tmp/pybankid-1.1.0.tar.gz]
+[2024-04-29 10:10:03] INFO root fetch - processPackages [pybankid]: Remove: archive file [/home/abi/fetcher/tmp/pybankid-1.2.0.tar.gz]
+[2024-04-29 10:10:03] INFO root fetch - main [MainThread]: End processing [pybankid]: success
+[2024-04-29 10:10:03] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240427-py3-none-any.whl.zip]
+[2024-04-29 10:10:03] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240428.tar.gz]
+[2024-04-29 10:10:03] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-04-29 10:10:03] INFO root fetch - main [MainThread]: Store serial: [22980418]
