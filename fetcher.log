@@ -2238,3 +2238,132 @@
 [2024-04-29 02:56:47] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Controls.Primitives]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Microsoft.UI.Xaml.Controls.Primitives-2.0.1-cp311-cp311-win_arm64.whl.zip]
 [2024-04-29 02:56:47] INFO root fetch - main [MainThread]: End processing [winrt-Microsoft.UI.Xaml.Controls.Primitives]: success
 [2024-04-29 02:56:47] INFO root fetch - main [MainThread]: Store serial: [22972329]
+[2024-04-29 02:58:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22972329]
+[2024-04-29 02:58:56] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-04-29 02:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: winrt-Microsoft.UI.Xaml.Data
+[2024-04-29 02:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: winrt-Microsoft.UI.Xaml.Documents
+[2024-04-29 02:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: came-domotic-unofficial
+[2024-04-29 02:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: winrt-Microsoft.UI.Xaml.Hosting
+[2024-04-29 02:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: winrt-Microsoft.UI.Xaml.Input
+[2024-04-29 02:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: socket.d
+[2024-04-29 02:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: winrt-Microsoft.UI.Xaml.Interop
+[2024-04-29 02:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pycde
+[2024-04-29 02:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: winrt-Microsoft.UI.Xaml.Markup
+[2024-04-29 02:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: winrt-Microsoft.UI.Xaml.Media
+[2024-04-29 02:58:57] INFO root fetch - processPackages [came-domotic-unofficial]: New version: [1.0.0rc9] Old Version: [1.0.0rc8]
+[2024-04-29 02:58:57] INFO root fetch - processPackages [came-domotic-unofficial]: Downloading https://files.pythonhosted.org/packages/56/db/a922ffb6c60188e7d3784dd620aef483ad4c07acc9d385fa43d16dcadfdf/came_domotic_unofficial-1.0.0rc8.tar.gz
+[2024-04-29 02:58:57] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Markup]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 02:58:57] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Data]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 02:58:57] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Hosting]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 02:58:57] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Documents]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 02:58:57] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Interop]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 02:58:57] INFO root fetch - processPackages [socket.d]: New version: [2.4.13] Old Version: [2.4.12]
+[2024-04-29 02:58:57] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Media]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 02:58:57] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Input]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 02:58:57] INFO root fetch - processPackages [pycde]: New version: [0.3.1.dev915] Old Version: [0.3.1.dev901]
+[2024-04-29 02:58:57] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/b6/4d/bf3e0be0cead76311426586cab8766be6ddb0564dc18fb467bb051580a0f/socket.d-2.4.12.tar.gz
+[2024-04-29 02:58:57] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Markup]: Downloading https://files.pythonhosted.org/packages/dd/47/04318bc26657fb183d1d3d1e064a23e76201a300fccbacb1f43825cf7543/winrt-Microsoft.UI.Xaml.Markup-2.0.0b2.tar.gz
+[2024-04-29 02:58:57] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Data]: Downloading https://files.pythonhosted.org/packages/f9/93/7e232a43853c3c13b45dba74cc8aa83970a542957ffa04e90425ef66d1b7/winrt-Microsoft.UI.Xaml.Data-2.0.0b2.tar.gz
+[2024-04-29 02:58:57] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Documents]: Downloading https://files.pythonhosted.org/packages/78/42/141a8aa187769bb29dbab1bc8027949aa877e6d5ee6daaf328a96163450a/winrt-Microsoft.UI.Xaml.Documents-2.0.0b2.tar.gz
+[2024-04-29 02:58:57] INFO root fetch - processPackages [came-domotic-unofficial]: Downloading https://files.pythonhosted.org/packages/ae/ac/35cd80b06275e61fcac0172400a0f72d904ae61a3d5ef631cecdcfab7d52/came_domotic_unofficial-1.0.0rc9.tar.gz
+[2024-04-29 02:58:57] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Hosting]: Downloading https://files.pythonhosted.org/packages/35/8d/7cbaf4f23b45ca4a90973c1828c31b3972e8cb2007b29a9641f1aff4c765/winrt-Microsoft.UI.Xaml.Hosting-2.0.0b2.tar.gz
+[2024-04-29 02:58:57] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Interop]: Downloading https://files.pythonhosted.org/packages/39/da/cabf29aa9edaa9841d8dd276488e32f9b719a7260d56e6dfd6c5df8dc999/winrt-Microsoft.UI.Xaml.Interop-2.0.0b2.tar.gz
+[2024-04-29 02:58:57] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Input]: Downloading https://files.pythonhosted.org/packages/af/21/c7f24542782bdb205cdca1ef89446a536c5622f16782c6a441964b0df3f6/winrt-Microsoft.UI.Xaml.Input-2.0.0b2.tar.gz
+[2024-04-29 02:58:57] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Media]: Downloading https://files.pythonhosted.org/packages/da/a7/4b7b87ca3ea702d66f58e758929fdcc33f357e4a3edcb5e5a5f2314b60ba/winrt-Microsoft.UI.Xaml.Media-2.0.0b2.tar.gz
+[2024-04-29 02:58:57] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/86/33/6ebce866059a95db1c802cd4aec988f0574eb04a8ba63034bb22d52cf3a8/pycde-0.3.1.dev901-cp39-cp39-win_amd64.whl
+[2024-04-29 02:58:57] INFO root fetch - processPackages [came-domotic-unofficial]: executing diffoscope
+[2024-04-29 02:58:57] INFO root fetch - processPackages [came-domotic-unofficial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/came_domotic_unofficial-1.0.0rc8.tar.gz tmp/came_domotic_unofficial-1.0.0rc9.tar.gz --markdown 20240429/c/came-domotic-unofficial/1.0.0rc8-1.0.0rc9/README.md --exclude *.pyd
+[2024-04-29 02:58:57] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/5b/ec/6cf89506934e4ea6436e7a3c6f02c8f9d1f44954e80b5317a12160b9ade2/socket.d-2.4.13.tar.gz
+[2024-04-29 02:58:57] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Markup]: Downloading https://files.pythonhosted.org/packages/30/09/818e7d5f49478b900a7ad914c7f902322be3390220de51db3f291259c5b4/winrt_Microsoft.UI.Xaml.Markup-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 02:58:57] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Data]: Downloading https://files.pythonhosted.org/packages/88/a2/0db7818904204921e12a5359ea74fa34285954f9b7be270aa2b0016778e8/winrt_Microsoft.UI.Xaml.Data-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 02:58:57] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Documents]: Downloading https://files.pythonhosted.org/packages/87/c5/6668d24bca99d8c4e5315209e6e6bc79f3e9a68b659f9cf884d9ac481d2e/winrt_Microsoft.UI.Xaml.Documents-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 02:58:57] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Hosting]: Downloading https://files.pythonhosted.org/packages/0d/ef/b295510ae3d93f6548c6177e6f0622e84ea6df27c7be90f579aed54c1336/winrt_Microsoft.UI.Xaml.Hosting-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 02:58:58] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Input]: Downloading https://files.pythonhosted.org/packages/0c/87/dc9b90acda5aa6a9a4838922f57ffe2bbaef7f9d48133f6ebe1ce5cae46e/winrt_Microsoft.UI.Xaml.Input-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 02:58:58] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Interop]: Downloading https://files.pythonhosted.org/packages/37/59/c98f76303be4d533c7238c76fbc39989188dc8d7a9feaee6870dab020dc3/winrt_Microsoft.UI.Xaml.Interop-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 02:58:58] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Media]: Downloading https://files.pythonhosted.org/packages/02/9c/d89e59e2a6608fa29ce194428c00e09910b9cb8a18670860e4a15d0b58f1/winrt_Microsoft.UI.Xaml.Media-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 02:58:58] INFO root fetch - processPackages [socket.d]: executing diffoscope
+[2024-04-29 02:58:58] INFO root fetch - processPackages [socket.d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socket.d-2.4.12.tar.gz tmp/socket.d-2.4.13.tar.gz --markdown 20240429/s/socket.d/2.4.12-2.4.13/README.md --exclude *.pyd
+[2024-04-29 02:58:58] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Markup]: executing diffoscope
+[2024-04-29 02:58:58] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Markup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Microsoft.UI.Xaml.Markup-2.0.0b2.tar.gz tmp/winrt_Microsoft.UI.Xaml.Markup-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Microsoft.UI.Xaml.Markup/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 02:58:58] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Data]: executing diffoscope
+[2024-04-29 02:58:58] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Microsoft.UI.Xaml.Data-2.0.0b2.tar.gz tmp/winrt_Microsoft.UI.Xaml.Data-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Microsoft.UI.Xaml.Data/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 02:58:58] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Hosting]: executing diffoscope
+[2024-04-29 02:58:58] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Hosting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Microsoft.UI.Xaml.Hosting-2.0.0b2.tar.gz tmp/winrt_Microsoft.UI.Xaml.Hosting-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Microsoft.UI.Xaml.Hosting/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 02:58:58] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Documents]: executing diffoscope
+[2024-04-29 02:58:58] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Documents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Microsoft.UI.Xaml.Documents-2.0.0b2.tar.gz tmp/winrt_Microsoft.UI.Xaml.Documents-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Microsoft.UI.Xaml.Documents/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 02:58:58] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Interop]: executing diffoscope
+[2024-04-29 02:58:58] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Interop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Microsoft.UI.Xaml.Interop-2.0.0b2.tar.gz tmp/winrt_Microsoft.UI.Xaml.Interop-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Microsoft.UI.Xaml.Interop/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 02:58:58] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Input]: executing diffoscope
+[2024-04-29 02:58:58] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Input]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Microsoft.UI.Xaml.Input-2.0.0b2.tar.gz tmp/winrt_Microsoft.UI.Xaml.Input-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Microsoft.UI.Xaml.Input/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 02:58:58] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Media]: executing diffoscope
+[2024-04-29 02:58:58] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Media]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Microsoft.UI.Xaml.Media-2.0.0b2.tar.gz tmp/winrt_Microsoft.UI.Xaml.Media-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Microsoft.UI.Xaml.Media/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 02:58:58] INFO root fetch - processPackages [came-domotic-unofficial]: Remove: archive file [/home/abi/fetcher/tmp/came_domotic_unofficial-1.0.0rc8.tar.gz]
+[2024-04-29 02:58:58] INFO root fetch - processPackages [came-domotic-unofficial]: Remove: archive file [/home/abi/fetcher/tmp/came_domotic_unofficial-1.0.0rc9.tar.gz]
+[2024-04-29 02:58:58] INFO root fetch - processPackages [came-domotic-unofficial]: Start processing: autopipeline
+[2024-04-29 02:58:58] INFO root fetch - main [MainThread]: End processing [came-domotic-unofficial]: success
+[2024-04-29 02:58:58] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-29 02:58:58] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-04-29 02:58:58] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-04-29 02:58:59] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-04-29 02:58:59] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240429/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-29 02:58:59] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Data]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Microsoft.UI.Xaml.Data-2.0.0b2.tar.gz]
+[2024-04-29 02:58:59] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Data]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Microsoft.UI.Xaml.Data-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 02:58:59] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Data]: Start processing: rgtestpython
+[2024-04-29 02:58:59] INFO root fetch - main [MainThread]: End processing [winrt-Microsoft.UI.Xaml.Data]: success
+[2024-04-29 02:58:59] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Input]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Microsoft.UI.Xaml.Input-2.0.0b2.tar.gz]
+[2024-04-29 02:58:59] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Input]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Microsoft.UI.Xaml.Input-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 02:58:59] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Input]: Start processing: winrt-Microsoft.UI.Xaml.Media.Animation
+[2024-04-29 02:58:59] INFO root fetch - main [MainThread]: End processing [winrt-Microsoft.UI.Xaml.Input]: success
+[2024-04-29 02:58:59] WARNING root fetch - processPackages [rgtestpython]: Skipping, unable to determine old version
+[2024-04-29 02:58:59] INFO root fetch - processPackages [rgtestpython]: Start processing: winrt-Microsoft.UI.Xaml.Media.Imaging
+[2024-04-29 02:58:59] INFO root fetch - main [MainThread]: End processing [rgtestpython] error
+[2024-04-29 02:58:59] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Markup]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Microsoft.UI.Xaml.Markup-2.0.0b2.tar.gz]
+[2024-04-29 02:58:59] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Markup]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Microsoft.UI.Xaml.Markup-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 02:58:59] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Markup]: Start processing: passive-honeypot
+[2024-04-29 02:58:59] INFO root fetch - main [MainThread]: End processing [winrt-Microsoft.UI.Xaml.Markup]: success
+[2024-04-29 02:58:59] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Documents]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Microsoft.UI.Xaml.Documents-2.0.0b2.tar.gz]
+[2024-04-29 02:58:59] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Documents]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Microsoft.UI.Xaml.Documents-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 02:58:59] INFO root fetch - main [MainThread]: End processing [winrt-Microsoft.UI.Xaml.Documents]: success
+[2024-04-29 02:58:59] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Hosting]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Microsoft.UI.Xaml.Hosting-2.0.0b2.tar.gz]
+[2024-04-29 02:58:59] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Hosting]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Microsoft.UI.Xaml.Hosting-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 02:58:59] INFO root fetch - processPackages [passive-honeypot]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-29 02:58:59] INFO root fetch - main [MainThread]: End processing [winrt-Microsoft.UI.Xaml.Hosting]: success
+[2024-04-29 02:58:59] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Media]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Microsoft.UI.Xaml.Media-2.0.0b2.tar.gz]
+[2024-04-29 02:58:59] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Media]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Microsoft.UI.Xaml.Media-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 02:58:59] INFO root fetch - main [MainThread]: End processing [winrt-Microsoft.UI.Xaml.Media]: success
+[2024-04-29 02:58:59] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Media.Imaging]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 02:58:59] INFO root fetch - processPackages [passive-honeypot]: Downloading https://files.pythonhosted.org/packages/57/bc/f68e561d7c429c4bbbadd830aad8af3ded24f76c14baffb48a9f5e8cd601/passive_honeypot-0.1.5.tar.gz
+[2024-04-29 02:58:59] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.12.tar.gz]
+[2024-04-29 02:58:59] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.13.tar.gz]
+[2024-04-29 02:58:59] INFO root fetch - main [MainThread]: End processing [socket.d]: success
+[2024-04-29 02:58:59] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Media.Animation]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 02:58:59] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Interop]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Microsoft.UI.Xaml.Interop-2.0.0b2.tar.gz]
+[2024-04-29 02:58:59] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Interop]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Microsoft.UI.Xaml.Interop-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 02:58:59] INFO root fetch - main [MainThread]: End processing [winrt-Microsoft.UI.Xaml.Interop]: success
+[2024-04-29 02:58:59] INFO root fetch - processPackages [passive-honeypot]: Downloading https://files.pythonhosted.org/packages/9c/1f/fc86669c74005ee864a2fddd741d573fe2ac1ebddbfaeed26ffab03009b5/passive_honeypot-0.1.6.tar.gz
+[2024-04-29 02:58:59] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Media.Imaging]: Downloading https://files.pythonhosted.org/packages/4f/79/de34df9b72516c8f811a725a4713898b21580d830b815d192819b127a66f/winrt-Microsoft.UI.Xaml.Media.Imaging-2.0.0b2.tar.gz
+[2024-04-29 02:58:59] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Media.Animation]: Downloading https://files.pythonhosted.org/packages/b8/b7/2bc5f28a04a2b5b8e31d7b9994367cd20d79b5e24ea946323dbe7464d4c9/winrt-Microsoft.UI.Xaml.Media.Animation-2.0.0b2.tar.gz
+[2024-04-29 02:58:59] INFO root fetch - processPackages [passive-honeypot]: executing diffoscope
+[2024-04-29 02:58:59] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-04-29 02:58:59] INFO root fetch - processPackages [passive-honeypot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passive_honeypot-0.1.5.tar.gz tmp/passive_honeypot-0.1.6.tar.gz --markdown 20240429/p/passive-honeypot/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-29 02:58:59] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-04-29 02:58:59] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-04-29 02:58:59] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Media.Imaging]: Downloading https://files.pythonhosted.org/packages/97/7d/b9a2b1265c46d315b04e32845a73616528ec4779343d1784027da3a0d9ff/winrt_Microsoft.UI.Xaml.Media.Imaging-2.0.1-cp311-cp311-win32.whl
+[2024-04-29 02:58:59] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Media.Animation]: Downloading https://files.pythonhosted.org/packages/bd/8a/326a44b893fc248dcdd08cba8c58fbb377266fba7cf78687a6ef9e820bfa/winrt_Microsoft.UI.Xaml.Media.Animation-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 02:59:00] INFO root fetch - processPackages [passive-honeypot]: Remove: archive file [/home/abi/fetcher/tmp/passive_honeypot-0.1.5.tar.gz]
+[2024-04-29 02:59:00] INFO root fetch - processPackages [passive-honeypot]: Remove: archive file [/home/abi/fetcher/tmp/passive_honeypot-0.1.6.tar.gz]
+[2024-04-29 02:59:00] INFO root fetch - main [MainThread]: End processing [passive-honeypot]: success
+[2024-04-29 02:59:00] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Media.Animation]: executing diffoscope
+[2024-04-29 02:59:00] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Media.Animation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Microsoft.UI.Xaml.Media.Animation-2.0.0b2.tar.gz tmp/winrt_Microsoft.UI.Xaml.Media.Animation-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Microsoft.UI.Xaml.Media.Animation/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 02:59:00] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Media.Imaging]: executing diffoscope
+[2024-04-29 02:59:00] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Media.Imaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Microsoft.UI.Xaml.Media.Imaging-2.0.0b2.tar.gz tmp/winrt_Microsoft.UI.Xaml.Media.Imaging-2.0.1-cp311-cp311-win32.whl.zip --markdown 20240429/w/winrt-Microsoft.UI.Xaml.Media.Imaging/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 02:59:00] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Media.Animation]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Microsoft.UI.Xaml.Media.Animation-2.0.0b2.tar.gz]
+[2024-04-29 02:59:00] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Media.Animation]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Microsoft.UI.Xaml.Media.Animation-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 02:59:00] INFO root fetch - main [MainThread]: End processing [winrt-Microsoft.UI.Xaml.Media.Animation]: success
+[2024-04-29 02:59:01] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Media.Imaging]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Microsoft.UI.Xaml.Media.Imaging-2.0.0b2.tar.gz]
+[2024-04-29 02:59:01] INFO root fetch - processPackages [winrt-Microsoft.UI.Xaml.Media.Imaging]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Microsoft.UI.Xaml.Media.Imaging-2.0.1-cp311-cp311-win32.whl.zip]
+[2024-04-29 02:59:01] INFO root fetch - main [MainThread]: End processing [winrt-Microsoft.UI.Xaml.Media.Imaging]: success
+[2024-04-29 02:59:04] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/c3/eb/bcd7d42c3ea6b3106922707d0257520eaaa6d6cfc6c12b9ea2cea5b5fac0/pycde-0.3.1.dev915-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-29 02:59:04] WARNING root fetch - processPackages [pycde]: Skipping package: exceeds size limit 21445186>=10485760
+[2024-04-29 02:59:04] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2024-04-29 02:59:04] INFO root fetch - main [MainThread]: Store serial: [22972455]
