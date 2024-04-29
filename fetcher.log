@@ -13484,3 +13484,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 11:15:21] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
 [2024-04-29 11:15:22] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2024-04-29 11:15:22] INFO root fetch - main [MainThread]: Store serial: [22981231]
+[2024-04-29 11:17:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22981231]
+[2024-04-29 11:17:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 11:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sbcli-jm
+[2024-04-29 11:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: haskellian
+[2024-04-29 11:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dealcloud-sdk
+[2024-04-29 11:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: collective.feedback
+[2024-04-29 11:17:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tbp-nightly
+[2024-04-29 11:17:31] INFO root fetch - processPackages [dealcloud-sdk]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-29 11:17:31] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2024-04-29 11:17:31] INFO root fetch - processPackages [haskellian]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-29 11:17:31] INFO root fetch - processPackages [sbcli-jm]: New version: [4.1.0] Old Version: [4.0.9]
+[2024-04-29 11:17:31] INFO root fetch - processPackages [collective.feedback]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-29 11:17:31] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2024-04-29 11:17:31] INFO root fetch - processPackages [dealcloud-sdk]: Downloading https://files.pythonhosted.org/packages/e0/73/318e45e1f5288620d614a167f3223148ce55013495a2c127bac56eed9879/dealcloud_sdk-0.1.0.tar.gz
+[2024-04-29 11:17:31] INFO root fetch - processPackages [sbcli-jm]: Downloading https://files.pythonhosted.org/packages/de/e8/3703685148c040331fe9911e56d30f81c99bc7f95e3668af7f6b3411bb5e/sbcli_jm-4.0.9.zip
+[2024-04-29 11:17:31] INFO root fetch - processPackages [haskellian]: Downloading https://files.pythonhosted.org/packages/db/6c/0cdc593830d9100fe25525ec6686c93e0284c0c2dec1bd9a6f2756850f4c/haskellian-0.3.8.tar.gz
+[2024-04-29 11:17:31] INFO root fetch - processPackages [collective.feedback]: Downloading https://files.pythonhosted.org/packages/be/f5/31d7537d141f4ac9ea7617486efa2138ae02e01f7b300b6ae9d83dfdbe38/collective.feedback-1.1.2.tar.gz
+[2024-04-29 11:17:31] INFO root fetch - processPackages [dealcloud-sdk]: Downloading https://files.pythonhosted.org/packages/7a/cd/874c8f525f4890edf7dd4b14ab72b2016dd801b9ed0fa554742e217c1c28/dealcloud_sdk-0.1.1.tar.gz
+[2024-04-29 11:17:31] INFO root fetch - processPackages [haskellian]: Downloading https://files.pythonhosted.org/packages/03/2b/ba04bf61c6d93413248fa1d1286dad3fe5fa7835df534f02230b764ad6e3/haskellian-0.3.9.tar.gz
+[2024-04-29 11:17:31] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2024-04-29 11:17:31] INFO root fetch - processPackages [sbcli-jm]: Downloading https://files.pythonhosted.org/packages/c8/2b/d74baecf3913c1c7417f84863f4273f736e29b8f670e2ff6eefebe847c2d/sbcli_jm-4.1.0.zip
+[2024-04-29 11:17:31] INFO root fetch - processPackages [collective.feedback]: Downloading https://files.pythonhosted.org/packages/b3/6b/de9b4752bc3fd1c338f2f4919b0027c34cff40435f3f608f6051dfe08704/collective.feedback-1.1.3.tar.gz
+[2024-04-29 11:17:32] INFO root fetch - processPackages [haskellian]: executing diffoscope
+[2024-04-29 11:17:32] INFO root fetch - processPackages [haskellian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haskellian-0.3.8.tar.gz tmp/haskellian-0.3.9.tar.gz --markdown 20240429/h/haskellian/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-29 11:17:32] INFO root fetch - processPackages [dealcloud-sdk]: executing diffoscope
+[2024-04-29 11:17:32] INFO root fetch - processPackages [dealcloud-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dealcloud_sdk-0.1.0.tar.gz tmp/dealcloud_sdk-0.1.1.tar.gz --markdown 20240429/d/dealcloud-sdk/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-29 11:17:32] INFO root fetch - processPackages [collective.feedback]: executing diffoscope
+[2024-04-29 11:17:32] INFO root fetch - processPackages [collective.feedback]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.feedback-1.1.2.tar.gz tmp/collective.feedback-1.1.3.tar.gz --markdown 20240429/c/collective.feedback/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-04-29 11:17:32] INFO root fetch - processPackages [sbcli-jm]: executing diffoscope
+[2024-04-29 11:17:32] INFO root fetch - processPackages [sbcli-jm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_jm-4.0.9.zip tmp/sbcli_jm-4.1.0.zip --markdown 20240429/s/sbcli-jm/4.0.9-4.1.0/README.md --exclude *.pyd
+[2024-04-29 11:17:32] INFO root fetch - processPackages [haskellian]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-0.3.8.tar.gz]
+[2024-04-29 11:17:32] INFO root fetch - processPackages [haskellian]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-0.3.9.tar.gz]
+[2024-04-29 11:17:32] INFO root fetch - main [MainThread]: End processing [haskellian]: success
+[2024-04-29 11:17:32] INFO root fetch - processPackages [collective.feedback]: Remove: archive file [/home/abi/fetcher/tmp/collective.feedback-1.1.2.tar.gz]
+[2024-04-29 11:17:32] INFO root fetch - processPackages [collective.feedback]: Remove: archive file [/home/abi/fetcher/tmp/collective.feedback-1.1.3.tar.gz]
+[2024-04-29 11:17:32] INFO root fetch - main [MainThread]: End processing [collective.feedback]: success
+[2024-04-29 11:17:32] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2024-04-29 11:17:32] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20240429/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/README.md --exclude *.pyd
+[2024-04-29 11:17:32] INFO root fetch - processPackages [dealcloud-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dealcloud_sdk-0.1.0.tar.gz]
+[2024-04-29 11:17:32] INFO root fetch - processPackages [dealcloud-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dealcloud_sdk-0.1.1.tar.gz]
+[2024-04-29 11:17:32] INFO root fetch - main [MainThread]: End processing [dealcloud-sdk]: success
+[2024-04-29 11:17:33] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_jm-4.0.9.zip]
+[2024-04-29 11:17:33] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_jm-4.1.0.zip]
+[2024-04-29 11:17:33] INFO root fetch - main [MainThread]: End processing [sbcli-jm]: success
+[2024-04-29 11:17:34] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2024-04-29 11:17:34] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2024-04-29 11:17:34] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2024-04-29 11:17:34] INFO root fetch - main [MainThread]: Store serial: [22981256]
