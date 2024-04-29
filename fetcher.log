@@ -19535,3 +19535,156 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 14:52:51] INFO root fetch - processPackages [odp-sdk-python-ingest]: Remove: archive file [/home/abi/fetcher/tmp/odp_sdk_python_ingest-0.4.9.tar.gz]
 [2024-04-29 14:52:51] INFO root fetch - main [MainThread]: End processing [odp-sdk-python-ingest]: success
 [2024-04-29 14:52:51] INFO root fetch - main [MainThread]: Store serial: [22983650]
+[2024-04-29 14:54:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22983650]
+[2024-04-29 14:55:00] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2024-04-29 14:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: senpy-sensei
+[2024-04-29 14:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-environment-config
+[2024-04-29 14:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: keyphrase-vectorizers
+[2024-04-29 14:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cost-monitoring-construct
+[2024-04-29 14:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fse-baro
+[2024-04-29 14:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cognitrix
+[2024-04-29 14:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cuda-mock
+[2024-04-29 14:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lektor-fixedlang
+[2024-04-29 14:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: OpenGeodeWeb-Back
+[2024-04-29 14:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: DataExtractorOEG
+[2024-04-29 14:55:00] INFO root fetch - processPackages [django-environment-config]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-29 14:55:00] INFO root fetch - processPackages [DataExtractorOEG]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-29 14:55:00] INFO root fetch - processPackages [fse-baro]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-29 14:55:00] INFO root fetch - processPackages [keyphrase-vectorizers]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 14:55:00] INFO root fetch - processPackages [senpy-sensei]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-29 14:55:00] INFO root fetch - processPackages [cognitrix]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-29 14:55:00] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/57/1d/816f2017516ca1c5b90dcb4d87e187f0e6831bf3b31726c4dd822982ef2c/dataextractoroeg-0.3.4.tar.gz
+[2024-04-29 14:55:00] INFO root fetch - processPackages [lektor-fixedlang]: New version: [0.3] Old Version: [0.2]
+[2024-04-29 14:55:00] INFO root fetch - processPackages [cost-monitoring-construct]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-04-29 14:55:00] INFO root fetch - processPackages [fse-baro]: Downloading https://files.pythonhosted.org/packages/71/47/5e16993df33f5aa48838f55408072fa4ed20a2098c4e909ae3096648327e/fse_baro-0.1.3.tar.gz
+[2024-04-29 14:55:00] INFO root fetch - processPackages [cuda-mock]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-29 14:55:00] INFO root fetch - processPackages [cognitrix]: Downloading https://files.pythonhosted.org/packages/85/6f/8c18c79713ec993684e08e27e85ee500a73f31f73d27c739f073a456dd5c/cognitrix-0.2.1.tar.gz
+[2024-04-29 14:55:00] INFO root fetch - processPackages [OpenGeodeWeb-Back]: New version: [4.1.0rc1] Old Version: [4.0.0rc1]
+[2024-04-29 14:55:00] INFO root fetch - processPackages [django-environment-config]: Downloading https://files.pythonhosted.org/packages/2a/50/86aa928c8f0a3fa695979962137689650f824271b66076ae9d452cc765a3/django_environment_config-0.0.2.tar.gz
+[2024-04-29 14:55:00] INFO root fetch - processPackages [keyphrase-vectorizers]: Downloading https://files.pythonhosted.org/packages/5d/0e/5f45221a319a39da07d0522370ffeb188ecf62d265de45939b95f84b4cc7/keyphrase-vectorizers-0.0.8.tar.gz
+[2024-04-29 14:55:00] INFO root fetch - processPackages [senpy-sensei]: Downloading https://files.pythonhosted.org/packages/9d/49/34b186347aa7a00639609d15c8a84e2b1ea0f8dc31b0bf8e3137939edc2a/senpy_sensei-1.3.0-py3-none-any.whl
+[2024-04-29 14:55:01] INFO root fetch - processPackages [lektor-fixedlang]: Downloading https://files.pythonhosted.org/packages/3b/8f/621ce3eb7e07fdca2d2ece37bc0eb028f49e17b5eece9a8f8c75d7d77783/lektor-fixedlang-0.2.tar.gz
+[2024-04-29 14:55:01] INFO root fetch - processPackages [cost-monitoring-construct]: Downloading https://files.pythonhosted.org/packages/88/7c/b25d48ff4c4eef65847ea6d992438631c1a668eb1e6f703b69bf7a6248e6/cost-monitoring-construct-1.1.2.tar.gz
+[2024-04-29 14:55:01] INFO root fetch - processPackages [cuda-mock]: Downloading https://files.pythonhosted.org/packages/7c/53/411137458555cd6bee96166d316ab742197c5a5aea64072a0ef22d9b33c9/cuda-mock-0.1.7.tar.gz
+[2024-04-29 14:55:01] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Downloading https://files.pythonhosted.org/packages/33/29/42fddb8d419c7db0573b5cc32b11d666122c78b33e0f3cb4d75c559dc062/OpenGeodeWeb-Back-4.0.0rc1.tar.gz
+[2024-04-29 14:55:01] INFO root fetch - processPackages [cognitrix]: Downloading https://files.pythonhosted.org/packages/d3/b0/542aced332c3b254f37ace18db9db2126d0bd74e4300cfd65bd15258f657/cognitrix-0.2.2.tar.gz
+[2024-04-29 14:55:01] INFO root fetch - processPackages [fse-baro]: Downloading https://files.pythonhosted.org/packages/bd/af/736c4e8afa7f9bcc9f2d0a40d18c4a17423ab20320434f06f6312cac26c6/fse_baro-0.1.4.tar.gz
+[2024-04-29 14:55:01] INFO root fetch - processPackages [django-environment-config]: Downloading https://files.pythonhosted.org/packages/14/5f/41324796d5f2c5ffeaed382df690063d9252d291e0b629d2f1078ca85eb7/django_environment_config-0.0.3.tar.gz
+[2024-04-29 14:55:01] INFO root fetch - processPackages [cognitrix]: executing diffoscope
+[2024-04-29 14:55:01] INFO root fetch - processPackages [cognitrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognitrix-0.2.1.tar.gz tmp/cognitrix-0.2.2.tar.gz --markdown 20240429/c/cognitrix/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-29 14:55:01] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/eb/9b/68ddec2286ace28a14720d299071ec7ea4379ed3fc3ff457054e0de73341/dataextractoroeg-0.3.5.tar.gz
+[2024-04-29 14:55:01] INFO root fetch - processPackages [senpy-sensei]: Downloading https://files.pythonhosted.org/packages/18/59/66ca6ab02c06cb8e299860daad3458a93360d559b051f951f32b29503fb0/senpy_sensei-1.3.1-py3-none-any.whl
+[2024-04-29 14:55:01] INFO root fetch - processPackages [keyphrase-vectorizers]: Downloading https://files.pythonhosted.org/packages/2b/f3/e15c6aaadb0a93a2a46362c88d0f222847333b6d0c346a3828112e30931a/keyphrase-vectorizers-0.0.9.tar.gz
+[2024-04-29 14:55:01] INFO root fetch - processPackages [fse-baro]: executing diffoscope
+[2024-04-29 14:55:01] INFO root fetch - processPackages [fse-baro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fse_baro-0.1.3.tar.gz tmp/fse_baro-0.1.4.tar.gz --markdown 20240429/f/fse-baro/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-29 14:55:01] INFO root fetch - processPackages [cost-monitoring-construct]: Downloading https://files.pythonhosted.org/packages/20/16/c1c34701b49a3cbdb07f7a0e1da9971e70dc0c3341a70861e1c922f3d7e8/cost-monitoring-construct-1.2.0.tar.gz
+[2024-04-29 14:55:01] INFO root fetch - processPackages [django-environment-config]: executing diffoscope
+[2024-04-29 14:55:01] INFO root fetch - processPackages [django-environment-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_environment_config-0.0.2.tar.gz tmp/django_environment_config-0.0.3.tar.gz --markdown 20240429/d/django-environment-config/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-29 14:55:01] INFO root fetch - processPackages [DataExtractorOEG]: executing diffoscope
+[2024-04-29 14:55:01] INFO root fetch - processPackages [DataExtractorOEG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataextractoroeg-0.3.4.tar.gz tmp/dataextractoroeg-0.3.5.tar.gz --markdown 20240429/D/DataExtractorOEG/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-04-29 14:55:01] INFO root fetch - processPackages [senpy-sensei]: executing diffoscope
+[2024-04-29 14:55:01] INFO root fetch - processPackages [senpy-sensei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/senpy_sensei-1.3.0-py3-none-any.whl.zip tmp/senpy_sensei-1.3.1-py3-none-any.whl.zip --markdown 20240429/s/senpy-sensei/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-04-29 14:55:01] INFO root fetch - processPackages [lektor-fixedlang]: Downloading https://files.pythonhosted.org/packages/2e/e0/1cddeb920940439cfea744bcf24fc1473d3445cfa132c810a4ad8990bec3/lektor_fixedlang-0.3.tar.gz
+[2024-04-29 14:55:01] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Downloading https://files.pythonhosted.org/packages/f6/e7/71a047a0a0a1624536ce0044f7031c603c59e3a8144b36570157dca13b82/opengeodeweb_back-4.1.0rc1.tar.gz
+[2024-04-29 14:55:01] INFO root fetch - processPackages [cuda-mock]: Downloading https://files.pythonhosted.org/packages/e5/22/af7de8063a248b5cdf4575a0636e7656020f2184b93fb1d763e6e3d0f9fb/cuda-mock-0.1.8.tar.gz
+[2024-04-29 14:55:01] INFO root fetch - processPackages [keyphrase-vectorizers]: executing diffoscope
+[2024-04-29 14:55:01] INFO root fetch - processPackages [keyphrase-vectorizers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyphrase-vectorizers-0.0.8.tar.gz tmp/keyphrase-vectorizers-0.0.9.tar.gz --markdown 20240429/k/keyphrase-vectorizers/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 14:55:01] INFO root fetch - processPackages [lektor-fixedlang]: executing diffoscope
+[2024-04-29 14:55:01] INFO root fetch - processPackages [lektor-fixedlang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lektor-fixedlang-0.2.tar.gz tmp/lektor_fixedlang-0.3.tar.gz --markdown 20240429/l/lektor-fixedlang/0.2-0.3/README.md --exclude *.pyd
+[2024-04-29 14:55:01] INFO root fetch - processPackages [cost-monitoring-construct]: executing diffoscope
+[2024-04-29 14:55:01] INFO root fetch - processPackages [cost-monitoring-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cost-monitoring-construct-1.1.2.tar.gz tmp/cost-monitoring-construct-1.2.0.tar.gz --markdown 20240429/c/cost-monitoring-construct/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-04-29 14:55:01] INFO root fetch - processPackages [OpenGeodeWeb-Back]: executing diffoscope
+[2024-04-29 14:55:01] INFO root fetch - processPackages [OpenGeodeWeb-Back]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeodeWeb-Back-4.0.0rc1.tar.gz tmp/opengeodeweb_back-4.1.0rc1.tar.gz --markdown 20240429/O/OpenGeodeWeb-Back/4.0.0rc1-4.1.0rc1/README.md --exclude *.pyd
+[2024-04-29 14:55:01] INFO root fetch - processPackages [cuda-mock]: executing diffoscope
+[2024-04-29 14:55:01] INFO root fetch - processPackages [cuda-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuda-mock-0.1.7.tar.gz tmp/cuda-mock-0.1.8.tar.gz --markdown 20240429/c/cuda-mock/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-29 14:55:02] INFO root fetch - processPackages [fse-baro]: Remove: archive file [/home/abi/fetcher/tmp/fse_baro-0.1.3.tar.gz]
+[2024-04-29 14:55:02] INFO root fetch - processPackages [fse-baro]: Remove: archive file [/home/abi/fetcher/tmp/fse_baro-0.1.4.tar.gz]
+[2024-04-29 14:55:02] INFO root fetch - processPackages [fse-baro]: Start processing: rainbow-lib
+[2024-04-29 14:55:02] INFO root fetch - main [MainThread]: End processing [fse-baro]: success
+[2024-04-29 14:55:02] INFO root fetch - processPackages [senpy-sensei]: Remove: archive file [/home/abi/fetcher/tmp/senpy_sensei-1.3.0-py3-none-any.whl.zip]
+[2024-04-29 14:55:02] INFO root fetch - processPackages [senpy-sensei]: Remove: archive file [/home/abi/fetcher/tmp/senpy_sensei-1.3.1-py3-none-any.whl.zip]
+[2024-04-29 14:55:02] INFO root fetch - processPackages [senpy-sensei]: Start processing: crypt-r
+[2024-04-29 14:55:02] INFO root fetch - main [MainThread]: End processing [senpy-sensei]: success
+[2024-04-29 14:55:02] WARNING root fetch - processPackages [rainbow-lib]: Skipping, unable to determine old version
+[2024-04-29 14:55:02] INFO root fetch - processPackages [rainbow-lib]: Start processing: g3tables
+[2024-04-29 14:55:02] INFO root fetch - main [MainThread]: End processing [rainbow-lib] error
+[2024-04-29 14:55:02] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.3.4.tar.gz]
+[2024-04-29 14:55:02] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.3.5.tar.gz]
+[2024-04-29 14:55:02] INFO root fetch - processPackages [cognitrix]: Remove: archive file [/home/abi/fetcher/tmp/cognitrix-0.2.1.tar.gz]
+[2024-04-29 14:55:02] INFO root fetch - processPackages [DataExtractorOEG]: Start processing: sphinxcontrib-budoux
+[2024-04-29 14:55:02] INFO root fetch - main [MainThread]: End processing [DataExtractorOEG]: success
+[2024-04-29 14:55:02] INFO root fetch - processPackages [cognitrix]: Remove: archive file [/home/abi/fetcher/tmp/cognitrix-0.2.2.tar.gz]
+[2024-04-29 14:55:02] INFO root fetch - processPackages [cognitrix]: Start processing: issx
+[2024-04-29 14:55:02] INFO root fetch - main [MainThread]: End processing [cognitrix]: success
+[2024-04-29 14:55:02] INFO root fetch - processPackages [crypt-r]: New version: [3.13.1] Old Version: [3.13.0]
+[2024-04-29 14:55:02] INFO root fetch - processPackages [lektor-fixedlang]: Remove: archive file [/home/abi/fetcher/tmp/lektor-fixedlang-0.2.tar.gz]
+[2024-04-29 14:55:02] INFO root fetch - processPackages [lektor-fixedlang]: Remove: archive file [/home/abi/fetcher/tmp/lektor_fixedlang-0.3.tar.gz]
+[2024-04-29 14:55:02] INFO root fetch - processPackages [lektor-fixedlang]: Start processing: watchdog-gevent
+[2024-04-29 14:55:02] INFO root fetch - main [MainThread]: End processing [lektor-fixedlang]: success
+[2024-04-29 14:55:02] INFO root fetch - processPackages [sphinxcontrib-budoux]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-29 14:55:02] INFO root fetch - processPackages [issx]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-29 14:55:02] INFO root fetch - processPackages [g3tables]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-29 14:55:02] INFO root fetch - processPackages [cuda-mock]: Remove: archive file [/home/abi/fetcher/tmp/cuda-mock-0.1.7.tar.gz]
+[2024-04-29 14:55:02] INFO root fetch - processPackages [cuda-mock]: Remove: archive file [/home/abi/fetcher/tmp/cuda-mock-0.1.8.tar.gz]
+[2024-04-29 14:55:02] INFO root fetch - processPackages [cuda-mock]: Start processing: qosst
+[2024-04-29 14:55:02] INFO root fetch - main [MainThread]: End processing [cuda-mock]: success
+[2024-04-29 14:55:02] INFO root fetch - processPackages [cost-monitoring-construct]: Remove: archive file [/home/abi/fetcher/tmp/cost-monitoring-construct-1.1.2.tar.gz]
+[2024-04-29 14:55:02] INFO root fetch - processPackages [cost-monitoring-construct]: Remove: archive file [/home/abi/fetcher/tmp/cost-monitoring-construct-1.2.0.tar.gz]
+[2024-04-29 14:55:02] INFO root fetch - processPackages [cost-monitoring-construct]: Start processing: medium-to-markdown-py
+[2024-04-29 14:55:02] INFO root fetch - main [MainThread]: End processing [cost-monitoring-construct]: success
+[2024-04-29 14:55:02] INFO root fetch - processPackages [watchdog-gevent]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-29 14:55:02] INFO root fetch - processPackages [medium-to-markdown-py]: New version: [1.1.0] Old Version: [1.0.5]
+[2024-04-29 14:55:02] INFO root fetch - processPackages [issx]: Downloading https://files.pythonhosted.org/packages/43/ad/fb1c962022a10b0416716197d5d3698e683c9abda4d8505b4d897a77fd97/issx-0.4.0.tar.gz
+[2024-04-29 14:55:02] INFO root fetch - processPackages [crypt-r]: Downloading https://files.pythonhosted.org/packages/98/23/b003cb47d6088be734a530a5544fc534d515898ab5ee06fb1b8b1e00012d/crypt_r-3.13.0.tar.gz
+[2024-04-29 14:55:02] INFO root fetch - processPackages [keyphrase-vectorizers]: Remove: archive file [/home/abi/fetcher/tmp/keyphrase-vectorizers-0.0.8.tar.gz]
+[2024-04-29 14:55:02] INFO root fetch - processPackages [keyphrase-vectorizers]: Remove: archive file [/home/abi/fetcher/tmp/keyphrase-vectorizers-0.0.9.tar.gz]
+[2024-04-29 14:55:02] INFO root fetch - main [MainThread]: End processing [keyphrase-vectorizers]: success
+[2024-04-29 14:55:02] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeodeWeb-Back-4.0.0rc1.tar.gz]
+[2024-04-29 14:55:02] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Remove: archive file [/home/abi/fetcher/tmp/opengeodeweb_back-4.1.0rc1.tar.gz]
+[2024-04-29 14:55:02] INFO root fetch - main [MainThread]: End processing [OpenGeodeWeb-Back]: success
+[2024-04-29 14:55:02] WARNING root fetch - processPackages [qosst]: Skipping, unable to determine old version
+[2024-04-29 14:55:02] INFO root fetch - main [MainThread]: End processing [qosst] error
+[2024-04-29 14:55:02] INFO root fetch - processPackages [watchdog-gevent]: Downloading https://files.pythonhosted.org/packages/b4/88/687ffc7eb981a3b1f0b0903902463a94e54747d7a27bf40d5cfdd31ec780/watchdog_gevent-0.1.1.tar.gz
+[2024-04-29 14:55:02] INFO root fetch - processPackages [sphinxcontrib-budoux]: Downloading https://files.pythonhosted.org/packages/2e/8c/f4b4d460ba6bcbecd8a9f4ae57404fb361d3a777d50acdf77b12b1bcfbcd/sphinxcontrib-budoux-0.1.5.tar.gz
+[2024-04-29 14:55:03] INFO root fetch - processPackages [g3tables]: Downloading https://files.pythonhosted.org/packages/7f/be/9ef49d947a9bc8cc41da67c11dba293ef29734afd9cbc3986f34d12a6e29/g3tables-0.1.2.tar.gz
+[2024-04-29 14:55:03] INFO root fetch - processPackages [django-environment-config]: Remove: archive file [/home/abi/fetcher/tmp/django_environment_config-0.0.2.tar.gz]
+[2024-04-29 14:55:03] INFO root fetch - processPackages [django-environment-config]: Remove: archive file [/home/abi/fetcher/tmp/django_environment_config-0.0.3.tar.gz]
+[2024-04-29 14:55:03] INFO root fetch - main [MainThread]: End processing [django-environment-config]: success
+[2024-04-29 14:55:03] INFO root fetch - processPackages [medium-to-markdown-py]: Downloading https://files.pythonhosted.org/packages/36/c0/4145db26cd6abd64672b24b94d83c89a9b6203f6b5b64f48098c1057afbf/medium_to_markdown_py-1.0.5.tar.gz
+[2024-04-29 14:55:03] INFO root fetch - processPackages [issx]: Downloading https://files.pythonhosted.org/packages/29/0e/09624d9cc69fbcb60bf463176957f990a026a8ff14430679b605d73a9674/issx-0.5.0.tar.gz
+[2024-04-29 14:55:03] INFO root fetch - processPackages [crypt-r]: Downloading https://files.pythonhosted.org/packages/18/ec/23c7745f9e8fae4ee0309aa2220258902e35a01bcace636223150e00bee8/crypt_r-3.13.1.tar.gz
+[2024-04-29 14:55:03] INFO root fetch - processPackages [issx]: executing diffoscope
+[2024-04-29 14:55:03] INFO root fetch - processPackages [issx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/issx-0.4.0.tar.gz tmp/issx-0.5.0.tar.gz --markdown 20240429/i/issx/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-29 14:55:03] INFO root fetch - processPackages [watchdog-gevent]: Downloading https://files.pythonhosted.org/packages/0d/41/de16e0afe0e21c8c046866c1492650d3f4c8476fbd6aa0cf5c688ea3f1c1/watchdog_gevent-0.2.0.tar.gz
+[2024-04-29 14:55:03] INFO root fetch - processPackages [crypt-r]: executing diffoscope
+[2024-04-29 14:55:03] INFO root fetch - processPackages [crypt-r]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypt_r-3.13.0.tar.gz tmp/crypt_r-3.13.1.tar.gz --markdown 20240429/c/crypt-r/3.13.0-3.13.1/README.md --exclude *.pyd
+[2024-04-29 14:55:03] INFO root fetch - processPackages [sphinxcontrib-budoux]: Downloading https://files.pythonhosted.org/packages/2c/05/4555ac1200141da49dc0e7b1cc0fe117851f4de6866064aafa940f11d2a4/sphinxcontrib_budoux-0.1.6.tar.gz
+[2024-04-29 14:55:03] INFO root fetch - processPackages [g3tables]: Downloading https://files.pythonhosted.org/packages/03/21/a98bc9532f4f99a1a98403711825e627b276db29da0b2b124dcd92030de4/g3tables-0.2.0.tar.gz
+[2024-04-29 14:55:03] INFO root fetch - processPackages [watchdog-gevent]: executing diffoscope
+[2024-04-29 14:55:03] INFO root fetch - processPackages [watchdog-gevent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchdog_gevent-0.1.1.tar.gz tmp/watchdog_gevent-0.2.0.tar.gz --markdown 20240429/w/watchdog-gevent/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-04-29 14:55:03] INFO root fetch - processPackages [g3tables]: executing diffoscope
+[2024-04-29 14:55:03] INFO root fetch - processPackages [g3tables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g3tables-0.1.2.tar.gz tmp/g3tables-0.2.0.tar.gz --markdown 20240429/g/g3tables/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-04-29 14:55:03] INFO root fetch - processPackages [medium-to-markdown-py]: Downloading https://files.pythonhosted.org/packages/d3/6b/5166ed2da78b614a9745f91ebae66b352645994acd02c6a9a50ccca6ad38/medium_to_markdown_py-1.1.0.tar.gz
+[2024-04-29 14:55:03] INFO root fetch - processPackages [sphinxcontrib-budoux]: executing diffoscope
+[2024-04-29 14:55:03] INFO root fetch - processPackages [sphinxcontrib-budoux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib-budoux-0.1.5.tar.gz tmp/sphinxcontrib_budoux-0.1.6.tar.gz --markdown 20240429/s/sphinxcontrib-budoux/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-29 14:55:03] INFO root fetch - processPackages [medium-to-markdown-py]: executing diffoscope
+[2024-04-29 14:55:03] INFO root fetch - processPackages [medium-to-markdown-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medium_to_markdown_py-1.0.5.tar.gz tmp/medium_to_markdown_py-1.1.0.tar.gz --markdown 20240429/m/medium-to-markdown-py/1.0.5-1.1.0/README.md --exclude *.pyd
+[2024-04-29 14:55:03] INFO root fetch - processPackages [issx]: Remove: archive file [/home/abi/fetcher/tmp/issx-0.4.0.tar.gz]
+[2024-04-29 14:55:03] INFO root fetch - processPackages [issx]: Remove: archive file [/home/abi/fetcher/tmp/issx-0.5.0.tar.gz]
+[2024-04-29 14:55:03] INFO root fetch - main [MainThread]: End processing [issx]: success
+[2024-04-29 14:55:04] INFO root fetch - processPackages [crypt-r]: Remove: archive file [/home/abi/fetcher/tmp/crypt_r-3.13.0.tar.gz]
+[2024-04-29 14:55:04] INFO root fetch - processPackages [crypt-r]: Remove: archive file [/home/abi/fetcher/tmp/crypt_r-3.13.1.tar.gz]
+[2024-04-29 14:55:04] INFO root fetch - main [MainThread]: End processing [crypt-r]: success
+[2024-04-29 14:55:04] INFO root fetch - processPackages [watchdog-gevent]: Remove: archive file [/home/abi/fetcher/tmp/watchdog_gevent-0.1.1.tar.gz]
+[2024-04-29 14:55:04] INFO root fetch - processPackages [watchdog-gevent]: Remove: archive file [/home/abi/fetcher/tmp/watchdog_gevent-0.2.0.tar.gz]
+[2024-04-29 14:55:04] INFO root fetch - main [MainThread]: End processing [watchdog-gevent]: success
+[2024-04-29 14:55:04] INFO root fetch - processPackages [g3tables]: Remove: archive file [/home/abi/fetcher/tmp/g3tables-0.1.2.tar.gz]
+[2024-04-29 14:55:04] INFO root fetch - processPackages [g3tables]: Remove: archive file [/home/abi/fetcher/tmp/g3tables-0.2.0.tar.gz]
+[2024-04-29 14:55:04] INFO root fetch - processPackages [sphinxcontrib-budoux]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib-budoux-0.1.5.tar.gz]
+[2024-04-29 14:55:04] INFO root fetch - main [MainThread]: End processing [g3tables]: success
+[2024-04-29 14:55:04] INFO root fetch - processPackages [sphinxcontrib-budoux]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib_budoux-0.1.6.tar.gz]
+[2024-04-29 14:55:04] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-budoux]: success
+[2024-04-29 14:55:04] INFO root fetch - processPackages [medium-to-markdown-py]: Remove: archive file [/home/abi/fetcher/tmp/medium_to_markdown_py-1.0.5.tar.gz]
+[2024-04-29 14:55:04] INFO root fetch - processPackages [medium-to-markdown-py]: Remove: archive file [/home/abi/fetcher/tmp/medium_to_markdown_py-1.1.0.tar.gz]
+[2024-04-29 14:55:04] INFO root fetch - main [MainThread]: End processing [medium-to-markdown-py]: success
+[2024-04-29 14:55:04] INFO root fetch - main [MainThread]: Store serial: [22983708]
