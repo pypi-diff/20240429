@@ -21729,3 +21729,60 @@ EOFError: EOF read where object expected
 [2024-04-29 15:36:22] INFO root fetch - processPackages [oarepo-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/oarepo_vocabularies-2.0.87.tar.gz]
 [2024-04-29 15:36:22] INFO root fetch - main [MainThread]: End processing [oarepo-vocabularies]: success
 [2024-04-29 15:36:22] INFO root fetch - main [MainThread]: Store serial: [22984479]
+[2024-04-29 15:38:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22984479]
+[2024-04-29 15:38:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-29 15:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nostr-dvm
+[2024-04-29 15:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nwb4fp
+[2024-04-29 15:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: secretvalidate
+[2024-04-29 15:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: body-organ-analysis
+[2024-04-29 15:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spark-metabase-api
+[2024-04-29 15:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aprsd
+[2024-04-29 15:38:31] INFO root fetch - processPackages [secretvalidate]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-04-29 15:38:31] INFO root fetch - processPackages [spark-metabase-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 15:38:31] INFO root fetch - processPackages [nwb4fp]: New version: [0.6.0.9] Old Version: [0.6.0.8]
+[2024-04-29 15:38:31] INFO root fetch - processPackages [nostr-dvm]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-29 15:38:31] INFO root fetch - processPackages [spark-metabase-api]: Downloading https://files.pythonhosted.org/packages/b7/c5/708e66a9a521398570782cce4314c59a3915732b618b76fb7c20d60853d2/spark-metabase-api-0.1.8.tar.gz
+[2024-04-29 15:38:31] INFO root fetch - processPackages [body-organ-analysis]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-29 15:38:31] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/2a/74/f1fedcd5b126c4af0184fc7bc616c4941f414eb51cc2fc523514708f3cae/secretvalidate-0.0.1a8.tar.gz
+[2024-04-29 15:38:31] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/b4/7a/ca86eadc320884087a8ae1e1dbf314a7609a3254621f4b4bc601b14216d0/nwb4fp-0.6.0.8-py3-none-any.whl
+[2024-04-29 15:38:31] INFO root fetch - processPackages [aprsd]: New version: [3.4.0] Old Version: [3.3.4]
+[2024-04-29 15:38:31] INFO root fetch - processPackages [nostr-dvm]: Downloading https://files.pythonhosted.org/packages/eb/5f/f0f0ab9ae50566ad23d93e953058e67e01e12ddbf6ac98aee85653b81e3a/nostr_dvm-0.3.3.tar.gz
+[2024-04-29 15:38:31] INFO root fetch - processPackages [spark-metabase-api]: Downloading https://files.pythonhosted.org/packages/85/48/5c6eacbacc9f67e4eced50608629c3a1d667281d94488ce0c2c9acbb06c5/spark_metabase_api-0.1.9.tar.gz
+[2024-04-29 15:38:31] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/57/86/54b1f11aebe768d2014fd8f4bb1e90e29a764014e1104c5ccf64e6433d48/secretvalidate-0.0.1a9.tar.gz
+[2024-04-29 15:38:31] INFO root fetch - processPackages [body-organ-analysis]: Downloading https://files.pythonhosted.org/packages/3e/05/cc359423c36237d661896d35ddc95c6f714a250d9ca54c7cc90deb52b483/body_organ_analysis-0.1.2.tar.gz
+[2024-04-29 15:38:31] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/ae/a1/4ed11046ea2656f33c54533342a50ca8f537557245fd3229da8b8a398e34/nwb4fp-0.6.0.9.tar.gz
+[2024-04-29 15:38:32] INFO root fetch - processPackages [aprsd]: Downloading https://files.pythonhosted.org/packages/9b/f4/29ac6439e2a64050f733bf64f9eb72d5bb6fe27247de967da3d5310fc5e6/aprsd-3.3.4.tar.gz
+[2024-04-29 15:38:32] INFO root fetch - processPackages [secretvalidate]: executing diffoscope
+[2024-04-29 15:38:32] INFO root fetch - processPackages [secretvalidate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretvalidate-0.0.1a8.tar.gz tmp/secretvalidate-0.0.1a9.tar.gz --markdown 20240429/s/secretvalidate/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-04-29 15:38:32] INFO root fetch - processPackages [spark-metabase-api]: executing diffoscope
+[2024-04-29 15:38:32] INFO root fetch - processPackages [spark-metabase-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark-metabase-api-0.1.8.tar.gz tmp/spark_metabase_api-0.1.9.tar.gz --markdown 20240429/s/spark-metabase-api/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 15:38:32] INFO root fetch - processPackages [nwb4fp]: executing diffoscope
+[2024-04-29 15:38:32] INFO root fetch - processPackages [nwb4fp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwb4fp-0.6.0.8-py3-none-any.whl.zip tmp/nwb4fp-0.6.0.9.tar.gz --markdown 20240429/n/nwb4fp/0.6.0.8-0.6.0.9/README.md --exclude *.pyd
+[2024-04-29 15:38:32] INFO root fetch - processPackages [nostr-dvm]: Downloading https://files.pythonhosted.org/packages/0c/ef/a7dad21fa5e75affc78ad80caa9e69899582f657f5f395f4b0e155533c2b/nostr_dvm-0.3.4.tar.gz
+[2024-04-29 15:38:32] INFO root fetch - processPackages [nostr-dvm]: executing diffoscope
+[2024-04-29 15:38:32] INFO root fetch - processPackages [nostr-dvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nostr_dvm-0.3.3.tar.gz tmp/nostr_dvm-0.3.4.tar.gz --markdown 20240429/n/nostr-dvm/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-04-29 15:38:32] INFO root fetch - processPackages [aprsd]: Downloading https://files.pythonhosted.org/packages/36/0b/2aa63969b10d65d690b012687e949f851bacef1ceb193711c841e1c85d79/aprsd-3.4.0.tar.gz
+[2024-04-29 15:38:32] INFO root fetch - processPackages [body-organ-analysis]: Downloading https://files.pythonhosted.org/packages/0d/51/b170b245308baec4838077ebdce983f1cfa54363f69b21f5897baf9e6f59/body_organ_analysis-0.1.3.tar.gz
+[2024-04-29 15:38:32] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.0.8-py3-none-any.whl.zip]
+[2024-04-29 15:38:32] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.0.9.tar.gz]
+[2024-04-29 15:38:32] INFO root fetch - main [MainThread]: End processing [nwb4fp]: success
+[2024-04-29 15:38:32] INFO root fetch - processPackages [spark-metabase-api]: Remove: archive file [/home/abi/fetcher/tmp/spark-metabase-api-0.1.8.tar.gz]
+[2024-04-29 15:38:32] INFO root fetch - processPackages [spark-metabase-api]: Remove: archive file [/home/abi/fetcher/tmp/spark_metabase_api-0.1.9.tar.gz]
+[2024-04-29 15:38:32] INFO root fetch - main [MainThread]: End processing [spark-metabase-api]: success
+[2024-04-29 15:38:32] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a8.tar.gz]
+[2024-04-29 15:38:32] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a9.tar.gz]
+[2024-04-29 15:38:32] INFO root fetch - main [MainThread]: End processing [secretvalidate]: success
+[2024-04-29 15:38:32] INFO root fetch - processPackages [body-organ-analysis]: executing diffoscope
+[2024-04-29 15:38:32] INFO root fetch - processPackages [body-organ-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/body_organ_analysis-0.1.2.tar.gz tmp/body_organ_analysis-0.1.3.tar.gz --markdown 20240429/b/body-organ-analysis/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-29 15:38:33] INFO root fetch - processPackages [aprsd]: executing diffoscope
+[2024-04-29 15:38:33] INFO root fetch - processPackages [aprsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aprsd-3.3.4.tar.gz tmp/aprsd-3.4.0.tar.gz --markdown 20240429/a/aprsd/3.3.4-3.4.0/README.md --exclude *.pyd
+[2024-04-29 15:38:33] INFO root fetch - processPackages [nostr-dvm]: Remove: archive file [/home/abi/fetcher/tmp/nostr_dvm-0.3.3.tar.gz]
+[2024-04-29 15:38:33] INFO root fetch - processPackages [nostr-dvm]: Remove: archive file [/home/abi/fetcher/tmp/nostr_dvm-0.3.4.tar.gz]
+[2024-04-29 15:38:33] INFO root fetch - main [MainThread]: End processing [nostr-dvm]: success
+[2024-04-29 15:38:34] INFO root fetch - processPackages [body-organ-analysis]: Remove: archive file [/home/abi/fetcher/tmp/body_organ_analysis-0.1.2.tar.gz]
+[2024-04-29 15:38:34] INFO root fetch - processPackages [body-organ-analysis]: Remove: archive file [/home/abi/fetcher/tmp/body_organ_analysis-0.1.3.tar.gz]
+[2024-04-29 15:38:34] INFO root fetch - main [MainThread]: End processing [body-organ-analysis]: success
+[2024-04-29 15:38:35] INFO root fetch - processPackages [aprsd]: Remove: archive file [/home/abi/fetcher/tmp/aprsd-3.3.4.tar.gz]
+[2024-04-29 15:38:35] INFO root fetch - processPackages [aprsd]: Remove: archive file [/home/abi/fetcher/tmp/aprsd-3.4.0.tar.gz]
+[2024-04-29 15:38:35] INFO root fetch - main [MainThread]: End processing [aprsd]: success
+[2024-04-29 15:38:35] INFO root fetch - main [MainThread]: Store serial: [22984497]
