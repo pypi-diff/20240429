@@ -10433,3 +10433,52 @@
 [2024-04-29 09:03:52] INFO root fetch - processPackages [loopquest]: Remove: archive file [/home/abi/fetcher/tmp/loopquest-0.2.0.tar.gz]
 [2024-04-29 09:03:52] INFO root fetch - main [MainThread]: End processing [loopquest]: success
 [2024-04-29 09:03:52] INFO root fetch - main [MainThread]: Store serial: [22979778]
+[2024-04-29 09:05:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979778]
+[2024-04-29 09:06:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-29 09:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flywheel-cli
+[2024-04-29 09:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fileformats-medimage-mrtrix3
+[2024-04-29 09:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crtomo-bin-wrapper
+[2024-04-29 09:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cognite-toolkit
+[2024-04-29 09:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: feffery-utils-components
+[2024-04-29 09:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vclean
+[2024-04-29 09:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: STMiner
+[2024-04-29 09:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: weapondetector
+[2024-04-29 09:06:01] WARNING root fetch - processPackages [STMiner]: Skipping, unable to determine old version
+[2024-04-29 09:06:01] INFO root fetch - main [MainThread]: End processing [STMiner] error
+[2024-04-29 09:06:01] WARNING root fetch - processPackages [crtomo-bin-wrapper]: Skipping, unable to determine old version
+[2024-04-29 09:06:01] INFO root fetch - main [MainThread]: End processing [crtomo-bin-wrapper] error
+[2024-04-29 09:06:01] WARNING root fetch - processPackages [vclean]: Skipping, unable to determine old version
+[2024-04-29 09:06:01] INFO root fetch - main [MainThread]: End processing [vclean] error
+[2024-04-29 09:06:01] INFO root fetch - processPackages [fileformats-medimage-mrtrix3]: New version: [3.0.3a0] Old Version: [0.1]
+[2024-04-29 09:06:01] INFO root fetch - processPackages [weapondetector]: New version: [2.8.0] Old Version: [2.7.1]
+[2024-04-29 09:06:01] INFO root fetch - processPackages [cognite-toolkit]: New version: [0.2.0a3] Old Version: [0.2.0a2]
+[2024-04-29 09:06:01] INFO root fetch - processPackages [feffery-utils-components]: New version: [0.2.0rc9] Old Version: [0.2.0rc8]
+[2024-04-29 09:06:01] INFO root fetch - processPackages [flywheel-cli]: New version: [9.0.3] Old Version: [9.0.2.dev1]
+[2024-04-29 09:06:01] INFO root fetch - processPackages [fileformats-medimage-mrtrix3]: Downloading https://files.pythonhosted.org/packages/1e/1f/27c8dbad3a624ba2a88f960cbb7f4af6415e628aef7f8b2f59e7129f820f/fileformats_medimage_mrtrix3-0.1.tar.gz
+[2024-04-29 09:06:02] INFO root fetch - processPackages [flywheel-cli]: Downloading https://files.pythonhosted.org/packages/cd/8c/888e6a210974b8635a94ad1a71290a597e3bb5cf05736f9b6089b1e4f9ee/flywheel_cli-9.0.2.dev1-py3-none-any.whl
+[2024-04-29 09:06:02] INFO root fetch - processPackages [weapondetector]: Downloading https://files.pythonhosted.org/packages/1a/bf/28174c855d4060c14b4182767f38f4a618094946d282f7e60bcf349c09d5/weapondetector-2.7.1.tar.gz
+[2024-04-29 09:06:02] INFO root fetch - processPackages [feffery-utils-components]: Downloading https://files.pythonhosted.org/packages/0a/07/8ccfc86619bdd75c593872ce4365982923dd768e1cebc8b20c1ade295380/feffery_utils_components-0.2.0rc8.tar.gz
+[2024-04-29 09:06:02] INFO root fetch - processPackages [cognite-toolkit]: Downloading https://files.pythonhosted.org/packages/40/4f/b3ab0dc195711dbd2413dd4041378c416a69d041926689dc4a8472eb1610/cognite_toolkit-0.2.0a2.tar.gz
+[2024-04-29 09:06:02] WARNING root fetch - processPackages [weapondetector]: Skipping package: exceeds size limit 48579358>=10485760
+[2024-04-29 09:06:02] INFO root fetch - main [MainThread]: End processing [weapondetector] error
+[2024-04-29 09:06:02] WARNING root fetch - processPackages [cognite-toolkit]: Skipping package: exceeds size limit 14599604>=10485760
+[2024-04-29 09:06:02] INFO root fetch - main [MainThread]: End processing [cognite-toolkit] error
+[2024-04-29 09:06:02] INFO root fetch - processPackages [fileformats-medimage-mrtrix3]: Downloading https://files.pythonhosted.org/packages/57/c2/e13c3cbb96c2fb60d979a52034ff48936bd460c831aed9fb637b08236925/fileformats_medimage_mrtrix3-3.0.3a0.tar.gz
+[2024-04-29 09:06:02] INFO root fetch - processPackages [flywheel-cli]: Downloading https://files.pythonhosted.org/packages/ca/5b/e1a470e13fabcd0f52c475b54da7f9f10c25fd5d419bd22de69fe2838457/flywheel_cli-9.0.3-py3-none-any.whl
+[2024-04-29 09:06:02] INFO root fetch - processPackages [flywheel-cli]: executing diffoscope
+[2024-04-29 09:06:02] INFO root fetch - processPackages [flywheel-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flywheel_cli-9.0.2.dev1-py3-none-any.whl.zip tmp/flywheel_cli-9.0.3-py3-none-any.whl.zip --markdown 20240429/f/flywheel-cli/9.0.2.dev1-9.0.3/README.md --exclude *.pyd
+[2024-04-29 09:06:02] INFO root fetch - processPackages [fileformats-medimage-mrtrix3]: executing diffoscope
+[2024-04-29 09:06:02] INFO root fetch - processPackages [fileformats-medimage-mrtrix3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats_medimage_mrtrix3-0.1.tar.gz tmp/fileformats_medimage_mrtrix3-3.0.3a0.tar.gz --markdown 20240429/f/fileformats-medimage-mrtrix3/0.1-3.0.3a0/README.md --exclude *.pyd
+[2024-04-29 09:06:03] INFO root fetch - processPackages [flywheel-cli]: Remove: archive file [/home/abi/fetcher/tmp/flywheel_cli-9.0.2.dev1-py3-none-any.whl.zip]
+[2024-04-29 09:06:03] INFO root fetch - processPackages [flywheel-cli]: Remove: archive file [/home/abi/fetcher/tmp/flywheel_cli-9.0.3-py3-none-any.whl.zip]
+[2024-04-29 09:06:03] INFO root fetch - main [MainThread]: End processing [flywheel-cli]: success
+[2024-04-29 09:06:03] INFO root fetch - processPackages [fileformats-medimage-mrtrix3]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage_mrtrix3-0.1.tar.gz]
+[2024-04-29 09:06:03] INFO root fetch - processPackages [fileformats-medimage-mrtrix3]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage_mrtrix3-3.0.3a0.tar.gz]
+[2024-04-29 09:06:03] INFO root fetch - main [MainThread]: End processing [fileformats-medimage-mrtrix3]: success
+[2024-04-29 09:06:03] INFO root fetch - processPackages [feffery-utils-components]: Downloading https://files.pythonhosted.org/packages/45/a9/10eefc492704996ca69e4455b3aff875c8f400db6c9802d6fc66c53379d6/feffery_utils_components-0.2.0rc9.tar.gz
+[2024-04-29 09:06:04] INFO root fetch - processPackages [feffery-utils-components]: executing diffoscope
+[2024-04-29 09:06:04] INFO root fetch - processPackages [feffery-utils-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feffery_utils_components-0.2.0rc8.tar.gz tmp/feffery_utils_components-0.2.0rc9.tar.gz --markdown 20240429/f/feffery-utils-components/0.2.0rc8-0.2.0rc9/README.md --exclude *.pyd
+[2024-04-29 09:06:13] INFO root fetch - processPackages [feffery-utils-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_utils_components-0.2.0rc8.tar.gz]
+[2024-04-29 09:06:13] INFO root fetch - processPackages [feffery-utils-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_utils_components-0.2.0rc9.tar.gz]
+[2024-04-29 09:06:13] INFO root fetch - main [MainThread]: End processing [feffery-utils-components]: success
+[2024-04-29 09:06:13] INFO root fetch - main [MainThread]: Store serial: [22979808]
