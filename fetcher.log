@@ -17240,3 +17240,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 13:28:26] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
 [2024-04-29 13:28:26] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2024-04-29 13:28:26] INFO root fetch - main [MainThread]: Store serial: [22982674]
+[2024-04-29 13:30:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982674]
+[2024-04-29 13:30:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 13:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ood_detectors
+[2024-04-29 13:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dockipy
+[2024-04-29 13:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opencti-excel-uploader
+[2024-04-29 13:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: secretvalidate
+[2024-04-29 13:30:35] INFO root fetch - processPackages [secretvalidate]: New version: [0.0.1a1] Old Version: [0.0.1a0]
+[2024-04-29 13:30:35] INFO root fetch - processPackages [ood_detectors]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-29 13:30:35] INFO root fetch - processPackages [dockipy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 13:30:35] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/0b/04/1e1f3a6f2e6ae396242853b6f763a195684eb200b55ad963c81872c34036/ood_detectors-0.0.3.tar.gz
+[2024-04-29 13:30:35] INFO root fetch - processPackages [opencti-excel-uploader]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-29 13:30:35] INFO root fetch - processPackages [dockipy]: Downloading https://files.pythonhosted.org/packages/53/78/5a8313f4b73f6dd85bc028e698161305fc679614fd0f5f8db2b83056a016/dockipy-0.0.8.tar.gz
+[2024-04-29 13:30:35] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/15/6d/168b90b5b8a7b2fc91eb06dee9396da573362776ca57059dd543f8a79d75/secretvalidate-0.0.1a0.tar.gz
+[2024-04-29 13:30:35] INFO root fetch - processPackages [opencti-excel-uploader]: Downloading https://files.pythonhosted.org/packages/fb/3f/3d0bf08fba5e79f90ec1560e301909e36e6e13e7d9620736f0a16b792eaa/opencti_excel_uploader-0.2.2.tar.gz
+[2024-04-29 13:30:35] INFO root fetch - processPackages [dockipy]: Downloading https://files.pythonhosted.org/packages/20/dd/5a84aa032c0ed0c2e1fcecc40431ec7787625dad7b044cbc47cc0f04f1eb/dockipy-0.0.9.tar.gz
+[2024-04-29 13:30:35] INFO root fetch - processPackages [ood_detectors]: Downloading https://files.pythonhosted.org/packages/8c/9d/54b0c3df72ec9c5d6e4abb27ed758247a4f0754d4d5e0b9d934fd46493d2/ood_detectors-0.0.4.tar.gz
+[2024-04-29 13:30:35] INFO root fetch - processPackages [dockipy]: executing diffoscope
+[2024-04-29 13:30:35] INFO root fetch - processPackages [dockipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockipy-0.0.8.tar.gz tmp/dockipy-0.0.9.tar.gz --markdown 20240429/d/dockipy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 13:30:35] INFO root fetch - processPackages [ood_detectors]: executing diffoscope
+[2024-04-29 13:30:35] INFO root fetch - processPackages [ood_detectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ood_detectors-0.0.3.tar.gz tmp/ood_detectors-0.0.4.tar.gz --markdown 20240429/o/ood_detectors/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-29 13:30:35] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/6d/54/4494fba72e75d6ec6e546a6cbd2ac4b11e1a7b102fe0219d341ad8e7da4f/secretvalidate-0.0.1a1.tar.gz
+[2024-04-29 13:30:35] INFO root fetch - processPackages [opencti-excel-uploader]: Downloading https://files.pythonhosted.org/packages/c6/65/7b0e2bd032c07bf0328ed41c663abea7b0022107f08633eef0de884e51f7/opencti_excel_uploader-0.2.3.tar.gz
+[2024-04-29 13:30:35] INFO root fetch - processPackages [secretvalidate]: executing diffoscope
+[2024-04-29 13:30:35] INFO root fetch - processPackages [secretvalidate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretvalidate-0.0.1a0.tar.gz tmp/secretvalidate-0.0.1a1.tar.gz --markdown 20240429/s/secretvalidate/0.0.1a0-0.0.1a1/README.md --exclude *.pyd
+[2024-04-29 13:30:36] INFO root fetch - processPackages [opencti-excel-uploader]: executing diffoscope
+[2024-04-29 13:30:36] INFO root fetch - processPackages [opencti-excel-uploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencti_excel_uploader-0.2.2.tar.gz tmp/opencti_excel_uploader-0.2.3.tar.gz --markdown 20240429/o/opencti-excel-uploader/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-29 13:30:36] INFO root fetch - processPackages [dockipy]: Remove: archive file [/home/abi/fetcher/tmp/dockipy-0.0.8.tar.gz]
+[2024-04-29 13:30:36] INFO root fetch - processPackages [dockipy]: Remove: archive file [/home/abi/fetcher/tmp/dockipy-0.0.9.tar.gz]
+[2024-04-29 13:30:36] INFO root fetch - main [MainThread]: End processing [dockipy]: success
+[2024-04-29 13:30:36] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.3.tar.gz]
+[2024-04-29 13:30:36] INFO root fetch - processPackages [ood_detectors]: Remove: archive file [/home/abi/fetcher/tmp/ood_detectors-0.0.4.tar.gz]
+[2024-04-29 13:30:36] INFO root fetch - main [MainThread]: End processing [ood_detectors]: success
+[2024-04-29 13:30:36] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a0.tar.gz]
+[2024-04-29 13:30:36] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a1.tar.gz]
+[2024-04-29 13:30:36] INFO root fetch - main [MainThread]: End processing [secretvalidate]: success
+[2024-04-29 13:30:36] INFO root fetch - processPackages [opencti-excel-uploader]: Remove: archive file [/home/abi/fetcher/tmp/opencti_excel_uploader-0.2.2.tar.gz]
+[2024-04-29 13:30:36] INFO root fetch - processPackages [opencti-excel-uploader]: Remove: archive file [/home/abi/fetcher/tmp/opencti_excel_uploader-0.2.3.tar.gz]
+[2024-04-29 13:30:36] INFO root fetch - main [MainThread]: End processing [opencti-excel-uploader]: success
+[2024-04-29 13:30:36] INFO root fetch - main [MainThread]: Store serial: [22982687]
