@@ -13310,3 +13310,75 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 11:06:29] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.56.tar.gz]
 [2024-04-29 11:06:29] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
 [2024-04-29 11:06:29] INFO root fetch - main [MainThread]: Store serial: [22981069]
+[2024-04-29 11:08:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22981069]
+[2024-04-29 11:08:39] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-29 11:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bosing
+[2024-04-29 11:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coloria
+[2024-04-29 11:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-ssm-juggle
+[2024-04-29 11:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dealcloud-sdk
+[2024-04-29 11:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cvat-cli
+[2024-04-29 11:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cvat-sdk
+[2024-04-29 11:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gempy-viewer
+[2024-04-29 11:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qlv-client
+[2024-04-29 11:08:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: GreenLightPlus
+[2024-04-29 11:08:40] WARNING root fetch - processPackages [dealcloud-sdk]: Skipping, unable to determine old version
+[2024-04-29 11:08:40] INFO root fetch - main [MainThread]: End processing [dealcloud-sdk] error
+[2024-04-29 11:08:40] WARNING root fetch - processPackages [GreenLightPlus]: Skipping, unable to determine old version
+[2024-04-29 11:08:40] INFO root fetch - main [MainThread]: End processing [GreenLightPlus] error
+[2024-04-29 11:08:40] INFO root fetch - processPackages [aws-ssm-juggle]: New version: [24.4.3] Old Version: [24.4.2]
+[2024-04-29 11:08:40] INFO root fetch - processPackages [bosing]: New version: [2.0.0b8] Old Version: [2.0.0b7]
+[2024-04-29 11:08:40] INFO root fetch - processPackages [cvat-cli]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-29 11:08:40] INFO root fetch - processPackages [coloria]: New version: [0.13.8] Old Version: [0.13.6]
+[2024-04-29 11:08:40] INFO root fetch - processPackages [gempy-viewer]: New version: [2024.1.2] Old Version: [2024.1.1]
+[2024-04-29 11:08:40] INFO root fetch - processPackages [cvat-sdk]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-29 11:08:40] INFO root fetch - processPackages [qlv-client]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-29 11:08:40] INFO root fetch - processPackages [aws-ssm-juggle]: Downloading https://files.pythonhosted.org/packages/d1/7f/720e33712b17b3dfd1a7e140a07dada8e391413a1c4ed17a2004ccbab18b/aws_ssm_juggle-24.4.2.tar.gz
+[2024-04-29 11:08:40] INFO root fetch - processPackages [aws-ssm-juggle]: Downloading https://files.pythonhosted.org/packages/82/e0/9d5057b93f58c2d8d053ab62c5dc36941dbaf2b20cf4c3c1d609f6aa9ad1/aws_ssm_juggle-24.4.3.tar.gz
+[2024-04-29 11:08:40] INFO root fetch - processPackages [bosing]: Downloading https://files.pythonhosted.org/packages/5c/ab/052b28f379ddd1cc28dd284165c8807c13981835284fbf39f5c835b7b28e/bosing-2.0.0b7.tar.gz
+[2024-04-29 11:08:40] INFO root fetch - processPackages [cvat-cli]: Downloading https://files.pythonhosted.org/packages/f5/50/2a978355e9c68c192572f2b2c9775488be5562842d2130c085ddd2664716/cvat-cli-2.9.1.tar.gz
+[2024-04-29 11:08:40] INFO root fetch - processPackages [coloria]: Downloading https://files.pythonhosted.org/packages/86/24/ee046dc46a39f876a6e54fa9c65375de9dd06f3c8ae462bc9064170407ed/coloria-0.13.6-py3-none-any.whl
+[2024-04-29 11:08:40] INFO root fetch - processPackages [qlv-client]: Downloading https://files.pythonhosted.org/packages/c4/30/c3e0d994757563c660394a2f489595e93bb07b7d4e4f3a528f51e3cc916f/qlv-client-0.1.7.tar.gz
+[2024-04-29 11:08:40] INFO root fetch - processPackages [cvat-sdk]: Downloading https://files.pythonhosted.org/packages/aa/c1/2515c1dbd659ba865a8f028a381ee6cf53e63e3fe6141da712fb234bcfb5/cvat_sdk-2.9.1.tar.gz
+[2024-04-29 11:08:40] INFO root fetch - processPackages [gempy-viewer]: Downloading https://files.pythonhosted.org/packages/5e/0f/23e9b7ea8b5c280146bc444d5e0a7e9fa575bab4a6a88aee639166e4162c/gempy_viewer-2024.1.1.tar.gz
+[2024-04-29 11:08:40] INFO root fetch - processPackages [aws-ssm-juggle]: executing diffoscope
+[2024-04-29 11:08:40] INFO root fetch - processPackages [aws-ssm-juggle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_ssm_juggle-24.4.2.tar.gz tmp/aws_ssm_juggle-24.4.3.tar.gz --markdown 20240429/a/aws-ssm-juggle/24.4.2-24.4.3/README.md --exclude *.pyd
+[2024-04-29 11:08:40] INFO root fetch - processPackages [bosing]: Downloading https://files.pythonhosted.org/packages/da/d4/cfa87a62fa36308d1e4933532c8e6d461d306822d53366d343e256bc4456/bosing-2.0.0b8.tar.gz
+[2024-04-29 11:08:40] INFO root fetch - processPackages [cvat-cli]: Downloading https://files.pythonhosted.org/packages/cc/e6/4ba5cf76f834d9c9c86561cdead8ee5fa895025e2e7ef0cc373ab5af75db/cvat-cli-2.9.2.tar.gz
+[2024-04-29 11:08:40] INFO root fetch - processPackages [gempy-viewer]: Downloading https://files.pythonhosted.org/packages/f4/5f/5d5b364b968c273c09f9c474fc65d34d6a76a7bf88be19812c39dd7c850d/gempy_viewer-2024.1.2.tar.gz
+[2024-04-29 11:08:40] INFO root fetch - processPackages [qlv-client]: Downloading https://files.pythonhosted.org/packages/b4/53/fdf6902a468fb0034dae5dc42eb361429104c819e24e81b422258a509411/qlv-client-0.1.8.tar.gz
+[2024-04-29 11:08:40] INFO root fetch - processPackages [coloria]: Downloading https://files.pythonhosted.org/packages/2e/05/a378b7898708f57626bad0ca259672c70e392b9fb0d03f7f8eaa1df0fec8/coloria-0.13.8-py3-none-any.whl
+[2024-04-29 11:08:41] INFO root fetch - processPackages [cvat-sdk]: Downloading https://files.pythonhosted.org/packages/d0/2c/0ab11b8c59ed0e74b7cd21737298ead9d7abb46f4eb3c21ba7bdb9a792a3/cvat_sdk-2.9.2.tar.gz
+[2024-04-29 11:08:41] INFO root fetch - processPackages [bosing]: executing diffoscope
+[2024-04-29 11:08:41] INFO root fetch - processPackages [bosing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosing-2.0.0b7.tar.gz tmp/bosing-2.0.0b8.tar.gz --markdown 20240429/b/bosing/2.0.0b7-2.0.0b8/README.md --exclude *.pyd
+[2024-04-29 11:08:41] INFO root fetch - processPackages [cvat-cli]: executing diffoscope
+[2024-04-29 11:08:41] INFO root fetch - processPackages [cvat-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvat-cli-2.9.1.tar.gz tmp/cvat-cli-2.9.2.tar.gz --markdown 20240429/c/cvat-cli/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-04-29 11:08:41] INFO root fetch - processPackages [gempy-viewer]: executing diffoscope
+[2024-04-29 11:08:41] INFO root fetch - processPackages [gempy-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gempy_viewer-2024.1.1.tar.gz tmp/gempy_viewer-2024.1.2.tar.gz --markdown 20240429/g/gempy-viewer/2024.1.1-2024.1.2/README.md --exclude *.pyd
+[2024-04-29 11:08:41] INFO root fetch - processPackages [qlv-client]: executing diffoscope
+[2024-04-29 11:08:41] INFO root fetch - processPackages [qlv-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlv-client-0.1.7.tar.gz tmp/qlv-client-0.1.8.tar.gz --markdown 20240429/q/qlv-client/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-29 11:08:41] INFO root fetch - processPackages [cvat-sdk]: executing diffoscope
+[2024-04-29 11:08:41] INFO root fetch - processPackages [cvat-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvat_sdk-2.9.1.tar.gz tmp/cvat_sdk-2.9.2.tar.gz --markdown 20240429/c/cvat-sdk/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-04-29 11:08:41] INFO root fetch - processPackages [coloria]: executing diffoscope
+[2024-04-29 11:08:41] INFO root fetch - processPackages [coloria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coloria-0.13.6-py3-none-any.whl.zip tmp/coloria-0.13.8-py3-none-any.whl.zip --markdown 20240429/c/coloria/0.13.6-0.13.8/README.md --exclude *.pyd
+[2024-04-29 11:08:41] INFO root fetch - processPackages [aws-ssm-juggle]: Remove: archive file [/home/abi/fetcher/tmp/aws_ssm_juggle-24.4.2.tar.gz]
+[2024-04-29 11:08:41] INFO root fetch - processPackages [aws-ssm-juggle]: Remove: archive file [/home/abi/fetcher/tmp/aws_ssm_juggle-24.4.3.tar.gz]
+[2024-04-29 11:08:41] INFO root fetch - main [MainThread]: End processing [aws-ssm-juggle]: success
+[2024-04-29 11:08:41] INFO root fetch - processPackages [qlv-client]: Remove: archive file [/home/abi/fetcher/tmp/qlv-client-0.1.7.tar.gz]
+[2024-04-29 11:08:41] INFO root fetch - processPackages [qlv-client]: Remove: archive file [/home/abi/fetcher/tmp/qlv-client-0.1.8.tar.gz]
+[2024-04-29 11:08:41] INFO root fetch - main [MainThread]: End processing [qlv-client]: success
+[2024-04-29 11:08:41] INFO root fetch - processPackages [cvat-cli]: Remove: archive file [/home/abi/fetcher/tmp/cvat-cli-2.9.1.tar.gz]
+[2024-04-29 11:08:41] INFO root fetch - processPackages [cvat-cli]: Remove: archive file [/home/abi/fetcher/tmp/cvat-cli-2.9.2.tar.gz]
+[2024-04-29 11:08:41] INFO root fetch - main [MainThread]: End processing [cvat-cli]: success
+[2024-04-29 11:08:41] INFO root fetch - processPackages [bosing]: Remove: archive file [/home/abi/fetcher/tmp/bosing-2.0.0b7.tar.gz]
+[2024-04-29 11:08:41] INFO root fetch - processPackages [bosing]: Remove: archive file [/home/abi/fetcher/tmp/bosing-2.0.0b8.tar.gz]
+[2024-04-29 11:08:41] INFO root fetch - main [MainThread]: End processing [bosing]: success
+[2024-04-29 11:08:42] INFO root fetch - processPackages [gempy-viewer]: Remove: archive file [/home/abi/fetcher/tmp/gempy_viewer-2024.1.1.tar.gz]
+[2024-04-29 11:08:42] INFO root fetch - processPackages [gempy-viewer]: Remove: archive file [/home/abi/fetcher/tmp/gempy_viewer-2024.1.2.tar.gz]
+[2024-04-29 11:08:42] INFO root fetch - main [MainThread]: End processing [gempy-viewer]: success
+[2024-04-29 11:08:42] INFO root fetch - processPackages [coloria]: Remove: archive file [/home/abi/fetcher/tmp/coloria-0.13.6-py3-none-any.whl.zip]
+[2024-04-29 11:08:42] INFO root fetch - processPackages [coloria]: Remove: archive file [/home/abi/fetcher/tmp/coloria-0.13.8-py3-none-any.whl.zip]
+[2024-04-29 11:08:42] INFO root fetch - main [MainThread]: End processing [coloria]: success
+[2024-04-29 11:08:44] INFO root fetch - processPackages [cvat-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cvat_sdk-2.9.1.tar.gz]
+[2024-04-29 11:08:44] INFO root fetch - processPackages [cvat-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cvat_sdk-2.9.2.tar.gz]
+[2024-04-29 11:08:44] INFO root fetch - main [MainThread]: End processing [cvat-sdk]: success
+[2024-04-29 11:08:44] INFO root fetch - main [MainThread]: Store serial: [22981120]
