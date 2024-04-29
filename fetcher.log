@@ -11742,3 +11742,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 10:01:19] INFO root fetch - processPackages [aliyun-python-sdk-live]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-live-3.9.9.tar.gz]
 [2024-04-29 10:01:19] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-live]: success
 [2024-04-29 10:01:19] INFO root fetch - main [MainThread]: Store serial: [22980357]
+[2024-04-29 10:03:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980357]
+[2024-04-29 10:03:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 10:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xi-mzidentml-converter
+[2024-04-29 10:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: decoutilities
+[2024-04-29 10:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: IslandSheds
+[2024-04-29 10:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: var-inspector
+[2024-04-29 10:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ansys-geometry-core
+[2024-04-29 10:03:27] WARNING root fetch - processPackages [var-inspector]: Skipping, unable to determine old version
+[2024-04-29 10:03:27] INFO root fetch - main [MainThread]: End processing [var-inspector] error
+[2024-04-29 10:03:27] INFO root fetch - processPackages [xi-mzidentml-converter]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-04-29 10:03:27] INFO root fetch - processPackages [decoutilities]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-29 10:03:27] INFO root fetch - processPackages [IslandSheds]: New version: [0.0.29] Old Version: [0.0.28]
+[2024-04-29 10:03:27] INFO root fetch - processPackages [ansys-geometry-core]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-29 10:03:28] INFO root fetch - processPackages [IslandSheds]: Downloading https://files.pythonhosted.org/packages/1d/77/4ea09bb39ed5f407911dea27f23fac452ac0cad924539a7f144dbc423c7c/islandsheds-0.0.28.tar.gz
+[2024-04-29 10:03:28] INFO root fetch - processPackages [xi-mzidentml-converter]: Downloading https://files.pythonhosted.org/packages/28/0a/9480b05778a6b1f45e2cf7247a442ed3c572b2532795d1844f8963cf7f68/xi-mzidentml-converter-0.1.7.tar.gz
+[2024-04-29 10:03:28] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/4c/e2/3855c84717b56f1486a5ffc1198c6c84eb7902c8827083cc1be290b6df9a/decoutilities-0.1.1.tar.gz
+[2024-04-29 10:03:28] INFO root fetch - processPackages [ansys-geometry-core]: Downloading https://files.pythonhosted.org/packages/c3/5e/58aa7d8b52f3087b832a4220827a0d415c928e953b3263191e9b4cf6dd24/ansys_geometry_core-0.5.1.tar.gz
+[2024-04-29 10:03:28] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/c1/a9/4367b77ef1c286bc095f7b16bbbed8216887d515d2dd3196f3a523d3508d/decoutilities-0.1.2.tar.gz
+[2024-04-29 10:03:28] INFO root fetch - processPackages [IslandSheds]: Downloading https://files.pythonhosted.org/packages/5a/b3/56fd45667629af719f67c86bf078ff12e068a611e3962b8584619c5c02f4/islandsheds-0.0.29.tar.gz
+[2024-04-29 10:03:28] INFO root fetch - processPackages [xi-mzidentml-converter]: Downloading https://files.pythonhosted.org/packages/e0/43/70d669ba87d1a4353f3f88e7c0ca551d5b27b3085e7c3b20adde029eceef/xi-mzidentml-converter-0.1.9.tar.gz
+[2024-04-29 10:03:28] INFO root fetch - processPackages [ansys-geometry-core]: Downloading https://files.pythonhosted.org/packages/3d/bc/6577ce457aeac1815de3515fa96c5adb104543da69348c09304bfc0dc5d4/ansys_geometry_core-0.5.2.tar.gz
+[2024-04-29 10:03:28] INFO root fetch - processPackages [decoutilities]: executing diffoscope
+[2024-04-29 10:03:28] INFO root fetch - processPackages [decoutilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decoutilities-0.1.1.tar.gz tmp/decoutilities-0.1.2.tar.gz --markdown 20240429/d/decoutilities/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-29 10:03:28] INFO root fetch - processPackages [IslandSheds]: executing diffoscope
+[2024-04-29 10:03:28] INFO root fetch - processPackages [IslandSheds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/islandsheds-0.0.28.tar.gz tmp/islandsheds-0.0.29.tar.gz --markdown 20240429/I/IslandSheds/0.0.28-0.0.29/README.md --exclude *.pyd
+[2024-04-29 10:03:28] INFO root fetch - processPackages [xi-mzidentml-converter]: executing diffoscope
+[2024-04-29 10:03:28] INFO root fetch - processPackages [xi-mzidentml-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xi-mzidentml-converter-0.1.7.tar.gz tmp/xi-mzidentml-converter-0.1.9.tar.gz --markdown 20240429/x/xi-mzidentml-converter/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-04-29 10:03:28] INFO root fetch - processPackages [ansys-geometry-core]: executing diffoscope
+[2024-04-29 10:03:28] INFO root fetch - processPackages [ansys-geometry-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_geometry_core-0.5.1.tar.gz tmp/ansys_geometry_core-0.5.2.tar.gz --markdown 20240429/a/ansys-geometry-core/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-29 10:03:29] INFO root fetch - processPackages [IslandSheds]: Remove: archive file [/home/abi/fetcher/tmp/islandsheds-0.0.28.tar.gz]
+[2024-04-29 10:03:29] INFO root fetch - processPackages [IslandSheds]: Remove: archive file [/home/abi/fetcher/tmp/islandsheds-0.0.29.tar.gz]
+[2024-04-29 10:03:29] INFO root fetch - main [MainThread]: End processing [IslandSheds]: success
+[2024-04-29 10:03:29] INFO root fetch - processPackages [xi-mzidentml-converter]: Remove: archive file [/home/abi/fetcher/tmp/xi-mzidentml-converter-0.1.7.tar.gz]
+[2024-04-29 10:03:29] INFO root fetch - processPackages [xi-mzidentml-converter]: Remove: archive file [/home/abi/fetcher/tmp/xi-mzidentml-converter-0.1.9.tar.gz]
+[2024-04-29 10:03:29] INFO root fetch - main [MainThread]: End processing [xi-mzidentml-converter]: success
+[2024-04-29 10:03:29] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.1.1.tar.gz]
+[2024-04-29 10:03:29] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.1.2.tar.gz]
+[2024-04-29 10:03:29] INFO root fetch - main [MainThread]: End processing [decoutilities]: success
+[2024-04-29 10:03:29] INFO root fetch - processPackages [ansys-geometry-core]: Remove: archive file [/home/abi/fetcher/tmp/ansys_geometry_core-0.5.1.tar.gz]
+[2024-04-29 10:03:29] INFO root fetch - processPackages [ansys-geometry-core]: Remove: archive file [/home/abi/fetcher/tmp/ansys_geometry_core-0.5.2.tar.gz]
+[2024-04-29 10:03:29] INFO root fetch - main [MainThread]: End processing [ansys-geometry-core]: success
+[2024-04-29 10:03:29] INFO root fetch - main [MainThread]: Store serial: [22980374]
