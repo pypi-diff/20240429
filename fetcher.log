@@ -8718,3 +8718,15 @@
 [2024-04-29 07:13:40] INFO root fetch - processPackages [qg_toolkit]: Remove: archive file [/home/abi/fetcher/tmp/qg_toolkit-1.0.9.tar.gz]
 [2024-04-29 07:13:40] INFO root fetch - main [MainThread]: End processing [qg_toolkit]: success
 [2024-04-29 07:13:40] INFO root fetch - main [MainThread]: Store serial: [22978993]
+[2024-04-29 07:15:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978993]
+[2024-04-29 07:15:49] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-29 07:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyneople
+[2024-04-29 07:15:49] INFO root fetch - processPackages [pyneople]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-29 07:15:49] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/b7/6b/e5a695dad22c8d7ecd6480417b8c6d3d8e6f8932f4053472785be3b66ff0/pyneople-0.2.7.tar.gz
+[2024-04-29 07:15:49] INFO root fetch - processPackages [pyneople]: Downloading https://files.pythonhosted.org/packages/15/2f/e999d0c836ce55733eeba97c56d201c422e9424cedf767990b08049c8288/pyneople-0.2.8.tar.gz
+[2024-04-29 07:15:49] INFO root fetch - processPackages [pyneople]: executing diffoscope
+[2024-04-29 07:15:49] INFO root fetch - processPackages [pyneople]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneople-0.2.7.tar.gz tmp/pyneople-0.2.8.tar.gz --markdown 20240429/p/pyneople/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-29 07:15:50] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.2.7.tar.gz]
+[2024-04-29 07:15:50] INFO root fetch - processPackages [pyneople]: Remove: archive file [/home/abi/fetcher/tmp/pyneople-0.2.8.tar.gz]
+[2024-04-29 07:15:50] INFO root fetch - main [MainThread]: End processing [pyneople]: success
+[2024-04-29 07:15:50] INFO root fetch - main [MainThread]: Store serial: [22978996]
