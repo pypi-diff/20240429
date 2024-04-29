@@ -18262,3 +18262,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 14:06:14] INFO root fetch - processPackages [Nikola]: Remove: archive file [/home/abi/fetcher/tmp/Nikola-8.3.1.tar.gz]
 [2024-04-29 14:06:14] INFO root fetch - main [MainThread]: End processing [Nikola]: success
 [2024-04-29 14:06:14] INFO root fetch - main [MainThread]: Store serial: [22983025]
+[2024-04-29 14:08:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22983025]
+[2024-04-29 14:08:23] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-29 14:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asyncTwitterClient
+[2024-04-29 14:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sphinx-click-rst-to-ansi-formatter
+[2024-04-29 14:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ragraph
+[2024-04-29 14:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ezlocalai
+[2024-04-29 14:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opencti-excel-uploader
+[2024-04-29 14:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torcheval-nightly
+[2024-04-29 14:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phdu
+[2024-04-29 14:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: retack-sdk-django
+[2024-04-29 14:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: esiaccel
+[2024-04-29 14:08:24] WARNING root fetch - processPackages [retack-sdk-django]: Skipping, unable to determine old version
+[2024-04-29 14:08:24] INFO root fetch - main [MainThread]: End processing [retack-sdk-django] error
+[2024-04-29 14:08:24] INFO root fetch - processPackages [opencti-excel-uploader]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-29 14:08:24] INFO root fetch - processPackages [asyncTwitterClient]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-29 14:08:24] INFO root fetch - processPackages [torcheval-nightly]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-29 14:08:24] INFO root fetch - processPackages [phdu]: New version: [2.3.8] Old Version: [2.3.7]
+[2024-04-29 14:08:24] INFO root fetch - processPackages [ezlocalai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 14:08:24] INFO root fetch - processPackages [ragraph]: New version: [1.21.0] Old Version: [1.20.3]
+[2024-04-29 14:08:24] WARNING root fetch - processPackages [sphinx-click-rst-to-ansi-formatter]: Skipping, unable to determine old version
+[2024-04-29 14:08:24] INFO root fetch - main [MainThread]: End processing [sphinx-click-rst-to-ansi-formatter] error
+[2024-04-29 14:08:24] INFO root fetch - processPackages [opencti-excel-uploader]: Downloading https://files.pythonhosted.org/packages/fb/3f/3d0bf08fba5e79f90ec1560e301909e36e6e13e7d9620736f0a16b792eaa/opencti_excel_uploader-0.2.2.tar.gz
+[2024-04-29 14:08:24] INFO root fetch - processPackages [asyncTwitterClient]: Downloading https://files.pythonhosted.org/packages/82/71/0443266c500d03e617bcc70cf0b2d65183b994ae94a5ef94f0d4714a2844/asyncTwitterClient-0.5.0.tar.gz
+[2024-04-29 14:08:24] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/a3/6d/794af2087c6d670c1d6bd148a897d3a59b68e8d4b82c381b57d3e20ab544/torcheval-nightly-2024.4.8.tar.gz
+[2024-04-29 14:08:24] INFO root fetch - processPackages [esiaccel]: New version: [0.0.2.dev98] Old Version: [0.0.2.dev60]
+[2024-04-29 14:08:24] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/b5/e3/2b67297c9d934206efa9a3517b1fbdf93c914fe37fd0c86d02813d2f0566/phdu-2.3.7.tar.gz
+[2024-04-29 14:08:24] INFO root fetch - processPackages [ragraph]: Downloading https://files.pythonhosted.org/packages/4b/73/d3e84dc0e2c9d9192285980c66eb06282f960c34bfe3d4d600832e7f7221/ragraph-1.20.3.tar.gz
+[2024-04-29 14:08:24] INFO root fetch - processPackages [ezlocalai]: Downloading https://files.pythonhosted.org/packages/a2/76/320beb0dcc91b3996d8eb8a99fdb659e2acd1395e015987e149686a41263/ezlocalai-0.1.8.tar.gz
+[2024-04-29 14:08:24] INFO root fetch - processPackages [opencti-excel-uploader]: Downloading https://files.pythonhosted.org/packages/c6/65/7b0e2bd032c07bf0328ed41c663abea7b0022107f08633eef0de884e51f7/opencti_excel_uploader-0.2.3.tar.gz
+[2024-04-29 14:08:24] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/01/5f/5d3ae8fee972a25478395600694aa6da7aecdf0fdc15b5bb79b52a372737/torcheval-nightly-2024.4.9.tar.gz
+[2024-04-29 14:08:24] INFO root fetch - processPackages [esiaccel]: Downloading https://files.pythonhosted.org/packages/45/ed/6cdf93dc49cc962884490d1534138100ca47fa328fe7e07c343791fcbfb0/esiaccel-0.0.2.dev60-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-29 14:08:24] INFO root fetch - processPackages [asyncTwitterClient]: Downloading https://files.pythonhosted.org/packages/93/d5/5bb32d3bb49cf194b3ff3ed62cc8b0c12ae7ff832e2e59b8bf55b68baf9e/asyncTwitterClient-0.6.0.win-amd64.zip
+[2024-04-29 14:08:24] INFO root fetch - processPackages [opencti-excel-uploader]: executing diffoscope
+[2024-04-29 14:08:24] INFO root fetch - processPackages [opencti-excel-uploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencti_excel_uploader-0.2.2.tar.gz tmp/opencti_excel_uploader-0.2.3.tar.gz --markdown 20240429/o/opencti-excel-uploader/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-29 14:08:24] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2024-04-29 14:08:24] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval-nightly-2024.4.8.tar.gz tmp/torcheval-nightly-2024.4.9.tar.gz --markdown 20240429/t/torcheval-nightly/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-29 14:08:24] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/4b/71/e4150d84a1c911c6dd1c6616e0f98c10d993350c213ed6a75ec369daf808/phdu-2.3.8.tar.gz
+[2024-04-29 14:08:24] INFO root fetch - processPackages [asyncTwitterClient]: executing diffoscope
+[2024-04-29 14:08:24] INFO root fetch - processPackages [asyncTwitterClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncTwitterClient-0.5.0.tar.gz tmp/asyncTwitterClient-0.6.0.win-amd64.zip --markdown 20240429/a/asyncTwitterClient/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-29 14:08:24] INFO root fetch - processPackages [ragraph]: Downloading https://files.pythonhosted.org/packages/51/93/27e1501ac07272599b3900c1ef6329876cafe428c489a81cdc2825c1ad15/ragraph-1.21.0.tar.gz
+[2024-04-29 14:08:25] INFO root fetch - processPackages [ragraph]: executing diffoscope
+[2024-04-29 14:08:25] INFO root fetch - processPackages [ragraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragraph-1.20.3.tar.gz tmp/ragraph-1.21.0.tar.gz --markdown 20240429/r/ragraph/1.20.3-1.21.0/README.md --exclude *.pyd
+[2024-04-29 14:08:25] INFO root fetch - processPackages [ezlocalai]: Downloading https://files.pythonhosted.org/packages/a0/80/1ddcef71539a3056ccbead7e04bdd3b416d9d82d107db0d7d53285ec8bf4/ezlocalai-0.1.9.tar.gz
+[2024-04-29 14:08:25] INFO root fetch - processPackages [phdu]: executing diffoscope
+[2024-04-29 14:08:25] INFO root fetch - processPackages [phdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phdu-2.3.7.tar.gz tmp/phdu-2.3.8.tar.gz --markdown 20240429/p/phdu/2.3.7-2.3.8/README.md --exclude *.pyd
+[2024-04-29 14:08:25] INFO root fetch - processPackages [ezlocalai]: executing diffoscope
+[2024-04-29 14:08:25] INFO root fetch - processPackages [ezlocalai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezlocalai-0.1.8.tar.gz tmp/ezlocalai-0.1.9.tar.gz --markdown 20240429/e/ezlocalai/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 14:08:25] INFO root fetch - processPackages [opencti-excel-uploader]: Remove: archive file [/home/abi/fetcher/tmp/opencti_excel_uploader-0.2.2.tar.gz]
+[2024-04-29 14:08:25] INFO root fetch - processPackages [opencti-excel-uploader]: Remove: archive file [/home/abi/fetcher/tmp/opencti_excel_uploader-0.2.3.tar.gz]
+[2024-04-29 14:08:25] INFO root fetch - main [MainThread]: End processing [opencti-excel-uploader]: success
+[2024-04-29 14:08:25] INFO root fetch - processPackages [asyncTwitterClient]: Remove: archive file [/home/abi/fetcher/tmp/asyncTwitterClient-0.5.0.tar.gz]
+[2024-04-29 14:08:25] INFO root fetch - processPackages [asyncTwitterClient]: Remove: archive file [/home/abi/fetcher/tmp/asyncTwitterClient-0.6.0.win-amd64.zip]
+[2024-04-29 14:08:25] INFO root fetch - main [MainThread]: End processing [asyncTwitterClient]: success
+[2024-04-29 14:08:25] INFO root fetch - processPackages [esiaccel]: Downloading https://files.pythonhosted.org/packages/93/f4/9beed7381169f21f10e10f09e5d57c93ea7dededbb225c62da2f27907b7d/esiaccel-0.0.2.dev98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-29 14:08:26] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.4.8.tar.gz]
+[2024-04-29 14:08:26] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.4.9.tar.gz]
+[2024-04-29 14:08:26] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2024-04-29 14:08:26] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.3.7.tar.gz]
+[2024-04-29 14:08:26] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.3.8.tar.gz]
+[2024-04-29 14:08:26] INFO root fetch - main [MainThread]: End processing [phdu]: success
+[2024-04-29 14:08:26] INFO root fetch - processPackages [ezlocalai]: Remove: archive file [/home/abi/fetcher/tmp/ezlocalai-0.1.8.tar.gz]
+[2024-04-29 14:08:26] INFO root fetch - processPackages [ezlocalai]: Remove: archive file [/home/abi/fetcher/tmp/ezlocalai-0.1.9.tar.gz]
+[2024-04-29 14:08:26] INFO root fetch - main [MainThread]: End processing [ezlocalai]: success
+[2024-04-29 14:08:26] INFO root fetch - processPackages [ragraph]: Remove: archive file [/home/abi/fetcher/tmp/ragraph-1.20.3.tar.gz]
+[2024-04-29 14:08:26] INFO root fetch - processPackages [ragraph]: Remove: archive file [/home/abi/fetcher/tmp/ragraph-1.21.0.tar.gz]
+[2024-04-29 14:08:26] INFO root fetch - main [MainThread]: End processing [ragraph]: success
+[2024-04-29 14:08:26] INFO root fetch - processPackages [esiaccel]: executing diffoscope
+[2024-04-29 14:08:26] INFO root fetch - processPackages [esiaccel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esiaccel-0.0.2.dev60-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/esiaccel-0.0.2.dev98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240429/e/esiaccel/0.0.2.dev60-0.0.2.dev98/README.md --exclude *.pyd
+[2024-04-29 14:08:32] INFO root fetch - processPackages [esiaccel]: Remove: archive file [/home/abi/fetcher/tmp/esiaccel-0.0.2.dev60-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-29 14:08:32] INFO root fetch - processPackages [esiaccel]: Remove: archive file [/home/abi/fetcher/tmp/esiaccel-0.0.2.dev98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-29 14:08:32] INFO root fetch - main [MainThread]: End processing [esiaccel]: success
+[2024-04-29 14:08:32] INFO root fetch - main [MainThread]: Store serial: [22983123]
