@@ -23224,3 +23224,65 @@ EOFError: EOF read where object expected
 [2024-04-29 16:16:18] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
 [2024-04-29 16:16:18] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2024-04-29 16:16:18] INFO root fetch - main [MainThread]: Store serial: [22985161]
+[2024-04-29 16:18:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22985161]
+[2024-04-29 16:18:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-29 16:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: klu
+[2024-04-29 16:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: secretvalidate
+[2024-04-29 16:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stopwords-tr
+[2024-04-29 16:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: twikit
+[2024-04-29 16:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mongodb-orm
+[2024-04-29 16:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: maplib
+[2024-04-29 16:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SparkleAI
+[2024-04-29 16:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libsoni
+[2024-04-29 16:18:29] WARNING root fetch - processPackages [SparkleAI]: Skipping, unable to determine old version
+[2024-04-29 16:18:29] INFO root fetch - main [MainThread]: End processing [SparkleAI] error
+[2024-04-29 16:18:29] INFO root fetch - processPackages [secretvalidate]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-04-29 16:18:29] INFO root fetch - processPackages [mongodb-orm]: New version: [0.0.124] Old Version: [0.0.123]
+[2024-04-29 16:18:29] INFO root fetch - processPackages [twikit]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-29 16:18:29] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/d9/7a/b1384ca92e6fc4ae17152a59269d42eb2774885a46ca7c409700e429bc49/mongodb_orm-0.0.123.tar.gz
+[2024-04-29 16:18:29] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/2a/74/f1fedcd5b126c4af0184fc7bc616c4941f414eb51cc2fc523514708f3cae/secretvalidate-0.0.1a8.tar.gz
+[2024-04-29 16:18:29] INFO root fetch - processPackages [libsoni]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-29 16:18:29] WARNING root fetch - processPackages [stopwords-tr]: Skipping, unable to determine old version
+[2024-04-29 16:18:29] INFO root fetch - main [MainThread]: End processing [stopwords-tr] error
+[2024-04-29 16:18:29] INFO root fetch - processPackages [twikit]: Downloading https://files.pythonhosted.org/packages/9c/cc/fa2648bd6665831038c782f618568f0c464c18751a9883e6c8d42a7426a9/twikit-1.5.8.tar.gz
+[2024-04-29 16:18:29] INFO root fetch - processPackages [maplib]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-29 16:18:29] INFO root fetch - processPackages [klu]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 16:18:29] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/57/86/54b1f11aebe768d2014fd8f4bb1e90e29a764014e1104c5ccf64e6433d48/secretvalidate-0.0.1a9.tar.gz
+[2024-04-29 16:18:29] INFO root fetch - processPackages [libsoni]: Downloading https://files.pythonhosted.org/packages/7d/a6/dc7dc22321470f2a664bc4bacf25d61982244489172ae35432fcc84447dc/libsoni-1.0.1.tar.gz
+[2024-04-29 16:18:29] INFO root fetch - processPackages [twikit]: Downloading https://files.pythonhosted.org/packages/91/8f/4cbb6f8859c8b1bf5587ee57fa870e9ba808dd95602037d4719b70ed03ad/twikit-1.5.9.tar.gz
+[2024-04-29 16:18:29] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/9a/0e/bc9fdf320f975a622fce0375824952a991f4e5b4ea817b057a754a8ce5e4/mongodb_orm-0.0.124.tar.gz
+[2024-04-29 16:18:29] INFO root fetch - processPackages [secretvalidate]: executing diffoscope
+[2024-04-29 16:18:29] INFO root fetch - processPackages [secretvalidate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretvalidate-0.0.1a8.tar.gz tmp/secretvalidate-0.0.1a9.tar.gz --markdown 20240429/s/secretvalidate/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-04-29 16:18:29] INFO root fetch - processPackages [klu]: Downloading https://files.pythonhosted.org/packages/b1/c9/2a9f4e78c580680c6a16d7ae54190d553fdb30b0f46c56ca7d168d55eb41/klu-0.1.8.tar.gz
+[2024-04-29 16:18:29] INFO root fetch - processPackages [twikit]: executing diffoscope
+[2024-04-29 16:18:29] INFO root fetch - processPackages [twikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twikit-1.5.8.tar.gz tmp/twikit-1.5.9.tar.gz --markdown 20240429/t/twikit/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-04-29 16:18:29] INFO root fetch - processPackages [mongodb-orm]: executing diffoscope
+[2024-04-29 16:18:29] INFO root fetch - processPackages [mongodb-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_orm-0.0.123.tar.gz tmp/mongodb_orm-0.0.124.tar.gz --markdown 20240429/m/mongodb-orm/0.0.123-0.0.124/README.md --exclude *.pyd
+[2024-04-29 16:18:29] INFO root fetch - processPackages [maplib]: Downloading https://files.pythonhosted.org/packages/57/c6/3a2b9263ae5e94ddb7fccc9ad1c467e72f7addf9904521e330b8f2be99fc/maplib-0.8.9.tar.gz
+[2024-04-29 16:18:29] INFO root fetch - processPackages [libsoni]: Downloading https://files.pythonhosted.org/packages/4a/96/4192c57f534fa91fe4170814ebe310708ca79917f5be6351472f1919082f/libsoni-1.0.2.tar.gz
+[2024-04-29 16:18:29] INFO root fetch - processPackages [maplib]: executing diffoscope
+[2024-04-29 16:18:29] INFO root fetch - processPackages [maplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maplib-0.8.8.tar.gz tmp/maplib-0.8.9.tar.gz --markdown 20240429/m/maplib/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-29 16:18:29] INFO root fetch - processPackages [klu]: Downloading https://files.pythonhosted.org/packages/a5/9b/b497ef7ded62e9d7c34c96061b12e0d3adc6ad653f66589eaebfac32f3fd/klu-0.1.9.tar.gz
+[2024-04-29 16:18:29] INFO root fetch - processPackages [libsoni]: executing diffoscope
+[2024-04-29 16:18:29] INFO root fetch - processPackages [libsoni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsoni-1.0.1.tar.gz tmp/libsoni-1.0.2.tar.gz --markdown 20240429/l/libsoni/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-29 16:18:30] INFO root fetch - processPackages [klu]: executing diffoscope
+[2024-04-29 16:18:30] INFO root fetch - processPackages [klu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klu-0.1.8.tar.gz tmp/klu-0.1.9.tar.gz --markdown 20240429/k/klu/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 16:18:30] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a8.tar.gz]
+[2024-04-29 16:18:30] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a9.tar.gz]
+[2024-04-29 16:18:30] INFO root fetch - main [MainThread]: End processing [secretvalidate]: success
+[2024-04-29 16:18:30] INFO root fetch - processPackages [twikit]: Remove: archive file [/home/abi/fetcher/tmp/twikit-1.5.8.tar.gz]
+[2024-04-29 16:18:30] INFO root fetch - processPackages [twikit]: Remove: archive file [/home/abi/fetcher/tmp/twikit-1.5.9.tar.gz]
+[2024-04-29 16:18:30] INFO root fetch - main [MainThread]: End processing [twikit]: success
+[2024-04-29 16:18:30] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.0.123.tar.gz]
+[2024-04-29 16:18:30] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.0.124.tar.gz]
+[2024-04-29 16:18:30] INFO root fetch - main [MainThread]: End processing [mongodb-orm]: success
+[2024-04-29 16:18:30] INFO root fetch - processPackages [libsoni]: Remove: archive file [/home/abi/fetcher/tmp/libsoni-1.0.1.tar.gz]
+[2024-04-29 16:18:30] INFO root fetch - processPackages [libsoni]: Remove: archive file [/home/abi/fetcher/tmp/libsoni-1.0.2.tar.gz]
+[2024-04-29 16:18:30] INFO root fetch - main [MainThread]: End processing [libsoni]: success
+[2024-04-29 16:18:30] INFO root fetch - processPackages [klu]: Remove: archive file [/home/abi/fetcher/tmp/klu-0.1.8.tar.gz]
+[2024-04-29 16:18:30] INFO root fetch - processPackages [klu]: Remove: archive file [/home/abi/fetcher/tmp/klu-0.1.9.tar.gz]
+[2024-04-29 16:18:30] INFO root fetch - main [MainThread]: End processing [klu]: success
+[2024-04-29 16:18:31] INFO root fetch - processPackages [maplib]: Remove: archive file [/home/abi/fetcher/tmp/maplib-0.8.8.tar.gz]
+[2024-04-29 16:18:31] INFO root fetch - processPackages [maplib]: Remove: archive file [/home/abi/fetcher/tmp/maplib-0.8.9.tar.gz]
+[2024-04-29 16:18:31] INFO root fetch - main [MainThread]: End processing [maplib]: success
+[2024-04-29 16:18:31] INFO root fetch - main [MainThread]: Store serial: [22985197]
