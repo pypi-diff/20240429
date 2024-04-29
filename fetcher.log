@@ -12348,3 +12348,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 10:30:37] INFO root fetch - processPackages [powerbot-client]: Remove: archive file [/home/abi/fetcher/tmp/powerbot_client-2.9.1.tar.gz]
 [2024-04-29 10:30:37] INFO root fetch - main [MainThread]: End processing [powerbot-client]: success
 [2024-04-29 10:30:37] INFO root fetch - main [MainThread]: Store serial: [22980653]
+[2024-04-29 10:32:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980653]
+[2024-04-29 10:32:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 10:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2024-04-29 10:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libusbsio
+[2024-04-29 10:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docsig
+[2024-04-29 10:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bpm-ai-inference
+[2024-04-29 10:32:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: powerbot-asyncio-client
+[2024-04-29 10:32:48] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-29 10:32:48] INFO root fetch - processPackages [powerbot-asyncio-client]: New version: [2.9.1] Old Version: [2.8.0]
+[2024-04-29 10:32:48] INFO root fetch - processPackages [libusbsio]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-29 10:32:48] INFO root fetch - processPackages [bpm-ai-inference]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-04-29 10:32:48] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-29 10:32:48] INFO root fetch - processPackages [docsig]: New version: [0.9.0] Old Version: [0.7.0]
+[2024-04-29 10:32:48] INFO root fetch - processPackages [libusbsio]: Downloading https://files.pythonhosted.org/packages/5c/7f/e613018f41748f9f8ee2962a52aba4c5ed4f8cac227209dd107681cac51c/libusbsio-2.1.8.tar.gz
+[2024-04-29 10:32:48] INFO root fetch - processPackages [powerbot-asyncio-client]: Downloading https://files.pythonhosted.org/packages/be/ee/d18c92cbe80828136006cfd56931afb15dcecc61e2204baded7f758edc42/powerbot_asyncio_client-2.8.0.tar.gz
+[2024-04-29 10:32:48] INFO root fetch - processPackages [bpm-ai-inference]: Downloading https://files.pythonhosted.org/packages/c9/9a/34312efaf64c90be170726e2660048c9f7ed14b7313abbc360de72d5844c/bpm_ai_inference-0.2.9.tar.gz
+[2024-04-29 10:32:48] INFO root fetch - processPackages [docsig]: Downloading https://files.pythonhosted.org/packages/b7/aa/3a58eed65c9cd6b8bd5a25e3fb75d0dab2ecdda4b36d07b1e482c485f72b/docsig-0.7.0.tar.gz
+[2024-04-29 10:32:48] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-29 10:32:49] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-29 10:32:49] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240429/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-29 10:32:49] INFO root fetch - processPackages [bpm-ai-inference]: Downloading https://files.pythonhosted.org/packages/1a/9c/7a360e0c6efc3710a9e3133b8aa622e19260dd3a73136e72bc02475c486f/bpm_ai_inference-0.3.0.tar.gz
+[2024-04-29 10:32:49] INFO root fetch - processPackages [libusbsio]: Downloading https://files.pythonhosted.org/packages/42/83/39d5a704c2c8037f4d9cf1b06b9378a9152d3f0d2de10a34cc6c8f64f8c2/libusbsio-2.1.9.tar.gz
+[2024-04-29 10:32:49] INFO root fetch - processPackages [docsig]: Downloading https://files.pythonhosted.org/packages/a5/8b/f9b2d72f71a3977e2edb7a543e8805b8f859ed021086b9eb63b07f9aa86d/docsig-0.9.0.tar.gz
+[2024-04-29 10:32:49] INFO root fetch - processPackages [docsig]: executing diffoscope
+[2024-04-29 10:32:49] INFO root fetch - processPackages [docsig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docsig-0.7.0.tar.gz tmp/docsig-0.9.0.tar.gz --markdown 20240429/d/docsig/0.7.0-0.9.0/README.md --exclude *.pyd
+[2024-04-29 10:32:49] INFO root fetch - processPackages [bpm-ai-inference]: executing diffoscope
+[2024-04-29 10:32:49] INFO root fetch - processPackages [bpm-ai-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpm_ai_inference-0.2.9.tar.gz tmp/bpm_ai_inference-0.3.0.tar.gz --markdown 20240429/b/bpm-ai-inference/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-04-29 10:32:49] INFO root fetch - processPackages [powerbot-asyncio-client]: Downloading https://files.pythonhosted.org/packages/ea/a5/4a2a32dee1aa1590d7405f12127a4969448a2e2c66809804c76dd8a48fa0/powerbot_asyncio_client-2.9.1.tar.gz
+[2024-04-29 10:32:49] INFO root fetch - processPackages [libusbsio]: executing diffoscope
+[2024-04-29 10:32:49] INFO root fetch - processPackages [libusbsio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libusbsio-2.1.8.tar.gz tmp/libusbsio-2.1.9.tar.gz --markdown 20240429/l/libusbsio/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-29 10:32:49] INFO root fetch - processPackages [powerbot-asyncio-client]: executing diffoscope
+[2024-04-29 10:32:49] INFO root fetch - processPackages [powerbot-asyncio-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerbot_asyncio_client-2.8.0.tar.gz tmp/powerbot_asyncio_client-2.9.1.tar.gz --markdown 20240429/p/powerbot-asyncio-client/2.8.0-2.9.1/README.md --exclude *.pyd
+[2024-04-29 10:32:49] INFO root fetch - processPackages [docsig]: Remove: archive file [/home/abi/fetcher/tmp/docsig-0.7.0.tar.gz]
+[2024-04-29 10:32:49] INFO root fetch - processPackages [docsig]: Remove: archive file [/home/abi/fetcher/tmp/docsig-0.9.0.tar.gz]
+[2024-04-29 10:32:49] INFO root fetch - main [MainThread]: End processing [docsig]: success
+[2024-04-29 10:32:50] INFO root fetch - processPackages [bpm-ai-inference]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai_inference-0.2.9.tar.gz]
+[2024-04-29 10:32:50] INFO root fetch - processPackages [bpm-ai-inference]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai_inference-0.3.0.tar.gz]
+[2024-04-29 10:32:50] INFO root fetch - main [MainThread]: End processing [bpm-ai-inference]: success
+[2024-04-29 10:32:51] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-29 10:32:51] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-29 10:32:51] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-29 10:32:52] INFO root fetch - processPackages [powerbot-asyncio-client]: Remove: archive file [/home/abi/fetcher/tmp/powerbot_asyncio_client-2.8.0.tar.gz]
+[2024-04-29 10:32:52] INFO root fetch - processPackages [powerbot-asyncio-client]: Remove: archive file [/home/abi/fetcher/tmp/powerbot_asyncio_client-2.9.1.tar.gz]
+[2024-04-29 10:32:52] INFO root fetch - main [MainThread]: End processing [powerbot-asyncio-client]: success
+[2024-04-29 10:32:53] INFO root fetch - processPackages [libusbsio]: Remove: archive file [/home/abi/fetcher/tmp/libusbsio-2.1.8.tar.gz]
+[2024-04-29 10:32:53] INFO root fetch - processPackages [libusbsio]: Remove: archive file [/home/abi/fetcher/tmp/libusbsio-2.1.9.tar.gz]
+[2024-04-29 10:32:53] INFO root fetch - main [MainThread]: End processing [libusbsio]: success
+[2024-04-29 10:32:53] INFO root fetch - main [MainThread]: Store serial: [22980668]
