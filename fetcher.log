@@ -22173,3 +22173,60 @@ EOFError: EOF read where object expected
 [2024-04-29 15:47:24] INFO root fetch - processPackages [alibabacloud-gpdb20160503-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_gpdb20160503_py2-3.6.4.tar.gz]
 [2024-04-29 15:47:24] INFO root fetch - main [MainThread]: End processing [alibabacloud-gpdb20160503-py2]: success
 [2024-04-29 15:47:24] INFO root fetch - main [MainThread]: Store serial: [22984640]
+[2024-04-29 15:49:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22984640]
+[2024-04-29 15:49:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-29 15:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opencti-excel-uploader
+[2024-04-29 15:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pseudonymizer
+[2024-04-29 15:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-gpdb20160503
+[2024-04-29 15:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyterlab-sql-explorer
+[2024-04-29 15:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: paloalto-panorama-sdk
+[2024-04-29 15:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aeroterra-ds
+[2024-04-29 15:49:34] INFO root fetch - processPackages [pseudonymizer]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-29 15:49:34] INFO root fetch - processPackages [paloalto-panorama-sdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-29 15:49:34] INFO root fetch - processPackages [opencti-excel-uploader]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-29 15:49:34] INFO root fetch - processPackages [pseudonymizer]: Downloading https://files.pythonhosted.org/packages/75/4d/48b25ae652b9a871f409549dc5a379efe11c7f42fa567a6000ac70d6e725/pseudonymizer-0.1.2-py3-none-any.whl
+[2024-04-29 15:49:34] INFO root fetch - processPackages [paloalto-panorama-sdk]: Downloading https://files.pythonhosted.org/packages/7e/ea/462ad2ad68c52b88ea5cd5fcd769008e47c5d68bc2715d3eb44312664c82/paloalto_panorama_sdk-0.0.2.tar.gz
+[2024-04-29 15:49:34] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: New version: [3.5.4] Old Version: [3.5.3]
+[2024-04-29 15:49:34] INFO root fetch - processPackages [aeroterra-ds]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-29 15:49:34] INFO root fetch - processPackages [opencti-excel-uploader]: Downloading https://files.pythonhosted.org/packages/7f/77/1307e56cd776cfebb55636cb5f2cb15a52bcb22f66e00919d6285700ebb4/opencti_excel_uploader-0.2.8.tar.gz
+[2024-04-29 15:49:34] INFO root fetch - processPackages [jupyterlab-sql-explorer]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-29 15:49:34] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: Downloading https://files.pythonhosted.org/packages/55/0d/f6856bfdccfb0dfe179ab3a37e77eafad52c83420f85bdd54cd1f3cbb40e/alibabacloud_gpdb20160503-3.5.3.tar.gz
+[2024-04-29 15:49:34] INFO root fetch - processPackages [opencti-excel-uploader]: Downloading https://files.pythonhosted.org/packages/08/21/739f84a5ec2b7af8dc93f7fba838b32f68e968c014b4980bc109510d3dd3/opencti_excel_uploader-0.2.9.tar.gz
+[2024-04-29 15:49:34] INFO root fetch - processPackages [jupyterlab-sql-explorer]: Downloading https://files.pythonhosted.org/packages/d4/d8/840eec2d442196d59be0314f6dd43355443cb4349abde5ea588492205e8b/jupyterlab_sql_explorer-0.1.2.tar.gz
+[2024-04-29 15:49:34] INFO root fetch - processPackages [aeroterra-ds]: Downloading https://files.pythonhosted.org/packages/ba/b1/3a99297ffcf64498604031fbfe5f7bd77eb9e82535bcc04134866b539665/aeroterra_ds-1.0.8.tar.gz
+[2024-04-29 15:49:34] INFO root fetch - processPackages [paloalto-panorama-sdk]: Downloading https://files.pythonhosted.org/packages/91/61/dbd62d49c84b83bfcbd380428917328e62bed5e8155e8d2fc5549ea69456/paloalto_panorama_sdk-0.0.3.tar.gz
+[2024-04-29 15:49:34] INFO root fetch - processPackages [opencti-excel-uploader]: executing diffoscope
+[2024-04-29 15:49:34] INFO root fetch - processPackages [opencti-excel-uploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencti_excel_uploader-0.2.8.tar.gz tmp/opencti_excel_uploader-0.2.9.tar.gz --markdown 20240429/o/opencti-excel-uploader/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-29 15:49:34] INFO root fetch - processPackages [pseudonymizer]: Downloading https://files.pythonhosted.org/packages/30/6f/dcc26f092ed2138f10e89d7483741c7e49087725cbe8f578a0708fab677e/pseudonymizer-0.1.3-py3-none-any.whl
+[2024-04-29 15:49:34] INFO root fetch - processPackages [paloalto-panorama-sdk]: executing diffoscope
+[2024-04-29 15:49:34] INFO root fetch - processPackages [paloalto-panorama-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paloalto_panorama_sdk-0.0.2.tar.gz tmp/paloalto_panorama_sdk-0.0.3.tar.gz --markdown 20240429/p/paloalto-panorama-sdk/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-29 15:49:35] INFO root fetch - processPackages [pseudonymizer]: executing diffoscope
+[2024-04-29 15:49:35] INFO root fetch - processPackages [pseudonymizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pseudonymizer-0.1.2-py3-none-any.whl.zip tmp/pseudonymizer-0.1.3-py3-none-any.whl.zip --markdown 20240429/p/pseudonymizer/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-29 15:49:35] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: Downloading https://files.pythonhosted.org/packages/72/d6/a45f2db20307824cee4e999849c273d7a727fb41f99c740d3ff2d420abec/alibabacloud_gpdb20160503-3.5.4.tar.gz
+[2024-04-29 15:49:35] INFO root fetch - processPackages [aeroterra-ds]: Downloading https://files.pythonhosted.org/packages/5b/68/aaa8e502a3d00d0cf6ffc68cdd9599605601abff8e12de5fd50b45beac5c/aeroterra_ds-1.0.9.tar.gz
+[2024-04-29 15:49:35] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: executing diffoscope
+[2024-04-29 15:49:35] INFO root fetch - processPackages [aeroterra-ds]: executing diffoscope
+[2024-04-29 15:49:35] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_gpdb20160503-3.5.3.tar.gz tmp/alibabacloud_gpdb20160503-3.5.4.tar.gz --markdown 20240429/a/alibabacloud-gpdb20160503/3.5.3-3.5.4/README.md --exclude *.pyd
+[2024-04-29 15:49:35] INFO root fetch - processPackages [aeroterra-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeroterra_ds-1.0.8.tar.gz tmp/aeroterra_ds-1.0.9.tar.gz --markdown 20240429/a/aeroterra-ds/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-29 15:49:35] INFO root fetch - processPackages [jupyterlab-sql-explorer]: Downloading https://files.pythonhosted.org/packages/b6/a2/1681b7453b6eb687dfbeaee0b341f0c073e15a4395c24980b9a695f3e1a0/jupyterlab_sql_explorer-0.2.0.tar.gz
+[2024-04-29 15:49:35] INFO root fetch - processPackages [jupyterlab-sql-explorer]: executing diffoscope
+[2024-04-29 15:49:35] INFO root fetch - processPackages [jupyterlab-sql-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_sql_explorer-0.1.2.tar.gz tmp/jupyterlab_sql_explorer-0.2.0.tar.gz --markdown 20240429/j/jupyterlab-sql-explorer/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-04-29 15:49:35] INFO root fetch - processPackages [opencti-excel-uploader]: Remove: archive file [/home/abi/fetcher/tmp/opencti_excel_uploader-0.2.8.tar.gz]
+[2024-04-29 15:49:35] INFO root fetch - processPackages [opencti-excel-uploader]: Remove: archive file [/home/abi/fetcher/tmp/opencti_excel_uploader-0.2.9.tar.gz]
+[2024-04-29 15:49:35] INFO root fetch - main [MainThread]: End processing [opencti-excel-uploader]: success
+[2024-04-29 15:49:35] INFO root fetch - processPackages [paloalto-panorama-sdk]: Remove: archive file [/home/abi/fetcher/tmp/paloalto_panorama_sdk-0.0.2.tar.gz]
+[2024-04-29 15:49:35] INFO root fetch - processPackages [paloalto-panorama-sdk]: Remove: archive file [/home/abi/fetcher/tmp/paloalto_panorama_sdk-0.0.3.tar.gz]
+[2024-04-29 15:49:35] INFO root fetch - main [MainThread]: End processing [paloalto-panorama-sdk]: success
+[2024-04-29 15:49:35] INFO root fetch - processPackages [pseudonymizer]: Remove: archive file [/home/abi/fetcher/tmp/pseudonymizer-0.1.2-py3-none-any.whl.zip]
+[2024-04-29 15:49:35] INFO root fetch - processPackages [pseudonymizer]: Remove: archive file [/home/abi/fetcher/tmp/pseudonymizer-0.1.3-py3-none-any.whl.zip]
+[2024-04-29 15:49:35] INFO root fetch - main [MainThread]: End processing [pseudonymizer]: success
+[2024-04-29 15:49:35] INFO root fetch - processPackages [aeroterra-ds]: Remove: archive file [/home/abi/fetcher/tmp/aeroterra_ds-1.0.8.tar.gz]
+[2024-04-29 15:49:35] INFO root fetch - processPackages [aeroterra-ds]: Remove: archive file [/home/abi/fetcher/tmp/aeroterra_ds-1.0.9.tar.gz]
+[2024-04-29 15:49:35] INFO root fetch - main [MainThread]: End processing [aeroterra-ds]: success
+[2024-04-29 15:49:36] INFO root fetch - processPackages [jupyterlab-sql-explorer]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_sql_explorer-0.1.2.tar.gz]
+[2024-04-29 15:49:36] INFO root fetch - processPackages [jupyterlab-sql-explorer]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_sql_explorer-0.2.0.tar.gz]
+[2024-04-29 15:49:36] INFO root fetch - main [MainThread]: End processing [jupyterlab-sql-explorer]: success
+[2024-04-29 15:49:36] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_gpdb20160503-3.5.3.tar.gz]
+[2024-04-29 15:49:36] INFO root fetch - processPackages [alibabacloud-gpdb20160503]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_gpdb20160503-3.5.4.tar.gz]
+[2024-04-29 15:49:36] INFO root fetch - main [MainThread]: End processing [alibabacloud-gpdb20160503]: success
+[2024-04-29 15:49:36] INFO root fetch - main [MainThread]: Store serial: [22984659]
