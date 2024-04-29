@@ -19135,3 +19135,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 14:39:38] INFO root fetch - processPackages [issx]: Remove: archive file [/home/abi/fetcher/tmp/issx-0.5.0.tar.gz]
 [2024-04-29 14:39:38] INFO root fetch - main [MainThread]: End processing [issx]: success
 [2024-04-29 14:39:38] INFO root fetch - main [MainThread]: Store serial: [22983473]
+[2024-04-29 14:41:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22983473]
+[2024-04-29 14:41:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 14:41:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: issx
+[2024-04-29 14:41:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ixoncdkingress
+[2024-04-29 14:41:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cesm
+[2024-04-29 14:41:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qosst-alice
+[2024-04-29 14:41:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-llm
+[2024-04-29 14:41:47] INFO root fetch - processPackages [ixoncdkingress]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 14:41:47] INFO root fetch - processPackages [cesm]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-29 14:41:47] INFO root fetch - processPackages [issx]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-29 14:41:47] WARNING root fetch - processPackages [qosst-alice]: Skipping, unable to determine old version
+[2024-04-29 14:41:47] INFO root fetch - main [MainThread]: End processing [qosst-alice] error
+[2024-04-29 14:41:47] INFO root fetch - processPackages [cesm]: Downloading https://files.pythonhosted.org/packages/24/1a/9e6f19df4c7dd8a5844cc8f86e0cd765c6bfd06557389114185e0853630f/cesm-0.0.7.tar.gz
+[2024-04-29 14:41:47] INFO root fetch - processPackages [ixoncdkingress]: Downloading https://files.pythonhosted.org/packages/b3/1b/2738933755f61b85947702010ca1d9403e64824e49dcdc082f1b61a07b4a/ixoncdkingress-0.0.8.tar.gz
+[2024-04-29 14:41:47] INFO root fetch - processPackages [issx]: Downloading https://files.pythonhosted.org/packages/43/ad/fb1c962022a10b0416716197d5d3698e683c9abda4d8505b4d897a77fd97/issx-0.4.0.tar.gz
+[2024-04-29 14:41:47] INFO root fetch - processPackages [bigdl-llm]: New version: [2.5.0b20240429] Old Version: [2.5.0b20240428]
+[2024-04-29 14:41:47] INFO root fetch - processPackages [ixoncdkingress]: Downloading https://files.pythonhosted.org/packages/81/5d/64486ddfc794e9b261c3c76607feaa76e92ecb01cd26ffd13bced3ecac65/ixoncdkingress-0.0.9.tar.gz
+[2024-04-29 14:41:47] INFO root fetch - processPackages [issx]: Downloading https://files.pythonhosted.org/packages/29/0e/09624d9cc69fbcb60bf463176957f990a026a8ff14430679b605d73a9674/issx-0.5.0.tar.gz
+[2024-04-29 14:41:47] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/3c/0d/7929fc511abc5ed4342ae3a0bf623ffb05af8caef77710586ec8db8404f0/bigdl_llm-2.5.0b20240428-py3-none-win_amd64.whl
+[2024-04-29 14:41:47] INFO root fetch - processPackages [ixoncdkingress]: executing diffoscope
+[2024-04-29 14:41:47] INFO root fetch - processPackages [ixoncdkingress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixoncdkingress-0.0.8.tar.gz tmp/ixoncdkingress-0.0.9.tar.gz --markdown 20240429/i/ixoncdkingress/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 14:41:47] INFO root fetch - processPackages [cesm]: Downloading https://files.pythonhosted.org/packages/6f/14/f7dac82da592e7e148e15abd30d1636e660acd1d1c7c005f441dd6f8f72b/cesm-0.0.8.tar.gz
+[2024-04-29 14:41:47] INFO root fetch - processPackages [issx]: executing diffoscope
+[2024-04-29 14:41:47] INFO root fetch - processPackages [issx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/issx-0.4.0.tar.gz tmp/issx-0.5.0.tar.gz --markdown 20240429/i/issx/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-29 14:41:47] INFO root fetch - processPackages [cesm]: executing diffoscope
+[2024-04-29 14:41:47] INFO root fetch - processPackages [cesm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cesm-0.0.7.tar.gz tmp/cesm-0.0.8.tar.gz --markdown 20240429/c/cesm/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-29 14:41:48] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/ca/d8/862fc90f47f596e604c5643eedb896f9c0768b17d217a4995c36b8d50f8e/bigdl_llm-2.5.0b20240429-py3-none-win_amd64.whl
+[2024-04-29 14:41:48] INFO root fetch - processPackages [ixoncdkingress]: Remove: archive file [/home/abi/fetcher/tmp/ixoncdkingress-0.0.8.tar.gz]
+[2024-04-29 14:41:48] INFO root fetch - processPackages [ixoncdkingress]: Remove: archive file [/home/abi/fetcher/tmp/ixoncdkingress-0.0.9.tar.gz]
+[2024-04-29 14:41:48] INFO root fetch - main [MainThread]: End processing [ixoncdkingress]: success
+[2024-04-29 14:41:48] INFO root fetch - processPackages [cesm]: Remove: archive file [/home/abi/fetcher/tmp/cesm-0.0.7.tar.gz]
+[2024-04-29 14:41:48] INFO root fetch - processPackages [cesm]: Remove: archive file [/home/abi/fetcher/tmp/cesm-0.0.8.tar.gz]
+[2024-04-29 14:41:48] INFO root fetch - main [MainThread]: End processing [cesm]: success
+[2024-04-29 14:41:48] INFO root fetch - processPackages [issx]: Remove: archive file [/home/abi/fetcher/tmp/issx-0.4.0.tar.gz]
+[2024-04-29 14:41:48] INFO root fetch - processPackages [issx]: Remove: archive file [/home/abi/fetcher/tmp/issx-0.5.0.tar.gz]
+[2024-04-29 14:41:48] INFO root fetch - main [MainThread]: End processing [issx]: success
+[2024-04-29 14:41:49] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2024-04-29 14:41:49] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.5.0b20240428-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.5.0b20240429-py3-none-win_amd64.whl.zip --markdown 20240429/b/bigdl-llm/2.5.0b20240428-2.5.0b20240429/README.md --exclude *.pyd
+[2024-04-29 14:41:50] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240428-py3-none-win_amd64.whl.zip]
+[2024-04-29 14:41:50] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240429-py3-none-win_amd64.whl.zip]
+[2024-04-29 14:41:50] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2024-04-29 14:41:50] INFO root fetch - main [MainThread]: Store serial: [22983491]
