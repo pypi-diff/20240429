@@ -17986,3 +17986,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 13:55:03] INFO root fetch - processPackages [MedatechUK.APY]: Remove: archive file [/home/abi/fetcher/tmp/MedatechUK.APY-0.0.9.tar.gz]
 [2024-04-29 13:55:03] INFO root fetch - main [MainThread]: End processing [MedatechUK.APY]: success
 [2024-04-29 13:55:03] INFO root fetch - main [MainThread]: Store serial: [22982918]
+[2024-04-29 13:57:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982918]
+[2024-04-29 13:57:12] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-29 13:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easy-utils-dev
+[2024-04-29 13:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simo
+[2024-04-29 13:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tonkord.py
+[2024-04-29 13:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: json-spec
+[2024-04-29 13:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imagedata
+[2024-04-29 13:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nestipy-peewee
+[2024-04-29 13:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: evermore
+[2024-04-29 13:57:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: venty
+[2024-04-29 13:57:12] INFO root fetch - processPackages [venty]: New version: [8.2.0] Old Version: [8.1.0]
+[2024-04-29 13:57:12] INFO root fetch - processPackages [easy-utils-dev]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-29 13:57:12] INFO root fetch - processPackages [json-spec]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-29 13:57:13] INFO root fetch - processPackages [venty]: Downloading https://files.pythonhosted.org/packages/94/b0/017e2d0bf8683c6578ea7b717e4c468ce319db07c7e31c78205d7acbce5c/venty-8.1.0.tar.gz
+[2024-04-29 13:57:13] INFO root fetch - processPackages [tonkord.py]: New version: [2.0] Old Version: [1.0.0]
+[2024-04-29 13:57:13] INFO root fetch - processPackages [evermore]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-29 13:57:13] INFO root fetch - processPackages [nestipy-peewee]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-29 13:57:13] INFO root fetch - processPackages [simo]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-29 13:57:13] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/89/a4/7086b32ccadd552db37d7838d6584e4fe556b708cc4b882e63895924bd57/easy_utils_dev-2.9.8.tar.gz
+[2024-04-29 13:57:13] INFO root fetch - processPackages [imagedata]: New version: [3.5.5rc1] Old Version: [3.5.4]
+[2024-04-29 13:57:13] INFO root fetch - processPackages [json-spec]: Downloading https://files.pythonhosted.org/packages/7f/72/e107af3c508f40be44325e2dd1ba7f2b70463161af6aaee437ea84ea5733/json-spec-0.9.8.tar.gz
+[2024-04-29 13:57:13] INFO root fetch - processPackages [tonkord.py]: Downloading https://files.pythonhosted.org/packages/11/af/fb3a7e881e350b691118d5a447f0b8a7242186f5183c62daf73d3120e0c3/tonkord.py-1.0.0.tar.gz
+[2024-04-29 13:57:13] INFO root fetch - processPackages [simo]: Downloading https://files.pythonhosted.org/packages/9c/3e/85c97e5462a3125c0189f179fa275e8a0cf69dce695c9a637286581a09a0/simo-2.0.8.tar.gz
+[2024-04-29 13:57:13] INFO root fetch - processPackages [evermore]: Downloading https://files.pythonhosted.org/packages/72/11/ee46bdcc2389718656fae79567890cf8ef236d503c67eac9920ff8192918/evermore-0.2.5.tar.gz
+[2024-04-29 13:57:13] INFO root fetch - processPackages [nestipy-peewee]: Downloading https://files.pythonhosted.org/packages/70/90/9e00ece9a14ba58d0a0ee78cf29ccbb323af4fcd5bb3e1cea0c17a1cb986/nestipy_peewee-0.1.2.tar.gz
+[2024-04-29 13:57:13] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/52/df/0bb33809cc04a0dd3cf1f9d26e4880b2dcbc1e5bd512fc6f3d93c0f698a1/easy_utils_dev-2.9.9.tar.gz
+[2024-04-29 13:57:13] INFO root fetch - processPackages [imagedata]: Downloading https://files.pythonhosted.org/packages/57/0b/3371229feff832952fee9fe0ddbad777bc92a383af481d212a74ce701044/imagedata-3.5.4.tar.gz
+[2024-04-29 13:57:13] WARNING root fetch - processPackages [simo]: Skipping package: exceeds size limit 20582813>=10485760
+[2024-04-29 13:57:13] INFO root fetch - main [MainThread]: End processing [simo] error
+[2024-04-29 13:57:13] WARNING root fetch - processPackages [imagedata]: Skipping package: exceeds size limit 27631445>=10485760
+[2024-04-29 13:57:13] INFO root fetch - main [MainThread]: End processing [imagedata] error
+[2024-04-29 13:57:13] INFO root fetch - processPackages [venty]: Downloading https://files.pythonhosted.org/packages/57/e2/d8958c19c3189fb9acd7e4a6b720905050ba04327f1a5094997cc781298b/venty-8.2.0.tar.gz
+[2024-04-29 13:57:13] INFO root fetch - processPackages [easy-utils-dev]: executing diffoscope
+[2024-04-29 13:57:13] INFO root fetch - processPackages [easy-utils-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_utils_dev-2.9.8.tar.gz tmp/easy_utils_dev-2.9.9.tar.gz --markdown 20240429/e/easy-utils-dev/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-04-29 13:57:13] INFO root fetch - processPackages [venty]: executing diffoscope
+[2024-04-29 13:57:13] INFO root fetch - processPackages [venty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venty-8.1.0.tar.gz tmp/venty-8.2.0.tar.gz --markdown 20240429/v/venty/8.1.0-8.2.0/README.md --exclude *.pyd
+[2024-04-29 13:57:13] INFO root fetch - processPackages [json-spec]: Downloading https://files.pythonhosted.org/packages/1f/20/f8cd399775838ed1680a53b3c6f99d5affc2688872e93cfe071f284ae2a6/json-spec-0.9.9.tar.gz
+[2024-04-29 13:57:13] INFO root fetch - processPackages [tonkord.py]: Downloading https://files.pythonhosted.org/packages/ba/c1/70d1ab966ef81b748099ca744bb7679cc0be9ee732264598f2b447463333/tonkord.py-2.0.tar.gz
+[2024-04-29 13:57:13] INFO root fetch - processPackages [nestipy-peewee]: Downloading https://files.pythonhosted.org/packages/eb/cf/025406575f87be1bab51d0ccf1c761153364762b6c6a2018973b35224fd3/nestipy_peewee-0.1.3.tar.gz
+[2024-04-29 13:57:13] INFO root fetch - processPackages [evermore]: Downloading https://files.pythonhosted.org/packages/5f/47/b80d2a2d61274811cde493e1cb0f4184e06e109429a9374d5a11289b6446/evermore-0.2.6.tar.gz
+[2024-04-29 13:57:13] INFO root fetch - processPackages [nestipy-peewee]: executing diffoscope
+[2024-04-29 13:57:13] INFO root fetch - processPackages [nestipy-peewee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestipy_peewee-0.1.2.tar.gz tmp/nestipy_peewee-0.1.3.tar.gz --markdown 20240429/n/nestipy-peewee/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-29 13:57:13] INFO root fetch - processPackages [evermore]: executing diffoscope
+[2024-04-29 13:57:13] INFO root fetch - processPackages [evermore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evermore-0.2.5.tar.gz tmp/evermore-0.2.6.tar.gz --markdown 20240429/e/evermore/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-29 13:57:13] INFO root fetch - processPackages [tonkord.py]: executing diffoscope
+[2024-04-29 13:57:13] INFO root fetch - processPackages [tonkord.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tonkord.py-1.0.0.tar.gz tmp/tonkord.py-2.0.tar.gz --markdown 20240429/t/tonkord.py/1.0.0-2.0/README.md --exclude *.pyd
+[2024-04-29 13:57:13] INFO root fetch - processPackages [json-spec]: executing diffoscope
+[2024-04-29 13:57:13] INFO root fetch - processPackages [json-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json-spec-0.9.8.tar.gz tmp/json-spec-0.9.9.tar.gz --markdown 20240429/j/json-spec/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-29 13:57:14] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.8.tar.gz]
+[2024-04-29 13:57:14] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.9.tar.gz]
+[2024-04-29 13:57:14] INFO root fetch - main [MainThread]: End processing [easy-utils-dev]: success
+[2024-04-29 13:57:14] INFO root fetch - processPackages [venty]: Remove: archive file [/home/abi/fetcher/tmp/venty-8.1.0.tar.gz]
+[2024-04-29 13:57:14] INFO root fetch - processPackages [venty]: Remove: archive file [/home/abi/fetcher/tmp/venty-8.2.0.tar.gz]
+[2024-04-29 13:57:14] INFO root fetch - main [MainThread]: End processing [venty]: success
+[2024-04-29 13:57:14] INFO root fetch - processPackages [nestipy-peewee]: Remove: archive file [/home/abi/fetcher/tmp/nestipy_peewee-0.1.2.tar.gz]
+[2024-04-29 13:57:14] INFO root fetch - processPackages [nestipy-peewee]: Remove: archive file [/home/abi/fetcher/tmp/nestipy_peewee-0.1.3.tar.gz]
+[2024-04-29 13:57:14] INFO root fetch - main [MainThread]: End processing [nestipy-peewee]: success
+[2024-04-29 13:57:14] INFO root fetch - processPackages [evermore]: Remove: archive file [/home/abi/fetcher/tmp/evermore-0.2.5.tar.gz]
+[2024-04-29 13:57:14] INFO root fetch - processPackages [evermore]: Remove: archive file [/home/abi/fetcher/tmp/evermore-0.2.6.tar.gz]
+[2024-04-29 13:57:14] INFO root fetch - main [MainThread]: End processing [evermore]: success
+[2024-04-29 13:57:15] INFO root fetch - processPackages [tonkord.py]: Remove: archive file [/home/abi/fetcher/tmp/tonkord.py-1.0.0.tar.gz]
+[2024-04-29 13:57:15] INFO root fetch - processPackages [tonkord.py]: Remove: archive file [/home/abi/fetcher/tmp/tonkord.py-2.0.tar.gz]
+[2024-04-29 13:57:15] INFO root fetch - main [MainThread]: End processing [tonkord.py]: success
+[2024-04-29 13:57:19] INFO root fetch - processPackages [json-spec]: Remove: archive file [/home/abi/fetcher/tmp/json-spec-0.9.8.tar.gz]
+[2024-04-29 13:57:19] INFO root fetch - processPackages [json-spec]: Remove: archive file [/home/abi/fetcher/tmp/json-spec-0.9.9.tar.gz]
+[2024-04-29 13:57:19] INFO root fetch - main [MainThread]: End processing [json-spec]: success
+[2024-04-29 13:57:19] INFO root fetch - main [MainThread]: Store serial: [22982942]
