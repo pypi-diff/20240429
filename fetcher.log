@@ -12957,3 +12957,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 10:55:06] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
 [2024-04-29 10:55:06] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-04-29 10:55:06] INFO root fetch - main [MainThread]: Store serial: [22980934]
+[2024-04-29 10:57:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980934]
+[2024-04-29 10:57:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 10:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyterlab-tpt
+[2024-04-29 10:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LiquidEarthAPI
+[2024-04-29 10:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jetline
+[2024-04-29 10:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: akshare
+[2024-04-29 10:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tfp-nightly
+[2024-04-29 10:57:15] INFO root fetch - processPackages [jetline]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 10:57:15] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-04-29 10:57:15] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/14/d7/4b17ee6567b17ad4eec9a6e6ceded1190275544e45e07f7b10971d03dc9f/jetline-0.1.8.tar.gz
+[2024-04-29 10:57:15] WARNING root fetch - processPackages [LiquidEarthAPI]: Skipping, unable to determine old version
+[2024-04-29 10:57:15] INFO root fetch - main [MainThread]: End processing [LiquidEarthAPI] error
+[2024-04-29 10:57:15] INFO root fetch - processPackages [jupyterlab-tpt]: New version: [0.8.1] Old Version: [0.7.1]
+[2024-04-29 10:57:16] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2024-04-29 10:57:16] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-04-29 10:57:16] INFO root fetch - processPackages [jupyterlab-tpt]: Downloading https://files.pythonhosted.org/packages/0f/24/f2c36a624dd3231d994ce4bee25b0f331ccc5c9977dd1739dd5b3533f55e/jupyterlab_tpt-0.7.1.tar.gz
+[2024-04-29 10:57:16] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/e3/52/ee8efe5ee3940966b4c7e8b471dd88336c2950833a0dd4b4854cce8f181b/jetline-0.1.9.tar.gz
+[2024-04-29 10:57:16] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2024-04-29 10:57:16] INFO root fetch - processPackages [jetline]: executing diffoscope
+[2024-04-29 10:57:16] INFO root fetch - processPackages [jetline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetline-0.1.8.tar.gz tmp/jetline-0.1.9.tar.gz --markdown 20240429/j/jetline/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 10:57:16] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-04-29 10:57:16] INFO root fetch - processPackages [jupyterlab-tpt]: Downloading https://files.pythonhosted.org/packages/a8/5f/1099373402e18121bd8038d6971ff23a191c8a21031bf5e5b5bd49678098/jupyterlab_tpt-0.8.1.tar.gz
+[2024-04-29 10:57:16] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-04-29 10:57:16] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240429/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-04-29 10:57:16] INFO root fetch - processPackages [jupyterlab-tpt]: executing diffoscope
+[2024-04-29 10:57:16] INFO root fetch - processPackages [jupyterlab-tpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_tpt-0.7.1.tar.gz tmp/jupyterlab_tpt-0.8.1.tar.gz --markdown 20240429/j/jupyterlab-tpt/0.7.1-0.8.1/README.md --exclude *.pyd
+[2024-04-29 10:57:16] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2024-04-29 10:57:17] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.1.8.tar.gz]
+[2024-04-29 10:57:17] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.1.9.tar.gz]
+[2024-04-29 10:57:17] INFO root fetch - main [MainThread]: End processing [jetline]: success
+[2024-04-29 10:57:17] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2024-04-29 10:57:17] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20240429/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/README.md --exclude *.pyd
+[2024-04-29 10:57:17] INFO root fetch - processPackages [jupyterlab-tpt]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_tpt-0.7.1.tar.gz]
+[2024-04-29 10:57:17] INFO root fetch - processPackages [jupyterlab-tpt]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_tpt-0.8.1.tar.gz]
+[2024-04-29 10:57:17] INFO root fetch - main [MainThread]: End processing [jupyterlab-tpt]: success
+[2024-04-29 10:57:19] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-04-29 10:57:19] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-04-29 10:57:19] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-04-29 10:57:20] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2024-04-29 10:57:20] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2024-04-29 10:57:20] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2024-04-29 10:57:20] INFO root fetch - main [MainThread]: Store serial: [22980949]
