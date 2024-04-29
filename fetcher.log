@@ -8570,3 +8570,47 @@
 [2024-04-29 07:04:30] INFO root fetch - processPackages [pm4pyminimal]: Remove: archive file [/home/abi/fetcher/tmp/pm4pyminimal-2.7.9.4.tar.gz]
 [2024-04-29 07:04:30] INFO root fetch - main [MainThread]: End processing [pm4pyminimal]: success
 [2024-04-29 07:04:30] INFO root fetch - main [MainThread]: Store serial: [22978874]
+[2024-04-29 07:06:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978874]
+[2024-04-29 07:06:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 07:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapid-pe
+[2024-04-29 07:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: matterhorn-pytorch
+[2024-04-29 07:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simulation-engine
+[2024-04-29 07:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rp
+[2024-04-29 07:06:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wassima
+[2024-04-29 07:06:39] INFO root fetch - processPackages [simulation-engine]: New version: [1.0.0] Old Version: [0.1.9]
+[2024-04-29 07:06:39] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.2.dev20240428] Old Version: [0.1.2.dev20240427]
+[2024-04-29 07:06:39] INFO root fetch - processPackages [rp]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-04-29 07:06:40] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/b4/30/c0d8f0982b09088e69900f69aa37844ff942c2f2e6b1d085aeb097310531/rapid_pe-0.1.2.dev20240427.tar.gz
+[2024-04-29 07:06:40] INFO root fetch - processPackages [matterhorn-pytorch]: New version: [1.2.0] Old Version: [1.0.1]
+[2024-04-29 07:06:40] INFO root fetch - processPackages [simulation-engine]: Downloading https://files.pythonhosted.org/packages/b2/e4/b9cd4f7d21fc8b01cd648db3d4f32748b8e96279bd957add7534eeaaeed9/simulation_engine-0.1.9.tar.gz
+[2024-04-29 07:06:40] INFO root fetch - processPackages [wassima]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-29 07:06:40] INFO root fetch - processPackages [rp]: Downloading https://files.pythonhosted.org/packages/97/b0/bbb87ca94637473610e58828e8e7e0307bbbbd99a7ad7b0ce8abf94b5e15/rp-0.1.998.tar.gz
+[2024-04-29 07:06:40] WARNING root fetch - processPackages [rp]: Skipping package: exceeds size limit 16581479>=10485760
+[2024-04-29 07:06:40] INFO root fetch - main [MainThread]: End processing [rp] error
+[2024-04-29 07:06:40] INFO root fetch - processPackages [matterhorn-pytorch]: Downloading https://files.pythonhosted.org/packages/bb/95/eb86264b274f0904e08dc946def1d439b1b98ae125b46ed3b04d9766795d/matterhorn_pytorch-1.0.1.tar.gz
+[2024-04-29 07:06:40] INFO root fetch - processPackages [simulation-engine]: Downloading https://files.pythonhosted.org/packages/8a/3d/6f6df07fd27859980a00acea0519123cab5cb55aa1cf98f14dfb086549b6/simulation-engine-1.0.0.tar.gz
+[2024-04-29 07:06:40] INFO root fetch - processPackages [wassima]: Downloading https://files.pythonhosted.org/packages/86/bf/b56cae2967015efc8b73546defb9f79181e47213d298011c5c79ab39cc1b/wassima-1.1.0.tar.gz
+[2024-04-29 07:06:40] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/0f/cb/daba416eb3da0120e2439b0f52459abc4534b21a35ca8397f26fa61a1e1a/rapid_pe-0.1.2.dev20240428.tar.gz
+[2024-04-29 07:06:40] INFO root fetch - processPackages [simulation-engine]: executing diffoscope
+[2024-04-29 07:06:40] INFO root fetch - processPackages [simulation-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simulation_engine-0.1.9.tar.gz tmp/simulation-engine-1.0.0.tar.gz --markdown 20240429/s/simulation-engine/0.1.9-1.0.0/README.md --exclude *.pyd
+[2024-04-29 07:06:40] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2024-04-29 07:06:40] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.2.dev20240427.tar.gz tmp/rapid_pe-0.1.2.dev20240428.tar.gz --markdown 20240429/r/rapid-pe/0.1.2.dev20240427-0.1.2.dev20240428/README.md --exclude *.pyd
+[2024-04-29 07:06:40] INFO root fetch - processPackages [matterhorn-pytorch]: Downloading https://files.pythonhosted.org/packages/be/df/216b74a9c0bb8851c9acbc065519b36f504eb1f3aa33d00301413fadb797/matterhorn_pytorch-1.2.0.tar.gz
+[2024-04-29 07:06:40] INFO root fetch - processPackages [matterhorn-pytorch]: executing diffoscope
+[2024-04-29 07:06:40] INFO root fetch - processPackages [matterhorn-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matterhorn_pytorch-1.0.1.tar.gz tmp/matterhorn_pytorch-1.2.0.tar.gz --markdown 20240429/m/matterhorn-pytorch/1.0.1-1.2.0/README.md --exclude *.pyd
+[2024-04-29 07:06:40] INFO root fetch - processPackages [wassima]: Downloading https://files.pythonhosted.org/packages/55/9e/be197afc3f0c3e27e3cd4f5257e14142dbad68c10ef576fe61bb108ec88e/wassima-1.1.1-pp310-pypy310_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-04-29 07:06:40] INFO root fetch - processPackages [simulation-engine]: Remove: archive file [/home/abi/fetcher/tmp/simulation_engine-0.1.9.tar.gz]
+[2024-04-29 07:06:40] INFO root fetch - processPackages [simulation-engine]: Remove: archive file [/home/abi/fetcher/tmp/simulation-engine-1.0.0.tar.gz]
+[2024-04-29 07:06:40] INFO root fetch - main [MainThread]: End processing [simulation-engine]: success
+[2024-04-29 07:06:41] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240427.tar.gz]
+[2024-04-29 07:06:41] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240428.tar.gz]
+[2024-04-29 07:06:41] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2024-04-29 07:06:41] INFO root fetch - processPackages [matterhorn-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/matterhorn_pytorch-1.0.1.tar.gz]
+[2024-04-29 07:06:41] INFO root fetch - processPackages [matterhorn-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/matterhorn_pytorch-1.2.0.tar.gz]
+[2024-04-29 07:06:41] INFO root fetch - main [MainThread]: End processing [matterhorn-pytorch]: success
+[2024-04-29 07:06:41] INFO root fetch - processPackages [wassima]: executing diffoscope
+[2024-04-29 07:06:41] INFO root fetch - processPackages [wassima]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wassima-1.1.0.tar.gz tmp/wassima-1.1.1-pp310-pypy310_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240429/w/wassima/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-29 07:06:42] INFO root fetch - processPackages [wassima]: Remove: archive file [/home/abi/fetcher/tmp/wassima-1.1.0.tar.gz]
+[2024-04-29 07:06:42] INFO root fetch - processPackages [wassima]: Remove: archive file [/home/abi/fetcher/tmp/wassima-1.1.1-pp310-pypy310_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-04-29 07:06:42] INFO root fetch - main [MainThread]: End processing [wassima]: success
+[2024-04-29 07:06:42] INFO root fetch - main [MainThread]: Store serial: [22978904]
