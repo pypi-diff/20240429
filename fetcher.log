@@ -7471,3 +7471,33 @@
 [2024-04-29 05:39:35] INFO root fetch - processPackages [dataframe-short]: Remove: archive file [/home/abi/fetcher/tmp/dataframe_short-0.1.1.tar.gz]
 [2024-04-29 05:39:35] INFO root fetch - main [MainThread]: End processing [dataframe-short]: success
 [2024-04-29 05:39:35] INFO root fetch - main [MainThread]: Store serial: [22978416]
+[2024-04-29 05:41:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978416]
+[2024-04-29 05:41:45] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 05:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: volstreet
+[2024-04-29 05:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zhijiang
+[2024-04-29 05:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wikidot
+[2024-04-29 05:41:45] INFO root fetch - processPackages [wikidot]: New version: [3.0.5] Old Version: [3.0.4]
+[2024-04-29 05:41:45] INFO root fetch - processPackages [zhijiang]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-29 05:41:45] INFO root fetch - processPackages [wikidot]: Downloading https://files.pythonhosted.org/packages/90/a9/cda0334df978d7f57c08fa63129cc04b0767c41337758d842389c0c38b81/wikidot-3.0.4.tar.gz
+[2024-04-29 05:41:45] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/26/2b/3b52e8f559267bad8b17821e8e89f41e2252b1ce785ab75849cedf0c7646/zhijiang-0.7.8-py3-none-any.whl
+[2024-04-29 05:41:45] INFO root fetch - processPackages [volstreet]: New version: [8.1.0] Old Version: [8.0.1]
+[2024-04-29 05:41:45] INFO root fetch - processPackages [wikidot]: Downloading https://files.pythonhosted.org/packages/c7/9e/322c53144c49d55a65a4b2b08e25d29160c3500ae0cd017dd4266cedac15/wikidot-3.0.5.tar.gz
+[2024-04-29 05:41:45] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/51/66/430517f00d1b2fccce0765b4928ad25151f38ed716347ccccf907aedeb94/volstreet-8.0.1.tar.gz
+[2024-04-29 05:41:45] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/05/cf/ace85687f35b8c78491564744658a0392ee9c2b6187d7bd6d001fcc18b2c/zhijiang-0.7.9-py3-none-any.whl
+[2024-04-29 05:41:45] INFO root fetch - processPackages [wikidot]: executing diffoscope
+[2024-04-29 05:41:45] INFO root fetch - processPackages [wikidot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikidot-3.0.4.tar.gz tmp/wikidot-3.0.5.tar.gz --markdown 20240429/w/wikidot/3.0.4-3.0.5/README.md --exclude *.pyd
+[2024-04-29 05:41:46] INFO root fetch - processPackages [zhijiang]: executing diffoscope
+[2024-04-29 05:41:46] INFO root fetch - processPackages [zhijiang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhijiang-0.7.8-py3-none-any.whl.zip tmp/zhijiang-0.7.9-py3-none-any.whl.zip --markdown 20240429/z/zhijiang/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-29 05:41:46] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/87/88/9b9055e4aa535a992d2dc0a72a24f0968cfb0ca0147e442f0338c4177a09/volstreet-8.1.0.tar.gz
+[2024-04-29 05:41:46] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2024-04-29 05:41:46] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-8.0.1.tar.gz tmp/volstreet-8.1.0.tar.gz --markdown 20240429/v/volstreet/8.0.1-8.1.0/README.md --exclude *.pyd
+[2024-04-29 05:41:46] INFO root fetch - processPackages [wikidot]: Remove: archive file [/home/abi/fetcher/tmp/wikidot-3.0.4.tar.gz]
+[2024-04-29 05:41:46] INFO root fetch - processPackages [wikidot]: Remove: archive file [/home/abi/fetcher/tmp/wikidot-3.0.5.tar.gz]
+[2024-04-29 05:41:46] INFO root fetch - main [MainThread]: End processing [wikidot]: success
+[2024-04-29 05:41:47] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.8-py3-none-any.whl.zip]
+[2024-04-29 05:41:47] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
+[2024-04-29 05:41:47] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
+[2024-04-29 05:41:47] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-8.0.1.tar.gz]
+[2024-04-29 05:41:47] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-8.1.0.tar.gz]
+[2024-04-29 05:41:47] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2024-04-29 05:41:47] INFO root fetch - main [MainThread]: Store serial: [22978424]
