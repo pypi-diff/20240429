@@ -6705,3 +6705,75 @@
 [2024-04-29 04:27:22] INFO root fetch - processPackages [winrt-Windows.Web.Syndication]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Web.Syndication-2.0.1-cp39-cp39-win_arm64.whl.zip]
 [2024-04-29 04:27:22] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Web.Syndication]: success
 [2024-04-29 04:27:22] INFO root fetch - main [MainThread]: Store serial: [22977632]
+[2024-04-29 04:29:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22977632]
+[2024-04-29 04:29:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-29 04:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: winrt-Windows.Web.UI
+[2024-04-29 04:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: winrt-Windows.Web.UI.Interop
+[2024-04-29 04:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coll-filter
+[2024-04-29 04:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: winrt-WindowsAppSDK
+[2024-04-29 04:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: winrt-runtime
+[2024-04-29 04:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moraine
+[2024-04-29 04:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: winrt-sdk
+[2024-04-29 04:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dataframe-short
+[2024-04-29 04:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: packmetric
+[2024-04-29 04:29:31] INFO root fetch - processPackages [coll-filter]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-04-29 04:29:31] INFO root fetch - processPackages [winrt-Windows.Web.UI]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 04:29:31] INFO root fetch - processPackages [winrt-WindowsAppSDK]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 04:29:31] INFO root fetch - processPackages [coll-filter]: Downloading https://files.pythonhosted.org/packages/7a/2d/6aa8853b7e2ba8eb1e5a44011274c891f73734ef5f1102d7d6c793803826/coll-filter-1.2.2.tar.gz
+[2024-04-29 04:29:31] INFO root fetch - processPackages [moraine]: New version: [0.5.1] Old Version: [0.0.1]
+[2024-04-29 04:29:31] INFO root fetch - processPackages [winrt-sdk]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 04:29:31] WARNING root fetch - processPackages [packmetric]: Skipping, unable to determine old version
+[2024-04-29 04:29:31] INFO root fetch - main [MainThread]: End processing [packmetric] error
+[2024-04-29 04:29:31] WARNING root fetch - processPackages [dataframe-short]: Skipping, unable to determine old version
+[2024-04-29 04:29:31] INFO root fetch - main [MainThread]: End processing [dataframe-short] error
+[2024-04-29 04:29:31] INFO root fetch - processPackages [winrt-runtime]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 04:29:31] INFO root fetch - processPackages [winrt-Windows.Web.UI.Interop]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 04:29:31] INFO root fetch - processPackages [winrt-Windows.Web.UI]: Downloading https://files.pythonhosted.org/packages/ce/d4/19b2e9474e70740d6ee95c14d0cf10a399f4d2d77899dc64ea01c0537746/winrt-Windows.Web.UI-2.0.0b2.tar.gz
+[2024-04-29 04:29:31] INFO root fetch - processPackages [winrt-WindowsAppSDK]: Downloading https://files.pythonhosted.org/packages/42/b7/6cc5de09a91fbf034edcc5d9e9f7b875b334a6bf5ac4b3da21f38ab000b0/winrt-WindowsAppSDK-2.0.0b2.tar.gz
+[2024-04-29 04:29:31] INFO root fetch - processPackages [moraine]: Downloading https://files.pythonhosted.org/packages/ff/13/1d77ba04cd54b18cffbe05cd184b9a9f2ac36e3a3ba50bd6829448bece63/moraine-0.0.1.tar.gz
+[2024-04-29 04:29:31] INFO root fetch - processPackages [winrt-sdk]: Downloading https://files.pythonhosted.org/packages/75/f0/d3b46f8a3f15c66173dea9ed75143223f706c8b7ac0125f90c6c852cd08f/winrt-sdk-2.0.0b2.tar.gz
+[2024-04-29 04:29:31] INFO root fetch - processPackages [winrt-runtime]: Downloading https://files.pythonhosted.org/packages/79/5a/70f4de714cf6dba8ac84b406b671631f0e8390cfc758cbbc8c5378e04a85/winrt-runtime-2.0.0b2.tar.gz
+[2024-04-29 04:29:31] INFO root fetch - processPackages [winrt-Windows.Web.UI.Interop]: Downloading https://files.pythonhosted.org/packages/9e/cf/84df823dde521092318c0f18df441bd47ffc8ebfc3e5db86bd4e44155dd6/winrt-Windows.Web.UI.Interop-2.0.0b2.tar.gz
+[2024-04-29 04:29:31] INFO root fetch - processPackages [coll-filter]: Downloading https://files.pythonhosted.org/packages/43/79/c9ac89766e259d3748422fe6d468fc8f22b197027c0c650853649242691e/coll-filter-1.2.3.tar.gz
+[2024-04-29 04:29:32] INFO root fetch - processPackages [coll-filter]: executing diffoscope
+[2024-04-29 04:29:32] INFO root fetch - processPackages [coll-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coll-filter-1.2.2.tar.gz tmp/coll-filter-1.2.3.tar.gz --markdown 20240429/c/coll-filter/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-04-29 04:29:32] INFO root fetch - processPackages [winrt-Windows.Web.UI]: Downloading https://files.pythonhosted.org/packages/e5/2b/20dc8b546c3a94f328a50f7267da425af568fa853a5bfcb1fe51da68a84e/winrt_Windows.Web.UI-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 04:29:32] INFO root fetch - processPackages [moraine]: Downloading https://files.pythonhosted.org/packages/19/a1/04947aba2fc6dfa89603a66a6e5a38650e4313091cdc31bb7a1249741f7e/moraine-0.5.1.tar.gz
+[2024-04-29 04:29:32] INFO root fetch - processPackages [winrt-WindowsAppSDK]: Downloading https://files.pythonhosted.org/packages/be/4a/d4731fadc6760fd8a6838a940e23cf5b18219e7e563c2b1d0baf9e77449b/winrt_WindowsAppSDK-2.0.1-py3-none-any.whl
+[2024-04-29 04:29:32] INFO root fetch - processPackages [winrt-runtime]: Downloading https://files.pythonhosted.org/packages/83/ab/395f7c0f4b0e3b675929ea267402c292f4d62fa3962ec60cc26de36380c9/winrt_runtime-2.0.1.tar.gz
+[2024-04-29 04:29:32] INFO root fetch - processPackages [moraine]: executing diffoscope
+[2024-04-29 04:29:32] INFO root fetch - processPackages [moraine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moraine-0.0.1.tar.gz tmp/moraine-0.5.1.tar.gz --markdown 20240429/m/moraine/0.0.1-0.5.1/README.md --exclude *.pyd
+[2024-04-29 04:29:32] INFO root fetch - processPackages [winrt-Windows.Web.UI.Interop]: Downloading https://files.pythonhosted.org/packages/06/a9/18d94c46c7d72bce6d3c3c889b6b42e09a7c618207de170ccca64c066fe2/winrt_Windows.Web.UI.Interop-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 04:29:32] INFO root fetch - processPackages [winrt-Windows.Web.UI]: executing diffoscope
+[2024-04-29 04:29:32] INFO root fetch - processPackages [winrt-Windows.Web.UI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Web.UI-2.0.0b2.tar.gz tmp/winrt_Windows.Web.UI-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Web.UI/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 04:29:32] INFO root fetch - processPackages [winrt-runtime]: executing diffoscope
+[2024-04-29 04:29:32] INFO root fetch - processPackages [winrt-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-runtime-2.0.0b2.tar.gz tmp/winrt_runtime-2.0.1.tar.gz --markdown 20240429/w/winrt-runtime/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 04:29:32] INFO root fetch - processPackages [winrt-WindowsAppSDK]: executing diffoscope
+[2024-04-29 04:29:32] INFO root fetch - processPackages [winrt-WindowsAppSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-WindowsAppSDK-2.0.0b2.tar.gz tmp/winrt_WindowsAppSDK-2.0.1-py3-none-any.whl.zip --markdown 20240429/w/winrt-WindowsAppSDK/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 04:29:32] INFO root fetch - processPackages [winrt-Windows.Web.UI.Interop]: executing diffoscope
+[2024-04-29 04:29:32] INFO root fetch - processPackages [winrt-Windows.Web.UI.Interop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Web.UI.Interop-2.0.0b2.tar.gz tmp/winrt_Windows.Web.UI.Interop-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Web.UI.Interop/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 04:29:32] INFO root fetch - processPackages [winrt-sdk]: Downloading https://files.pythonhosted.org/packages/4a/c8/2917c70d45ef9de8abacdaa04ebe34c5747e749544d6139c30fb0748978a/winrt_sdk-2.0.1.tar.gz
+[2024-04-29 04:29:32] INFO root fetch - processPackages [coll-filter]: Remove: archive file [/home/abi/fetcher/tmp/coll-filter-1.2.2.tar.gz]
+[2024-04-29 04:29:32] INFO root fetch - processPackages [coll-filter]: Remove: archive file [/home/abi/fetcher/tmp/coll-filter-1.2.3.tar.gz]
+[2024-04-29 04:29:32] INFO root fetch - main [MainThread]: End processing [coll-filter]: success
+[2024-04-29 04:29:32] INFO root fetch - processPackages [winrt-Windows.Web.UI]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Web.UI-2.0.0b2.tar.gz]
+[2024-04-29 04:29:32] INFO root fetch - processPackages [winrt-Windows.Web.UI]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Web.UI-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 04:29:32] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Web.UI]: success
+[2024-04-29 04:29:32] INFO root fetch - processPackages [moraine]: Remove: archive file [/home/abi/fetcher/tmp/moraine-0.0.1.tar.gz]
+[2024-04-29 04:29:32] INFO root fetch - processPackages [moraine]: Remove: archive file [/home/abi/fetcher/tmp/moraine-0.5.1.tar.gz]
+[2024-04-29 04:29:32] INFO root fetch - main [MainThread]: End processing [moraine]: success
+[2024-04-29 04:29:33] INFO root fetch - processPackages [winrt-Windows.Web.UI.Interop]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Web.UI.Interop-2.0.0b2.tar.gz]
+[2024-04-29 04:29:33] INFO root fetch - processPackages [winrt-Windows.Web.UI.Interop]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Web.UI.Interop-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 04:29:33] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Web.UI.Interop]: success
+[2024-04-29 04:29:33] INFO root fetch - processPackages [winrt-runtime]: Remove: archive file [/home/abi/fetcher/tmp/winrt-runtime-2.0.0b2.tar.gz]
+[2024-04-29 04:29:33] INFO root fetch - processPackages [winrt-runtime]: Remove: archive file [/home/abi/fetcher/tmp/winrt_runtime-2.0.1.tar.gz]
+[2024-04-29 04:29:33] INFO root fetch - main [MainThread]: End processing [winrt-runtime]: success
+[2024-04-29 04:29:33] INFO root fetch - processPackages [winrt-sdk]: executing diffoscope
+[2024-04-29 04:29:33] INFO root fetch - processPackages [winrt-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-sdk-2.0.0b2.tar.gz tmp/winrt_sdk-2.0.1.tar.gz --markdown 20240429/w/winrt-sdk/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 04:29:33] INFO root fetch - processPackages [winrt-WindowsAppSDK]: Remove: archive file [/home/abi/fetcher/tmp/winrt-WindowsAppSDK-2.0.0b2.tar.gz]
+[2024-04-29 04:29:33] INFO root fetch - processPackages [winrt-WindowsAppSDK]: Remove: archive file [/home/abi/fetcher/tmp/winrt_WindowsAppSDK-2.0.1-py3-none-any.whl.zip]
+[2024-04-29 04:29:33] INFO root fetch - main [MainThread]: End processing [winrt-WindowsAppSDK]: success
+[2024-04-29 04:30:01] INFO root fetch - processPackages [winrt-sdk]: Remove: archive file [/home/abi/fetcher/tmp/winrt-sdk-2.0.0b2.tar.gz]
+[2024-04-29 04:30:01] INFO root fetch - processPackages [winrt-sdk]: Remove: archive file [/home/abi/fetcher/tmp/winrt_sdk-2.0.1.tar.gz]
+[2024-04-29 04:30:01] INFO root fetch - main [MainThread]: End processing [winrt-sdk]: success
+[2024-04-29 04:30:01] INFO root fetch - main [MainThread]: Store serial: [22977780]
