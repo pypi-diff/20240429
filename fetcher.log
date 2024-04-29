@@ -17465,3 +17465,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 13:39:17] WARNING root fetch - processPackages [pySAXS]: Skipping package: exceeds size limit 12652264>=10485760
 [2024-04-29 13:39:17] INFO root fetch - main [MainThread]: End processing [pySAXS] error
 [2024-04-29 13:39:17] INFO root fetch - main [MainThread]: Store serial: [22982744]
+[2024-04-29 13:41:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982744]
+[2024-04-29 13:41:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 13:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fast-xid
+[2024-04-29 13:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: destine-auth
+[2024-04-29 13:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: HiCMatrix
+[2024-04-29 13:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dockipy
+[2024-04-29 13:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jb-manager-bot
+[2024-04-29 13:41:26] INFO root fetch - processPackages [dockipy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 13:41:26] INFO root fetch - processPackages [dockipy]: Downloading https://files.pythonhosted.org/packages/53/78/5a8313f4b73f6dd85bc028e698161305fc679614fd0f5f8db2b83056a016/dockipy-0.0.8.tar.gz
+[2024-04-29 13:41:26] INFO root fetch - processPackages [HiCMatrix]: New version: [7] Old Version: [5]
+[2024-04-29 13:41:26] INFO root fetch - processPackages [jb-manager-bot]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-29 13:41:26] WARNING root fetch - processPackages [fast-xid]: Skipping, unable to determine old version
+[2024-04-29 13:41:26] INFO root fetch - main [MainThread]: End processing [fast-xid] error
+[2024-04-29 13:41:26] WARNING root fetch - processPackages [destine-auth]: Skipping, unable to determine old version
+[2024-04-29 13:41:26] INFO root fetch - main [MainThread]: End processing [destine-auth] error
+[2024-04-29 13:41:26] INFO root fetch - processPackages [HiCMatrix]: Downloading https://files.pythonhosted.org/packages/8d/f1/0bb782055ee30636cc2469cf7cf43e38d8311e338543e8887dc31efba323/HiCMatrix-5.tar.gz
+[2024-04-29 13:41:26] INFO root fetch - processPackages [dockipy]: Downloading https://files.pythonhosted.org/packages/20/dd/5a84aa032c0ed0c2e1fcecc40431ec7787625dad7b044cbc47cc0f04f1eb/dockipy-0.0.9.tar.gz
+[2024-04-29 13:41:26] INFO root fetch - processPackages [jb-manager-bot]: Downloading https://files.pythonhosted.org/packages/9a/76/a4c3a164a7e0033f58fbd022edc05b492bc8f9a63aea62640123e9a60a0d/jb_manager_bot-0.1.4.tar.gz
+[2024-04-29 13:41:26] INFO root fetch - processPackages [dockipy]: executing diffoscope
+[2024-04-29 13:41:26] INFO root fetch - processPackages [dockipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockipy-0.0.8.tar.gz tmp/dockipy-0.0.9.tar.gz --markdown 20240429/d/dockipy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 13:41:26] INFO root fetch - processPackages [jb-manager-bot]: Downloading https://files.pythonhosted.org/packages/fe/b9/235a87f714c52495da78078923c0f60b50b951761a5eded264e2b4dec992/jb_manager_bot-0.1.5.tar.gz
+[2024-04-29 13:41:26] INFO root fetch - processPackages [HiCMatrix]: Downloading https://files.pythonhosted.org/packages/e8/06/229d5401b8350b775fd40746f041894403fb328c191d2164adbf7f067bb3/HiCMatrix-7.tar.gz
+[2024-04-29 13:41:26] INFO root fetch - processPackages [HiCMatrix]: executing diffoscope
+[2024-04-29 13:41:26] INFO root fetch - processPackages [HiCMatrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HiCMatrix-5.tar.gz tmp/HiCMatrix-7.tar.gz --markdown 20240429/H/HiCMatrix/5-7/README.md --exclude *.pyd
+[2024-04-29 13:41:26] INFO root fetch - processPackages [jb-manager-bot]: executing diffoscope
+[2024-04-29 13:41:26] INFO root fetch - processPackages [jb-manager-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jb_manager_bot-0.1.4.tar.gz tmp/jb_manager_bot-0.1.5.tar.gz --markdown 20240429/j/jb-manager-bot/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-29 13:41:27] INFO root fetch - processPackages [dockipy]: Remove: archive file [/home/abi/fetcher/tmp/dockipy-0.0.8.tar.gz]
+[2024-04-29 13:41:27] INFO root fetch - processPackages [dockipy]: Remove: archive file [/home/abi/fetcher/tmp/dockipy-0.0.9.tar.gz]
+[2024-04-29 13:41:27] INFO root fetch - main [MainThread]: End processing [dockipy]: success
+[2024-04-29 13:41:27] INFO root fetch - processPackages [HiCMatrix]: Remove: archive file [/home/abi/fetcher/tmp/HiCMatrix-5.tar.gz]
+[2024-04-29 13:41:27] INFO root fetch - processPackages [HiCMatrix]: Remove: archive file [/home/abi/fetcher/tmp/HiCMatrix-7.tar.gz]
+[2024-04-29 13:41:27] INFO root fetch - main [MainThread]: End processing [HiCMatrix]: success
+[2024-04-29 13:41:27] INFO root fetch - processPackages [jb-manager-bot]: Remove: archive file [/home/abi/fetcher/tmp/jb_manager_bot-0.1.4.tar.gz]
+[2024-04-29 13:41:27] INFO root fetch - processPackages [jb-manager-bot]: Remove: archive file [/home/abi/fetcher/tmp/jb_manager_bot-0.1.5.tar.gz]
+[2024-04-29 13:41:27] INFO root fetch - main [MainThread]: End processing [jb-manager-bot]: success
+[2024-04-29 13:41:27] INFO root fetch - main [MainThread]: Store serial: [22982763]
