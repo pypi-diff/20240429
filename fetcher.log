@@ -8614,3 +8614,51 @@
 [2024-04-29 07:06:42] INFO root fetch - processPackages [wassima]: Remove: archive file [/home/abi/fetcher/tmp/wassima-1.1.1-pp310-pypy310_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
 [2024-04-29 07:06:42] INFO root fetch - main [MainThread]: End processing [wassima]: success
 [2024-04-29 07:06:42] INFO root fetch - main [MainThread]: Store serial: [22978904]
+[2024-04-29 07:08:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978904]
+[2024-04-29 07:08:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 07:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowmancer
+[2024-04-29 07:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-string-tool
+[2024-04-29 07:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ucsmsdk
+[2024-04-29 07:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dataframe-short
+[2024-04-29 07:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bambot
+[2024-04-29 07:08:51] INFO root fetch - processPackages [flowmancer]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-29 07:08:51] INFO root fetch - processPackages [py-string-tool]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-29 07:08:51] INFO root fetch - processPackages [bambot]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-29 07:08:51] INFO root fetch - processPackages [dataframe-short]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-29 07:08:51] INFO root fetch - processPackages [ucsmsdk]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-29 07:08:51] INFO root fetch - processPackages [flowmancer]: Downloading https://files.pythonhosted.org/packages/16/67/dc7e0f71395efdfa833d75db9c3cea1581c7472b0d0486c81d58b8a867af/flowmancer-0.9.4.tar.gz
+[2024-04-29 07:08:51] INFO root fetch - processPackages [dataframe-short]: Downloading https://files.pythonhosted.org/packages/c9/3a/3ce6514f45dd4bf45754ed0c4e8a92f3e446bd34b231196bd3ed968d1da5/dataframe_short-0.1.3.tar.gz
+[2024-04-29 07:08:51] INFO root fetch - processPackages [bambot]: Downloading https://files.pythonhosted.org/packages/b9/7d/3c35b22912a632cf68479d57b286597689a39ad86dc20601abbd174856f5/bambot-0.3.2.tar.gz
+[2024-04-29 07:08:51] INFO root fetch - processPackages [py-string-tool]: Downloading https://files.pythonhosted.org/packages/3e/0c/4074216e1dd8109838344558fd5402822e573c6c6b899d04f0b256030af4/py_string_tool-0.1.0.tar.gz
+[2024-04-29 07:08:51] INFO root fetch - processPackages [ucsmsdk]: Downloading https://files.pythonhosted.org/packages/23/4a/5ea07fd6f58d0176446809127d29cfbdc044a6e5dbfb094a5bba5867e6e7/ucsmsdk-0.9.8.tar.gz
+[2024-04-29 07:08:51] INFO root fetch - processPackages [flowmancer]: Downloading https://files.pythonhosted.org/packages/6c/70/08dbb431bf20c50c0cc8980f264315b9ee83779e5be507e72b668ea0d341/flowmancer-0.9.5.tar.gz
+[2024-04-29 07:08:51] INFO root fetch - processPackages [dataframe-short]: Downloading https://files.pythonhosted.org/packages/46/46/cfbaa83f96418b9976eeae94704634b431e33205bfe322bc9fd0016c8477/dataframe_short-0.1.4.tar.gz
+[2024-04-29 07:08:51] INFO root fetch - processPackages [bambot]: Downloading https://files.pythonhosted.org/packages/6e/73/2db216d22c88a54d5cd117b797935f8db973a974a3b1cc4c4e579d8f5ff6/bambot-0.3.3.tar.gz
+[2024-04-29 07:08:51] INFO root fetch - processPackages [py-string-tool]: Downloading https://files.pythonhosted.org/packages/d4/38/2e0ee98eef1fe0c4e5d092b1d0fc806d9137e69857b8a133dba105711ef1/py_string_tool-0.1.1.tar.gz
+[2024-04-29 07:08:51] INFO root fetch - processPackages [flowmancer]: executing diffoscope
+[2024-04-29 07:08:52] INFO root fetch - processPackages [flowmancer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmancer-0.9.4.tar.gz tmp/flowmancer-0.9.5.tar.gz --markdown 20240429/f/flowmancer/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-29 07:08:52] INFO root fetch - processPackages [dataframe-short]: executing diffoscope
+[2024-04-29 07:08:52] INFO root fetch - processPackages [dataframe-short]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataframe_short-0.1.3.tar.gz tmp/dataframe_short-0.1.4.tar.gz --markdown 20240429/d/dataframe-short/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-29 07:08:52] INFO root fetch - processPackages [bambot]: executing diffoscope
+[2024-04-29 07:08:52] INFO root fetch - processPackages [bambot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambot-0.3.2.tar.gz tmp/bambot-0.3.3.tar.gz --markdown 20240429/b/bambot/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-29 07:08:52] INFO root fetch - processPackages [py-string-tool]: executing diffoscope
+[2024-04-29 07:08:52] INFO root fetch - processPackages [py-string-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_string_tool-0.1.0.tar.gz tmp/py_string_tool-0.1.1.tar.gz --markdown 20240429/p/py-string-tool/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-29 07:08:52] INFO root fetch - processPackages [ucsmsdk]: Downloading https://files.pythonhosted.org/packages/16/77/0477b98a7dcc969287e8d08d71c32d4e6f15963c018a45c8150ba732882e/ucsmsdk-0.9.9.tar.gz
+[2024-04-29 07:08:52] INFO root fetch - processPackages [dataframe-short]: Remove: archive file [/home/abi/fetcher/tmp/dataframe_short-0.1.3.tar.gz]
+[2024-04-29 07:08:52] INFO root fetch - processPackages [dataframe-short]: Remove: archive file [/home/abi/fetcher/tmp/dataframe_short-0.1.4.tar.gz]
+[2024-04-29 07:08:52] INFO root fetch - main [MainThread]: End processing [dataframe-short]: success
+[2024-04-29 07:08:52] INFO root fetch - processPackages [bambot]: Remove: archive file [/home/abi/fetcher/tmp/bambot-0.3.2.tar.gz]
+[2024-04-29 07:08:52] INFO root fetch - processPackages [bambot]: Remove: archive file [/home/abi/fetcher/tmp/bambot-0.3.3.tar.gz]
+[2024-04-29 07:08:52] INFO root fetch - main [MainThread]: End processing [bambot]: success
+[2024-04-29 07:08:52] INFO root fetch - processPackages [flowmancer]: Remove: archive file [/home/abi/fetcher/tmp/flowmancer-0.9.4.tar.gz]
+[2024-04-29 07:08:52] INFO root fetch - processPackages [flowmancer]: Remove: archive file [/home/abi/fetcher/tmp/flowmancer-0.9.5.tar.gz]
+[2024-04-29 07:08:52] INFO root fetch - main [MainThread]: End processing [flowmancer]: success
+[2024-04-29 07:08:52] INFO root fetch - processPackages [py-string-tool]: Remove: archive file [/home/abi/fetcher/tmp/py_string_tool-0.1.0.tar.gz]
+[2024-04-29 07:08:52] INFO root fetch - processPackages [py-string-tool]: Remove: archive file [/home/abi/fetcher/tmp/py_string_tool-0.1.1.tar.gz]
+[2024-04-29 07:08:52] INFO root fetch - main [MainThread]: End processing [py-string-tool]: success
+[2024-04-29 07:08:54] INFO root fetch - processPackages [ucsmsdk]: executing diffoscope
+[2024-04-29 07:08:54] INFO root fetch - processPackages [ucsmsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ucsmsdk-0.9.8.tar.gz tmp/ucsmsdk-0.9.9.tar.gz --markdown 20240429/u/ucsmsdk/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-29 07:09:15] INFO root fetch - processPackages [ucsmsdk]: Remove: archive file [/home/abi/fetcher/tmp/ucsmsdk-0.9.8.tar.gz]
+[2024-04-29 07:09:15] INFO root fetch - processPackages [ucsmsdk]: Remove: archive file [/home/abi/fetcher/tmp/ucsmsdk-0.9.9.tar.gz]
+[2024-04-29 07:09:15] INFO root fetch - main [MainThread]: End processing [ucsmsdk]: success
+[2024-04-29 07:09:15] INFO root fetch - main [MainThread]: Store serial: [22978979]
