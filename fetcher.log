@@ -9816,3 +9816,42 @@
 [2024-04-29 08:32:52] INFO root fetch - processPackages [bgpy-pkg]: Remove: archive file [/home/abi/fetcher/tmp/bgpy_pkg-7.2.0.tar.gz]
 [2024-04-29 08:32:52] INFO root fetch - main [MainThread]: End processing [bgpy-pkg]: success
 [2024-04-29 08:32:52] INFO root fetch - main [MainThread]: Store serial: [22979480]
+[2024-04-29 08:34:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979480]
+[2024-04-29 08:35:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 08:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slackblocks
+[2024-04-29 08:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: earnapi
+[2024-04-29 08:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bpx-py
+[2024-04-29 08:35:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: total-perspective-vortex
+[2024-04-29 08:35:01] INFO root fetch - processPackages [earnapi]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-29 08:35:01] INFO root fetch - processPackages [bpx-py]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-29 08:35:01] INFO root fetch - processPackages [earnapi]: Downloading https://files.pythonhosted.org/packages/98/27/a552ff1532a324bf77acf04239d963346c1cf22d30d50d446c16b7c3350a/earnapi-1.1.0.tar.gz
+[2024-04-29 08:35:01] INFO root fetch - processPackages [total-perspective-vortex]: New version: [2.4.0] Old Version: [2.3.3]
+[2024-04-29 08:35:01] INFO root fetch - processPackages [slackblocks]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-29 08:35:01] INFO root fetch - processPackages [bpx-py]: Downloading https://files.pythonhosted.org/packages/c8/49/afccbcbeee967e402a9dd3a9f0f774a990af725aed9725bc9331890be555/bpx_py-0.1.1.tar.gz
+[2024-04-29 08:35:01] INFO root fetch - processPackages [slackblocks]: Downloading https://files.pythonhosted.org/packages/37/ef/f9f165b6b51d6ded8e7c3a11d40a59164edeb4debb09d3999cf4be86564f/slackblocks-1.0.7.tar.gz
+[2024-04-29 08:35:01] INFO root fetch - processPackages [total-perspective-vortex]: Downloading https://files.pythonhosted.org/packages/0a/3e/269e418d24d9c9542fc693fa2c0157e8124d29353c381d85f9cf4d68b751/total-perspective-vortex-2.3.3.tar.gz
+[2024-04-29 08:35:01] INFO root fetch - processPackages [earnapi]: Downloading https://files.pythonhosted.org/packages/7b/ef/c19113ec31821759f3206d6725ff5804e67da9d3af5c3392d6ad23f90d3c/earnapi-1.1.1.tar.gz
+[2024-04-29 08:35:01] INFO root fetch - processPackages [bpx-py]: Downloading https://files.pythonhosted.org/packages/dd/2e/0913520e07de9c93f1bfabc1e90ede30108f2046d7d9ea26ec0481a303ca/bpx_py-0.1.2.tar.gz
+[2024-04-29 08:35:01] INFO root fetch - processPackages [earnapi]: executing diffoscope
+[2024-04-29 08:35:01] INFO root fetch - processPackages [earnapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/earnapi-1.1.0.tar.gz tmp/earnapi-1.1.1.tar.gz --markdown 20240429/e/earnapi/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-29 08:35:01] INFO root fetch - processPackages [bpx-py]: executing diffoscope
+[2024-04-29 08:35:01] INFO root fetch - processPackages [bpx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpx_py-0.1.1.tar.gz tmp/bpx_py-0.1.2.tar.gz --markdown 20240429/b/bpx-py/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-29 08:35:01] INFO root fetch - processPackages [total-perspective-vortex]: Downloading https://files.pythonhosted.org/packages/51/b3/c91f8339a5a0ba39eea87d995d845904369ced5c2d86268667577cb95157/total_perspective_vortex-2.4.0.tar.gz
+[2024-04-29 08:35:01] INFO root fetch - processPackages [slackblocks]: Downloading https://files.pythonhosted.org/packages/5f/e8/207b465a6dfcd7cdbbd81bf42e88457e9f23ed9fbaf67343c1e017fc82bf/slackblocks-1.0.8.tar.gz
+[2024-04-29 08:35:02] INFO root fetch - processPackages [total-perspective-vortex]: executing diffoscope
+[2024-04-29 08:35:02] INFO root fetch - processPackages [total-perspective-vortex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/total-perspective-vortex-2.3.3.tar.gz tmp/total_perspective_vortex-2.4.0.tar.gz --markdown 20240429/t/total-perspective-vortex/2.3.3-2.4.0/README.md --exclude *.pyd
+[2024-04-29 08:35:02] INFO root fetch - processPackages [slackblocks]: executing diffoscope
+[2024-04-29 08:35:02] INFO root fetch - processPackages [slackblocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slackblocks-1.0.7.tar.gz tmp/slackblocks-1.0.8.tar.gz --markdown 20240429/s/slackblocks/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-04-29 08:35:02] INFO root fetch - processPackages [earnapi]: Remove: archive file [/home/abi/fetcher/tmp/earnapi-1.1.0.tar.gz]
+[2024-04-29 08:35:02] INFO root fetch - processPackages [earnapi]: Remove: archive file [/home/abi/fetcher/tmp/earnapi-1.1.1.tar.gz]
+[2024-04-29 08:35:02] INFO root fetch - main [MainThread]: End processing [earnapi]: success
+[2024-04-29 08:35:02] INFO root fetch - processPackages [bpx-py]: Remove: archive file [/home/abi/fetcher/tmp/bpx_py-0.1.1.tar.gz]
+[2024-04-29 08:35:02] INFO root fetch - processPackages [bpx-py]: Remove: archive file [/home/abi/fetcher/tmp/bpx_py-0.1.2.tar.gz]
+[2024-04-29 08:35:02] INFO root fetch - main [MainThread]: End processing [bpx-py]: success
+[2024-04-29 08:35:02] INFO root fetch - processPackages [slackblocks]: Remove: archive file [/home/abi/fetcher/tmp/slackblocks-1.0.7.tar.gz]
+[2024-04-29 08:35:02] INFO root fetch - processPackages [slackblocks]: Remove: archive file [/home/abi/fetcher/tmp/slackblocks-1.0.8.tar.gz]
+[2024-04-29 08:35:02] INFO root fetch - main [MainThread]: End processing [slackblocks]: success
+[2024-04-29 08:35:02] INFO root fetch - processPackages [total-perspective-vortex]: Remove: archive file [/home/abi/fetcher/tmp/total-perspective-vortex-2.3.3.tar.gz]
+[2024-04-29 08:35:02] INFO root fetch - processPackages [total-perspective-vortex]: Remove: archive file [/home/abi/fetcher/tmp/total_perspective_vortex-2.4.0.tar.gz]
+[2024-04-29 08:35:02] INFO root fetch - main [MainThread]: End processing [total-perspective-vortex]: success
+[2024-04-29 08:35:02] INFO root fetch - main [MainThread]: Store serial: [22979494]
