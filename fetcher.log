@@ -1548,3 +1548,42 @@
 [2024-04-29 02:21:26] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
 [2024-04-29 02:21:26] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
 [2024-04-29 02:21:26] INFO root fetch - main [MainThread]: Store serial: [22971820]
+[2024-04-29 02:23:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971820]
+[2024-04-29 02:23:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 02:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easyplot-toolbox
+[2024-04-29 02:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: came-domotic-unofficial
+[2024-04-29 02:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-local-exec
+[2024-04-29 02:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: druida
+[2024-04-29 02:23:34] INFO root fetch - processPackages [druida]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 02:23:34] INFO root fetch - processPackages [came-domotic-unofficial]: New version: [1.0.0rc9] Old Version: [1.0.0rc8]
+[2024-04-29 02:23:34] INFO root fetch - processPackages [easyplot-toolbox]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-29 02:23:34] INFO root fetch - processPackages [druida]: Downloading https://files.pythonhosted.org/packages/54/4a/598451ade8bde7f369deba69feb62cde24693585acb81aed1eb62547c114/druida-0.0.8.tar.gz
+[2024-04-29 02:23:34] INFO root fetch - processPackages [came-domotic-unofficial]: Downloading https://files.pythonhosted.org/packages/56/db/a922ffb6c60188e7d3784dd620aef483ad4c07acc9d385fa43d16dcadfdf/came_domotic_unofficial-1.0.0rc8.tar.gz
+[2024-04-29 02:23:34] INFO root fetch - processPackages [cdktf-local-exec]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-29 02:23:35] INFO root fetch - processPackages [easyplot-toolbox]: Downloading https://files.pythonhosted.org/packages/dc/b3/cb06e34fecd438b1ca755d63b253137523fd70878d747b3cd47c9f32848c/easyplot_toolbox-1.0.1.tar.gz
+[2024-04-29 02:23:35] INFO root fetch - processPackages [cdktf-local-exec]: Downloading https://files.pythonhosted.org/packages/2e/c5/c7466186e123ce498250d5bcf9a74d6fb62a4d7add3b345da0ce48901c49/cdktf-local-exec-0.5.8.tar.gz
+[2024-04-29 02:23:35] INFO root fetch - processPackages [druida]: Downloading https://files.pythonhosted.org/packages/c2/fc/04f7092cb544ce2c35e3be2dd5ff20bee19fcc5ba5378898e0f03e15b8a9/druida-0.0.9.tar.gz
+[2024-04-29 02:23:35] INFO root fetch - processPackages [came-domotic-unofficial]: Downloading https://files.pythonhosted.org/packages/ae/ac/35cd80b06275e61fcac0172400a0f72d904ae61a3d5ef631cecdcfab7d52/came_domotic_unofficial-1.0.0rc9.tar.gz
+[2024-04-29 02:23:35] INFO root fetch - processPackages [druida]: executing diffoscope
+[2024-04-29 02:23:35] INFO root fetch - processPackages [druida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/druida-0.0.8.tar.gz tmp/druida-0.0.9.tar.gz --markdown 20240429/d/druida/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 02:23:35] INFO root fetch - processPackages [easyplot-toolbox]: Downloading https://files.pythonhosted.org/packages/77/00/87435b93dd51ef3c3fbb13e66e7b68a9e75f3df91e88fd768110aa4d4df1/easyplot_toolbox-1.1.0.tar.gz
+[2024-04-29 02:23:35] INFO root fetch - processPackages [came-domotic-unofficial]: executing diffoscope
+[2024-04-29 02:23:35] INFO root fetch - processPackages [came-domotic-unofficial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/came_domotic_unofficial-1.0.0rc8.tar.gz tmp/came_domotic_unofficial-1.0.0rc9.tar.gz --markdown 20240429/c/came-domotic-unofficial/1.0.0rc8-1.0.0rc9/README.md --exclude *.pyd
+[2024-04-29 02:23:35] INFO root fetch - processPackages [easyplot-toolbox]: executing diffoscope
+[2024-04-29 02:23:35] INFO root fetch - processPackages [easyplot-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyplot_toolbox-1.0.1.tar.gz tmp/easyplot_toolbox-1.1.0.tar.gz --markdown 20240429/e/easyplot-toolbox/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-04-29 02:23:35] INFO root fetch - processPackages [cdktf-local-exec]: Downloading https://files.pythonhosted.org/packages/74/2d/a8a976a3354f955288422458b23352fe0a12f11928fcc3369a6d8a2254a1/cdktf-local-exec-0.5.9.tar.gz
+[2024-04-29 02:23:35] INFO root fetch - processPackages [cdktf-local-exec]: executing diffoscope
+[2024-04-29 02:23:35] INFO root fetch - processPackages [cdktf-local-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-local-exec-0.5.8.tar.gz tmp/cdktf-local-exec-0.5.9.tar.gz --markdown 20240429/c/cdktf-local-exec/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-29 02:23:35] INFO root fetch - processPackages [easyplot-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/easyplot_toolbox-1.0.1.tar.gz]
+[2024-04-29 02:23:35] INFO root fetch - processPackages [easyplot-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/easyplot_toolbox-1.1.0.tar.gz]
+[2024-04-29 02:23:35] INFO root fetch - main [MainThread]: End processing [easyplot-toolbox]: success
+[2024-04-29 02:23:36] INFO root fetch - processPackages [druida]: Remove: archive file [/home/abi/fetcher/tmp/druida-0.0.8.tar.gz]
+[2024-04-29 02:23:36] INFO root fetch - processPackages [druida]: Remove: archive file [/home/abi/fetcher/tmp/druida-0.0.9.tar.gz]
+[2024-04-29 02:23:36] INFO root fetch - main [MainThread]: End processing [druida]: success
+[2024-04-29 02:23:36] INFO root fetch - processPackages [came-domotic-unofficial]: Remove: archive file [/home/abi/fetcher/tmp/came_domotic_unofficial-1.0.0rc8.tar.gz]
+[2024-04-29 02:23:36] INFO root fetch - processPackages [came-domotic-unofficial]: Remove: archive file [/home/abi/fetcher/tmp/came_domotic_unofficial-1.0.0rc9.tar.gz]
+[2024-04-29 02:23:36] INFO root fetch - main [MainThread]: End processing [came-domotic-unofficial]: success
+[2024-04-29 02:23:36] INFO root fetch - processPackages [cdktf-local-exec]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-local-exec-0.5.8.tar.gz]
+[2024-04-29 02:23:36] INFO root fetch - processPackages [cdktf-local-exec]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-local-exec-0.5.9.tar.gz]
+[2024-04-29 02:23:36] INFO root fetch - main [MainThread]: End processing [cdktf-local-exec]: success
+[2024-04-29 02:23:36] INFO root fetch - main [MainThread]: Store serial: [22971835]
