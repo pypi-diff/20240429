@@ -1698,3 +1698,33 @@
 [2024-04-29 02:30:08] INFO root fetch - processPackages [astropy-iers-data]: Remove: archive file [/home/abi/fetcher/tmp/astropy-iers-data-0.2024.4.8.0.32.4.tar.gz]
 [2024-04-29 02:30:08] INFO root fetch - main [MainThread]: End processing [astropy-iers-data]: success
 [2024-04-29 02:30:08] INFO root fetch - main [MainThread]: Store serial: [22971888]
+[2024-04-29 02:32:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971888]
+[2024-04-29 02:32:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 02:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aeppl-nightly
+[2024-04-29 02:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: passive-honeypot
+[2024-04-29 02:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: YoutubeUser
+[2024-04-29 02:32:17] INFO root fetch - processPackages [YoutubeUser]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-29 02:32:17] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240428] Old Version: [0.1.5.dev20240427]
+[2024-04-29 02:32:17] INFO root fetch - processPackages [YoutubeUser]: Downloading https://files.pythonhosted.org/packages/5b/c4/4e258fd54a051789470c67cc3d9daea261f5c82e04987cc5c4b447278649/youtubeuser-0.0.5.tar.gz
+[2024-04-29 02:32:17] INFO root fetch - processPackages [passive-honeypot]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-29 02:32:17] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/bd/73/50de704d3286e8856cef66e13afa7b7d343b7c9ad1548d627d53d2ce9f1c/aeppl_nightly-0.1.5.dev20240427.tar.gz
+[2024-04-29 02:32:17] INFO root fetch - processPackages [passive-honeypot]: Downloading https://files.pythonhosted.org/packages/57/bc/f68e561d7c429c4bbbadd830aad8af3ded24f76c14baffb48a9f5e8cd601/passive_honeypot-0.1.5.tar.gz
+[2024-04-29 02:32:17] INFO root fetch - processPackages [YoutubeUser]: Downloading https://files.pythonhosted.org/packages/51/3b/a3209ccd548da28ac7615d0cc139f1dda745f7c67686e6739e77604c721d/youtubeuser-0.0.6.tar.gz
+[2024-04-29 02:32:17] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/af/6b/485545d5502dba20390d8e38204793f803f84b2eafd6f69dac311dcff338/aeppl_nightly-0.1.5.dev20240428.tar.gz
+[2024-04-29 02:32:17] INFO root fetch - processPackages [YoutubeUser]: executing diffoscope
+[2024-04-29 02:32:17] INFO root fetch - processPackages [YoutubeUser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youtubeuser-0.0.5.tar.gz tmp/youtubeuser-0.0.6.tar.gz --markdown 20240429/Y/YoutubeUser/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-29 02:32:17] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-04-29 02:32:17] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl_nightly-0.1.5.dev20240427.tar.gz tmp/aeppl_nightly-0.1.5.dev20240428.tar.gz --markdown 20240429/a/aeppl-nightly/0.1.5.dev20240427-0.1.5.dev20240428/README.md --exclude *.pyd
+[2024-04-29 02:32:17] INFO root fetch - processPackages [passive-honeypot]: Downloading https://files.pythonhosted.org/packages/9c/1f/fc86669c74005ee864a2fddd741d573fe2ac1ebddbfaeed26ffab03009b5/passive_honeypot-0.1.6.tar.gz
+[2024-04-29 02:32:17] INFO root fetch - processPackages [passive-honeypot]: executing diffoscope
+[2024-04-29 02:32:17] INFO root fetch - processPackages [passive-honeypot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passive_honeypot-0.1.5.tar.gz tmp/passive_honeypot-0.1.6.tar.gz --markdown 20240429/p/passive-honeypot/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-29 02:32:18] INFO root fetch - processPackages [YoutubeUser]: Remove: archive file [/home/abi/fetcher/tmp/youtubeuser-0.0.5.tar.gz]
+[2024-04-29 02:32:18] INFO root fetch - processPackages [YoutubeUser]: Remove: archive file [/home/abi/fetcher/tmp/youtubeuser-0.0.6.tar.gz]
+[2024-04-29 02:32:18] INFO root fetch - main [MainThread]: End processing [YoutubeUser]: success
+[2024-04-29 02:32:18] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240427.tar.gz]
+[2024-04-29 02:32:18] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240428.tar.gz]
+[2024-04-29 02:32:18] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-04-29 02:32:18] INFO root fetch - processPackages [passive-honeypot]: Remove: archive file [/home/abi/fetcher/tmp/passive_honeypot-0.1.5.tar.gz]
+[2024-04-29 02:32:18] INFO root fetch - processPackages [passive-honeypot]: Remove: archive file [/home/abi/fetcher/tmp/passive_honeypot-0.1.6.tar.gz]
+[2024-04-29 02:32:18] INFO root fetch - main [MainThread]: End processing [passive-honeypot]: success
+[2024-04-29 02:32:18] INFO root fetch - main [MainThread]: Store serial: [22971895]
