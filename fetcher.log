@@ -6978,3 +6978,23 @@
 [2024-04-29 04:47:40] INFO root fetch - processPackages [unleashed-chat]: Remove: archive file [/home/abi/fetcher/tmp/unleashed_chat-0.1.1-py3-none-any.whl.zip]
 [2024-04-29 04:47:40] INFO root fetch - main [MainThread]: End processing [unleashed-chat]: success
 [2024-04-29 04:47:40] INFO root fetch - main [MainThread]: Store serial: [22978190]
+[2024-04-29 04:49:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978190]
+[2024-04-29 04:49:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 04:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qusi
+[2024-04-29 04:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cmlibs.exporter
+[2024-04-29 04:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vllm-online
+[2024-04-29 04:49:48] WARNING root fetch - processPackages [vllm-online]: Skipping, unable to determine old version
+[2024-04-29 04:49:48] INFO root fetch - main [MainThread]: End processing [vllm-online] error
+[2024-04-29 04:49:48] INFO root fetch - processPackages [qusi]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-29 04:49:49] INFO root fetch - processPackages [cmlibs.exporter]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-04-29 04:49:49] INFO root fetch - processPackages [qusi]: Downloading https://files.pythonhosted.org/packages/a4/20/f13933845b5a27d7493b18934e1a8958670dc9331bf34625c4642b6f8a71/qusi-0.9.0.tar.gz
+[2024-04-29 04:49:49] INFO root fetch - processPackages [cmlibs.exporter]: Downloading https://files.pythonhosted.org/packages/e6/64/4fa8a82c75d59045d3344b4af51eb6ddc2e94d59fac82f94e4196b270137/cmlibs.exporter-0.6.2-py3-none-any.whl
+[2024-04-29 04:49:49] INFO root fetch - processPackages [cmlibs.exporter]: Downloading https://files.pythonhosted.org/packages/15/1f/f1e219ac80e3663d5da256cd5312caa4e683c6cf6ec8b15e09d1da3ad401/cmlibs.exporter-0.6.3-py3-none-any.whl
+[2024-04-29 04:49:49] INFO root fetch - processPackages [cmlibs.exporter]: executing diffoscope
+[2024-04-29 04:49:49] INFO root fetch - processPackages [cmlibs.exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmlibs.exporter-0.6.2-py3-none-any.whl.zip tmp/cmlibs.exporter-0.6.3-py3-none-any.whl.zip --markdown 20240429/c/cmlibs.exporter/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-04-29 04:49:50] INFO root fetch - processPackages [cmlibs.exporter]: Remove: archive file [/home/abi/fetcher/tmp/cmlibs.exporter-0.6.2-py3-none-any.whl.zip]
+[2024-04-29 04:49:50] INFO root fetch - processPackages [cmlibs.exporter]: Remove: archive file [/home/abi/fetcher/tmp/cmlibs.exporter-0.6.3-py3-none-any.whl.zip]
+[2024-04-29 04:49:50] INFO root fetch - main [MainThread]: End processing [cmlibs.exporter]: success
+[2024-04-29 04:49:51] WARNING root fetch - processPackages [qusi]: Skipping package: exceeds size limit 24152424>=10485760
+[2024-04-29 04:49:51] INFO root fetch - main [MainThread]: End processing [qusi] error
+[2024-04-29 04:49:51] INFO root fetch - main [MainThread]: Store serial: [22978197]
