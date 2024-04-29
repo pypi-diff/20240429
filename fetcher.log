@@ -4635,3 +4635,123 @@
 [2024-04-29 03:45:22] INFO root fetch - processPackages [winrt-Windows.Media.Devices]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Media.Devices-2.0.1-cp39-cp39-win_amd64.whl.zip]
 [2024-04-29 03:45:22] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Media.Devices]: success
 [2024-04-29 03:45:22] INFO root fetch - main [MainThread]: Store serial: [22975196]
+[2024-04-29 03:47:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22975196]
+[2024-04-29 03:47:30] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-29 03:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: winrt-Windows.Media.Devices.Core
+[2024-04-29 03:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: winrt-Windows.Media.DialProtocol
+[2024-04-29 03:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coll-filter
+[2024-04-29 03:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: winrt-Windows.Media.Editing
+[2024-04-29 03:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: winrt-Windows.Media.Effects
+[2024-04-29 03:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: winrt-Windows.Media.FaceAnalysis
+[2024-04-29 03:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rlanutils
+[2024-04-29 03:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-portfolio-index
+[2024-04-29 03:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: winrt-Windows.Media.Import
+[2024-04-29 03:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: winrt-Windows.Media.MediaProperties
+[2024-04-29 03:47:30] INFO root fetch - processPackages [rlanutils]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-29 03:47:30] INFO root fetch - processPackages [coll-filter]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-29 03:47:31] INFO root fetch - processPackages [winrt-Windows.Media.FaceAnalysis]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 03:47:31] INFO root fetch - processPackages [rlanutils]: Downloading https://files.pythonhosted.org/packages/09/30/deaa2151ce1459fe00604ff142a62197238a86bbb166e1d37cd4b8657072/rlanutils-0.1.3.tar.gz
+[2024-04-29 03:47:31] INFO root fetch - processPackages [winrt-Windows.Media.Effects]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 03:47:31] INFO root fetch - processPackages [winrt-Windows.Media.Import]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 03:47:31] INFO root fetch - processPackages [winrt-Windows.Media.Editing]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 03:47:31] INFO root fetch - processPackages [winrt-Windows.Media.MediaProperties]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 03:47:31] INFO root fetch - processPackages [winrt-Windows.Media.DialProtocol]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 03:47:31] INFO root fetch - processPackages [winrt-Windows.Media.Devices.Core]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 03:47:31] INFO root fetch - processPackages [py-portfolio-index]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 03:47:31] INFO root fetch - processPackages [coll-filter]: Downloading https://files.pythonhosted.org/packages/97/99/3c64310eb530174caddbe6dacc85406f0205bd72714df14d77ba9b349c9e/coll-filter-1.2.1.tar.gz
+[2024-04-29 03:47:31] INFO root fetch - processPackages [winrt-Windows.Media.Effects]: Downloading https://files.pythonhosted.org/packages/ce/bf/9e2ec1c1f048c744b5e6e715380199512e9d95b0f029ee57a9666616264c/winrt-Windows.Media.Effects-2.0.0b2.tar.gz
+[2024-04-29 03:47:31] INFO root fetch - processPackages [winrt-Windows.Media.Import]: Downloading https://files.pythonhosted.org/packages/86/ae/a50f17e2fd1b52c0e2fd066c4def9e3abd401b8227e564ecb33ccc615bec/winrt-Windows.Media.Import-2.0.0b2.tar.gz
+[2024-04-29 03:47:31] INFO root fetch - processPackages [winrt-Windows.Media.Editing]: Downloading https://files.pythonhosted.org/packages/f8/44/fd40c7254fcb0ca4b39d50a382c25c5ef901fadf5d9f2140c46047426cac/winrt-Windows.Media.Editing-2.0.0b2.tar.gz
+[2024-04-29 03:47:31] INFO root fetch - processPackages [winrt-Windows.Media.FaceAnalysis]: Downloading https://files.pythonhosted.org/packages/cb/24/141e150acaceca4addbb1e8dbadc5fbee37049109c5841b8475d0187a0f4/winrt-Windows.Media.FaceAnalysis-2.0.0b2.tar.gz
+[2024-04-29 03:47:31] INFO root fetch - processPackages [winrt-Windows.Media.DialProtocol]: Downloading https://files.pythonhosted.org/packages/9e/98/2200b17fcc642adc26599eab467411a6f05df70afb14bcb235a82f4e06ea/winrt-Windows.Media.DialProtocol-2.0.0b2.tar.gz
+[2024-04-29 03:47:31] INFO root fetch - processPackages [winrt-Windows.Media.MediaProperties]: Downloading https://files.pythonhosted.org/packages/bf/ea/e2aa1d2c2c32e3d182511fbfd9f9a5155979044652509a07ed78a388a435/winrt-Windows.Media.MediaProperties-2.0.0b2.tar.gz
+[2024-04-29 03:47:31] INFO root fetch - processPackages [py-portfolio-index]: Downloading https://files.pythonhosted.org/packages/56/47/1136551b0e963bbc2d3d3fce66043142f2f536a88a5e5918b3bae66b9480/py-portfolio-index-0.0.8.tar.gz
+[2024-04-29 03:47:31] INFO root fetch - processPackages [winrt-Windows.Media.Devices.Core]: Downloading https://files.pythonhosted.org/packages/48/b9/3dfc0c5daa890af3ab0af6757c654bd26f3d5c684984486ffb8b01c73d11/winrt-Windows.Media.Devices.Core-2.0.0b2.tar.gz
+[2024-04-29 03:47:31] INFO root fetch - processPackages [rlanutils]: Downloading https://files.pythonhosted.org/packages/b3/9e/c69392ef22116e330e0968ded522641c0906e7a91a9b72580acc7ddcd821/rlanutils-0.1.4.tar.gz
+[2024-04-29 03:47:31] INFO root fetch - processPackages [coll-filter]: Downloading https://files.pythonhosted.org/packages/7a/2d/6aa8853b7e2ba8eb1e5a44011274c891f73734ef5f1102d7d6c793803826/coll-filter-1.2.2.tar.gz
+[2024-04-29 03:47:31] INFO root fetch - processPackages [rlanutils]: executing diffoscope
+[2024-04-29 03:47:31] INFO root fetch - processPackages [rlanutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlanutils-0.1.3.tar.gz tmp/rlanutils-0.1.4.tar.gz --markdown 20240429/r/rlanutils/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-29 03:47:31] INFO root fetch - processPackages [coll-filter]: executing diffoscope
+[2024-04-29 03:47:31] INFO root fetch - processPackages [coll-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coll-filter-1.2.1.tar.gz tmp/coll-filter-1.2.2.tar.gz --markdown 20240429/c/coll-filter/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-29 03:47:31] INFO root fetch - processPackages [winrt-Windows.Media.Effects]: Downloading https://files.pythonhosted.org/packages/2d/0d/fc5e6a4e21b7530fbb528eb9ee4857251a59ce7cc683dedc8fa2de5f9fba/winrt_Windows.Media.Effects-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 03:47:31] INFO root fetch - processPackages [winrt-Windows.Media.Import]: Downloading https://files.pythonhosted.org/packages/3c/92/26b51f70e991188f33113ede17cffbbab2f1ca04791692160a446dae8d4b/winrt_Windows.Media.Import-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 03:47:31] INFO root fetch - processPackages [winrt-Windows.Media.Editing]: Downloading https://files.pythonhosted.org/packages/da/c6/af14262bd214866e878a69008d09cb542f94b3ab69e5fca8eb792af4e155/winrt_Windows.Media.Editing-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 03:47:31] INFO root fetch - processPackages [winrt-Windows.Media.FaceAnalysis]: Downloading https://files.pythonhosted.org/packages/cb/d2/8d7e9c9c3dbb0a97f67031adaa1d23e92d61f963936b0a3ea701be20028c/winrt_Windows.Media.FaceAnalysis-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 03:47:31] INFO root fetch - processPackages [winrt-Windows.Media.DialProtocol]: Downloading https://files.pythonhosted.org/packages/72/97/a9aaa33e973872553a7b5f965c813d1f1432f3ab486bd67d91fac01ee787/winrt_Windows.Media.DialProtocol-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 03:47:31] INFO root fetch - processPackages [winrt-Windows.Media.MediaProperties]: Downloading https://files.pythonhosted.org/packages/51/ee/b268f3bcb43cd8292b16049ae1a1878f34fc5aa3accd8ec8c640065d3a71/winrt_Windows.Media.MediaProperties-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 03:47:31] INFO root fetch - processPackages [py-portfolio-index]: Downloading https://files.pythonhosted.org/packages/35/d9/e930790cd08eb7aba472719eb95421a6b5ed634f852f1eb262a0430147f6/py-portfolio-index-0.0.9.tar.gz
+[2024-04-29 03:47:31] INFO root fetch - processPackages [winrt-Windows.Media.Devices.Core]: Downloading https://files.pythonhosted.org/packages/ca/f0/ba902cc5ebc50a341f67c4fb7d780a9d93ac49af855997f2dd8d1fe90347/winrt_Windows.Media.Devices.Core-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 03:47:32] INFO root fetch - processPackages [py-portfolio-index]: executing diffoscope
+[2024-04-29 03:47:32] INFO root fetch - processPackages [py-portfolio-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-portfolio-index-0.0.8.tar.gz tmp/py-portfolio-index-0.0.9.tar.gz --markdown 20240429/p/py-portfolio-index/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 03:47:32] INFO root fetch - processPackages [winrt-Windows.Media.Import]: executing diffoscope
+[2024-04-29 03:47:32] INFO root fetch - processPackages [winrt-Windows.Media.Import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Media.Import-2.0.0b2.tar.gz tmp/winrt_Windows.Media.Import-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Media.Import/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 03:47:32] INFO root fetch - processPackages [winrt-Windows.Media.Effects]: executing diffoscope
+[2024-04-29 03:47:32] INFO root fetch - processPackages [winrt-Windows.Media.Effects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Media.Effects-2.0.0b2.tar.gz tmp/winrt_Windows.Media.Effects-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Media.Effects/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 03:47:32] INFO root fetch - processPackages [winrt-Windows.Media.Editing]: executing diffoscope
+[2024-04-29 03:47:32] INFO root fetch - processPackages [winrt-Windows.Media.Editing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Media.Editing-2.0.0b2.tar.gz tmp/winrt_Windows.Media.Editing-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Media.Editing/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 03:47:32] INFO root fetch - processPackages [winrt-Windows.Media.FaceAnalysis]: executing diffoscope
+[2024-04-29 03:47:32] INFO root fetch - processPackages [winrt-Windows.Media.FaceAnalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Media.FaceAnalysis-2.0.0b2.tar.gz tmp/winrt_Windows.Media.FaceAnalysis-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Media.FaceAnalysis/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 03:47:32] INFO root fetch - processPackages [winrt-Windows.Media.DialProtocol]: executing diffoscope
+[2024-04-29 03:47:32] INFO root fetch - processPackages [winrt-Windows.Media.DialProtocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Media.DialProtocol-2.0.0b2.tar.gz tmp/winrt_Windows.Media.DialProtocol-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Media.DialProtocol/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 03:47:32] INFO root fetch - processPackages [winrt-Windows.Media.MediaProperties]: executing diffoscope
+[2024-04-29 03:47:32] INFO root fetch - processPackages [winrt-Windows.Media.MediaProperties]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Media.MediaProperties-2.0.0b2.tar.gz tmp/winrt_Windows.Media.MediaProperties-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Media.MediaProperties/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 03:47:32] INFO root fetch - processPackages [winrt-Windows.Media.Devices.Core]: executing diffoscope
+[2024-04-29 03:47:32] INFO root fetch - processPackages [winrt-Windows.Media.Devices.Core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Media.Devices.Core-2.0.0b2.tar.gz tmp/winrt_Windows.Media.Devices.Core-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Media.Devices.Core/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 03:47:32] INFO root fetch - processPackages [rlanutils]: Remove: archive file [/home/abi/fetcher/tmp/rlanutils-0.1.3.tar.gz]
+[2024-04-29 03:47:32] INFO root fetch - processPackages [rlanutils]: Remove: archive file [/home/abi/fetcher/tmp/rlanutils-0.1.4.tar.gz]
+[2024-04-29 03:47:32] INFO root fetch - processPackages [rlanutils]: Start processing: zhijiang
+[2024-04-29 03:47:32] INFO root fetch - main [MainThread]: End processing [rlanutils]: success
+[2024-04-29 03:47:32] INFO root fetch - processPackages [zhijiang]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-29 03:47:32] INFO root fetch - processPackages [coll-filter]: Remove: archive file [/home/abi/fetcher/tmp/coll-filter-1.2.1.tar.gz]
+[2024-04-29 03:47:32] INFO root fetch - processPackages [coll-filter]: Remove: archive file [/home/abi/fetcher/tmp/coll-filter-1.2.2.tar.gz]
+[2024-04-29 03:47:32] INFO root fetch - processPackages [coll-filter]: Start processing: winrt-Windows.Media.Miracast
+[2024-04-29 03:47:32] INFO root fetch - main [MainThread]: End processing [coll-filter]: success
+[2024-04-29 03:47:32] INFO root fetch - processPackages [winrt-Windows.Media.Effects]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Media.Effects-2.0.0b2.tar.gz]
+[2024-04-29 03:47:32] INFO root fetch - processPackages [winrt-Windows.Media.Effects]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Media.Effects-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 03:47:32] INFO root fetch - processPackages [winrt-Windows.Media.Effects]: Start processing: winrt-Windows.Media.Ocr
+[2024-04-29 03:47:32] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Media.Effects]: success
+[2024-04-29 03:47:32] INFO root fetch - processPackages [winrt-Windows.Media.Miracast]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 03:47:32] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/26/2b/3b52e8f559267bad8b17821e8e89f41e2252b1ce785ab75849cedf0c7646/zhijiang-0.7.8-py3-none-any.whl
+[2024-04-29 03:47:32] INFO root fetch - processPackages [winrt-Windows.Media.Import]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Media.Import-2.0.0b2.tar.gz]
+[2024-04-29 03:47:32] INFO root fetch - processPackages [winrt-Windows.Media.Import]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Media.Import-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 03:47:32] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Media.Import]: success
+[2024-04-29 03:47:32] INFO root fetch - processPackages [winrt-Windows.Media.MediaProperties]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Media.MediaProperties-2.0.0b2.tar.gz]
+[2024-04-29 03:47:32] INFO root fetch - processPackages [winrt-Windows.Media.MediaProperties]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Media.MediaProperties-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 03:47:32] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Media.MediaProperties]: success
+[2024-04-29 03:47:32] INFO root fetch - processPackages [winrt-Windows.Media.Ocr]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-04-29 03:47:32] INFO root fetch - processPackages [winrt-Windows.Media.Miracast]: Downloading https://files.pythonhosted.org/packages/30/99/fc0b9841903a5d906002df7d638376a178cde5fcb820062070f24c368643/winrt-Windows.Media.Miracast-2.0.0b2.tar.gz
+[2024-04-29 03:47:33] INFO root fetch - processPackages [py-portfolio-index]: Remove: archive file [/home/abi/fetcher/tmp/py-portfolio-index-0.0.8.tar.gz]
+[2024-04-29 03:47:33] INFO root fetch - processPackages [py-portfolio-index]: Remove: archive file [/home/abi/fetcher/tmp/py-portfolio-index-0.0.9.tar.gz]
+[2024-04-29 03:47:33] INFO root fetch - main [MainThread]: End processing [py-portfolio-index]: success
+[2024-04-29 03:47:33] INFO root fetch - processPackages [winrt-Windows.Media.Devices.Core]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Media.Devices.Core-2.0.0b2.tar.gz]
+[2024-04-29 03:47:33] INFO root fetch - processPackages [winrt-Windows.Media.Devices.Core]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Media.Devices.Core-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 03:47:33] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Media.Devices.Core]: success
+[2024-04-29 03:47:33] INFO root fetch - processPackages [winrt-Windows.Media.DialProtocol]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Media.DialProtocol-2.0.0b2.tar.gz]
+[2024-04-29 03:47:33] INFO root fetch - processPackages [winrt-Windows.Media.DialProtocol]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Media.DialProtocol-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 03:47:33] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Media.DialProtocol]: success
+[2024-04-29 03:47:33] INFO root fetch - processPackages [winrt-Windows.Media.Editing]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Media.Editing-2.0.0b2.tar.gz]
+[2024-04-29 03:47:33] INFO root fetch - processPackages [winrt-Windows.Media.Editing]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Media.Editing-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 03:47:33] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Media.Editing]: success
+[2024-04-29 03:47:33] INFO root fetch - processPackages [winrt-Windows.Media.Ocr]: Downloading https://files.pythonhosted.org/packages/5d/45/ee7663e178aa99db175bf144e42b82dbe077e20232c6f10fb7a526386f1e/winrt-Windows.Media.Ocr-2.0.0b2.tar.gz
+[2024-04-29 03:47:33] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/05/cf/ace85687f35b8c78491564744658a0392ee9c2b6187d7bd6d001fcc18b2c/zhijiang-0.7.9-py3-none-any.whl
+[2024-04-29 03:47:33] INFO root fetch - processPackages [winrt-Windows.Media.FaceAnalysis]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Media.FaceAnalysis-2.0.0b2.tar.gz]
+[2024-04-29 03:47:33] INFO root fetch - processPackages [winrt-Windows.Media.FaceAnalysis]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Media.FaceAnalysis-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 03:47:33] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Media.FaceAnalysis]: success
+[2024-04-29 03:47:33] INFO root fetch - processPackages [winrt-Windows.Media.Miracast]: Downloading https://files.pythonhosted.org/packages/19/1e/16ffa79435646a7bb77e6e8491aa7897f2ef59e6c481c9362a6d0150af15/winrt_Windows.Media.Miracast-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 03:47:33] INFO root fetch - processPackages [zhijiang]: executing diffoscope
+[2024-04-29 03:47:33] INFO root fetch - processPackages [zhijiang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhijiang-0.7.8-py3-none-any.whl.zip tmp/zhijiang-0.7.9-py3-none-any.whl.zip --markdown 20240429/z/zhijiang/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-29 03:47:33] INFO root fetch - processPackages [winrt-Windows.Media.Ocr]: Downloading https://files.pythonhosted.org/packages/3d/26/6476d0e6c29d095aea45ee4c020991c11762e3924241ba3f4940f3f1c451/winrt_Windows.Media.Ocr-2.0.1-cp39-cp39-win_arm64.whl
+[2024-04-29 03:47:33] INFO root fetch - processPackages [winrt-Windows.Media.Miracast]: executing diffoscope
+[2024-04-29 03:47:33] INFO root fetch - processPackages [winrt-Windows.Media.Miracast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Media.Miracast-2.0.0b2.tar.gz tmp/winrt_Windows.Media.Miracast-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Media.Miracast/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 03:47:33] INFO root fetch - processPackages [winrt-Windows.Media.Miracast]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Media.Miracast-2.0.0b2.tar.gz]
+[2024-04-29 03:47:33] INFO root fetch - processPackages [winrt-Windows.Media.Miracast]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Media.Miracast-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 03:47:33] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Media.Miracast]: success
+[2024-04-29 03:47:34] INFO root fetch - processPackages [winrt-Windows.Media.Ocr]: executing diffoscope
+[2024-04-29 03:47:34] INFO root fetch - processPackages [winrt-Windows.Media.Ocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winrt-Windows.Media.Ocr-2.0.0b2.tar.gz tmp/winrt_Windows.Media.Ocr-2.0.1-cp39-cp39-win_arm64.whl.zip --markdown 20240429/w/winrt-Windows.Media.Ocr/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 03:47:34] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.8-py3-none-any.whl.zip]
+[2024-04-29 03:47:34] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
+[2024-04-29 03:47:34] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
+[2024-04-29 03:47:34] INFO root fetch - processPackages [winrt-Windows.Media.Ocr]: Remove: archive file [/home/abi/fetcher/tmp/winrt-Windows.Media.Ocr-2.0.0b2.tar.gz]
+[2024-04-29 03:47:34] INFO root fetch - processPackages [winrt-Windows.Media.Ocr]: Remove: archive file [/home/abi/fetcher/tmp/winrt_Windows.Media.Ocr-2.0.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-29 03:47:34] INFO root fetch - main [MainThread]: End processing [winrt-Windows.Media.Ocr]: success
+[2024-04-29 03:47:34] INFO root fetch - main [MainThread]: Store serial: [22975323]
