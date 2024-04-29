@@ -9732,3 +9732,18 @@
 [2024-04-29 08:24:10] INFO root fetch - processPackages [npc_lims]: Remove: archive file [/home/abi/fetcher/tmp/npc_lims-0.1.99.tar.gz]
 [2024-04-29 08:24:10] INFO root fetch - main [MainThread]: End processing [npc_lims]: success
 [2024-04-29 08:24:10] INFO root fetch - main [MainThread]: Store serial: [22979448]
+[2024-04-29 08:26:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979448]
+[2024-04-29 08:26:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-29 08:26:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-wizard
+[2024-04-29 08:26:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tinyrv
+[2024-04-29 08:26:20] WARNING root fetch - processPackages [python-wizard]: Skipping, unable to determine old version
+[2024-04-29 08:26:20] INFO root fetch - main [MainThread]: End processing [python-wizard] error
+[2024-04-29 08:26:20] INFO root fetch - processPackages [tinyrv]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-29 08:26:20] INFO root fetch - processPackages [tinyrv]: Downloading https://files.pythonhosted.org/packages/0a/f1/aa5c20168861c4fe38b3c6f300e30a1f25a57596e8081f56117916797de2/tinyrv-0.0.5.tar.gz
+[2024-04-29 08:26:20] INFO root fetch - processPackages [tinyrv]: Downloading https://files.pythonhosted.org/packages/f5/d5/0eb2982035035b8900a9190e8041c01dd55c7f8713bdcbbf35c6dc14b5b3/tinyrv-0.0.6.tar.gz
+[2024-04-29 08:26:21] INFO root fetch - processPackages [tinyrv]: executing diffoscope
+[2024-04-29 08:26:21] INFO root fetch - processPackages [tinyrv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyrv-0.0.5.tar.gz tmp/tinyrv-0.0.6.tar.gz --markdown 20240429/t/tinyrv/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-29 08:26:22] INFO root fetch - processPackages [tinyrv]: Remove: archive file [/home/abi/fetcher/tmp/tinyrv-0.0.5.tar.gz]
+[2024-04-29 08:26:22] INFO root fetch - processPackages [tinyrv]: Remove: archive file [/home/abi/fetcher/tmp/tinyrv-0.0.6.tar.gz]
+[2024-04-29 08:26:22] INFO root fetch - main [MainThread]: End processing [tinyrv]: success
+[2024-04-29 08:26:22] INFO root fetch - main [MainThread]: Store serial: [22979453]
