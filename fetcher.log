@@ -10105,3 +10105,98 @@
 [2024-04-29 08:48:26] INFO root fetch - processPackages [cutseq]: Remove: archive file [/home/abi/fetcher/tmp/cutseq-0.0.9.tar.gz]
 [2024-04-29 08:48:26] INFO root fetch - main [MainThread]: End processing [cutseq]: success
 [2024-04-29 08:48:26] INFO root fetch - main [MainThread]: Store serial: [22979607]
+[2024-04-29 08:50:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979607]
+[2024-04-29 08:50:35] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-29 08:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sliceitoff
+[2024-04-29 08:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cutseq
+[2024-04-29 08:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyjava
+[2024-04-29 08:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: binspec-zeplar
+[2024-04-29 08:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyigor
+[2024-04-29 08:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: byzerllm
+[2024-04-29 08:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: synctl
+[2024-04-29 08:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: auto-coder
+[2024-04-29 08:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jetline
+[2024-04-29 08:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: trex-conf
+[2024-04-29 08:50:35] WARNING root fetch - processPackages [trex-conf]: Skipping, unable to determine old version
+[2024-04-29 08:50:35] INFO root fetch - processPackages [trex-conf]: Start processing: opyls
+[2024-04-29 08:50:35] INFO root fetch - main [MainThread]: End processing [trex-conf] error
+[2024-04-29 08:50:35] INFO root fetch - processPackages [auto-coder]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 08:50:35] INFO root fetch - processPackages [cutseq]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 08:50:35] INFO root fetch - processPackages [opyls]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-29 08:50:35] INFO root fetch - processPackages [jetline]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 08:50:35] INFO root fetch - processPackages [pyjava]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-29 08:50:35] INFO root fetch - processPackages [byzerllm]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 08:50:35] INFO root fetch - processPackages [sliceitoff]: New version: [0.4b2] Old Version: [0.4b1]
+[2024-04-29 08:50:35] INFO root fetch - processPackages [synctl]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-29 08:50:35] INFO root fetch - processPackages [pyigor]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-29 08:50:35] ERROR root fetch - processPackages [binspec-zeplar]: Unable to get metadata: No such project 'binspec-zeplar'
+[2024-04-29 08:50:35] INFO root fetch - processPackages [binspec-zeplar]: Start processing: quadpy
+[2024-04-29 08:50:35] INFO root fetch - main [MainThread]: End processing [binspec-zeplar] error
+[2024-04-29 08:50:35] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/14/d7/4b17ee6567b17ad4eec9a6e6ceded1190275544e45e07f7b10971d03dc9f/jetline-0.1.8.tar.gz
+[2024-04-29 08:50:35] INFO root fetch - processPackages [pyjava]: Downloading https://files.pythonhosted.org/packages/db/f4/84800ee59b99a2f182f319c88483dd386290d3e29a9896a1a653d77f8e80/pyjava-0.6.8.tar.gz
+[2024-04-29 08:50:35] INFO root fetch - processPackages [cutseq]: Downloading https://files.pythonhosted.org/packages/95/33/6984c0732c17eb925be43f23c0c27167392d2900fcd21ebf93d9b68f6c2a/cutseq-0.0.8.tar.gz
+[2024-04-29 08:50:35] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/98/c6/1563f4025ee67d92445c7867c7ca1ad9c523055b4708ddd5ab2dab480c51/byzerllm-0.1.8.tar.gz
+[2024-04-29 08:50:35] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/d1/69/520c5552e42e8901e930364867dc863b8beb917b52544194a46c864a7385/auto-coder-0.1.8.tar.gz
+[2024-04-29 08:50:35] INFO root fetch - processPackages [opyls]: Downloading https://files.pythonhosted.org/packages/95/a8/876d88652885cb3f98f347c2b219a29710d79955aa48f8516205dc8442b2/opyls-0.0.5.tar.gz
+[2024-04-29 08:50:35] INFO root fetch - processPackages [quadpy]: New version: [0.17.19] Old Version: [0.17.17]
+[2024-04-29 08:50:35] INFO root fetch - processPackages [sliceitoff]: Downloading https://files.pythonhosted.org/packages/81/b4/86f93b7f5582f5b68939377e9dccccc92e252af5c34513dcee305c90a882/sliceitoff-0.4b1.tar.gz
+[2024-04-29 08:50:35] INFO root fetch - processPackages [pyigor]: Downloading https://files.pythonhosted.org/packages/6d/c3/a1a7bf485993973d5e143203ef74961ae95ecfe9e288166a73677f4c1d5e/pyigor-0.2.0.tar.gz
+[2024-04-29 08:50:35] INFO root fetch - processPackages [synctl]: Downloading https://files.pythonhosted.org/packages/c6/2e/4663ec4803dd454fa179acb3cb9a5cf1abe739f86e9ca10e50b7b07b5a83/synctl-1.1.8.tar.gz
+[2024-04-29 08:50:35] WARNING root fetch - processPackages [sliceitoff]: Skipping package: exceeds size limit 10927123>=10485760
+[2024-04-29 08:50:35] INFO root fetch - main [MainThread]: End processing [sliceitoff] error
+[2024-04-29 08:50:35] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/e3/52/ee8efe5ee3940966b4c7e8b471dd88336c2950833a0dd4b4854cce8f181b/jetline-0.1.9.tar.gz
+[2024-04-29 08:50:35] INFO root fetch - processPackages [cutseq]: Downloading https://files.pythonhosted.org/packages/e5/82/45b103e58b439dac0cf4c7f6ef6957633721ec0f4553abfabba5ed961a0f/cutseq-0.0.9.tar.gz
+[2024-04-29 08:50:35] INFO root fetch - processPackages [pyjava]: Downloading https://files.pythonhosted.org/packages/8a/2a/01924792581ff9c7840a2d5d31ffe9a19c29a8c6eef20ab17884e3697d29/pyjava-0.6.9.tar.gz
+[2024-04-29 08:50:36] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/4d/9a/1bad03fbe8fd6d47cd359f857b05e28efaa8cba07c33aa029696a40dd646/auto-coder-0.1.9.tar.gz
+[2024-04-29 08:50:36] INFO root fetch - processPackages [quadpy]: Downloading https://files.pythonhosted.org/packages/73/d2/7adc6791fc3b1ec840dc5bb59300712bc409b11ba9ec8d2c61cd1447c0da/quadpy-0.17.17-py3-none-any.whl
+[2024-04-29 08:50:36] INFO root fetch - processPackages [jetline]: executing diffoscope
+[2024-04-29 08:50:36] INFO root fetch - processPackages [jetline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetline-0.1.8.tar.gz tmp/jetline-0.1.9.tar.gz --markdown 20240429/j/jetline/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 08:50:36] INFO root fetch - processPackages [cutseq]: executing diffoscope
+[2024-04-29 08:50:36] INFO root fetch - processPackages [cutseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cutseq-0.0.8.tar.gz tmp/cutseq-0.0.9.tar.gz --markdown 20240429/c/cutseq/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 08:50:36] INFO root fetch - processPackages [opyls]: Downloading https://files.pythonhosted.org/packages/b3/6f/f480f93d98f25958bd5a6094e5578bf874d7f5334bcd3e515a4c235ef063/opyls-0.0.6.tar.gz
+[2024-04-29 08:50:36] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/a0/04/10289d36794dda29e2a889dcf2e412dcd39997cf2bc11d5af1bcc4670b3d/byzerllm-0.1.9.tar.gz
+[2024-04-29 08:50:36] INFO root fetch - processPackages [pyjava]: executing diffoscope
+[2024-04-29 08:50:36] INFO root fetch - processPackages [pyjava]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjava-0.6.8.tar.gz tmp/pyjava-0.6.9.tar.gz --markdown 20240429/p/pyjava/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-04-29 08:50:36] INFO root fetch - processPackages [auto-coder]: executing diffoscope
+[2024-04-29 08:50:36] INFO root fetch - processPackages [auto-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-coder-0.1.8.tar.gz tmp/auto-coder-0.1.9.tar.gz --markdown 20240429/a/auto-coder/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 08:50:36] INFO root fetch - processPackages [opyls]: executing diffoscope
+[2024-04-29 08:50:36] INFO root fetch - processPackages [opyls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opyls-0.0.5.tar.gz tmp/opyls-0.0.6.tar.gz --markdown 20240429/o/opyls/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-29 08:50:36] INFO root fetch - processPackages [synctl]: Downloading https://files.pythonhosted.org/packages/8c/36/17050c4cc2ab487068590663b29429375f087b200d4e4efb95c862c9d6de/synctl-1.1.9.tar.gz
+[2024-04-29 08:50:36] INFO root fetch - processPackages [pyigor]: Downloading https://files.pythonhosted.org/packages/ac/32/78759a1692c60a7b06fc95fca246e1f54500c10a62977c5be3a93502a1fe/pyigor-0.2.1.tar.gz
+[2024-04-29 08:50:36] INFO root fetch - processPackages [synctl]: executing diffoscope
+[2024-04-29 08:50:36] INFO root fetch - processPackages [synctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synctl-1.1.8.tar.gz tmp/synctl-1.1.9.tar.gz --markdown 20240429/s/synctl/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-29 08:50:36] INFO root fetch - processPackages [pyigor]: executing diffoscope
+[2024-04-29 08:50:36] INFO root fetch - processPackages [pyigor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyigor-0.2.0.tar.gz tmp/pyigor-0.2.1.tar.gz --markdown 20240429/p/pyigor/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-29 08:50:36] INFO root fetch - processPackages [byzerllm]: executing diffoscope
+[2024-04-29 08:50:36] INFO root fetch - processPackages [byzerllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byzerllm-0.1.8.tar.gz tmp/byzerllm-0.1.9.tar.gz --markdown 20240429/b/byzerllm/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 08:50:36] INFO root fetch - processPackages [cutseq]: Remove: archive file [/home/abi/fetcher/tmp/cutseq-0.0.8.tar.gz]
+[2024-04-29 08:50:36] INFO root fetch - processPackages [cutseq]: Remove: archive file [/home/abi/fetcher/tmp/cutseq-0.0.9.tar.gz]
+[2024-04-29 08:50:36] INFO root fetch - main [MainThread]: End processing [cutseq]: success
+[2024-04-29 08:50:36] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.1.8.tar.gz]
+[2024-04-29 08:50:36] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.1.9.tar.gz]
+[2024-04-29 08:50:36] INFO root fetch - main [MainThread]: End processing [jetline]: success
+[2024-04-29 08:50:36] INFO root fetch - processPackages [quadpy]: Downloading https://files.pythonhosted.org/packages/fe/74/cc02ca891abd663afcba105d3beb833519da8ac23bf471b35fc649bb5c8a/quadpy-0.17.19-py3-none-any.whl
+[2024-04-29 08:50:37] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.8.tar.gz]
+[2024-04-29 08:50:37] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
+[2024-04-29 08:50:37] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
+[2024-04-29 08:50:37] INFO root fetch - processPackages [pyjava]: Remove: archive file [/home/abi/fetcher/tmp/pyjava-0.6.8.tar.gz]
+[2024-04-29 08:50:37] INFO root fetch - processPackages [pyjava]: Remove: archive file [/home/abi/fetcher/tmp/pyjava-0.6.9.tar.gz]
+[2024-04-29 08:50:37] INFO root fetch - main [MainThread]: End processing [pyjava]: success
+[2024-04-29 08:50:37] INFO root fetch - processPackages [pyigor]: Remove: archive file [/home/abi/fetcher/tmp/pyigor-0.2.0.tar.gz]
+[2024-04-29 08:50:37] INFO root fetch - processPackages [pyigor]: Remove: archive file [/home/abi/fetcher/tmp/pyigor-0.2.1.tar.gz]
+[2024-04-29 08:50:37] INFO root fetch - main [MainThread]: End processing [pyigor]: success
+[2024-04-29 08:50:37] INFO root fetch - processPackages [synctl]: Remove: archive file [/home/abi/fetcher/tmp/synctl-1.1.8.tar.gz]
+[2024-04-29 08:50:37] INFO root fetch - processPackages [synctl]: Remove: archive file [/home/abi/fetcher/tmp/synctl-1.1.9.tar.gz]
+[2024-04-29 08:50:37] INFO root fetch - main [MainThread]: End processing [synctl]: success
+[2024-04-29 08:50:37] INFO root fetch - processPackages [opyls]: Remove: archive file [/home/abi/fetcher/tmp/opyls-0.0.5.tar.gz]
+[2024-04-29 08:50:37] INFO root fetch - processPackages [opyls]: Remove: archive file [/home/abi/fetcher/tmp/opyls-0.0.6.tar.gz]
+[2024-04-29 08:50:37] INFO root fetch - main [MainThread]: End processing [opyls]: success
+[2024-04-29 08:50:37] INFO root fetch - processPackages [quadpy]: executing diffoscope
+[2024-04-29 08:50:37] INFO root fetch - processPackages [quadpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quadpy-0.17.17-py3-none-any.whl.zip tmp/quadpy-0.17.19-py3-none-any.whl.zip --markdown 20240429/q/quadpy/0.17.17-0.17.19/README.md --exclude *.pyd
+[2024-04-29 08:50:38] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.8.tar.gz]
+[2024-04-29 08:50:38] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
+[2024-04-29 08:50:38] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
+[2024-04-29 08:50:39] INFO root fetch - processPackages [quadpy]: Remove: archive file [/home/abi/fetcher/tmp/quadpy-0.17.17-py3-none-any.whl.zip]
+[2024-04-29 08:50:39] INFO root fetch - processPackages [quadpy]: Remove: archive file [/home/abi/fetcher/tmp/quadpy-0.17.19-py3-none-any.whl.zip]
+[2024-04-29 08:50:39] INFO root fetch - main [MainThread]: End processing [quadpy]: success
+[2024-04-29 08:50:39] INFO root fetch - main [MainThread]: Store serial: [22979646]
