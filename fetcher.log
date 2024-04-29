@@ -14470,3 +14470,96 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 11:49:45] INFO root fetch - processPackages [frequenz-api-electricity-trading]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-api-electricity-trading-0.2.1.tar.gz]
 [2024-04-29 11:49:45] INFO root fetch - main [MainThread]: End processing [frequenz-api-electricity-trading]: success
 [2024-04-29 11:49:45] INFO root fetch - main [MainThread]: Store serial: [22981632]
+[2024-04-29 11:51:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22981632]
+[2024-04-29 11:51:55] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-29 11:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cottontaildb-client
+[2024-04-29 11:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ixoncdkingress
+[2024-04-29 11:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finesse
+[2024-04-29 11:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ultralytics-rknn
+[2024-04-29 11:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mailslurp-client
+[2024-04-29 11:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkdocs-material
+[2024-04-29 11:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dpks
+[2024-04-29 11:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: few-shot-priming
+[2024-04-29 11:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: LinguAligner
+[2024-04-29 11:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SFISearchforinfo
+[2024-04-29 11:51:56] INFO root fetch - processPackages [LinguAligner]: New version: [0.9] Old Version: [0.8]
+[2024-04-29 11:51:56] INFO root fetch - processPackages [mailslurp-client]: New version: [9.0.0] Old Version: [8.7.1]
+[2024-04-29 11:51:56] INFO root fetch - processPackages [mkdocs-material]: New version: [9.5.9] Old Version: [9.5.8]
+[2024-04-29 11:51:56] INFO root fetch - processPackages [ixoncdkingress]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 11:51:56] INFO root fetch - processPackages [cottontaildb-client]: New version: [0.16.6] Old Version: [0.14.2]
+[2024-04-29 11:51:56] INFO root fetch - processPackages [dpks]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-29 11:51:56] INFO root fetch - processPackages [ultralytics-rknn]: New version: [8.0.152] Old Version: [8.0.151]
+[2024-04-29 11:51:56] WARNING root fetch - processPackages [SFISearchforinfo]: Skipping, unable to determine old version
+[2024-04-29 11:51:56] INFO root fetch - processPackages [SFISearchforinfo]: Start processing: synch2jira
+[2024-04-29 11:51:56] INFO root fetch - main [MainThread]: End processing [SFISearchforinfo] error
+[2024-04-29 11:51:56] INFO root fetch - processPackages [finesse]: New version: [3.0a8] Old Version: [3.0a7]
+[2024-04-29 11:51:56] INFO root fetch - processPackages [LinguAligner]: Downloading https://files.pythonhosted.org/packages/63/1f/fc1941e3d878f8643898c07bd958b932dd36b3b074928145bb430dfe0a04/lingualigner-0.8.tar.gz
+[2024-04-29 11:51:56] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-29 11:51:56] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/3e/2a/b8cce2427a43d1e16d56cf7c0cb6846aa65ef693d53c602b86cc1b3e2dda/mailslurp-client-8.7.1.tar.gz
+[2024-04-29 11:51:56] INFO root fetch - processPackages [synch2jira]: New version: [0.0.92] Old Version: [0.0.90]
+[2024-04-29 11:51:56] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/ac/89/8b516eb18c22325b081189904047384452a9632613ff3239bed0f9af7f0c/synch2jira-0.0.90.tar.gz
+[2024-04-29 11:51:56] INFO root fetch - processPackages [mkdocs-material]: Downloading https://files.pythonhosted.org/packages/af/3b/2e05d9ad24b7f836a4dd8aa6221af8f7c7c9a48021c5300ea9de5f01465e/mkdocs_material-9.5.8.tar.gz
+[2024-04-29 11:51:56] INFO root fetch - processPackages [cottontaildb-client]: Downloading https://files.pythonhosted.org/packages/8a/34/2a3f28a917be419b94217220b07637f20c43bf4004a7af49b3e2150d9962/cottontaildb-client-0.14.2.tar.gz
+[2024-04-29 11:51:56] INFO root fetch - processPackages [ixoncdkingress]: Downloading https://files.pythonhosted.org/packages/b3/1b/2738933755f61b85947702010ca1d9403e64824e49dcdc082f1b61a07b4a/ixoncdkingress-0.0.8.tar.gz
+[2024-04-29 11:51:56] INFO root fetch - processPackages [ultralytics-rknn]: Downloading https://files.pythonhosted.org/packages/6f/8a/8a45793b77f92eadf4608ab85c62e0c7cea9ffde85e459d7a81d5ee5d5fc/ultralytics_rknn-8.0.151-py3-none-any.whl
+[2024-04-29 11:51:56] INFO root fetch - processPackages [mailslurp-client]: Downloading https://files.pythonhosted.org/packages/01/d9/2509603c731df895dbecf80066b199f2b72cb740d3900594486b1869bda3/mailslurp-client-9.0.0.tar.gz
+[2024-04-29 11:51:56] INFO root fetch - processPackages [finesse]: Downloading https://files.pythonhosted.org/packages/7d/69/453a412277309f8c790f50a44a03dfc0b8ca8998450632d62a585fd34c7c/finesse-3.0a7.tar.gz
+[2024-04-29 11:51:56] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-29 11:51:56] INFO root fetch - processPackages [dpks]: Downloading https://files.pythonhosted.org/packages/9b/87/b7cd67f76534bd6484192a2dca12f1d9887e6eeaeca607aed75ae57a9f89/dpks-0.1.4.tar.gz
+[2024-04-29 11:51:56] INFO root fetch - processPackages [LinguAligner]: Downloading https://files.pythonhosted.org/packages/73/fb/3cad932ad4847785cbae099a96fb2ae5367c5b788dac0deece75b60a9254/lingualigner-0.9.tar.gz
+[2024-04-29 11:51:56] INFO root fetch - processPackages [mailslurp-client]: executing diffoscope
+[2024-04-29 11:51:56] INFO root fetch - processPackages [mailslurp-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailslurp-client-8.7.1.tar.gz tmp/mailslurp-client-9.0.0.tar.gz --markdown 20240429/m/mailslurp-client/8.7.1-9.0.0/README.md --exclude *.pyd
+[2024-04-29 11:51:56] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/43/14/6f75dbd556e30e1e676db4cf124487a7b6c686c6daec58b5cbd03ac827b9/synch2jira-0.0.92.tar.gz
+[2024-04-29 11:51:56] INFO root fetch - processPackages [LinguAligner]: executing diffoscope
+[2024-04-29 11:51:56] INFO root fetch - processPackages [LinguAligner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lingualigner-0.8.tar.gz tmp/lingualigner-0.9.tar.gz --markdown 20240429/L/LinguAligner/0.8-0.9/README.md --exclude *.pyd
+[2024-04-29 11:51:56] INFO root fetch - processPackages [synch2jira]: executing diffoscope
+[2024-04-29 11:51:56] INFO root fetch - processPackages [synch2jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synch2jira-0.0.90.tar.gz tmp/synch2jira-0.0.92.tar.gz --markdown 20240429/s/synch2jira/0.0.90-0.0.92/README.md --exclude *.pyd
+[2024-04-29 11:51:56] INFO root fetch - processPackages [cottontaildb-client]: Downloading https://files.pythonhosted.org/packages/ef/81/964ef273cd3dc86fc01c3dabbd95a8237ab3ac61c42f2efb06cc7bad3947/cottontaildb_client-0.16.6.tar.gz
+[2024-04-29 11:51:57] INFO root fetch - processPackages [ixoncdkingress]: Downloading https://files.pythonhosted.org/packages/81/5d/64486ddfc794e9b261c3c76607feaa76e92ecb01cd26ffd13bced3ecac65/ixoncdkingress-0.0.9.tar.gz
+[2024-04-29 11:51:57] INFO root fetch - processPackages [mkdocs-material]: Downloading https://files.pythonhosted.org/packages/7f/87/b416888ac24bc9210f727d59afe528e00b7e037933f3497f6ad17ff5d370/mkdocs_material-9.5.9.tar.gz
+[2024-04-29 11:51:57] INFO root fetch - processPackages [dpks]: Downloading https://files.pythonhosted.org/packages/db/21/2f29dbd630f9506263e10fbf2c76b41bd362cbe9bcd2f03d3bd3e23203d3/dpks-0.1.5.tar.gz
+[2024-04-29 11:51:57] INFO root fetch - processPackages [ixoncdkingress]: executing diffoscope
+[2024-04-29 11:51:57] INFO root fetch - processPackages [ixoncdkingress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixoncdkingress-0.0.8.tar.gz tmp/ixoncdkingress-0.0.9.tar.gz --markdown 20240429/i/ixoncdkingress/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 11:51:57] INFO root fetch - processPackages [ultralytics-rknn]: Downloading https://files.pythonhosted.org/packages/9d/21/844392f227b7b049b89a1d52be3ba67d2547956a9d8a0a81e3e8704c1fbd/ultralytics_rknn-8.0.152-py3-none-any.whl
+[2024-04-29 11:51:57] WARNING root fetch - processPackages [dpks]: Skipping package: exceeds size limit 14902885>=10485760
+[2024-04-29 11:51:57] INFO root fetch - main [MainThread]: End processing [dpks] error
+[2024-04-29 11:51:57] INFO root fetch - processPackages [cottontaildb-client]: executing diffoscope
+[2024-04-29 11:51:57] INFO root fetch - processPackages [cottontaildb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cottontaildb-client-0.14.2.tar.gz tmp/cottontaildb_client-0.16.6.tar.gz --markdown 20240429/c/cottontaildb-client/0.14.2-0.16.6/README.md --exclude *.pyd
+[2024-04-29 11:51:57] INFO root fetch - processPackages [ultralytics-rknn]: executing diffoscope
+[2024-04-29 11:51:57] INFO root fetch - processPackages [ultralytics-rknn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics_rknn-8.0.151-py3-none-any.whl.zip tmp/ultralytics_rknn-8.0.152-py3-none-any.whl.zip --markdown 20240429/u/ultralytics-rknn/8.0.151-8.0.152/README.md --exclude *.pyd
+[2024-04-29 11:51:57] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-29 11:51:57] INFO root fetch - processPackages [mkdocs-material]: executing diffoscope
+[2024-04-29 11:51:57] INFO root fetch - processPackages [mkdocs-material]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_material-9.5.8.tar.gz tmp/mkdocs_material-9.5.9.tar.gz --markdown 20240429/m/mkdocs-material/9.5.8-9.5.9/README.md --exclude *.pyd
+[2024-04-29 11:51:57] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-29 11:51:57] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240429/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-04-29 11:51:57] INFO root fetch - processPackages [LinguAligner]: Remove: archive file [/home/abi/fetcher/tmp/lingualigner-0.8.tar.gz]
+[2024-04-29 11:51:57] INFO root fetch - processPackages [LinguAligner]: Remove: archive file [/home/abi/fetcher/tmp/lingualigner-0.9.tar.gz]
+[2024-04-29 11:51:57] INFO root fetch - main [MainThread]: End processing [LinguAligner]: success
+[2024-04-29 11:51:57] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.90.tar.gz]
+[2024-04-29 11:51:57] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.92.tar.gz]
+[2024-04-29 11:51:57] INFO root fetch - main [MainThread]: End processing [synch2jira]: success
+[2024-04-29 11:51:57] INFO root fetch - processPackages [cottontaildb-client]: Remove: archive file [/home/abi/fetcher/tmp/cottontaildb-client-0.14.2.tar.gz]
+[2024-04-29 11:51:57] INFO root fetch - processPackages [cottontaildb-client]: Remove: archive file [/home/abi/fetcher/tmp/cottontaildb_client-0.16.6.tar.gz]
+[2024-04-29 11:51:57] INFO root fetch - main [MainThread]: End processing [cottontaildb-client]: success
+[2024-04-29 11:51:58] INFO root fetch - processPackages [ixoncdkingress]: Remove: archive file [/home/abi/fetcher/tmp/ixoncdkingress-0.0.8.tar.gz]
+[2024-04-29 11:51:58] INFO root fetch - processPackages [ixoncdkingress]: Remove: archive file [/home/abi/fetcher/tmp/ixoncdkingress-0.0.9.tar.gz]
+[2024-04-29 11:51:58] INFO root fetch - main [MainThread]: End processing [ixoncdkingress]: success
+[2024-04-29 11:51:58] INFO root fetch - processPackages [ultralytics-rknn]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics_rknn-8.0.151-py3-none-any.whl.zip]
+[2024-04-29 11:51:58] INFO root fetch - processPackages [ultralytics-rknn]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics_rknn-8.0.152-py3-none-any.whl.zip]
+[2024-04-29 11:51:58] INFO root fetch - main [MainThread]: End processing [ultralytics-rknn]: success
+[2024-04-29 11:51:58] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-29 11:51:58] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-29 11:51:58] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-29 11:51:58] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-8.7.1.tar.gz]
+[2024-04-29 11:51:58] INFO root fetch - processPackages [mailslurp-client]: Remove: archive file [/home/abi/fetcher/tmp/mailslurp-client-9.0.0.tar.gz]
+[2024-04-29 11:51:58] INFO root fetch - main [MainThread]: End processing [mailslurp-client]: success
+[2024-04-29 11:51:59] INFO root fetch - processPackages [finesse]: Downloading https://files.pythonhosted.org/packages/4d/b5/4ffb84f09fa01ec87721ce4b17350f2f8eefbdaa39afc060c8a80276d236/finesse-3.0a8.tar.gz
+[2024-04-29 11:51:59] INFO root fetch - processPackages [finesse]: executing diffoscope
+[2024-04-29 11:51:59] INFO root fetch - processPackages [finesse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finesse-3.0a7.tar.gz tmp/finesse-3.0a8.tar.gz --markdown 20240429/f/finesse/3.0a7-3.0a8/README.md --exclude *.pyd
+[2024-04-29 11:52:26] INFO root fetch - processPackages [finesse]: Remove: archive file [/home/abi/fetcher/tmp/finesse-3.0a7.tar.gz]
+[2024-04-29 11:52:26] INFO root fetch - processPackages [finesse]: Remove: archive file [/home/abi/fetcher/tmp/finesse-3.0a8.tar.gz]
+[2024-04-29 11:52:26] INFO root fetch - main [MainThread]: End processing [finesse]: success
+[2024-04-29 11:53:00] INFO root fetch - processPackages [mkdocs-material]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_material-9.5.8.tar.gz]
+[2024-04-29 11:53:00] INFO root fetch - processPackages [mkdocs-material]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_material-9.5.9.tar.gz]
+[2024-04-29 11:53:00] INFO root fetch - main [MainThread]: End processing [mkdocs-material]: success
+[2024-04-29 11:53:00] INFO root fetch - main [MainThread]: Store serial: [22981674]
