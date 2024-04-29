@@ -7699,3 +7699,24 @@
 [2024-04-29 05:57:05] INFO root fetch - processPackages [pybaseutils]: Remove: archive file [/home/abi/fetcher/tmp/pybaseutils-1.0.6.tar.gz]
 [2024-04-29 05:57:05] INFO root fetch - main [MainThread]: End processing [pybaseutils]: success
 [2024-04-29 05:57:05] INFO root fetch - main [MainThread]: Store serial: [22978505]
+[2024-04-29 05:59:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978505]
+[2024-04-29 05:59:15] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-29 05:59:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moraine
+[2024-04-29 05:59:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: erniebot
+[2024-04-29 05:59:15] INFO root fetch - processPackages [moraine]: New version: [0.6.1] Old Version: [0.5.1]
+[2024-04-29 05:59:15] INFO root fetch - processPackages [moraine]: Downloading https://files.pythonhosted.org/packages/19/a1/04947aba2fc6dfa89603a66a6e5a38650e4313091cdc31bb7a1249741f7e/moraine-0.5.1.tar.gz
+[2024-04-29 05:59:15] INFO root fetch - processPackages [erniebot]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-04-29 05:59:16] INFO root fetch - processPackages [erniebot]: Downloading https://files.pythonhosted.org/packages/a4/dd/377b013a89e6c06321c67da58f41168ad12bd580c6854e6f4a3fea1aa09c/erniebot-0.5.4-py3-none-any.whl
+[2024-04-29 05:59:16] INFO root fetch - processPackages [moraine]: Downloading https://files.pythonhosted.org/packages/c7/ea/fed10e635641bbbcf00750d55a90b0662a138756f949dda595492b2c140f/moraine-0.6.1.tar.gz
+[2024-04-29 05:59:16] INFO root fetch - processPackages [moraine]: executing diffoscope
+[2024-04-29 05:59:16] INFO root fetch - processPackages [moraine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moraine-0.5.1.tar.gz tmp/moraine-0.6.1.tar.gz --markdown 20240429/m/moraine/0.5.1-0.6.1/README.md --exclude *.pyd
+[2024-04-29 05:59:16] INFO root fetch - processPackages [erniebot]: Downloading https://files.pythonhosted.org/packages/3d/51/eaae5e5934f79121a84b23efa910b31ff394d2ea5b1a07f0c6b8b27f8c22/erniebot-0.5.5.tar.gz
+[2024-04-29 05:59:16] INFO root fetch - processPackages [erniebot]: executing diffoscope
+[2024-04-29 05:59:16] INFO root fetch - processPackages [erniebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erniebot-0.5.4-py3-none-any.whl.zip tmp/erniebot-0.5.5.tar.gz --markdown 20240429/e/erniebot/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-04-29 05:59:16] INFO root fetch - processPackages [moraine]: Remove: archive file [/home/abi/fetcher/tmp/moraine-0.5.1.tar.gz]
+[2024-04-29 05:59:16] INFO root fetch - processPackages [moraine]: Remove: archive file [/home/abi/fetcher/tmp/moraine-0.6.1.tar.gz]
+[2024-04-29 05:59:16] INFO root fetch - main [MainThread]: End processing [moraine]: success
+[2024-04-29 05:59:17] INFO root fetch - processPackages [erniebot]: Remove: archive file [/home/abi/fetcher/tmp/erniebot-0.5.4-py3-none-any.whl.zip]
+[2024-04-29 05:59:17] INFO root fetch - processPackages [erniebot]: Remove: archive file [/home/abi/fetcher/tmp/erniebot-0.5.5.tar.gz]
+[2024-04-29 05:59:17] INFO root fetch - main [MainThread]: End processing [erniebot]: success
+[2024-04-29 05:59:17] INFO root fetch - main [MainThread]: Store serial: [22978512]
