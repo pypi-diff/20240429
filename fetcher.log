@@ -11344,3 +11344,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 09:45:50] INFO root fetch - processPackages [osESD]: Remove: archive file [/home/abi/fetcher/tmp/osesd-1.1.0.tar.gz]
 [2024-04-29 09:45:50] INFO root fetch - main [MainThread]: End processing [osESD]: success
 [2024-04-29 09:45:50] INFO root fetch - main [MainThread]: Store serial: [22980209]
+[2024-04-29 09:47:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980209]
+[2024-04-29 09:47:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 09:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: knifes
+[2024-04-29 09:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lambkid
+[2024-04-29 09:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: IslandSheds
+[2024-04-29 09:47:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tab-pal
+[2024-04-29 09:47:58] INFO root fetch - processPackages [IslandSheds]: New version: [0.0.26] Old Version: [0.0.25]
+[2024-04-29 09:47:58] INFO root fetch - processPackages [IslandSheds]: Downloading https://files.pythonhosted.org/packages/1e/4e/f14441333c89207717cd701ac6101dacdbd1a63265b15a9aba69eab3d971/islandsheds-0.0.25.tar.gz
+[2024-04-29 09:47:58] WARNING root fetch - processPackages [tab-pal]: Skipping, unable to determine old version
+[2024-04-29 09:47:58] INFO root fetch - main [MainThread]: End processing [tab-pal] error
+[2024-04-29 09:47:58] INFO root fetch - processPackages [lambkid]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 09:47:58] INFO root fetch - processPackages [knifes]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-29 09:47:59] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/6a/38/f38847da57bd91482716f8004b4d19347ec9f4743ccba412cf7eef888c49/lambkid-0.1.8.tar.gz
+[2024-04-29 09:47:59] INFO root fetch - processPackages [knifes]: Downloading https://files.pythonhosted.org/packages/e6/4b/c74c7d790b50ed42910371e90066739d2c00043d3838c820d95c0253bd33/knifes-0.9.8.tar.gz
+[2024-04-29 09:47:59] INFO root fetch - processPackages [IslandSheds]: Downloading https://files.pythonhosted.org/packages/34/29/1579cfea023029baab4ceaf9a1a4226ec18169d55a7fbba5340193d867ac/islandsheds-0.0.26.tar.gz
+[2024-04-29 09:47:59] INFO root fetch - processPackages [IslandSheds]: executing diffoscope
+[2024-04-29 09:47:59] INFO root fetch - processPackages [IslandSheds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/islandsheds-0.0.25.tar.gz tmp/islandsheds-0.0.26.tar.gz --markdown 20240429/I/IslandSheds/0.0.25-0.0.26/README.md --exclude *.pyd
+[2024-04-29 09:47:59] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/2a/05/3ffb7974db064cbcc79af161bf87417bc66b99e257e16f9f35bc2dfaf41e/lambkid-0.1.9.tar.gz
+[2024-04-29 09:47:59] INFO root fetch - processPackages [lambkid]: executing diffoscope
+[2024-04-29 09:47:59] INFO root fetch - processPackages [lambkid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambkid-0.1.8.tar.gz tmp/lambkid-0.1.9.tar.gz --markdown 20240429/l/lambkid/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 09:47:59] INFO root fetch - processPackages [knifes]: Downloading https://files.pythonhosted.org/packages/bc/d5/65c499615531a9c272fb5dbc615867c83a4053877dc2cac123013fe7c154/knifes-0.9.9.tar.gz
+[2024-04-29 09:47:59] INFO root fetch - processPackages [knifes]: executing diffoscope
+[2024-04-29 09:47:59] INFO root fetch - processPackages [knifes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knifes-0.9.8.tar.gz tmp/knifes-0.9.9.tar.gz --markdown 20240429/k/knifes/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-29 09:48:00] INFO root fetch - processPackages [IslandSheds]: Remove: archive file [/home/abi/fetcher/tmp/islandsheds-0.0.25.tar.gz]
+[2024-04-29 09:48:00] INFO root fetch - processPackages [IslandSheds]: Remove: archive file [/home/abi/fetcher/tmp/islandsheds-0.0.26.tar.gz]
+[2024-04-29 09:48:00] INFO root fetch - main [MainThread]: End processing [IslandSheds]: success
+[2024-04-29 09:48:00] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.1.8.tar.gz]
+[2024-04-29 09:48:00] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.1.9.tar.gz]
+[2024-04-29 09:48:00] INFO root fetch - main [MainThread]: End processing [lambkid]: success
+[2024-04-29 09:48:00] INFO root fetch - processPackages [knifes]: Remove: archive file [/home/abi/fetcher/tmp/knifes-0.9.8.tar.gz]
+[2024-04-29 09:48:00] INFO root fetch - processPackages [knifes]: Remove: archive file [/home/abi/fetcher/tmp/knifes-0.9.9.tar.gz]
+[2024-04-29 09:48:00] INFO root fetch - main [MainThread]: End processing [knifes]: success
+[2024-04-29 09:48:00] INFO root fetch - main [MainThread]: Store serial: [22980223]
