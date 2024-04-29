@@ -16936,3 +16936,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 13:17:03] ERROR root fetch - processPackages [webviewpy]: Unable to fetch info: No such project/version 'webviewpy' 1.0.3
 [2024-04-29 13:17:03] INFO root fetch - main [MainThread]: End processing [webviewpy] error
 [2024-04-29 13:17:03] INFO root fetch - main [MainThread]: Store serial: [22982490]
+[2024-04-29 13:19:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982490]
+[2024-04-29 13:19:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 13:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dronarnya
+[2024-04-29 13:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: secretvalidate
+[2024-04-29 13:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rssbot
+[2024-04-29 13:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: petitbonjour
+[2024-04-29 13:19:11] WARNING root fetch - processPackages [secretvalidate]: Skipping, unable to determine old version
+[2024-04-29 13:19:11] INFO root fetch - main [MainThread]: End processing [secretvalidate] error
+[2024-04-29 13:19:11] INFO root fetch - processPackages [rssbot]: New version: [555] Old Version: [553]
+[2024-04-29 13:19:11] WARNING root fetch - processPackages [dronarnya]: Skipping, unable to determine old version
+[2024-04-29 13:19:11] INFO root fetch - main [MainThread]: End processing [dronarnya] error
+[2024-04-29 13:19:11] WARNING root fetch - processPackages [petitbonjour]: Skipping, unable to determine old version
+[2024-04-29 13:19:11] INFO root fetch - main [MainThread]: End processing [petitbonjour] error
+[2024-04-29 13:19:11] INFO root fetch - processPackages [rssbot]: Downloading https://files.pythonhosted.org/packages/81/b4/6e41302bbdc70968bfbda999fe113e88a508620fc5783de1df85f3c5eccf/rssbot-553.tar.gz
+[2024-04-29 13:19:12] INFO root fetch - processPackages [rssbot]: Downloading https://files.pythonhosted.org/packages/f7/9e/5d73db5ae5ff9d8a07d0136c643b013c0e95c9c8b5d8501f1f05dea909ab/rssbot-555.tar.gz
+[2024-04-29 13:19:12] INFO root fetch - processPackages [rssbot]: executing diffoscope
+[2024-04-29 13:19:12] INFO root fetch - processPackages [rssbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rssbot-553.tar.gz tmp/rssbot-555.tar.gz --markdown 20240429/r/rssbot/553-555/README.md --exclude *.pyd
+[2024-04-29 13:19:13] INFO root fetch - processPackages [rssbot]: Remove: archive file [/home/abi/fetcher/tmp/rssbot-553.tar.gz]
+[2024-04-29 13:19:13] INFO root fetch - processPackages [rssbot]: Remove: archive file [/home/abi/fetcher/tmp/rssbot-555.tar.gz]
+[2024-04-29 13:19:13] INFO root fetch - main [MainThread]: End processing [rssbot]: success
+[2024-04-29 13:19:13] INFO root fetch - main [MainThread]: Store serial: [22982499]
