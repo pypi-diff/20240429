@@ -9855,3 +9855,45 @@
 [2024-04-29 08:35:02] INFO root fetch - processPackages [total-perspective-vortex]: Remove: archive file [/home/abi/fetcher/tmp/total_perspective_vortex-2.4.0.tar.gz]
 [2024-04-29 08:35:02] INFO root fetch - main [MainThread]: End processing [total-perspective-vortex]: success
 [2024-04-29 08:35:02] INFO root fetch - main [MainThread]: Store serial: [22979494]
+[2024-04-29 08:37:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979494]
+[2024-04-29 08:37:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 08:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ezside
+[2024-04-29 08:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cynetdiff
+[2024-04-29 08:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zensvi
+[2024-04-29 08:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: indusmes
+[2024-04-29 08:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: static-analysis-script
+[2024-04-29 08:37:13] INFO root fetch - processPackages [static-analysis-script]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-29 08:37:13] INFO root fetch - processPackages [static-analysis-script]: Downloading https://files.pythonhosted.org/packages/2a/57/ab1abe6bc791b5d5e6790a96bc39f45fc5ea60342b77690547da7a4b4f1f/static_analysis_script-0.1.5.tar.gz
+[2024-04-29 08:37:13] WARNING root fetch - processPackages [indusmes]: Skipping, unable to determine old version
+[2024-04-29 08:37:13] INFO root fetch - main [MainThread]: End processing [indusmes] error
+[2024-04-29 08:37:13] INFO root fetch - processPackages [cynetdiff]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 08:37:13] INFO root fetch - processPackages [ezside]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 08:37:13] INFO root fetch - processPackages [zensvi]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-29 08:37:13] INFO root fetch - processPackages [cynetdiff]: Downloading https://files.pythonhosted.org/packages/99/58/9587d98e22f845c3d3bf3021a5f276af34ed00486be48947751c66768de1/cynetdiff-0.1.8.tar.gz
+[2024-04-29 08:37:13] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/c4/b3/5f6efb302a54041edfdb7cee7e64caaad9afec14cd8770bb2ceb8f6b6fc8/zensvi-0.9.7.tar.gz
+[2024-04-29 08:37:13] INFO root fetch - processPackages [ezside]: Downloading https://files.pythonhosted.org/packages/5a/d4/1810386c07f848c78c2e8b15144f22482295b4040d1283a67e6675563952/ezside-0.1.8.tar.gz
+[2024-04-29 08:37:13] INFO root fetch - processPackages [static-analysis-script]: Downloading https://files.pythonhosted.org/packages/24/88/37172148f68a5d527191ce6107065b83bc103c879f0d3bb371ac919fd335/static_analysis_script-0.1.6.tar.gz
+[2024-04-29 08:37:13] INFO root fetch - processPackages [static-analysis-script]: executing diffoscope
+[2024-04-29 08:37:13] INFO root fetch - processPackages [static-analysis-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/static_analysis_script-0.1.5.tar.gz tmp/static_analysis_script-0.1.6.tar.gz --markdown 20240429/s/static-analysis-script/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-29 08:37:13] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/58/a0/fa16c5167950fd72ac2b9de84f31f095275d7e96dede1c5f126683fca082/zensvi-0.9.8.tar.gz
+[2024-04-29 08:37:13] INFO root fetch - processPackages [cynetdiff]: Downloading https://files.pythonhosted.org/packages/e7/ce/ab41ce041dbbf4ecd0e9bcb4ad282ffb19b8cdb3aa9ef0d124d08ddfd70f/cynetdiff-0.1.9.tar.gz
+[2024-04-29 08:37:13] INFO root fetch - processPackages [ezside]: Downloading https://files.pythonhosted.org/packages/f1/e0/2cae952d702515bb0e82f0bacbe379367f4a416b2a3928f33850e21ae823/ezside-0.1.9.tar.gz
+[2024-04-29 08:37:13] INFO root fetch - processPackages [zensvi]: executing diffoscope
+[2024-04-29 08:37:13] INFO root fetch - processPackages [zensvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensvi-0.9.7.tar.gz tmp/zensvi-0.9.8.tar.gz --markdown 20240429/z/zensvi/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-04-29 08:37:13] INFO root fetch - processPackages [cynetdiff]: executing diffoscope
+[2024-04-29 08:37:13] INFO root fetch - processPackages [cynetdiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cynetdiff-0.1.8.tar.gz tmp/cynetdiff-0.1.9.tar.gz --markdown 20240429/c/cynetdiff/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 08:37:13] INFO root fetch - processPackages [ezside]: executing diffoscope
+[2024-04-29 08:37:13] INFO root fetch - processPackages [ezside]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezside-0.1.8.tar.gz tmp/ezside-0.1.9.tar.gz --markdown 20240429/e/ezside/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 08:37:14] INFO root fetch - processPackages [static-analysis-script]: Remove: archive file [/home/abi/fetcher/tmp/static_analysis_script-0.1.5.tar.gz]
+[2024-04-29 08:37:14] INFO root fetch - processPackages [static-analysis-script]: Remove: archive file [/home/abi/fetcher/tmp/static_analysis_script-0.1.6.tar.gz]
+[2024-04-29 08:37:14] INFO root fetch - main [MainThread]: End processing [static-analysis-script]: success
+[2024-04-29 08:37:14] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.9.7.tar.gz]
+[2024-04-29 08:37:14] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.9.8.tar.gz]
+[2024-04-29 08:37:14] INFO root fetch - main [MainThread]: End processing [zensvi]: success
+[2024-04-29 08:37:14] INFO root fetch - processPackages [ezside]: Remove: archive file [/home/abi/fetcher/tmp/ezside-0.1.8.tar.gz]
+[2024-04-29 08:37:14] INFO root fetch - processPackages [ezside]: Remove: archive file [/home/abi/fetcher/tmp/ezside-0.1.9.tar.gz]
+[2024-04-29 08:37:14] INFO root fetch - main [MainThread]: End processing [ezside]: success
+[2024-04-29 08:37:16] INFO root fetch - processPackages [cynetdiff]: Remove: archive file [/home/abi/fetcher/tmp/cynetdiff-0.1.8.tar.gz]
+[2024-04-29 08:37:16] INFO root fetch - processPackages [cynetdiff]: Remove: archive file [/home/abi/fetcher/tmp/cynetdiff-0.1.9.tar.gz]
+[2024-04-29 08:37:16] INFO root fetch - main [MainThread]: End processing [cynetdiff]: success
+[2024-04-29 08:37:16] INFO root fetch - main [MainThread]: Store serial: [22979513]
