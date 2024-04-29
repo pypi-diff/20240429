@@ -8877,3 +8877,35 @@
 [2024-04-29 07:26:48] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
 [2024-04-29 07:26:48] INFO root fetch - main [MainThread]: End processing [upgini]: success
 [2024-04-29 07:26:48] INFO root fetch - main [MainThread]: Store serial: [22979068]
+[2024-04-29 07:28:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979068]
+[2024-04-29 07:28:57] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-29 07:30:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979069]
+[2024-04-29 07:31:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 07:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyter-iam
+[2024-04-29 07:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: IslandSheds
+[2024-04-29 07:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Leonardo-Ai-SDK
+[2024-04-29 07:31:03] INFO root fetch - processPackages [IslandSheds]: New version: [0.0.18] Old Version: [0.0.17]
+[2024-04-29 07:31:03] INFO root fetch - processPackages [IslandSheds]: Downloading https://files.pythonhosted.org/packages/d9/5d/d70fc939a9bf0deb1a1875de3d87d5c4bec01d5c07d09de340606654ed4a/islandsheds-0.0.17.tar.gz
+[2024-04-29 07:31:03] INFO root fetch - processPackages [jupyter-iam]: New version: [1.0.5] Old Version: [1.0.3]
+[2024-04-29 07:31:03] INFO root fetch - processPackages [Leonardo-Ai-SDK]: New version: [5.3.8] Old Version: [5.3.7]
+[2024-04-29 07:31:03] INFO root fetch - processPackages [jupyter-iam]: Downloading https://files.pythonhosted.org/packages/3d/c7/c0e9dde02b1025b7a391d80489a68ff65e35b6ef375167c8fb56bccd3d3b/jupyter_iam-1.0.3-py3-none-any.whl
+[2024-04-29 07:31:03] INFO root fetch - processPackages [IslandSheds]: Downloading https://files.pythonhosted.org/packages/c4/11/0c5c664bba1efe56971a442b630646bdd2f8946568b4b4937b73ea047ed5/islandsheds-0.0.18.tar.gz
+[2024-04-29 07:31:03] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/52/70/e80866126623dc580cd2f29725a4d71bd4d0e94ada1b8cfb8430c3a7e6aa/Leonardo-Ai-SDK-5.3.7.tar.gz
+[2024-04-29 07:31:03] INFO root fetch - processPackages [IslandSheds]: executing diffoscope
+[2024-04-29 07:31:03] INFO root fetch - processPackages [IslandSheds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/islandsheds-0.0.17.tar.gz tmp/islandsheds-0.0.18.tar.gz --markdown 20240429/I/IslandSheds/0.0.17-0.0.18/README.md --exclude *.pyd
+[2024-04-29 07:31:03] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/54/45/70289314d3e96098cab891f9bfe97c370802711ae8f997aca8ca42b12165/Leonardo-Ai-SDK-5.3.8.tar.gz
+[2024-04-29 07:31:03] INFO root fetch - processPackages [jupyter-iam]: Downloading https://files.pythonhosted.org/packages/23/1c/b174e36ddb6a5b8d1cbafff93aec68c9af1a5b2bd7ce0dbbb7107745c191/jupyter_iam-1.0.5-py3-none-any.whl
+[2024-04-29 07:31:04] INFO root fetch - processPackages [IslandSheds]: Remove: archive file [/home/abi/fetcher/tmp/islandsheds-0.0.17.tar.gz]
+[2024-04-29 07:31:04] INFO root fetch - processPackages [IslandSheds]: Remove: archive file [/home/abi/fetcher/tmp/islandsheds-0.0.18.tar.gz]
+[2024-04-29 07:31:04] INFO root fetch - main [MainThread]: End processing [IslandSheds]: success
+[2024-04-29 07:31:04] INFO root fetch - processPackages [Leonardo-Ai-SDK]: executing diffoscope
+[2024-04-29 07:31:04] INFO root fetch - processPackages [Leonardo-Ai-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Leonardo-Ai-SDK-5.3.7.tar.gz tmp/Leonardo-Ai-SDK-5.3.8.tar.gz --markdown 20240429/L/Leonardo-Ai-SDK/5.3.7-5.3.8/README.md --exclude *.pyd
+[2024-04-29 07:31:04] INFO root fetch - processPackages [jupyter-iam]: executing diffoscope
+[2024-04-29 07:31:04] INFO root fetch - processPackages [jupyter-iam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_iam-1.0.3-py3-none-any.whl.zip tmp/jupyter_iam-1.0.5-py3-none-any.whl.zip --markdown 20240429/j/jupyter-iam/1.0.3-1.0.5/README.md --exclude *.pyd
+[2024-04-29 07:31:04] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.3.7.tar.gz]
+[2024-04-29 07:31:04] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-5.3.8.tar.gz]
+[2024-04-29 07:31:04] INFO root fetch - main [MainThread]: End processing [Leonardo-Ai-SDK]: success
+[2024-04-29 07:32:13] INFO root fetch - processPackages [jupyter-iam]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_iam-1.0.3-py3-none-any.whl.zip]
+[2024-04-29 07:32:13] INFO root fetch - processPackages [jupyter-iam]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_iam-1.0.5-py3-none-any.whl.zip]
+[2024-04-29 07:32:13] INFO root fetch - main [MainThread]: End processing [jupyter-iam]: success
+[2024-04-29 07:32:13] INFO root fetch - main [MainThread]: Store serial: [22979077]
