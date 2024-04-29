@@ -1886,3 +1886,47 @@
 [2024-04-29 02:45:30] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404280044.tar.gz]
 [2024-04-29 02:45:30] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-04-29 02:45:30] INFO root fetch - main [MainThread]: Store serial: [22971952]
+[2024-04-29 02:47:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971952]
+[2024-04-29 02:47:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 02:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: funtoo-ramdisk
+[2024-04-29 02:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pylint-silent
+[2024-04-29 02:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: labequipment
+[2024-04-29 02:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seeact
+[2024-04-29 02:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nm-magic-wand-nightly
+[2024-04-29 02:47:41] INFO root fetch - processPackages [labequipment]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-29 02:47:41] INFO root fetch - processPackages [funtoo-ramdisk]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-29 02:47:41] INFO root fetch - processPackages [seeact]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-29 02:47:41] INFO root fetch - processPackages [pylint-silent]: New version: [1.4.1] Old Version: [1.4]
+[2024-04-29 02:47:41] INFO root fetch - processPackages [funtoo-ramdisk]: Downloading https://files.pythonhosted.org/packages/fa/a9/ef20abf6a7c37f79dec2d67bb8b8d1fefefc573195f32eb943558d8597db/funtoo_ramdisk-1.1.8.tar.gz
+[2024-04-29 02:47:41] INFO root fetch - processPackages [nm-magic-wand-nightly]: New version: [0.2.2.20240429] Old Version: [0.2.2.20240426]
+[2024-04-29 02:47:41] INFO root fetch - processPackages [seeact]: Downloading https://files.pythonhosted.org/packages/0a/5e/754331407da4bfd0b3e79de6b4523c94f46aaaabeaa137cd41636c83d69c/seeact-0.2.0.tar.gz
+[2024-04-29 02:47:41] INFO root fetch - processPackages [labequipment]: Downloading https://files.pythonhosted.org/packages/f2/65/9c89459233ef62dc843b5be06ebf5f8137947988715cc93ba8379e5f7060/labequipment-0.0.1.tar.gz
+[2024-04-29 02:47:41] INFO root fetch - processPackages [pylint-silent]: Downloading https://files.pythonhosted.org/packages/e9/96/023dac9057d27d3ee931ac77d1f303b2f7b0a271e014ab68ff0f04e2dcee/pylint-silent-1.4.tar.gz
+[2024-04-29 02:47:41] INFO root fetch - processPackages [funtoo-ramdisk]: Downloading https://files.pythonhosted.org/packages/dd/08/9f1cdd46afa442da53cf8c4372adc9059d36e9e99c7fd438132df3f19a43/funtoo_ramdisk-1.1.9.tar.gz
+[2024-04-29 02:47:41] INFO root fetch - processPackages [seeact]: Downloading https://files.pythonhosted.org/packages/a7/ae/bab92ecd77073718e4d42e1174d8977bae7701b647e24c8270067366cbef/seeact-0.2.1.tar.gz
+[2024-04-29 02:47:41] INFO root fetch - processPackages [nm-magic-wand-nightly]: Downloading https://files.pythonhosted.org/packages/a5/83/f1ea17e2838016f615d79958150e486b6751734e6e82fe2019908a23efb6/nm_magic_wand_nightly-0.2.2.20240426-cp39-cp39-manylinux_2_17_x86_64.whl
+[2024-04-29 02:47:41] WARNING root fetch - processPackages [nm-magic-wand-nightly]: Skipping package: exceeds size limit 76591640>=10485760
+[2024-04-29 02:47:41] INFO root fetch - main [MainThread]: End processing [nm-magic-wand-nightly] error
+[2024-04-29 02:47:41] INFO root fetch - processPackages [funtoo-ramdisk]: executing diffoscope
+[2024-04-29 02:47:41] INFO root fetch - processPackages [funtoo-ramdisk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funtoo_ramdisk-1.1.8.tar.gz tmp/funtoo_ramdisk-1.1.9.tar.gz --markdown 20240429/f/funtoo-ramdisk/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-29 02:47:41] INFO root fetch - processPackages [seeact]: executing diffoscope
+[2024-04-29 02:47:41] INFO root fetch - processPackages [seeact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeact-0.2.0.tar.gz tmp/seeact-0.2.1.tar.gz --markdown 20240429/s/seeact/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-29 02:47:41] INFO root fetch - processPackages [labequipment]: Downloading https://files.pythonhosted.org/packages/59/b1/18ffcf635dddbeedb547569ddc39d37d8e6075a0a44859ba35bc0ff226f6/labequipment-0.0.2.tar.gz
+[2024-04-29 02:47:41] INFO root fetch - processPackages [pylint-silent]: Downloading https://files.pythonhosted.org/packages/5b/1a/2078e188ceef3836ab37b730ac8c803ecfbfaa07ad90a4a256e6bc023d5c/pylint_silent-1.4.1.tar.gz
+[2024-04-29 02:47:41] INFO root fetch - processPackages [labequipment]: executing diffoscope
+[2024-04-29 02:47:41] INFO root fetch - processPackages [labequipment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labequipment-0.0.1.tar.gz tmp/labequipment-0.0.2.tar.gz --markdown 20240429/l/labequipment/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-29 02:47:41] INFO root fetch - processPackages [pylint-silent]: executing diffoscope
+[2024-04-29 02:47:41] INFO root fetch - processPackages [pylint-silent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylint-silent-1.4.tar.gz tmp/pylint_silent-1.4.1.tar.gz --markdown 20240429/p/pylint-silent/1.4-1.4.1/README.md --exclude *.pyd
+[2024-04-29 02:47:42] INFO root fetch - processPackages [seeact]: Remove: archive file [/home/abi/fetcher/tmp/seeact-0.2.0.tar.gz]
+[2024-04-29 02:47:42] INFO root fetch - processPackages [seeact]: Remove: archive file [/home/abi/fetcher/tmp/seeact-0.2.1.tar.gz]
+[2024-04-29 02:47:42] INFO root fetch - main [MainThread]: End processing [seeact]: success
+[2024-04-29 02:47:42] INFO root fetch - processPackages [labequipment]: Remove: archive file [/home/abi/fetcher/tmp/labequipment-0.0.1.tar.gz]
+[2024-04-29 02:47:42] INFO root fetch - processPackages [labequipment]: Remove: archive file [/home/abi/fetcher/tmp/labequipment-0.0.2.tar.gz]
+[2024-04-29 02:47:42] INFO root fetch - main [MainThread]: End processing [labequipment]: success
+[2024-04-29 02:47:42] INFO root fetch - processPackages [pylint-silent]: Remove: archive file [/home/abi/fetcher/tmp/pylint-silent-1.4.tar.gz]
+[2024-04-29 02:47:42] INFO root fetch - processPackages [pylint-silent]: Remove: archive file [/home/abi/fetcher/tmp/pylint_silent-1.4.1.tar.gz]
+[2024-04-29 02:47:42] INFO root fetch - main [MainThread]: End processing [pylint-silent]: success
+[2024-04-29 02:47:42] INFO root fetch - processPackages [funtoo-ramdisk]: Remove: archive file [/home/abi/fetcher/tmp/funtoo_ramdisk-1.1.8.tar.gz]
+[2024-04-29 02:47:42] INFO root fetch - processPackages [funtoo-ramdisk]: Remove: archive file [/home/abi/fetcher/tmp/funtoo_ramdisk-1.1.9.tar.gz]
+[2024-04-29 02:47:42] INFO root fetch - main [MainThread]: End processing [funtoo-ramdisk]: success
+[2024-04-29 02:47:42] INFO root fetch - main [MainThread]: Store serial: [22971968]
