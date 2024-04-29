@@ -8122,3 +8122,45 @@
 [2024-04-29 06:34:01] WARNING root fetch - processPackages [rp]: Skipping package: exceeds size limit 16581479>=10485760
 [2024-04-29 06:34:01] INFO root fetch - main [MainThread]: End processing [rp] error
 [2024-04-29 06:34:01] INFO root fetch - main [MainThread]: Store serial: [22978661]
+[2024-04-29 06:36:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978661]
+[2024-04-29 06:36:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 06:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yaconfiglib
+[2024-04-29 06:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nn-mouse
+[2024-04-29 06:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-cloudflare
+[2024-04-29 06:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ovos-audio
+[2024-04-29 06:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-hcloud
+[2024-04-29 06:36:10] INFO root fetch - processPackages [yaconfiglib]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-29 06:36:10] INFO root fetch - processPackages [yaconfiglib]: Downloading https://files.pythonhosted.org/packages/7f/53/881a3aa8798617bcd4d966ac2a60213ec05da31ca851d9df6d4341b9c033/yaconfiglib-0.1.1.tar.gz
+[2024-04-29 06:36:10] INFO root fetch - processPackages [ovos-audio]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2024-04-29 06:36:10] WARNING root fetch - processPackages [nn-mouse]: Skipping, unable to determine old version
+[2024-04-29 06:36:10] INFO root fetch - main [MainThread]: End processing [nn-mouse] error
+[2024-04-29 06:36:10] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2024-04-29 06:36:10] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.9.0a1692854882] Old Version: [5.9.0a1692851897]
+[2024-04-29 06:36:10] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/ce/4c/bbf50ef75d6a6dc70780f846ef13e19b5ec009e8657c5b847defde7a8dd9/pulumi_cloudflare-5.9.0a1692851897.tar.gz
+[2024-04-29 06:36:10] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2024-04-29 06:36:10] INFO root fetch - processPackages [ovos-audio]: Downloading https://files.pythonhosted.org/packages/d4/17/2d3fbb5841c27544510814bf6ec9bc14e395b73db018714288dfb969ac7a/ovos_audio-0.0.2a8-py3-none-any.whl
+[2024-04-29 06:36:10] INFO root fetch - processPackages [yaconfiglib]: Downloading https://files.pythonhosted.org/packages/30/62/fc77a2042ff132cf57c29cc2fa05f5d2f3949ddd04e1ae0b0944cc7f9f60/yaconfiglib-0.2.0.tar.gz
+[2024-04-29 06:36:10] INFO root fetch - processPackages [yaconfiglib]: executing diffoscope
+[2024-04-29 06:36:10] INFO root fetch - processPackages [yaconfiglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaconfiglib-0.1.1.tar.gz tmp/yaconfiglib-0.2.0.tar.gz --markdown 20240429/y/yaconfiglib/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-04-29 06:36:10] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/aa/45/e2040e3054cffd9ce633539517dc7f0063c0b789d73bac75a2b832e469de/pulumi_cloudflare-5.9.0a1692854882.tar.gz
+[2024-04-29 06:36:10] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2024-04-29 06:36:10] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2024-04-29 06:36:10] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz --markdown 20240429/p/pulumi-cloudflare/5.9.0a1692851897-5.9.0a1692854882/README.md --exclude *.pyd
+[2024-04-29 06:36:10] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2024-04-29 06:36:10] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20240429/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/README.md --exclude *.pyd
+[2024-04-29 06:36:11] INFO root fetch - processPackages [ovos-audio]: Downloading https://files.pythonhosted.org/packages/20/6f/67cf3b43303131b43946e6f35ff68018c8c9e3112db8aaf2d6dfc8545a60/ovos_audio-0.0.2a9-py3-none-any.whl
+[2024-04-29 06:36:11] INFO root fetch - processPackages [ovos-audio]: executing diffoscope
+[2024-04-29 06:36:11] INFO root fetch - processPackages [ovos-audio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_audio-0.0.2a8-py3-none-any.whl.zip tmp/ovos_audio-0.0.2a9-py3-none-any.whl.zip --markdown 20240429/o/ovos-audio/0.0.2a8-0.0.2a9/README.md --exclude *.pyd
+[2024-04-29 06:36:11] INFO root fetch - processPackages [yaconfiglib]: Remove: archive file [/home/abi/fetcher/tmp/yaconfiglib-0.1.1.tar.gz]
+[2024-04-29 06:36:11] INFO root fetch - processPackages [yaconfiglib]: Remove: archive file [/home/abi/fetcher/tmp/yaconfiglib-0.2.0.tar.gz]
+[2024-04-29 06:36:11] INFO root fetch - main [MainThread]: End processing [yaconfiglib]: success
+[2024-04-29 06:36:11] INFO root fetch - processPackages [ovos-audio]: Remove: archive file [/home/abi/fetcher/tmp/ovos_audio-0.0.2a8-py3-none-any.whl.zip]
+[2024-04-29 06:36:11] INFO root fetch - processPackages [ovos-audio]: Remove: archive file [/home/abi/fetcher/tmp/ovos_audio-0.0.2a9-py3-none-any.whl.zip]
+[2024-04-29 06:36:11] INFO root fetch - main [MainThread]: End processing [ovos-audio]: success
+[2024-04-29 06:36:11] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz]
+[2024-04-29 06:36:11] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
+[2024-04-29 06:36:11] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2024-04-29 06:36:12] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz]
+[2024-04-29 06:36:12] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
+[2024-04-29 06:36:12] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2024-04-29 06:36:12] INFO root fetch - main [MainThread]: Store serial: [22978680]
