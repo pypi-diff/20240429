@@ -13382,3 +13382,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 11:08:44] INFO root fetch - processPackages [cvat-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cvat_sdk-2.9.2.tar.gz]
 [2024-04-29 11:08:44] INFO root fetch - main [MainThread]: End processing [cvat-sdk]: success
 [2024-04-29 11:08:44] INFO root fetch - main [MainThread]: Store serial: [22981120]
+[2024-04-29 11:10:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22981120]
+[2024-04-29 11:10:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 11:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepgpu
+[2024-04-29 11:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cfxs-merge
+[2024-04-29 11:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: capellambse
+[2024-04-29 11:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: devtorch
+[2024-04-29 11:10:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: glpic
+[2024-04-29 11:10:54] INFO root fetch - processPackages [deepgpu]: New version: [2.1.0rc3] Old Version: [2.1.0rc2]
+[2024-04-29 11:10:54] INFO root fetch - processPackages [deepgpu]: Downloading https://files.pythonhosted.org/packages/cb/04/5e28d50c5da65eafbff26ec9f7116ee7f0c53c2a17b5964634056819a68f/deepgpu-2.1.0rc2.tar.gz
+[2024-04-29 11:10:54] WARNING root fetch - processPackages [devtorch]: Skipping, unable to determine old version
+[2024-04-29 11:10:54] INFO root fetch - main [MainThread]: End processing [devtorch] error
+[2024-04-29 11:10:54] WARNING root fetch - processPackages [cfxs-merge]: Skipping, unable to determine old version
+[2024-04-29 11:10:54] INFO root fetch - main [MainThread]: End processing [cfxs-merge] error
+[2024-04-29 11:10:54] INFO root fetch - processPackages [glpic]: New version: [99.0.202404290910] Old Version: [99.0.202404260959]
+[2024-04-29 11:10:54] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2024-04-29 11:10:54] INFO root fetch - processPackages [deepgpu]: Downloading https://files.pythonhosted.org/packages/da/59/03f40a77859e112891a727a6127fb6173f8eecdc0dd489634d230b4ae46c/deepgpu-2.1.0rc3.tar.gz
+[2024-04-29 11:10:54] INFO root fetch - processPackages [glpic]: Downloading https://files.pythonhosted.org/packages/3a/f7/c0d784e1d0c9850e7780aae12268142926050d80df8472060996730870a3/glpic-99.0.202404260959.tar.gz
+[2024-04-29 11:10:54] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2024-04-29 11:10:54] INFO root fetch - processPackages [deepgpu]: executing diffoscope
+[2024-04-29 11:10:54] INFO root fetch - processPackages [deepgpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepgpu-2.1.0rc2.tar.gz tmp/deepgpu-2.1.0rc3.tar.gz --markdown 20240429/d/deepgpu/2.1.0rc2-2.1.0rc3/README.md --exclude *.pyd
+[2024-04-29 11:10:54] INFO root fetch - processPackages [glpic]: Downloading https://files.pythonhosted.org/packages/9f/f3/5a9fb821c335b990444345f57654acbf131644dfdf8e981ea587fa989213/glpic-99.0.202404290910.tar.gz
+[2024-04-29 11:10:54] INFO root fetch - processPackages [glpic]: executing diffoscope
+[2024-04-29 11:10:54] INFO root fetch - processPackages [glpic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glpic-99.0.202404260959.tar.gz tmp/glpic-99.0.202404290910.tar.gz --markdown 20240429/g/glpic/99.0.202404260959-99.0.202404290910/README.md --exclude *.pyd
+[2024-04-29 11:10:54] INFO root fetch - processPackages [deepgpu]: Remove: archive file [/home/abi/fetcher/tmp/deepgpu-2.1.0rc2.tar.gz]
+[2024-04-29 11:10:54] INFO root fetch - processPackages [deepgpu]: Remove: archive file [/home/abi/fetcher/tmp/deepgpu-2.1.0rc3.tar.gz]
+[2024-04-29 11:10:54] INFO root fetch - main [MainThread]: End processing [deepgpu]: success
+[2024-04-29 11:10:55] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2024-04-29 11:10:55] INFO root fetch - processPackages [glpic]: Remove: archive file [/home/abi/fetcher/tmp/glpic-99.0.202404260959.tar.gz]
+[2024-04-29 11:10:55] INFO root fetch - processPackages [glpic]: Remove: archive file [/home/abi/fetcher/tmp/glpic-99.0.202404290910.tar.gz]
+[2024-04-29 11:10:55] INFO root fetch - main [MainThread]: End processing [glpic]: success
+[2024-04-29 11:10:55] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2024-04-29 11:10:55] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20240429/c/capellambse/0.5.9-0.5.9.dev5/README.md --exclude *.pyd
+[2024-04-29 11:11:00] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.tar.gz]
+[2024-04-29 11:11:00] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
+[2024-04-29 11:11:00] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2024-04-29 11:11:00] INFO root fetch - main [MainThread]: Store serial: [22981138]
