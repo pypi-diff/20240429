@@ -16124,3 +16124,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 12:52:52] INFO root fetch - processPackages [Furious-GUI]: Remove: archive file [/home/abi/fetcher/tmp/Furious-GUI-0.4.0.tar.gz]
 [2024-04-29 12:52:52] INFO root fetch - main [MainThread]: End processing [Furious-GUI]: success
 [2024-04-29 12:52:52] INFO root fetch - main [MainThread]: Store serial: [22982242]
+[2024-04-29 12:54:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982242]
+[2024-04-29 12:55:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-29 12:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: macal
+[2024-04-29 12:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sonar-tools
+[2024-04-29 12:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cosmoplots
+[2024-04-29 12:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gene-loci-comparison
+[2024-04-29 12:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: finbourne-access-sdk
+[2024-04-29 12:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imgio
+[2024-04-29 12:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nestipy
+[2024-04-29 12:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: starlette-testclient
+[2024-04-29 12:55:02] INFO root fetch - processPackages [cosmoplots]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-29 12:55:02] INFO root fetch - processPackages [nestipy]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-29 12:55:02] INFO root fetch - processPackages [imgio]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-04-29 12:55:02] INFO root fetch - processPackages [starlette-testclient]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-29 12:55:02] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-29 12:55:02] INFO root fetch - processPackages [sonar-tools]: New version: [2.9] Old Version: [2.8.2]
+[2024-04-29 12:55:02] INFO root fetch - processPackages [nestipy]: Downloading https://files.pythonhosted.org/packages/59/e1/bef68587f17bc1c5fbd619ad4e1a0e1fc662f4b160b778ca31ceb95b8a98/nestipy-0.2.2.tar.gz
+[2024-04-29 12:55:02] INFO root fetch - processPackages [cosmoplots]: Downloading https://files.pythonhosted.org/packages/e4/6c/3d7f15931103910db2be91155e0dfbf96b68140c50002d7de04b6af93713/cosmoplots-0.3.0.tar.gz
+[2024-04-29 12:55:02] INFO root fetch - processPackages [gene-loci-comparison]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-29 12:55:02] INFO root fetch - processPackages [macal]: New version: [5.5.0a9] Old Version: [5.5.0a8]
+[2024-04-29 12:55:02] INFO root fetch - processPackages [starlette-testclient]: Downloading https://files.pythonhosted.org/packages/6b/13/407b505994e1d40f1b903b1a6019b47b9cccb5456a8c10d7acb08f70c23d/starlette_testclient-0.3.0.tar.gz
+[2024-04-29 12:55:02] INFO root fetch - processPackages [imgio]: Downloading https://files.pythonhosted.org/packages/42/b0/e5d635470851c2725ca0a7fc78623453cf2ddafc8b28bd180964cdc466e3/imgio-1.4.1.tar.gz
+[2024-04-29 12:55:02] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-04-29 12:55:02] INFO root fetch - processPackages [sonar-tools]: Downloading https://files.pythonhosted.org/packages/04/97/169d32aaa9cd408ded6f826ffdd2c0bbab4a9f0eadb961303cca38445a32/sonar_tools-2.8.2-py3-none-any.whl
+[2024-04-29 12:55:02] INFO root fetch - processPackages [gene-loci-comparison]: Downloading https://files.pythonhosted.org/packages/34/a3/5b1d4181015fc75c62f144cf6afc003a361d34854f8cbb80f94d7b339f86/gene-loci-comparison-0.0.3.tar.gz
+[2024-04-29 12:55:02] INFO root fetch - processPackages [cosmoplots]: Downloading https://files.pythonhosted.org/packages/b7/42/8b9229577cc68c08d2e2e7e5d0119689ae3d610fc64d6a39efdd2807580d/cosmoplots-0.3.1.tar.gz
+[2024-04-29 12:55:02] INFO root fetch - processPackages [starlette-testclient]: Downloading https://files.pythonhosted.org/packages/98/5a/7400d3b40775561b6ea59a270653bfa373a6c93fa4aed8089e8c468fc1f4/starlette_testclient-0.4.0.tar.gz
+[2024-04-29 12:55:02] INFO root fetch - processPackages [macal]: Downloading https://files.pythonhosted.org/packages/cc/e8/2109f97bb66f52a82140cbe9cb41de93d1a7c0cec0501e768dc8a22b545b/macal-5.5.0a8.tar.gz
+[2024-04-29 12:55:02] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-04-29 12:55:02] INFO root fetch - processPackages [cosmoplots]: executing diffoscope
+[2024-04-29 12:55:02] INFO root fetch - processPackages [cosmoplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmoplots-0.3.0.tar.gz tmp/cosmoplots-0.3.1.tar.gz --markdown 20240429/c/cosmoplots/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-29 12:55:02] INFO root fetch - processPackages [starlette-testclient]: executing diffoscope
+[2024-04-29 12:55:02] INFO root fetch - processPackages [starlette-testclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starlette_testclient-0.3.0.tar.gz tmp/starlette_testclient-0.4.0.tar.gz --markdown 20240429/s/starlette-testclient/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-29 12:55:02] INFO root fetch - processPackages [nestipy]: Downloading https://files.pythonhosted.org/packages/3d/2d/18bad437c9ad215f778cec83a53c6d895a9e31c6a0b86b050f576587476b/nestipy-0.2.3.tar.gz
+[2024-04-29 12:55:02] INFO root fetch - processPackages [imgio]: Downloading https://files.pythonhosted.org/packages/54/7b/8cdd6f46f87e824ebac3fee39d27a7ce71df932dc340c1d0fabb458f7919/imgio-1.4.2.tar.gz
+[2024-04-29 12:55:02] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-04-29 12:55:02] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240429/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-29 12:55:02] INFO root fetch - processPackages [nestipy]: executing diffoscope
+[2024-04-29 12:55:02] INFO root fetch - processPackages [nestipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestipy-0.2.2.tar.gz tmp/nestipy-0.2.3.tar.gz --markdown 20240429/n/nestipy/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-29 12:55:03] INFO root fetch - processPackages [gene-loci-comparison]: Downloading https://files.pythonhosted.org/packages/15/65/9c07b2512f48855b72a5a37ed872c3fee1dea2d350e86c8f172067857d7e/gene_loci_comparison-0.0.4.tar.gz
+[2024-04-29 12:55:03] INFO root fetch - processPackages [imgio]: executing diffoscope
+[2024-04-29 12:55:03] INFO root fetch - processPackages [imgio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imgio-1.4.1.tar.gz tmp/imgio-1.4.2.tar.gz --markdown 20240429/i/imgio/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-04-29 12:55:03] INFO root fetch - processPackages [macal]: Downloading https://files.pythonhosted.org/packages/2e/66/3dc8a51a3b2d667a03dfa8b2dedaec323ac04b9b2c90ef3d6be0dce59f2f/macal-5.5.0a9.tar.gz
+[2024-04-29 12:55:03] INFO root fetch - processPackages [sonar-tools]: Downloading https://files.pythonhosted.org/packages/2b/3b/f304d320d5ddb097291d136882e6217e4e19c8061fdf0eeda601a5c6afdf/sonar_tools-2.9-py3-none-any.whl
+[2024-04-29 12:55:03] INFO root fetch - processPackages [gene-loci-comparison]: executing diffoscope
+[2024-04-29 12:55:03] INFO root fetch - processPackages [gene-loci-comparison]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gene-loci-comparison-0.0.3.tar.gz tmp/gene_loci_comparison-0.0.4.tar.gz --markdown 20240429/g/gene-loci-comparison/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-29 12:55:03] INFO root fetch - processPackages [macal]: executing diffoscope
+[2024-04-29 12:55:03] INFO root fetch - processPackages [macal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macal-5.5.0a8.tar.gz tmp/macal-5.5.0a9.tar.gz --markdown 20240429/m/macal/5.5.0a8-5.5.0a9/README.md --exclude *.pyd
+[2024-04-29 12:55:03] INFO root fetch - processPackages [sonar-tools]: executing diffoscope
+[2024-04-29 12:55:03] INFO root fetch - processPackages [sonar-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sonar_tools-2.8.2-py3-none-any.whl.zip tmp/sonar_tools-2.9-py3-none-any.whl.zip --markdown 20240429/s/sonar-tools/2.8.2-2.9/README.md --exclude *.pyd
+[2024-04-29 12:55:03] INFO root fetch - processPackages [cosmoplots]: Remove: archive file [/home/abi/fetcher/tmp/cosmoplots-0.3.0.tar.gz]
+[2024-04-29 12:55:03] INFO root fetch - processPackages [cosmoplots]: Remove: archive file [/home/abi/fetcher/tmp/cosmoplots-0.3.1.tar.gz]
+[2024-04-29 12:55:03] INFO root fetch - main [MainThread]: End processing [cosmoplots]: success
+[2024-04-29 12:55:03] INFO root fetch - processPackages [starlette-testclient]: Remove: archive file [/home/abi/fetcher/tmp/starlette_testclient-0.3.0.tar.gz]
+[2024-04-29 12:55:03] INFO root fetch - processPackages [starlette-testclient]: Remove: archive file [/home/abi/fetcher/tmp/starlette_testclient-0.4.0.tar.gz]
+[2024-04-29 12:55:03] INFO root fetch - main [MainThread]: End processing [starlette-testclient]: success
+[2024-04-29 12:55:04] INFO root fetch - processPackages [nestipy]: Remove: archive file [/home/abi/fetcher/tmp/nestipy-0.2.2.tar.gz]
+[2024-04-29 12:55:04] INFO root fetch - processPackages [nestipy]: Remove: archive file [/home/abi/fetcher/tmp/nestipy-0.2.3.tar.gz]
+[2024-04-29 12:55:04] INFO root fetch - main [MainThread]: End processing [nestipy]: success
+[2024-04-29 12:55:04] INFO root fetch - processPackages [gene-loci-comparison]: Remove: archive file [/home/abi/fetcher/tmp/gene-loci-comparison-0.0.3.tar.gz]
+[2024-04-29 12:55:04] INFO root fetch - processPackages [gene-loci-comparison]: Remove: archive file [/home/abi/fetcher/tmp/gene_loci_comparison-0.0.4.tar.gz]
+[2024-04-29 12:55:04] INFO root fetch - main [MainThread]: End processing [gene-loci-comparison]: success
+[2024-04-29 12:55:04] INFO root fetch - processPackages [imgio]: Remove: archive file [/home/abi/fetcher/tmp/imgio-1.4.1.tar.gz]
+[2024-04-29 12:55:04] INFO root fetch - processPackages [imgio]: Remove: archive file [/home/abi/fetcher/tmp/imgio-1.4.2.tar.gz]
+[2024-04-29 12:55:04] INFO root fetch - main [MainThread]: End processing [imgio]: success
+[2024-04-29 12:55:04] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-04-29 12:55:04] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-04-29 12:55:04] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-04-29 12:55:04] INFO root fetch - processPackages [macal]: Remove: archive file [/home/abi/fetcher/tmp/macal-5.5.0a8.tar.gz]
+[2024-04-29 12:55:04] INFO root fetch - processPackages [macal]: Remove: archive file [/home/abi/fetcher/tmp/macal-5.5.0a9.tar.gz]
+[2024-04-29 12:55:04] INFO root fetch - main [MainThread]: End processing [macal]: success
+[2024-04-29 12:55:04] INFO root fetch - processPackages [sonar-tools]: Remove: archive file [/home/abi/fetcher/tmp/sonar_tools-2.8.2-py3-none-any.whl.zip]
+[2024-04-29 12:55:04] INFO root fetch - processPackages [sonar-tools]: Remove: archive file [/home/abi/fetcher/tmp/sonar_tools-2.9-py3-none-any.whl.zip]
+[2024-04-29 12:55:04] INFO root fetch - main [MainThread]: End processing [sonar-tools]: success
+[2024-04-29 12:55:04] INFO root fetch - main [MainThread]: Store serial: [22982267]
