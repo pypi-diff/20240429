@@ -9969,3 +9969,56 @@
 [2024-04-29 08:41:39] INFO root fetch - processPackages [static-analysis-script]: Remove: archive file [/home/abi/fetcher/tmp/static_analysis_script-0.1.7.tar.gz]
 [2024-04-29 08:41:39] INFO root fetch - main [MainThread]: End processing [static-analysis-script]: success
 [2024-04-29 08:41:39] INFO root fetch - main [MainThread]: Store serial: [22979558]
+[2024-04-29 08:43:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979558]
+[2024-04-29 08:43:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-29 08:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ain-py
+[2024-04-29 08:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rp
+[2024-04-29 08:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xerosdk
+[2024-04-29 08:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autodft
+[2024-04-29 08:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-ssm-juggle
+[2024-04-29 08:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lfg-llama
+[2024-04-29 08:43:48] INFO root fetch - processPackages [lfg-llama]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-29 08:43:48] INFO root fetch - processPackages [autodft]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-29 08:43:48] INFO root fetch - processPackages [rp]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-04-29 08:43:48] INFO root fetch - processPackages [lfg-llama]: Downloading https://files.pythonhosted.org/packages/c4/27/b7d6b2ef581430701a7d9e5169b8ebc3e51447bf1f9303984d519496893e/lfg_llama-1.0.0.tar.gz
+[2024-04-29 08:43:48] INFO root fetch - processPackages [ain-py]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-29 08:43:48] INFO root fetch - processPackages [xerosdk]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-29 08:43:48] INFO root fetch - processPackages [aws-ssm-juggle]: New version: [24.4.2] Old Version: [24.4.1]
+[2024-04-29 08:43:48] INFO root fetch - processPackages [rp]: Downloading https://files.pythonhosted.org/packages/97/b0/bbb87ca94637473610e58828e8e7e0307bbbbd99a7ad7b0ce8abf94b5e15/rp-0.1.998.tar.gz
+[2024-04-29 08:43:48] INFO root fetch - processPackages [autodft]: Downloading https://files.pythonhosted.org/packages/5a/97/44bad2f35c66c08bf02dbf1938b5ab0d20aca85b81f6a211a3153c0e95f5/autodft-1.0.1.tar.gz
+[2024-04-29 08:43:48] WARNING root fetch - processPackages [rp]: Skipping package: exceeds size limit 16581479>=10485760
+[2024-04-29 08:43:48] INFO root fetch - main [MainThread]: End processing [rp] error
+[2024-04-29 08:43:48] INFO root fetch - processPackages [lfg-llama]: Downloading https://files.pythonhosted.org/packages/a5/20/a6802c52945d5cee10b3ec63068995d8f7e4a2fd5140665482db36116a66/lfg_llama-1.0.1.tar.gz
+[2024-04-29 08:43:48] INFO root fetch - processPackages [ain-py]: Downloading https://files.pythonhosted.org/packages/f1/c8/1eac365cf42c1c7aee09bde15dfa4d920f60172d62f488c0f34e5cfc506d/ain-py-1.2.0.tar.gz
+[2024-04-29 08:43:48] INFO root fetch - processPackages [xerosdk]: Downloading https://files.pythonhosted.org/packages/b0/f2/63ac2c7ad572d94d238dbcd85c336718528b91bb3ca5c21aefd8a4385f62/xerosdk-0.8.3.tar.gz
+[2024-04-29 08:43:48] INFO root fetch - processPackages [aws-ssm-juggle]: Downloading https://files.pythonhosted.org/packages/39/2f/40fe0d6db4720d0eaf5b5e5ff0373574aca88dcda4260f795f8fc77783ea/aws_ssm_juggle-24.4.1.tar.gz
+[2024-04-29 08:43:48] INFO root fetch - processPackages [autodft]: Downloading https://files.pythonhosted.org/packages/99/60/3ff37642c2eae8faa11ff3a043567a2f6ae2e9d35492248a21f5fb8f0c78/autodft-1.0.2.tar.gz
+[2024-04-29 08:43:48] INFO root fetch - processPackages [lfg-llama]: executing diffoscope
+[2024-04-29 08:43:48] INFO root fetch - processPackages [lfg-llama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfg_llama-1.0.0.tar.gz tmp/lfg_llama-1.0.1.tar.gz --markdown 20240429/l/lfg-llama/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-29 08:43:48] INFO root fetch - processPackages [autodft]: executing diffoscope
+[2024-04-29 08:43:48] INFO root fetch - processPackages [autodft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodft-1.0.1.tar.gz tmp/autodft-1.0.2.tar.gz --markdown 20240429/a/autodft/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-29 08:43:48] INFO root fetch - processPackages [ain-py]: Downloading https://files.pythonhosted.org/packages/57/d3/7c49cab35d581656b009d292f1d31165d9c38ca683c3b40016cd1de3fc8c/ain_py-1.2.1.tar.gz
+[2024-04-29 08:43:48] INFO root fetch - processPackages [aws-ssm-juggle]: Downloading https://files.pythonhosted.org/packages/d1/7f/720e33712b17b3dfd1a7e140a07dada8e391413a1c4ed17a2004ccbab18b/aws_ssm_juggle-24.4.2.tar.gz
+[2024-04-29 08:43:49] INFO root fetch - processPackages [xerosdk]: Downloading https://files.pythonhosted.org/packages/11/90/9cf4209e7e585fb255609eaf2d135aa7d1b200ac74f184a80d950e2bffd3/xerosdk-0.9.0.tar.gz
+[2024-04-29 08:43:49] INFO root fetch - processPackages [ain-py]: executing diffoscope
+[2024-04-29 08:43:49] INFO root fetch - processPackages [ain-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ain-py-1.2.0.tar.gz tmp/ain_py-1.2.1.tar.gz --markdown 20240429/a/ain-py/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-29 08:43:49] INFO root fetch - processPackages [aws-ssm-juggle]: executing diffoscope
+[2024-04-29 08:43:49] INFO root fetch - processPackages [aws-ssm-juggle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_ssm_juggle-24.4.1.tar.gz tmp/aws_ssm_juggle-24.4.2.tar.gz --markdown 20240429/a/aws-ssm-juggle/24.4.1-24.4.2/README.md --exclude *.pyd
+[2024-04-29 08:43:49] INFO root fetch - processPackages [xerosdk]: executing diffoscope
+[2024-04-29 08:43:49] INFO root fetch - processPackages [xerosdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xerosdk-0.8.3.tar.gz tmp/xerosdk-0.9.0.tar.gz --markdown 20240429/x/xerosdk/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-04-29 08:43:49] INFO root fetch - processPackages [lfg-llama]: Remove: archive file [/home/abi/fetcher/tmp/lfg_llama-1.0.0.tar.gz]
+[2024-04-29 08:43:49] INFO root fetch - processPackages [lfg-llama]: Remove: archive file [/home/abi/fetcher/tmp/lfg_llama-1.0.1.tar.gz]
+[2024-04-29 08:43:49] INFO root fetch - main [MainThread]: End processing [lfg-llama]: success
+[2024-04-29 08:43:49] INFO root fetch - processPackages [autodft]: Remove: archive file [/home/abi/fetcher/tmp/autodft-1.0.1.tar.gz]
+[2024-04-29 08:43:49] INFO root fetch - processPackages [autodft]: Remove: archive file [/home/abi/fetcher/tmp/autodft-1.0.2.tar.gz]
+[2024-04-29 08:43:49] INFO root fetch - main [MainThread]: End processing [autodft]: success
+[2024-04-29 08:43:49] INFO root fetch - processPackages [ain-py]: Remove: archive file [/home/abi/fetcher/tmp/ain-py-1.2.0.tar.gz]
+[2024-04-29 08:43:49] INFO root fetch - processPackages [ain-py]: Remove: archive file [/home/abi/fetcher/tmp/ain_py-1.2.1.tar.gz]
+[2024-04-29 08:43:49] INFO root fetch - main [MainThread]: End processing [ain-py]: success
+[2024-04-29 08:43:49] INFO root fetch - processPackages [aws-ssm-juggle]: Remove: archive file [/home/abi/fetcher/tmp/aws_ssm_juggle-24.4.1.tar.gz]
+[2024-04-29 08:43:49] INFO root fetch - processPackages [aws-ssm-juggle]: Remove: archive file [/home/abi/fetcher/tmp/aws_ssm_juggle-24.4.2.tar.gz]
+[2024-04-29 08:43:49] INFO root fetch - main [MainThread]: End processing [aws-ssm-juggle]: success
+[2024-04-29 08:43:49] INFO root fetch - processPackages [xerosdk]: Remove: archive file [/home/abi/fetcher/tmp/xerosdk-0.8.3.tar.gz]
+[2024-04-29 08:43:49] INFO root fetch - processPackages [xerosdk]: Remove: archive file [/home/abi/fetcher/tmp/xerosdk-0.9.0.tar.gz]
+[2024-04-29 08:43:49] INFO root fetch - main [MainThread]: End processing [xerosdk]: success
+[2024-04-29 08:43:49] INFO root fetch - main [MainThread]: Store serial: [22979575]
