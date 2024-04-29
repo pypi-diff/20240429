@@ -16025,3 +16025,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 12:48:27] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
 [2024-04-29 12:48:27] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
 [2024-04-29 12:48:27] INFO root fetch - main [MainThread]: Store serial: [22982208]
+[2024-04-29 12:50:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982208]
+[2024-04-29 12:50:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 12:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: decoutilities
+[2024-04-29 12:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zodchy-notations
+[2024-04-29 12:50:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nestipy-dynamic-module
+[2024-04-29 12:50:36] INFO root fetch - processPackages [zodchy-notations]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-29 12:50:36] INFO root fetch - processPackages [nestipy-dynamic-module]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-29 12:50:36] INFO root fetch - processPackages [decoutilities]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-29 12:50:36] INFO root fetch - processPackages [zodchy-notations]: Downloading https://files.pythonhosted.org/packages/7a/34/2aa64f2587c23c4f883a0eddad7d8d09d04b59c5e85f4dd00045b34755af/zodchy_notations-0.1.0.tar.gz
+[2024-04-29 12:50:36] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/46/b9/3c6859da34bec5268f5e1bcbbe22e2f3cd4f06209e0bab22c03a103a57ba/decoutilities-0.1.3.tar.gz
+[2024-04-29 12:50:36] INFO root fetch - processPackages [nestipy-dynamic-module]: Downloading https://files.pythonhosted.org/packages/ae/cf/a311de95231f28cd7aafdf368f1eef259e2134d037db02f360a1a97797f1/nestipy_dynamic_module-0.1.4.tar.gz
+[2024-04-29 12:50:36] INFO root fetch - processPackages [zodchy-notations]: Downloading https://files.pythonhosted.org/packages/0b/80/3b993c89ec74602cfa0d06f3c60051a44eb2ea2fd54c556fdcb8f812bef5/zodchy_notations-0.1.1.tar.gz
+[2024-04-29 12:50:37] INFO root fetch - processPackages [nestipy-dynamic-module]: Downloading https://files.pythonhosted.org/packages/d7/85/742ab44f7dec58a8bde8c69f1ad800408cc6272731e8c52819753c90658b/nestipy_dynamic_module-0.1.5.tar.gz
+[2024-04-29 12:50:37] INFO root fetch - processPackages [zodchy-notations]: executing diffoscope
+[2024-04-29 12:50:37] INFO root fetch - processPackages [zodchy-notations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zodchy_notations-0.1.0.tar.gz tmp/zodchy_notations-0.1.1.tar.gz --markdown 20240429/z/zodchy-notations/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-29 12:50:37] INFO root fetch - processPackages [nestipy-dynamic-module]: executing diffoscope
+[2024-04-29 12:50:37] INFO root fetch - processPackages [nestipy-dynamic-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestipy_dynamic_module-0.1.4.tar.gz tmp/nestipy_dynamic_module-0.1.5.tar.gz --markdown 20240429/n/nestipy-dynamic-module/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-29 12:50:37] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/d6/66/99f8c2fbb5585bc413f980d28be23c4c675a87bf077c7688fac0cdfb045e/decoutilities-0.1.4.tar.gz
+[2024-04-29 12:50:37] INFO root fetch - processPackages [decoutilities]: executing diffoscope
+[2024-04-29 12:50:37] INFO root fetch - processPackages [decoutilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decoutilities-0.1.3.tar.gz tmp/decoutilities-0.1.4.tar.gz --markdown 20240429/d/decoutilities/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-29 12:50:37] INFO root fetch - processPackages [nestipy-dynamic-module]: Remove: archive file [/home/abi/fetcher/tmp/nestipy_dynamic_module-0.1.4.tar.gz]
+[2024-04-29 12:50:37] INFO root fetch - processPackages [nestipy-dynamic-module]: Remove: archive file [/home/abi/fetcher/tmp/nestipy_dynamic_module-0.1.5.tar.gz]
+[2024-04-29 12:50:37] INFO root fetch - main [MainThread]: End processing [nestipy-dynamic-module]: success
+[2024-04-29 12:50:37] INFO root fetch - processPackages [zodchy-notations]: Remove: archive file [/home/abi/fetcher/tmp/zodchy_notations-0.1.0.tar.gz]
+[2024-04-29 12:50:37] INFO root fetch - processPackages [zodchy-notations]: Remove: archive file [/home/abi/fetcher/tmp/zodchy_notations-0.1.1.tar.gz]
+[2024-04-29 12:50:37] INFO root fetch - main [MainThread]: End processing [zodchy-notations]: success
+[2024-04-29 12:50:37] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.1.3.tar.gz]
+[2024-04-29 12:50:37] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.1.4.tar.gz]
+[2024-04-29 12:50:37] INFO root fetch - main [MainThread]: End processing [decoutilities]: success
+[2024-04-29 12:50:37] INFO root fetch - main [MainThread]: Store serial: [22982217]
