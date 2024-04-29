@@ -17579,3 +17579,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 13:43:39] INFO root fetch - processPackages [iinfer]: Remove: archive file [/home/abi/fetcher/tmp/iinfer-0.7.0.tar.gz]
 [2024-04-29 13:43:39] INFO root fetch - main [MainThread]: End processing [iinfer]: success
 [2024-04-29 13:43:39] INFO root fetch - main [MainThread]: Store serial: [22982789]
+[2024-04-29 13:45:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982789]
+[2024-04-29 13:45:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 13:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: acmecse-test
+[2024-04-29 13:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: secretvalidate
+[2024-04-29 13:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: schemathesis
+[2024-04-29 13:45:49] INFO root fetch - processPackages [acmecse-test]: New version: [2024.4.3] Old Version: [2024.4.2]
+[2024-04-29 13:45:49] INFO root fetch - processPackages [secretvalidate]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2024-04-29 13:45:49] INFO root fetch - processPackages [acmecse-test]: Downloading https://files.pythonhosted.org/packages/3e/58/b5b7422e7556af3f1736607c2fa34bf36e6c6c9820739f0b2f1874fc4778/acmecse_test-2024.4.2-py3-none-any.whl
+[2024-04-29 13:45:49] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/6d/54/4494fba72e75d6ec6e546a6cbd2ac4b11e1a7b102fe0219d341ad8e7da4f/secretvalidate-0.0.1a1.tar.gz
+[2024-04-29 13:45:49] INFO root fetch - processPackages [schemathesis]: New version: [3.9.7] Old Version: [3.9.6]
+[2024-04-29 13:45:49] INFO root fetch - processPackages [schemathesis]: Downloading https://files.pythonhosted.org/packages/8b/ae/800bafd763c2c4b5c0f366a9bf84f7f1eb955e0b2fc7de12e30acfad31cd/schemathesis-3.9.6.tar.gz
+[2024-04-29 13:45:49] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/d1/ce/31cf177da2a077662c39278e9c818652debf113ee289ecb10eeda42e763e/secretvalidate-0.0.1a2.tar.gz
+[2024-04-29 13:45:49] INFO root fetch - processPackages [acmecse-test]: Downloading https://files.pythonhosted.org/packages/91/92/73ede0458978e206ec532da0b9f17853b2337e7e658da084d647bea63ae7/acmecse_test-2024.4.3-py3-none-any.whl
+[2024-04-29 13:45:49] INFO root fetch - processPackages [secretvalidate]: executing diffoscope
+[2024-04-29 13:45:49] INFO root fetch - processPackages [secretvalidate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretvalidate-0.0.1a1.tar.gz tmp/secretvalidate-0.0.1a2.tar.gz --markdown 20240429/s/secretvalidate/0.0.1a1-0.0.1a2/README.md --exclude *.pyd
+[2024-04-29 13:45:49] INFO root fetch - processPackages [schemathesis]: Downloading https://files.pythonhosted.org/packages/71/a0/2eac6b3aecc24c5d8a119a30b2adff05f2453ae9dacec1aa5f8cdbbf0668/schemathesis-3.9.7.tar.gz
+[2024-04-29 13:45:49] INFO root fetch - processPackages [acmecse-test]: executing diffoscope
+[2024-04-29 13:45:49] INFO root fetch - processPackages [acmecse-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acmecse_test-2024.4.2-py3-none-any.whl.zip tmp/acmecse_test-2024.4.3-py3-none-any.whl.zip --markdown 20240429/a/acmecse-test/2024.4.2-2024.4.3/README.md --exclude *.pyd
+[2024-04-29 13:45:50] INFO root fetch - processPackages [schemathesis]: executing diffoscope
+[2024-04-29 13:45:50] INFO root fetch - processPackages [schemathesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schemathesis-3.9.6.tar.gz tmp/schemathesis-3.9.7.tar.gz --markdown 20240429/s/schemathesis/3.9.6-3.9.7/README.md --exclude *.pyd
+[2024-04-29 13:45:50] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a1.tar.gz]
+[2024-04-29 13:45:50] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a2.tar.gz]
+[2024-04-29 13:45:50] INFO root fetch - main [MainThread]: End processing [secretvalidate]: success
+[2024-04-29 13:45:50] INFO root fetch - processPackages [schemathesis]: Remove: archive file [/home/abi/fetcher/tmp/schemathesis-3.9.6.tar.gz]
+[2024-04-29 13:45:50] INFO root fetch - processPackages [schemathesis]: Remove: archive file [/home/abi/fetcher/tmp/schemathesis-3.9.7.tar.gz]
+[2024-04-29 13:45:50] INFO root fetch - main [MainThread]: End processing [schemathesis]: success
+[2024-04-29 13:45:51] INFO root fetch - processPackages [acmecse-test]: Remove: archive file [/home/abi/fetcher/tmp/acmecse_test-2024.4.2-py3-none-any.whl.zip]
+[2024-04-29 13:45:51] INFO root fetch - processPackages [acmecse-test]: Remove: archive file [/home/abi/fetcher/tmp/acmecse_test-2024.4.3-py3-none-any.whl.zip]
+[2024-04-29 13:45:51] INFO root fetch - main [MainThread]: End processing [acmecse-test]: success
+[2024-04-29 13:45:51] INFO root fetch - main [MainThread]: Store serial: [22982797]
