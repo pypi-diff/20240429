@@ -10705,3 +10705,33 @@
 [2024-04-29 09:15:09] INFO root fetch - processPackages [qrkey]: Remove: archive file [/home/abi/fetcher/tmp/qrkey-0.4.4.tar.gz]
 [2024-04-29 09:15:09] INFO root fetch - main [MainThread]: End processing [qrkey]: success
 [2024-04-29 09:15:09] INFO root fetch - main [MainThread]: Store serial: [22979938]
+[2024-04-29 09:17:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979938]
+[2024-04-29 09:17:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-29 09:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reda
+[2024-04-29 09:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: IslandSheds
+[2024-04-29 09:17:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ih-common
+[2024-04-29 09:17:18] INFO root fetch - processPackages [IslandSheds]: New version: [0.0.23] Old Version: [0.0.22]
+[2024-04-29 09:17:18] INFO root fetch - processPackages [IslandSheds]: Downloading https://files.pythonhosted.org/packages/fa/20/40276d7356022552d25828940e173830d5f4f0543a9616c150d4e0c1e532/islandsheds-0.0.22.tar.gz
+[2024-04-29 09:17:18] INFO root fetch - processPackages [ih-common]: New version: [2.8.0] Old Version: [2.7.1]
+[2024-04-29 09:17:18] INFO root fetch - processPackages [reda]: New version: [0.2.0] Old Version: [0.1.7]
+[2024-04-29 09:17:18] INFO root fetch - processPackages [reda]: Downloading https://files.pythonhosted.org/packages/a0/f8/5ee6dc46e0467d8811c02867e535bd240f048a2a49a6e2744275cdb89cea/reda-0.1.7.tar.gz
+[2024-04-29 09:17:18] INFO root fetch - processPackages [ih-common]: Downloading https://files.pythonhosted.org/packages/4d/0c/cf8504e53ab0ecc31714dd7033f42cbb6b0de8dfd679755465688b66f914/ih_common-2.7.1.tar.gz
+[2024-04-29 09:17:19] INFO root fetch - processPackages [IslandSheds]: Downloading https://files.pythonhosted.org/packages/57/79/282c9bf4f6936c6e336d51c8fd2ed1ce1c80dafe30f1177103b2790cf666/islandsheds-0.0.23.tar.gz
+[2024-04-29 09:17:19] INFO root fetch - processPackages [IslandSheds]: executing diffoscope
+[2024-04-29 09:17:19] INFO root fetch - processPackages [IslandSheds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/islandsheds-0.0.22.tar.gz tmp/islandsheds-0.0.23.tar.gz --markdown 20240429/I/IslandSheds/0.0.22-0.0.23/README.md --exclude *.pyd
+[2024-04-29 09:17:19] INFO root fetch - processPackages [reda]: Downloading https://files.pythonhosted.org/packages/04/33/bbb964220fa2fba3cd12af96f6ca277bc1d71ed2b3eceac610a601a45194/reda-0.2.0.tar.gz
+[2024-04-29 09:17:19] INFO root fetch - processPackages [ih-common]: Downloading https://files.pythonhosted.org/packages/37/56/56af585e51da9a974b871731c3a293e02d9df6211d0f51f48aef65de6085/ih_common-2.8.0.tar.gz
+[2024-04-29 09:17:19] INFO root fetch - processPackages [ih-common]: executing diffoscope
+[2024-04-29 09:17:19] INFO root fetch - processPackages [ih-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ih_common-2.7.1.tar.gz tmp/ih_common-2.8.0.tar.gz --markdown 20240429/i/ih-common/2.7.1-2.8.0/README.md --exclude *.pyd
+[2024-04-29 09:17:19] INFO root fetch - processPackages [reda]: executing diffoscope
+[2024-04-29 09:17:19] INFO root fetch - processPackages [reda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reda-0.1.7.tar.gz tmp/reda-0.2.0.tar.gz --markdown 20240429/r/reda/0.1.7-0.2.0/README.md --exclude *.pyd
+[2024-04-29 09:17:19] INFO root fetch - processPackages [IslandSheds]: Remove: archive file [/home/abi/fetcher/tmp/islandsheds-0.0.22.tar.gz]
+[2024-04-29 09:17:19] INFO root fetch - processPackages [IslandSheds]: Remove: archive file [/home/abi/fetcher/tmp/islandsheds-0.0.23.tar.gz]
+[2024-04-29 09:17:19] INFO root fetch - main [MainThread]: End processing [IslandSheds]: success
+[2024-04-29 09:17:20] INFO root fetch - processPackages [ih-common]: Remove: archive file [/home/abi/fetcher/tmp/ih_common-2.7.1.tar.gz]
+[2024-04-29 09:17:20] INFO root fetch - processPackages [ih-common]: Remove: archive file [/home/abi/fetcher/tmp/ih_common-2.8.0.tar.gz]
+[2024-04-29 09:17:20] INFO root fetch - main [MainThread]: End processing [ih-common]: success
+[2024-04-29 09:17:20] INFO root fetch - processPackages [reda]: Remove: archive file [/home/abi/fetcher/tmp/reda-0.1.7.tar.gz]
+[2024-04-29 09:17:20] INFO root fetch - processPackages [reda]: Remove: archive file [/home/abi/fetcher/tmp/reda-0.2.0.tar.gz]
+[2024-04-29 09:17:20] INFO root fetch - main [MainThread]: End processing [reda]: success
+[2024-04-29 09:17:20] INFO root fetch - main [MainThread]: Store serial: [22979945]
