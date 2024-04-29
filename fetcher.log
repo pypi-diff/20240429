@@ -19951,3 +19951,167 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 15:06:33] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.753.0.tar.gz]
 [2024-04-29 15:06:33] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2024-04-29 15:06:33] INFO root fetch - main [MainThread]: Store serial: [22983809]
+[2024-04-29 15:08:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22983809]
+[2024-04-29 15:08:43] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2024-04-29 15:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyMCTranslate
+[2024-04-29 15:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OpenGeodeWeb-Back
+[2024-04-29 15:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: msal_streamlit_t2
+[2024-04-29 15:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wheelz-idp-validations
+[2024-04-29 15:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amazon-textract-idp-cdk-constructs
+[2024-04-29 15:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sefazetllib
+[2024-04-29 15:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: credsweeper
+[2024-04-29 15:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assertai-alpha-deployer
+[2024-04-29 15:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flickr-photos-api
+[2024-04-29 15:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: asbcd
+[2024-04-29 15:08:43] WARNING root fetch - processPackages [msal_streamlit_t2]: Skipping, unable to determine old version
+[2024-04-29 15:08:43] INFO root fetch - processPackages [msal_streamlit_t2]: Start processing: socket.d
+[2024-04-29 15:08:43] INFO root fetch - main [MainThread]: End processing [msal_streamlit_t2] error
+[2024-04-29 15:08:43] INFO root fetch - processPackages [wheelz-idp-validations]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-29 15:08:43] INFO root fetch - processPackages [flickr-photos-api]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-29 15:08:43] INFO root fetch - processPackages [OpenGeodeWeb-Back]: New version: [4.1.0rc1] Old Version: [4.0.0rc1]
+[2024-04-29 15:08:43] INFO root fetch - processPackages [socket.d]: New version: [2.4.14] Old Version: [2.4.13.1]
+[2024-04-29 15:08:43] INFO root fetch - processPackages [wheelz-idp-validations]: Downloading https://files.pythonhosted.org/packages/62/ae/f22bf2e630028086e6dd97efa0feaf09d340bc1d985377ac91ed1cb20d89/wheelz_idp_validations-2.0.1.tar.gz
+[2024-04-29 15:08:43] WARNING root fetch - processPackages [assertai-alpha-deployer]: Skipping, unable to determine old version
+[2024-04-29 15:08:43] WARNING root fetch - processPackages [asbcd]: Skipping, unable to determine old version
+[2024-04-29 15:08:43] INFO root fetch - processPackages [assertai-alpha-deployer]: Start processing: c7n
+[2024-04-29 15:08:43] INFO root fetch - processPackages [asbcd]: Start processing: c7n-left
+[2024-04-29 15:08:43] INFO root fetch - main [MainThread]: End processing [assertai-alpha-deployer] error
+[2024-04-29 15:08:43] INFO root fetch - main [MainThread]: End processing [asbcd] error
+[2024-04-29 15:08:43] INFO root fetch - processPackages [credsweeper]: New version: [1.6.4] Old Version: [1.6.3]
+[2024-04-29 15:08:43] INFO root fetch - processPackages [sefazetllib]: New version: [0.1.56] Old Version: [0.1.55]
+[2024-04-29 15:08:43] INFO root fetch - processPackages [flickr-photos-api]: Downloading https://files.pythonhosted.org/packages/29/d2/dfaa2d9faa31a88f1c421f4b58a0d4ba312aa191495033ea3f8aac37a200/flickr-photos-api-1.9.1.tar.gz
+[2024-04-29 15:08:43] INFO root fetch - processPackages [PyMCTranslate]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-29 15:08:43] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Downloading https://files.pythonhosted.org/packages/33/29/42fddb8d419c7db0573b5cc32b11d666122c78b33e0f3cb4d75c559dc062/OpenGeodeWeb-Back-4.0.0rc1.tar.gz
+[2024-04-29 15:08:43] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/46/74/290e48a74fdd39584867e2846383bac693c8a5f3d2ccb62c7a7ccd86adb6/socket.d-2.4.13.1.tar.gz
+[2024-04-29 15:08:43] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 15:08:43] INFO root fetch - processPackages [c7n-left]: New version: [0.3.9] Old Version: [0.3.5]
+[2024-04-29 15:08:44] INFO root fetch - processPackages [c7n]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-29 15:08:44] INFO root fetch - processPackages [PyMCTranslate]: Downloading https://files.pythonhosted.org/packages/7d/40/6543e537185d054bd09f98ebe547d3b2c315951f80440dfdeb591366e597/PyMCTranslate-1.2.8.tar.gz
+[2024-04-29 15:08:44] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Downloading https://files.pythonhosted.org/packages/f6/e7/71a047a0a0a1624536ce0044f7031c603c59e3a8144b36570157dca13b82/opengeodeweb_back-4.1.0rc1.tar.gz
+[2024-04-29 15:08:44] INFO root fetch - processPackages [credsweeper]: Downloading https://files.pythonhosted.org/packages/17/f5/09407b9eb6fd14b64a5cb1ebef0c40f77592da884fc571cfa39f04a00080/credsweeper-1.6.3.tar.gz
+[2024-04-29 15:08:44] INFO root fetch - processPackages [flickr-photos-api]: Downloading https://files.pythonhosted.org/packages/38/ac/07447b6ae1d72699cff5c06fed59a01c0e90667034da3f730eacfbc3a77f/flickr-photos-api-1.9.2.tar.gz
+[2024-04-29 15:08:44] INFO root fetch - processPackages [sefazetllib]: Downloading https://files.pythonhosted.org/packages/ca/dd/d42d17022c6ee4f03aa6dd2771eb4d8f99784b50c22da8da7e0780babc6d/sefazetllib-0.1.55.tar.gz
+[2024-04-29 15:08:44] INFO root fetch - processPackages [wheelz-idp-validations]: Downloading https://files.pythonhosted.org/packages/8b/52/e45888a07023215f497867a5d65ef26f5a0e3603a87191ceca5fe348c2de/wheelz_idp_validations-2.0.2.tar.gz
+[2024-04-29 15:08:44] INFO root fetch - processPackages [c7n]: Downloading https://files.pythonhosted.org/packages/9d/2d/f146928af578e37dec57ccc760febe08c8949da0e40fc817b2c053c1b753/c7n-0.9.8-py3-none-any.whl
+[2024-04-29 15:08:44] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/39/f3/d4f702ac711deb309800f2f040e57ade042b374750e8d8439c4bcf8324f0/amazon-textract-idp-cdk-constructs-0.0.8.tar.gz
+[2024-04-29 15:08:44] INFO root fetch - processPackages [OpenGeodeWeb-Back]: executing diffoscope
+[2024-04-29 15:08:44] INFO root fetch - processPackages [OpenGeodeWeb-Back]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeodeWeb-Back-4.0.0rc1.tar.gz tmp/opengeodeweb_back-4.1.0rc1.tar.gz --markdown 20240429/O/OpenGeodeWeb-Back/4.0.0rc1-4.1.0rc1/README.md --exclude *.pyd
+[2024-04-29 15:08:44] INFO root fetch - processPackages [c7n-left]: Downloading https://files.pythonhosted.org/packages/84/ef/add9679955ec08a4ebde3eb32bdd3e72ceaf83fbaf9cc8e17d27eb63ca82/c7n_left-0.3.5-py3-none-any.whl
+[2024-04-29 15:08:44] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/7e/62/919fee2d9a00bc47af383bd5ca700f3bee4ea928c70283555d8b0c7c416c/socket.d-2.4.14.tar.gz
+[2024-04-29 15:08:44] INFO root fetch - processPackages [flickr-photos-api]: executing diffoscope
+[2024-04-29 15:08:44] INFO root fetch - processPackages [flickr-photos-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flickr-photos-api-1.9.1.tar.gz tmp/flickr-photos-api-1.9.2.tar.gz --markdown 20240429/f/flickr-photos-api/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-29 15:08:44] INFO root fetch - processPackages [wheelz-idp-validations]: executing diffoscope
+[2024-04-29 15:08:44] INFO root fetch - processPackages [wheelz-idp-validations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wheelz_idp_validations-2.0.1.tar.gz tmp/wheelz_idp_validations-2.0.2.tar.gz --markdown 20240429/w/wheelz-idp-validations/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-04-29 15:08:44] INFO root fetch - processPackages [socket.d]: executing diffoscope
+[2024-04-29 15:08:44] INFO root fetch - processPackages [socket.d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socket.d-2.4.13.1.tar.gz tmp/socket.d-2.4.14.tar.gz --markdown 20240429/s/socket.d/2.4.13.1-2.4.14/README.md --exclude *.pyd
+[2024-04-29 15:08:44] INFO root fetch - processPackages [credsweeper]: Downloading https://files.pythonhosted.org/packages/52/62/9a78a291d7087640b9a856829f1b833a232f05297ae662e069b5f74ad788/credsweeper-1.6.4.tar.gz
+[2024-04-29 15:08:44] INFO root fetch - processPackages [sefazetllib]: Downloading https://files.pythonhosted.org/packages/28/ae/a53d1375c73fbdebd95c673bc764ccee90aef23316855938a1b343bdb7be/sefazetllib-0.1.56.tar.gz
+[2024-04-29 15:08:44] INFO root fetch - processPackages [c7n]: Downloading https://files.pythonhosted.org/packages/0c/92/c26ff9f37d60d4fda00f7f92d95e2fed3ccd40e5467130ca2293e0fcba61/c7n-0.9.9-py3-none-any.whl
+[2024-04-29 15:08:44] INFO root fetch - processPackages [c7n-left]: Downloading https://files.pythonhosted.org/packages/14/18/fdf22816cca3842ed08682789b9332dca0bcce703419d483302997c5abfe/c7n_left-0.3.9-py3-none-any.whl
+[2024-04-29 15:08:44] INFO root fetch - processPackages [sefazetllib]: executing diffoscope
+[2024-04-29 15:08:44] INFO root fetch - processPackages [sefazetllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sefazetllib-0.1.55.tar.gz tmp/sefazetllib-0.1.56.tar.gz --markdown 20240429/s/sefazetllib/0.1.55-0.1.56/README.md --exclude *.pyd
+[2024-04-29 15:08:44] INFO root fetch - processPackages [credsweeper]: executing diffoscope
+[2024-04-29 15:08:44] INFO root fetch - processPackages [credsweeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/credsweeper-1.6.3.tar.gz tmp/credsweeper-1.6.4.tar.gz --markdown 20240429/c/credsweeper/1.6.3-1.6.4/README.md --exclude *.pyd
+[2024-04-29 15:08:44] INFO root fetch - processPackages [c7n-left]: executing diffoscope
+[2024-04-29 15:08:44] INFO root fetch - processPackages [c7n-left]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_left-0.3.5-py3-none-any.whl.zip tmp/c7n_left-0.3.9-py3-none-any.whl.zip --markdown 20240429/c/c7n-left/0.3.5-0.3.9/README.md --exclude *.pyd
+[2024-04-29 15:08:44] INFO root fetch - processPackages [c7n]: executing diffoscope
+[2024-04-29 15:08:44] INFO root fetch - processPackages [c7n]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n-0.9.8-py3-none-any.whl.zip tmp/c7n-0.9.9-py3-none-any.whl.zip --markdown 20240429/c/c7n/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-29 15:08:44] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/1f/b7/52ee38e3959d7f8eaa3f678d4682625ee16d35d87f0ef506883c7655a6f3/amazon-textract-idp-cdk-constructs-0.0.9.tar.gz
+[2024-04-29 15:08:45] INFO root fetch - processPackages [flickr-photos-api]: Remove: archive file [/home/abi/fetcher/tmp/flickr-photos-api-1.9.1.tar.gz]
+[2024-04-29 15:08:45] INFO root fetch - processPackages [flickr-photos-api]: Remove: archive file [/home/abi/fetcher/tmp/flickr-photos-api-1.9.2.tar.gz]
+[2024-04-29 15:08:45] INFO root fetch - processPackages [flickr-photos-api]: Start processing: c7n-gcp
+[2024-04-29 15:08:45] INFO root fetch - main [MainThread]: End processing [flickr-photos-api]: success
+[2024-04-29 15:08:45] INFO root fetch - processPackages [wheelz-idp-validations]: Remove: archive file [/home/abi/fetcher/tmp/wheelz_idp_validations-2.0.1.tar.gz]
+[2024-04-29 15:08:45] INFO root fetch - processPackages [wheelz-idp-validations]: Remove: archive file [/home/abi/fetcher/tmp/wheelz_idp_validations-2.0.2.tar.gz]
+[2024-04-29 15:08:45] INFO root fetch - processPackages [wheelz-idp-validations]: Start processing: c7n-kube
+[2024-04-29 15:08:45] INFO root fetch - main [MainThread]: End processing [wheelz-idp-validations]: success
+[2024-04-29 15:08:45] INFO root fetch - processPackages [c7n-gcp]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-29 15:08:45] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeodeWeb-Back-4.0.0rc1.tar.gz]
+[2024-04-29 15:08:45] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Remove: archive file [/home/abi/fetcher/tmp/opengeodeweb_back-4.1.0rc1.tar.gz]
+[2024-04-29 15:08:45] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Start processing: c7n-openstack
+[2024-04-29 15:08:45] INFO root fetch - main [MainThread]: End processing [OpenGeodeWeb-Back]: success
+[2024-04-29 15:08:45] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: executing diffoscope
+[2024-04-29 15:08:45] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-textract-idp-cdk-constructs-0.0.8.tar.gz tmp/amazon-textract-idp-cdk-constructs-0.0.9.tar.gz --markdown 20240429/a/amazon-textract-idp-cdk-constructs/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 15:08:45] INFO root fetch - processPackages [c7n-kube]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-29 15:08:45] INFO root fetch - processPackages [c7n-openstack]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 15:08:45] INFO root fetch - processPackages [c7n-gcp]: Downloading https://files.pythonhosted.org/packages/67/fd/9bec00a143c60b12089d4815c62aedbaab69b37f045df01fc85d1f4d7ec1/c7n_gcp-0.4.8-py3-none-any.whl
+[2024-04-29 15:08:45] INFO root fetch - processPackages [c7n-kube]: Downloading https://files.pythonhosted.org/packages/0f/65/4c78144e7d8037ab7649763bc1270f7e408cf81346b90ddf14fc3ed33023/c7n_kube-0.2.8-py3-none-any.whl
+[2024-04-29 15:08:45] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.13.1.tar.gz]
+[2024-04-29 15:08:45] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.14.tar.gz]
+[2024-04-29 15:08:45] INFO root fetch - processPackages [socket.d]: Start processing: c7n-mailer
+[2024-04-29 15:08:45] INFO root fetch - main [MainThread]: End processing [socket.d]: success
+[2024-04-29 15:08:45] INFO root fetch - processPackages [c7n-left]: Remove: archive file [/home/abi/fetcher/tmp/c7n_left-0.3.5-py3-none-any.whl.zip]
+[2024-04-29 15:08:45] INFO root fetch - processPackages [c7n-left]: Remove: archive file [/home/abi/fetcher/tmp/c7n_left-0.3.9-py3-none-any.whl.zip]
+[2024-04-29 15:08:45] INFO root fetch - processPackages [c7n-left]: Start processing: c7n-logexporter
+[2024-04-29 15:08:45] INFO root fetch - main [MainThread]: End processing [c7n-left]: success
+[2024-04-29 15:08:45] INFO root fetch - processPackages [c7n-openstack]: Downloading https://files.pythonhosted.org/packages/2b/90/36bc88d1e3f90ad73b15d26eadd2c392674393d7657258b2c8ef6bdc8730/c7n_openstack-0.1.8-py3-none-any.whl
+[2024-04-29 15:08:45] INFO root fetch - processPackages [c7n-mailer]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-29 15:08:45] INFO root fetch - processPackages [c7n-gcp]: Downloading https://files.pythonhosted.org/packages/48/0b/e3c0db3fe0a605e794c46ff2679559ab82b60f9d2fce968bc386235e7633/c7n_gcp-0.4.9-py3-none-any.whl
+[2024-04-29 15:08:45] INFO root fetch - processPackages [sefazetllib]: Remove: archive file [/home/abi/fetcher/tmp/sefazetllib-0.1.55.tar.gz]
+[2024-04-29 15:08:45] INFO root fetch - processPackages [sefazetllib]: Remove: archive file [/home/abi/fetcher/tmp/sefazetllib-0.1.56.tar.gz]
+[2024-04-29 15:08:45] INFO root fetch - processPackages [sefazetllib]: Start processing: c7n-policystream
+[2024-04-29 15:08:45] INFO root fetch - main [MainThread]: End processing [sefazetllib]: success
+[2024-04-29 15:08:45] INFO root fetch - processPackages [PyMCTranslate]: Downloading https://files.pythonhosted.org/packages/f4/c4/6588459ff7f5052b11c7be4b0e56195f0ad0a3b908f078ada0f859ef6b31/PyMCTranslate-1.2.9.tar.gz
+[2024-04-29 15:08:45] INFO root fetch - processPackages [c7n-logexporter]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-29 15:08:45] INFO root fetch - processPackages [c7n-kube]: Downloading https://files.pythonhosted.org/packages/fb/33/67dd584e092c52eb477bc6e5565669702a22859b18ffc6d14cb26c816982/c7n_kube-0.2.9-py3-none-any.whl
+[2024-04-29 15:08:45] INFO root fetch - processPackages [c7n-gcp]: executing diffoscope
+[2024-04-29 15:08:45] INFO root fetch - processPackages [c7n-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_gcp-0.4.8-py3-none-any.whl.zip tmp/c7n_gcp-0.4.9-py3-none-any.whl.zip --markdown 20240429/c/c7n-gcp/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-29 15:08:45] INFO root fetch - processPackages [c7n-openstack]: Downloading https://files.pythonhosted.org/packages/d9/3a/ba6694d6cb706b97c3ef11072fba444af3ed7bb3e6a4706ddc47707209b9/c7n_openstack-0.1.9-py3-none-any.whl
+[2024-04-29 15:08:46] INFO root fetch - processPackages [c7n-policystream]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-29 15:08:46] INFO root fetch - processPackages [c7n-kube]: executing diffoscope
+[2024-04-29 15:08:46] INFO root fetch - processPackages [c7n-kube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_kube-0.2.8-py3-none-any.whl.zip tmp/c7n_kube-0.2.9-py3-none-any.whl.zip --markdown 20240429/c/c7n-kube/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-29 15:08:46] INFO root fetch - processPackages [c7n-mailer]: Downloading https://files.pythonhosted.org/packages/2f/d6/071042c1224eaecfe3a9a2c90ea6d4c378bd37cd23c06362650b7cb19601/c7n_mailer-0.6.8-py3-none-any.whl
+[2024-04-29 15:08:46] INFO root fetch - processPackages [c7n-logexporter]: Downloading https://files.pythonhosted.org/packages/cb/d8/d1b541faeaba11953d6f109d561a37db05f2bbf969f3f7bde5b0c664dd56/c7n_logexporter-0.4.8-py3-none-any.whl
+[2024-04-29 15:08:46] INFO root fetch - processPackages [c7n-openstack]: executing diffoscope
+[2024-04-29 15:08:46] INFO root fetch - processPackages [c7n-openstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_openstack-0.1.8-py3-none-any.whl.zip tmp/c7n_openstack-0.1.9-py3-none-any.whl.zip --markdown 20240429/c/c7n-openstack/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 15:08:46] INFO root fetch - processPackages [c7n-policystream]: Downloading https://files.pythonhosted.org/packages/c3/0c/c2d94c1313395d67ff0d05bc3031ad24432127ddad7b969cf646962d711d/c7n_policystream-0.4.8-py3-none-any.whl
+[2024-04-29 15:08:46] INFO root fetch - processPackages [credsweeper]: Remove: archive file [/home/abi/fetcher/tmp/credsweeper-1.6.3.tar.gz]
+[2024-04-29 15:08:46] INFO root fetch - processPackages [credsweeper]: Remove: archive file [/home/abi/fetcher/tmp/credsweeper-1.6.4.tar.gz]
+[2024-04-29 15:08:46] INFO root fetch - processPackages [credsweeper]: Start processing: c7n-trailcreator
+[2024-04-29 15:08:46] INFO root fetch - main [MainThread]: End processing [credsweeper]: success
+[2024-04-29 15:08:46] INFO root fetch - processPackages [c7n-mailer]: Downloading https://files.pythonhosted.org/packages/b9/ee/68db44fb8012ffb67f229a7f982cc77ba8d22b496a5d9d0e3faf565635fb/c7n_mailer-0.6.9-py3-none-any.whl
+[2024-04-29 15:08:46] INFO root fetch - processPackages [c7n-logexporter]: Downloading https://files.pythonhosted.org/packages/29/f8/e352f3a606b357c23ad7fed3fbf71788de94b5bd3292a0b9295c6f36622b/c7n_logexporter-0.4.9-py3-none-any.whl
+[2024-04-29 15:08:46] INFO root fetch - processPackages [c7n-trailcreator]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-29 15:08:46] INFO root fetch - processPackages [c7n-logexporter]: executing diffoscope
+[2024-04-29 15:08:46] INFO root fetch - processPackages [c7n-logexporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_logexporter-0.4.8-py3-none-any.whl.zip tmp/c7n_logexporter-0.4.9-py3-none-any.whl.zip --markdown 20240429/c/c7n-logexporter/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-29 15:08:46] INFO root fetch - processPackages [c7n-mailer]: executing diffoscope
+[2024-04-29 15:08:46] INFO root fetch - processPackages [c7n-mailer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_mailer-0.6.8-py3-none-any.whl.zip tmp/c7n_mailer-0.6.9-py3-none-any.whl.zip --markdown 20240429/c/c7n-mailer/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-04-29 15:08:46] INFO root fetch - processPackages [c7n-policystream]: Downloading https://files.pythonhosted.org/packages/b5/d0/79a090c3d0b7556ae0815deaac15e56a6daa54267e7011f9ec699704acb3/c7n_policystream-0.4.9-py3-none-any.whl
+[2024-04-29 15:08:46] INFO root fetch - processPackages [c7n-trailcreator]: Downloading https://files.pythonhosted.org/packages/1d/15/8478bb14a898189ef118feb417c50b985e2d5a65b574420b456fe7669446/c7n_trailcreator-0.2.8-py3-none-any.whl
+[2024-04-29 15:08:46] INFO root fetch - processPackages [c7n-policystream]: executing diffoscope
+[2024-04-29 15:08:46] INFO root fetch - processPackages [c7n-policystream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_policystream-0.4.8-py3-none-any.whl.zip tmp/c7n_policystream-0.4.9-py3-none-any.whl.zip --markdown 20240429/c/c7n-policystream/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-29 15:08:46] INFO root fetch - processPackages [c7n-gcp]: Remove: archive file [/home/abi/fetcher/tmp/c7n_gcp-0.4.8-py3-none-any.whl.zip]
+[2024-04-29 15:08:46] INFO root fetch - processPackages [c7n-gcp]: Remove: archive file [/home/abi/fetcher/tmp/c7n_gcp-0.4.9-py3-none-any.whl.zip]
+[2024-04-29 15:08:46] INFO root fetch - main [MainThread]: End processing [c7n-gcp]: success
+[2024-04-29 15:08:46] INFO root fetch - processPackages [c7n]: Remove: archive file [/home/abi/fetcher/tmp/c7n-0.9.8-py3-none-any.whl.zip]
+[2024-04-29 15:08:46] INFO root fetch - processPackages [c7n]: Remove: archive file [/home/abi/fetcher/tmp/c7n-0.9.9-py3-none-any.whl.zip]
+[2024-04-29 15:08:46] INFO root fetch - main [MainThread]: End processing [c7n]: success
+[2024-04-29 15:08:46] INFO root fetch - processPackages [c7n-openstack]: Remove: archive file [/home/abi/fetcher/tmp/c7n_openstack-0.1.8-py3-none-any.whl.zip]
+[2024-04-29 15:08:46] INFO root fetch - processPackages [c7n-openstack]: Remove: archive file [/home/abi/fetcher/tmp/c7n_openstack-0.1.9-py3-none-any.whl.zip]
+[2024-04-29 15:08:46] INFO root fetch - main [MainThread]: End processing [c7n-openstack]: success
+[2024-04-29 15:08:47] INFO root fetch - processPackages [c7n-kube]: Remove: archive file [/home/abi/fetcher/tmp/c7n_kube-0.2.8-py3-none-any.whl.zip]
+[2024-04-29 15:08:47] INFO root fetch - processPackages [c7n-kube]: Remove: archive file [/home/abi/fetcher/tmp/c7n_kube-0.2.9-py3-none-any.whl.zip]
+[2024-04-29 15:08:47] INFO root fetch - main [MainThread]: End processing [c7n-kube]: success
+[2024-04-29 15:08:47] INFO root fetch - processPackages [c7n-trailcreator]: Downloading https://files.pythonhosted.org/packages/2a/3e/6fdb2a5e5d0eb79e0c6f3027dbea071264da14dae7c5cd9eb4983e81b6cc/c7n_trailcreator-0.2.9-py3-none-any.whl
+[2024-04-29 15:08:47] INFO root fetch - processPackages [PyMCTranslate]: executing diffoscope
+[2024-04-29 15:08:47] INFO root fetch - processPackages [PyMCTranslate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyMCTranslate-1.2.8.tar.gz tmp/PyMCTranslate-1.2.9.tar.gz --markdown 20240429/P/PyMCTranslate/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-29 15:08:47] INFO root fetch - processPackages [c7n-trailcreator]: executing diffoscope
+[2024-04-29 15:08:47] INFO root fetch - processPackages [c7n-trailcreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_trailcreator-0.2.8-py3-none-any.whl.zip tmp/c7n_trailcreator-0.2.9-py3-none-any.whl.zip --markdown 20240429/c/c7n-trailcreator/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-29 15:08:47] INFO root fetch - processPackages [c7n-logexporter]: Remove: archive file [/home/abi/fetcher/tmp/c7n_logexporter-0.4.8-py3-none-any.whl.zip]
+[2024-04-29 15:08:47] INFO root fetch - processPackages [c7n-logexporter]: Remove: archive file [/home/abi/fetcher/tmp/c7n_logexporter-0.4.9-py3-none-any.whl.zip]
+[2024-04-29 15:08:47] INFO root fetch - main [MainThread]: End processing [c7n-logexporter]: success
+[2024-04-29 15:08:47] INFO root fetch - processPackages [c7n-mailer]: Remove: archive file [/home/abi/fetcher/tmp/c7n_mailer-0.6.8-py3-none-any.whl.zip]
+[2024-04-29 15:08:47] INFO root fetch - processPackages [c7n-mailer]: Remove: archive file [/home/abi/fetcher/tmp/c7n_mailer-0.6.9-py3-none-any.whl.zip]
+[2024-04-29 15:08:47] INFO root fetch - main [MainThread]: End processing [c7n-mailer]: success
+[2024-04-29 15:08:47] INFO root fetch - processPackages [c7n-policystream]: Remove: archive file [/home/abi/fetcher/tmp/c7n_policystream-0.4.8-py3-none-any.whl.zip]
+[2024-04-29 15:08:47] INFO root fetch - processPackages [c7n-policystream]: Remove: archive file [/home/abi/fetcher/tmp/c7n_policystream-0.4.9-py3-none-any.whl.zip]
+[2024-04-29 15:08:47] INFO root fetch - main [MainThread]: End processing [c7n-policystream]: success
+[2024-04-29 15:08:47] INFO root fetch - processPackages [c7n-trailcreator]: Remove: archive file [/home/abi/fetcher/tmp/c7n_trailcreator-0.2.8-py3-none-any.whl.zip]
+[2024-04-29 15:08:47] INFO root fetch - processPackages [c7n-trailcreator]: Remove: archive file [/home/abi/fetcher/tmp/c7n_trailcreator-0.2.9-py3-none-any.whl.zip]
+[2024-04-29 15:08:47] INFO root fetch - main [MainThread]: End processing [c7n-trailcreator]: success
+[2024-04-29 15:08:49] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/amazon-textract-idp-cdk-constructs-0.0.8.tar.gz]
+[2024-04-29 15:08:49] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/amazon-textract-idp-cdk-constructs-0.0.9.tar.gz]
+[2024-04-29 15:08:49] INFO root fetch - main [MainThread]: End processing [amazon-textract-idp-cdk-constructs]: success
+[2024-04-29 15:11:47] ERROR root fetch - processPackages [PyMCTranslate]: Timeout during execution of pkgdiff
+[2024-04-29 15:11:47] INFO root fetch - main [MainThread]: End processing [PyMCTranslate] error
+[2024-04-29 15:11:47] INFO root fetch - main [MainThread]: Store serial: [22983863]
