@@ -11028,3 +11028,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 09:30:27] INFO root fetch - processPackages [th2-grpc-codec]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_codec-0.2.0.dev8874114479.tar.gz]
 [2024-04-29 09:30:27] INFO root fetch - main [MainThread]: End processing [th2-grpc-codec]: success
 [2024-04-29 09:30:27] INFO root fetch - main [MainThread]: Store serial: [22980029]
+[2024-04-29 09:32:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980029]
+[2024-04-29 09:32:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 09:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: towalink-tlm
+[2024-04-29 09:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: IslandSheds
+[2024-04-29 09:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cutseq
+[2024-04-29 09:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: generate-sequences
+[2024-04-29 09:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: daktari
+[2024-04-29 09:32:36] INFO root fetch - processPackages [IslandSheds]: New version: [0.0.24] Old Version: [0.0.23]
+[2024-04-29 09:32:36] INFO root fetch - processPackages [cutseq]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 09:32:36] INFO root fetch - processPackages [generate-sequences]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-29 09:32:36] INFO root fetch - processPackages [towalink-tlm]: New version: [0.3.1] Old Version: [0.2.0]
+[2024-04-29 09:32:36] INFO root fetch - processPackages [daktari]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-29 09:32:37] INFO root fetch - processPackages [cutseq]: Downloading https://files.pythonhosted.org/packages/95/33/6984c0732c17eb925be43f23c0c27167392d2900fcd21ebf93d9b68f6c2a/cutseq-0.0.8.tar.gz
+[2024-04-29 09:32:37] INFO root fetch - processPackages [IslandSheds]: Downloading https://files.pythonhosted.org/packages/57/79/282c9bf4f6936c6e336d51c8fd2ed1ce1c80dafe30f1177103b2790cf666/islandsheds-0.0.23.tar.gz
+[2024-04-29 09:32:37] INFO root fetch - processPackages [generate-sequences]: Downloading https://files.pythonhosted.org/packages/46/e9/b0d2c7047846d7651f8ad82f213cd74925705d4781d2a42becbe6d4ff1dd/generate_sequences-0.0.3.tar.gz
+[2024-04-29 09:32:37] INFO root fetch - processPackages [towalink-tlm]: Downloading https://files.pythonhosted.org/packages/4a/9a/5a0c9564bfe086114964eeb2df1ce4aff4187539c7bc801a46ae6d1a160a/towalink_tlm-0.2.0.tar.gz
+[2024-04-29 09:32:37] INFO root fetch - processPackages [cutseq]: Downloading https://files.pythonhosted.org/packages/e5/82/45b103e58b439dac0cf4c7f6ef6957633721ec0f4553abfabba5ed961a0f/cutseq-0.0.9.tar.gz
+[2024-04-29 09:32:37] INFO root fetch - processPackages [generate-sequences]: Downloading https://files.pythonhosted.org/packages/bf/21/29ea1ed4c6e0e804ed421a7e49f33e6d7dd7c7181dff4150eb3c7ef0aa7d/generate_sequences-0.0.4.tar.gz
+[2024-04-29 09:32:37] INFO root fetch - processPackages [IslandSheds]: Downloading https://files.pythonhosted.org/packages/00/25/5fc4c6ac9921447eb034dd17cf0c928c9097eaf51c8aed25e9c16437cbf8/islandsheds-0.0.24.tar.gz
+[2024-04-29 09:32:37] INFO root fetch - processPackages [cutseq]: executing diffoscope
+[2024-04-29 09:32:37] INFO root fetch - processPackages [cutseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cutseq-0.0.8.tar.gz tmp/cutseq-0.0.9.tar.gz --markdown 20240429/c/cutseq/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 09:32:37] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/80/e2/e763e02669b3c5003eab9a1d3f23a8c11ddea7b9843baca75d4a3f67dfd1/daktari-0.0.98.tar.gz
+[2024-04-29 09:32:37] INFO root fetch - processPackages [generate-sequences]: executing diffoscope
+[2024-04-29 09:32:37] INFO root fetch - processPackages [generate-sequences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generate_sequences-0.0.3.tar.gz tmp/generate_sequences-0.0.4.tar.gz --markdown 20240429/g/generate-sequences/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-29 09:32:37] INFO root fetch - processPackages [IslandSheds]: executing diffoscope
+[2024-04-29 09:32:37] INFO root fetch - processPackages [IslandSheds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/islandsheds-0.0.23.tar.gz tmp/islandsheds-0.0.24.tar.gz --markdown 20240429/I/IslandSheds/0.0.23-0.0.24/README.md --exclude *.pyd
+[2024-04-29 09:32:37] INFO root fetch - processPackages [towalink-tlm]: Downloading https://files.pythonhosted.org/packages/aa/ba/3db9ce9c2a00e474656727e1cdbe16fb1e0f27e26f3642644dcd711c4b31/towalink_tlm-0.3.1.tar.gz
+[2024-04-29 09:32:37] INFO root fetch - processPackages [towalink-tlm]: executing diffoscope
+[2024-04-29 09:32:37] INFO root fetch - processPackages [towalink-tlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/towalink_tlm-0.2.0.tar.gz tmp/towalink_tlm-0.3.1.tar.gz --markdown 20240429/t/towalink-tlm/0.2.0-0.3.1/README.md --exclude *.pyd
+[2024-04-29 09:32:37] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/35/1f/9e7becfab4e84e6879ca6968ba9f3963734de77bebf086053003ea27839c/daktari-0.0.99.tar.gz
+[2024-04-29 09:32:37] INFO root fetch - processPackages [daktari]: executing diffoscope
+[2024-04-29 09:32:37] INFO root fetch - processPackages [daktari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daktari-0.0.98.tar.gz tmp/daktari-0.0.99.tar.gz --markdown 20240429/d/daktari/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-29 09:32:38] INFO root fetch - processPackages [cutseq]: Remove: archive file [/home/abi/fetcher/tmp/cutseq-0.0.8.tar.gz]
+[2024-04-29 09:32:38] INFO root fetch - processPackages [cutseq]: Remove: archive file [/home/abi/fetcher/tmp/cutseq-0.0.9.tar.gz]
+[2024-04-29 09:32:38] INFO root fetch - main [MainThread]: End processing [cutseq]: success
+[2024-04-29 09:32:38] INFO root fetch - processPackages [generate-sequences]: Remove: archive file [/home/abi/fetcher/tmp/generate_sequences-0.0.3.tar.gz]
+[2024-04-29 09:32:38] INFO root fetch - processPackages [generate-sequences]: Remove: archive file [/home/abi/fetcher/tmp/generate_sequences-0.0.4.tar.gz]
+[2024-04-29 09:32:38] INFO root fetch - main [MainThread]: End processing [generate-sequences]: success
+[2024-04-29 09:32:38] INFO root fetch - processPackages [IslandSheds]: Remove: archive file [/home/abi/fetcher/tmp/islandsheds-0.0.23.tar.gz]
+[2024-04-29 09:32:38] INFO root fetch - processPackages [IslandSheds]: Remove: archive file [/home/abi/fetcher/tmp/islandsheds-0.0.24.tar.gz]
+[2024-04-29 09:32:38] INFO root fetch - main [MainThread]: End processing [IslandSheds]: success
+[2024-04-29 09:32:38] INFO root fetch - processPackages [towalink-tlm]: Remove: archive file [/home/abi/fetcher/tmp/towalink_tlm-0.2.0.tar.gz]
+[2024-04-29 09:32:38] INFO root fetch - processPackages [towalink-tlm]: Remove: archive file [/home/abi/fetcher/tmp/towalink_tlm-0.3.1.tar.gz]
+[2024-04-29 09:32:38] INFO root fetch - main [MainThread]: End processing [towalink-tlm]: success
+[2024-04-29 09:32:38] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.98.tar.gz]
+[2024-04-29 09:32:38] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.99.tar.gz]
+[2024-04-29 09:32:38] INFO root fetch - main [MainThread]: End processing [daktari]: success
+[2024-04-29 09:32:38] INFO root fetch - main [MainThread]: Store serial: [22980054]
