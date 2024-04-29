@@ -22308,3 +22308,113 @@ EOFError: EOF read where object expected
 [2024-04-29 15:53:59] INFO root fetch - processPackages [dodata]: Remove: archive file [/home/abi/fetcher/tmp/dodata-0.5.0.tar.gz]
 [2024-04-29 15:53:59] INFO root fetch - main [MainThread]: End processing [dodata]: success
 [2024-04-29 15:53:59] INFO root fetch - main [MainThread]: Store serial: [22984684]
+[2024-04-29 15:56:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22984684]
+[2024-04-29 15:56:08] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-29 15:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensordict-nightly
+[2024-04-29 15:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: natter
+[2024-04-29 15:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: threedigrid-builder
+[2024-04-29 15:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xedocs
+[2024-04-29 15:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tina4-python
+[2024-04-29 15:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ChemInterface-ppchem
+[2024-04-29 15:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: minimax-client
+[2024-04-29 15:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MeMeST
+[2024-04-29 15:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sympytensor
+[2024-04-29 15:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mteb
+[2024-04-29 15:56:08] INFO root fetch - processPackages [MeMeST]: New version: [2024.4.946342] Old Version: [2024.4.9.212528]
+[2024-04-29 15:56:08] INFO root fetch - processPackages [tina4-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 15:56:08] INFO root fetch - processPackages [mteb]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-04-29 15:56:08] WARNING root fetch - processPackages [ChemInterface-ppchem]: Skipping, unable to determine old version
+[2024-04-29 15:56:08] INFO root fetch - processPackages [ChemInterface-ppchem]: Start processing: aeroterra-ds
+[2024-04-29 15:56:08] INFO root fetch - main [MainThread]: End processing [ChemInterface-ppchem] error
+[2024-04-29 15:56:08] INFO root fetch - processPackages [aeroterra-ds]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-29 15:56:08] INFO root fetch - processPackages [threedigrid-builder]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-29 15:56:08] INFO root fetch - processPackages [minimax-client]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-29 15:56:08] INFO root fetch - processPackages [xedocs]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-29 15:56:08] INFO root fetch - processPackages [natter]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-29 15:56:08] INFO root fetch - processPackages [sympytensor]: New version: [1.2.1] Old Version: [1.1.1]
+[2024-04-29 15:56:09] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/ba/4c/b40475a9d3097469d49458c79404aa15cc8c79a220ea3b85fc1d2b8895bc/MeMeST-2024.4.9.212528-py3-none-any.whl
+[2024-04-29 15:56:09] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/b5/e7/1ffcd000a118bd6a4b183610de5d0891ab9c767ccabb6c7e3f63ba9edb45/mteb-1.7.8.tar.gz
+[2024-04-29 15:56:09] INFO root fetch - processPackages [tina4-python]: Downloading https://files.pythonhosted.org/packages/61/79/4a27baf2c4da4707b63d581b639414c73fb68a3d702236356a9929e6ff99/tina4_python-0.1.8.tar.gz
+[2024-04-29 15:56:09] INFO root fetch - processPackages [aeroterra-ds]: Downloading https://files.pythonhosted.org/packages/ba/b1/3a99297ffcf64498604031fbfe5f7bd77eb9e82535bcc04134866b539665/aeroterra_ds-1.0.8.tar.gz
+[2024-04-29 15:56:09] INFO root fetch - processPackages [threedigrid-builder]: Downloading https://files.pythonhosted.org/packages/2c/e1/9e264cac9dd3136894d0343e718af980cb8a07cf16a29809269d6ad4546f/threedigrid-builder-1.8.0.tar.gz
+[2024-04-29 15:56:09] INFO root fetch - processPackages [minimax-client]: Downloading https://files.pythonhosted.org/packages/56/0b/e144521d5c4a30adc2897f4ff8c3f675fe9d934a23290292c20535887cfd/minimax_client-0.6.0.tar.gz
+[2024-04-29 15:56:09] INFO root fetch - processPackages [natter]: Downloading https://files.pythonhosted.org/packages/4a/d9/6d80d8435e9f7accb722dbd7d2c637c8bc8c8953c61d3952e5715a4bd026/natter-0.0.1.tar.gz
+[2024-04-29 15:56:09] INFO root fetch - processPackages [sympytensor]: Downloading https://files.pythonhosted.org/packages/b9/41/0660693cb34b830eec338934c8cc1af6cf1d5c06647714821c3fc842efa9/sympytensor-1.1.1-py3-none-any.whl
+[2024-04-29 15:56:09] INFO root fetch - processPackages [xedocs]: Downloading https://files.pythonhosted.org/packages/62/85/73d44546eea10f8ff3903db4cc725b1a1fc5d6f8e542480dda813a591cef/xedocs-0.2.8.tar.gz
+[2024-04-29 15:56:09] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/eb/d9/b925270f0a2467b3204b0f467cc702668d24bd9a8e876306ea7e3da17507/mteb-1.7.9.tar.gz
+[2024-04-29 15:56:09] INFO root fetch - processPackages [aeroterra-ds]: Downloading https://files.pythonhosted.org/packages/5b/68/aaa8e502a3d00d0cf6ffc68cdd9599605601abff8e12de5fd50b45beac5c/aeroterra_ds-1.0.9.tar.gz
+[2024-04-29 15:56:09] INFO root fetch - processPackages [tina4-python]: Downloading https://files.pythonhosted.org/packages/24/2e/2593f1dbdfcf6fb7c1c21b890b7f8e264fcee760b48d5ceb7680112de137/tina4_python-0.1.9.tar.gz
+[2024-04-29 15:56:09] INFO root fetch - processPackages [threedigrid-builder]: Downloading https://files.pythonhosted.org/packages/6b/de/d4fa81887befd3d08d5cf0d124803d3d142dbde109c6825cae8b8eb896e7/threedigrid-builder-1.9.0.tar.gz
+[2024-04-29 15:56:09] INFO root fetch - processPackages [tensordict-nightly]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-29 15:56:09] INFO root fetch - processPackages [MeMeST]: Downloading https://files.pythonhosted.org/packages/8d/29/51c58057b8d6f03dcf29f7aab6d456585ce189bcae733c6dca24314f02d7/MeMeST-2024.4.946342-py3-none-any.whl
+[2024-04-29 15:56:09] INFO root fetch - processPackages [aeroterra-ds]: executing diffoscope
+[2024-04-29 15:56:09] INFO root fetch - processPackages [aeroterra-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeroterra_ds-1.0.8.tar.gz tmp/aeroterra_ds-1.0.9.tar.gz --markdown 20240429/a/aeroterra-ds/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-29 15:56:09] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-29 15:56:09] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.7.8.tar.gz tmp/mteb-1.7.9.tar.gz --markdown 20240429/m/mteb/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-04-29 15:56:09] INFO root fetch - processPackages [minimax-client]: Downloading https://files.pythonhosted.org/packages/03/30/4ddac6136ef98907f8a65fa3d00374bf54fbc5cf0be691e01fdbdf1f86d2/minimax_client-0.6.1.tar.gz
+[2024-04-29 15:56:09] INFO root fetch - processPackages [threedigrid-builder]: executing diffoscope
+[2024-04-29 15:56:09] INFO root fetch - processPackages [threedigrid-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threedigrid-builder-1.8.0.tar.gz tmp/threedigrid-builder-1.9.0.tar.gz --markdown 20240429/t/threedigrid-builder/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-29 15:56:09] INFO root fetch - processPackages [tina4-python]: executing diffoscope
+[2024-04-29 15:56:09] INFO root fetch - processPackages [tina4-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tina4_python-0.1.8.tar.gz tmp/tina4_python-0.1.9.tar.gz --markdown 20240429/t/tina4-python/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 15:56:09] INFO root fetch - processPackages [MeMeST]: executing diffoscope
+[2024-04-29 15:56:09] INFO root fetch - processPackages [MeMeST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeMeST-2024.4.9.212528-py3-none-any.whl.zip tmp/MeMeST-2024.4.946342-py3-none-any.whl.zip --markdown 20240429/M/MeMeST/2024.4.9.212528-2024.4.946342/README.md --exclude *.pyd
+[2024-04-29 15:56:09] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/cd/1c/8579b410faa082f73f4c5e15b9f2df9564f5500baeca12f401c71c95762b/tensordict_nightly-2024.4.8-cp39-cp39-win_amd64.whl
+[2024-04-29 15:56:09] INFO root fetch - processPackages [sympytensor]: Downloading https://files.pythonhosted.org/packages/94/84/affb80f6cfd8813c30da6b3b840adfacb6cee621c28ddf9b38222dccc3d4/sympytensor-1.2.1.tar.gz
+[2024-04-29 15:56:09] INFO root fetch - processPackages [natter]: Downloading https://files.pythonhosted.org/packages/e9/b1/7e5af8e97a0c4a1ed62bcbe07e9fbf970d5e2dbccd7f7ed79a2f7ef07cde/natter-0.0.2.tar.gz
+[2024-04-29 15:56:09] INFO root fetch - processPackages [minimax-client]: executing diffoscope
+[2024-04-29 15:56:09] INFO root fetch - processPackages [minimax-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minimax_client-0.6.0.tar.gz tmp/minimax_client-0.6.1.tar.gz --markdown 20240429/m/minimax-client/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-29 15:56:09] INFO root fetch - processPackages [xedocs]: Downloading https://files.pythonhosted.org/packages/44/a7/8fa4c7553287769dc6c12dbf7bcece560fd0dd124d938a0d31b7a45331e7/xedocs-0.2.9.tar.gz
+[2024-04-29 15:56:09] INFO root fetch - processPackages [sympytensor]: executing diffoscope
+[2024-04-29 15:56:09] INFO root fetch - processPackages [sympytensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sympytensor-1.1.1-py3-none-any.whl.zip tmp/sympytensor-1.2.1.tar.gz --markdown 20240429/s/sympytensor/1.1.1-1.2.1/README.md --exclude *.pyd
+[2024-04-29 15:56:09] INFO root fetch - processPackages [natter]: executing diffoscope
+[2024-04-29 15:56:09] INFO root fetch - processPackages [natter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/natter-0.0.1.tar.gz tmp/natter-0.0.2.tar.gz --markdown 20240429/n/natter/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-29 15:56:10] INFO root fetch - processPackages [xedocs]: executing diffoscope
+[2024-04-29 15:56:10] INFO root fetch - processPackages [xedocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xedocs-0.2.8.tar.gz tmp/xedocs-0.2.9.tar.gz --markdown 20240429/x/xedocs/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-29 15:56:10] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/07/82/e5cb687b1d6b19f6d3c57c14285a0e891743c0fd72b7d62c9298fc937736/tensordict_nightly-2024.4.9-cp39-cp39-win_amd64.whl
+[2024-04-29 15:56:10] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2024-04-29 15:56:10] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2024.4.8-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2024.4.9-cp39-cp39-win_amd64.whl.zip --markdown 20240429/t/tensordict-nightly/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-29 15:56:10] INFO root fetch - processPackages [tina4-python]: Remove: archive file [/home/abi/fetcher/tmp/tina4_python-0.1.8.tar.gz]
+[2024-04-29 15:56:10] INFO root fetch - processPackages [tina4-python]: Remove: archive file [/home/abi/fetcher/tmp/tina4_python-0.1.9.tar.gz]
+[2024-04-29 15:56:10] INFO root fetch - processPackages [tina4-python]: Start processing: AstecManager
+[2024-04-29 15:56:10] INFO root fetch - main [MainThread]: End processing [tina4-python]: success
+[2024-04-29 15:56:10] INFO root fetch - processPackages [AstecManager]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-29 15:56:10] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-2024.4.9.212528-py3-none-any.whl.zip]
+[2024-04-29 15:56:10] INFO root fetch - processPackages [MeMeST]: Remove: archive file [/home/abi/fetcher/tmp/MeMeST-2024.4.946342-py3-none-any.whl.zip]
+[2024-04-29 15:56:10] INFO root fetch - processPackages [MeMeST]: Start processing: nkululeko
+[2024-04-29 15:56:10] INFO root fetch - main [MainThread]: End processing [MeMeST]: success
+[2024-04-29 15:56:10] INFO root fetch - processPackages [AstecManager]: Downloading https://files.pythonhosted.org/packages/f9/ba/4fa80e4e502975f6f9607c8a651251568e1ab5f3e957349307595f0b2165/AstecManager-0.2.8.tar.gz
+[2024-04-29 15:56:10] INFO root fetch - processPackages [sympytensor]: Remove: archive file [/home/abi/fetcher/tmp/sympytensor-1.1.1-py3-none-any.whl.zip]
+[2024-04-29 15:56:10] INFO root fetch - processPackages [sympytensor]: Remove: archive file [/home/abi/fetcher/tmp/sympytensor-1.2.1.tar.gz]
+[2024-04-29 15:56:10] INFO root fetch - main [MainThread]: End processing [sympytensor]: success
+[2024-04-29 15:56:10] INFO root fetch - processPackages [aeroterra-ds]: Remove: archive file [/home/abi/fetcher/tmp/aeroterra_ds-1.0.8.tar.gz]
+[2024-04-29 15:56:10] INFO root fetch - processPackages [aeroterra-ds]: Remove: archive file [/home/abi/fetcher/tmp/aeroterra_ds-1.0.9.tar.gz]
+[2024-04-29 15:56:10] INFO root fetch - main [MainThread]: End processing [aeroterra-ds]: success
+[2024-04-29 15:56:10] WARNING root fetch - processPackages [AstecManager]: Skipping package: exceeds size limit 30603260>=10485760
+[2024-04-29 15:56:10] INFO root fetch - main [MainThread]: End processing [AstecManager] error
+[2024-04-29 15:56:10] INFO root fetch - processPackages [nkululeko]: New version: [0.83.2] Old Version: [0.83.1]
+[2024-04-29 15:56:11] INFO root fetch - processPackages [natter]: Remove: archive file [/home/abi/fetcher/tmp/natter-0.0.1.tar.gz]
+[2024-04-29 15:56:11] INFO root fetch - processPackages [natter]: Remove: archive file [/home/abi/fetcher/tmp/natter-0.0.2.tar.gz]
+[2024-04-29 15:56:11] INFO root fetch - main [MainThread]: End processing [natter]: success
+[2024-04-29 15:56:11] INFO root fetch - processPackages [minimax-client]: Remove: archive file [/home/abi/fetcher/tmp/minimax_client-0.6.0.tar.gz]
+[2024-04-29 15:56:11] INFO root fetch - processPackages [minimax-client]: Remove: archive file [/home/abi/fetcher/tmp/minimax_client-0.6.1.tar.gz]
+[2024-04-29 15:56:11] INFO root fetch - main [MainThread]: End processing [minimax-client]: success
+[2024-04-29 15:56:11] INFO root fetch - processPackages [xedocs]: Remove: archive file [/home/abi/fetcher/tmp/xedocs-0.2.8.tar.gz]
+[2024-04-29 15:56:11] INFO root fetch - processPackages [xedocs]: Remove: archive file [/home/abi/fetcher/tmp/xedocs-0.2.9.tar.gz]
+[2024-04-29 15:56:11] INFO root fetch - main [MainThread]: End processing [xedocs]: success
+[2024-04-29 15:56:11] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/5e/5a/5e4ea1ce7def8d6c7a300c9e5e196aa4217c74824ed5b402a74072f3dd5a/nkululeko-0.83.1.tar.gz
+[2024-04-29 15:56:11] INFO root fetch - processPackages [threedigrid-builder]: Remove: archive file [/home/abi/fetcher/tmp/threedigrid-builder-1.8.0.tar.gz]
+[2024-04-29 15:56:11] INFO root fetch - processPackages [threedigrid-builder]: Remove: archive file [/home/abi/fetcher/tmp/threedigrid-builder-1.9.0.tar.gz]
+[2024-04-29 15:56:11] INFO root fetch - main [MainThread]: End processing [threedigrid-builder]: success
+[2024-04-29 15:56:11] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/0b/4b/687d189669da9cb01fcf6033080f7c8bb5e156f2c9ed12f64af0df38c9d9/nkululeko-0.83.2.tar.gz
+[2024-04-29 15:56:11] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.4.8-cp39-cp39-win_amd64.whl.zip]
+[2024-04-29 15:56:11] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.4.9-cp39-cp39-win_amd64.whl.zip]
+[2024-04-29 15:56:11] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2024-04-29 15:56:11] INFO root fetch - processPackages [nkululeko]: executing diffoscope
+[2024-04-29 15:56:11] INFO root fetch - processPackages [nkululeko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkululeko-0.83.1.tar.gz tmp/nkululeko-0.83.2.tar.gz --markdown 20240429/n/nkululeko/0.83.1-0.83.2/README.md --exclude *.pyd
+[2024-04-29 15:56:11] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.8.tar.gz]
+[2024-04-29 15:56:11] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.7.9.tar.gz]
+[2024-04-29 15:56:11] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-29 15:56:13] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.83.1.tar.gz]
+[2024-04-29 15:56:13] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.83.2.tar.gz]
+[2024-04-29 15:56:13] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
+[2024-04-29 15:56:13] INFO root fetch - main [MainThread]: Store serial: [22984740]
