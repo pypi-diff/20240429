@@ -1930,3 +1930,36 @@
 [2024-04-29 02:47:42] INFO root fetch - processPackages [funtoo-ramdisk]: Remove: archive file [/home/abi/fetcher/tmp/funtoo_ramdisk-1.1.9.tar.gz]
 [2024-04-29 02:47:42] INFO root fetch - main [MainThread]: End processing [funtoo-ramdisk]: success
 [2024-04-29 02:47:42] INFO root fetch - main [MainThread]: Store serial: [22971968]
+[2024-04-29 02:49:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971968]
+[2024-04-29 02:49:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 02:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: capymoa
+[2024-04-29 02:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-near
+[2024-04-29 02:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-sns-notify
+[2024-04-29 02:49:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bioversions
+[2024-04-29 02:49:52] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-29 02:49:52] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-04-29 02:49:52] WARNING root fetch - processPackages [capymoa]: Skipping, unable to determine old version
+[2024-04-29 02:49:52] INFO root fetch - main [MainThread]: End processing [capymoa] error
+[2024-04-29 02:49:52] INFO root fetch - processPackages [py-near]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-29 02:49:52] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2024-04-29 02:49:52] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2024-04-29 02:49:52] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/aa/de/beface0702603924b5d0a916d15f1c6cc26697783b8191af8e33620e805d/py_near-1.1.8.tar.gz
+[2024-04-29 02:49:52] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2024-04-29 02:49:52] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2024-04-29 02:49:52] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2024-04-29 02:49:52] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20240429/c/cdk-sns-notify/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-29 02:49:52] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2024-04-29 02:49:52] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20240429/b/bioversions/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-04-29 02:49:52] INFO root fetch - processPackages [py-near]: Downloading https://files.pythonhosted.org/packages/3e/73/28d02d95d66304797b8d5f4f59e2c20a6e393c56657b991e31c16ca77e9f/py_near-1.1.9.tar.gz
+[2024-04-29 02:49:53] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2024-04-29 02:49:53] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2024-04-29 02:49:53] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2024-04-29 02:49:53] INFO root fetch - processPackages [py-near]: executing diffoscope
+[2024-04-29 02:49:53] INFO root fetch - processPackages [py-near]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_near-1.1.8.tar.gz tmp/py_near-1.1.9.tar.gz --markdown 20240429/p/py-near/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-29 02:49:53] INFO root fetch - processPackages [py-near]: Remove: archive file [/home/abi/fetcher/tmp/py_near-1.1.8.tar.gz]
+[2024-04-29 02:49:53] INFO root fetch - processPackages [py-near]: Remove: archive file [/home/abi/fetcher/tmp/py_near-1.1.9.tar.gz]
+[2024-04-29 02:49:53] INFO root fetch - main [MainThread]: End processing [py-near]: success
+[2024-04-29 02:50:11] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2024-04-29 02:50:11] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2024-04-29 02:50:11] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2024-04-29 02:50:11] INFO root fetch - main [MainThread]: Store serial: [22971985]
