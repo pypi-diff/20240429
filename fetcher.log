@@ -10234,3 +10234,66 @@
 [2024-04-29 08:52:51] INFO root fetch - processPackages [cynetdiff]: Remove: archive file [/home/abi/fetcher/tmp/cynetdiff-0.1.9.tar.gz]
 [2024-04-29 08:52:51] INFO root fetch - main [MainThread]: End processing [cynetdiff]: success
 [2024-04-29 08:52:51] INFO root fetch - main [MainThread]: Store serial: [22979673]
+[2024-04-29 08:54:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979673]
+[2024-04-29 08:55:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-29 08:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: didi-notebook-extension
+[2024-04-29 08:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BioSAK
+[2024-04-29 08:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: route-graph
+[2024-04-29 08:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: binspec
+[2024-04-29 08:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zetamarkets-py
+[2024-04-29 08:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: audiness
+[2024-04-29 08:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: create-mountaineer-app
+[2024-04-29 08:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hgraph
+[2024-04-29 08:55:01] WARNING root fetch - processPackages [didi-notebook-extension]: Skipping, unable to determine old version
+[2024-04-29 08:55:01] INFO root fetch - main [MainThread]: End processing [didi-notebook-extension] error
+[2024-04-29 08:55:01] INFO root fetch - processPackages [BioSAK]: New version: [1.86.3] Old Version: [1.86.2]
+[2024-04-29 08:55:01] INFO root fetch - processPackages [audiness]: New version: [0.4.0] Old Version: [0.3.2]
+[2024-04-29 08:55:01] INFO root fetch - processPackages [route-graph]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-29 08:55:01] WARNING root fetch - processPackages [binspec]: Skipping, unable to determine old version
+[2024-04-29 08:55:01] INFO root fetch - main [MainThread]: End processing [binspec] error
+[2024-04-29 08:55:01] INFO root fetch - processPackages [create-mountaineer-app]: New version: [0.4.2.dev3] Old Version: [0.4.2.dev2]
+[2024-04-29 08:55:01] INFO root fetch - processPackages [zetamarkets-py]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-04-29 08:55:01] INFO root fetch - processPackages [hgraph]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-29 08:55:02] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/0d/48/e3ff3fef7084988fce2fc8e5f8c0f580e1ac4a9651f04f56707a06ae2850/BioSAK-1.86.2.tar.gz
+[2024-04-29 08:55:02] INFO root fetch - processPackages [route-graph]: Downloading https://files.pythonhosted.org/packages/17/2c/03e7abfdc9faf176a418a5900029be575fb235c85461ba1f3c2291dcce23/route_graph-0.2.1.tar.gz
+[2024-04-29 08:55:02] INFO root fetch - processPackages [zetamarkets-py]: Downloading https://files.pythonhosted.org/packages/cd/af/f7f964f2260bfe51acc8dac83276d41a8222a44d8408ea92789cb6e54cdb/zetamarkets_py-0.2.7.tar.gz
+[2024-04-29 08:55:02] INFO root fetch - processPackages [audiness]: Downloading https://files.pythonhosted.org/packages/13/6b/1cc9d82492dd8638fd5637443c63ba194bee690d8275503b1039c68771d8/audiness-0.3.2.tar.gz
+[2024-04-29 08:55:02] INFO root fetch - processPackages [create-mountaineer-app]: Downloading https://files.pythonhosted.org/packages/21/73/637b9bc1eb20e981fcae2cab0945342b25ff34396bcb07d7e9454da0f8fc/create_mountaineer_app-0.4.2.dev2.tar.gz
+[2024-04-29 08:55:02] INFO root fetch - processPackages [hgraph]: Downloading https://files.pythonhosted.org/packages/da/ad/e83b1d8661a0e583d3a8e4e301911d6797358607dad40d27057574e75081/hgraph-0.2.8.tar.gz
+[2024-04-29 08:55:02] INFO root fetch - processPackages [route-graph]: Downloading https://files.pythonhosted.org/packages/05/fd/970fb9f49d4d1d5e4cd9089d55734a8416085a194270eae257a3cafc61d6/route_graph-0.2.2.tar.gz
+[2024-04-29 08:55:02] INFO root fetch - processPackages [audiness]: Downloading https://files.pythonhosted.org/packages/12/62/ddc482e9a39cc9725d71d5914d76b675810b438e1703592b106a4253b117/audiness-0.4.0.tar.gz
+[2024-04-29 08:55:02] INFO root fetch - processPackages [create-mountaineer-app]: Downloading https://files.pythonhosted.org/packages/07/ec/c4c74498d2a96d4a716b048829d86cac4281cbc710d1150bb0880df66f00/create_mountaineer_app-0.4.2.dev3.tar.gz
+[2024-04-29 08:55:02] INFO root fetch - processPackages [route-graph]: executing diffoscope
+[2024-04-29 08:55:02] INFO root fetch - processPackages [route-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/route_graph-0.2.1.tar.gz tmp/route_graph-0.2.2.tar.gz --markdown 20240429/r/route-graph/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-29 08:55:02] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/1d/10/f4a85353558dc775cdc82a160531663e9f37ce8b7ac2170c43c77fa72bd5/BioSAK-1.86.3.tar.gz
+[2024-04-29 08:55:02] INFO root fetch - processPackages [zetamarkets-py]: Downloading https://files.pythonhosted.org/packages/b2/a0/077585838f672a1d19c11fddd9265f944635323847353a76dcbc0bc8f2ed/zetamarkets_py-0.2.9.tar.gz
+[2024-04-29 08:55:02] INFO root fetch - processPackages [hgraph]: Downloading https://files.pythonhosted.org/packages/22/05/43ea3ada7d538f8592b51d36721d624366793ada729a497eaaff2db9b540/hgraph-0.2.9.tar.gz
+[2024-04-29 08:55:02] INFO root fetch - processPackages [audiness]: executing diffoscope
+[2024-04-29 08:55:02] INFO root fetch - processPackages [audiness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiness-0.3.2.tar.gz tmp/audiness-0.4.0.tar.gz --markdown 20240429/a/audiness/0.3.2-0.4.0/README.md --exclude *.pyd
+[2024-04-29 08:55:02] INFO root fetch - processPackages [create-mountaineer-app]: executing diffoscope
+[2024-04-29 08:55:02] INFO root fetch - processPackages [create-mountaineer-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create_mountaineer_app-0.4.2.dev2.tar.gz tmp/create_mountaineer_app-0.4.2.dev3.tar.gz --markdown 20240429/c/create-mountaineer-app/0.4.2.dev2-0.4.2.dev3/README.md --exclude *.pyd
+[2024-04-29 08:55:02] INFO root fetch - processPackages [hgraph]: executing diffoscope
+[2024-04-29 08:55:02] INFO root fetch - processPackages [hgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hgraph-0.2.8.tar.gz tmp/hgraph-0.2.9.tar.gz --markdown 20240429/h/hgraph/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-29 08:55:02] INFO root fetch - processPackages [zetamarkets-py]: executing diffoscope
+[2024-04-29 08:55:02] INFO root fetch - processPackages [zetamarkets-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zetamarkets_py-0.2.7.tar.gz tmp/zetamarkets_py-0.2.9.tar.gz --markdown 20240429/z/zetamarkets-py/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-04-29 08:55:02] INFO root fetch - processPackages [BioSAK]: executing diffoscope
+[2024-04-29 08:55:02] INFO root fetch - processPackages [BioSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BioSAK-1.86.2.tar.gz tmp/BioSAK-1.86.3.tar.gz --markdown 20240429/B/BioSAK/1.86.2-1.86.3/README.md --exclude *.pyd
+[2024-04-29 08:55:03] INFO root fetch - processPackages [route-graph]: Remove: archive file [/home/abi/fetcher/tmp/route_graph-0.2.1.tar.gz]
+[2024-04-29 08:55:03] INFO root fetch - processPackages [route-graph]: Remove: archive file [/home/abi/fetcher/tmp/route_graph-0.2.2.tar.gz]
+[2024-04-29 08:55:03] INFO root fetch - main [MainThread]: End processing [route-graph]: success
+[2024-04-29 08:55:03] INFO root fetch - processPackages [create-mountaineer-app]: Remove: archive file [/home/abi/fetcher/tmp/create_mountaineer_app-0.4.2.dev2.tar.gz]
+[2024-04-29 08:55:03] INFO root fetch - processPackages [create-mountaineer-app]: Remove: archive file [/home/abi/fetcher/tmp/create_mountaineer_app-0.4.2.dev3.tar.gz]
+[2024-04-29 08:55:03] INFO root fetch - main [MainThread]: End processing [create-mountaineer-app]: success
+[2024-04-29 08:55:03] INFO root fetch - processPackages [audiness]: Remove: archive file [/home/abi/fetcher/tmp/audiness-0.3.2.tar.gz]
+[2024-04-29 08:55:03] INFO root fetch - processPackages [audiness]: Remove: archive file [/home/abi/fetcher/tmp/audiness-0.4.0.tar.gz]
+[2024-04-29 08:55:03] INFO root fetch - main [MainThread]: End processing [audiness]: success
+[2024-04-29 08:55:04] INFO root fetch - processPackages [hgraph]: Remove: archive file [/home/abi/fetcher/tmp/hgraph-0.2.8.tar.gz]
+[2024-04-29 08:55:04] INFO root fetch - processPackages [hgraph]: Remove: archive file [/home/abi/fetcher/tmp/hgraph-0.2.9.tar.gz]
+[2024-04-29 08:55:04] INFO root fetch - main [MainThread]: End processing [hgraph]: success
+[2024-04-29 08:55:04] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.86.2.tar.gz]
+[2024-04-29 08:55:04] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.86.3.tar.gz]
+[2024-04-29 08:55:04] INFO root fetch - main [MainThread]: End processing [BioSAK]: success
+[2024-04-29 08:55:08] INFO root fetch - processPackages [zetamarkets-py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.7.tar.gz]
+[2024-04-29 08:55:08] INFO root fetch - processPackages [zetamarkets-py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.9.tar.gz]
+[2024-04-29 08:55:08] INFO root fetch - main [MainThread]: End processing [zetamarkets-py]: success
+[2024-04-29 08:55:08] INFO root fetch - main [MainThread]: Store serial: [22979704]
