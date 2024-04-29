@@ -17609,3 +17609,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 13:45:51] INFO root fetch - processPackages [acmecse-test]: Remove: archive file [/home/abi/fetcher/tmp/acmecse_test-2024.4.3-py3-none-any.whl.zip]
 [2024-04-29 13:45:51] INFO root fetch - main [MainThread]: End processing [acmecse-test]: success
 [2024-04-29 13:45:51] INFO root fetch - main [MainThread]: Store serial: [22982797]
+[2024-04-29 13:47:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982797]
+[2024-04-29 13:48:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-29 13:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oasislmf
+[2024-04-29 13:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: secretvalidate
+[2024-04-29 13:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aspose-barcode-cloud
+[2024-04-29 13:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nestipy
+[2024-04-29 13:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: secretscraper
+[2024-04-29 13:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: afeng-py-tools
+[2024-04-29 13:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: easy-utils-dev
+[2024-04-29 13:48:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wheelz-idp-validations
+[2024-04-29 13:48:00] INFO root fetch - processPackages [secretvalidate]: New version: [0.0.1a3] Old Version: [0.0.1a2]
+[2024-04-29 13:48:00] INFO root fetch - processPackages [wheelz-idp-validations]: New version: [2.0.1] Old Version: [2]
+[2024-04-29 13:48:00] INFO root fetch - processPackages [secretscraper]: New version: [1.3.7.1] Old Version: [1.3.6]
+[2024-04-29 13:48:00] INFO root fetch - processPackages [nestipy]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-29 13:48:00] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-29 13:48:00] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/d1/ce/31cf177da2a077662c39278e9c818652debf113ee289ecb10eeda42e763e/secretvalidate-0.0.1a2.tar.gz
+[2024-04-29 13:48:00] INFO root fetch - processPackages [aspose-barcode-cloud]: New version: [24.4.0] Old Version: [24.3.0]
+[2024-04-29 13:48:00] INFO root fetch - processPackages [wheelz-idp-validations]: Downloading https://files.pythonhosted.org/packages/df/28/5473584099d907d3934bf1df2ddfaaa1c13932e88d141d018ef4d90bfba6/wheelz_idp_validations-2.tar.gz
+[2024-04-29 13:48:00] INFO root fetch - processPackages [easy-utils-dev]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-29 13:48:00] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-04-29 13:48:00] INFO root fetch - processPackages [nestipy]: Downloading https://files.pythonhosted.org/packages/11/f3/03b19e5dfe51d8a7266bb8c65920fda07cca562775438b489cbe8c07f890/nestipy-0.2.4.tar.gz
+[2024-04-29 13:48:00] INFO root fetch - processPackages [oasislmf]: New version: [2.3.4] Old Version: [2.3.2]
+[2024-04-29 13:48:00] INFO root fetch - processPackages [secretscraper]: Downloading https://files.pythonhosted.org/packages/20/36/e82e599451927ed62c1b9c3045727f291e9c1ebef9d46b3ccb0cef7d948c/secretscraper-1.3.6.tar.gz
+[2024-04-29 13:48:00] INFO root fetch - processPackages [oasislmf]: Downloading https://files.pythonhosted.org/packages/c9/21/62323f8ba66e9af8e532761db13d131bd8087f17740d13b6e1d7aa8653ac/oasislmf-2.3.2.tar.gz
+[2024-04-29 13:48:00] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/89/a4/7086b32ccadd552db37d7838d6584e4fe556b708cc4b882e63895924bd57/easy_utils_dev-2.9.8.tar.gz
+[2024-04-29 13:48:00] INFO root fetch - processPackages [aspose-barcode-cloud]: Downloading https://files.pythonhosted.org/packages/cd/8d/0e612f5f375db17d9e9f3915e91fe3707c341e1daab359d8caa9376fca5e/aspose-barcode-cloud-24.3.0.tar.gz
+[2024-04-29 13:48:00] INFO root fetch - processPackages [secretscraper]: Downloading https://files.pythonhosted.org/packages/07/72/551150c3f878c57de1d0ddfe46ca837fa62e4766a4af590e92fb88d03cc5/secretscraper-1.3.7.1.tar.gz
+[2024-04-29 13:48:00] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-04-29 13:48:00] INFO root fetch - processPackages [wheelz-idp-validations]: Downloading https://files.pythonhosted.org/packages/62/ae/f22bf2e630028086e6dd97efa0feaf09d340bc1d985377ac91ed1cb20d89/wheelz_idp_validations-2.0.1.tar.gz
+[2024-04-29 13:48:01] INFO root fetch - processPackages [secretvalidate]: Downloading https://files.pythonhosted.org/packages/86/7d/41b36592f5a9d78dbbe550e7a39756b1a5e8ef8130a5d9f4af50a457ce5b/secretvalidate-0.0.1a3.tar.gz
+[2024-04-29 13:48:01] INFO root fetch - processPackages [nestipy]: Downloading https://files.pythonhosted.org/packages/cc/4c/f543ee0a9fcd831dc736514e39c0e11c7064ee5e7a09873a9247030cc026/nestipy-0.2.5.tar.gz
+[2024-04-29 13:48:01] INFO root fetch - processPackages [secretscraper]: executing diffoscope
+[2024-04-29 13:48:01] INFO root fetch - processPackages [secretscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretscraper-1.3.6.tar.gz tmp/secretscraper-1.3.7.1.tar.gz --markdown 20240429/s/secretscraper/1.3.6-1.3.7.1/README.md --exclude *.pyd
+[2024-04-29 13:48:01] INFO root fetch - processPackages [wheelz-idp-validations]: executing diffoscope
+[2024-04-29 13:48:01] INFO root fetch - processPackages [wheelz-idp-validations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wheelz_idp_validations-2.tar.gz tmp/wheelz_idp_validations-2.0.1.tar.gz --markdown 20240429/w/wheelz-idp-validations/2-2.0.1/README.md --exclude *.pyd
+[2024-04-29 13:48:01] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-04-29 13:48:01] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240429/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-29 13:48:01] INFO root fetch - processPackages [secretvalidate]: executing diffoscope
+[2024-04-29 13:48:01] INFO root fetch - processPackages [secretvalidate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretvalidate-0.0.1a2.tar.gz tmp/secretvalidate-0.0.1a3.tar.gz --markdown 20240429/s/secretvalidate/0.0.1a2-0.0.1a3/README.md --exclude *.pyd
+[2024-04-29 13:48:01] INFO root fetch - processPackages [nestipy]: executing diffoscope
+[2024-04-29 13:48:01] INFO root fetch - processPackages [nestipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestipy-0.2.4.tar.gz tmp/nestipy-0.2.5.tar.gz --markdown 20240429/n/nestipy/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-29 13:48:01] INFO root fetch - processPackages [oasislmf]: Downloading https://files.pythonhosted.org/packages/e9/2d/45237603134b2644c9e53c426057cbf7122836b8247b6d274bfde97d5099/oasislmf-2.3.4.tar.gz
+[2024-04-29 13:48:01] INFO root fetch - processPackages [aspose-barcode-cloud]: Downloading https://files.pythonhosted.org/packages/e4/d1/da537d927b4ab5ed51a98185a70e943f7a81056afa767712da696e9005a0/aspose_barcode_cloud-24.4.0.tar.gz
+[2024-04-29 13:48:01] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/52/df/0bb33809cc04a0dd3cf1f9d26e4880b2dcbc1e5bd512fc6f3d93c0f698a1/easy_utils_dev-2.9.9.tar.gz
+[2024-04-29 13:48:01] INFO root fetch - processPackages [oasislmf]: executing diffoscope
+[2024-04-29 13:48:01] INFO root fetch - processPackages [oasislmf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oasislmf-2.3.2.tar.gz tmp/oasislmf-2.3.4.tar.gz --markdown 20240429/o/oasislmf/2.3.2-2.3.4/README.md --exclude *.pyd
+[2024-04-29 13:48:01] INFO root fetch - processPackages [aspose-barcode-cloud]: executing diffoscope
+[2024-04-29 13:48:01] INFO root fetch - processPackages [aspose-barcode-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspose-barcode-cloud-24.3.0.tar.gz tmp/aspose_barcode_cloud-24.4.0.tar.gz --markdown 20240429/a/aspose-barcode-cloud/24.3.0-24.4.0/README.md --exclude *.pyd
+[2024-04-29 13:48:01] INFO root fetch - processPackages [easy-utils-dev]: executing diffoscope
+[2024-04-29 13:48:01] INFO root fetch - processPackages [easy-utils-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_utils_dev-2.9.8.tar.gz tmp/easy_utils_dev-2.9.9.tar.gz --markdown 20240429/e/easy-utils-dev/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-04-29 13:48:02] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a2.tar.gz]
+[2024-04-29 13:48:02] INFO root fetch - processPackages [secretvalidate]: Remove: archive file [/home/abi/fetcher/tmp/secretvalidate-0.0.1a3.tar.gz]
+[2024-04-29 13:48:02] INFO root fetch - main [MainThread]: End processing [secretvalidate]: success
+[2024-04-29 13:48:02] INFO root fetch - processPackages [secretscraper]: Remove: archive file [/home/abi/fetcher/tmp/secretscraper-1.3.6.tar.gz]
+[2024-04-29 13:48:02] INFO root fetch - processPackages [secretscraper]: Remove: archive file [/home/abi/fetcher/tmp/secretscraper-1.3.7.1.tar.gz]
+[2024-04-29 13:48:02] INFO root fetch - main [MainThread]: End processing [secretscraper]: success
+[2024-04-29 13:48:02] INFO root fetch - processPackages [wheelz-idp-validations]: Remove: archive file [/home/abi/fetcher/tmp/wheelz_idp_validations-2.tar.gz]
+[2024-04-29 13:48:02] INFO root fetch - processPackages [wheelz-idp-validations]: Remove: archive file [/home/abi/fetcher/tmp/wheelz_idp_validations-2.0.1.tar.gz]
+[2024-04-29 13:48:02] INFO root fetch - main [MainThread]: End processing [wheelz-idp-validations]: success
+[2024-04-29 13:48:02] INFO root fetch - processPackages [nestipy]: Remove: archive file [/home/abi/fetcher/tmp/nestipy-0.2.4.tar.gz]
+[2024-04-29 13:48:02] INFO root fetch - processPackages [nestipy]: Remove: archive file [/home/abi/fetcher/tmp/nestipy-0.2.5.tar.gz]
+[2024-04-29 13:48:02] INFO root fetch - main [MainThread]: End processing [nestipy]: success
+[2024-04-29 13:48:02] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.8.tar.gz]
+[2024-04-29 13:48:02] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.9.tar.gz]
+[2024-04-29 13:48:02] INFO root fetch - main [MainThread]: End processing [easy-utils-dev]: success
+[2024-04-29 13:48:02] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-04-29 13:48:02] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-04-29 13:48:02] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-04-29 13:48:02] INFO root fetch - processPackages [aspose-barcode-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aspose-barcode-cloud-24.3.0.tar.gz]
+[2024-04-29 13:48:02] INFO root fetch - processPackages [aspose-barcode-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aspose_barcode_cloud-24.4.0.tar.gz]
+[2024-04-29 13:48:02] INFO root fetch - main [MainThread]: End processing [aspose-barcode-cloud]: success
+[2024-04-29 13:48:02] INFO root fetch - processPackages [oasislmf]: Remove: archive file [/home/abi/fetcher/tmp/oasislmf-2.3.2.tar.gz]
+[2024-04-29 13:48:02] INFO root fetch - processPackages [oasislmf]: Remove: archive file [/home/abi/fetcher/tmp/oasislmf-2.3.4.tar.gz]
+[2024-04-29 13:48:02] INFO root fetch - main [MainThread]: End processing [oasislmf]: success
+[2024-04-29 13:48:03] INFO root fetch - main [MainThread]: Store serial: [22982823]
