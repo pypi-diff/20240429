@@ -20115,3 +20115,215 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 15:11:47] ERROR root fetch - processPackages [PyMCTranslate]: Timeout during execution of pkgdiff
 [2024-04-29 15:11:47] INFO root fetch - main [MainThread]: End processing [PyMCTranslate] error
 [2024-04-29 15:11:47] INFO root fetch - main [MainThread]: Store serial: [22983863]
+[2024-04-29 15:13:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22983863]
+[2024-04-29 15:13:56] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2024-04-29 15:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c7n-trailcreator
+[2024-04-29 15:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: issx
+[2024-04-29 15:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: c7n-org
+[2024-04-29 15:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: c7n-sphinxext
+[2024-04-29 15:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: c7n-awscc
+[2024-04-29 15:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: phonexia-enhanced-speech-to-text-built-on-whisper-client
+[2024-04-29 15:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: c7n-tencentcloud
+[2024-04-29 15:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: c7n-azure
+[2024-04-29 15:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: c7n-oci
+[2024-04-29 15:13:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: netbox-docker-plugin
+[2024-04-29 15:13:56] INFO root fetch - processPackages [c7n-awscc]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 15:13:56] INFO root fetch - processPackages [issx]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-29 15:13:56] INFO root fetch - processPackages [c7n-org]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-29 15:13:56] INFO root fetch - processPackages [c7n-trailcreator]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-29 15:13:56] INFO root fetch - processPackages [netbox-docker-plugin]: New version: [1.6.2] Old Version: [1.6.1]
+[2024-04-29 15:13:56] INFO root fetch - processPackages [c7n-sphinxext]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-29 15:13:56] WARNING root fetch - processPackages [phonexia-enhanced-speech-to-text-built-on-whisper-client]: Skipping, unable to determine old version
+[2024-04-29 15:13:56] INFO root fetch - processPackages [phonexia-enhanced-speech-to-text-built-on-whisper-client]: Start processing: c7n-terraform
+[2024-04-29 15:13:56] INFO root fetch - main [MainThread]: End processing [phonexia-enhanced-speech-to-text-built-on-whisper-client] error
+[2024-04-29 15:13:56] INFO root fetch - processPackages [c7n-oci]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 15:13:56] INFO root fetch - processPackages [c7n-azure]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-29 15:13:56] INFO root fetch - processPackages [c7n-tencentcloud]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 15:13:56] INFO root fetch - processPackages [c7n-awscc]: Downloading https://files.pythonhosted.org/packages/b6/61/2d10f250d405bdce69df47a26bfb4fc93b0921058f590de6bb59246ebaaa/c7n_awscc-0.1.8-py3-none-any.whl
+[2024-04-29 15:13:56] INFO root fetch - processPackages [c7n-sphinxext]: Downloading https://files.pythonhosted.org/packages/29/c6/19ff20df7b604eaec6f0371e3ad920dd673cd0cd993e08f3cd8698dec37a/c7n_sphinxext-1.1.8-py3-none-any.whl
+[2024-04-29 15:13:56] INFO root fetch - processPackages [c7n-org]: Downloading https://files.pythonhosted.org/packages/83/f7/bc531247815c3e00653837d933033e5f529d3868db51ca528f3b3be08e45/c7n_org-0.6.8-py3-none-any.whl
+[2024-04-29 15:13:56] INFO root fetch - processPackages [c7n-terraform]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 15:13:56] INFO root fetch - processPackages [issx]: Downloading https://files.pythonhosted.org/packages/a1/1c/0b841d43fa29be6e781485f7123b1ab28c97b8fedf0e3788611dcad3cb17/issx-0.5.1.tar.gz
+[2024-04-29 15:13:56] INFO root fetch - processPackages [c7n-trailcreator]: Downloading https://files.pythonhosted.org/packages/1d/15/8478bb14a898189ef118feb417c50b985e2d5a65b574420b456fe7669446/c7n_trailcreator-0.2.8-py3-none-any.whl
+[2024-04-29 15:13:56] INFO root fetch - processPackages [netbox-docker-plugin]: Downloading https://files.pythonhosted.org/packages/0f/13/420515970eb4bda3cbbf797ae84bb529278852b710bacc46eaf8c901d094/netbox_docker_plugin-1.6.1.tar.gz
+[2024-04-29 15:13:56] INFO root fetch - processPackages [c7n-oci]: Downloading https://files.pythonhosted.org/packages/cb/b6/043895e499c6c84a83bee527403fdf34ad92638e236d8230f980ba0426fe/c7n_oci-0.1.8-py3-none-any.whl
+[2024-04-29 15:13:56] INFO root fetch - processPackages [c7n-azure]: Downloading https://files.pythonhosted.org/packages/2f/c5/4e193e207591e855645adfb17946006c8e4986137b1f245bf5308f663019/c7n_azure-0.7.8-py3-none-any.whl
+[2024-04-29 15:13:56] INFO root fetch - processPackages [c7n-tencentcloud]: Downloading https://files.pythonhosted.org/packages/c1/b9/3645495088af7bb52df8a1b835740b59a3991650f71117b48b9b3a00cebc/c7n_tencentcloud-0.1.8-py3-none-any.whl
+[2024-04-29 15:13:56] INFO root fetch - processPackages [c7n-terraform]: Downloading https://files.pythonhosted.org/packages/70/31/4e88c4f31dae8b43c500cdda1b9d5cf9fb262e848d321247a896e4fa6f8f/c7n_terraform-0.1.8-py3-none-any.whl
+[2024-04-29 15:13:57] INFO root fetch - processPackages [c7n-sphinxext]: Downloading https://files.pythonhosted.org/packages/a9/fb/3f99aedddaf8625aa65f88174b8b034b5532a3931f2c3547fcb0616a4427/c7n_sphinxext-1.1.9-py3-none-any.whl
+[2024-04-29 15:13:57] INFO root fetch - processPackages [c7n-org]: Downloading https://files.pythonhosted.org/packages/0c/74/a3abb36dce87d14c4c3d22e00817b96c9784d0705c9e8fa81e2cf3e8d4f6/c7n_org-0.6.9-py3-none-any.whl
+[2024-04-29 15:13:57] INFO root fetch - processPackages [issx]: Downloading https://files.pythonhosted.org/packages/90/08/4399d1522d5e7515311b798576cdb9d1760e1ce2f40b991e3d723a838993/issx-0.5.2.tar.gz
+[2024-04-29 15:13:57] INFO root fetch - processPackages [netbox-docker-plugin]: Downloading https://files.pythonhosted.org/packages/19/95/6c2f0e8a6ad6000019dca9f2de263e1be1b369d6d4e822f65c28a27a4379/netbox_docker_plugin-1.6.2.tar.gz
+[2024-04-29 15:13:57] INFO root fetch - processPackages [c7n-awscc]: Downloading https://files.pythonhosted.org/packages/30/d8/1998a5b82faf253536e6124a52b08c27e018c2df3b873caa7ab287726ba0/c7n_awscc-0.1.9-py3-none-any.whl
+[2024-04-29 15:13:57] INFO root fetch - processPackages [c7n-trailcreator]: Downloading https://files.pythonhosted.org/packages/2a/3e/6fdb2a5e5d0eb79e0c6f3027dbea071264da14dae7c5cd9eb4983e81b6cc/c7n_trailcreator-0.2.9-py3-none-any.whl
+[2024-04-29 15:13:57] INFO root fetch - processPackages [c7n-oci]: Downloading https://files.pythonhosted.org/packages/b4/c3/ba4e65185949671f47acb895e04d81615aa9b3c55b0b50fd077c9abada1f/c7n_oci-0.1.9-py3-none-any.whl
+[2024-04-29 15:13:57] INFO root fetch - processPackages [c7n-azure]: Downloading https://files.pythonhosted.org/packages/9c/b5/995bc9ba0e9f7ae2ed0869121f6561f6b388b552882b6778c27863ba47d0/c7n_azure-0.7.9-py3-none-any.whl
+[2024-04-29 15:13:57] INFO root fetch - processPackages [c7n-sphinxext]: executing diffoscope
+[2024-04-29 15:13:57] INFO root fetch - processPackages [c7n-sphinxext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_sphinxext-1.1.8-py3-none-any.whl.zip tmp/c7n_sphinxext-1.1.9-py3-none-any.whl.zip --markdown 20240429/c/c7n-sphinxext/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-29 15:13:57] INFO root fetch - processPackages [c7n-tencentcloud]: Downloading https://files.pythonhosted.org/packages/2c/84/507fd6ca5475a26454f2cef64d577314ecf0e65a2f81783342f0d7beeee4/c7n_tencentcloud-0.1.9-py3-none-any.whl
+[2024-04-29 15:13:57] INFO root fetch - processPackages [c7n-org]: executing diffoscope
+[2024-04-29 15:13:57] INFO root fetch - processPackages [c7n-org]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_org-0.6.8-py3-none-any.whl.zip tmp/c7n_org-0.6.9-py3-none-any.whl.zip --markdown 20240429/c/c7n-org/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-04-29 15:13:57] INFO root fetch - processPackages [issx]: executing diffoscope
+[2024-04-29 15:13:57] INFO root fetch - processPackages [issx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/issx-0.5.1.tar.gz tmp/issx-0.5.2.tar.gz --markdown 20240429/i/issx/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-29 15:13:57] INFO root fetch - processPackages [c7n-terraform]: Downloading https://files.pythonhosted.org/packages/ee/1f/fb7c83b5c50eb6dea47ed48f5abe14540c8f85ee9ebcdade5210bb70bc1c/c7n_terraform-0.1.9-py3-none-any.whl
+[2024-04-29 15:13:57] INFO root fetch - processPackages [c7n-trailcreator]: executing diffoscope
+[2024-04-29 15:13:57] INFO root fetch - processPackages [c7n-trailcreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_trailcreator-0.2.8-py3-none-any.whl.zip tmp/c7n_trailcreator-0.2.9-py3-none-any.whl.zip --markdown 20240429/c/c7n-trailcreator/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-29 15:13:57] INFO root fetch - processPackages [netbox-docker-plugin]: executing diffoscope
+[2024-04-29 15:13:57] INFO root fetch - processPackages [netbox-docker-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_docker_plugin-1.6.1.tar.gz tmp/netbox_docker_plugin-1.6.2.tar.gz --markdown 20240429/n/netbox-docker-plugin/1.6.1-1.6.2/README.md --exclude *.pyd
+[2024-04-29 15:13:57] INFO root fetch - processPackages [c7n-oci]: executing diffoscope
+[2024-04-29 15:13:57] INFO root fetch - processPackages [c7n-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_oci-0.1.8-py3-none-any.whl.zip tmp/c7n_oci-0.1.9-py3-none-any.whl.zip --markdown 20240429/c/c7n-oci/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 15:13:57] INFO root fetch - processPackages [c7n-awscc]: executing diffoscope
+[2024-04-29 15:13:57] INFO root fetch - processPackages [c7n-azure]: executing diffoscope
+[2024-04-29 15:13:57] INFO root fetch - processPackages [c7n-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_azure-0.7.8-py3-none-any.whl.zip tmp/c7n_azure-0.7.9-py3-none-any.whl.zip --markdown 20240429/c/c7n-azure/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-29 15:13:57] INFO root fetch - processPackages [c7n-awscc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_awscc-0.1.8-py3-none-any.whl.zip tmp/c7n_awscc-0.1.9-py3-none-any.whl.zip --markdown 20240429/c/c7n-awscc/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 15:13:57] INFO root fetch - processPackages [c7n-tencentcloud]: executing diffoscope
+[2024-04-29 15:13:57] INFO root fetch - processPackages [c7n-tencentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_tencentcloud-0.1.8-py3-none-any.whl.zip tmp/c7n_tencentcloud-0.1.9-py3-none-any.whl.zip --markdown 20240429/c/c7n-tencentcloud/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 15:13:57] INFO root fetch - processPackages [c7n-terraform]: executing diffoscope
+[2024-04-29 15:13:57] INFO root fetch - processPackages [c7n-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_terraform-0.1.8-py3-none-any.whl.zip tmp/c7n_terraform-0.1.9-py3-none-any.whl.zip --markdown 20240429/c/c7n-terraform/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 15:13:58] INFO root fetch - processPackages [c7n-sphinxext]: Remove: archive file [/home/abi/fetcher/tmp/c7n_sphinxext-1.1.8-py3-none-any.whl.zip]
+[2024-04-29 15:13:58] INFO root fetch - processPackages [c7n-sphinxext]: Remove: archive file [/home/abi/fetcher/tmp/c7n_sphinxext-1.1.9-py3-none-any.whl.zip]
+[2024-04-29 15:13:58] INFO root fetch - processPackages [c7n-sphinxext]: Start processing: mxcubecore
+[2024-04-29 15:13:58] INFO root fetch - main [MainThread]: End processing [c7n-sphinxext]: success
+[2024-04-29 15:13:58] INFO root fetch - processPackages [issx]: Remove: archive file [/home/abi/fetcher/tmp/issx-0.5.1.tar.gz]
+[2024-04-29 15:13:58] INFO root fetch - processPackages [issx]: Remove: archive file [/home/abi/fetcher/tmp/issx-0.5.2.tar.gz]
+[2024-04-29 15:13:58] INFO root fetch - processPackages [issx]: Start processing: threedigrid-builder
+[2024-04-29 15:13:58] INFO root fetch - main [MainThread]: End processing [issx]: success
+[2024-04-29 15:13:58] INFO root fetch - processPackages [c7n-oci]: Remove: archive file [/home/abi/fetcher/tmp/c7n_oci-0.1.8-py3-none-any.whl.zip]
+[2024-04-29 15:13:58] INFO root fetch - processPackages [c7n-oci]: Remove: archive file [/home/abi/fetcher/tmp/c7n_oci-0.1.9-py3-none-any.whl.zip]
+[2024-04-29 15:13:58] INFO root fetch - processPackages [c7n-oci]: Start processing: GermGenie
+[2024-04-29 15:13:58] INFO root fetch - main [MainThread]: End processing [c7n-oci]: success
+[2024-04-29 15:13:58] INFO root fetch - processPackages [mxcubecore]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-29 15:13:58] INFO root fetch - processPackages [c7n-org]: Remove: archive file [/home/abi/fetcher/tmp/c7n_org-0.6.8-py3-none-any.whl.zip]
+[2024-04-29 15:13:58] INFO root fetch - processPackages [c7n-org]: Remove: archive file [/home/abi/fetcher/tmp/c7n_org-0.6.9-py3-none-any.whl.zip]
+[2024-04-29 15:13:58] INFO root fetch - processPackages [c7n-org]: Start processing: folkmq
+[2024-04-29 15:13:58] INFO root fetch - main [MainThread]: End processing [c7n-org]: success
+[2024-04-29 15:13:58] INFO root fetch - processPackages [threedigrid-builder]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-29 15:13:58] INFO root fetch - processPackages [c7n-terraform]: Remove: archive file [/home/abi/fetcher/tmp/c7n_terraform-0.1.8-py3-none-any.whl.zip]
+[2024-04-29 15:13:58] INFO root fetch - processPackages [c7n-terraform]: Remove: archive file [/home/abi/fetcher/tmp/c7n_terraform-0.1.9-py3-none-any.whl.zip]
+[2024-04-29 15:13:58] INFO root fetch - processPackages [c7n-terraform]: Start processing: zenlayercloud-sdk-python
+[2024-04-29 15:13:58] INFO root fetch - main [MainThread]: End processing [c7n-terraform]: success
+[2024-04-29 15:13:58] WARNING root fetch - processPackages [folkmq]: Skipping, unable to determine old version
+[2024-04-29 15:13:58] INFO root fetch - processPackages [folkmq]: Start processing: libpss-aws
+[2024-04-29 15:13:58] INFO root fetch - main [MainThread]: End processing [folkmq] error
+[2024-04-29 15:13:58] WARNING root fetch - processPackages [GermGenie]: Skipping, unable to determine old version
+[2024-04-29 15:13:58] INFO root fetch - processPackages [GermGenie]: Start processing: bent
+[2024-04-29 15:13:58] INFO root fetch - main [MainThread]: End processing [GermGenie] error
+[2024-04-29 15:13:58] INFO root fetch - processPackages [c7n-trailcreator]: Remove: archive file [/home/abi/fetcher/tmp/c7n_trailcreator-0.2.8-py3-none-any.whl.zip]
+[2024-04-29 15:13:58] INFO root fetch - processPackages [c7n-trailcreator]: Remove: archive file [/home/abi/fetcher/tmp/c7n_trailcreator-0.2.9-py3-none-any.whl.zip]
+[2024-04-29 15:13:58] INFO root fetch - processPackages [c7n-trailcreator]: Start processing: pymeteobridgesql
+[2024-04-29 15:13:58] INFO root fetch - main [MainThread]: End processing [c7n-trailcreator]: success
+[2024-04-29 15:13:58] INFO root fetch - processPackages [c7n-tencentcloud]: Remove: archive file [/home/abi/fetcher/tmp/c7n_tencentcloud-0.1.8-py3-none-any.whl.zip]
+[2024-04-29 15:13:58] INFO root fetch - processPackages [c7n-tencentcloud]: Remove: archive file [/home/abi/fetcher/tmp/c7n_tencentcloud-0.1.9-py3-none-any.whl.zip]
+[2024-04-29 15:13:58] INFO root fetch - processPackages [c7n-tencentcloud]: Start processing: pre-commit-update
+[2024-04-29 15:13:58] INFO root fetch - main [MainThread]: End processing [c7n-tencentcloud]: success
+[2024-04-29 15:13:58] INFO root fetch - processPackages [libpss-aws]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-29 15:13:58] INFO root fetch - processPackages [netbox-docker-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox_docker_plugin-1.6.1.tar.gz]
+[2024-04-29 15:13:58] INFO root fetch - processPackages [netbox-docker-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox_docker_plugin-1.6.2.tar.gz]
+[2024-04-29 15:13:58] INFO root fetch - processPackages [netbox-docker-plugin]: Start processing: tossnturn
+[2024-04-29 15:13:58] INFO root fetch - main [MainThread]: End processing [netbox-docker-plugin]: success
+[2024-04-29 15:13:58] INFO root fetch - processPackages [bent]: New version: [0.0.9] Old Version: [0.0.35]
+[2024-04-29 15:13:58] INFO root fetch - processPackages [mxcubecore]: Downloading https://files.pythonhosted.org/packages/ca/26/d71bc00e5725764636053f8b78cb971b65641284331f42c0496031835f69/mxcubecore-1.98.0.tar.gz
+[2024-04-29 15:13:58] INFO root fetch - processPackages [zenlayercloud-sdk-python]: New version: [2.0.7] Old Version: [2.0.5]
+[2024-04-29 15:13:58] INFO root fetch - processPackages [pre-commit-update]: New version: [0.3.1.post0] Old Version: [0.3.1]
+[2024-04-29 15:13:58] INFO root fetch - processPackages [threedigrid-builder]: Downloading https://files.pythonhosted.org/packages/2c/e1/9e264cac9dd3136894d0343e718af980cb8a07cf16a29809269d6ad4546f/threedigrid-builder-1.8.0.tar.gz
+[2024-04-29 15:13:58] INFO root fetch - processPackages [c7n-azure]: Remove: archive file [/home/abi/fetcher/tmp/c7n_azure-0.7.8-py3-none-any.whl.zip]
+[2024-04-29 15:13:58] INFO root fetch - processPackages [c7n-azure]: Remove: archive file [/home/abi/fetcher/tmp/c7n_azure-0.7.9-py3-none-any.whl.zip]
+[2024-04-29 15:13:58] INFO root fetch - processPackages [c7n-azure]: Start processing: ir-datasets
+[2024-04-29 15:13:58] INFO root fetch - main [MainThread]: End processing [c7n-azure]: success
+[2024-04-29 15:13:58] INFO root fetch - processPackages [pymeteobridgesql]: New version: [1.2.0] Old Version: [1.1.7]
+[2024-04-29 15:13:58] INFO root fetch - processPackages [libpss-aws]: Downloading https://files.pythonhosted.org/packages/01/81/56491f1bc145f9213e68a00d10b5a2f63f642d8944d3e692aef9578b627a/libpss_aws-0.1.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-29 15:13:58] WARNING root fetch - processPackages [mxcubecore]: Skipping package: exceeds size limit 30978471>=10485760
+[2024-04-29 15:13:58] INFO root fetch - processPackages [mxcubecore]: Start processing: cat-win
+[2024-04-29 15:13:58] INFO root fetch - main [MainThread]: End processing [mxcubecore] error
+[2024-04-29 15:13:59] WARNING root fetch - processPackages [tossnturn]: Skipping, unable to determine old version
+[2024-04-29 15:13:59] INFO root fetch - processPackages [tossnturn]: Start processing: module-collecter
+[2024-04-29 15:13:59] INFO root fetch - main [MainThread]: End processing [tossnturn] error
+[2024-04-29 15:13:59] INFO root fetch - processPackages [bent]: Downloading https://files.pythonhosted.org/packages/9c/f4/1a2ff7b1a81c907ace8568f51bbf97a0f90268e15abdef3a3b57709c5a60/bent-0.0.35.tar.gz
+[2024-04-29 15:13:59] INFO root fetch - processPackages [ir-datasets]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-04-29 15:13:59] INFO root fetch - processPackages [pre-commit-update]: Downloading https://files.pythonhosted.org/packages/57/ba/e8a47db7df0b871f472a03a78c58eba2e6dada0b86da0f44e0bd75123cf2/pre_commit_update-0.3.1.tar.gz
+[2024-04-29 15:13:59] INFO root fetch - processPackages [zenlayercloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/b1/76/7b579bf3818f94d40a86defc90431092b47b67d9af932f59ab885c15ab4d/zenlayercloud-sdk-python-2.0.5.tar.gz
+[2024-04-29 15:13:59] INFO root fetch - processPackages [cat-win]: New version: [1.7.8] Old Version: [1.7.7]
+[2024-04-29 15:13:59] WARNING root fetch - processPackages [module-collecter]: Skipping, unable to determine old version
+[2024-04-29 15:13:59] INFO root fetch - processPackages [module-collecter]: Start processing: enkanetworkv2.py
+[2024-04-29 15:13:59] INFO root fetch - main [MainThread]: End processing [module-collecter] error
+[2024-04-29 15:13:59] INFO root fetch - processPackages [pymeteobridgesql]: Downloading https://files.pythonhosted.org/packages/2f/e5/cf2f8959a33c17eaafe9a6ef32be8df70250f4cac8d4322736379036137a/pymeteobridgesql-1.1.7.tar.gz
+[2024-04-29 15:13:59] INFO root fetch - processPackages [c7n-awscc]: Remove: archive file [/home/abi/fetcher/tmp/c7n_awscc-0.1.8-py3-none-any.whl.zip]
+[2024-04-29 15:13:59] INFO root fetch - processPackages [c7n-awscc]: Remove: archive file [/home/abi/fetcher/tmp/c7n_awscc-0.1.9-py3-none-any.whl.zip]
+[2024-04-29 15:13:59] INFO root fetch - processPackages [c7n-awscc]: Start processing: envoy.code.check
+[2024-04-29 15:13:59] INFO root fetch - main [MainThread]: End processing [c7n-awscc]: success
+[2024-04-29 15:13:59] INFO root fetch - processPackages [envoy.code.check]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-29 15:13:59] INFO root fetch - processPackages [ir-datasets]: Downloading https://files.pythonhosted.org/packages/a2/12/21ee743cfc3f6db7161222ab231af870fabb7c2796b4b305848c1b48e58a/ir_datasets-0.5.6.tar.gz
+[2024-04-29 15:13:59] INFO root fetch - processPackages [enkanetworkv2.py]: New version: [2.1.0] Old Version: [2.0.9]
+[2024-04-29 15:13:59] INFO root fetch - processPackages [threedigrid-builder]: Downloading https://files.pythonhosted.org/packages/6b/de/d4fa81887befd3d08d5cf0d124803d3d142dbde109c6825cae8b8eb896e7/threedigrid-builder-1.9.0.tar.gz
+[2024-04-29 15:13:59] INFO root fetch - processPackages [bent]: Downloading https://files.pythonhosted.org/packages/90/0b/e90bc1c1cde3dc26fe2b1f4a0648bdbf77fa5cd447091e4accd93b6ce8bb/bent-0.0.9.tar.gz
+[2024-04-29 15:13:59] INFO root fetch - processPackages [cat-win]: Downloading https://files.pythonhosted.org/packages/b7/56/a03d858b85f8cb7b99e69355ba9c1b701ccf1f3d3c2a04a93eac36ba28a8/cat_win-1.7.7-py3-none-any.whl
+[2024-04-29 15:13:59] INFO root fetch - processPackages [pre-commit-update]: Downloading https://files.pythonhosted.org/packages/53/d9/19880b6f779be551fd7ff70ac493006af319a8f73672f137671713386778/pre_commit_update-0.3.1.post0.tar.gz
+[2024-04-29 15:13:59] INFO root fetch - processPackages [envoy.code.check]: Downloading https://files.pythonhosted.org/packages/5a/5e/5ce2a0673bf1d8e20be565deb823c3026841019ac388b4dc6cfe10699264/envoy.code.check-0.5.8.tar.gz
+[2024-04-29 15:13:59] INFO root fetch - processPackages [zenlayercloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/cc/ec/265324a506d2dce90f4184e2ec84de819b3c0f7592aed148cc667d50f318/zenlayercloud_sdk_python-2.0.7.tar.gz
+[2024-04-29 15:13:59] INFO root fetch - processPackages [bent]: executing diffoscope
+[2024-04-29 15:13:59] INFO root fetch - processPackages [bent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bent-0.0.35.tar.gz tmp/bent-0.0.9.tar.gz --markdown 20240429/b/bent/0.0.35-0.0.9/README.md --exclude *.pyd
+[2024-04-29 15:13:59] INFO root fetch - processPackages [threedigrid-builder]: executing diffoscope
+[2024-04-29 15:13:59] INFO root fetch - processPackages [threedigrid-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threedigrid-builder-1.8.0.tar.gz tmp/threedigrid-builder-1.9.0.tar.gz --markdown 20240429/t/threedigrid-builder/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-29 15:13:59] INFO root fetch - processPackages [pre-commit-update]: executing diffoscope
+[2024-04-29 15:13:59] INFO root fetch - processPackages [pre-commit-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre_commit_update-0.3.1.tar.gz tmp/pre_commit_update-0.3.1.post0.tar.gz --markdown 20240429/p/pre-commit-update/0.3.1-0.3.1.post0/README.md --exclude *.pyd
+[2024-04-29 15:13:59] INFO root fetch - processPackages [enkanetworkv2.py]: Downloading https://files.pythonhosted.org/packages/f9/84/b42c5de145a75408dde666fb2a7d9c92e01db5a56f67a022b4bfa99e2939/enkanetworkv2.py-2.0.9.tar.gz
+[2024-04-29 15:13:59] INFO root fetch - processPackages [pymeteobridgesql]: Downloading https://files.pythonhosted.org/packages/13/07/08ff15af42eea693dacbce03698bb0dcda5c2947f606445bcda16a5296d6/pymeteobridgesql-1.2.0.tar.gz
+[2024-04-29 15:13:59] INFO root fetch - processPackages [libpss-aws]: Downloading https://files.pythonhosted.org/packages/23/56/739833178cb5202ef7ee12c0b6b560ecb0926df7484a0bc3560ad94e8bd3/libpss_aws-0.2.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-29 15:13:59] INFO root fetch - processPackages [zenlayercloud-sdk-python]: executing diffoscope
+[2024-04-29 15:13:59] INFO root fetch - processPackages [zenlayercloud-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenlayercloud-sdk-python-2.0.5.tar.gz tmp/zenlayercloud_sdk_python-2.0.7.tar.gz --markdown 20240429/z/zenlayercloud-sdk-python/2.0.5-2.0.7/README.md --exclude *.pyd
+[2024-04-29 15:13:59] INFO root fetch - processPackages [envoy.code.check]: Downloading https://files.pythonhosted.org/packages/7f/65/9d66e3cff437151adb3a5ad9c3fbbfaed09964011e87cb08458d5425c8b3/envoy.code.check-0.5.9.tar.gz
+[2024-04-29 15:13:59] INFO root fetch - processPackages [ir-datasets]: Downloading https://files.pythonhosted.org/packages/75/15/56b56a4f16d5c93e84cfb5421921005f0cf6e8105dbef7f3a317225ce033/ir_datasets-0.5.7.tar.gz
+[2024-04-29 15:13:59] INFO root fetch - processPackages [pymeteobridgesql]: executing diffoscope
+[2024-04-29 15:13:59] INFO root fetch - processPackages [pymeteobridgesql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymeteobridgesql-1.1.7.tar.gz tmp/pymeteobridgesql-1.2.0.tar.gz --markdown 20240429/p/pymeteobridgesql/1.1.7-1.2.0/README.md --exclude *.pyd
+[2024-04-29 15:13:59] INFO root fetch - processPackages [cat-win]: Downloading https://files.pythonhosted.org/packages/a3/9a/485b64a62801e3d47d56bcae04bbd041fd12c36f1b071f96e22fbcf6b4dd/cat_win-1.7.8-py3-none-any.whl
+[2024-04-29 15:13:59] INFO root fetch - processPackages [envoy.code.check]: executing diffoscope
+[2024-04-29 15:13:59] INFO root fetch - processPackages [envoy.code.check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envoy.code.check-0.5.8.tar.gz tmp/envoy.code.check-0.5.9.tar.gz --markdown 20240429/e/envoy.code.check/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-29 15:13:59] INFO root fetch - processPackages [ir-datasets]: executing diffoscope
+[2024-04-29 15:13:59] INFO root fetch - processPackages [ir-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ir_datasets-0.5.6.tar.gz tmp/ir_datasets-0.5.7.tar.gz --markdown 20240429/i/ir-datasets/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-04-29 15:14:00] INFO root fetch - processPackages [cat-win]: executing diffoscope
+[2024-04-29 15:14:00] INFO root fetch - processPackages [cat-win]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cat_win-1.7.7-py3-none-any.whl.zip tmp/cat_win-1.7.8-py3-none-any.whl.zip --markdown 20240429/c/cat-win/1.7.7-1.7.8/README.md --exclude *.pyd
+[2024-04-29 15:14:00] INFO root fetch - processPackages [enkanetworkv2.py]: Downloading https://files.pythonhosted.org/packages/65/d3/7f21adc05c283493bbc022c5006526c659ad6967149d48e5a1b9a484c0f3/enkanetworkv2.py-2.1.0.tar.gz
+[2024-04-29 15:14:00] INFO root fetch - processPackages [libpss-aws]: executing diffoscope
+[2024-04-29 15:14:00] INFO root fetch - processPackages [libpss-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libpss_aws-0.1.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/libpss_aws-0.2.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240429/l/libpss-aws/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-29 15:14:00] INFO root fetch - processPackages [enkanetworkv2.py]: executing diffoscope
+[2024-04-29 15:14:00] INFO root fetch - processPackages [enkanetworkv2.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enkanetworkv2.py-2.0.9.tar.gz tmp/enkanetworkv2.py-2.1.0.tar.gz --markdown 20240429/e/enkanetworkv2.py/2.0.9-2.1.0/README.md --exclude *.pyd
+[2024-04-29 15:14:00] INFO root fetch - processPackages [bent]: Remove: archive file [/home/abi/fetcher/tmp/bent-0.0.35.tar.gz]
+[2024-04-29 15:14:00] INFO root fetch - processPackages [bent]: Remove: archive file [/home/abi/fetcher/tmp/bent-0.0.9.tar.gz]
+[2024-04-29 15:14:00] INFO root fetch - processPackages [bent]: Start processing: tucavoc
+[2024-04-29 15:14:00] INFO root fetch - main [MainThread]: End processing [bent]: success
+[2024-04-29 15:14:00] INFO root fetch - processPackages [pre-commit-update]: Remove: archive file [/home/abi/fetcher/tmp/pre_commit_update-0.3.1.tar.gz]
+[2024-04-29 15:14:00] INFO root fetch - processPackages [pre-commit-update]: Remove: archive file [/home/abi/fetcher/tmp/pre_commit_update-0.3.1.post0.tar.gz]
+[2024-04-29 15:14:00] INFO root fetch - main [MainThread]: End processing [pre-commit-update]: success
+[2024-04-29 15:14:00] INFO root fetch - processPackages [tucavoc]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-29 15:14:01] INFO root fetch - processPackages [pymeteobridgesql]: Remove: archive file [/home/abi/fetcher/tmp/pymeteobridgesql-1.1.7.tar.gz]
+[2024-04-29 15:14:01] INFO root fetch - processPackages [pymeteobridgesql]: Remove: archive file [/home/abi/fetcher/tmp/pymeteobridgesql-1.2.0.tar.gz]
+[2024-04-29 15:14:01] INFO root fetch - processPackages [zenlayercloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/zenlayercloud-sdk-python-2.0.5.tar.gz]
+[2024-04-29 15:14:01] INFO root fetch - processPackages [zenlayercloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/zenlayercloud_sdk_python-2.0.7.tar.gz]
+[2024-04-29 15:14:01] INFO root fetch - main [MainThread]: End processing [pymeteobridgesql]: success
+[2024-04-29 15:14:01] INFO root fetch - main [MainThread]: End processing [zenlayercloud-sdk-python]: success
+[2024-04-29 15:14:01] INFO root fetch - processPackages [envoy.code.check]: Remove: archive file [/home/abi/fetcher/tmp/envoy.code.check-0.5.8.tar.gz]
+[2024-04-29 15:14:01] INFO root fetch - processPackages [envoy.code.check]: Remove: archive file [/home/abi/fetcher/tmp/envoy.code.check-0.5.9.tar.gz]
+[2024-04-29 15:14:01] INFO root fetch - main [MainThread]: End processing [envoy.code.check]: success
+[2024-04-29 15:14:01] INFO root fetch - processPackages [tucavoc]: Downloading https://files.pythonhosted.org/packages/57/37/a756d7c1944332be3e899f389a0de5ef6089f384fa8967d1b5449cf6a695/tucavoc-0.0.1.tar.gz
+[2024-04-29 15:14:01] INFO root fetch - processPackages [threedigrid-builder]: Remove: archive file [/home/abi/fetcher/tmp/threedigrid-builder-1.8.0.tar.gz]
+[2024-04-29 15:14:01] INFO root fetch - processPackages [threedigrid-builder]: Remove: archive file [/home/abi/fetcher/tmp/threedigrid-builder-1.9.0.tar.gz]
+[2024-04-29 15:14:01] INFO root fetch - main [MainThread]: End processing [threedigrid-builder]: success
+[2024-04-29 15:14:01] INFO root fetch - processPackages [cat-win]: Remove: archive file [/home/abi/fetcher/tmp/cat_win-1.7.7-py3-none-any.whl.zip]
+[2024-04-29 15:14:01] INFO root fetch - processPackages [cat-win]: Remove: archive file [/home/abi/fetcher/tmp/cat_win-1.7.8-py3-none-any.whl.zip]
+[2024-04-29 15:14:01] INFO root fetch - main [MainThread]: End processing [cat-win]: success
+[2024-04-29 15:14:01] INFO root fetch - processPackages [ir-datasets]: Remove: archive file [/home/abi/fetcher/tmp/ir_datasets-0.5.6.tar.gz]
+[2024-04-29 15:14:01] INFO root fetch - processPackages [ir-datasets]: Remove: archive file [/home/abi/fetcher/tmp/ir_datasets-0.5.7.tar.gz]
+[2024-04-29 15:14:01] INFO root fetch - main [MainThread]: End processing [ir-datasets]: success
+[2024-04-29 15:14:02] INFO root fetch - processPackages [tucavoc]: Downloading https://files.pythonhosted.org/packages/e1/fa/d1be038b7e43ff19f73ffe3077ca6d18b303f27d4f721e62e4cb12d9eb8a/tucavoc-0.0.2.tar.gz
+[2024-04-29 15:14:02] INFO root fetch - processPackages [enkanetworkv2.py]: Remove: archive file [/home/abi/fetcher/tmp/enkanetworkv2.py-2.0.9.tar.gz]
+[2024-04-29 15:14:02] INFO root fetch - processPackages [enkanetworkv2.py]: Remove: archive file [/home/abi/fetcher/tmp/enkanetworkv2.py-2.1.0.tar.gz]
+[2024-04-29 15:14:02] INFO root fetch - main [MainThread]: End processing [enkanetworkv2.py]: success
+[2024-04-29 15:14:02] INFO root fetch - processPackages [tucavoc]: executing diffoscope
+[2024-04-29 15:14:02] INFO root fetch - processPackages [tucavoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tucavoc-0.0.1.tar.gz tmp/tucavoc-0.0.2.tar.gz --markdown 20240429/t/tucavoc/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-29 15:14:03] INFO root fetch - processPackages [tucavoc]: Remove: archive file [/home/abi/fetcher/tmp/tucavoc-0.0.1.tar.gz]
+[2024-04-29 15:14:03] INFO root fetch - processPackages [tucavoc]: Remove: archive file [/home/abi/fetcher/tmp/tucavoc-0.0.2.tar.gz]
+[2024-04-29 15:14:03] INFO root fetch - main [MainThread]: End processing [tucavoc]: success
+[2024-04-29 15:15:20] INFO root fetch - processPackages [libpss-aws]: Remove: archive file [/home/abi/fetcher/tmp/libpss_aws-0.1.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-29 15:15:20] INFO root fetch - processPackages [libpss-aws]: Remove: archive file [/home/abi/fetcher/tmp/libpss_aws-0.2.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-29 15:15:20] INFO root fetch - main [MainThread]: End processing [libpss-aws]: success
+[2024-04-29 15:15:20] INFO root fetch - main [MainThread]: Store serial: [22983958]
