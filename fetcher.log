@@ -10317,3 +10317,45 @@
 [2024-04-29 08:57:18] INFO root fetch - processPackages [IslandSheds]: Remove: archive file [/home/abi/fetcher/tmp/islandsheds-0.0.21.tar.gz]
 [2024-04-29 08:57:18] INFO root fetch - main [MainThread]: End processing [IslandSheds]: success
 [2024-04-29 08:57:18] INFO root fetch - main [MainThread]: Store serial: [22979720]
+[2024-04-29 08:59:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979720]
+[2024-04-29 08:59:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-29 08:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: y0
+[2024-04-29 08:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rippling-flux-sdk
+[2024-04-29 08:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: date-guessser
+[2024-04-29 08:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RIAssigner
+[2024-04-29 08:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jetline
+[2024-04-29 08:59:27] INFO root fetch - processPackages [jetline]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 08:59:27] ERROR root fetch - processPackages [date-guessser]: Unable to get metadata: No such project 'date-guessser'
+[2024-04-29 08:59:27] INFO root fetch - main [MainThread]: End processing [date-guessser] error
+[2024-04-29 08:59:27] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/14/d7/4b17ee6567b17ad4eec9a6e6ceded1190275544e45e07f7b10971d03dc9f/jetline-0.1.8.tar.gz
+[2024-04-29 08:59:27] INFO root fetch - processPackages [rippling-flux-sdk]: New version: [0.9.27] Old Version: [0.9.26]
+[2024-04-29 08:59:27] INFO root fetch - processPackages [y0]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-29 08:59:27] INFO root fetch - processPackages [RIAssigner]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-29 08:59:28] INFO root fetch - processPackages [rippling-flux-sdk]: Downloading https://files.pythonhosted.org/packages/0f/9d/f4cd2d2adeaab6fdd684b7eaf8d691c14ca1bef27a4a2790c5e7e06cfff6/rippling_flux_sdk-0.9.26.tar.gz
+[2024-04-29 08:59:28] INFO root fetch - processPackages [y0]: Downloading https://files.pythonhosted.org/packages/7f/9b/0d2230067d1e5240a1f9b413d0151e69115a9948190cdcd83f44af63543a/y0-0.2.8.tar.gz
+[2024-04-29 08:59:28] INFO root fetch - processPackages [RIAssigner]: Downloading https://files.pythonhosted.org/packages/cb/29/0138e72a4c80f3f5e3df31d14e0cead59e900c636256208ff4b000d987a8/riassigner-0.4.0.tar.gz
+[2024-04-29 08:59:28] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/e3/52/ee8efe5ee3940966b4c7e8b471dd88336c2950833a0dd4b4854cce8f181b/jetline-0.1.9.tar.gz
+[2024-04-29 08:59:28] INFO root fetch - processPackages [jetline]: executing diffoscope
+[2024-04-29 08:59:28] INFO root fetch - processPackages [jetline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetline-0.1.8.tar.gz tmp/jetline-0.1.9.tar.gz --markdown 20240429/j/jetline/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 08:59:28] INFO root fetch - processPackages [rippling-flux-sdk]: Downloading https://files.pythonhosted.org/packages/94/03/093a310cfb4ff2c4b673f26d4895395ebf647cc4efa7d58bf63c31013fed/rippling_flux_sdk-0.9.27.tar.gz
+[2024-04-29 08:59:28] INFO root fetch - processPackages [RIAssigner]: Downloading https://files.pythonhosted.org/packages/49/02/a0c12630c167a4ab82b0f414ad5233e1d54374b273cde4a26ed47226d89e/riassigner-0.4.1.tar.gz
+[2024-04-29 08:59:28] INFO root fetch - processPackages [y0]: Downloading https://files.pythonhosted.org/packages/5d/f4/bed7fc447d3d0b55ff296bc2b7f7dc967d555ec529c90f917aa95111fba8/y0-0.2.9.tar.gz
+[2024-04-29 08:59:28] INFO root fetch - processPackages [rippling-flux-sdk]: executing diffoscope
+[2024-04-29 08:59:28] INFO root fetch - processPackages [rippling-flux-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rippling_flux_sdk-0.9.26.tar.gz tmp/rippling_flux_sdk-0.9.27.tar.gz --markdown 20240429/r/rippling-flux-sdk/0.9.26-0.9.27/README.md --exclude *.pyd
+[2024-04-29 08:59:28] INFO root fetch - processPackages [RIAssigner]: executing diffoscope
+[2024-04-29 08:59:28] INFO root fetch - processPackages [RIAssigner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riassigner-0.4.0.tar.gz tmp/riassigner-0.4.1.tar.gz --markdown 20240429/R/RIAssigner/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-29 08:59:28] INFO root fetch - processPackages [y0]: executing diffoscope
+[2024-04-29 08:59:28] INFO root fetch - processPackages [y0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/y0-0.2.8.tar.gz tmp/y0-0.2.9.tar.gz --markdown 20240429/y/y0/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-29 08:59:28] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.1.8.tar.gz]
+[2024-04-29 08:59:28] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.1.9.tar.gz]
+[2024-04-29 08:59:28] INFO root fetch - main [MainThread]: End processing [jetline]: success
+[2024-04-29 08:59:29] INFO root fetch - processPackages [rippling-flux-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rippling_flux_sdk-0.9.26.tar.gz]
+[2024-04-29 08:59:29] INFO root fetch - processPackages [rippling-flux-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rippling_flux_sdk-0.9.27.tar.gz]
+[2024-04-29 08:59:29] INFO root fetch - main [MainThread]: End processing [rippling-flux-sdk]: success
+[2024-04-29 08:59:29] INFO root fetch - processPackages [RIAssigner]: Remove: archive file [/home/abi/fetcher/tmp/riassigner-0.4.0.tar.gz]
+[2024-04-29 08:59:29] INFO root fetch - processPackages [RIAssigner]: Remove: archive file [/home/abi/fetcher/tmp/riassigner-0.4.1.tar.gz]
+[2024-04-29 08:59:29] INFO root fetch - main [MainThread]: End processing [RIAssigner]: success
+[2024-04-29 08:59:29] INFO root fetch - processPackages [y0]: Remove: archive file [/home/abi/fetcher/tmp/y0-0.2.8.tar.gz]
+[2024-04-29 08:59:29] INFO root fetch - processPackages [y0]: Remove: archive file [/home/abi/fetcher/tmp/y0-0.2.9.tar.gz]
+[2024-04-29 08:59:29] INFO root fetch - main [MainThread]: End processing [y0]: success
+[2024-04-29 08:59:29] INFO root fetch - main [MainThread]: Store serial: [22979738]
