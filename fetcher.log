@@ -1231,3 +1231,65 @@
 [2024-04-29 02:08:17] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
 [2024-04-29 02:08:17] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2024-04-29 02:08:17] INFO root fetch - main [MainThread]: Store serial: [22971698]
+[2024-04-29 02:10:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971698]
+[2024-04-29 02:10:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-29 02:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-common
+[2024-04-29 02:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-amazon-chime-resources
+[2024-04-29 02:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BioSAK
+[2024-04-29 02:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: came-domotic-unofficial
+[2024-04-29 02:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: parcllabs
+[2024-04-29 02:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openbb-nightly
+[2024-04-29 02:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: passive-honeypot
+[2024-04-29 02:10:27] INFO root fetch - processPackages [came-domotic-unofficial]: New version: [1.0.0rc8] Old Version: [1.0.0rc7]
+[2024-04-29 02:10:27] INFO root fetch - processPackages [passive-honeypot]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-29 02:10:27] INFO root fetch - processPackages [BioSAK]: New version: [1.86.2] Old Version: [1.86.1]
+[2024-04-29 02:10:27] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-29 02:10:27] INFO root fetch - processPackages [openbb-nightly]: New version: [4.1.7.dev202404280011] Old Version: [4.1.7.dev202404270009]
+[2024-04-29 02:10:27] INFO root fetch - processPackages [parcllabs]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-29 02:10:27] INFO root fetch - processPackages [cdk-amazon-chime-resources]: New version: [3.2.8] Old Version: [3.2.7]
+[2024-04-29 02:10:27] INFO root fetch - processPackages [passive-honeypot]: Downloading https://files.pythonhosted.org/packages/63/a8/86bc3a4bf5a7d589ebc10ae959815fd220fd43d3ad06b619f39c18d39109/passive_honeypot-0.1.1.tar.gz
+[2024-04-29 02:10:27] INFO root fetch - processPackages [came-domotic-unofficial]: Downloading https://files.pythonhosted.org/packages/8f/a8/dad4cf74dcdcbd9e6522cebe1dd88f3c7b29e975743dfc12863bbc067839/came_domotic_unofficial-1.0.0rc7.tar.gz
+[2024-04-29 02:10:27] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/e8/d6/f897410a07ada841c5e3327cdcb5b7eaf2bf4c10abe917167818494ad36f/BioSAK-1.86.1.tar.gz
+[2024-04-29 02:10:27] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-04-29 02:10:27] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/76/3c/1645e742924de7277f6410ac50d8729b4088bc6dbd4f1c0cb11f0504c990/openbb_nightly-4.1.7.dev202404270009.tar.gz
+[2024-04-29 02:10:27] INFO root fetch - processPackages [parcllabs]: Downloading https://files.pythonhosted.org/packages/c2/12/3aa2e49221545dafe9d0b250040eef10a78c1ba9be16c5b6cb8e1098da24/parcllabs-0.1.7.tar.gz
+[2024-04-29 02:10:27] INFO root fetch - processPackages [cdk-amazon-chime-resources]: Downloading https://files.pythonhosted.org/packages/5f/65/82885762e73f20dc59145502f2d302b09659cfe07f7b602d43139bece53e/cdk-amazon-chime-resources-3.2.7.tar.gz
+[2024-04-29 02:10:27] WARNING root fetch - processPackages [cdk-amazon-chime-resources]: Skipping package: exceeds size limit 15422631>=10485760
+[2024-04-29 02:10:27] INFO root fetch - main [MainThread]: End processing [cdk-amazon-chime-resources] error
+[2024-04-29 02:10:27] INFO root fetch - processPackages [passive-honeypot]: Downloading https://files.pythonhosted.org/packages/73/2b/5b36ed4c0a114c64f10a1f07c97220abf0499b9194072b354d81b909260d/passive_honeypot-0.1.2.tar.gz
+[2024-04-29 02:10:27] INFO root fetch - processPackages [came-domotic-unofficial]: Downloading https://files.pythonhosted.org/packages/56/db/a922ffb6c60188e7d3784dd620aef483ad4c07acc9d385fa43d16dcadfdf/came_domotic_unofficial-1.0.0rc8.tar.gz
+[2024-04-29 02:10:28] INFO root fetch - processPackages [parcllabs]: Downloading https://files.pythonhosted.org/packages/4b/a7/9060c070fcbeed0ac71fb0b49e67b6162c4027ec3296ac7d9595c1654294/parcllabs-0.1.8.tar.gz
+[2024-04-29 02:10:28] INFO root fetch - processPackages [came-domotic-unofficial]: executing diffoscope
+[2024-04-29 02:10:28] INFO root fetch - processPackages [came-domotic-unofficial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/came_domotic_unofficial-1.0.0rc7.tar.gz tmp/came_domotic_unofficial-1.0.0rc8.tar.gz --markdown 20240429/c/came-domotic-unofficial/1.0.0rc7-1.0.0rc8/README.md --exclude *.pyd
+[2024-04-29 02:10:28] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/0d/48/e3ff3fef7084988fce2fc8e5f8c0f580e1ac4a9651f04f56707a06ae2850/BioSAK-1.86.2.tar.gz
+[2024-04-29 02:10:28] INFO root fetch - processPackages [passive-honeypot]: executing diffoscope
+[2024-04-29 02:10:28] INFO root fetch - processPackages [passive-honeypot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/passive_honeypot-0.1.1.tar.gz tmp/passive_honeypot-0.1.2.tar.gz --markdown 20240429/p/passive-honeypot/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-29 02:10:28] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-04-29 02:10:28] INFO root fetch - processPackages [parcllabs]: executing diffoscope
+[2024-04-29 02:10:28] INFO root fetch - processPackages [parcllabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parcllabs-0.1.7.tar.gz tmp/parcllabs-0.1.8.tar.gz --markdown 20240429/p/parcllabs/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-29 02:10:28] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/5c/9d/2f77fadf78b25c9f4f1b563806587eeee8d7e43196d4b3e38c663a45c21c/openbb_nightly-4.1.7.dev202404280011.tar.gz
+[2024-04-29 02:10:28] INFO root fetch - processPackages [BioSAK]: executing diffoscope
+[2024-04-29 02:10:28] INFO root fetch - processPackages [BioSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BioSAK-1.86.1.tar.gz tmp/BioSAK-1.86.2.tar.gz --markdown 20240429/B/BioSAK/1.86.1-1.86.2/README.md --exclude *.pyd
+[2024-04-29 02:10:28] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-04-29 02:10:28] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240429/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-29 02:10:28] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2024-04-29 02:10:28] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-4.1.7.dev202404270009.tar.gz tmp/openbb_nightly-4.1.7.dev202404280011.tar.gz --markdown 20240429/o/openbb-nightly/4.1.7.dev202404270009-4.1.7.dev202404280011/README.md --exclude *.pyd
+[2024-04-29 02:10:28] INFO root fetch - processPackages [passive-honeypot]: Remove: archive file [/home/abi/fetcher/tmp/passive_honeypot-0.1.1.tar.gz]
+[2024-04-29 02:10:28] INFO root fetch - processPackages [passive-honeypot]: Remove: archive file [/home/abi/fetcher/tmp/passive_honeypot-0.1.2.tar.gz]
+[2024-04-29 02:10:28] INFO root fetch - main [MainThread]: End processing [passive-honeypot]: success
+[2024-04-29 02:10:28] INFO root fetch - processPackages [came-domotic-unofficial]: Remove: archive file [/home/abi/fetcher/tmp/came_domotic_unofficial-1.0.0rc7.tar.gz]
+[2024-04-29 02:10:28] INFO root fetch - processPackages [came-domotic-unofficial]: Remove: archive file [/home/abi/fetcher/tmp/came_domotic_unofficial-1.0.0rc8.tar.gz]
+[2024-04-29 02:10:28] INFO root fetch - main [MainThread]: End processing [came-domotic-unofficial]: success
+[2024-04-29 02:10:28] INFO root fetch - processPackages [parcllabs]: Remove: archive file [/home/abi/fetcher/tmp/parcllabs-0.1.7.tar.gz]
+[2024-04-29 02:10:28] INFO root fetch - processPackages [parcllabs]: Remove: archive file [/home/abi/fetcher/tmp/parcllabs-0.1.8.tar.gz]
+[2024-04-29 02:10:28] INFO root fetch - main [MainThread]: End processing [parcllabs]: success
+[2024-04-29 02:10:29] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-04-29 02:10:29] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-04-29 02:10:29] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-04-29 02:10:29] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.86.1.tar.gz]
+[2024-04-29 02:10:29] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.86.2.tar.gz]
+[2024-04-29 02:10:29] INFO root fetch - main [MainThread]: End processing [BioSAK]: success
+[2024-04-29 02:10:31] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202404270009.tar.gz]
+[2024-04-29 02:10:31] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202404280011.tar.gz]
+[2024-04-29 02:10:31] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2024-04-29 02:10:31] INFO root fetch - main [MainThread]: Store serial: [22971721]
