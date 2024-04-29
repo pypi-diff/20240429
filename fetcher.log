@@ -16608,3 +16608,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 13:06:08] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
 [2024-04-29 13:06:08] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-04-29 13:06:08] INFO root fetch - main [MainThread]: Store serial: [22982403]
+[2024-04-29 13:08:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982403]
+[2024-04-29 13:08:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-29 13:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nwb4fp
+[2024-04-29 13:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: json-strong-typing
+[2024-04-29 13:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spai
+[2024-04-29 13:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cmsis-stream
+[2024-04-29 13:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ixoncdkingress
+[2024-04-29 13:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spider-client
+[2024-04-29 13:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grrph
+[2024-04-29 13:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cognitrix
+[2024-04-29 13:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reportbro-fpdf2
+[2024-04-29 13:08:17] INFO root fetch - processPackages [ixoncdkingress]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 13:08:17] INFO root fetch - processPackages [ixoncdkingress]: Downloading https://files.pythonhosted.org/packages/b3/1b/2738933755f61b85947702010ca1d9403e64824e49dcdc082f1b61a07b4a/ixoncdkingress-0.0.8.tar.gz
+[2024-04-29 13:08:17] INFO root fetch - processPackages [spider-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-29 13:08:17] INFO root fetch - processPackages [cmsis-stream]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-29 13:08:17] INFO root fetch - processPackages [json-strong-typing]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-29 13:08:17] INFO root fetch - processPackages [grrph]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-29 13:08:17] INFO root fetch - processPackages [reportbro-fpdf2]: New version: [2.7.5] Old Version: [2.7.4]
+[2024-04-29 13:08:17] INFO root fetch - processPackages [cognitrix]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-29 13:08:17] INFO root fetch - processPackages [spai]: New version: [2024.4.29] Old Version: [2024.4.17]
+[2024-04-29 13:08:17] INFO root fetch - processPackages [nwb4fp]: New version: [0.6.0.9] Old Version: [0.6.0.8]
+[2024-04-29 13:08:17] INFO root fetch - processPackages [json-strong-typing]: Downloading https://files.pythonhosted.org/packages/1b/4f/8ce9538bb2d0a3f1e82aaef03ba8ace2e9b3c295f9fdb57493fb87e3dc50/json_strong_typing-0.3.2.tar.gz
+[2024-04-29 13:08:17] INFO root fetch - processPackages [spider-client]: Downloading https://files.pythonhosted.org/packages/9d/d9/7be1798423f860276976f7d3161861f71b80e69eb3fad19ffea70bae289c/spider-client-0.0.8.tar.gz
+[2024-04-29 13:08:17] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/b4/7a/ca86eadc320884087a8ae1e1dbf314a7609a3254621f4b4bc601b14216d0/nwb4fp-0.6.0.8-py3-none-any.whl
+[2024-04-29 13:08:17] INFO root fetch - processPackages [cmsis-stream]: Downloading https://files.pythonhosted.org/packages/b9/28/f38218f2a95f4af219e9b95ddcc6904d9b9766d24b663b44ff4c5a206b8d/cmsis_stream-1.9.1-py3-none-any.whl
+[2024-04-29 13:08:17] INFO root fetch - processPackages [ixoncdkingress]: Downloading https://files.pythonhosted.org/packages/81/5d/64486ddfc794e9b261c3c76607feaa76e92ecb01cd26ffd13bced3ecac65/ixoncdkingress-0.0.9.tar.gz
+[2024-04-29 13:08:17] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/38/2d/aea2c69b396da5a5dfcf5ff56c590fbffadfab2dddf15591111c0f365788/spai-2024.4.17.tar.gz
+[2024-04-29 13:08:17] INFO root fetch - processPackages [grrph]: Downloading https://files.pythonhosted.org/packages/36/17/6d5077966536a2d280d71a52a16feca583e1422f27a2dae7f466f7a505d4/grrph-0.0.3.tar.gz
+[2024-04-29 13:08:17] INFO root fetch - processPackages [reportbro-fpdf2]: Downloading https://files.pythonhosted.org/packages/78/7c/90939bb23f789ee40d392c896ed8af688f0cfc9cb6dc1462cbe99eee3ef0/reportbro_fpdf2-2.7.4-py2.py3-none-any.whl
+[2024-04-29 13:08:17] INFO root fetch - processPackages [cognitrix]: Downloading https://files.pythonhosted.org/packages/85/6f/8c18c79713ec993684e08e27e85ee500a73f31f73d27c739f073a456dd5c/cognitrix-0.2.1.tar.gz
+[2024-04-29 13:08:17] INFO root fetch - processPackages [ixoncdkingress]: executing diffoscope
+[2024-04-29 13:08:17] INFO root fetch - processPackages [ixoncdkingress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixoncdkingress-0.0.8.tar.gz tmp/ixoncdkingress-0.0.9.tar.gz --markdown 20240429/i/ixoncdkingress/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 13:08:18] INFO root fetch - processPackages [json-strong-typing]: Downloading https://files.pythonhosted.org/packages/f4/a5/2c55b9fe3340455c4e2e1d5e76883c05b31b695f982a4dc4a6597bcdeb64/json_strong_typing-0.3.3.tar.gz
+[2024-04-29 13:08:18] INFO root fetch - processPackages [spider-client]: Downloading https://files.pythonhosted.org/packages/ed/fc/ddefa7a1f8ab8c676aead4ef730b7e074b0c7b5610348be25a28da023d40/spider-client-0.0.9.tar.gz
+[2024-04-29 13:08:18] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/ae/a1/4ed11046ea2656f33c54533342a50ca8f537557245fd3229da8b8a398e34/nwb4fp-0.6.0.9.tar.gz
+[2024-04-29 13:08:18] INFO root fetch - processPackages [cognitrix]: Downloading https://files.pythonhosted.org/packages/d3/b0/542aced332c3b254f37ace18db9db2126d0bd74e4300cfd65bd15258f657/cognitrix-0.2.2.tar.gz
+[2024-04-29 13:08:18] INFO root fetch - processPackages [json-strong-typing]: executing diffoscope
+[2024-04-29 13:08:18] INFO root fetch - processPackages [json-strong-typing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_strong_typing-0.3.2.tar.gz tmp/json_strong_typing-0.3.3.tar.gz --markdown 20240429/j/json-strong-typing/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-29 13:08:18] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/16/4c/36ea28da1c7735a00b315d64b709c300ce6d25169341cf4db5ae2b8ed32b/spai-2024.4.29.tar.gz
+[2024-04-29 13:08:18] INFO root fetch - processPackages [cmsis-stream]: Downloading https://files.pythonhosted.org/packages/b2/66/0d1e34c99fc8cbcab3c6e39ea3afccb5712e15ffb480b0b617395533814b/cmsis_stream-1.9.2-py3-none-any.whl
+[2024-04-29 13:08:18] INFO root fetch - processPackages [spider-client]: executing diffoscope
+[2024-04-29 13:08:18] INFO root fetch - processPackages [spider-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider-client-0.0.8.tar.gz tmp/spider-client-0.0.9.tar.gz --markdown 20240429/s/spider-client/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-29 13:08:18] INFO root fetch - processPackages [grrph]: Downloading https://files.pythonhosted.org/packages/99/45/3fe660f3fc409e7dddf000a18140cd6329574d5d6bd3d1e770297d092ea0/grrph-0.0.4.tar.gz
+[2024-04-29 13:08:18] INFO root fetch - processPackages [nwb4fp]: executing diffoscope
+[2024-04-29 13:08:18] INFO root fetch - processPackages [nwb4fp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwb4fp-0.6.0.8-py3-none-any.whl.zip tmp/nwb4fp-0.6.0.9.tar.gz --markdown 20240429/n/nwb4fp/0.6.0.8-0.6.0.9/README.md --exclude *.pyd
+[2024-04-29 13:08:18] INFO root fetch - processPackages [reportbro-fpdf2]: Downloading https://files.pythonhosted.org/packages/6b/58/feb36ab12a82b6314d7565b5d461472b7107c33628365c9da288368c556b/reportbro_fpdf2-2.7.5-py2.py3-none-any.whl
+[2024-04-29 13:08:18] INFO root fetch - processPackages [cmsis-stream]: executing diffoscope
+[2024-04-29 13:08:18] INFO root fetch - processPackages [cmsis-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmsis_stream-1.9.1-py3-none-any.whl.zip tmp/cmsis_stream-1.9.2-py3-none-any.whl.zip --markdown 20240429/c/cmsis-stream/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-29 13:08:18] INFO root fetch - processPackages [grrph]: executing diffoscope
+[2024-04-29 13:08:18] INFO root fetch - processPackages [grrph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grrph-0.0.3.tar.gz tmp/grrph-0.0.4.tar.gz --markdown 20240429/g/grrph/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-29 13:08:18] INFO root fetch - processPackages [cognitrix]: executing diffoscope
+[2024-04-29 13:08:18] INFO root fetch - processPackages [cognitrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognitrix-0.2.1.tar.gz tmp/cognitrix-0.2.2.tar.gz --markdown 20240429/c/cognitrix/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-29 13:08:18] INFO root fetch - processPackages [spai]: executing diffoscope
+[2024-04-29 13:08:18] INFO root fetch - processPackages [spai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spai-2024.4.17.tar.gz tmp/spai-2024.4.29.tar.gz --markdown 20240429/s/spai/2024.4.17-2024.4.29/README.md --exclude *.pyd
+[2024-04-29 13:08:18] INFO root fetch - processPackages [reportbro-fpdf2]: executing diffoscope
+[2024-04-29 13:08:18] INFO root fetch - processPackages [reportbro-fpdf2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reportbro_fpdf2-2.7.4-py2.py3-none-any.whl.zip tmp/reportbro_fpdf2-2.7.5-py2.py3-none-any.whl.zip --markdown 20240429/r/reportbro-fpdf2/2.7.4-2.7.5/README.md --exclude *.pyd
+[2024-04-29 13:08:18] INFO root fetch - processPackages [ixoncdkingress]: Remove: archive file [/home/abi/fetcher/tmp/ixoncdkingress-0.0.8.tar.gz]
+[2024-04-29 13:08:18] INFO root fetch - processPackages [ixoncdkingress]: Remove: archive file [/home/abi/fetcher/tmp/ixoncdkingress-0.0.9.tar.gz]
+[2024-04-29 13:08:18] INFO root fetch - main [MainThread]: End processing [ixoncdkingress]: success
+[2024-04-29 13:08:19] INFO root fetch - processPackages [spider-client]: Remove: archive file [/home/abi/fetcher/tmp/spider-client-0.0.8.tar.gz]
+[2024-04-29 13:08:19] INFO root fetch - processPackages [spider-client]: Remove: archive file [/home/abi/fetcher/tmp/spider-client-0.0.9.tar.gz]
+[2024-04-29 13:08:19] INFO root fetch - main [MainThread]: End processing [spider-client]: success
+[2024-04-29 13:08:19] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.0.8-py3-none-any.whl.zip]
+[2024-04-29 13:08:19] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.6.0.9.tar.gz]
+[2024-04-29 13:08:19] INFO root fetch - main [MainThread]: End processing [nwb4fp]: success
+[2024-04-29 13:08:19] INFO root fetch - processPackages [json-strong-typing]: Remove: archive file [/home/abi/fetcher/tmp/json_strong_typing-0.3.2.tar.gz]
+[2024-04-29 13:08:19] INFO root fetch - processPackages [json-strong-typing]: Remove: archive file [/home/abi/fetcher/tmp/json_strong_typing-0.3.3.tar.gz]
+[2024-04-29 13:08:19] INFO root fetch - main [MainThread]: End processing [json-strong-typing]: success
+[2024-04-29 13:08:19] INFO root fetch - processPackages [grrph]: Remove: archive file [/home/abi/fetcher/tmp/grrph-0.0.3.tar.gz]
+[2024-04-29 13:08:19] INFO root fetch - processPackages [grrph]: Remove: archive file [/home/abi/fetcher/tmp/grrph-0.0.4.tar.gz]
+[2024-04-29 13:08:19] INFO root fetch - main [MainThread]: End processing [grrph]: success
+[2024-04-29 13:08:19] INFO root fetch - processPackages [cognitrix]: Remove: archive file [/home/abi/fetcher/tmp/cognitrix-0.2.1.tar.gz]
+[2024-04-29 13:08:19] INFO root fetch - processPackages [cognitrix]: Remove: archive file [/home/abi/fetcher/tmp/cognitrix-0.2.2.tar.gz]
+[2024-04-29 13:08:19] INFO root fetch - main [MainThread]: End processing [cognitrix]: success
+[2024-04-29 13:08:19] INFO root fetch - processPackages [cmsis-stream]: Remove: archive file [/home/abi/fetcher/tmp/cmsis_stream-1.9.1-py3-none-any.whl.zip]
+[2024-04-29 13:08:19] INFO root fetch - processPackages [cmsis-stream]: Remove: archive file [/home/abi/fetcher/tmp/cmsis_stream-1.9.2-py3-none-any.whl.zip]
+[2024-04-29 13:08:19] INFO root fetch - main [MainThread]: End processing [cmsis-stream]: success
+[2024-04-29 13:08:19] INFO root fetch - processPackages [reportbro-fpdf2]: Remove: archive file [/home/abi/fetcher/tmp/reportbro_fpdf2-2.7.4-py2.py3-none-any.whl.zip]
+[2024-04-29 13:08:19] INFO root fetch - processPackages [reportbro-fpdf2]: Remove: archive file [/home/abi/fetcher/tmp/reportbro_fpdf2-2.7.5-py2.py3-none-any.whl.zip]
+[2024-04-29 13:08:19] INFO root fetch - main [MainThread]: End processing [reportbro-fpdf2]: success
+[2024-04-29 13:08:19] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2024.4.17.tar.gz]
+[2024-04-29 13:08:19] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2024.4.29.tar.gz]
+[2024-04-29 13:08:19] INFO root fetch - main [MainThread]: End processing [spai]: success
+[2024-04-29 13:08:19] INFO root fetch - main [MainThread]: Store serial: [22982427]
