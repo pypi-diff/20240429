@@ -8164,3 +8164,42 @@
 [2024-04-29 06:36:12] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
 [2024-04-29 06:36:12] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
 [2024-04-29 06:36:12] INFO root fetch - main [MainThread]: Store serial: [22978680]
+[2024-04-29 06:38:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978680]
+[2024-04-29 06:38:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-29 06:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: project.harpy
+[2024-04-29 06:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atomic-bomb-engine
+[2024-04-29 06:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-minio
+[2024-04-29 06:38:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: milvus-api
+[2024-04-29 06:38:21] INFO root fetch - processPackages [milvus-api]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-29 06:38:21] INFO root fetch - processPackages [project.harpy]: New version: [0.0.9] Old Version: [0.0.10]
+[2024-04-29 06:38:21] INFO root fetch - processPackages [pulumi-minio]: New version: [0.9.1a1682440158] Old Version: [0.9.1a1681933919]
+[2024-04-29 06:38:21] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-29 06:38:21] INFO root fetch - processPackages [project.harpy]: Downloading https://files.pythonhosted.org/packages/39/8f/03247005b767ee88a7b2ce60446cbf62297dca9f5de9ffe74fb92ae00986/project_harpy-0.0.10.tar.gz
+[2024-04-29 06:38:21] INFO root fetch - processPackages [milvus-api]: Downloading https://files.pythonhosted.org/packages/fd/25/11b57ac198a113cee3e4fedcb15d045291f7c8badcba738282bf89bdc0b6/milvus_api-0.2.0.tar.gz
+[2024-04-29 06:38:21] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-04-29 06:38:21] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/ff/08/d2cadf5bfe93247a9689d335d5a90c90c3437bae7996f31d22e6a1e18bc8/pulumi_minio-0.9.1a1681933919.tar.gz
+[2024-04-29 06:38:21] INFO root fetch - processPackages [milvus-api]: Downloading https://files.pythonhosted.org/packages/12/77/aba891a2b7cfe8a9be43ed80b98d82c9e1534818441b62d1a93954715bca/milvus_api-0.2.1.tar.gz
+[2024-04-29 06:38:21] INFO root fetch - processPackages [project.harpy]: Downloading https://files.pythonhosted.org/packages/f9/03/357bad69c4309ac5ba93a1750e9a1e0fe5a80161eb43ac36d2dbb94aa7ba/project.harpy-0.0.9.tar.gz
+[2024-04-29 06:38:21] INFO root fetch - processPackages [pulumi-minio]: Downloading https://files.pythonhosted.org/packages/15/55/586e40a427bb324461e4077406c21f75ad5bd1d406ec365a59f65e7790bd/pulumi_minio-0.9.1a1682440158.tar.gz
+[2024-04-29 06:38:21] INFO root fetch - processPackages [project.harpy]: executing diffoscope
+[2024-04-29 06:38:21] INFO root fetch - processPackages [project.harpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/project_harpy-0.0.10.tar.gz tmp/project.harpy-0.0.9.tar.gz --markdown 20240429/p/project.harpy/0.0.10-0.0.9/README.md --exclude *.pyd
+[2024-04-29 06:38:21] INFO root fetch - processPackages [milvus-api]: executing diffoscope
+[2024-04-29 06:38:21] INFO root fetch - processPackages [milvus-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/milvus_api-0.2.0.tar.gz tmp/milvus_api-0.2.1.tar.gz --markdown 20240429/m/milvus-api/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-29 06:38:21] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-04-29 06:38:21] INFO root fetch - processPackages [pulumi-minio]: executing diffoscope
+[2024-04-29 06:38:21] INFO root fetch - processPackages [pulumi-minio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_minio-0.9.1a1681933919.tar.gz tmp/pulumi_minio-0.9.1a1682440158.tar.gz --markdown 20240429/p/pulumi-minio/0.9.1a1681933919-0.9.1a1682440158/README.md --exclude *.pyd
+[2024-04-29 06:38:22] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-04-29 06:38:22] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240429/a/atomic-bomb-engine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-29 06:38:22] INFO root fetch - processPackages [milvus-api]: Remove: archive file [/home/abi/fetcher/tmp/milvus_api-0.2.0.tar.gz]
+[2024-04-29 06:38:22] INFO root fetch - processPackages [milvus-api]: Remove: archive file [/home/abi/fetcher/tmp/milvus_api-0.2.1.tar.gz]
+[2024-04-29 06:38:22] INFO root fetch - main [MainThread]: End processing [milvus-api]: success
+[2024-04-29 06:38:22] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1681933919.tar.gz]
+[2024-04-29 06:38:22] INFO root fetch - processPackages [pulumi-minio]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_minio-0.9.1a1682440158.tar.gz]
+[2024-04-29 06:38:22] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
+[2024-04-29 06:38:22] INFO root fetch - processPackages [project.harpy]: Remove: archive file [/home/abi/fetcher/tmp/project_harpy-0.0.10.tar.gz]
+[2024-04-29 06:38:22] INFO root fetch - processPackages [project.harpy]: Remove: archive file [/home/abi/fetcher/tmp/project.harpy-0.0.9.tar.gz]
+[2024-04-29 06:38:22] INFO root fetch - main [MainThread]: End processing [project.harpy]: success
+[2024-04-29 06:38:22] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-04-29 06:38:22] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-04-29 06:38:22] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-04-29 06:38:22] INFO root fetch - main [MainThread]: Store serial: [22978695]
