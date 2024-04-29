@@ -17501,3 +17501,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-29 13:41:27] INFO root fetch - processPackages [jb-manager-bot]: Remove: archive file [/home/abi/fetcher/tmp/jb_manager_bot-0.1.5.tar.gz]
 [2024-04-29 13:41:27] INFO root fetch - main [MainThread]: End processing [jb-manager-bot]: success
 [2024-04-29 13:41:27] INFO root fetch - main [MainThread]: Store serial: [22982763]
+[2024-04-29 13:43:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22982763]
+[2024-04-29 13:43:36] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-29 13:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PKDevTools
+[2024-04-29 13:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: databend-sqlalchemy
+[2024-04-29 13:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: parsee-core
+[2024-04-29 13:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-fem
+[2024-04-29 13:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ns-asphalt9
+[2024-04-29 13:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sparrow-parse
+[2024-04-29 13:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iinfer
+[2024-04-29 13:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bluechi
+[2024-04-29 13:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: l10n-ar-api
+[2024-04-29 13:43:36] INFO root fetch - processPackages [ns-asphalt9]: New version: [3.4.1] Old Version: [3.4.0]
+[2024-04-29 13:43:36] INFO root fetch - processPackages [PKDevTools]: New version: [0.13.20240429.108] Old Version: [0.13.20240423.107]
+[2024-04-29 13:43:36] WARNING root fetch - processPackages [sparrow-parse]: Skipping, unable to determine old version
+[2024-04-29 13:43:36] INFO root fetch - main [MainThread]: End processing [sparrow-parse] error
+[2024-04-29 13:43:36] INFO root fetch - processPackages [torch-fem]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 13:43:36] INFO root fetch - processPackages [parsee-core]: New version: [0.1.4.9] Old Version: [0.1.4.8]
+[2024-04-29 13:43:36] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/de/95/2853338f6a97e1e18e4f5ba8f0bebc2783f7e7cdd4c1616a8c1d80cb951d/ns_asphalt9-3.4.0.tar.gz
+[2024-04-29 13:43:36] INFO root fetch - processPackages [bluechi]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-04-29 13:43:36] INFO root fetch - processPackages [databend-sqlalchemy]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-04-29 13:43:36] INFO root fetch - processPackages [l10n-ar-api]: New version: [2.7.2] Old Version: [2.7.1]
+[2024-04-29 13:43:36] INFO root fetch - processPackages [iinfer]: New version: [0.7.0] Old Version: [0.6.9]
+[2024-04-29 13:43:36] INFO root fetch - processPackages [PKDevTools]: Downloading https://files.pythonhosted.org/packages/fa/cd/e557fcd985c59d28551ea14684cb99aebb6fd0a9c01aaa8ac0f6ae55a53d/PKDevTools-0.13.20240423.107.tar.gz
+[2024-04-29 13:43:36] INFO root fetch - processPackages [parsee-core]: Downloading https://files.pythonhosted.org/packages/7a/50/254187550fba83da8e34776ce7e4c5844d1785b705b16a1ee835f8b7f74e/parsee_core-0.1.4.8.tar.gz
+[2024-04-29 13:43:36] INFO root fetch - processPackages [bluechi]: Downloading https://files.pythonhosted.org/packages/3a/f0/9429073c8428414593e1e3d9b7157cdfc93f82ba6c6db6ed4136b5d05e38/bluechi-0.7.0-py3-none-any.whl
+[2024-04-29 13:43:36] INFO root fetch - processPackages [torch-fem]: Downloading https://files.pythonhosted.org/packages/80/07/a29b409e38f4a6fc37da06d9a208099b82edf3fb7f5cf3042fd7e5b34fc9/torch-fem-0.1.8.tar.gz
+[2024-04-29 13:43:36] INFO root fetch - processPackages [databend-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/2e/b7/3ab285a6b74cbd150972103f2b99fd2a11880a635f3f76f65773384eec21/databend_sqlalchemy-0.4.5.tar.gz
+[2024-04-29 13:43:36] INFO root fetch - processPackages [iinfer]: Downloading https://files.pythonhosted.org/packages/60/dd/ad20da60d16c59146a74028f31fcf00984be0ec991bc67f57c631cfed7af/iinfer-0.6.9.tar.gz
+[2024-04-29 13:43:36] INFO root fetch - processPackages [l10n-ar-api]: Downloading https://files.pythonhosted.org/packages/50/4c/754cfe55d71ed7571644be56ea99e678a75dce63c5275259626186f36b3a/l10n_ar_api-2.7.1.tar.gz
+[2024-04-29 13:43:36] INFO root fetch - processPackages [ns-asphalt9]: Downloading https://files.pythonhosted.org/packages/cb/ac/4fc3a88ef0ddaa575bd243227f82e5253fac594288d14c586c62128658a5/ns_asphalt9-3.4.1.tar.gz
+[2024-04-29 13:43:36] INFO root fetch - processPackages [PKDevTools]: Downloading https://files.pythonhosted.org/packages/d6/23/ddbe673af65dcb0b08c6bbcd9e50ff45f858e03e019764e88400ef28badc/PKDevTools-0.13.20240429.108.tar.gz
+[2024-04-29 13:43:36] INFO root fetch - processPackages [parsee-core]: Downloading https://files.pythonhosted.org/packages/87/4f/31752247b806b1f52883033ecb4efbcec34d8a58a18a3a051c733dd38686/parsee_core-0.1.4.9.tar.gz
+[2024-04-29 13:43:36] INFO root fetch - processPackages [bluechi]: Downloading https://files.pythonhosted.org/packages/b8/64/1e1a47335e2ea2de98b5dc9f8582f95ed5d5959709791a3cb5a055da2444/bluechi-0.8.0-py3-none-any.whl
+[2024-04-29 13:43:36] INFO root fetch - processPackages [databend-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/0b/65/9e81f54c38cf717744a52e8371425063ddd0caf7e715356e3538a4cffcb0/databend_sqlalchemy-0.4.6-py3-none-any.whl
+[2024-04-29 13:43:36] INFO root fetch - processPackages [PKDevTools]: executing diffoscope
+[2024-04-29 13:43:36] INFO root fetch - processPackages [PKDevTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PKDevTools-0.13.20240423.107.tar.gz tmp/PKDevTools-0.13.20240429.108.tar.gz --markdown 20240429/P/PKDevTools/0.13.20240423.107-0.13.20240429.108/README.md --exclude *.pyd
+[2024-04-29 13:43:36] INFO root fetch - processPackages [ns-asphalt9]: executing diffoscope
+[2024-04-29 13:43:36] INFO root fetch - processPackages [ns-asphalt9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ns_asphalt9-3.4.0.tar.gz tmp/ns_asphalt9-3.4.1.tar.gz --markdown 20240429/n/ns-asphalt9/3.4.0-3.4.1/README.md --exclude *.pyd
+[2024-04-29 13:43:37] INFO root fetch - processPackages [torch-fem]: Downloading https://files.pythonhosted.org/packages/62/7f/2fbd3bdb048842aa14ad9ba02868e12629abce8762eee65d8acd379068ec/torch-fem-0.1.9.tar.gz
+[2024-04-29 13:43:37] INFO root fetch - processPackages [parsee-core]: executing diffoscope
+[2024-04-29 13:43:37] INFO root fetch - processPackages [parsee-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsee_core-0.1.4.8.tar.gz tmp/parsee_core-0.1.4.9.tar.gz --markdown 20240429/p/parsee-core/0.1.4.8-0.1.4.9/README.md --exclude *.pyd
+[2024-04-29 13:43:37] INFO root fetch - processPackages [databend-sqlalchemy]: executing diffoscope
+[2024-04-29 13:43:37] INFO root fetch - processPackages [databend-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databend_sqlalchemy-0.4.5.tar.gz tmp/databend_sqlalchemy-0.4.6-py3-none-any.whl.zip --markdown 20240429/d/databend-sqlalchemy/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-04-29 13:43:37] INFO root fetch - processPackages [iinfer]: Downloading https://files.pythonhosted.org/packages/85/e8/c985fb5eedcbb5e7c15eb8cb120a46a81064def5312b050b60d1f71ca227/iinfer-0.7.0.tar.gz
+[2024-04-29 13:43:37] INFO root fetch - processPackages [bluechi]: executing diffoscope
+[2024-04-29 13:43:37] INFO root fetch - processPackages [bluechi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluechi-0.7.0-py3-none-any.whl.zip tmp/bluechi-0.8.0-py3-none-any.whl.zip --markdown 20240429/b/bluechi/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-04-29 13:43:37] INFO root fetch - processPackages [torch-fem]: executing diffoscope
+[2024-04-29 13:43:37] INFO root fetch - processPackages [torch-fem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch-fem-0.1.8.tar.gz tmp/torch-fem-0.1.9.tar.gz --markdown 20240429/t/torch-fem/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 13:43:37] INFO root fetch - processPackages [l10n-ar-api]: Downloading https://files.pythonhosted.org/packages/07/4c/db560ddbf6ace688f5a2f7b69542ffb80209da7334217bd64f326f55930e/l10n_ar_api-2.7.2.tar.gz
+[2024-04-29 13:43:37] INFO root fetch - processPackages [iinfer]: executing diffoscope
+[2024-04-29 13:43:37] INFO root fetch - processPackages [iinfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iinfer-0.6.9.tar.gz tmp/iinfer-0.7.0.tar.gz --markdown 20240429/i/iinfer/0.6.9-0.7.0/README.md --exclude *.pyd
+[2024-04-29 13:43:37] INFO root fetch - processPackages [l10n-ar-api]: executing diffoscope
+[2024-04-29 13:43:37] INFO root fetch - processPackages [l10n-ar-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/l10n_ar_api-2.7.1.tar.gz tmp/l10n_ar_api-2.7.2.tar.gz --markdown 20240429/l/l10n-ar-api/2.7.1-2.7.2/README.md --exclude *.pyd
+[2024-04-29 13:43:38] INFO root fetch - processPackages [databend-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/databend_sqlalchemy-0.4.5.tar.gz]
+[2024-04-29 13:43:38] INFO root fetch - processPackages [databend-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/databend_sqlalchemy-0.4.6-py3-none-any.whl.zip]
+[2024-04-29 13:43:38] INFO root fetch - main [MainThread]: End processing [databend-sqlalchemy]: success
+[2024-04-29 13:43:38] INFO root fetch - processPackages [bluechi]: Remove: archive file [/home/abi/fetcher/tmp/bluechi-0.7.0-py3-none-any.whl.zip]
+[2024-04-29 13:43:38] INFO root fetch - processPackages [bluechi]: Remove: archive file [/home/abi/fetcher/tmp/bluechi-0.8.0-py3-none-any.whl.zip]
+[2024-04-29 13:43:38] INFO root fetch - main [MainThread]: End processing [bluechi]: success
+[2024-04-29 13:43:38] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-3.4.0.tar.gz]
+[2024-04-29 13:43:38] INFO root fetch - processPackages [ns-asphalt9]: Remove: archive file [/home/abi/fetcher/tmp/ns_asphalt9-3.4.1.tar.gz]
+[2024-04-29 13:43:38] INFO root fetch - main [MainThread]: End processing [ns-asphalt9]: success
+[2024-04-29 13:43:38] INFO root fetch - processPackages [PKDevTools]: Remove: archive file [/home/abi/fetcher/tmp/PKDevTools-0.13.20240423.107.tar.gz]
+[2024-04-29 13:43:38] INFO root fetch - processPackages [PKDevTools]: Remove: archive file [/home/abi/fetcher/tmp/PKDevTools-0.13.20240429.108.tar.gz]
+[2024-04-29 13:43:38] INFO root fetch - main [MainThread]: End processing [PKDevTools]: success
+[2024-04-29 13:43:38] INFO root fetch - processPackages [torch-fem]: Remove: archive file [/home/abi/fetcher/tmp/torch-fem-0.1.8.tar.gz]
+[2024-04-29 13:43:38] INFO root fetch - processPackages [torch-fem]: Remove: archive file [/home/abi/fetcher/tmp/torch-fem-0.1.9.tar.gz]
+[2024-04-29 13:43:38] INFO root fetch - main [MainThread]: End processing [torch-fem]: success
+[2024-04-29 13:43:38] INFO root fetch - processPackages [parsee-core]: Remove: archive file [/home/abi/fetcher/tmp/parsee_core-0.1.4.8.tar.gz]
+[2024-04-29 13:43:38] INFO root fetch - processPackages [parsee-core]: Remove: archive file [/home/abi/fetcher/tmp/parsee_core-0.1.4.9.tar.gz]
+[2024-04-29 13:43:38] INFO root fetch - main [MainThread]: End processing [parsee-core]: success
+[2024-04-29 13:43:38] INFO root fetch - processPackages [l10n-ar-api]: Remove: archive file [/home/abi/fetcher/tmp/l10n_ar_api-2.7.1.tar.gz]
+[2024-04-29 13:43:38] INFO root fetch - processPackages [l10n-ar-api]: Remove: archive file [/home/abi/fetcher/tmp/l10n_ar_api-2.7.2.tar.gz]
+[2024-04-29 13:43:38] INFO root fetch - main [MainThread]: End processing [l10n-ar-api]: success
+[2024-04-29 13:43:39] INFO root fetch - processPackages [iinfer]: Remove: archive file [/home/abi/fetcher/tmp/iinfer-0.6.9.tar.gz]
+[2024-04-29 13:43:39] INFO root fetch - processPackages [iinfer]: Remove: archive file [/home/abi/fetcher/tmp/iinfer-0.7.0.tar.gz]
+[2024-04-29 13:43:39] INFO root fetch - main [MainThread]: End processing [iinfer]: success
+[2024-04-29 13:43:39] INFO root fetch - main [MainThread]: Store serial: [22982789]
