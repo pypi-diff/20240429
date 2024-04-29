@@ -6825,3 +6825,15 @@
 [2024-04-29 04:34:23] WARNING root fetch - processPackages [umbrella-monitor]: Skipping, unable to determine old version
 [2024-04-29 04:34:23] INFO root fetch - main [MainThread]: End processing [umbrella-monitor] error
 [2024-04-29 04:34:23] INFO root fetch - main [MainThread]: Store serial: [22978120]
+[2024-04-29 04:36:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22978120]
+[2024-04-29 04:36:33] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-29 04:36:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autonomous-app
+[2024-04-29 04:36:33] INFO root fetch - processPackages [autonomous-app]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-29 04:36:33] INFO root fetch - processPackages [autonomous-app]: Downloading https://files.pythonhosted.org/packages/d0/14/f69a96e9632ab04613d624b241c41d89e240b957f6cb90becb7ce163fcbe/autonomous_app-0.2.8.tar.gz
+[2024-04-29 04:36:33] INFO root fetch - processPackages [autonomous-app]: Downloading https://files.pythonhosted.org/packages/87/68/a4e9b4dc303589bac13c8f9fab4ec2b60ddc3a35c7c0406fadd3000820cb/autonomous_app-0.2.9.tar.gz
+[2024-04-29 04:36:33] INFO root fetch - processPackages [autonomous-app]: executing diffoscope
+[2024-04-29 04:36:33] INFO root fetch - processPackages [autonomous-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autonomous_app-0.2.8.tar.gz tmp/autonomous_app-0.2.9.tar.gz --markdown 20240429/a/autonomous-app/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-29 04:36:34] INFO root fetch - processPackages [autonomous-app]: Remove: archive file [/home/abi/fetcher/tmp/autonomous_app-0.2.8.tar.gz]
+[2024-04-29 04:36:34] INFO root fetch - processPackages [autonomous-app]: Remove: archive file [/home/abi/fetcher/tmp/autonomous_app-0.2.9.tar.gz]
+[2024-04-29 04:36:34] INFO root fetch - main [MainThread]: End processing [autonomous-app]: success
+[2024-04-29 04:36:34] INFO root fetch - main [MainThread]: Store serial: [22978123]
