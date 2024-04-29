@@ -12270,3 +12270,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 10:26:13] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.4.9.tar.gz]
 [2024-04-29 10:26:13] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-29 10:26:13] INFO root fetch - main [MainThread]: Store serial: [22980627]
+[2024-04-29 10:28:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980627]
+[2024-04-29 10:28:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-29 10:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kojo
+[2024-04-29 10:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pgpyui
+[2024-04-29 10:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bec-widgets
+[2024-04-29 10:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chemotion-api
+[2024-04-29 10:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: setuptools-ext
+[2024-04-29 10:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scematk
+[2024-04-29 10:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quixstreams
+[2024-04-29 10:28:22] INFO root fetch - processPackages [pgpyui]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-29 10:28:22] INFO root fetch - processPackages [setuptools-ext]: New version: [0.8] Old Version: [0.7]
+[2024-04-29 10:28:22] INFO root fetch - processPackages [scematk]: New version: [0.0.2rc99.post1] Old Version: [0.0.2rc98.post1]
+[2024-04-29 10:28:22] INFO root fetch - processPackages [bec-widgets]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-29 10:28:22] INFO root fetch - processPackages [pgpyui]: Downloading https://files.pythonhosted.org/packages/62/c1/b0170561774bef1ab75f404c3c288c3410f5848ccc5c06f2a2a21f873c6d/pgpyui-0.0.6.tar.gz
+[2024-04-29 10:28:22] INFO root fetch - processPackages [chemotion-api]: New version: [0.3.9] Old Version: [0.3.3]
+[2024-04-29 10:28:22] INFO root fetch - processPackages [scematk]: Downloading https://files.pythonhosted.org/packages/74/b4/2c4bf9a440c6109c1526403bd63a1ad539bac9b025336ad220b4b533e7b7/scematk-0.0.2rc98.post1.tar.gz
+[2024-04-29 10:28:22] INFO root fetch - processPackages [kojo]: New version: [0.24.1] Old Version: [0.24.0]
+[2024-04-29 10:28:22] INFO root fetch - processPackages [setuptools-ext]: Downloading https://files.pythonhosted.org/packages/5e/46/490e64f9d05ac5d6eb21978fc2520cd8b5731756c8569cac3a723d83c9f0/setuptools_ext-0.7.tar.gz
+[2024-04-29 10:28:22] INFO root fetch - processPackages [quixstreams]: New version: [2.4.2] Old Version: [2.4.1]
+[2024-04-29 10:28:22] INFO root fetch - processPackages [bec-widgets]: Downloading https://files.pythonhosted.org/packages/d4/a4/036c9cedb9f9879c6b5fee42a6aa51583c18be1eaa61ffbad1171b243b07/bec_widgets-0.8.1.tar.gz
+[2024-04-29 10:28:22] INFO root fetch - processPackages [kojo]: Downloading https://files.pythonhosted.org/packages/68/ec/ad8879166e034ed515cc43647203fb3d2c9b4bbe445ffd90867bf7fa08c1/kojo-0.24.0.tar.gz
+[2024-04-29 10:28:22] INFO root fetch - processPackages [chemotion-api]: Downloading https://files.pythonhosted.org/packages/a5/76/83a3192c2b1e1b1c9e2d1731902164141394807512cdb68b4f9d49e62da8/chemotion_api-0.3.3.tar.gz
+[2024-04-29 10:28:23] INFO root fetch - processPackages [quixstreams]: Downloading https://files.pythonhosted.org/packages/78/6c/301f04b77e2a4c19f73118a2f1e89c11b92466035fb3f96c11075e18ef14/quixstreams-2.4.1-py3-none-any.whl
+[2024-04-29 10:28:23] INFO root fetch - processPackages [pgpyui]: Downloading https://files.pythonhosted.org/packages/5f/60/167418b4dd6890fd4aee3f95f104a5e010a4c0efed0b2990ea537bcb7e1e/pgpyui-0.0.7.tar.gz
+[2024-04-29 10:28:23] INFO root fetch - processPackages [scematk]: Downloading https://files.pythonhosted.org/packages/88/05/a551ffce29ada02c3b808f4d3523aefcebb95b513746d269b86d0d75e18b/scematk-0.0.2rc99.post1.tar.gz
+[2024-04-29 10:28:23] INFO root fetch - processPackages [setuptools-ext]: Downloading https://files.pythonhosted.org/packages/e4/4d/bbc6bfc52375fafd190d048873f5b4966a56600cd79419bb1c444e876806/setuptools_ext-0.8.tar.gz
+[2024-04-29 10:28:23] INFO root fetch - processPackages [bec-widgets]: Downloading https://files.pythonhosted.org/packages/7b/e6/68a9811ec8510a320cd3cd5f47b87f8dd777a4f16143aeb7bd115645485b/bec_widgets-0.9.0.tar.gz
+[2024-04-29 10:28:23] INFO root fetch - processPackages [pgpyui]: executing diffoscope
+[2024-04-29 10:28:23] INFO root fetch - processPackages [pgpyui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgpyui-0.0.6.tar.gz tmp/pgpyui-0.0.7.tar.gz --markdown 20240429/p/pgpyui/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-29 10:28:23] INFO root fetch - processPackages [scematk]: executing diffoscope
+[2024-04-29 10:28:23] INFO root fetch - processPackages [scematk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scematk-0.0.2rc98.post1.tar.gz tmp/scematk-0.0.2rc99.post1.tar.gz --markdown 20240429/s/scematk/0.0.2rc98.post1-0.0.2rc99.post1/README.md --exclude *.pyd
+[2024-04-29 10:28:23] INFO root fetch - processPackages [setuptools-ext]: executing diffoscope
+[2024-04-29 10:28:23] INFO root fetch - processPackages [setuptools-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setuptools_ext-0.7.tar.gz tmp/setuptools_ext-0.8.tar.gz --markdown 20240429/s/setuptools-ext/0.7-0.8/README.md --exclude *.pyd
+[2024-04-29 10:28:23] INFO root fetch - processPackages [kojo]: Downloading https://files.pythonhosted.org/packages/f7/25/b15f3e0fb0b9fecd7443114b7fd7774d1d03cd8351e4df599a0e62a4319e/kojo-0.24.1.tar.gz
+[2024-04-29 10:28:23] INFO root fetch - processPackages [chemotion-api]: Downloading https://files.pythonhosted.org/packages/a7/c4/1d3b511c18273e63a3290a274171167100e374089a838d7afa5f789bc844/chemotion_api-0.3.9.tar.gz
+[2024-04-29 10:28:23] INFO root fetch - processPackages [kojo]: executing diffoscope
+[2024-04-29 10:28:23] INFO root fetch - processPackages [kojo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kojo-0.24.0.tar.gz tmp/kojo-0.24.1.tar.gz --markdown 20240429/k/kojo/0.24.0-0.24.1/README.md --exclude *.pyd
+[2024-04-29 10:28:23] INFO root fetch - processPackages [bec-widgets]: executing diffoscope
+[2024-04-29 10:28:23] INFO root fetch - processPackages [bec-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_widgets-0.8.1.tar.gz tmp/bec_widgets-0.9.0.tar.gz --markdown 20240429/b/bec-widgets/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-29 10:28:23] INFO root fetch - processPackages [quixstreams]: Downloading https://files.pythonhosted.org/packages/47/be/25ec6f458e0529cbe58fe7fca8fd6c4bcec9c0af2a44a8c2d633e879f067/quixstreams-2.4.2-py3-none-any.whl
+[2024-04-29 10:28:23] INFO root fetch - processPackages [chemotion-api]: executing diffoscope
+[2024-04-29 10:28:23] INFO root fetch - processPackages [chemotion-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemotion_api-0.3.3.tar.gz tmp/chemotion_api-0.3.9.tar.gz --markdown 20240429/c/chemotion-api/0.3.3-0.3.9/README.md --exclude *.pyd
+[2024-04-29 10:28:23] INFO root fetch - processPackages [quixstreams]: executing diffoscope
+[2024-04-29 10:28:23] INFO root fetch - processPackages [quixstreams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quixstreams-2.4.1-py3-none-any.whl.zip tmp/quixstreams-2.4.2-py3-none-any.whl.zip --markdown 20240429/q/quixstreams/2.4.1-2.4.2/README.md --exclude *.pyd
+[2024-04-29 10:28:24] INFO root fetch - processPackages [setuptools-ext]: Remove: archive file [/home/abi/fetcher/tmp/setuptools_ext-0.7.tar.gz]
+[2024-04-29 10:28:24] INFO root fetch - processPackages [setuptools-ext]: Remove: archive file [/home/abi/fetcher/tmp/setuptools_ext-0.8.tar.gz]
+[2024-04-29 10:28:24] INFO root fetch - main [MainThread]: End processing [setuptools-ext]: success
+[2024-04-29 10:28:24] INFO root fetch - processPackages [pgpyui]: Remove: archive file [/home/abi/fetcher/tmp/pgpyui-0.0.6.tar.gz]
+[2024-04-29 10:28:24] INFO root fetch - processPackages [pgpyui]: Remove: archive file [/home/abi/fetcher/tmp/pgpyui-0.0.7.tar.gz]
+[2024-04-29 10:28:24] INFO root fetch - main [MainThread]: End processing [pgpyui]: success
+[2024-04-29 10:28:24] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc98.post1.tar.gz]
+[2024-04-29 10:28:24] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc99.post1.tar.gz]
+[2024-04-29 10:28:24] INFO root fetch - main [MainThread]: End processing [scematk]: success
+[2024-04-29 10:28:24] INFO root fetch - processPackages [bec-widgets]: Remove: archive file [/home/abi/fetcher/tmp/bec_widgets-0.8.1.tar.gz]
+[2024-04-29 10:28:24] INFO root fetch - processPackages [bec-widgets]: Remove: archive file [/home/abi/fetcher/tmp/bec_widgets-0.9.0.tar.gz]
+[2024-04-29 10:28:24] INFO root fetch - main [MainThread]: End processing [bec-widgets]: success
+[2024-04-29 10:28:24] INFO root fetch - processPackages [kojo]: Remove: archive file [/home/abi/fetcher/tmp/kojo-0.24.0.tar.gz]
+[2024-04-29 10:28:24] INFO root fetch - processPackages [kojo]: Remove: archive file [/home/abi/fetcher/tmp/kojo-0.24.1.tar.gz]
+[2024-04-29 10:28:24] INFO root fetch - main [MainThread]: End processing [kojo]: success
+[2024-04-29 10:28:24] INFO root fetch - processPackages [chemotion-api]: Remove: archive file [/home/abi/fetcher/tmp/chemotion_api-0.3.3.tar.gz]
+[2024-04-29 10:28:24] INFO root fetch - processPackages [chemotion-api]: Remove: archive file [/home/abi/fetcher/tmp/chemotion_api-0.3.9.tar.gz]
+[2024-04-29 10:28:24] INFO root fetch - main [MainThread]: End processing [chemotion-api]: success
+[2024-04-29 10:28:24] INFO root fetch - processPackages [quixstreams]: Remove: archive file [/home/abi/fetcher/tmp/quixstreams-2.4.1-py3-none-any.whl.zip]
+[2024-04-29 10:28:24] INFO root fetch - processPackages [quixstreams]: Remove: archive file [/home/abi/fetcher/tmp/quixstreams-2.4.2-py3-none-any.whl.zip]
+[2024-04-29 10:28:24] INFO root fetch - main [MainThread]: End processing [quixstreams]: success
+[2024-04-29 10:28:24] INFO root fetch - main [MainThread]: Store serial: [22980647]
