@@ -1,0 +1,603 @@
+# Comparing `tmp/trytond_account_eu-7.0.0.tar.gz` & `tmp/trytond_account_eu-7.2.0.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "trytond_account_eu-7.0.0.tar", last modified: Mon Oct 30 17:20:09 2023, max compression
++gzip compressed data, was "trytond_account_eu-7.2.0.tar", last modified: Mon Apr 29 15:33:13 2024, max compression
+```
+
+## Comparing `trytond_account_eu-7.0.0.tar` & `trytond_account_eu-7.2.0.tar`
+
+### file list
+
+```diff
+@@ -1,60 +1,59 @@
+-drwxr-xr-x   0 ced       (1000) ced       (1000)        0 2023-10-30 17:20:09.429329 trytond_account_eu-7.0.0/
+--rw-r--r--   0 ced       (1000) ced       (1000)      201 2023-10-22 17:22:50.000000 trytond_account_eu-7.0.0/.readthedocs.yaml
+--rw-r--r--   0 ced       (1000) ced       (1000)     1293 2023-10-30 17:01:40.000000 trytond_account_eu-7.0.0/CHANGELOG
+--rw-r--r--   0 ced       (1000) ced       (1000)      680 2023-10-30 17:01:40.000000 trytond_account_eu-7.0.0/COPYRIGHT
+--rw-r--r--   0 ced       (1000) ced       (1000)    35147 2023-01-16 14:00:20.000000 trytond_account_eu-7.0.0/LICENSE
+--rw-r--r--   0 ced       (1000) ced       (1000)      103 2023-04-15 07:12:15.000000 trytond_account_eu-7.0.0/MANIFEST.in
+--rw-r--r--   0 ced       (1000) ced       (1000)     2580 2023-10-30 17:20:09.429329 trytond_account_eu-7.0.0/PKG-INFO
+--rw-r--r--   0 ced       (1000) ced       (1000)      160 2023-01-16 14:00:20.000000 trytond_account_eu-7.0.0/README.rst
+--rw-r--r--   0 ced       (1000) ced       (1000)      418 2023-04-15 07:12:15.000000 trytond_account_eu-7.0.0/__init__.py
+--rw-r--r--   0 ced       (1000) ced       (1000)     5456 2023-08-13 15:26:13.000000 trytond_account_eu-7.0.0/account.py
+--rw-r--r--   0 ced       (1000) ced       (1000)     2820 2023-04-15 07:12:15.000000 trytond_account_eu-7.0.0/account.xml
+-drwxr-xr-x   0 ced       (1000) ced       (1000)        0 2023-10-30 17:20:09.429329 trytond_account_eu-7.0.0/doc/
+--rw-r--r--   0 ced       (1000) ced       (1000)     2811 2023-10-22 17:22:50.000000 trytond_account_eu-7.0.0/doc/conf.py
+--rw-r--r--   0 ced       (1000) ced       (1000)      160 2023-01-16 14:00:20.000000 trytond_account_eu-7.0.0/doc/index.rst
+--rw-r--r--   0 ced       (1000) ced       (1000)       36 2023-10-22 17:22:50.000000 trytond_account_eu-7.0.0/doc/requirements-doc.txt
+-drwxr-xr-x   0 ced       (1000) ced       (1000)        0 2023-10-30 17:20:09.425996 trytond_account_eu-7.0.0/locale/
+--rw-r--r--   0 ced       (1000) ced       (1000)     1548 2023-10-28 12:11:19.000000 trytond_account_eu-7.0.0/locale/bg.po
+--rw-r--r--   0 ced       (1000) ced       (1000)     1846 2023-10-28 12:11:19.000000 trytond_account_eu-7.0.0/locale/ca.po
+--rw-r--r--   0 ced       (1000) ced       (1000)     1548 2023-10-28 12:11:19.000000 trytond_account_eu-7.0.0/locale/cs.po
+--rw-r--r--   0 ced       (1000) ced       (1000)     1752 2023-10-28 12:11:19.000000 trytond_account_eu-7.0.0/locale/de.po
+--rw-r--r--   0 ced       (1000) ced       (1000)     1866 2023-10-28 12:11:19.000000 trytond_account_eu-7.0.0/locale/es.po
+--rw-r--r--   0 ced       (1000) ced       (1000)     1548 2023-10-28 12:11:19.000000 trytond_account_eu-7.0.0/locale/es_419.po
+--rw-r--r--   0 ced       (1000) ced       (1000)     1718 2023-10-28 12:11:19.000000 trytond_account_eu-7.0.0/locale/et.po
+--rw-r--r--   0 ced       (1000) ced       (1000)     1913 2023-10-28 12:11:19.000000 trytond_account_eu-7.0.0/locale/fa.po
+--rw-r--r--   0 ced       (1000) ced       (1000)     1548 2023-10-28 12:11:19.000000 trytond_account_eu-7.0.0/locale/fi.po
+--rw-r--r--   0 ced       (1000) ced       (1000)     1761 2023-10-28 12:11:19.000000 trytond_account_eu-7.0.0/locale/fr.po
+--rw-r--r--   0 ced       (1000) ced       (1000)     1548 2023-10-28 12:11:19.000000 trytond_account_eu-7.0.0/locale/hu.po
+--rw-r--r--   0 ced       (1000) ced       (1000)     1509 2023-10-28 12:11:19.000000 trytond_account_eu-7.0.0/locale/id.po
+--rw-r--r--   0 ced       (1000) ced       (1000)     1713 2023-10-28 12:11:19.000000 trytond_account_eu-7.0.0/locale/it.po
+--rw-r--r--   0 ced       (1000) ced       (1000)     1548 2023-10-28 12:11:19.000000 trytond_account_eu-7.0.0/locale/lo.po
+--rw-r--r--   0 ced       (1000) ced       (1000)     1825 2023-10-28 12:11:19.000000 trytond_account_eu-7.0.0/locale/lt.po
+--rw-r--r--   0 ced       (1000) ced       (1000)     1713 2023-10-28 12:11:19.000000 trytond_account_eu-7.0.0/locale/nl.po
+--rw-r--r--   0 ced       (1000) ced       (1000)     1580 2023-10-28 12:11:19.000000 trytond_account_eu-7.0.0/locale/pl.po
+--rw-r--r--   0 ced       (1000) ced       (1000)     1892 2023-10-28 12:11:19.000000 trytond_account_eu-7.0.0/locale/pt.po
+--rw-r--r--   0 ced       (1000) ced       (1000)     1500 2023-10-28 12:11:19.000000 trytond_account_eu-7.0.0/locale/ro.po
+--rw-r--r--   0 ced       (1000) ced       (1000)     1548 2023-10-28 12:11:19.000000 trytond_account_eu-7.0.0/locale/ru.po
+--rw-r--r--   0 ced       (1000) ced       (1000)     1548 2023-10-28 12:11:19.000000 trytond_account_eu-7.0.0/locale/sl.po
+--rw-r--r--   0 ced       (1000) ced       (1000)     1548 2023-10-28 12:11:19.000000 trytond_account_eu-7.0.0/locale/tr.po
+--rw-r--r--   0 ced       (1000) ced       (1000)     1456 2023-10-28 12:11:19.000000 trytond_account_eu-7.0.0/locale/uk.po
+--rw-r--r--   0 ced       (1000) ced       (1000)     1548 2023-10-28 12:11:19.000000 trytond_account_eu-7.0.0/locale/zh_CN.po
+--rw-r--r--   0 ced       (1000) ced       (1000)       38 2023-10-30 17:20:09.429329 trytond_account_eu-7.0.0/setup.cfg
+--rwxr-xr-x   0 ced       (1000) ced       (1000)     4247 2023-10-27 17:38:49.000000 trytond_account_eu-7.0.0/setup.py
+-drwxr-xr-x   0 ced       (1000) ced       (1000)        0 2023-10-30 17:20:09.429329 trytond_account_eu-7.0.0/tests/
+--rw-r--r--   0 ced       (1000) ced       (1000)      144 2023-04-15 07:12:15.000000 trytond_account_eu-7.0.0/tests/__init__.py
+--rw-r--r--   0 ced       (1000) ced       (1000)      394 2023-04-15 07:12:15.000000 trytond_account_eu-7.0.0/tests/test_module.py
+--rw-r--r--   0 ced       (1000) ced       (1000)      568 2023-10-27 17:38:49.000000 trytond_account_eu-7.0.0/tox.ini
+--rw-r--r--   0 ced       (1000) ced       (1000)      127 2023-10-30 17:01:36.000000 trytond_account_eu-7.0.0/tryton.cfg
+-drwxr-xr-x   0 ced       (1000) ced       (1000)        0 2023-10-30 17:20:09.429329 trytond_account_eu-7.0.0/trytond_account_eu.egg-info/
+--rw-r--r--   0 ced       (1000) ced       (1000)     2580 2023-10-30 17:20:09.000000 trytond_account_eu-7.0.0/trytond_account_eu.egg-info/PKG-INFO
+--rw-r--r--   0 ced       (1000) ced       (1000)     1515 2023-10-30 17:20:09.000000 trytond_account_eu-7.0.0/trytond_account_eu.egg-info/SOURCES.txt
+--rw-r--r--   0 ced       (1000) ced       (1000)        1 2023-10-30 17:20:09.000000 trytond_account_eu-7.0.0/trytond_account_eu.egg-info/dependency_links.txt
+--rw-r--r--   0 ced       (1000) ced       (1000)       58 2023-10-30 17:20:09.000000 trytond_account_eu-7.0.0/trytond_account_eu.egg-info/entry_points.txt
+--rw-r--r--   0 ced       (1000) ced       (1000)        1 2022-12-19 09:40:00.000000 trytond_account_eu-7.0.0/trytond_account_eu.egg-info/not-zip-safe
+--rw-r--r--   0 ced       (1000) ced       (1000)      163 2023-10-30 17:20:09.000000 trytond_account_eu-7.0.0/trytond_account_eu.egg-info/requires.txt
+--rw-r--r--   0 ced       (1000) ced       (1000)        8 2023-10-30 17:20:09.000000 trytond_account_eu-7.0.0/trytond_account_eu.egg-info/top_level.txt
+-drwxr-xr-x   0 ced       (1000) ced       (1000)        0 2023-10-30 17:20:09.429329 trytond_account_eu-7.0.0/view/
+--rw-r--r--   0 ced       (1000) ced       (1000)      352 2023-04-15 07:12:15.000000 trytond_account_eu-7.0.0/view/ec_sales_list.xml
+--rw-r--r--   0 ced       (1000) ced       (1000)      373 2023-01-16 14:00:20.000000 trytond_account_eu-7.0.0/view/ec_sales_list_context_form.xml
+--rw-r--r--   0 ced       (1000) ced       (1000)      418 2023-01-16 14:00:20.000000 trytond_account_eu-7.0.0/view/tax_form.xml
+--rw-r--r--   0 ced       (1000) ced       (1000)      418 2023-01-16 14:00:20.000000 trytond_account_eu-7.0.0/view/tax_template_form.xml
++drwxr-xr-x   0 ced       (1000) ced       (1000)        0 2024-04-29 15:33:13.300752 trytond_account_eu-7.2.0/
++-rw-r--r--   0 ced       (1000) ced       (1000)     1394 2024-04-29 15:13:55.000000 trytond_account_eu-7.2.0/CHANGELOG
++-rw-r--r--   0 ced       (1000) ced       (1000)      680 2024-04-29 15:13:55.000000 trytond_account_eu-7.2.0/COPYRIGHT
++-rw-r--r--   0 ced       (1000) ced       (1000)    35147 2023-01-16 14:00:20.000000 trytond_account_eu-7.2.0/LICENSE
++-rw-r--r--   0 ced       (1000) ced       (1000)      103 2023-04-15 07:12:15.000000 trytond_account_eu-7.2.0/MANIFEST.in
++-rw-r--r--   0 ced       (1000) ced       (1000)     2580 2024-04-29 15:33:13.300752 trytond_account_eu-7.2.0/PKG-INFO
++-rw-r--r--   0 ced       (1000) ced       (1000)      160 2023-01-16 14:00:20.000000 trytond_account_eu-7.2.0/README.rst
++-rw-r--r--   0 ced       (1000) ced       (1000)      418 2023-04-15 07:12:15.000000 trytond_account_eu-7.2.0/__init__.py
++-rw-r--r--   0 ced       (1000) ced       (1000)     5456 2024-01-27 09:58:52.000000 trytond_account_eu-7.2.0/account.py
++-rw-r--r--   0 ced       (1000) ced       (1000)     2774 2024-04-27 16:30:39.000000 trytond_account_eu-7.2.0/account.xml
++drwxr-xr-x   0 ced       (1000) ced       (1000)        0 2024-04-29 15:33:13.297418 trytond_account_eu-7.2.0/doc/
++-rw-r--r--   0 ced       (1000) ced       (1000)     3073 2024-04-27 16:30:39.000000 trytond_account_eu-7.2.0/doc/conf.py
++-rw-r--r--   0 ced       (1000) ced       (1000)      160 2023-01-16 14:00:20.000000 trytond_account_eu-7.2.0/doc/index.rst
++-rw-r--r--   0 ced       (1000) ced       (1000)       36 2024-04-07 09:36:53.000000 trytond_account_eu-7.2.0/doc/requirements-doc.txt
++drwxr-xr-x   0 ced       (1000) ced       (1000)        0 2024-04-29 15:33:13.297418 trytond_account_eu-7.2.0/locale/
++-rw-r--r--   0 ced       (1000) ced       (1000)     1548 2024-04-27 16:43:20.000000 trytond_account_eu-7.2.0/locale/bg.po
++-rw-r--r--   0 ced       (1000) ced       (1000)     1846 2024-04-27 16:43:20.000000 trytond_account_eu-7.2.0/locale/ca.po
++-rw-r--r--   0 ced       (1000) ced       (1000)     1548 2024-04-27 16:43:20.000000 trytond_account_eu-7.2.0/locale/cs.po
++-rw-r--r--   0 ced       (1000) ced       (1000)     1752 2024-04-27 16:43:20.000000 trytond_account_eu-7.2.0/locale/de.po
++-rw-r--r--   0 ced       (1000) ced       (1000)     1866 2024-04-27 16:43:20.000000 trytond_account_eu-7.2.0/locale/es.po
++-rw-r--r--   0 ced       (1000) ced       (1000)     1548 2024-04-27 16:43:20.000000 trytond_account_eu-7.2.0/locale/es_419.po
++-rw-r--r--   0 ced       (1000) ced       (1000)     1718 2024-04-27 16:43:20.000000 trytond_account_eu-7.2.0/locale/et.po
++-rw-r--r--   0 ced       (1000) ced       (1000)     1913 2024-04-27 16:43:20.000000 trytond_account_eu-7.2.0/locale/fa.po
++-rw-r--r--   0 ced       (1000) ced       (1000)     1548 2024-04-27 16:43:20.000000 trytond_account_eu-7.2.0/locale/fi.po
++-rw-r--r--   0 ced       (1000) ced       (1000)     1761 2024-04-27 16:43:20.000000 trytond_account_eu-7.2.0/locale/fr.po
++-rw-r--r--   0 ced       (1000) ced       (1000)     1548 2024-04-27 16:43:20.000000 trytond_account_eu-7.2.0/locale/hu.po
++-rw-r--r--   0 ced       (1000) ced       (1000)     1509 2024-04-27 16:43:20.000000 trytond_account_eu-7.2.0/locale/id.po
++-rw-r--r--   0 ced       (1000) ced       (1000)     1713 2024-04-27 16:43:20.000000 trytond_account_eu-7.2.0/locale/it.po
++-rw-r--r--   0 ced       (1000) ced       (1000)     1548 2024-04-27 16:43:20.000000 trytond_account_eu-7.2.0/locale/lo.po
++-rw-r--r--   0 ced       (1000) ced       (1000)     1825 2024-04-27 16:43:20.000000 trytond_account_eu-7.2.0/locale/lt.po
++-rw-r--r--   0 ced       (1000) ced       (1000)     1713 2024-04-27 16:43:20.000000 trytond_account_eu-7.2.0/locale/nl.po
++-rw-r--r--   0 ced       (1000) ced       (1000)     1580 2024-04-27 16:43:20.000000 trytond_account_eu-7.2.0/locale/pl.po
++-rw-r--r--   0 ced       (1000) ced       (1000)     1892 2024-04-27 16:43:20.000000 trytond_account_eu-7.2.0/locale/pt.po
++-rw-r--r--   0 ced       (1000) ced       (1000)     1816 2024-04-29 13:17:17.000000 trytond_account_eu-7.2.0/locale/ro.po
++-rw-r--r--   0 ced       (1000) ced       (1000)     1548 2024-04-27 16:43:20.000000 trytond_account_eu-7.2.0/locale/ru.po
++-rw-r--r--   0 ced       (1000) ced       (1000)     1548 2024-04-27 16:43:20.000000 trytond_account_eu-7.2.0/locale/sl.po
++-rw-r--r--   0 ced       (1000) ced       (1000)     1548 2024-04-27 16:43:20.000000 trytond_account_eu-7.2.0/locale/tr.po
++-rw-r--r--   0 ced       (1000) ced       (1000)     1456 2024-04-27 16:43:20.000000 trytond_account_eu-7.2.0/locale/uk.po
++-rw-r--r--   0 ced       (1000) ced       (1000)     1548 2024-04-27 16:43:20.000000 trytond_account_eu-7.2.0/locale/zh_CN.po
++-rw-r--r--   0 ced       (1000) ced       (1000)       38 2024-04-29 15:33:13.300752 trytond_account_eu-7.2.0/setup.cfg
++-rwxr-xr-x   0 ced       (1000) ced       (1000)     4247 2024-03-17 11:01:36.000000 trytond_account_eu-7.2.0/setup.py
++drwxr-xr-x   0 ced       (1000) ced       (1000)        0 2024-04-29 15:33:13.297418 trytond_account_eu-7.2.0/tests/
++-rw-r--r--   0 ced       (1000) ced       (1000)      144 2023-04-15 07:12:15.000000 trytond_account_eu-7.2.0/tests/__init__.py
++-rw-r--r--   0 ced       (1000) ced       (1000)      394 2023-04-15 07:12:15.000000 trytond_account_eu-7.2.0/tests/test_module.py
++-rw-r--r--   0 ced       (1000) ced       (1000)      568 2024-04-07 09:36:53.000000 trytond_account_eu-7.2.0/tox.ini
++-rw-r--r--   0 ced       (1000) ced       (1000)      127 2024-04-29 15:13:50.000000 trytond_account_eu-7.2.0/tryton.cfg
++drwxr-xr-x   0 ced       (1000) ced       (1000)        0 2024-04-29 15:33:13.300752 trytond_account_eu-7.2.0/trytond_account_eu.egg-info/
++-rw-r--r--   0 ced       (1000) ced       (1000)     2580 2024-04-29 15:33:12.000000 trytond_account_eu-7.2.0/trytond_account_eu.egg-info/PKG-INFO
++-rw-r--r--   0 ced       (1000) ced       (1000)     1497 2024-04-29 15:33:13.000000 trytond_account_eu-7.2.0/trytond_account_eu.egg-info/SOURCES.txt
++-rw-r--r--   0 ced       (1000) ced       (1000)        1 2024-04-29 15:33:12.000000 trytond_account_eu-7.2.0/trytond_account_eu.egg-info/dependency_links.txt
++-rw-r--r--   0 ced       (1000) ced       (1000)       58 2024-04-29 15:33:12.000000 trytond_account_eu-7.2.0/trytond_account_eu.egg-info/entry_points.txt
++-rw-r--r--   0 ced       (1000) ced       (1000)        1 2022-12-19 09:40:00.000000 trytond_account_eu-7.2.0/trytond_account_eu.egg-info/not-zip-safe
++-rw-r--r--   0 ced       (1000) ced       (1000)      163 2024-04-29 15:33:12.000000 trytond_account_eu-7.2.0/trytond_account_eu.egg-info/requires.txt
++-rw-r--r--   0 ced       (1000) ced       (1000)        8 2024-04-29 15:33:12.000000 trytond_account_eu-7.2.0/trytond_account_eu.egg-info/top_level.txt
++drwxr-xr-x   0 ced       (1000) ced       (1000)        0 2024-04-29 15:33:13.300752 trytond_account_eu-7.2.0/view/
++-rw-r--r--   0 ced       (1000) ced       (1000)      352 2023-04-15 07:12:15.000000 trytond_account_eu-7.2.0/view/ec_sales_list.xml
++-rw-r--r--   0 ced       (1000) ced       (1000)      373 2023-01-16 14:00:20.000000 trytond_account_eu-7.2.0/view/ec_sales_list_context_form.xml
++-rw-r--r--   0 ced       (1000) ced       (1000)      418 2023-01-16 14:00:20.000000 trytond_account_eu-7.2.0/view/tax_form.xml
++-rw-r--r--   0 ced       (1000) ced       (1000)      418 2023-01-16 14:00:20.000000 trytond_account_eu-7.2.0/view/tax_template_form.xml
+```
+
+### Comparing `trytond_account_eu-7.0.0/CHANGELOG` & `trytond_account_eu-7.2.0/CHANGELOG`
+
+ * *Files 6% similar despite different names*
+
+```diff
+@@ -1,8 +1,13 @@
+ 
++Version 7.2.0 - 2024-04-29
++--------------------------
++* Bug fixes (see mercurial logs for details)
++
++
+ Version 7.0.0 - 2023-10-30
+ --------------------------
+ * Bug fixes (see mercurial logs for details)
+ * Add support for Python 3.12
+ 
+ Version 6.8.0 - 2023-05-01
+ --------------------------
+```
+
+### Comparing `trytond_account_eu-7.0.0/COPYRIGHT` & `trytond_account_eu-7.2.0/COPYRIGHT`
+
+ * *Files 16% similar despite different names*
+
+```diff
+@@ -1,9 +1,9 @@
+-Copyright (C) 2017-2023 Cédric Krier
+-Copyright (C) 2017-2023 B2CK
++Copyright (C) 2017-2024 Cédric Krier
++Copyright (C) 2017-2024 B2CK
+ 
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+```
+
+### Comparing `trytond_account_eu-7.0.0/LICENSE` & `trytond_account_eu-7.2.0/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `trytond_account_eu-7.0.0/PKG-INFO` & `trytond_account_eu-7.2.0/PKG-INFO`
+
+ * *Files 8% similar despite different names*
+
+```diff
+@@ -1,13 +1,13 @@
+ Metadata-Version: 2.1
+ Name: trytond_account_eu
+-Version: 7.0.0
++Version: 7.2.0
+ Summary: Tryton module for european accounting
+ Home-page: http://www.tryton.org/
+-Download-URL: http://downloads.tryton.org/7.0/
++Download-URL: http://downloads.tryton.org/7.2/
+ Author: Tryton
+ Author-email: foundation@tryton.org
+ License: GPL-3
+ Project-URL: Bug Tracker, https://bugs.tryton.org/
+ Project-URL: Documentation, https://docs.tryton.org/
+ Project-URL: Forum, https://www.tryton.org/forum
+ Project-URL: Source Code, https://code.tryton.org/tryton
+@@ -45,20 +45,20 @@
+ Classifier: Programming Language :: Python :: 3.10
+ Classifier: Programming Language :: Python :: 3.11
+ Classifier: Programming Language :: Python :: 3.12
+ Classifier: Programming Language :: Python :: Implementation :: CPython
+ Classifier: Topic :: Office/Business
+ Requires-Python: >=3.8
+ License-File: LICENSE
+-Requires-Dist: trytond_account<7.1,>=7.0
+-Requires-Dist: trytond_account_invoice<7.1,>=7.0
+-Requires-Dist: trytond_company<7.1,>=7.0
+-Requires-Dist: trytond_currency<7.1,>=7.0
+-Requires-Dist: trytond_party<7.1,>=7.0
+-Requires-Dist: trytond<7.1,>=7.0
++Requires-Dist: trytond_account<7.3,>=7.2
++Requires-Dist: trytond_account_invoice<7.3,>=7.2
++Requires-Dist: trytond_company<7.3,>=7.2
++Requires-Dist: trytond_currency<7.3,>=7.2
++Requires-Dist: trytond_party<7.3,>=7.2
++Requires-Dist: trytond<7.3,>=7.2
+ Provides-Extra: test
+ 
+ Account Europe Module
+ #####################
+ 
+ The account_eu module implements common accounting requirements in Europe.
+ It includes:
+```
+
+### Comparing `trytond_account_eu-7.0.0/account.py` & `trytond_account_eu-7.2.0/account.py`
+
+ * *Files identical despite different names*
+
+### Comparing `trytond_account_eu-7.0.0/account.xml` & `trytond_account_eu-7.2.0/account.xml`
+
+ * *Files 3% similar despite different names*
+
+#### Comparing `trytond_account_eu-7.0.0/account.xml` & `trytond_account_eu-7.2.0/account.xml`
+
+```diff
+@@ -26,22 +26,22 @@
+     <record model="ir.action.act_window.view" id="act_ec_sales_list_form_view1">
+       <field name="sequence" eval="10"/>
+       <field name="view" ref="ec_sales_list_view_list"/>
+       <field name="act_window" ref="act_ec_sales_list_form"/>
+     </record>
+     <menuitem parent="account.menu_reporting" action="act_ec_sales_list_form" sequence="50" id="menu_ec_sales_list"/>
+     <record model="ir.model.access" id="access_ec_sales_list">
+-      <field name="model" search="[('model', '=', 'account.ec_sales_list')]"/>
++      <field name="model">account.ec_sales_list</field>
+       <field name="perm_read" eval="False"/>
+       <field name="perm_write" eval="False"/>
+       <field name="perm_create" eval="False"/>
+       <field name="perm_delete" eval="False"/>
+     </record>
+     <record model="ir.model.access" id="access_ec_sales_list_account">
+-      <field name="model" search="[('model', '=', 'account.ec_sales_list')]"/>
++      <field name="model">account.ec_sales_list</field>
+       <field name="group" ref="account.group_account"/>
+       <field name="perm_read" eval="True"/>
+       <field name="perm_write" eval="False"/>
+       <field name="perm_create" eval="False"/>
+       <field name="perm_delete" eval="False"/>
+     </record>
+     <record model="ir.ui.view" id="ec_sales_list_context_view_form">
+```
+
+### Comparing `trytond_account_eu-7.0.0/doc/conf.py` & `trytond_account_eu-7.2.0/doc/conf.py`
+
+ * *Files 4% similar despite different names*
+
+```diff
+@@ -5,16 +5,16 @@
+ 
+ base_url = os.environ.get('DOC_BASE_URL')
+ if base_url:
+     modules_url = base_url + '/modules-{module}/'
+     trytond_url = base_url + '/server/'
+ else:
+     modules_url = (
+-        'https://docs.tryton.org/projects/modules-{module}/en/{series}/')
+-    trytond_url = 'https://docs.tryton.org/projects/server/en/{series}/'
++        'https://docs.tryton.org/${series}/modules-{module}/')
++    trytond_url = 'https://docs.tryton.org/${series}/server/'
+ 
+ 
+ def get_info():
+     import configparser
+     import subprocess
+     import sys
+ 
+@@ -67,22 +67,33 @@
+     }
+ html_title = info['description']
+ master_doc = 'index'
+ project = info['name']
+ release = version = info['series']
+ default_role = 'ref'
+ highlight_language = 'none'
++exclude_patterns = ['**/*.inc.rst']
+ extensions = [
+     'sphinx_copybutton',
+     'sphinx.ext.intersphinx',
+     ]
+ intersphinx_mapping = {
+     'trytond': (trytond_url.format(series=version), None),
+     }
+ intersphinx_mapping.update({
+         m: (modules_url.format(
+                 module=m.replace('_', '-'), series=version), None)
+         for m in info['modules']
+         })
+ linkcheck_ignore = [r'/.*', r'https://demo.tryton.org/*']
+ 
++try:
++    with open(os.path.join(
++                os.path.dirname(__file__),
++                'linkcheck_ignore.json'), 'r') as f:
++        import json
++        linkcheck_ignore.extend(json.load(f))
++        del json
++except FileNotFoundError:
++    pass
++
+ del get_info, info, base_url, modules_url, trytond_url
+```
+
+### Comparing `trytond_account_eu-7.0.0/locale/bg.po` & `trytond_account_eu-7.2.0/locale/bg.po`
+
+ * *Files identical despite different names*
+
+### Comparing `trytond_account_eu-7.0.0/locale/ca.po` & `trytond_account_eu-7.2.0/locale/ca.po`
+
+ * *Files identical despite different names*
+
+### Comparing `trytond_account_eu-7.0.0/locale/cs.po` & `trytond_account_eu-7.2.0/locale/cs.po`
+
+ * *Files identical despite different names*
+
+### Comparing `trytond_account_eu-7.0.0/locale/de.po` & `trytond_account_eu-7.2.0/locale/de.po`
+
+ * *Files identical despite different names*
+
+### Comparing `trytond_account_eu-7.0.0/locale/es.po` & `trytond_account_eu-7.2.0/locale/es.po`
+
+ * *Files identical despite different names*
+
+### Comparing `trytond_account_eu-7.0.0/locale/es_419.po` & `trytond_account_eu-7.2.0/locale/es_419.po`
+
+ * *Files identical despite different names*
+
+### Comparing `trytond_account_eu-7.0.0/locale/et.po` & `trytond_account_eu-7.2.0/locale/et.po`
+
+ * *Files identical despite different names*
+
+### Comparing `trytond_account_eu-7.0.0/locale/fa.po` & `trytond_account_eu-7.2.0/locale/fa.po`
+
+ * *Files identical despite different names*
+
+### Comparing `trytond_account_eu-7.0.0/locale/fi.po` & `trytond_account_eu-7.2.0/locale/fi.po`
+
+ * *Files identical despite different names*
+
+### Comparing `trytond_account_eu-7.0.0/locale/fr.po` & `trytond_account_eu-7.2.0/locale/fr.po`
+
+ * *Files identical despite different names*
+
+### Comparing `trytond_account_eu-7.0.0/locale/hu.po` & `trytond_account_eu-7.2.0/locale/hu.po`
+
+ * *Files identical despite different names*
+
+### Comparing `trytond_account_eu-7.0.0/locale/id.po` & `trytond_account_eu-7.2.0/locale/id.po`
+
+ * *Files identical despite different names*
+
+### Comparing `trytond_account_eu-7.0.0/locale/it.po` & `trytond_account_eu-7.2.0/locale/it.po`
+
+ * *Files identical despite different names*
+
+### Comparing `trytond_account_eu-7.0.0/locale/lo.po` & `trytond_account_eu-7.2.0/locale/lo.po`
+
+ * *Files identical despite different names*
+
+### Comparing `trytond_account_eu-7.0.0/locale/lt.po` & `trytond_account_eu-7.2.0/locale/lt.po`
+
+ * *Files identical despite different names*
+
+### Comparing `trytond_account_eu-7.0.0/locale/nl.po` & `trytond_account_eu-7.2.0/locale/nl.po`
+
+ * *Files identical despite different names*
+
+### Comparing `trytond_account_eu-7.0.0/locale/pl.po` & `trytond_account_eu-7.2.0/locale/pl.po`
+
+ * *Files identical despite different names*
+
+### Comparing `trytond_account_eu-7.0.0/locale/pt.po` & `trytond_account_eu-7.2.0/locale/pt.po`
+
+ * *Files identical despite different names*
+
+### Comparing `trytond_account_eu-7.0.0/locale/ro.po` & `trytond_account_eu-7.2.0/locale/uk.po`
+
+ * *Files 8% similar despite different names*
+
+```diff
+@@ -1,46 +1,46 @@
+ #
+ msgid ""
+ msgstr "Content-Type: text/plain; charset=utf-8\n"
+ 
+ msgctxt "field:account.ec_sales_list,amount:"
+ msgid "Amount"
+-msgstr "Suma"
++msgstr ""
+ 
+ msgctxt "field:account.ec_sales_list,code:"
+ msgid "Code"
+-msgstr "Cod"
++msgstr ""
+ 
+ msgctxt "field:account.ec_sales_list,company_tax_identifier:"
+ msgid "Company Tax Identifier"
+ msgstr ""
+ 
+ msgctxt "field:account.ec_sales_list,currency:"
+ msgid "Currency"
+-msgstr "Moneda"
++msgstr ""
+ 
+ msgctxt "field:account.ec_sales_list,party:"
+ msgid "Party"
+-msgstr "Parte"
++msgstr ""
+ 
+ msgctxt "field:account.ec_sales_list,party_tax_identifier:"
+ msgid "Party Tax Identifier"
+ msgstr ""
+ 
+ msgctxt "field:account.ec_sales_list.context,company:"
+ msgid "Company"
+-msgstr "Companie"
++msgstr ""
+ 
+ msgctxt "field:account.ec_sales_list.context,fiscalyear:"
+ msgid "Fiscal Year"
+-msgstr "An Fiscal"
++msgstr ""
+ 
+ msgctxt "field:account.ec_sales_list.context,period:"
+ msgid "Period"
+-msgstr "Perioadă"
++msgstr ""
+ 
+ msgctxt "field:account.tax,ec_sales_list_code:"
+ msgid "EC Sales List Code"
+ msgstr ""
+ 
+ msgctxt "field:account.tax.template,ec_sales_list_code:"
+ msgid "EC Sales List Code"
+```
+
+#### encoding
+
+```diff
+@@ -1 +1 @@
+-utf-8
++us-ascii
+```
+
+### Comparing `trytond_account_eu-7.0.0/locale/ru.po` & `trytond_account_eu-7.2.0/locale/ru.po`
+
+ * *Files identical despite different names*
+
+### Comparing `trytond_account_eu-7.0.0/locale/sl.po` & `trytond_account_eu-7.2.0/locale/sl.po`
+
+ * *Files identical despite different names*
+
+### Comparing `trytond_account_eu-7.0.0/locale/tr.po` & `trytond_account_eu-7.2.0/locale/tr.po`
+
+ * *Files identical despite different names*
+
+### Comparing `trytond_account_eu-7.0.0/locale/uk.po` & `trytond_account_eu-7.2.0/locale/zh_CN.po`
+
+ * *Files 7% similar despite different names*
+
+```diff
+@@ -42,30 +42,33 @@
+ msgid "EC Sales List Code"
+ msgstr ""
+ 
+ msgctxt "field:account.tax.template,ec_sales_list_code:"
+ msgid "EC Sales List Code"
+ msgstr ""
+ 
++#, fuzzy
+ msgctxt "model:account.ec_sales_list,name:"
+ msgid "EC Sales List"
+-msgstr ""
++msgstr "EC Sales List"
+ 
+ msgctxt "model:account.ec_sales_list.context,name:"
+ msgid "EC Sales List Context"
+ msgstr ""
+ 
+ msgctxt "model:ir.action,name:act_ec_sales_list_form"
+ msgid "EC Sales List"
+-msgstr ""
++msgstr "EC Sales List"
+ 
+ msgctxt "model:ir.ui.menu,name:menu_ec_sales_list"
+ msgid "EC Sales List"
+-msgstr ""
++msgstr "EC Sales List"
+ 
++#, fuzzy
+ msgctxt "view:account.tax.template:"
+ msgid "EC Sales List"
+-msgstr ""
++msgstr "EC Sales List"
+ 
++#, fuzzy
+ msgctxt "view:account.tax:"
+ msgid "EC Sales List"
+-msgstr ""
++msgstr "EC Sales List"
+```
+
+### Comparing `trytond_account_eu-7.0.0/setup.py` & `trytond_account_eu-7.2.0/setup.py`
+
+ * *Files identical despite different names*
+
+### Comparing `trytond_account_eu-7.0.0/tox.ini` & `trytond_account_eu-7.2.0/tox.ini`
+
+ * *Files identical despite different names*
+
+### Comparing `trytond_account_eu-7.0.0/trytond_account_eu.egg-info/PKG-INFO` & `trytond_account_eu-7.2.0/trytond_account_eu.egg-info/PKG-INFO`
+
+ * *Files 9% similar despite different names*
+
+```diff
+@@ -1,13 +1,13 @@
+ Metadata-Version: 2.1
+-Name: trytond-account-eu
+-Version: 7.0.0
++Name: trytond_account_eu
++Version: 7.2.0
+ Summary: Tryton module for european accounting
+ Home-page: http://www.tryton.org/
+-Download-URL: http://downloads.tryton.org/7.0/
++Download-URL: http://downloads.tryton.org/7.2/
+ Author: Tryton
+ Author-email: foundation@tryton.org
+ License: GPL-3
+ Project-URL: Bug Tracker, https://bugs.tryton.org/
+ Project-URL: Documentation, https://docs.tryton.org/
+ Project-URL: Forum, https://www.tryton.org/forum
+ Project-URL: Source Code, https://code.tryton.org/tryton
+@@ -45,20 +45,20 @@
+ Classifier: Programming Language :: Python :: 3.10
+ Classifier: Programming Language :: Python :: 3.11
+ Classifier: Programming Language :: Python :: 3.12
+ Classifier: Programming Language :: Python :: Implementation :: CPython
+ Classifier: Topic :: Office/Business
+ Requires-Python: >=3.8
+ License-File: LICENSE
+-Requires-Dist: trytond_account<7.1,>=7.0
+-Requires-Dist: trytond_account_invoice<7.1,>=7.0
+-Requires-Dist: trytond_company<7.1,>=7.0
+-Requires-Dist: trytond_currency<7.1,>=7.0
+-Requires-Dist: trytond_party<7.1,>=7.0
+-Requires-Dist: trytond<7.1,>=7.0
++Requires-Dist: trytond_account<7.3,>=7.2
++Requires-Dist: trytond_account_invoice<7.3,>=7.2
++Requires-Dist: trytond_company<7.3,>=7.2
++Requires-Dist: trytond_currency<7.3,>=7.2
++Requires-Dist: trytond_party<7.3,>=7.2
++Requires-Dist: trytond<7.3,>=7.2
+ Provides-Extra: test
+ 
+ Account Europe Module
+ #####################
+ 
+ The account_eu module implements common accounting requirements in Europe.
+ It includes:
+```
+
+### Comparing `trytond_account_eu-7.0.0/trytond_account_eu.egg-info/SOURCES.txt` & `trytond_account_eu-7.2.0/trytond_account_eu.egg-info/SOURCES.txt`
+
+ * *Files 4% similar despite different names*
+
+```diff
+@@ -1,8 +1,7 @@
+-.readthedocs.yaml
+ CHANGELOG
+ COPYRIGHT
+ LICENSE
+ MANIFEST.in
+ README.rst
+ __init__.py
+ account.py
+```
+
