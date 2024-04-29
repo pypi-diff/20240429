@@ -9711,3 +9711,24 @@
 [2024-04-29 08:21:58] INFO root fetch - processPackages [jax-tools]: Remove: archive file [/home/abi/fetcher/tmp/jax-tools-1.0.97.tar.gz]
 [2024-04-29 08:21:58] INFO root fetch - main [MainThread]: End processing [jax-tools]: success
 [2024-04-29 08:21:58] INFO root fetch - main [MainThread]: Store serial: [22979442]
+[2024-04-29 08:24:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22979442]
+[2024-04-29 08:24:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-29 08:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: npc_lims
+[2024-04-29 08:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymstodo
+[2024-04-29 08:24:08] INFO root fetch - processPackages [pymstodo]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-29 08:24:09] INFO root fetch - processPackages [pymstodo]: Downloading https://files.pythonhosted.org/packages/38/18/0e9dbad01e81ed3a7b4c54dc99f55feab007ee6c3cc32a1d2985f07e74fe/pymstodo-0.1.8.tar.gz
+[2024-04-29 08:24:09] INFO root fetch - processPackages [npc_lims]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-29 08:24:09] INFO root fetch - processPackages [npc_lims]: Downloading https://files.pythonhosted.org/packages/eb/a3/a72478dcef25d9b46c35b7730c5c9a426e07354369fb652045cc1befbe7e/npc_lims-0.1.98.tar.gz
+[2024-04-29 08:24:09] INFO root fetch - processPackages [pymstodo]: Downloading https://files.pythonhosted.org/packages/e7/e3/a5252340672d2c331cc73f9c84d18ace681680791ccb0fef0e6b1eeb1d5e/pymstodo-0.1.9.tar.gz
+[2024-04-29 08:24:09] INFO root fetch - processPackages [pymstodo]: executing diffoscope
+[2024-04-29 08:24:09] INFO root fetch - processPackages [pymstodo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymstodo-0.1.8.tar.gz tmp/pymstodo-0.1.9.tar.gz --markdown 20240429/p/pymstodo/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-29 08:24:09] INFO root fetch - processPackages [npc_lims]: Downloading https://files.pythonhosted.org/packages/20/8f/2a3ef0e71c09fd01ba3685a9f92c448766eab8a9e83f1e03e62e90091e0a/npc_lims-0.1.99.tar.gz
+[2024-04-29 08:24:09] INFO root fetch - processPackages [npc_lims]: executing diffoscope
+[2024-04-29 08:24:09] INFO root fetch - processPackages [npc_lims]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npc_lims-0.1.98.tar.gz tmp/npc_lims-0.1.99.tar.gz --markdown 20240429/n/npc_lims/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-29 08:24:10] INFO root fetch - processPackages [pymstodo]: Remove: archive file [/home/abi/fetcher/tmp/pymstodo-0.1.8.tar.gz]
+[2024-04-29 08:24:10] INFO root fetch - processPackages [pymstodo]: Remove: archive file [/home/abi/fetcher/tmp/pymstodo-0.1.9.tar.gz]
+[2024-04-29 08:24:10] INFO root fetch - main [MainThread]: End processing [pymstodo]: success
+[2024-04-29 08:24:10] INFO root fetch - processPackages [npc_lims]: Remove: archive file [/home/abi/fetcher/tmp/npc_lims-0.1.98.tar.gz]
+[2024-04-29 08:24:10] INFO root fetch - processPackages [npc_lims]: Remove: archive file [/home/abi/fetcher/tmp/npc_lims-0.1.99.tar.gz]
+[2024-04-29 08:24:10] INFO root fetch - main [MainThread]: End processing [npc_lims]: success
+[2024-04-29 08:24:10] INFO root fetch - main [MainThread]: Store serial: [22979448]
