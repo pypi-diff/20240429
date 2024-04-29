@@ -1114,3 +1114,18 @@
 [2024-04-29 01:59:34] INFO root fetch - processPackages [bambot]: Remove: archive file [/home/abi/fetcher/tmp/bambot-0.3.0.tar.gz]
 [2024-04-29 01:59:34] INFO root fetch - main [MainThread]: End processing [bambot]: success
 [2024-04-29 01:59:34] INFO root fetch - main [MainThread]: Store serial: [22971659]
+[2024-04-29 02:01:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22971659]
+[2024-04-29 02:01:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-29 02:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AI-envs
+[2024-04-29 02:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-simulator-xiuxian
+[2024-04-29 02:01:43] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: New version: [0.5.40] Old Version: [0.5.36]
+[2024-04-29 02:01:43] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: Downloading https://files.pythonhosted.org/packages/cf/d0/e147afa33b733a45694cd6cef3912e3ae8bda273a40be7e0519db6c4d8c9/nonebot_plugin_simulator_xiuxian-0.5.36.tar.gz
+[2024-04-29 02:01:43] WARNING root fetch - processPackages [AI-envs]: Skipping, unable to determine old version
+[2024-04-29 02:01:43] INFO root fetch - main [MainThread]: End processing [AI-envs] error
+[2024-04-29 02:01:43] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: Downloading https://files.pythonhosted.org/packages/3b/f2/16b7945e63e9f8a1e476cc9f33d4b8a5d1c0c06b4bb0712996fed6d68bfc/nonebot_plugin_simulator_xiuxian-0.5.40.tar.gz
+[2024-04-29 02:01:43] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: executing diffoscope
+[2024-04-29 02:01:43] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_simulator_xiuxian-0.5.36.tar.gz tmp/nonebot_plugin_simulator_xiuxian-0.5.40.tar.gz --markdown 20240429/n/nonebot-plugin-simulator-xiuxian/0.5.36-0.5.40/README.md --exclude *.pyd
+[2024-04-29 02:01:44] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_simulator_xiuxian-0.5.36.tar.gz]
+[2024-04-29 02:01:44] INFO root fetch - processPackages [nonebot-plugin-simulator-xiuxian]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_simulator_xiuxian-0.5.40.tar.gz]
+[2024-04-29 02:01:44] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-simulator-xiuxian]: success
+[2024-04-29 02:01:44] INFO root fetch - main [MainThread]: Store serial: [22971665]
