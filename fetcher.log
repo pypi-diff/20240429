@@ -6819,3 +6819,9 @@
 [2024-04-29 04:32:13] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
 [2024-04-29 04:32:13] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
 [2024-04-29 04:32:13] INFO root fetch - main [MainThread]: Store serial: [22977971]
+[2024-04-29 04:34:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22977971]
+[2024-04-29 04:34:22] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-29 04:34:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: umbrella-monitor
+[2024-04-29 04:34:23] WARNING root fetch - processPackages [umbrella-monitor]: Skipping, unable to determine old version
+[2024-04-29 04:34:23] INFO root fetch - main [MainThread]: End processing [umbrella-monitor] error
+[2024-04-29 04:34:23] INFO root fetch - main [MainThread]: Store serial: [22978120]
