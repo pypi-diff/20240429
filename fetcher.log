@@ -11896,3 +11896,15 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-29 10:10:03] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240428.tar.gz]
 [2024-04-29 10:10:03] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2024-04-29 10:10:03] INFO root fetch - main [MainThread]: Store serial: [22980418]
+[2024-04-29 10:12:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22980418]
+[2024-04-29 10:12:14] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-29 10:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bunches
+[2024-04-29 10:12:14] INFO root fetch - processPackages [bunches]: New version: [0.1.3] Old Version: [0.1.0]
+[2024-04-29 10:12:14] INFO root fetch - processPackages [bunches]: Downloading https://files.pythonhosted.org/packages/13/78/a4c25bd991b900e5477a06b019fa3ad4d9452ca38870a86417f59f92da0f/bunches-0.1.0.tar.gz
+[2024-04-29 10:12:15] INFO root fetch - processPackages [bunches]: Downloading https://files.pythonhosted.org/packages/b7/af/2374ce005ce6e3409105fd20926ed8978e990e838a19121697e997765844/bunches-0.1.3.tar.gz
+[2024-04-29 10:12:15] INFO root fetch - processPackages [bunches]: executing diffoscope
+[2024-04-29 10:12:15] INFO root fetch - processPackages [bunches]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240429:/home/abi/fetcher/20240429:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bunches-0.1.0.tar.gz tmp/bunches-0.1.3.tar.gz --markdown 20240429/b/bunches/0.1.0-0.1.3/README.md --exclude *.pyd
+[2024-04-29 10:12:15] INFO root fetch - processPackages [bunches]: Remove: archive file [/home/abi/fetcher/tmp/bunches-0.1.0.tar.gz]
+[2024-04-29 10:12:15] INFO root fetch - processPackages [bunches]: Remove: archive file [/home/abi/fetcher/tmp/bunches-0.1.3.tar.gz]
+[2024-04-29 10:12:15] INFO root fetch - main [MainThread]: End processing [bunches]: success
+[2024-04-29 10:12:15] INFO root fetch - main [MainThread]: Store serial: [22980423]
